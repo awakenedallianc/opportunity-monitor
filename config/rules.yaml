@@ -1,0 +1,1032 @@
+# 规则：把三篇报告的入场条件 / 失效信号 / 触发日历 / 敏感话题变成可机读条件。
+# level: opportunity（机会）| warning（风险）| invalidation（失效）| event（事件/日历）| info（信息）
+# priority: 1 最高 … 5 最低
+rules:
+  # ======================= 加密（《加密三年测评图鉴》六、监控指标） =======================
+  - id: crypto.btc.entry_a
+    report: crypto
+    title: BTC 周线收于 50 周均线之上
+    level: opportunity
+    priority: 1
+    assets: [BTC]
+    action: 深跌情景失效，加快核心建仓（BTC 入场条件 a）
+    source: 六、监控指标｜宏观：BTC周线 vs 50周均线（约$81K）收于其上
+    when: {type: compare, metric: crypto.btc.weekly_close, op: gt, ref_metric: crypto.btc.wma50, label: BTC周收盘, ref_label: 50周均线}
+  - id: crypto.btc.entry_b_zone
+    report: crypto
+    title: BTC 进入 $54K–64K 实现价格区间
+    level: opportunity
+    priority: 1
+    assets: [BTC]
+    action: 若同时出现 ETF 连续净流入 → 分批建仓（BTC 入场条件 b）；本规则仅判断价格区间
+    source: 逐标的测评｜BTC 我的判断（b）
+    when: {type: compare, metric: px.BTC, op: between, value: [54000, 64000], label: BTC}
+  - id: crypto.btc.entry_b
+    report: crypto
+    title: BTC 在 $54K–64K 区间且 ETF 连续净流入 ≥5 个交易日
+    level: opportunity
+    priority: 1
+    assets: [BTC]
+    action: 分批建仓（BTC 入场条件 b 的完整版）
+    source: 逐标的测评｜BTC 我的判断（b）
+    when:
+      all:
+        - {type: compare, metric: px.BTC, op: between, value: [54000, 64000], label: BTC}
+        - {type: compare, metric: etf.btc.streak_days, op: gte, value: 5, label: ETF连续净流入天数}
+  - id: crypto.etf.outflow_2m
+    report: crypto
+    title: BTC ETF 近约两个月（42 个交易日）净流出超 $30 亿
+    level: warning
+    priority: 1
+    assets: [BTC, ALL]
+    action: 降低整体加密敞口（报告：连续两月净流出 >$30 亿）
+    source: 六、监控指标｜BTC ETF月度净流
+    when:
+      all:
+        - {type: compare, metric: etf.btc.flow_60d, op: lt, value: -3000000000, label: ETF 60日净流}
+        - {type: compare, metric: etf.btc.flow_30d, op: lt, value: 0, label: ETF 30日净流}
+  - id: crypto.etf.inflow_streak
+    report: crypto
+    title: BTC ETF 连续净流入 ≥7 个交易日
+    level: info
+    priority: 3
+    assets: [BTC]
+    action: 需求通道打开；与价格区间条件配合判断
+    source: 逐标的测评｜BTC 多头逻辑
+    when: {type: compare, metric: etf.btc.streak_days, op: gte, value: 7, label: ETF连续净流入天数}
+  - id: crypto.btc.below_realized
+    report: crypto
+    title: BTC 现价跌破实现价格（Coin Metrics 推算）
+    level: warning
+    priority: 1
+    assets: [BTC]
+    action: 逼近整体失效条件 (1)：月线收盘若也低于 $53.6K 则周期深度模板恢复
+    source: 六、监控指标｜BTC月线 vs 实现价格
+    when: {type: compare, metric: px.BTC, op: lt, ref_metric: crypto.btc.realized_price, label: BTC, ref_label: 实现价格}
+  - id: crypto.eth.inflation
+    report: crypto
+    title: ETH 年化净增发 >1%
+    level: invalidation
+    priority: 2
+    assets: [ETH]
+    action: ETH 失效信号（净通胀升破 1%/年且持续两季）
+    source: 逐标的测评｜ETH 失效信号
+    when: {type: compare, metric: eth.supply_growth_yearly_pct, op: gt, value: 1.0, label: ETH年化供给增长%}
+  - id: crypto.altseason.75
+    report: crypto
+    title: 山寨季指数 >75
+    level: warning
+    priority: 2
+    action: 卫星仓位止盈规则启动
+    source: 六、监控指标｜Altcoin Season Index >75
+    when: {type: compare, metric: crypto.altseason, op: gt, value: 75, label: 山寨季指数}
+  - id: crypto.funding.hot
+    report: crypto
+    title: BTC 永续资金费率 >0.05%/8h（杠杆过热）
+    level: warning
+    priority: 3
+    assets: [BTC]
+    action: 冲击日高贝塔清算风险；不追高
+    source: 05 天然实验｜比特币（战争报告）
+    when: {type: compare, metric: funding.BTC, op: gt, value: 0.05, label: BTC资金费率%}
+  - id: crypto.btc.invalidation
+    report: crypto
+    title: BTC 月线跌破 $53.6K 实现价格
+    level: invalidation
+    priority: 1
+    assets: [BTC, ALL]
+    action: 周期深度模板恢复，暂停卫星与期权仓位；整体失效条件 (1)
+    source: 六、监控指标｜BTC月线 vs 实现价格（约$53.6K）跌破
+    when: {type: compare, metric: crypto.btc.monthly_close, op: lt, value: 53600, label: BTC月收盘}
+  - id: crypto.btc.below_200wma
+    report: crypto
+    title: BTC 跌破 200 周均线
+    level: warning
+    priority: 2
+    assets: [BTC]
+    action: 6 月低点曾守住 200 周均线（约$61.7K）；跌破意味着"浅回撤"论据削弱
+    source: 二、宏观与周期背景
+    when: {type: compare, metric: px.BTC, op: lt, ref_metric: crypto.btc.wma200, label: BTC, ref_label: 200周均线}
+  - id: crypto.btc.no_chase
+    report: crypto
+    title: BTC 处于 $75–81K "不追高"区间
+    level: info
+    priority: 4
+    assets: [BTC]
+    action: 报告：不在 $75–81K 区间追高；等待条件 a 或 b
+    source: 逐标的测评｜BTC 我的判断
+    when: {type: compare, metric: px.BTC, op: between, value: [75000, 81000], label: BTC}
+  - id: crypto.eth.entry
+    report: crypto
+    title: ETH/BTC 回到 0.028–0.030 区间
+    level: opportunity
+    priority: 2
+    assets: [ETH]
+    action: 若同时出现 ETF 连续净流入 → 加仓 ETH
+    source: 六、监控指标｜ETH/BTC 0.028–0.030 加仓
+    when: {type: compare, metric: crypto.ethbtc, op: between, value: [0.028, 0.030], label: ETH/BTC}
+  - id: crypto.eth.invalidation
+    report: crypto
+    title: ETH/BTC 跌破 0.025
+    level: invalidation
+    priority: 2
+    assets: [ETH]
+    action: ETH 失效信号
+    source: 六、监控指标｜ETH/BTC <0.025失效
+    when: {type: compare, metric: crypto.ethbtc, op: lt, value: 0.025, label: ETH/BTC}
+  - id: crypto.sol.low_zone
+    report: crypto
+    title: SOL/BTC 低于 0.0011 历史低位区
+    level: opportunity
+    priority: 3
+    assets: [SOL]
+    action: 卫星仓位候选；还需 SIMD-0550 通过或 Alpenglow 激活且月度 REV 连续两月回升
+    source: 逐标的测评｜SOL 我的判断
+    when: {type: compare, metric: crypto.solbtc, op: lt, value: 0.0011, label: SOL/BTC}
+  - id: crypto.sol.rev_up
+    report: crypto
+    title: Solana 链收入 30 日滚动较 60 天前回升
+    level: opportunity
+    priority: 3
+    assets: [SOL]
+    action: 对应"SOL 月度 REV 连续两月环比增长 → 卫星加仓"（DefiLlama 链收入近似）
+    source: 六、监控指标｜SOL月度REV 连续两月环比增长
+    when: {type: change, metric: chainrev30d.solana, lookback: 60, op: gt, value: 0, label: SOL链收入30日}
+  - id: crypto.hype.revenue_turn
+    report: crypto
+    title: HYPE 30 日手续费较 90 天前回升（季度环比转正近似）
+    level: opportunity
+    priority: 2
+    assets: [HYPE]
+    action: 卫星加仓；连续四季下滑则减仓（另需解锁后 30 天交易所流入率 <5%）
+    source: 六、监控指标｜HYPE季度总收入 环比转正
+    when: {type: change, metric: fees30d.HYPE, lookback: 90, op: gt, value: 0, label: HYPE费用30日}
+  - id: crypto.hype.buyback_yield_low
+    report: crypto
+    title: HYPE 年化回购/市值跌破 3%
+    level: invalidation
+    priority: 2
+    assets: [HYPE]
+    action: HYPE 失效信号
+    source: 逐标的测评｜HYPE 失效信号：AF回购/市值年化跌破3%
+    when: {type: compare, metric: crypto.hype.buyback_yield, op: lt, value: 3, label: HYPE回购收益率%}
+  - id: crypto.aave.revenue_up
+    report: crypto
+    title: AAVE 30 日收入较 90 天前增长
+    level: opportunity
+    priority: 3
+    assets: [AAVE]
+    action: 对应"AAVE 季度净收入转正 → 核心加仓"（DefiLlama 收入近似，非 DAO 净收入）
+    source: 六、监控指标｜AAVE季度净收入（DAO口径）转正
+    when: {type: change, metric: rev30d.AAVE, lookback: 90, op: gt, value: 0, label: AAVE收入30日}
+  - id: crypto.aave.cheap
+    report: crypto
+    title: AAVE 市值/年化收入 <12x
+    level: opportunity
+    priority: 3
+    assets: [AAVE]
+    action: 报告：市值/DAO 口径收入低于 12x 时加仓
+    source: 逐标的测评｜AAVE 我的判断
+    when: {type: compare, metric: ps.AAVE, op: lt, value: 12, label: AAVE P/S}
+  - id: crypto.uni.cheap
+    report: crypto
+    title: UNI 市值/年化协议收入回落至 25x 以下
+    level: opportunity
+    priority: 4
+    assets: [UNI]
+    action: 作为卫星买入的前提
+    source: 逐标的测评｜UNI 我的判断
+    when: {type: compare, metric: ps.UNI, op: lt, value: 25, label: UNI P/S}
+  - id: crypto.ena.usde_trigger
+    report: crypto
+    title: USDe 供给突破 $75 亿（费用开关触发）
+    level: opportunity
+    priority: 2
+    assets: [ENA]
+    action: 触发 5%→20% 阶梯回购；期权仓位条件之一
+    source: 六、监控指标｜ENA USDe供给 >$75亿触发回购
+    when: {type: compare, metric: stable.USDe, op: gt, value: 7500000000, label: USDe供给}
+  - id: crypto.ena.usde_fail
+    report: crypto
+    title: USDe 供给跌破 $40 亿
+    level: invalidation
+    priority: 2
+    assets: [ENA]
+    action: ENA 失效
+    source: 六、监控指标｜ENA USDe供给 <$40亿失效
+    when: {type: compare, metric: stable.USDe, op: lt, value: 4000000000, label: USDe供给}
+  - id: crypto.stable.contraction
+    report: crypto
+    title: 稳定币总量 30 天收缩 >3%
+    level: warning
+    priority: 3
+    assets: [ETH, TRX, ENA]
+    action: 流动性收缩信号；AI 报告：2026 年稳定币出现四年来首次收缩
+    source: 二、宏观｜稳定币结构性数据
+    when: {type: change, metric: stable.total, lookback: 30, op: lt, value: -3, label: 稳定币总量}
+  - id: crypto.stable.growth
+    report: crypto
+    title: 稳定币总量 90 天增长 >10%
+    level: opportunity
+    priority: 3
+    assets: [ETH, TRX]
+    action: 托管链（ETH/TRX）需求通道改善
+    source: 二、宏观｜稳定币
+    when: {type: change, metric: stable.total, lookback: 90, op: gt, value: 10, label: 稳定币总量}
+  - id: crypto.fng.extreme_fear
+    report: crypto
+    title: 恐惧贪婪指数 <20（极度恐惧）
+    level: opportunity
+    priority: 3
+    action: “入场按条件而非价格”，但极端情绪常与周期低点重合；核对 200 周均线与 ETF 流向
+    source: 二、宏观与周期
+    when: {type: compare, metric: crypto.fng, op: lt, value: 20, label: 恐惧贪婪}
+  - id: crypto.fng.extreme_greed
+    report: crypto
+    title: 恐惧贪婪指数 >80（极度贪婪）
+    level: warning
+    priority: 3
+    action: 不追高；检查山寨季指数与杠杆
+    source: 二、宏观与周期
+    when: {type: compare, metric: crypto.fng, op: gt, value: 80, label: 恐惧贪婪}
+  - id: crypto.btc.dominance_break
+    report: crypto
+    title: BTC 主导率跌破 55%
+    level: info
+    priority: 4
+    action: 山寨轮动信号（报告：主导率 58–60%，山寨季指数约 30–35，>75 触发卫星止盈）
+    source: 二、宏观｜结构性数据
+    when: {type: compare, metric: crypto.btc_dominance, op: lt, value: 55, label: BTC主导率}
+  - id: crypto.btc.deep_drawdown
+    report: crypto
+    title: BTC 较 ATH 回撤超过 60%
+    level: warning
+    priority: 2
+    assets: [BTC]
+    action: 逼近历史 77–87% 熊市模板；NYDIG 情景 $38–39K
+    source: 二、宏观｜周期"完整还是断裂"
+    when: {type: compare, metric: athdd.BTC, op: lt, value: -60, label: BTC较ATH}
+  - id: crypto.tvl.aave_drop
+    report: crypto
+    title: Aave TVL 30 天下降 >20%
+    level: warning
+    priority: 3
+    assets: [AAVE]
+    action: 检查是否再次发生安全事件（Kelp DAO 事件曾令 TVL 从 $264 亿跌至约 $200 亿）
+    source: 逐标的测评｜AAVE 空头逻辑
+    when: {type: change, metric: tvl.AAVE, lookback: 30, op: lt, value: -20, label: Aave TVL}
+  - id: crypto.news.regulation
+    report: crypto
+    title: 加密监管/立法话题 24h 内 ≥3 家来源
+    level: event
+    priority: 3
+    action: 核对 CLARITY/GENIUS/SEC/CFTC 进展；2027 年若通过全面收紧 DeFi/稳定币收益的法案 = 整体失效条件 (2)
+    source: 六、监控指标｜监管
+    when: {type: news, topic: crypto_regulation, window: 24h, min_sources: 3}
+  - id: crypto.news.hack
+    report: crypto
+    title: 黑客/漏洞话题 24h 内 ≥3 家来源
+    level: warning
+    priority: 3
+    action: 检查是否涉及 AAVE/HYPE/MORPHO 等持仓协议（协议级高危漏洞 = AAVE 失效信号）
+    source: 逐标的测评｜AAVE 失效信号
+    when: {type: news, topic: crypto_hack, window: 24h, min_sources: 3}
+  - id: crypto.news.quantum
+    report: crypto
+    title: 量子风险话题出现多源报道
+    level: warning
+    priority: 4
+    action: 整体失效条件 (3)：2028 年前量子攻击实际演示
+    source: 六、监控指标｜整体失效条件
+    when: {type: news, topic: quantum, window: 48h, min_sources: 2}
+  - id: crypto.news.etf
+    report: crypto
+    title: ETF 资金流话题 24h 内 ≥3 家来源
+    level: info
+    priority: 4
+    action: 核对是否出现"连续两月净流出 >$30 亿"（降低整体加密敞口）
+    source: 六、监控指标｜BTC ETF月度净流
+    when: {type: news, topic: btc_etf, window: 24h, min_sources: 3}
+  - id: crypto.news.strategy
+    report: crypto
+    title: Strategy/财库公司话题多源报道
+    level: warning
+    priority: 3
+    assets: [BTC, ETH]
+    action: 检查 Strategy 是否执行 BTC 货币化出售、BitMine 是否停止增持（失效信号）
+    source: 逐标的测评｜BTC/ETH 失效信号
+    when: {type: news, topic: strategy_mstr, window: 24h, min_sources: 3}
+  # ---- 解锁/事件日历（解锁前不持仓）----
+  - id: crypto.unlock.xpl
+    report: crypto
+    title: XPL 解锁临近（2026-09-25，+68% 流通）
+    level: event
+    priority: 3
+    assets: [XPL]
+    action: 解锁前不持仓
+    source: 图6 催化剂时间轴
+    when: {type: date, date: "2026-09-25", range: [-1, 10]}
+  - id: crypto.unlock.ena
+    report: crypto
+    title: ENA 投资人悬崖解锁临近（2026-10-05）
+    level: event
+    priority: 2
+    assets: [ENA]
+    action: 解锁前不碰；解锁消化后再评估
+    source: 图6 催化剂时间轴
+    when: {type: date, date: "2026-10-05", range: [-1, 14]}
+  - id: crypto.unlock.mon
+    report: crypto
+    title: MON 解锁临近（2026-11-24，>32% 流通）
+    level: event
+    priority: 3
+    assets: [MON]
+    action: 解锁前不持仓
+    source: 图6 催化剂时间轴
+    when: {type: date, date: "2026-11-24", range: [-1, 14]}
+  - id: crypto.unlock.ondo
+    report: crypto
+    title: ONDO 解锁临近（2027-01-18，约 36% 流通）
+    level: event
+    priority: 3
+    assets: [ONDO]
+    action: 解锁前不持仓
+    source: 图6 催化剂时间轴
+    when: {type: date, date: "2027-01-18", range: [-1, 14]}
+  - id: crypto.unlock.gram
+    report: crypto
+    title: GRAM 解锁临近（2027-02-21，约 39%）
+    level: event
+    priority: 4
+    assets: ["GRAM/TON"]
+    action: 解锁前不持仓
+    source: 图6 催化剂时间轴
+    when: {type: date, date: "2027-02-21", range: [-1, 14]}
+  - id: crypto.event.midterms
+    report: all
+    title: 美国中期选举临近（2026-11-03）
+    level: event
+    priority: 2
+    action: 民主党横扫 → 下调 DeFi 与稳定币收益类仓位；油价政治压力约束美方对伊克制
+    source: 六、监控指标｜监管
+    when: {type: date, date: "2026-11-03", range: [-1, 14]}
+  - id: crypto.event.genius
+    report: crypto
+    title: GENIUS 法案生效临近（2027-01-18）
+    level: event
+    priority: 3
+    assets: [TRX, ENA, SKY]
+    action: 外国发行人可比性裁定 → TRX/ENA 重估
+    source: 六、监控指标｜监管
+    when: {type: date, date: "2027-01-18", range: [-1, 21]}
+  - id: crypto.event.amlr
+    report: crypto
+    title: EU AMLR 隐私币条款生效临近（2027-07-10）
+    level: event
+    priority: 3
+    assets: [ZEC, XMR]
+    action: H1 2027 CASP 下架公告 → ZEC/XMR 减仓
+    source: 六、监控指标｜监管
+    when: {type: date, date: "2027-07-10", range: [-1, 45]}
+
+  # ======================= 地缘（《大国战争风险与资产机会推演》） =======================
+  - id: war.brent.weekly_spike
+    report: war
+    title: 布伦特 7 天涨幅 >10%（供给冲击型）
+    level: warning
+    priority: 1
+    assets: [BRENT, FRO, TTF]
+    action: “行为型”事件信号：只做多物理中断型资产（原油、油运、LNG、化肥），避险资产反而承压
+    source: 04 历史证据｜1990/2022/2026 三次供给冲击
+    when: {type: change, metric: px.BRENT, lookback: 7, op: gt, value: 10, label: 布伦特}
+  - id: war.hormuz.transits_low
+    report: war
+    title: 霍尔木兹 7 日均船舶通过量不足去年基线 30%（IMF PortWatch）
+    level: warning
+    priority: 1
+    assets: [BRENT, FRO, TTF, CF]
+    action: 物理通道实质关闭：只有被切断供给的商品与运力保留涨幅；核对期现价差与 VLCC 运费
+    source: 02 机制｜物理通道决定资产映射
+    when: {type: compare, metric: chokepoint.hormuz.ratio, op: lt, value: 0.3, label: 霍尔木兹通行量/基线}
+  - id: war.hormuz.recovering
+    report: war
+    title: 霍尔木兹 7 日均通过量回到基线 70% 以上
+    level: event
+    priority: 1
+    assets: [BRENT, FRO]
+    action: 反向情景（海峡正常化）：原油↓↓、运费↓↓、黄金↑；能源多头进入"卖事实"阶段
+    source: 07 推演矩阵｜反向：美伊最终协议 + 霍尔木兹正常化
+    when: {type: compare, metric: chokepoint.hormuz.ratio, op: gt, value: 0.7, label: 霍尔木兹通行量/基线}
+  - id: war.bab.transits_low
+    report: war
+    title: 曼德海峡 7 日均通过量不足基线 50%
+    level: warning
+    priority: 2
+    assets: [ZIM, MAERSK, BRENT]
+    action: “双咽喉”夹击；延布绕行方案受威胁
+    source: 03 概率｜中东
+    when: {type: compare, metric: chokepoint.bab_el_mandeb.ratio, op: lt, value: 0.5, label: 曼德海峡通行量/基线}
+  - id: war.taiwan_strait.transits_drop
+    report: war
+    title: 台湾海峡 7 日均通过量较基线下降 30% 以上
+    level: warning
+    priority: 1
+    assets: [TAIEX, TSM, ZIM]
+    action: 台海航运维度被低估：集装箱与东亚 LNG 航线；若与 PLA 活动激增同时出现 = 封锁/隔离前兆
+    source: 02 机制｜台海的航运维度被低估
+    when: {type: compare, metric: chokepoint.taiwan.ratio, op: lt, value: 0.7, label: 台海通行量/基线}
+  - id: war.pla.aircraft_spike
+    report: war
+    title: 解放军台海周边单日军机 >60 架次（演习级别）
+    level: warning
+    priority: 1
+    assets: [TAIEX, TSM, MP]
+    action: 演习主题若为"封锁重点港口"则对应封锁情景；核对国防部通报与 Polymarket 赔率（2025 末演习期间曾近 30%）
+    source: 03 概率｜台海：正义使命-2025 首日 130 架次
+    when: {type: compare, metric: pla.aircraft_daily, op: gt, value: 60, label: PLA军机/日}
+  - id: war.gpr.elevated
+    report: war
+    title: 地缘风险指数 GPR 30 日均值 >200
+    level: info
+    priority: 3
+    assets: [SPX, GOLD, BRENT]
+    action: 美联储 GPR 研究：两个标准差冲击使标普一年内 -5% 至 -10%，油价初期反而 -10% 至 -15%（需求渠道）；高位维持约 2 年
+    source: 04 历史证据｜学术版本
+    when: {type: compare, metric: gpr.daily_30d_avg, op: gt, value: 200, label: GPR 30日均值}
+  - id: war.brent.physical_premium
+    report: war
+    title: 布伦特实物现货较期货溢价 >$15
+    level: warning
+    priority: 1
+    assets: [BRENT, FRO, TTF]
+    action: 实物中断指标（9-15 现货 $130.8 vs 期货 $99）；期现价差收窄 = 海峡恢复的最早信号
+    source: 04 历史证据｜模型系统性低估“事实关闭”时长
+    when: {type: compare, metric: war.brent_physical_premium, op: gt, value: 15, label: 布伦特期现价差$}
+  - id: war.brent.premium_collapse
+    report: war
+    title: 布伦特实物溢价收窄至 <$5
+    level: event
+    priority: 2
+    assets: [BRENT, FRO]
+    action: 物理通道恢复的信号；“卖事实”阶段，能源多头风险最高
+    source: 07 推演矩阵｜反向情景
+    when: {type: compare, metric: war.brent_physical_premium, op: lt, value: 5, label: 布伦特期现价差$}
+  - id: war.fed.hike_odds
+    report: all
+    title: Kalshi 下次 FOMC 加息概率 >50%
+    level: warning
+    priority: 2
+    assets: [GOLD, BTC]
+    action: 加息周期延续 → 黄金/流动性资产逆风（报告：10 月再加息约 53%）
+    source: 05 天然实验｜机制链
+    when: {type: compare, metric: kalshi.fed_next.hike, op: gt, value: 50, label: 加息概率%}
+  - id: war.fed.cut_odds
+    report: all
+    title: Kalshi 下次 FOMC 降息概率 >50%
+    level: opportunity
+    priority: 2
+    assets: [GOLD, BTC, ETH]
+    action: 美联储转向 = 黄金与流动性资产的顺风；错杀资产的事件弹性窗口
+    source: 10 结论
+    when: {type: compare, metric: kalshi.fed_next.cut, op: gt, value: 50, label: 降息概率%}
+  - id: war.brent.above_120
+    report: war
+    title: 布伦特 >$120（逼近 4 月盘中峰 $126）
+    level: warning
+    priority: 2
+    assets: [BRENT]
+    action: 高盛上行情景（中断至 2027）年末 $130+；"卖事实"风险最高的位置
+    source: 06 起点｜布伦特
+    when: {type: compare, metric: px.BRENT, op: gt, value: 120, label: 布伦特}
+  - id: war.brent.premium_fade
+    report: war
+    title: 布伦特跌破 $80（霍尔木兹溢价消退）
+    level: event
+    priority: 2
+    assets: [BRENT, FRO]
+    action: 高盛下行情景 Q4 <$70、2027 $75；反向情景（美伊协议 + 海峡正常化）资产映射：原油↓↓、运费↓↓、黄金↑
+    source: 07 推演矩阵｜反向：美伊最终协议
+    when: {type: compare, metric: px.BRENT, op: lt, value: 80, label: 布伦特}
+  - id: war.brent.daily_crash
+    report: war
+    title: 布伦特单日跌幅 >6%（停火日模式）
+    level: event
+    priority: 2
+    assets: [BRENT]
+    action: 停火宣布日历来出现 2020 年以来最大级别单日反转（4-8 跌至 $94.75）；核对是否为停火/协议消息
+    source: 09 纪律｜"买传闻卖事实"
+    when: {type: compare, metric: chg1d.BRENT, op: lt, value: -6, label: 布伦特单日}
+  - id: war.ttf.spike
+    report: war
+    title: 欧洲天然气 TTF 7 天涨幅 >20%
+    level: warning
+    priority: 2
+    assets: [TTF]
+    action: 卡塔尔 LNG / 波罗的海基础设施受损的传导；2022 锚 TTF 峰值 +79%
+    source: 07 推演矩阵｜天然气/LNG
+    when: {type: change, metric: px.TTF, lookback: 7, op: gt, value: 20, label: TTF}
+  - id: war.tanker.pulse
+    report: war
+    title: Frontline（VLCC 代理）7 天涨幅 >15%
+    level: info
+    priority: 3
+    assets: [FRO, DHT]
+    action: 二阶受益者脉冲；运费已在历史新高，"油轮费率天生周期性，地缘溢价可能迅速消退"
+    source: 06 起点｜VLCC 运费
+    when: {type: change, metric: px.FRO, lookback: 7, op: gt, value: 15, label: Frontline}
+  - id: war.gold.rebound
+    report: war
+    title: 黄金 30 天涨幅 >8%（错杀资产反转）
+    level: opportunity
+    priority: 2
+    assets: [GOLD, GDX]
+    action: 报告：黄金真正对冲的是"利率下行 + 美元贬值 + 央行购买"；反转需美联储转向配合
+    source: 05 天然实验｜黄金对照组；10 结论
+    when: {type: change, metric: px.GOLD, lookback: 30, op: gt, value: 8, label: 黄金}
+  - id: war.gold.deeper
+    report: war
+    title: 黄金较 ATH 回撤超过 30%
+    level: opportunity
+    priority: 2
+    assets: [GOLD]
+    action: 较报告起点（-22%）进一步错杀；加息周期未结束前只做小仓位
+    source: 06 起点｜黄金
+    when: {type: compare, metric: dd_ath.GOLD, op: lt, value: -30, label: 黄金较ATH}
+  - id: war.silver.weekly_crash
+    report: war
+    title: 白银单周跌幅 >10%
+    level: warning
+    priority: 3
+    assets: [SILVER]
+    action: 杠杆平仓/保证金追缴模式（3 月单周 -14%）
+    source: 05 天然实验
+    when: {type: change, metric: px.SILVER, lookback: 7, op: lt, value: -10, label: 白银}
+  - id: war.us10y.above_5
+    report: war
+    title: 10 年期美债收益率 >5%
+    level: warning
+    priority: 2
+    assets: [GOLD, BTC, ETH]
+    action: 利率通道反噬避险资产与流动性敏感资产（黄金、比特币）
+    source: 02 机制｜行为型传导链
+    when: {type: compare, metric: px.US10Y, op: gt, value: 5.0, label: 10年期}
+  - id: war.us10y.below_4
+    report: war
+    title: 10 年期美债收益率 <4%
+    level: opportunity
+    priority: 2
+    assets: [GOLD, BTC]
+    action: 利率下行 = 黄金与流动性资产的顺风；核对是否伴随美联储转向
+    source: 10 结论
+    when: {type: compare, metric: px.US10Y, op: lt, value: 4.0, label: 10年期}
+  - id: war.vix.30
+    report: war
+    title: VIX >30
+    level: opportunity
+    priority: 2
+    assets: [SPX]
+    action: LPL 27 次事件：平均最大回撤 -4.4%、17.9 个交易日见底、38.8 日收复；RBC：19/20 次 28 天回到事件前
+    source: 04 历史证据
+    when: {type: compare, metric: px.VIX, op: gt, value: 30, label: VIX}
+  - id: war.spx.drawdown
+    report: war
+    title: 标普 500 较 6 个月高点回撤 >8%
+    level: opportunity
+    priority: 2
+    assets: [SPX]
+    action: 2026 年伊朗战争峰谷回撤约 9%（3-30 低点 6,316.91）后反弹 17.3%；除非叠加衰退
+    source: 04 历史证据
+    when: {type: drawdown, metric: px.SPX, lookback: 130, op: lt, value: -8, label: 标普500}
+  - id: war.rhm.rebound
+    report: war
+    title: 莱茵金属 30 天涨幅 >15%（军工错杀反转）
+    level: opportunity
+    priority: 2
+    assets: [RHM, ITA]
+    action: 军工的持久涨幅来自多年预算而非战争日脉冲；订单积压 €805 亿覆盖 6 年以上营收
+    source: 06 起点｜莱茵金属；10 结论
+    when: {type: change, metric: px.RHM, lookback: 30, op: gt, value: 15, label: 莱茵金属}
+  - id: war.rhm.deeper
+    report: war
+    title: 莱茵金属较 52 周高回撤超过 55%
+    level: opportunity
+    priority: 3
+    assets: [RHM]
+    action: 较报告起点（-45%）进一步错杀；核对是否为和谈头条/指引下调/采购风险
+    source: 06 起点
+    when: {type: compare, metric: dd_ath.RHM, op: lt, value: -55, label: 莱茵金属较高点}
+  - id: war.defense.war_day_pulse
+    report: war
+    title: 美国军工 ETF ITA 单日涨幅 >3%
+    level: warning
+    priority: 3
+    assets: [ITA, LMT, RTX, NOC]
+    action: “战争日脉冲几乎总被回吐”：开战首日 +3–7% 创新高后整月 -8%；不追
+    source: 04 历史证据｜军工
+    when: {type: compare, metric: chg1d.ITA, op: gt, value: 3, label: ITA单日}
+  - id: war.taiex.discount
+    report: war
+    title: 台股较 6 个月高点回撤 >10%
+    level: warning
+    priority: 1
+    assets: [TAIEX, TSMC_TW, TSM, SOXX]
+    action: 台海"零折价"开始被定价；核对 PLA 活动、军售、Polymarket 赔率
+    source: 06 起点｜台股/台积电
+    when: {type: drawdown, metric: px.TAIEX, lookback: 130, op: lt, value: -10, label: 台股}
+  - id: war.taiex.single_day
+    report: war
+    title: 台股单日跌幅 >3%
+    level: warning
+    priority: 2
+    assets: [TAIEX, TSMC_TW]
+    action: 佩洛西访台前夜 TAIEX -1.56%；-3% 已超过历史"威胁型"事件量级
+    source: 03 概率｜台海
+    when: {type: compare, metric: chg1d.TAIEX, op: lt, value: -3, label: 台股单日}
+  - id: war.kospi.crash
+    report: war
+    title: KOSPI 较 6 个月高点回撤 >20%
+    level: warning
+    priority: 2
+    assets: [KOSPI, SKHYNIX, SAMSUNG]
+    action: 12 个月翻倍后极度拥挤；波动由 AI 芯片/杠杆驱动而非朝鲜
+    source: 03 概率｜朝鲜
+    when: {type: drawdown, metric: px.KOSPI, lookback: 130, op: lt, value: -20, label: KOSPI}
+  - id: war.pm.taiwan_up
+    report: war
+    title: 预测市场台海冲突赔率升破 15%
+    level: warning
+    priority: 1
+    assets: [TAIEX, TSM, MP]
+    action: 2025 年末演习期间 Polymarket 曾冲至近 30%；对冲便宜、尾部巨大的组合
+    source: 03 概率｜台海
+    when: {type: compare, metric: pm.taiwan_clash_2027, op: gt, value: 15, label: Polymarket台海}
+  - id: war.pm.ukraine_ceasefire_up
+    report: war
+    title: 预测市场俄乌停火赔率升破 40%
+    level: event
+    priority: 2
+    assets: [RHM, EURUSD, WHEAT]
+    action: 研究员推断：乌克兰停火本身可能是北约风险的上升事件（释放俄军、启动 1–2 年时钟）；军工"和谈头条"脉冲抛售
+    source: 03 概率｜俄–北约
+    when: {type: compare, metric: pm.ukraine_ceasefire, op: gt, value: 40, label: Polymarket俄乌停火}
+  - id: war.rare_earth.pulse
+    report: war
+    title: MP Materials 7 天涨幅 >15%
+    level: info
+    priority: 3
+    assets: [MP, LYC]
+    action: 关键矿物管制/反制信号；台海第一轮反制的"确定性"标的；11 月管制暂停到期
+    source: 06 起点｜稀土
+    when: {type: change, metric: px.MP, lookback: 7, op: gt, value: 15, label: MP Materials}
+  - id: war.uranium.pulse
+    report: war
+    title: 铀 ETF URA 30 天涨幅 >15%
+    level: info
+    priority: 3
+    assets: [URA, CCJ]
+    action: 长协高于现货"倒挂"= 供应安全溢价；2028 美国对俄浓缩铀豁免到期
+    source: 06 起点｜铀
+    when: {type: change, metric: px.URA, lookback: 30, op: gt, value: 15, label: URA}
+  - id: war.btc.shock_day
+    report: war
+    title: BTC 单日跌幅 >5%（冲击日模式）
+    level: info
+    priority: 3
+    assets: [BTC]
+    action: BTC 战争反应函数：T+0 高贝塔下跌 → 1–3 天收复大部分 → 跟随宏观流动性；不在冲击日卖出
+    source: 05 天然实验｜比特币
+    when: {type: compare, metric: chg24h.BTC, op: lt, value: -5, label: BTC 24h}
+  - id: war.news.hormuz
+    report: war
+    title: 霍尔木兹话题 24h 内 ≥3 家来源
+    level: warning
+    priority: 1
+    assets: [BRENT, FRO, TTF, CF]
+    action: 先问"哪条物理通道被切断、多久"；一阶：布伦特/亚洲 LNG；二阶：VLCC 运费、战争险、化肥
+    source: 02 机制｜物理通道决定资产映射
+    when: {type: news, topic: hormuz, window: 24h, min_sources: 3}
+  - id: war.news.iran
+    report: war
+    title: 伊朗战争/停火话题 24h 内 ≥4 家来源
+    level: warning
+    priority: 1
+    assets: [BRENT, GOLD, ITA]
+    action: 研究员推断 12 个月内再次大规模空袭 55–65%；停火日 = 油价反转日；军工脉冲不追
+    source: 03 概率｜中东
+    when: {type: news, topic: iran_war, window: 24h, min_sources: 4}
+  - id: war.news.taiwan
+    report: war
+    title: 台海话题 24h 内 ≥3 家来源
+    level: warning
+    priority: 1
+    assets: [TAIEX, TSM, MP, SOXX]
+    action: 唯一几乎完全未被定价的尾部；封锁类 5 年 30–50%；集装箱与东亚 LNG 维度被低估
+    source: 03 概率｜台海
+    when: {type: news, topic: taiwan, window: 24h, min_sources: 3}
+  - id: war.news.russia_nato
+    report: war
+    title: 俄–北约东翼话题 24h 内 ≥3 家来源
+    level: warning
+    priority: 1
+    assets: [RHM, SAAB, TTF, WHEAT]
+    action: 美国情报窗口"2026 年秋起"；观察加里宁格勒戒备与波罗的海假旗事件；莱茵金属回撤 45% 后事件弹性高
+    source: 03 概率｜俄–北约
+    when: {type: news, topic: russia_nato, window: 24h, min_sources: 3}
+  - id: war.news.red_sea
+    report: war
+    title: 红海/胡塞话题 24h 内 ≥3 家来源
+    level: warning
+    priority: 2
+    assets: [ZIM, MAERSK, BRENT]
+    action: “双咽喉”夹击：延布是霍尔木兹主要绕行方案
+    source: 03 概率｜中东
+    when: {type: news, topic: red_sea, window: 24h, min_sources: 3}
+  - id: war.news.scs
+    report: war
+    title: 南海/中菲话题 24h 内 ≥3 家来源
+    level: warning
+    priority: 2
+    assets: [PSEI, MP]
+    action: 核心变量是"菲方人员死亡"MDT 阈值；若升级则与台海叠加
+    source: 03 概率｜南海
+    when: {type: news, topic: south_china_sea, window: 24h, min_sources: 3}
+  - id: war.news.korea
+    report: war
+    title: 朝鲜半岛话题 24h 内 ≥3 家来源
+    level: info
+    priority: 3
+    assets: [KOSPI]
+    action: 几乎不切断任何全球性通道 → 脉冲效应；KOSPI 拥挤度才是主风险
+    source: 03 概率｜朝鲜
+    when: {type: news, topic: korea, window: 24h, min_sources: 3}
+  - id: war.news.rare_earth
+    report: war
+    title: 稀土/关键矿物管制话题 24h 内 ≥2 家来源
+    level: warning
+    priority: 2
+    assets: [MP, LYC, INTC]
+    action: 中国对美管制"暂停一年"11 月到期；恢复管制 → MP/Lynas 从"补贴"转为"稀缺"
+    source: 08 观察窗口
+    when: {type: news, topic: rare_earth, window: 24h, min_sources: 2}
+  - id: war.news.ceasefire
+    report: war
+    title: 俄乌停火/谈判话题 24h 内 ≥4 家来源
+    level: event
+    priority: 2
+    assets: [RHM, WHEAT, EURUSD]
+    action: 停火 → 军工"和谈头条"抛售 + 北约东翼 1–2 年风险时钟启动
+    source: 03 概率｜俄–北约
+    when: {type: news, topic: ukraine_ceasefire, window: 24h, min_sources: 4}
+  # ---- 触发日历 ----
+  - id: war.event.xi_visit
+    report: war
+    title: 习近平访美（9-23 → 9-25）
+    level: event
+    priority: 2
+    action: 观察军售是否恢复、美方涉台措辞是否出现"反对台独"——威慑侵蚀的最直接指标
+    source: 08 观察窗口
+    when: {type: date, date: "2026-09-23", range: [-3, 5]}
+  - id: war.event.mobilization_law
+    report: war
+    title: 中国《国防动员法》修订生效（10-01）
+    level: event
+    priority: 3
+    action: 允许"非全面战争"状态下动员并征收民用资产
+    source: 08 观察窗口
+    when: {type: date, date: "2026-10-01", range: [-1, 10]}
+  - id: war.event.rare_earth_pause_end
+    report: war
+    title: 中国稀土管制"暂停一年"到期（2026-11）
+    level: event
+    priority: 2
+    assets: [MP, LYC]
+    action: 若恢复管制，MP Materials/Lynas 逻辑从"补贴"转为"稀缺"
+    source: 08 观察窗口
+    when: {type: date, date: "2026-11-10", range: [-1, 21]}
+  - id: war.event.pla_centenary
+    report: war
+    title: 解放军建军百年临近（2027-08-01）
+    level: event
+    priority: 3
+    action: 象征意义推高演习烈度与预测市场赔率——复制 2025 年末 Polymarket 30% 的条件
+    source: 08 观察窗口
+    when: {type: date, date: "2027-08-01", range: [-1, 30]}
+
+  # ======================= AI 时代（《AI时代交融十年推演》） =======================
+  - id: ai.nvda.drawdown20
+    report: ai
+    title: 英伟达较 1 年高点回撤 >20%
+    level: warning
+    priority: 2
+    assets: [NVDA, SOXX]
+    action: 阶段一"首次大幅回撤"前兆；报告：2028 年底前 AI 核心资产 ≥30% 回撤概率 55–60%
+    source: 四、阶段一
+    when: {type: compare, metric: dd52w.NVDA, op: lt, value: -20, label: NVDA较52周高}
+  - id: ai.sox.drawdown30
+    report: ai
+    title: 费城半导体 ETF 较 1 年高点回撤 >30%
+    level: event
+    priority: 1
+    assets: [SOXX, NVDA, MU, SKHYNIX]
+    action: 报告定义的"≥30% 回撤"情景兑现；进入"保存弹药、等清算期"纪律，不是全仓时刻
+    source: 四、阶段一：2028 年底前 AI 核心资产（Mag 7 或 SOX）出现 30% 以上回撤约 55–60%
+    when: {type: compare, metric: dd52w.SOXX, op: lt, value: -30, label: SOXX较52周高}
+  - id: ai.ndx.drawdown30
+    report: ai
+    title: 纳斯达克 100 较 1 年高点回撤 >30%
+    level: event
+    priority: 1
+    assets: [NDX]
+    action: 同上；互联网泡沫级（-70%）概率约 15–20%
+    source: 四、阶段一
+    when: {type: compare, metric: dd52w.NDX, op: lt, value: -30, label: NDX较52周高}
+  - id: ai.hy_spread.500
+    report: ai
+    title: 高收益债利差 >500bp
+    level: warning
+    priority: 1
+    assets: [CRWV, ORCL, WULF]
+    action: 信用重新定价（Meta 债 >7% 是早期信号）；GPU 债权人（保险/养老金）首当其冲
+    source: 二、融资结构尺；六、情景C
+    when: {type: compare, metric: fred.HY_OAS, op: gt, value: 5.0, label: HY利差%}
+  - id: ai.crwv.drawdown
+    report: ai
+    title: CoreWeave 较 1 年高点回撤 >50%
+    level: warning
+    priority: 2
+    assets: [CRWV, NBIS]
+    action: 新云/DC SPV 信用事件前兆（报告：2028 年底前概率约 40%）
+    source: 四、阶段一
+    when: {type: compare, metric: dd52w.CRWV, op: lt, value: -50, label: CRWV较52周高}
+  - id: ai.miners.drawdown
+    report: ai
+    title: TeraWulf 较 1 年高点回撤 >50%
+    level: warning
+    priority: 3
+    assets: [WULF, HUT, IREN, CORZ]
+    action: 矿企转 AI 托管股：杠杆债务 + GPU 债务 2028–32 清算风险；仓位应小
+    source: 五、路径矩阵
+    when: {type: compare, metric: dd52w.WULF, op: lt, value: -50, label: WULF较52周高}
+  - id: ai.gev.drawdown
+    report: ai
+    title: GE Vernova 较 1 年高点回撤 >25%
+    level: opportunity
+    priority: 3
+    assets: [GEV, VRT, SIEMENS_ENERGY]
+    action: 电力设备是"卖方市场"但已在周期后段；实业订单比股价更确定；回撤是观察窗口而非全仓信号
+    source: 三、3.9 电力与物理层
+    when: {type: compare, metric: dd52w.GEV, op: lt, value: -25, label: GEV较52周高}
+  - id: ai.skhynix.drawdown
+    report: ai
+    title: SK 海力士较 1 年高点回撤 >30%
+    level: warning
+    priority: 3
+    assets: [SKHYNIX, KOSPI]
+    action: 2026-07 KOSPI 单月 -22%、海力士 -35% 的杠杆 ETF 爆仓模式
+    source: 二、已经出现的裂缝
+    when: {type: compare, metric: dd52w.SKHYNIX, op: lt, value: -30, label: 海力士较52周高}
+  - id: ai.breadth.narrow
+    report: ai
+    title: 市值加权 vs 等权标普 30 日差 >5 个百分点
+    level: warning
+    priority: 3
+    assets: [SPY, RSP]
+    action: 集中度扩大（Mag 7 占标普约 34%，50 年最高）；2023–25 市值加权 +68% vs 等权 +34%
+    source: 二、估值尺
+    when: {type: compare, metric: ai.breadth_gap_30d, op: gt, value: 5, label: SPY-RSP 30日差}
+  - id: ai.crcl.drawdown
+    report: ai
+    title: Circle 较 1 年高点回撤 >60%
+    level: opportunity
+    priority: 4
+    assets: [CRCL]
+    action: 稳定币发行方股权是"钱真的在流"的一层；报告称 CRCL 较峰值回撤约 70%
+    source: 三、3.2 稳定币发行
+    when: {type: compare, metric: dd52w.CRCL, op: lt, value: -60, label: CRCL较52周高}
+  - id: ai.ipo_etf.drawdown
+    report: ai
+    title: Renaissance IPO ETF 较 1 年高点回撤 >25%
+    level: info
+    priority: 4
+    assets: [IPO_ETF, FIG]
+    action: 零售准入时刻后的历史基准：Figma -81%、SpaceX -50%、1999 年 IPO 中位数负回报
+    source: 一、第四步
+    when: {type: compare, metric: dd52w.IPO_ETF, op: lt, value: -25, label: IPO ETF较52周高}
+  - id: ai.news.anthropic_ipo
+    report: ai
+    title: Anthropic IPO 话题 24h 内 ≥3 家来源
+    level: event
+    priority: 1
+    action: 零售准入时刻；不建议开盘追高，等锁定期与首次回撤；Bloomberg：能否避免 SpaceX 式 -50% 是关键
+    source: 二、货币与 IPO 尺；六、情景C
+    when: {type: news, topic: anthropic_ipo, window: 24h, min_sources: 3}
+  - id: ai.news.openai_ipo
+    report: ai
+    title: OpenAI IPO 话题 24h 内 ≥3 家来源
+    level: event
+    priority: 2
+    action: 报告：约 60% 于 2027 年底前上市；两宗 IPO 完成之日"普通人的窗口"结构上关闭
+    source: 四、阶段一
+    when: {type: news, topic: openai_ipo, window: 24h, min_sources: 3}
+  - id: ai.news.capex_cut
+    report: ai
+    title: 资本开支下调话题出现多源报道
+    level: warning
+    priority: 1
+    assets: [NVDA, GEV, VRT, CRWV]
+    action: 情景 C 的触发点之一（某家超大规模云商下调资本开支指引）；交期骤缩 → 高价锁槽方承担存货损失
+    source: 六、情景C；对读者最具体的风险
+    when: {type: news, topic: capex_cut, window: 48h, min_sources: 2}
+  - id: ai.news.ai_debt
+    report: ai
+    title: AI 债务/GPU 融资话题 24h 内 ≥3 家来源
+    level: warning
+    priority: 2
+    assets: [CRWV, ORCL, META]
+    action: 1999 年没有的债务层；贷款到期 2032 vs 芯片寿命 3–5 年
+    source: 二、融资结构尺
+    when: {type: news, topic: ai_debt, window: 24h, min_sources: 3}
+  - id: ai.news.thailand_dc
+    report: ai
+    title: 泰国数据中心/EEC 电网出现新报道
+    level: opportunity
+    priority: 1
+    action: 读者主场：EEC 交付点（Rayong 2 / Phanthong / Pluak Daeng / Sattahip）与用户侧 115 kV 变电站；核对 BOI 批复、EGAT 投运、PDP 采信量
+    source: 三、3.9 泰国与东南亚；五、路径矩阵
+    when: {type: news, topic: thailand_dc, window: 48h, min_sources: 1}
+  - id: ai.news.power_grid
+    report: ai
+    title: 电力设备/电网话题 24h 内 ≥2 家来源
+    level: opportunity
+    priority: 2
+    assets: [GEV, SIEMENS_ENERGY, HITACHI, PWR]
+    action: 变压器交期 4 年/涨价 80%、燃气轮机积压 5 年；"卖方市场延续到 2028"是不确定推断，需对冲
+    source: 三、3.9
+    when: {type: news, topic: power_grid, window: 24h, min_sources: 2}
+  - id: ai.news.sea_dc
+    report: ai
+    title: 东南亚数据中心（柔佛等）新报道
+    level: info
+    priority: 3
+    action: 柔佛先例：3.8 GW 最大需求、132 kV 主进线变电站是瓶颈；2026-02 首次数据中心抗议
+    source: 三、3.9；六、社会与许可
+    when: {type: news, topic: sea_dc, window: 48h, min_sources: 1}
+  - id: ai.news.bubble
+    report: ai
+    title: AI 泡沫论话题 24h 内 ≥4 家来源
+    level: info
+    priority: 4
+    action: 泡沫风险已从 Nvidia 市盈率转移到 OpenAI 们的资产负债表与数据中心债券持有人
+    source: 二、反方论点
+    when: {type: news, topic: ai_bubble, window: 24h, min_sources: 4}
+  - id: ai.news.korea
+    report: ai
+    title: 韩国股市/存储话题 24h 内 ≥3 家来源
+    level: info
+    priority: 4
+    assets: [KOSPI, SKHYNIX]
+    action: 韩国散户一月亏 387 亿美元的杠杆 ETF 模式；HBM 是卖铲人的第三层
+    source: 二、已经出现的裂缝
+    when: {type: news, topic: korea_market, window: 24h, min_sources: 3}
+  - id: ai.event.anthropic_ipo_window
+    report: ai
+    title: Anthropic IPO 窗口临近
+    level: event
+    priority: 2
+    action: 报告：2026 年内完成约 70%；零售准入时刻距周期顶部历史上 1–3 年
+    source: 四、阶段一
+    when: {type: date, date: "2026-10-15", range: [-7, 30]}
+  - id: ai.event.fomc
+    report: all
+    title: FOMC 议息临近（10-28）
+    level: event
+    priority: 3
+    action: 9 月点阵图：年内还有一次加息；加息周期与 1999-06 → 2000-05 同构
+    source: 二、货币与 IPO 尺
+    when: {type: date, date: "2026-10-28", range: [-1, 7]}
+
+  # ======================= 数据质量 =======================
+  - id: dq.btc_stale
+    report: all
+    title: BTC 价格数据超过 2 天未更新
+    level: info
+    priority: 5
+    action: 检查 CoinGecko/Binance 抓取状态
+    source: 数据质量
+    when: {type: missing, metric: px.BTC, days: 2}
+  - id: dq.brent_stale
+    report: all
+    title: 布伦特价格数据超过 4 天未更新
+    level: info
+    priority: 5
+    action: 检查 Yahoo Finance 抓取状态
+    source: 数据质量
+    when: {type: missing, metric: px.BRENT, days: 4}
+  - id: dq.polymarket_stale
+    report: all
+    title: 预测市场数据超过 3 天未更新
+    level: info
+    priority: 5
+    action: 检查 Polymarket Gamma 抓取状态
+    source: 数据质量
+    when: {type: missing, metric: pm.taiwan_clash_2027, days: 3}

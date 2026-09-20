@@ -1,0 +1,56 @@
+name: daily-monitor
+on:
+  schedule:
+    - cron: '17 23 * * *'   # 23:17 UTC = 次日 06:17 曼谷；避开整点高峰
+    - cron: '17 11 * * *'   # 11:17 UTC = 18:17 曼谷，下午再刷一次
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ['src/**', 'config/**', 'requirements.txt', '.github/workflows/daily.yml']
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-monitor
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      TZ: Asia/Bangkok
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Fetch + build (history auto-rebuilt from data/snapshots on a fresh DB; no LLM)
+        run: python run.py
+      - name: Commit snapshots + news archive (small, append-only; generated docs/ are NOT committed)
+        run: |
+          git config user.name 'monitor-bot'
+          git config user.email 'monitor-bot@users.noreply.github.com'
+          git add data/snapshots data/news_archive
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "data: $(date +%F) $(date +%H:%M)"
+          # 生成数据可再生：冲突时以本地（运行器）版本为准
+          git pull --rebase -X theirs origin main || { git rebase --abort; echo "::warning::rebase failed; snapshot commit dropped this run"; exit 0; }
+          git push || echo "::warning::push failed; snapshot commit dropped this run"
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: docs }
+      - id: deployment
+        uses: actions/deploy-pages@v4

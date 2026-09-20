@@ -1,0 +1,49 @@
+# 触发/催化剂日历：来自三篇报告。approx: true 表示报告只给了月份/季度，日期为占位。
+# category: unlock | upgrade | regulation | election | macro | geopolitics | ipo | infra | tax | halving
+events:
+  # ---------- 加密 ----------
+  - {date: "2026-09-25", title: "XPL 解锁（+68% 流通）", report: crypto, category: unlock, assets: [XPL], note: "解锁前不持仓（报告规则）"}
+  - {date: "2026-10-01", title: "DTCC 代币化服务全面上线（Canton）", report: crypto, category: infra, assets: [CC, LINK], approx: true, note: "上线后 6–12 个月观察 CC 周销毁/铸造比是否 >1.0"}
+  - {date: "2026-10-05", title: "ENA 投资人悬崖解锁（约 14% 流通，约 $2 亿）", report: crypto, category: unlock, assets: [ENA], note: "解锁消化后、USDe 连续两月净增长且资金费率为正才考虑期权仓位"}
+  - {date: "2026-10-28", title: "FOMC 议息（10 月）", report: all, category: macro, note: "9 月点阵图显示年内还有一次加息；市场定价 10 月再加息约 53%"}
+  - {date: "2026-11-01", title: "Alpenglow 主网（SOL，Q4 2026）", report: crypto, category: upgrade, assets: [SOL], approx: true}
+  - {date: "2026-11-03", title: "美国中期选举", report: all, category: election, note: "民主党横扫 → 下调 DeFi（AAVE/UNI/MORPHO）与稳定币收益（ENA/SKY）仓位；油价政治压力约束美方对伊克制"}
+  - {date: "2026-11-04", title: "Glamsterdam 主网目标（ETH，ePBS+BAL，或延期）", report: crypto, category: upgrade, assets: [ETH]}
+  - {date: "2026-11-24", title: "MON 解锁（>32% 流通）", report: crypto, category: unlock, assets: [MON], note: "解锁前不持仓"}
+  - {date: "2026-12-09", title: "FOMC 议息（12 月）", report: all, category: macro}
+  - {date: "2027-01-18", title: "GENIUS 法案生效 / ONDO 解锁 19.4 亿（约 36% 流通）", report: crypto, category: regulation, assets: [ONDO, ENA, SKY, TRX], note: "外国发行人可比性裁定 → TRX/ENA 重估；ONDO 解锁前不持仓"}
+  - {date: "2027-02-21", title: "GRAM 解锁（约 39%）", report: crypto, category: unlock, assets: ["GRAM/TON"], note: "解锁前不持仓"}
+  - {date: "2027-03-15", title: "ARB 团队/投资人线性解锁结束", report: crypto, category: unlock, assets: [ARB], approx: true, note: "解锁结束后才作为期权仓位"}
+  - {date: "2027-05-19", title: "Hegotá 升级目标（ETH，FOCIL）", report: crypto, category: upgrade, assets: [ETH]}
+  - {date: "2027-06-30", title: "全球流动性低谷（Howell，最佳猜测 2027）", report: crypto, category: macro, approx: true, note: "BTC 领先约 3 个月 → 建仓期 2026 末–2027"}
+  - {date: "2027-07-10", title: "EU AMLR 隐私币条款生效（CASP 禁止匿名账户）", report: crypto, category: regulation, assets: [ZEC, XMR], note: "H1 2027 若出现 CASP 下架公告 → ZEC/XMR 减仓"}
+  - {date: "2027-12-31", title: "HYPE 团队解锁结束（推断）", report: crypto, category: unlock, assets: [HYPE], approx: true}
+  - {date: "2028-01-20", title: "PENDLE 虚拟 sPENDLE 忠诚加成到期", report: crypto, category: unlock, assets: [PENDLE]}
+  - {date: "2028-04-15", title: "BTC 第五次减半", report: crypto, category: halving, assets: [BTC], approx: true, note: "减半后 12–18 个月 → 模板峰值 2029 中/末"}
+  - {date: "2028-11-15", title: "ZEC 下一次减半（推断）", report: crypto, category: halving, assets: [ZEC], approx: true}
+  - {date: "2029-12-31", title: "泰国持牌平台加密资本利得免税到期", report: crypto, category: tax, note: "2029 年前实现收益的税务动机"}
+  # ---------- 地缘 ----------
+  - {date: "2026-09-23", title: "习近平对美国事访问（9-23 → 9-25）", report: war, category: geopolitics, note: "观察军售是否恢复、美方涉台措辞是否出现\"反对台独\"——台海威慑侵蚀的最直接指标"}
+  - {date: "2026-10-01", title: "中国《国防动员法》修订生效", report: war, category: geopolitics, note: "允许\"非全面战争\"状态下动员并征收民用资产"}
+  - {date: "2026-10-15", title: "美国情报所指俄–北约\"2026 年秋\"试探窗口", report: war, category: geopolitics, approx: true, note: "观察加里宁格勒戒备等级与波罗的海假旗事件"}
+  - {date: "2026-11-10", title: "中国对美稀土/关键矿物管制\"暂停一年\"到期", report: war, category: geopolitics, approx: true, note: "若恢复管制，MP Materials/Lynas 逻辑从\"补贴\"转为\"稀缺\""}
+  - {date: "2026-11-28", title: "台湾地方选举", report: war, category: election, approx: true, note: "国民党/民众党若大胜，短期军事风险下降"}
+  - {date: "2027-06-01", title: "马杜罗在纽约受审", report: war, category: geopolitics}
+  - {date: "2027-08-01", title: "解放军建军百年（\"Davidson 窗口\"）", report: war, category: geopolitics, note: "能力节点而非行动日期；象征意义会推高演习烈度与预测市场赔率"}
+  - {date: "2027-10-15", title: "中共二十一大（2027 秋）", report: war, category: geopolitics, approx: true, note: "军委编制是否从 2 人恢复至 7 人——整肃是否结束的最硬指标"}
+  - {date: "2028-01-13", title: "台湾总统选举", report: war, category: election, approx: true}
+  - {date: "2028-11-07", title: "美国大选", report: war, category: election}
+  - {date: "2028-06-30", title: "美国对俄浓缩铀进口豁免到期", report: war, category: geopolitics, approx: true, assets: [URA, CCJ]}
+  - {date: "2028-06-30", title: "Intel 14A / Rapidus 2nm 量产", report: war, category: infra, approx: true, note: "台海替代产能从期权变为现实的程度"}
+  # ---------- AI 时代 ----------
+  - {date: "2026-09-30", title: "Anthropic 公开递交 S-1（路透/彭博 9-5：9 月下旬；报告原文写 10 月中旬定价，已过时）", report: ai, category: ipo, approx: true, note: "核对：发行营销不早于 10 月中旬，挂牌推迟至 11 月中期选举前"}
+  - {date: "2026-10-15", title: "Anthropic IPO 路演/营销窗口（报告：约 70% 年内完成）", report: ai, category: ipo, approx: true, note: "零售准入时刻 = 历史上距顶部 1–3 年；不建议开盘追高，等锁定期与首次回撤"}
+  - {date: "2026-11-15", title: "Anthropic 挂牌（9-5 报道：11 月、中期选举前；估值 $9,650 亿 → 二级 $1.05–1.15 万亿）", report: ai, category: ipo, approx: true, note: "Bloomberg：能否避免 SpaceX 式 -50% 是美国投行盈利的关键"}
+  - {date: "2026-10-14", title: "美国 9 月 CPI 发布", report: all, category: macro, approx: true, note: "8 月 CPI 3.4% y/y、能源 +16.3% y/y；决定 10-28 FOMC 是否再加息"}
+  - {date: "2026-09-30", title: "Polymarket“9-30 前入侵台湾”市场到期（1%）", report: war, category: geopolitics, note: "年底前入侵市场 4%（$4,220 万成交）"}
+  - {date: "2026-12-15", title: "Phanthong 2 临时变电站 250 MW 投运（EGAT）", report: ai, category: infra, approx: true}
+  - {date: "2027-03-31", title: "Pluak Daeng 扩容 350 MW 完成（EGAT）", report: ai, category: infra, approx: true}
+  - {date: "2027-06-30", title: "OpenAI IPO（报告：倾向 2027，约 60% 于 2027 年底前）", report: ai, category: ipo, approx: true}
+  - {date: "2027-09-30", title: "三哩岛 835 MW 重启目标（2027 下半年）", report: ai, category: infra, approx: true}
+  - {date: "2028-12-31", title: "阶段一结束：2028 年底前 AI 核心资产 ≥30% 回撤概率 55–60%", report: ai, category: macro, approx: true}
+  - {date: "2031-12-31", title: "SEC 代币化股票创新豁免到期（五年期）", report: ai, category: regulation, approx: true}

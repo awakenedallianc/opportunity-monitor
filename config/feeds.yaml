@@ -1,0 +1,170 @@
+# 新闻源（2026-09-20 从曼谷实测可用）。tier: 1 官方/一手；2 主流媒体/成熟聚合；3 二级聚合/博客。
+# 全部为 RSS/Atom；Google News 查询见下方。禁用项保留以便日后重试。
+rss:
+  # ---- 加密 ----
+  - {name: CoinDesk, url: "https://www.coindesk.com/arc/outboundfeeds/rss/", lang: en, tier: 2, category: crypto}
+  - {name: The Block, url: "https://www.theblock.co/rss.xml", lang: en, tier: 2, category: crypto}
+  - {name: Cointelegraph, url: "https://cointelegraph.com/rss", lang: en, tier: 2, category: crypto}
+  - {name: Decrypt, url: "https://decrypt.co/feed", lang: en, tier: 2, category: crypto}
+  - {name: The Defiant, url: "https://thedefiant.io/api/feed", lang: en, tier: 2, category: crypto}
+  - {name: Unchained, url: "https://unchainedcrypto.com/feed/", lang: en, tier: 2, category: crypto}
+  - {name: BitMEX Research, url: "https://blog.bitmex.com/feed/", lang: en, tier: 2, category: crypto}
+  - {name: 吴说区块链, url: "https://www.wublock123.com/feed/", lang: zh, tier: 2, category: crypto}
+  - {name: Wu Blockchain (EN), url: "https://wublock.substack.com/feed", lang: en, tier: 2, category: crypto}
+  - {name: 律动 BlockBeats, url: "https://news.google.com/rss/search?q=site:theblockbeats.info+when:3d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans", lang: zh, tier: 2, category: crypto}
+  - {name: PANews, url: "https://news.google.com/rss/search?q=site:panewslab.com+when:3d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans", lang: zh, tier: 2, category: crypto}
+  - {name: Bankless, url: "https://www.bankless.com/rss", lang: en, tier: 3, category: crypto, enabled: false}
+  # ---- 官方 / 宏观 ----
+  - {name: 美联储新闻稿, url: "https://www.federalreserve.gov/feeds/press_all.xml", lang: en, tier: 1, category: macro}
+  - {name: SEC 新闻稿, url: "https://www.sec.gov/news/pressreleases.rss", lang: en, tier: 1, category: regulation}
+  - {name: CFTC 新闻稿, url: "https://www.cftc.gov/RSS/RSSGP/rssgp.xml", lang: en, tier: 1, category: regulation}
+  - {name: EGAT 新闻(英), url: "https://www.egat.co.th/home/en/feed/", lang: en, tier: 1, category: thailand}
+  - {name: Bangkok Post 商业, url: "https://www.bangkokpost.com/rss/data/business.xml", lang: en, tier: 2, category: thailand}
+  - {name: ECB 新闻稿, url: "https://www.ecb.europa.eu/rss/press.html", lang: en, tier: 1, category: macro}
+  - {name: BIS 央行讲话, url: "https://www.bis.org/doclist/cbspeeches.rss", lang: en, tier: 1, category: macro, enabled: false}
+  - {name: NY Fed Liberty Street, url: "https://libertystreeteconomics.newyorkfed.org/feed/", lang: en, tier: 1, category: macro}
+  - {name: EIA Today in Energy, url: "https://www.eia.gov/rss/todayinenergy.xml", lang: en, tier: 1, category: energy}
+  - {name: CNBC 财经, url: "https://www.cnbc.com/id/10000664/device/rss/rss.html", lang: en, tier: 2, category: macro}
+  - {name: CNBC 国际, url: "https://www.cnbc.com/id/100727362/device/rss/rss.html", lang: en, tier: 2, category: macro}
+  - {name: CNBC 能源, url: "https://www.cnbc.com/id/19836768/device/rss/rss.html", lang: en, tier: 2, category: energy}
+  - {name: MarketWatch, url: "https://feeds.content.dowjones.io/public/rss/mw_topstories", lang: en, tier: 2, category: macro}
+  - {name: FT 首页, url: "https://www.ft.com/rss/home", lang: en, tier: 2, category: macro}
+  - {name: FT中文网, url: "https://www.ftchinese.com/rss/news", lang: zh, tier: 2, category: macro}
+  - {name: 经济学人 财经, url: "https://www.economist.com/finance-and-economics/rss.xml", lang: en, tier: 2, category: macro}
+  - {name: Investing.com, url: "https://www.investing.com/rss/news.rss", lang: en, tier: 3, category: macro}
+  - {name: Yahoo Finance 关注股, url: "https://feeds.finance.yahoo.com/rss/2.0/headline?s=MSTR,CRWV,NVDA,RHM.DE,GEV,VRT,CCJ,ORCL,CRCL,COIN&region=US&lang=en-US", lang: en, tier: 2, category: macro}
+  - {name: 36氪, url: "https://www.36kr.com/feed", lang: zh, tier: 2, category: ai}
+  - {name: 路透 via Google, url: "https://news.google.com/rss/search?q=site:reuters.com+(markets+OR+world+OR+energy)+when:1d&hl=en-US&gl=US&ceid=US:en", lang: en, tier: 2, category: macro}
+  - {name: 彭博 via Google, url: "https://news.google.com/rss/search?q=site:bloomberg.com+when:1d&hl=en-US&gl=US&ceid=US:en", lang: en, tier: 2, category: macro}
+  - {name: WSJ via Google, url: "https://news.google.com/rss/search?q=site:wsj.com+when:1d&hl=en-US&gl=US&ceid=US:en", lang: en, tier: 2, category: macro}
+  - {name: 财联社/华尔街见闻 via Google, url: "https://news.google.com/rss/search?q=%E8%B4%A2%E8%81%94%E7%A4%BE+OR+%E5%8D%8E%E5%B0%94%E8%A1%97%E8%A7%81%E9%97%BB+when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans", lang: zh, tier: 2, category: macro}
+  - {name: Google 财经头条(中), url: "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=zh-CN&gl=CN&ceid=CN:zh-Hans", lang: zh, tier: 2, category: macro}
+  # ---- 地缘 / 军事 / 航运 / 能源 ----
+  - {name: Al Jazeera, url: "https://www.aljazeera.com/xml/rss/all.xml", lang: en, tier: 2, category: geo}
+  - {name: BBC World, url: "https://feeds.bbci.co.uk/news/world/rss.xml", lang: en, tier: 2, category: geo}
+  - {name: DW 中文, url: "https://rss.dw.com/rdf/rss-chi-all", lang: zh, tier: 2, category: geo}
+  - {name: 纽约时报中文网, url: "https://cn.nytimes.com/rss/", lang: zh, tier: 2, category: geo}
+  - {name: 联合国新闻(中), url: "https://news.un.org/feed/subscribe/zh/news/all/rss.xml", lang: zh, tier: 1, category: geo}
+  - {name: War on the Rocks, url: "https://warontherocks.com/feed/", lang: en, tier: 2, category: geo}
+  - {name: Defense News, url: "https://www.defensenews.com/arc/outboundfeeds/rss/", lang: en, tier: 2, category: defense}
+  - {name: Breaking Defense, url: "https://breakingdefense.com/feed/", lang: en, tier: 2, category: defense}
+  - {name: Naval News, url: "https://www.navalnews.com/feed/", lang: en, tier: 2, category: defense}
+  - {name: The War Zone, url: "https://www.twz.com/feed", lang: en, tier: 2, category: defense}
+  - {name: gCaptain, url: "https://gcaptain.com/feed/", lang: en, tier: 2, category: shipping}
+  - {name: Splash247, url: "https://splash247.com/feed/", lang: en, tier: 2, category: shipping}
+  - {name: Hellenic Shipping News, url: "https://www.hellenicshippingnews.com/feed/", lang: en, tier: 3, category: shipping}
+  - {name: OilPrice, url: "https://oilprice.com/rss/main", lang: en, tier: 3, category: energy}
+  - {name: World Nuclear News, url: "https://www.world-nuclear-news.org/rss", lang: en, tier: 2, category: energy}
+  - {name: Foreign Policy, url: "https://foreignpolicy.com/feed/", lang: en, tier: 2, category: geo}
+  - {name: Crisis Group, url: "https://www.crisisgroup.org/rss", lang: en, tier: 2, category: geo}
+  - {name: Times of Israel, url: "https://www.timesofisrael.com/feed/", lang: en, tier: 2, category: geo}
+  - {name: Kyiv Independent, url: "https://kyivindependent.com/feed/rss/", lang: en, tier: 2, category: geo}
+  - {name: Taipei Times, url: "https://www.taipeitimes.com/xml/index.rss", lang: en, tier: 2, category: geo}
+  - {name: Focus Taiwan via Google, url: "https://news.google.com/rss/search?q=site:focustaiwan.tw+when:2d&hl=en-US&gl=US&ceid=US:en", lang: en, tier: 2, category: geo}
+  - {name: SCMP 中国, url: "https://www.scmp.com/rss/4/feed", lang: en, tier: 2, category: geo}
+  - {name: The Diplomat, url: "https://thediplomat.com/feed/", lang: en, tier: 2, category: geo}
+  - {name: Japan Times, url: "https://www.japantimes.co.jp/feed/", lang: en, tier: 2, category: geo}
+  - {name: Nikkei Asia via Google, url: "https://news.google.com/rss/search?q=site:asia.nikkei.com+when:2d&hl=en-US&gl=US&ceid=US:en", lang: en, tier: 2, category: geo}
+  - {name: ISW 战争研究所, url: "https://www.understandingwar.org/feed/?post_type=post", lang: en, tier: 2, category: geo}
+  - {name: IAEA 新闻, url: "https://www.iaea.org/feeds/topnews", lang: en, tier: 1, category: geo}
+  - {name: 美国国务院旅行警示, url: "https://travel.state.gov/_res/rss/TAsTWs.xml", lang: en, tier: 1, category: geo}
+  - {name: 美国防部新闻, url: "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9&Site=945&max=20", lang: en, tier: 1, category: defense}
+  - {name: Ukrinform, url: "https://www.ukrinform.net/rss/block-lastnews", lang: en, tier: 2, category: geo, enabled: false}
+  - {name: ERR 爱沙尼亚, url: "https://news.err.ee/rss", lang: en, tier: 2, category: geo}
+  - {name: Lloyd's List via Google, url: "https://news.google.com/rss/search?q=site:lloydslist.com+when:3d&hl=en-US&gl=US&ceid=US:en", lang: en, tier: 2, category: shipping}
+  - {name: Argus via Google, url: "https://news.google.com/rss/search?q=site:argusmedia.com+when:3d&hl=en-US&gl=US&ceid=US:en", lang: en, tier: 2, category: energy}
+  - {name: CGTN World, url: "https://www.cgtn.com/subscribe/rss/section/world.xml", lang: en, tier: 3, category: geo, enabled: false}
+  # ---- AI / 科技 / 电力 ----
+  - {name: TechCrunch AI, url: "https://techcrunch.com/category/artificial-intelligence/feed/", lang: en, tier: 2, category: ai}
+  - {name: SemiAnalysis, url: "https://newsletter.semianalysis.com/feed", lang: en, tier: 2, category: ai}
+  - {name: Stratechery, url: "https://stratechery.com/feed/", lang: en, tier: 2, category: ai}
+  - {name: Import AI, url: "https://importai.substack.com/feed", lang: en, tier: 2, category: ai}
+  - {name: OpenAI News, url: "https://openai.com/news/rss.xml", lang: en, tier: 1, category: ai}
+  - {name: NVIDIA Newsroom, url: "https://nvidianews.nvidia.com/releases.xml", lang: en, tier: 1, category: ai}
+  - {name: The Next Platform, url: "https://www.nextplatform.com/feed/", lang: en, tier: 2, category: ai}
+  - {name: Data Center Dynamics, url: "https://www.datacenterdynamics.com/en/rss/", lang: en, tier: 2, category: power}
+  - {name: Utility Dive, url: "https://www.utilitydive.com/feeds/news/", lang: en, tier: 2, category: power}
+  - {name: Canary Media, url: "https://www.canarymedia.com/rss", lang: en, tier: 2, category: power}
+  - {name: 量子位, url: "https://www.qbitai.com/feed", lang: zh, tier: 3, category: ai}
+  - {name: Hacker News, url: "https://hnrss.org/frontpage", lang: en, tier: 3, category: ai, enabled: false}
+  # ---- 泰国 / 东南亚 ----
+  - {name: Bangkok Post, url: "https://www.bangkokpost.com/rss/data/topstories.xml", lang: en, tier: 2, category: thailand}
+  - {name: Bangkok Post 电力/数据中心 via Google, url: "https://news.google.com/rss/search?q=site:bangkokpost.com+(power+OR+EGAT+OR+%22data+centre%22+OR+%22data+center%22+OR+EEC)+when:7d&hl=en-US&gl=TH&ceid=TH:en", lang: en, tier: 2, category: thailand}
+  - {name: The Nation Thailand via Google, url: "https://news.google.com/rss/search?q=site:nationthailand.com+(power+OR+EGAT+OR+%22data+centre%22+OR+EEC+OR+BOI)+when:7d&hl=en-US&gl=TH&ceid=TH:en", lang: en, tier: 2, category: thailand}
+  - {name: EGAT 新闻(泰), url: "https://www.egat.co.th/home/feed/", lang: th, tier: 1, category: thailand}
+  - {name: Khaosod English, url: "https://www.khaosodenglish.com/feed/", lang: en, tier: 3, category: thailand}
+  - {name: CNA 新加坡, url: "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml", lang: en, tier: 2, category: sea}
+  - {name: DCD 东南亚 via Google, url: "https://news.google.com/rss/search?q=site:datacenterdynamics.com+(Thailand+OR+Malaysia+OR+Johor+OR+Singapore+OR+Vietnam)+when:7d&hl=en-US&gl=US&ceid=US:en", lang: en, tier: 2, category: sea}
+
+# Google News RSS 主题查询。when:Nd 限定新鲜度（低频话题不加）。
+google_news:
+  # 地缘
+  - {name: 霍尔木兹, q: "\"Strait of Hormuz\" OR Hormuz tanker when:2d", lang: en}
+  - {name: 霍尔木兹(中), q: "霍尔木兹 when:2d", lang: zh}
+  - {name: 伊朗战争, q: "(Iran strikes OR Iran ceasefire OR IAEA Iran OR Iran missiles) when:2d", lang: en}
+  - {name: 伊朗(中), q: "(伊朗 停火 OR 伊朗 空袭 OR 伊朗 核) when:2d", lang: zh}
+  - {name: 红海胡塞, q: "(Houthi OR \"Red Sea\" shipping OR Yanbu) when:3d", lang: en}
+  - {name: 台海, q: "(\"Taiwan Strait\" OR \"Taiwan blockade\" OR PLA drills Taiwan OR Taiwan arms sale) when:2d", lang: en}
+  - {name: 台海(中), q: "(台海 OR 解放军 演习 OR 台湾 军售) when:2d", lang: zh}
+  - {name: 俄北约, q: "(Baltic drone OR Kaliningrad OR \"Article 5\" OR NATO airspace Russia OR Narva) when:3d", lang: en}
+  - {name: 俄乌谈判, q: "(Ukraine ceasefire OR Ukraine peace talks OR Witkoff Putin) when:2d", lang: en}
+  - {name: 俄乌(中), q: "(俄乌 停火 OR 乌克兰 谈判) when:2d", lang: zh}
+  - {name: 朝鲜, q: "(\"North Korea\" missile OR Pyongyang nuclear) when:3d", lang: en}
+  - {name: 南海中菲, q: "(\"South China Sea\" Philippines OR Scarborough OR \"China Coast Guard\") when:3d", lang: en}
+  - {name: 印巴, q: "(India Pakistan military OR Kashmir attack OR \"Indus Waters\") when:3d", lang: en}
+  - {name: 稀土管制, q: "(\"rare earth\" export OR gallium OR germanium OR antimony export) when:3d", lang: en}
+  - {name: 稀土(中), q: "稀土 出口管制 when:5d", lang: zh}
+  - {name: 油轮运费, q: "(VLCC OR \"tanker rates\" OR \"war risk\" premium) when:3d", lang: en}
+  - {name: 尿素铀, q: "(urea prices OR \"uranium spot\" OR Cameco OR Kazatomprom) when:5d", lang: en}
+  - {name: 黄金, q: "(\"gold price\" OR \"gold prices\" OR bullion central bank) when:2d", lang: en}
+  - {name: 军工, q: "(Rheinmetall OR \"defense stocks\" OR \"NATO spending\" OR Hanwha Aerospace) when:3d", lang: en}
+  - {name: 军工(中), q: "(莱茵金属 OR 军工股 OR 国防预算) when:3d", lang: zh}
+  - {name: 委内瑞拉, q: "(Venezuela oil OR Maduro) when:5d", lang: en}
+  # 宏观
+  - {name: 美联储, q: "(\"Federal Reserve\" OR FOMC OR Warsh) rate when:2d", lang: en}
+  - {name: 美联储(中), q: "(美联储 加息 OR 美联储 利率 OR 沃什) when:2d", lang: zh}
+  - {name: 美债收益率, q: "(\"Treasury yields\" OR \"10-year yield\") when:2d", lang: en}
+  - {name: 全球流动性, q: "(\"global liquidity\" OR \"quantitative tightening\" OR \"reverse repo\" OR \"Treasury General Account\") when:7d", lang: en}
+  - {name: 信用利差, q: "(\"high-yield\" spread OR \"private credit\" default OR \"credit spreads\") when:3d", lang: en}
+  - {name: 通胀CPI, q: "(CPI inflation OR stagflation) when:2d", lang: en}
+  # 加密
+  - {name: 比特币ETF, q: "(\"Bitcoin ETF\" OR IBIT OR \"ETF inflows\" OR \"ETF outflows\") crypto when:2d", lang: en}
+  - {name: 加密监管, q: "(\"CLARITY Act\" OR \"GENIUS Act\" OR SEC crypto OR CFTC crypto OR \"market structure\") when:2d", lang: en}
+  - {name: 加密监管(中), q: "(加密 法案 OR 稳定币 法案 OR 加密 监管 OR SEC 代币化) when:2d", lang: zh}
+  - {name: Strategy财库, q: "(Strategy MSTR bitcoin OR Saylor OR BitMine ETH OR \"treasury company\") when:2d", lang: en}
+  - {name: Hyperliquid, q: "(Hyperliquid OR HYPE token) when:3d", lang: en}
+  - {name: Aave, q: "(Aave OR Aavenomics) when:5d", lang: en}
+  - {name: Ethena, q: "(Ethena OR USDe OR ENA unlock) when:5d", lang: en}
+  - {name: Canton, q: "(\"Canton Network\" OR \"Canton Coin\" OR DTCC tokenization) when:7d", lang: en}
+  - {name: Chainlink, q: "(Chainlink OR CCIP) when:5d", lang: en}
+  - {name: 以太坊, q: "(Ethereum Glamsterdam OR \"ETH/BTC\" OR Ethereum upgrade OR ETH ETF) when:3d", lang: en}
+  - {name: Solana, q: "(Solana Alpenglow OR Solana revenue OR SIMD OR Solana ETF) when:3d", lang: en}
+  - {name: 稳定币, q: "(stablecoin supply OR Tether OR Circle stablecoin OR USDT) when:2d", lang: en}
+  - {name: 代币解锁, q: "(\"token unlock\" OR \"cliff unlock\" OR \"token unlocks\") when:3d", lang: en}
+  - {name: 代币化RWA, q: "(\"tokenized stocks\" OR \"tokenized treasuries\" OR RWA tokenization OR Ondo) when:3d", lang: en}
+  - {name: 加密黑客, q: "(crypto hack OR DeFi exploit OR drained) when:2d", lang: en}
+  - {name: 量子比特币, q: "(quantum bitcoin OR BIP-360 OR \"post-quantum\" crypto) when:7d", lang: en}
+  - {name: 泰国加密, q: "(Thailand SEC crypto OR \"Thai crypto\" OR G-Token) when:7d", lang: en}
+  - {name: 加密(中), q: "(比特币 ETF OR 稳定币 OR 以太坊) when:2d", lang: zh}
+  # AI 时代
+  - {name: AnthropicIPO, q: "\"Anthropic\" (IPO OR valuation OR S-1 OR listing) when:3d", lang: en}
+  - {name: OpenAIIPO, q: "\"OpenAI\" (IPO OR valuation OR funding) when:3d", lang: en}
+  - {name: AI IPO(中), q: "(Anthropic 上市 OR OpenAI 上市 OR Anthropic 估值) when:5d", lang: zh}
+  - {name: AI资本开支, q: "(hyperscaler capex OR \"capital expenditure\" AI OR \"data center\" spending) when:2d", lang: en}
+  - {name: 资本开支下调, q: "(\"capex\" cut OR \"scales back\" \"data center\" OR cancels \"data center\" OR \"lease cancellations\") when:5d", lang: en}
+  - {name: AI债务, q: "(\"data center\" bond OR \"GPU-backed\" OR CoreWeave debt OR Oracle bonds OR \"AI debt\") when:3d", lang: en}
+  - {name: AI泡沫, q: "(\"AI bubble\" OR Burry Nvidia OR \"dot-com\") when:2d", lang: en}
+  - {name: AI泡沫(中), q: "(AI 泡沫 OR 英伟达 财报 OR 算力 过剩) when:2d", lang: zh}
+  - {name: 英伟达, q: "(Nvidia earnings OR Nvidia stock OR Blackwell OR Rubin) when:2d", lang: en}
+  - {name: 变压器交期, q: "(\"transformer lead time\" OR \"transformer shortage\" OR \"gas turbine\" backlog OR \"gas turbines\" shortage)", lang: en}
+  - {name: 电网数据中心, q: "(\"data center\" grid OR \"data center\" interconnection OR \"data center\" power shortage) when:3d", lang: en}
+  - {name: 泰国数据中心, q: "(Thailand \"data center\" OR Thailand \"data centre\" OR EGAT OR \"Eastern Economic Corridor\" OR PEA substation) when:7d", lang: en}
+  - {name: 泰国数据中心(中), q: "(泰国 数据中心 OR 泰国 电网 OR 泰国 EEC) when:7d", lang: zh}
+  - {name: 柔佛数据中心, q: "(Johor \"data center\" OR Malaysia \"data centre\" OR Batam \"data center\") when:7d", lang: en}
+  - {name: 韩国股市, q: "(KOSPI OR \"SK Hynix\" OR \"Samsung Electronics\" stock) when:2d", lang: en}
+  - {name: 核电SMR, q: "(SMR reactor OR \"Three Mile Island\" restart OR Oklo OR nuclear data center) when:5d", lang: en}
+  - {name: 预测市场, q: "(Kalshi OR Polymarket) when:3d", lang: en}
+  - {name: 矿企AI, q: "(TeraWulf OR \"Hut 8\" OR IREN OR \"Core Scientific\" OR \"Cipher Mining\") when:3d", lang: en}
+  - {name: CoreWeave, q: "(CoreWeave OR Nebius OR neocloud) when:3d", lang: en}
+  - {name: AI就业, q: "(\"AI skills\" OR \"AI jobs\" OR \"entry-level\" AI jobs) when:7d", lang: en}
+  - {name: 代币化股票SEC, q: "(SEC \"tokenized\" OR \"innovation exemption\") when:5d", lang: en}

@@ -1,0 +1,302 @@
+# 新闻话题关键词表（无 LLM：靠关键词匹配打标签）。weight 越高 = 越"敏感"。
+# 英文关键词按整词、不区分大小写匹配；中文按子串匹配。
+topics:
+  # ---------- 地缘 / 战争 ----------
+  hormuz:
+    label: 霍尔木兹/海峡
+    report: war
+    weight: 3
+    keywords: ["Hormuz", "霍尔木兹", "tanker seized", "tanker attacked", "strait closure", "海峡 封锁", "海峡 关闭", "mine-laying"]
+  iran_war:
+    label: 伊朗战争/停火
+    report: war
+    weight: 2.5
+    keywords: ["Iran strike", "strikes on Iran", "Iran ceasefire", "Iran truce", "伊朗 停火", "伊朗 空袭", "伊朗 导弹", "IAEA Iran", "Iran enrichment", "Khamenei", "Islamabad memorandum", "Epic Fury", "IRGC", "CENTCOM Iran", "以色列 伊朗"]
+  red_sea:
+    label: 红海/胡塞
+    report: war
+    weight: 2
+    keywords: ["Houthi", "Houthis", "Red Sea", "Bab el-Mandeb", "胡塞", "红海", "曼德海峡", "Yanbu", "延布"]
+  taiwan:
+    label: 台海
+    report: war
+    weight: 3
+    keywords: ["Taiwan Strait", "台海", "Taiwan blockade", "blockade of Taiwan", "quarantine Taiwan", "PLA drills", "PLA exercise", "围台", "封锁台湾", "解放军 演习", "Justice Mission", "正义使命", "Taiwan invasion", "台湾 军售", "arms sale Taiwan", "Bashi Channel", "巴士海峡", "国防动员法"]
+  russia_nato:
+    label: 俄–北约东翼
+    report: war
+    weight: 3
+    keywords: ["Baltic", "Kaliningrad", "Suwalki", "Article 5", "Article 4", "NATO airspace", "drone incursion", "Poland drone", "Estonia drone", "波罗的海", "加里宁格勒", "北约 东翼", "Narva", "纳尔瓦", "hybrid attack", "Eastern Sentry", "东部哨兵", "Zapad"]
+  ukraine_ceasefire:
+    label: 俄乌停火/谈判
+    report: war
+    weight: 2
+    keywords: ["Ukraine ceasefire", "Ukraine peace", "peace deal", "Witkoff", "Kushner Moscow", "乌克兰 停火", "俄乌 谈判", "Donbas", "顿巴斯", "Graham sanctions", "对俄 制裁", "Russia sanctions"]
+  korea:
+    label: 朝鲜半岛
+    report: war
+    weight: 1.5
+    keywords: ["North Korea missile", "North Korean missile", "Pyongyang", "朝鲜 导弹", "朝鲜 核", "Kim Jong Un", "nuclear test", "ICBM"]
+  india_pakistan:
+    label: 印巴
+    report: war
+    weight: 1.5
+    keywords: ["India Pakistan", "India-Pakistan", "Kashmir", "克什米尔", "印巴", "Indus Waters", "Line of Control", "Arabian Sea collision"]
+  south_china_sea:
+    label: 南海/中菲
+    report: war
+    weight: 2
+    keywords: ["South China Sea", "Scarborough", "Second Thomas", "黄岩岛", "南海", "仁爱礁", "Philippine Coast Guard", "China Coast Guard", "中国海警", "Mutual Defense Treaty", "水炮"]
+  venezuela:
+    label: 委内瑞拉
+    report: war
+    weight: 1
+    keywords: ["Venezuela", "委内瑞拉", "Maduro", "马杜罗", "PDVSA"]
+  oil_supply:
+    label: 原油供给/OPEC
+    report: war
+    weight: 1.5
+    keywords: ["OPEC", "Brent crude", "oil prices", "crude oil", "原油", "油价", "supply disruption", "供应中断", "SPR release", "战略石油储备"]
+  shipping:
+    label: 航运/油轮运费
+    report: war
+    weight: 2
+    keywords: ["VLCC", "tanker rates", "tanker rate", "freight rates", "Suez Canal", "war risk premium", "war-risk", "油轮 运费", "运价", "集运", "Frontline", "shadow fleet", "影子船队", "Baltic Exchange", "Drewry", "FBX"]
+  lng_gas:
+    label: LNG/天然气
+    report: war
+    weight: 1.5
+    keywords: ["LNG", "TTF", "Ras Laffan", "Qatar gas", "natural gas prices", "天然气 价格", "液化天然气", "JKM"]
+  fertilizer_uranium:
+    label: 化肥/铀
+    report: war
+    weight: 2
+    keywords: ["urea", "尿素", "uranium", "铀", "Cameco", "Kazatomprom", "potash", "钾肥", "ammonia prices", "fertilizer prices", "化肥 价格", "enrichment services"]
+  rare_earth:
+    label: 稀土/关键矿物
+    report: war
+    weight: 2.5
+    keywords: ["rare earth", "rare earths", "gallium", "germanium", "antimony", "稀土", "镓", "锗", "锑", "export controls", "出口管制", "MP Materials", "Lynas", "critical minerals", "关键矿物", "tungsten", "钨"]
+  gold:
+    label: 黄金/白银
+    report: war
+    weight: 1.5
+    keywords: ["gold price", "gold prices", "bullion", "黄金", "金价", "central bank gold", "silver price", "白银", "PAXG", "XAUT"]
+  defense:
+    label: 军工/国防预算
+    report: war
+    weight: 1.5
+    keywords: ["Rheinmetall", "莱茵金属", "defense spending", "defence spending", "军工", "国防预算", "NATO spending", "Lockheed", "RTX", "Northrop", "Hanwha Aerospace", "韩华", "Mitsubishi Heavy", "三菱重工", "HAL", "Bharat Electronics", "defense stocks", "Patriot interceptor", "拦截弹"]
+  semis_taiwan:
+    label: 半导体/台积电
+    report: war
+    weight: 1.5
+    keywords: ["TSMC", "台积电", "Intel 14A", "Rapidus", "advanced node", "先进制程", "chip export", "芯片 出口", "Samsung Taylor", "SOX index", "费城半导体"]
+  # ---------- 宏观 ----------
+  fed:
+    label: 美联储/利率
+    report: all
+    weight: 2
+    keywords: ["Federal Reserve", "FOMC", "rate hike", "rate cut", "加息", "降息", "美联储", "Warsh", "沃什", "Treasury yields", "美债 收益率", "10-year yield", "dot plot", "点阵图", "core PCE"]
+  inflation:
+    label: 通胀/CPI
+    report: all
+    weight: 1
+    keywords: ["CPI", "inflation", "通胀", "通货膨胀", "stagflation", "滞胀"]
+  liquidity:
+    label: 全球流动性
+    report: crypto
+    weight: 1.5
+    keywords: ["global liquidity", "全球流动性", "M2", "balance sheet", "quantitative tightening", "QT", "reverse repo", "CrossBorder Capital", "Howell"]
+  credit:
+    label: 信用/利差
+    report: ai
+    weight: 1.5
+    keywords: ["high-yield spread", "credit spread", "利差", "private credit", "私募信贷", "junk bond", "downgrade", "评级下调", "default", "违约"]
+  # ---------- 加密 ----------
+  btc_etf:
+    label: BTC/ETH ETF 资金流
+    report: crypto
+    weight: 2
+    keywords: ["Bitcoin ETF", "spot ETF", "ETF inflows", "ETF outflows", "ETF inflow", "ETF outflow", "IBIT", "FBTC", "ETHA", "比特币 ETF", "以太坊 ETF", "Solana ETF", "XRP ETF"]
+  strategy_mstr:
+    label: Strategy/财库公司
+    report: crypto
+    weight: 2
+    keywords: ["Strategy", "MicroStrategy", "Saylor", "MSTR", "BitMine", "treasury company", "财库公司", "mNAV", "DAT"]
+  crypto_regulation:
+    label: 加密监管/立法
+    report: crypto
+    weight: 2.5
+    keywords: ["CLARITY Act", "GENIUS Act", "market structure bill", "SEC crypto", "CFTC crypto", "stablecoin bill", "加密 法案", "稳定币 法案", "MiCA", "AMLR", "innovation exemption", "Reg Crypto", "SEC tokenized", "Atkins", "privacy coin ban", "隐私币"]
+  hyperliquid:
+    label: Hyperliquid
+    report: crypto
+    weight: 1.5
+    keywords: ["Hyperliquid", "HYPE token", "HIP-3", "assistance fund", "perp DEX", "永续 DEX"]
+  aave:
+    label: Aave
+    report: crypto
+    weight: 1.5
+    keywords: ["Aave", "Aavenomics", "GHO"]
+  ethena:
+    label: Ethena/USDe
+    report: crypto
+    weight: 1.5
+    keywords: ["Ethena", "USDe", "ENA unlock", "sUSDe"]
+  canton:
+    label: Canton/DTCC
+    report: crypto
+    weight: 2
+    keywords: ["Canton Network", "Canton Coin", "DTCC tokenization", "DTCC tokenized", "Digital Asset Canton", "Canton"]
+  chainlink:
+    label: Chainlink
+    report: crypto
+    weight: 1
+    keywords: ["Chainlink", "CCIP", "LINK reserve", "Pangea"]
+  token_unlock:
+    label: 代币解锁
+    report: crypto
+    weight: 2
+    keywords: ["token unlock", "token unlocks", "cliff unlock", "vesting", "解锁", "unlock schedule"]
+  eth:
+    label: 以太坊
+    report: crypto
+    weight: 1
+    keywords: ["Ethereum", "以太坊", "Glamsterdam", "Hegota", "ePBS", "ETH/BTC", "blob fees"]
+  solana:
+    label: Solana
+    report: crypto
+    weight: 1
+    keywords: ["Solana", "Alpenglow", "Firedancer", "SIMD-0550", "SIMD"]
+  bitcoin:
+    label: 比特币
+    report: crypto
+    weight: 1
+    keywords: ["Bitcoin", "比特币", "BTC", "realized price", "200-week", "halving", "减半", "hashrate", "算力"]
+  stablecoin:
+    label: 稳定币
+    report: crypto
+    weight: 1.5
+    keywords: ["stablecoin", "stablecoins", "稳定币", "Tether", "USDT", "USDC", "Circle", "USDS", "Sky Protocol"]
+  tokenization:
+    label: 代币化/RWA
+    report: crypto
+    weight: 1.5
+    keywords: ["tokenized", "tokenization", "tokenised", "代币化", "RWA", "BUIDL", "Ondo", "Robinhood Chain", "tokenized stocks", "tokenized treasuries"]
+  crypto_hack:
+    label: 黑客/漏洞
+    report: crypto
+    weight: 2
+    keywords: ["exploit", "hacked", "hack", "drained", "被盗", "漏洞", "rug pull", "Lazarus"]
+  quantum:
+    label: 量子风险
+    report: crypto
+    weight: 2
+    keywords: ["quantum computer bitcoin", "quantum threat", "BIP-360", "BIP-361", "量子 比特币", "post-quantum"]
+  defi_revenue:
+    label: DeFi 收入/回购
+    report: crypto
+    weight: 1
+    keywords: ["buyback", "回购", "fee switch", "费用开关", "protocol revenue", "协议收入", "burn", "销毁", "Uniswap", "Pendle", "Morpho", "Lido", "Jupiter", "pump.fun", "Pump.fun"]
+  thailand_crypto:
+    label: 泰国加密监管/税
+    report: crypto
+    weight: 1.5
+    keywords: ["Thailand SEC", "Thai SEC", "泰国 加密", "泰国 SEC", "G-Token", "Thai crypto tax", "Thailand crypto"]
+  # ---------- AI 时代 ----------
+  anthropic_ipo:
+    label: Anthropic IPO
+    report: ai
+    weight: 3
+    keywords: ["Anthropic IPO", "Anthropic 上市", "Anthropic valuation", "Anthropic S-1", "Anthropic roadshow", "Anthropic shares", "Anthropic listing"]
+  openai_ipo:
+    label: OpenAI IPO
+    report: ai
+    weight: 2.5
+    keywords: ["OpenAI IPO", "OpenAI 上市", "OpenAI valuation", "OpenAI S-1", "OpenAI listing"]
+  ipo_market:
+    label: IPO 市场
+    report: ai
+    weight: 1.5
+    keywords: ["IPO", "首日 涨幅", "上市首日", "lock-up expiry", "锁定期", "SpaceX shares", "Cerebras", "Figma stock"]
+  ai_capex:
+    label: AI 资本开支
+    report: ai
+    weight: 2
+    keywords: ["capex", "capital expenditure", "capital expenditures", "data center spending", "资本开支", "hyperscaler", "超大规模", "Stargate", "compute spending"]
+  capex_cut:
+    label: 资本开支下调（情景C触发）
+    report: ai
+    weight: 3
+    keywords: ["cuts capex", "cut capex", "lowers capex", "capex guidance", "slash spending", "scales back data center", "pause data center", "cancels data center", "下调 资本开支", "削减 资本开支", "数据中心 暂停", "数据中心 取消", "lease cancellations"]
+  ai_debt:
+    label: AI 债务/GPU 融资
+    report: ai
+    weight: 2.5
+    keywords: ["AI debt", "data center bond", "data center bonds", "GPU-backed", "GPU loan", "CoreWeave debt", "CoreWeave bond", "Oracle bond", "Oracle debt", "Meta bond", "AI bonds", "债务 数据中心", "GPU 抵押", "securitization", "private credit data center", "Blue Owl"]
+  ai_bubble:
+    label: AI 泡沫论
+    report: ai
+    weight: 2
+    keywords: ["AI bubble", "AI 泡沫", "Burry", "dot-com", "互联网泡沫", "1999", "overvalued", "Shiller", "CAPE"]
+  nvidia:
+    label: 英伟达
+    report: ai
+    weight: 1.5
+    keywords: ["Nvidia", "NVIDIA", "英伟达", "Jensen Huang", "黄仁勋", "Blackwell", "Rubin"]
+  power_grid:
+    label: 电力设备/电网
+    report: ai
+    weight: 2.5
+    keywords: ["transformer lead time", "transformer shortage", "gas turbine", "gas turbines", "grid interconnection", "interconnection queue", "变压器", "燃气轮机", "GE Vernova", "Siemens Energy", "Hitachi Energy", "substation", "变电站", "grid capacity", "电网", "data center power", "数据中心 用电", "IEA electricity"]
+  thailand_dc:
+    label: 泰国数据中心/EEC
+    report: ai
+    weight: 3
+    keywords: ["Thailand data center", "Thailand data centre", "EEC", "EGAT", "PEA", "MEA", "泰国 数据中心", "Rayong", "Chonburi", "Chachoengsao", "春武里", "罗勇", "北柳", "BOI approves", "BOI approval", "PDP 2026", "Eastern Economic Corridor", "东部经济走廊", "Thai power", "ERC Thailand", "ByteDance Thailand", "TikTok data center", "DAMAC data center", "Bridge Data Centres"]
+  sea_dc:
+    label: 东南亚数据中心
+    report: ai
+    weight: 1.5
+    keywords: ["Johor data center", "Johor data centre", "柔佛", "Malaysia data center", "Singapore data center", "Vietnam data center", "Indonesia data center", "Batam"]
+  nuclear_smr:
+    label: 核电/SMR
+    report: ai
+    weight: 1
+    keywords: ["SMR", "small modular reactor", "Three Mile Island", "三哩岛", "Oklo", "nuclear restart", "核电", "Constellation Energy"]
+  prediction_markets:
+    label: 预测市场
+    report: ai
+    weight: 1
+    keywords: ["Kalshi", "Polymarket", "prediction market", "prediction markets", "预测市场"]
+  korea_market:
+    label: 韩国股市/存储
+    report: ai
+    weight: 1.5
+    keywords: ["KOSPI", "SK Hynix", "SK hynix", "Samsung Electronics", "韩国 股市", "HBM", "Korean retail", "leveraged ETF"]
+  agents_x402:
+    label: 代理经济/x402
+    report: ai
+    weight: 1
+    keywords: ["x402", "agent payments", "machine payments", "AI agents", "agentic", "MPP"]
+  ai_labor:
+    label: AI 技能/就业
+    report: ai
+    weight: 1
+    keywords: ["AI skills", "AI jobs", "wage premium", "PwC AI Jobs", "AI layoffs", "AI 就业", "entry-level jobs"]
+  vibe_coding:
+    label: Vibe coding/一人公司
+    report: ai
+    weight: 0.5
+    keywords: ["Lovable", "Cursor", "Replit", "vibe coding", "micro-SaaS", "one-person company"]
+  miners_ai:
+    label: 矿企转 AI 托管
+    report: ai
+    weight: 1.5
+    keywords: ["TeraWulf", "Hut 8", "IREN", "Core Scientific", "Cipher Mining", "Applied Digital", "HPC contract", "AI hosting", "矿企 AI"]
+  neocloud:
+    label: 新云/CoreWeave
+    report: ai
+    weight: 1.5
+    keywords: ["CoreWeave", "Nebius", "neocloud", "Lambda Labs", "Crusoe"]

@@ -1,0 +1,18 @@
+# 本地历史库（可由 data/snapshots 与 data/news_archive 重建）
+data/history.sqlite
+data/history.sqlite-journal
+data/history.sqlite.bak
+logs/
+__pycache__/
+*.pyc
+.venv/
+.env
+*.tmp
+# 生成物：每次运行重建；GitHub Actions 直接从运行器上的 docs/ 部署 Pages，不提交进仓库（避免每天 5MB 的历史膨胀）
+docs/index.html
+docs/data/
+# 原始报告默认不发布到公开仓库（要托管原文就删掉下面两行）
+docs/reports/
+data/raw/
+data/checkpoint.json
+.claude/

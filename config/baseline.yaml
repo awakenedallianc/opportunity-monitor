@@ -1,0 +1,62 @@
+# 报告基线：三篇报告在 2026-09-20 写下的关键数字，与今日指标逐日对照（"推演追踪"页）。
+# metric = 本系统的指标键；baseline_value 为报告值（或基准日的同口径值）；fmt: px|pct|num
+claims:
+  # ---------- 加密 ----------
+  - {id: crypto.btc.price, report: crypto, label: BTC 价格, metric: px.BTC, baseline_value: 75850, baseline_display: "$75,850", baseline_date: "2026-09-15", note: "核对：9-20 已 ~$80.5K（较报告 +6–7%）"}
+  - {id: crypto.btc.ath, report: crypto, label: BTC ATH, metric: ath.BTC, baseline_value: 126198, baseline_display: "$126,198", baseline_date: "2025-10-06", note: "新高 = 周期判断重置"}
+  - {id: crypto.btc.athdd, report: crypto, label: BTC 较 ATH 回撤, metric: athdd.BTC, baseline_value: -40, baseline_display: "-40%", baseline_date: "2026-09-15", fmt: pct, note: "6 月低点 -54%；历史熊市 -77~87%"}
+  - {id: crypto.btc.wma50, report: crypto, label: BTC 50 周均线, metric: crypto.btc.wma50, baseline_value: 81000, baseline_display: "≈$81K", baseline_date: "2026-09-15", note: "入场条件 a 的参照线"}
+  - {id: crypto.btc.wma200, report: crypto, label: BTC 200 周均线, metric: crypto.btc.wma200, baseline_value: 61700, baseline_display: "≈$61.7K", baseline_date: "2026-06-30", note: "6 月低点守在其上"}
+  - {id: crypto.btc.realized, report: crypto, label: BTC 实现价格（Coin Metrics 推算）, metric: crypto.btc.realized_price, baseline_value: 53600, baseline_display: "$53.6K", baseline_date: "2026-09-15", note: "月线跌破 = 整体失效条件 (1)"}
+  - {id: crypto.eth.price, report: crypto, label: ETH 价格, metric: px.ETH, baseline_value: 2407, baseline_display: "$2,407", baseline_date: "2026-09-15"}
+  - {id: crypto.ethbtc, report: crypto, label: ETH/BTC, metric: crypto.ethbtc, baseline_value: 0.0317, baseline_display: "0.0317", baseline_date: "2026-09-15", note: "加仓区 0.028–0.030；失效 <0.025"}
+  - {id: crypto.sol.price, report: crypto, label: SOL 价格, metric: px.SOL, baseline_value: 98.5, baseline_display: "$98.50", baseline_date: "2026-09-15"}
+  - {id: crypto.solbtc, report: crypto, label: SOL/BTC, metric: crypto.solbtc, baseline_value: 0.0013, baseline_display: "≈0.0013", baseline_date: "2026-09-15", note: "<0.0011 历史低位区"}
+  - {id: crypto.hype.price, report: crypto, label: HYPE 价格, metric: px.HYPE, baseline_value: 91.04, baseline_display: "$91.04", baseline_date: "2026-09-19", note: "核对：9-19 新 ATH $94.46"}
+  - {id: crypto.hype.fees30d, report: crypto, label: HYPE 30 日手续费（DefiLlama）, metric: fees30d.HYPE, baseline_value: 79897121, baseline_display: "$79.9M", baseline_date: "2026-09-20", note: "报告：Q3 前四周核心收入约 $4,500 万、连续四季下滑"}
+  - {id: crypto.hype.buyback, report: crypto, label: HYPE 年化回购/市值, metric: crypto.hype.buyback_yield, baseline_value: 4.5, baseline_display: "≈4–5%", baseline_date: "2026-09-20", fmt: pct, note: "<3% 失效（以 CoinGecko 流通市值口径计）"}
+  - {id: crypto.aave.price, report: crypto, label: AAVE 价格, metric: px.AAVE, baseline_value: 142.27, baseline_display: "$142.27", baseline_date: "2026-09-19"}
+  - {id: crypto.aave.tvl, report: crypto, label: Aave TVL（DefiLlama）, metric: tvl.AAVE, baseline_value: 18705515175, baseline_display: "$18.7B", baseline_date: "2026-09-20", note: "报告口径为总存款 $301.6 亿（8-24 纪录）；TVL 口径不同"}
+  - {id: crypto.uni.price, report: crypto, label: UNI 价格, metric: px.UNI, baseline_value: 6.61, baseline_display: "$6.61", baseline_date: "2026-09-15"}
+  - {id: crypto.link.price, report: crypto, label: LINK 价格, metric: px.LINK, baseline_value: 10.95, baseline_display: "$10.95", baseline_date: "2026-09-16"}
+  - {id: crypto.ena.price, report: crypto, label: ENA 价格, metric: px.ENA, baseline_value: 0.16, baseline_display: "$0.155–0.17", baseline_date: "2026-09-19", note: "核对：9-20 $0.204；10-05 悬崖解锁"}
+  - {id: crypto.usde, report: crypto, label: USDe 供给, metric: stable.USDe, baseline_value: 4750000000, baseline_display: "$4.75B", baseline_date: "2026-09-20", note: "触发回购 $75 亿；失效 $40 亿；2025 峰值 $150 亿"}
+  - {id: crypto.cc.price, report: crypto, label: CC（Canton）价格, metric: px.CC, baseline_value: 0.103, baseline_display: "$0.103", baseline_date: "2026-09-19", note: "DTCC 10 月上线；销毁/铸造比 >1 为行权条件"}
+  - {id: crypto.ondo.price, report: crypto, label: ONDO 价格, metric: px.ONDO, baseline_value: 0.3313, baseline_display: "$0.33–0.42（两源冲突）", baseline_date: "2026-09-17"}
+  - {id: crypto.btc_dominance, report: crypto, label: BTC 主导率, metric: crypto.btc_dominance, baseline_value: 59, baseline_display: "58–60%", baseline_date: "2026-09-15", fmt: num}
+  - {id: crypto.stable_total, report: crypto, label: 稳定币总量（DefiLlama）, metric: stable.total, baseline_value: 312400000000, baseline_display: "$312B", baseline_date: "2026-09-20", note: "报告：4-21 ATH $3,210 亿；2026 出现四年来首次收缩"}
+  - {id: crypto.fng, report: crypto, label: 恐惧贪婪指数, metric: crypto.fng, baseline_value: 56, baseline_display: "56", baseline_date: "2026-09-18", fmt: num, note: "9-20 已升至 71（贪婪）"}
+  - {id: crypto.mstr, report: crypto, label: Strategy 持有 BTC, metric: treasury.MSTR_btc, baseline_value: 840447, baseline_display: "840,447", baseline_date: "2026-08-23", fmt: num, note: "已授权出售至多 20,800 BTC；核对 CoinGecko 9-20 为 845,050"}
+  - {id: crypto.etf_cum, report: crypto, label: BTC 现货 ETF 累计净流入, metric: etf.btc.cum_flow, baseline_value: 55160000000, baseline_display: "$55.16B", baseline_date: "2026-09-17", note: "1–7 月净流出 $53 亿、8 月净流入 $35.2 亿"}
+  - {id: crypto.fed, report: crypto, label: 联邦基金目标上限, metric: fed.target_high, baseline_value: 4.00, baseline_display: "4.00%（3.75–4.00）", baseline_date: "2026-09-16", fmt: num, note: "点阵图：年内再加一次；2027 末 4.1%"}
+  - {id: crypto.us10y, report: crypto, label: 10 年期美债, metric: px.US10Y, baseline_value: 4.94, baseline_display: "≈5.0%", baseline_date: "2026-09-18", fmt: num}
+  # ---------- 地缘 ----------
+  - {id: war.brent, report: war, label: 布伦特原油, metric: px.BRENT, baseline_value: 104, baseline_display: "$102–104", baseline_date: "2026-09-18", note: "战前 $72.48；4 月峰 $126；同比 +54%"}
+  - {id: war.brent_spot, report: war, label: EIA 布伦特现货（实物）, metric: eia.brent_spot, baseline_value: 130.8, baseline_display: "$130.8", baseline_date: "2026-09-15", note: "现货较期货溢价约 $30 = 霍尔木兹实物中断指标"}
+  - {id: war.gold, report: war, label: 黄金, metric: px.GOLD, baseline_value: 4383, baseline_display: "$4,383", baseline_date: "2026-09-18", note: "ATH $5,608（1 月）；较高点 -22%"}
+  - {id: war.gold_dd, report: war, label: 黄金较 ATH, metric: dd_ath.GOLD, baseline_value: -22, baseline_display: "-22%", baseline_date: "2026-09-18", fmt: pct}
+  - {id: war.silver, report: war, label: 白银, metric: px.SILVER, baseline_value: 66.94, baseline_display: "$66.94", baseline_date: "2026-09-18", note: "1 月约 $120"}
+  - {id: war.rhm, report: war, label: 莱茵金属, metric: px.RHM, baseline_value: 1091, baseline_display: "€1,091（核对 9-18 €1,024）", baseline_date: "2026-09-15", note: "52 周高 €2,007；订单积压 €805 亿"}
+  - {id: war.ita, report: war, label: 美国军工 ETF ITA, metric: px.ITA, baseline_value: 213.84, baseline_display: "$213.84", baseline_date: "2026-09-18", note: "YTD ≈0%；52 周高 $256.60"}
+  - {id: war.kospi, report: war, label: KOSPI, metric: px.KOSPI, baseline_value: 6894, baseline_display: "6,894", baseline_date: "2026-09-18", note: "12 个月 +100%"}
+  - {id: war.nifty, report: war, label: Nifty 50, metric: px.NIFTY, baseline_value: 23316, baseline_display: "23,316", baseline_date: "2026-09-18"}
+  - {id: war.taiex, report: war, label: 台股加权, metric: px.TAIEX, baseline_value: 30000, baseline_display: "2026-01 首破 30,000（9 月现价缺失）", baseline_date: "2026-01-31", note: "报告数据缺口；本系统补齐"}
+  - {id: war.spx, report: war, label: 标普 500, metric: px.SPX, baseline_value: 7630, baseline_display: "≈7,630", baseline_date: "2026-09-01", note: "YTD +11.5%；3-30 低点 6,316.91"}
+  - {id: war.dxy, report: war, label: 美元指数, metric: px.DXY, baseline_value: 100.21, baseline_display: "100.21（报告缺失，核对补齐）", baseline_date: "2026-09-18", fmt: num}
+  - {id: war.vix, report: war, label: VIX, metric: px.VIX, baseline_value: 14.81, baseline_display: "14.81（报告缺失，核对补齐）", baseline_date: "2026-09-18", fmt: num}
+  - {id: war.pm_taiwan, report: war, label: Polymarket 2026 年底前入侵台湾, metric: pm.taiwan_invasion_2026, baseline_value: 5, baseline_display: "≈5%（核对 4%）", baseline_date: "2026-09-18", fmt: num, note: "2025 年末演习期间近 30%"}
+  - {id: war.cpi, report: war, label: 美国 CPI 同比, metric: macro.cpi_yoy, baseline_value: 3.4, baseline_display: "3.4%（8 月）", baseline_date: "2026-09-11", fmt: num, note: "能源 +16.3% y/y；\"滞胀型战争\""}
+  # ---------- AI 时代 ----------
+  - {id: ai.nvda, report: ai, label: 英伟达, metric: px.NVDA, baseline_value: 219, baseline_display: "$219（市值 $5.37T）", baseline_date: "2026-09-18", note: "ChatGPT 发布至 2026-08 约 13.2 倍；远期 PE 约 14–23 倍（口径不一）"}
+  - {id: ai.skhynix_dd, report: ai, label: SK 海力士较 52 周高, metric: dd52w.SKHYNIX, baseline_value: -36, baseline_display: "-36%", baseline_date: "2026-09-20", fmt: pct, note: "2026-07 单月 -35% 杠杆 ETF 爆仓"}
+  - {id: ai.kospi_dd, report: ai, label: KOSPI 较 52 周高, metric: dd52w.KOSPI, baseline_value: -24.4, baseline_display: "-24.4%（Yahoo 9-20）", baseline_date: "2026-09-20", fmt: pct, note: "报告：7 月单月 -22%（Fortune）vs -44%（Wikipedia）"}
+  - {id: ai.crcl, report: ai, label: Circle, metric: px.CRCL, baseline_value: 91.78, baseline_display: "$91.78", baseline_date: "2026-09-18", note: "较峰值回撤约 65–70%"}
+  - {id: ai.cbrs, report: ai, label: Cerebras（CBRS）, metric: px.CBRS, baseline_value: 198.74, baseline_display: "$198.74", baseline_date: "2026-09-18", note: "IPO $185，首日收 $311"}
+  - {id: ai.spcx, report: ai, label: SpaceX（SPCX）, metric: px.SPCX, baseline_value: 152.71, baseline_display: "$152.71", baseline_date: "2026-09-18", note: "IPO $135；峰值 $225.64（6-16）"}
+  - {id: ai.fig, report: ai, label: Figma, metric: px.FIG, baseline_value: 22, baseline_display: "≈$22", baseline_date: "2026-09-15", note: "IPO $33、首日 $115.5、较峰值 -81%"}
+  - {id: ai.cape, report: ai, label: Shiller CAPE, metric: val.cape, baseline_value: 40.94, baseline_display: "40.94", baseline_date: "2026-09-18", fmt: num, note: "仅次于互联网泡沫；1999-12 约 44"}
+  - {id: ai.hy_oas, report: ai, label: 高收益债利差, metric: fred.HY_OAS, baseline_value: null, baseline_display: "（报告未给；Meta 债 >7% 为信号）", baseline_date: "2026-09-20", fmt: num}
+  - {id: ai.gev, report: ai, label: GE Vernova 较 52 周高, metric: dd52w.GEV, baseline_value: null, baseline_display: "（远期 PE 41x；周期后段）", baseline_date: "2026-09-20", fmt: pct}
+  - {id: ai.kalshi_vol, report: ai, label: Kalshi 日成交（DefiLlama）, metric: pm.volume24h.kalshi, baseline_value: 475000000, baseline_display: "$475M/日", baseline_date: "2026-09-20", note: "报告：8 月合并月成交 $453 亿；3% 交易者拿 27% 利润"}
+  - {id: ai.rwa_treasuries, report: ai, label: 代币化美债规模（rwa.xyz）, metric: rwa.treasuries, baseline_value: 14820000000, baseline_display: "$14.8B", baseline_date: "2026-09-20", note: "报告：$156.5 亿（rwa.xyz 9-15）"}
+  - {id: ai.rwa_stocks, report: ai, label: 代币化股票规模（rwa.xyz）, metric: rwa.stocks, baseline_value: 3000000000, baseline_display: "$3.0B", baseline_date: "2026-09-20", note: "SEC 9-17 五年创新豁免"}

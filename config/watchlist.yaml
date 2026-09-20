@@ -1,0 +1,266 @@
+# 监控标的清单。symbol = 页面上的代号；id = CoinGecko id；tier = 报告档位；track = 报告赛道。
+crypto:
+  - {symbol: BTC, id: bitcoin, tier: 核心, track: 三大主流, risk: 3.55, elastic: 3.10}
+  - {symbol: ETH, id: ethereum, tier: 核心, track: 三大主流, risk: 3.55, elastic: 3.30}
+  - {symbol: BNB, id: binancecoin, tier: 核心, track: 隐私/支付/交易所, risk: 3.45, elastic: 3.05}
+  - {symbol: AAVE, id: aave, tier: 核心, track: 收入型DeFi, risk: 3.40, elastic: 3.25}
+  - {symbol: HYPE, id: hyperliquid, tier: 卫星, track: 收入型DeFi, risk: 3.25, elastic: 3.55}
+  - {symbol: NEAR, id: near, tier: 卫星, track: AI×加密/DePIN, risk: 3.20, elastic: 3.10}
+  - {symbol: SOL, id: solana, tier: 卫星, track: 三大主流, risk: 3.15, elastic: 3.40}
+  - {symbol: LINK, id: chainlink, tier: 卫星, track: RWA/机构链, risk: 3.15, elastic: 3.15}
+  - {symbol: UNI, id: uniswap, tier: 卫星, track: 收入型DeFi, risk: 3.05, elastic: 3.00}
+  - {symbol: TRX, id: tron, tier: 卫星, track: 隐私/支付/交易所, risk: 3.00, elastic: 2.65}
+  - {symbol: PENDLE, id: pendle, tier: 期权, track: 收入型DeFi, risk: 2.90, elastic: 2.95}
+  - {symbol: INJ, id: injective-protocol, tier: 期权, track: L2/替代L1, risk: 2.90, elastic: 2.95}
+  - {symbol: SKY, id: sky, tier: 期权, track: 收入型DeFi, risk: 2.70, elastic: 2.80}
+  - {symbol: ARB, id: arbitrum, tier: 期权, track: L2/替代L1, risk: 2.65, elastic: 3.10}
+  - {symbol: HNT, id: helium, tier: 期权, track: AI×加密/DePIN, risk: 2.65, elastic: 3.00}
+  - {symbol: ZEC, id: zcash, tier: 期权（仅已持有）, track: 隐私/支付/交易所, risk: 2.55, elastic: 2.80}
+  - {symbol: MORPHO, id: morpho, tier: 期权, track: 收入型DeFi, risk: 2.50, elastic: 2.90}
+  - {symbol: CC, id: canton-network, tier: 期权, track: RWA/机构链, risk: 2.45, elastic: 3.10}
+  - {symbol: ENA, id: ethena, tier: 期权, track: 收入型DeFi, risk: 2.35, elastic: 3.20}
+  - {symbol: AVAX, id: avalanche-2, tier: 观察, track: RWA/机构链, risk: 2.65, elastic: 2.80}
+  - {symbol: ADA, id: cardano, tier: 观察, track: L2/替代L1, risk: 2.60, elastic: 2.40}
+  - {symbol: JUP, id: jupiter-exchange-solana, tier: 观察, track: 收入型DeFi, risk: 2.55, elastic: 2.60}
+  - {symbol: RENDER, id: render-token, tier: 观察, track: AI×加密/DePIN, risk: 2.50, elastic: 2.65}
+  - {symbol: XRP, id: ripple, tier: 观察, track: RWA/机构链, risk: 2.45, elastic: 2.30}
+  - {symbol: DOGE, id: dogecoin, tier: 观察, track: L2/替代L1, risk: 2.40, elastic: 2.45}
+  - {symbol: LDO, id: lido-dao, tier: 观察, track: 收入型DeFi, risk: 2.40, elastic: 2.50}
+  - {symbol: HBAR, id: hedera-hashgraph, tier: 观察, track: RWA/机构链, risk: 2.35, elastic: 2.15}
+  - {symbol: SUI, id: sui, tier: 观察, track: L2/替代L1, risk: 2.35, elastic: 2.55}
+  - {symbol: PUMP, id: pump-fun, tier: 观察, track: 收入型DeFi, risk: 2.35, elastic: 2.80}
+  - {symbol: XLM, id: stellar, tier: 观察, track: RWA/机构链, risk: 2.30, elastic: 2.20}
+  - {symbol: ONDO, id: ondo-finance, tier: 观察, track: RWA/机构链, risk: 2.30, elastic: 2.85}
+  - {symbol: XMR, id: monero, tier: 观察, track: 隐私/支付/交易所, risk: 2.25, elastic: 2.40}
+  - {symbol: APT, id: aptos, tier: 观察, track: L2/替代L1, risk: 2.20, elastic: 2.45}
+  - {symbol: GRASS, id: grass, tier: 观察, track: AI×加密/DePIN, risk: 2.20, elastic: 2.70}
+  - {symbol: TAO, id: bittensor, tier: 观察, track: AI×加密/DePIN, risk: 2.10, elastic: 2.75}
+  - {symbol: GRAM/TON, id: the-open-network, tier: 回避, track: 隐私/支付/交易所, risk: 2.05, elastic: 2.35}
+  - {symbol: DOT, id: polkadot, tier: 回避, track: L2/替代L1, risk: 2.05, elastic: 2.25}
+  - {symbol: ATH, id: aethir, tier: 回避, track: AI×加密/DePIN, risk: 1.90, elastic: 2.45}
+  - {symbol: AKT, id: akash-network, tier: 回避, track: AI×加密/DePIN, risk: 1.90, elastic: 2.20}
+  - {symbol: OP, id: optimism, tier: 回避, track: L2/替代L1, risk: 1.85, elastic: 2.45}
+  - {symbol: MON, id: monad, tier: 回避, track: L2/替代L1, risk: 1.65, elastic: 2.30}
+  - {symbol: XPL, id: plasma, tier: 回避, track: 隐私/支付/交易所, risk: 1.60, elastic: 2.25}
+  - {symbol: VIRTUAL, id: virtual-protocol, tier: 回避, track: AI×加密/DePIN, risk: 1.60, elastic: 2.30}
+  # 报告之外但 AI 报告提到的对照标的
+  - {symbol: AI16Z, id: ai16z, tier: 对照, track: AI×加密/DePIN}
+  - {symbol: RAY, id: raydium, tier: 对照, track: 收入型DeFi}
+
+binance_pairs:
+  - {symbol: BTCUSDT, key: btc}
+  - {symbol: ETHUSDT, key: eth}
+  - {symbol: SOLUSDT, key: sol}
+  - {symbol: ETHBTC, key: ethbtc}
+  - {symbol: SOLBTC, key: solbtc}
+
+defillama:
+  fees:   # slug = DefiLlama 协议 slug
+    - {slug: hyperliquid, symbol: HYPE}
+    - {slug: aave, symbol: AAVE}
+    - {slug: uniswap, symbol: UNI}
+    - {slug: pendle, symbol: PENDLE}
+    - {slug: morpho, symbol: MORPHO}
+    - {slug: jupiter, symbol: JUP}
+    - {slug: pump.fun, symbol: PUMP}
+    - {slug: ethena, symbol: ENA}
+    - {slug: lido, symbol: LDO}
+    - {slug: sky, symbol: SKY}
+    - {slug: raydium, symbol: RAY}
+    - {slug: jito, symbol: JITO}
+    - {slug: chainlink, symbol: LINK}
+    - {slug: akash, symbol: AKT}
+  chains: [solana, ethereum, tron, bsc, arbitrum, base]
+  tvl:
+    - {slug: aave, symbol: AAVE}
+    - {slug: morpho, symbol: MORPHO}
+    - {slug: uniswap, symbol: UNI}
+    - {slug: hyperliquid, symbol: HYPE}
+    - {slug: pendle, symbol: PENDLE}
+    - {slug: lido, symbol: LDO}
+    - {slug: ethena, symbol: ENA}
+  stablecoins: {USDT: USDT, USDC: USDC, USDe: USDe, USDS: USDS, DAI: DAI, USDH: USDH, PYUSD: PYUSD, RLUSD: RLUSD, USDG: USDG}
+  unlocks:
+    - {slug: plasma, symbol: XPL}
+    - {slug: ethena, symbol: ENA}
+    - {slug: monad, symbol: MON}
+    - {slug: ondo, symbol: ONDO}
+    - {slug: hyperliquid, symbol: HYPE}
+    - {slug: arbitrum, symbol: ARB}
+    - {slug: sui, symbol: SUI}
+    - {slug: aptos, symbol: APT}
+    - {slug: aethir, symbol: ATH}
+    - {slug: grass, symbol: GRASS}
+
+fred:
+  - {id: DGS10, key: fred.DGS10, label: 10年期美债}
+  - {id: DGS2, key: fred.DGS2, label: 2年期美债}
+  - {id: DFII10, key: fred.DFII10, label: 10年期实际收益率}
+  - {id: T10YIE, key: fred.T10YIE, label: 10年盈亏平衡通胀}
+  - {id: DFF, key: fred.DFF, label: 联邦基金有效利率}
+  - {id: BAMLH0A0HYM2, key: fred.HY_OAS, label: 高收益债利差}
+  - {id: BAMLC0A0CM, key: fred.IG_OAS, label: 投资级利差}
+  - {id: WALCL, key: fred.WALCL, label: 美联储资产负债表}
+  - {id: RRPONTSYD, key: fred.RRP, label: 逆回购}
+  - {id: WTREGEN, key: fred.TGA, label: 财政部一般账户}
+  - {id: M2SL, key: fred.M2, label: M2}
+  - {id: DTWEXBGS, key: fred.DXY_BROAD, label: 广义美元指数}
+  - {id: VIXCLS, key: fred.VIX, label: VIX}
+
+# Yahoo Finance：key 为页面代号，group 供分组展示，report 标记所属报告
+yahoo:
+  # --- 能源与航运（战争）---
+  - {key: BRENT, symbol: "BZ=F", label: 布伦特原油, group: 能源与航运, report: war}
+  - {key: WTI, symbol: "CL=F", label: WTI 原油, group: 能源与航运, report: war}
+  - {key: NATGAS, symbol: "NG=F", label: 美国天然气 HH, group: 能源与航运, report: war}
+  - {key: TTF, symbol: "TTF=F", label: 欧洲天然气 TTF, group: 能源与航运, report: war}
+  - {key: FRO, symbol: FRO, label: Frontline（VLCC）, group: 能源与航运, report: war}
+  - {key: DHT, symbol: DHT, label: DHT（VLCC）, group: 能源与航运, report: war}
+  - {key: INSW, symbol: INSW, label: International Seaways, group: 能源与航运, report: war}
+  - {key: STNG, symbol: STNG, label: Scorpio（成品油轮）, group: 能源与航运, report: war}
+  - {key: ZIM, symbol: ZIM, label: ZIM（集运）, group: 能源与航运, report: war}
+  - {key: MAERSK, symbol: "MAERSK-B.CO", label: 马士基, group: 能源与航运, report: war}
+  - {key: CHENIERE, symbol: LNG, label: Cheniere（LNG）, group: 能源与航运, report: war}
+  - {key: XOM, symbol: XOM, label: 埃克森美孚, group: 能源与航运, report: war}
+  # --- 避险、利率、汇率 ---
+  - {key: GOLD, symbol: "GC=F", label: 黄金, group: 避险与利率, report: war}
+  - {key: SILVER, symbol: "SI=F", label: 白银, group: 避险与利率, report: war}
+  - {key: GDX, symbol: GDX, label: 金矿股 GDX, group: 避险与利率, report: war}
+  - {key: DXY, symbol: "DX-Y.NYB", label: 美元指数, group: 避险与利率, report: all}
+  - {key: US10Y, symbol: "^TNX", label: 10年期美债收益率, group: 避险与利率, report: all}
+  - {key: US30Y, symbol: "^TYX", label: 30年期美债收益率, group: 避险与利率, report: all}
+  - {key: VIX, symbol: "^VIX", label: VIX, group: 避险与利率, report: all}
+  - {key: EURUSD, symbol: "EURUSD=X", label: 欧元/美元, group: 避险与利率, report: war}
+  - {key: USDJPY, symbol: "USDJPY=X", label: 美元/日元, group: 避险与利率, report: war}
+  - {key: USDTHB, symbol: "USDTHB=X", label: 美元/泰铢, group: 避险与利率, report: ai}
+  - {key: USDCNY, symbol: "USDCNY=X", label: 美元/人民币, group: 避险与利率, report: war}
+  - {key: USDTWD, symbol: "TWD=X", label: 美元/新台币, group: 避险与利率, report: war}
+  - {key: USDKRW, symbol: "KRW=X", label: 美元/韩元, group: 避险与利率, report: war}
+  # --- 军工 ---
+  - {key: RHM, symbol: "RHM.DE", label: 莱茵金属, group: 军工, report: war}
+  - {key: ITA, symbol: ITA, label: 美国军工 ETF ITA, group: 军工, report: war}
+  - {key: LMT, symbol: LMT, label: 洛克希德·马丁, group: 军工, report: war}
+  - {key: RTX, symbol: RTX, label: RTX, group: 军工, report: war}
+  - {key: NOC, symbol: NOC, label: 诺斯罗普, group: 军工, report: war}
+  - {key: SAAB, symbol: "SAAB-B.ST", label: 萨博, group: 军工, report: war}
+  - {key: HANWHA, symbol: "012450.KS", label: 韩华航空航天, group: 军工, report: war}
+  - {key: MHI, symbol: "7011.T", label: 三菱重工, group: 军工, report: war}
+  - {key: HAL, symbol: "HAL.NS", label: HAL（印度）, group: 军工, report: war}
+  - {key: BEL, symbol: "BEL.NS", label: BEL（印度）, group: 军工, report: war}
+  - {key: KTOS, symbol: KTOS, label: Kratos（无人/反无人）, group: 军工, report: war}
+  # --- 台海 / 亚洲市场 ---
+  - {key: TAIEX, symbol: "^TWII", label: 台股加权指数, group: 亚洲市场, report: war}
+  - {key: TSMC_TW, symbol: "2330.TW", label: 台积电（台北）, group: 亚洲市场, report: war}
+  - {key: TSM, symbol: TSM, label: 台积电 ADR, group: 亚洲市场, report: war}
+  - {key: KOSPI, symbol: "^KS11", label: KOSPI, group: 亚洲市场, report: ai}
+  - {key: NIKKEI, symbol: "^N225", label: 日经 225, group: 亚洲市场, report: war}
+  - {key: HSI, symbol: "^HSI", label: 恒生指数, group: 亚洲市场, report: war}
+  - {key: CSI300, symbol: "000300.SS", label: 沪深 300, group: 亚洲市场, report: war}
+  - {key: NIFTY, symbol: "^NSEI", label: Nifty 50, group: 亚洲市场, report: war}
+  - {key: PSEI, symbol: "PSEI.PS", label: 菲律宾 PSEi, group: 亚洲市场, report: war}
+  - {key: SET, symbol: "^SET.BK", label: 泰国 SET, group: 亚洲市场, report: ai}
+  - {key: TA125, symbol: "^TA125.TA", label: 以色列 TA-125, group: 亚洲市场, report: war}
+  # --- 铀 / 关键矿物 / 化肥 / 农产品 ---
+  - {key: URANIUM_FUT, symbol: "UX=F", label: 铀期货（$/lb）, group: 铀矿物化肥, report: war}
+  - {key: FEDFUNDS_FUT, symbol: "ZQ=F", label: 联邦基金期货（100−隐含利率）, group: 避险与利率, report: all}
+  - {key: URA, symbol: URA, label: 铀 ETF URA, group: 铀矿物化肥, report: war}
+  - {key: CCJ, symbol: CCJ, label: Cameco, group: 铀矿物化肥, report: war}
+  - {key: SRUUF, symbol: SRUUF, label: Sprott 实物铀, group: 铀矿物化肥, report: war}
+  - {key: MP, symbol: MP, label: MP Materials（稀土）, group: 铀矿物化肥, report: war}
+  - {key: LYC, symbol: "LYC.AX", label: Lynas（稀土）, group: 铀矿物化肥, report: war}
+  - {key: CF, symbol: CF, label: CF Industries（氮肥）, group: 铀矿物化肥, report: war}
+  - {key: NTR, symbol: NTR, label: Nutrien（钾肥）, group: 铀矿物化肥, report: war}
+  - {key: COPPER, symbol: "HG=F", label: 铜, group: 铀矿物化肥, report: war}
+  - {key: WHEAT, symbol: "ZW=F", label: 小麦, group: 铀矿物化肥, report: war}
+  # --- 卖铲人 / 半导体 ---
+  - {key: NVDA, symbol: NVDA, label: 英伟达, group: 半导体, report: ai}
+  - {key: SOXX, symbol: SOXX, label: 费城半导体 ETF, group: 半导体, report: ai}
+  - {key: ASML, symbol: ASML, label: ASML, group: 半导体, report: ai}
+  - {key: AMD, symbol: AMD, label: AMD, group: 半导体, report: ai}
+  - {key: MU, symbol: MU, label: 美光（HBM）, group: 半导体, report: ai}
+  - {key: SKHYNIX, symbol: "000660.KS", label: SK 海力士, group: 半导体, report: ai}
+  - {key: SAMSUNG, symbol: "005930.KS", label: 三星电子, group: 半导体, report: ai}
+  - {key: AVGO, symbol: AVGO, label: 博通, group: 半导体, report: ai}
+  - {key: INTC, symbol: INTC, label: 英特尔（14A）, group: 半导体, report: war}
+  - {key: SMCI, symbol: SMCI, label: 超微, group: 半导体, report: ai}
+  # --- 超大规模云 / 新云 ---
+  - {key: MSFT, symbol: MSFT, label: 微软, group: 云与新云, report: ai}
+  - {key: GOOGL, symbol: GOOGL, label: Alphabet, group: 云与新云, report: ai}
+  - {key: AMZN, symbol: AMZN, label: 亚马逊, group: 云与新云, report: ai}
+  - {key: META, symbol: META, label: Meta, group: 云与新云, report: ai}
+  - {key: ORCL, symbol: ORCL, label: 甲骨文, group: 云与新云, report: ai}
+  - {key: CRWV, symbol: CRWV, label: CoreWeave, group: 云与新云, report: ai}
+  - {key: NBIS, symbol: NBIS, label: Nebius, group: 云与新云, report: ai}
+  # --- 电力设备 / 能源 ---
+  - {key: GEV, symbol: GEV, label: GE Vernova, group: 电力设备, report: ai}
+  - {key: VRT, symbol: VRT, label: Vertiv, group: 电力设备, report: ai}
+  - {key: SIEMENS_ENERGY, symbol: "ENR.DE", label: 西门子能源, group: 电力设备, report: ai}
+  - {key: HITACHI, symbol: "6501.T", label: 日立, group: 电力设备, report: ai}
+  - {key: ETN, symbol: ETN, label: 伊顿, group: 电力设备, report: ai}
+  - {key: PWR, symbol: PWR, label: Quanta（电网EPC）, group: 电力设备, report: ai}
+  - {key: CEG, symbol: CEG, label: Constellation（核电）, group: 电力设备, report: ai}
+  - {key: VST, symbol: VST, label: Vistra, group: 电力设备, report: ai}
+  - {key: TLN, symbol: TLN, label: Talen, group: 电力设备, report: ai}
+  - {key: OKLO, symbol: OKLO, label: Oklo（SMR）, group: 电力设备, report: ai}
+  # --- 加密相关股 ---
+  - {key: COIN, symbol: COIN, label: Coinbase, group: 加密相关股, report: crypto}
+  - {key: HOOD, symbol: HOOD, label: Robinhood, group: 加密相关股, report: ai}
+  - {key: CRCL, symbol: CRCL, label: Circle, group: 加密相关股, report: ai}
+  - {key: MSTR, symbol: MSTR, label: Strategy, group: 加密相关股, report: crypto}
+  - {key: BMNR, symbol: BMNR, label: BitMine, group: 加密相关股, report: crypto}
+  - {key: WULF, symbol: WULF, label: TeraWulf, group: 加密相关股, report: ai}
+  - {key: HUT, symbol: HUT, label: Hut 8, group: 加密相关股, report: ai}
+  - {key: IREN, symbol: IREN, label: IREN, group: 加密相关股, report: ai}
+  - {key: CORZ, symbol: CORZ, label: Core Scientific, group: 加密相关股, report: ai}
+  - {key: CIFR, symbol: CIFR, label: Cipher, group: 加密相关股, report: ai}
+  - {key: IBIT, symbol: IBIT, label: iShares BTC ETF, group: 加密相关股, report: crypto}
+  - {key: ETHA, symbol: ETHA, label: iShares ETH ETF, group: 加密相关股, report: crypto}
+  # --- 美股指数与宽度 / IPO ---
+  - {key: SPX, symbol: "^GSPC", label: 标普 500, group: 美股指数, report: all}
+  - {key: NDX, symbol: "^NDX", label: 纳斯达克 100, group: 美股指数, report: ai}
+  - {key: SPY, symbol: SPY, label: SPY, group: 美股指数, report: ai}
+  - {key: RSP, symbol: RSP, label: 等权标普 RSP, group: 美股指数, report: ai}
+  - {key: IPO_ETF, symbol: IPO, label: Renaissance IPO ETF, group: 美股指数, report: ai}
+  - {key: FIG, symbol: FIG, label: Figma, group: 美股指数, report: ai}
+  - {key: CBRS, symbol: CBRS, label: Cerebras（2026-05 IPO）, group: 美股指数, report: ai}
+  - {key: SPCX, symbol: SPCX, label: SpaceX（2026-06 IPO）, group: 美股指数, report: ai}
+  - {key: MOVE, symbol: "^MOVE", label: 美债波动率 MOVE（Yahoo 标签有误，数值可用）, group: 避险与利率, report: all}
+
+# 报告给出的锚点（ATH / 战前价），用于计算"较报告高点回撤"
+anchors:
+  GOLD: {ath: 5608, note: "2026-01 ATH（各来源 $5,589–5,608 不一）"}
+  SILVER: {ath: 120, note: "2026-01 约 $120"}
+  BRENT: {ath: 126, prewar: 72.48, note: "4 月盘中峰 $126；战前 2-27 $72.48"}
+  RHM: {ath: 2007, note: "52 周高 €2,007"}
+  ITA: {ath: 256.60, note: "52 周高"}
+  KOSPI: {ath: 9114.55, note: "2026-06-22 收盘高点（报告写作时 9-18 收 6,894 已较高点 -24%）"}
+
+# 预测市场（Polymarket Gamma）。slug 精确优先；否则 query+match 模糊。
+polymarket:
+  - {key: taiwan_clash_2027, label: "中台军事冲突（2027 前）", query: "Taiwan military clash", match: "taiwan"}
+  - {key: taiwan_invasion_2026, label: "中国入侵台湾（2026 年底前）", query: "China invade Taiwan 2026", match: "invade"}
+  - {key: iran_us_strike, label: "美国 2027 前入侵伊朗", slug: "will-the-us-invade-iran-before-2027"}
+  - {key: iran_israel_ceasefire, label: "以伊停火维持", slug: "israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963"}
+  - {key: iran_deal, label: "美伊最终核协议", slug: "us-iran-final-nuclear-deal-by-20260621201254412"}
+  - {key: iran_leadership, label: "伊朗领导层更替", slug: "iran-leadership-change-by"}
+  - {key: hormuz, label: "霍尔木兹年底前恢复正常通航", slug: "strait-of-hormuz-traffic-returns-to-normal-by-december-31"}
+  - {key: bab_el_mandeb, label: "曼德海峡实质关闭", slug: "bab-el-mandeb-strait-effectively-closed-by"}
+  - {key: ukraine_ceasefire, label: "俄乌停火", query: "Ukraine ceasefire", match: "ceasefire"}
+  - {key: russia_nato, label: "俄罗斯 2026 入侵另一国", slug: "will-russia-invade-another-country-in-2026"}
+  - {key: nk_invade, label: "朝鲜 2027 前入侵韩国", slug: "will-north-korea-invade-south-korea-before-2027"}
+  - {key: fed_next_hike, label: "10 月 FOMC 加息 25bp", slug: "fed-decision-in-october-20260617190323537", market_match: "increase interest rates by 25"}
+  - {key: fed_next_hold, label: "10 月 FOMC 不变", slug: "fed-decision-in-october-20260617190323537", market_match: "no change"}
+  - {key: anthropic_ipo, label: "Anthropic 2026 年底前 IPO", slug: "anthropic-ipo-by", market_match: "december 31"}
+  - {key: anthropic_ipo_month, label: "Anthropic 11 月 IPO", slug: "in-which-month-will-anthropic-ipo", market_match: "november"}
+  - {key: openai_ipo, label: "OpenAI 2026 年底前 IPO", slug: "openai-ipo-by", market_match: "december 31"}
+  - {key: btc_100k, label: "BTC 年底前重回 $100K", slug: "when-will-bitcoin-hit-100k", market_match: "december 31"}
+  - {key: taiwan_blockade_2026, label: "中国 2026 封锁台湾", slug: "will-china-blockade-taiwan-by-in-2026"}
+  - {key: taiwan_invasion_2027h1, label: "2027-06 前入侵台湾", slug: "will-china-invade-taiwan-by-june-30-2027"}
+  - {key: largest_ipo_2026, label: "2026 最大 IPO", slug: "largest-ipo-by-market-cap-in-2026-287"}
+  - {key: clarity_act, label: "CLARITY 法案通过", query: "CLARITY Act", match: "clarity"}
+  - {key: us_recession, label: "美国衰退", query: "US recession 2026", match: "recession"}
+  - {key: xi_out, label: "习近平离任（2027 前）", slug: "xi-jinping-out-before-2027"}
+
+extras: [portwatch, gpr, plavis, freight, treasury_curve, nyfed_rates, fiscal_tga, bls_cpi, coinmetrics, sosovalue_etf, cg_treasuries, cmc_altseason, mempool,
+         ultrasound, funding, kalshi_fed, eia_brent_spot, lbma_gold, multpl_cape, llama_pm_volume, cg_categories, rwa_xyz,
+         govtrack_clarity, llama_unlocks]
