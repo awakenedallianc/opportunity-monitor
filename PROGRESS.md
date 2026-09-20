@@ -31,12 +31,13 @@
 - [ ] 运行 rules-vs-reports 核对（会话限额恢复后）；合并 data/raw/extracted_claims.json（extract:crypto 108 条已保存；ai/war 提取因限额未完成）
 - [ ] 合并三篇报告的结构化提取结果（补规则/日历/基线遗漏）
 - [ ] 修完后：`python run.py --only yahoo,defillama,extras` → `python run.py --build-only` → 浏览器检查（本地 http://localhost:8791，服务由 .claude/launch.json 的 site 配置启动）
-- [ ] **待用户确认后**发布：`powershell -ExecutionPolicy Bypass -File scripts\publish_github.ps1 -Repo opportunity-monitor`（公开仓库 = 站点公开；原报告默认不上传）
+- [x] 已发布（用户确认）：仓库 https://github.com/awakenedallianc/opportunity-monitor ，站点 https://awakenedallianc.github.io/opportunity-monitor/ ；Pages 来源 = GitHub Actions；首个工作流运行 35519872649 结果见 `gh run list --workflow daily.yml`
+- [ ] 若云端首跑失败：`gh run view <id> --log-failed`；常见原因 CoinGecko 429（已有 Binance 兜底）、Yahoo 限流
 
 ## 已知限制（泰国网络）
 - FRED 不可达（熔断，财政部曲线兜底）；Farside/ISW 原站/Metaculus 403；GDELT 429；Stooq 需 JS 挑战
 - Binance 主站在 GitHub 美国运行器 451 → 已回退 data-api.binance.vision；CoinGecko 失败时主流币价格由 Binance 兜底（降级标记）
-- 本机 pandas 与 numpy 2.4 不兼容 → 项目不依赖 pandas
+- 本机全局 pandas 与 numpy 2.4 不兼容 → 项目运行不依赖 pandas；已建项目 venv（`.venv`，numpy 1.26.4 / pandas 3.0.6 / xlrd 2.0.2 / openpyxl / lxml），计划任务已改用 `.venv\Scripts\pythonw.exe`；run.py 与 local_boot.py 强制 UTF-8 输出（GBK 控制台泰文/© 报错已解决）
 
 ## 常用命令
 ```
@@ -46,6 +47,7 @@ python run.py --only extras,polymarket
 python run.py --build-only    # 只重建页面
 python run.py --import-only   # 从 data/snapshots + data/news_archive 重建历史库
 python scripts/local_boot.py --skip-run --no-open
+powershell -ExecutionPolicy Bypass -File scripts\setup_venv.ps1   # 新机器：建 .venv（然后重跑 install_task.ps1）
 powershell -ExecutionPolicy Bypass -File scripts\install_task.ps1
 ```
 

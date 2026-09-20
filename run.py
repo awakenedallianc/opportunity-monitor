@@ -4,8 +4,16 @@
 --build-only    不抓取，用库中数据重建页面
 --import-only   仅从 data/snapshots 与 data/news_archive 重建历史库（云端/新机器首次运行会自动做）
 """
+import os
 import sys
 from pathlib import Path
+
+for _k, _v in (("PYTHONIOENCODING", "utf-8"), ("PYTHONUTF8", "1")):
+    if not os.environ.get(_k):
+        os.environ[_k] = _v
+for _s in (sys.stdout, sys.stderr):
+    if _s is not None and hasattr(_s, "reconfigure"):
+        _s.reconfigure(encoding="utf-8", errors="replace")
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 

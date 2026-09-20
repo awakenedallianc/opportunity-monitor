@@ -4,3 +4,7 @@ PyYAML>=6.0
 Jinja2>=3.1
 lxml>=5.0
 xlrd>=2.0
+openpyxl>=3.1
+# numpy 2.4 on this machine breaks the system pandas ABI ("numpy.dtype size changed"); pin <2 so pandas works in .venv
+numpy<2
+pandas>=2.2

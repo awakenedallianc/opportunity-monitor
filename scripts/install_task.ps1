@@ -4,7 +4,9 @@
 $ErrorActionPreference = 'Stop'
 $TaskName = 'OpportunityMonitor-Daily'
 $root = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
-$py = Join-Path (Split-Path -Parent (Get-Command python).Source) 'pythonw.exe'
+# Prefer the project venv (scripts\setup_venv.ps1) so numpy<2/pandas/xlrd are the tested versions; fall back to global python.
+$py = Join-Path $root '.venv\Scripts\pythonw.exe'
+if (-not (Test-Path $py)) { $py = Join-Path (Split-Path -Parent (Get-Command python).Source) 'pythonw.exe' }
 if (-not (Test-Path $py)) { $py = (Get-Command python).Source }
 $script = Join-Path $root 'scripts\local_boot.py'
 

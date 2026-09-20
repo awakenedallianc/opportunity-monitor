@@ -22,6 +22,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 os.chdir(ROOT)
+# 控制台/子进程强制 UTF-8：Windows 中文系统默认 GBK，泰文/©等字符会触发 UnicodeEncodeError
+for _k, _v in (("PYTHONIOENCODING", "utf-8"), ("PYTHONUTF8", "1")):
+    if not os.environ.get(_k):
+        os.environ[_k] = _v
+for _s in (sys.stdout, sys.stderr):
+    if _s is not None and hasattr(_s, "reconfigure"):
+        _s.reconfigure(encoding="utf-8", errors="replace")
 
 LOG = ROOT / "logs" / "local.log"
 LOG.parent.mkdir(exist_ok=True)
