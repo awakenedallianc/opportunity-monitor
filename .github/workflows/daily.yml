@@ -27,6 +27,7 @@ jobs:
     env:
       TZ: Asia/Bangkok
       PYTHONUTF8: '1'
+      EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 1 }

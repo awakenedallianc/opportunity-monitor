@@ -15,6 +15,14 @@ for _s in (sys.stdout, sys.stderr):
     if _s is not None and hasattr(_s, "reconfigure"):
         _s.reconfigure(encoding="utf-8", errors="replace")
 
+# 读取项目根目录 .env（API 密钥等；文件已被 gitignore）
+_env = Path(__file__).resolve().parent / ".env"
+if _env.exists():
+    for _line in _env.read_text(encoding="utf-8").splitlines():
+        if "=" in _line and not _line.strip().startswith("#"):
+            _k, _v = _line.split("=", 1)
+            os.environ.setdefault(_k.strip(), _v.strip())
+
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 
 from monitor.run import main  # noqa: E402
