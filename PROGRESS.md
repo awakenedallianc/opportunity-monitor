@@ -2,7 +2,7 @@
 
 > 目的：会话中断、token 受限、换电脑后都能从这里接上，**不要重跑已完成的工作**。
 
-## 断点（2026-09-20 22:05 曼谷）— 本地版本已完成并可用；仅剩"发布到 GitHub Pages"待用户确认
+## 断点（2026-09-20 22:50 曼谷）— 本地与云端均已上线；剩余为增量优化
 
 ### 已完成（不要重做）
 - 三篇报告通读与规则化：config/ 下 rules(115)、calendar、baseline、static、topics、feeds、watchlist 全部就绪
@@ -28,8 +28,8 @@
 | review:rules-vs-reports | **未完成**（agent 因会话限额失败）；下次可单独跑：对照 data/raw/*_text.txt 检查 config/rules.yaml 阈值 |
 
 ### 待办
-- [ ] 运行 rules-vs-reports 核对（会话限额恢复后）；合并 data/raw/extracted_claims.json（extract:crypto 108 条已保存；ai/war 提取因限额未完成）
-- [ ] 合并三篇报告的结构化提取结果（补规则/日历/基线遗漏）
+- [x] 研究工作流全部 22 个 agent 已完成（限额恢复后自动跑完）：三篇报告结构化提取 + 校验版（crypto 122 / ai 121 / war 111 条 claims）、完整性 critic（覆盖 59 / 部分 46 / 缺失 8，缺失项全是需人工年度更新的静态锚点）已保存到 `data/raw/extracted_claims.json`（本地，未入库）
+- [ ] 增量合并：把 extracted_claims.json 中 automatable=yes 且 rules.yaml 尚无的条件补进规则/日历/基线（46 项 partial 覆盖见 critic.coverage_matrix）；rules-vs-reports 逐条核对仍未跑
 - [ ] 修完后：`python run.py --only yahoo,defillama,extras` → `python run.py --build-only` → 浏览器检查（本地 http://localhost:8791，服务由 .claude/launch.json 的 site 配置启动）
 - [x] 已发布（用户确认）：仓库 https://github.com/awakenedallianc/opportunity-monitor ，站点 https://awakenedallianc.github.io/opportunity-monitor/ ；Pages 来源 = GitHub Actions；首个工作流运行 35519872649 结果见 `gh run list --workflow daily.yml`
 - [ ] 若云端首跑失败：`gh run view <id> --log-failed`；常见原因 CoinGecko 429（已有 Binance 兜底）、Yahoo 限流
