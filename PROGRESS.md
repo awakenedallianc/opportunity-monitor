@@ -46,6 +46,9 @@
 - Binance 主站在 GitHub 美国运行器 451 → 已回退 data-api.binance.vision；CoinGecko 失败时主流币价格由 Binance 兜底（降级标记）
 - 本机全局 pandas 与 numpy 2.4 不兼容 → 项目运行不依赖 pandas；已建项目 venv（`.venv`，numpy 1.26.4 / pandas 3.0.6 / xlrd 2.0.2 / openpyxl / lxml），计划任务已改用 `.venv\Scripts\pythonw.exe`；run.py 与 local_boot.py 强制 UTF-8 输出（GBK 控制台泰文/© 报错已解决）
 
+## 提交须知
+- 本机手动提交代码时只 `git add src config scripts docs/assets README.md PROGRESS.md .github`，不要 `git add -A`：data/snapshots 与 data/news_archive 由云端 Actions 提交，本地生成的同名文件会冲突（冲突时以云端为准：`git checkout --ours -- data/...`）
+
 ## 常用命令
 ```
 python run.py                 # 全量（首轮回填约 400 天历史，约 8 分钟）
