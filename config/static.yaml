@@ -113,3 +113,30 @@ eec:
   - ["Sattahip 1 & 2", "150 MW（合计）", "计划"]
   - ["EEC 数据中心紧急用电需求合计", "1,150 MW", "EGAT Quick Big Win"]
   - ["能源部 PDP 2026 采信 / 数据中心申请", "8.8 GW / 35 GW", "2026-09-16 The Nation；EEC 电网升级约 350 亿泰铢"]
+
+# 三篇报告的"逻辑线"：节点按报告论证顺序排列；metric 为今日读数键（页面把实时读数放进节点），rule 为对应规则 id
+logic_chains:
+  crypto:
+    title: 加密：从宏观流动性到入场条件
+    steps:
+      - {name: 宏观, claim: "Fed 9/16 加息至 3.75–4.00%；10 年期≈5%；全球流动性 2025Q3 见顶，低谷最佳猜测 2027", metrics: [fed.target_high, px.US10Y, fed.effr], watch: "Kalshi/Polymarket 下次会议加息概率", rules: [war.fed.hike_odds, war.fed.cut_odds, war.us10y.above_5]}
+      - {name: 周期位置, claim: "BTC 高点后约 11 个月；回撤 −53%（历史 −77~87%）；低点守 200 周均线之上；2028-04 减半", metrics: [athdd.BTC, crypto.btc.wma200, crypto.btc.realized_price, btc.days_to_halving], rules: [crypto.btc.below_200wma, crypto.btc.below_realized, crypto.btc.deep_drawdown]}
+      - {name: 筛选条件, claim: "①强制现金流通道 ②供给压力已释放 ③可计量需求通道 ④生存概率（基础比率：2021 前 100 五年后仅 41 个仍在）", metrics: [crypto.hype.buyback_yield, etf.btc.flow_30d, stable.total, crypto.altseason], rules: [crypto.hype.buyback_yield_low, crypto.etf.outflow_2m, crypto.altseason.75]}
+      - {name: 结果, claim: "核心 4 / 卫星 6 / 期权 9 / 观察 16 / 回避 8；入场按条件而非价格；建仓期 2026 末–2027；减半后 12–18 个月 → 模板峰值 2029", metrics: [px.BTC, crypto.btc.wma50, crypto.ethbtc, crypto.solbtc], rules: [crypto.btc.entry_a, crypto.btc.entry_b, crypto.eth.entry, crypto.sol.low_zone]}
+      - {name: 整体失效条件, claim: "BTC 月线跌破 $53.6K 实现价格且 ETF 持续流出 ｜ 2027 年美国通过全面收紧 DeFi/稳定币收益的法案 ｜ 2028 年前量子攻击实际演示", metrics: [crypto.btc.monthly_close, etf.btc.flow_60d], rules: [crypto.btc.invalidation, crypto.news.regulation, crypto.news.quantum], kind: invalidation}
+  war:
+    title: 地缘：买中断、卖恐惧
+    steps:
+      - {name: 威胁 vs 行为, claim: "威胁型事件：股指均 −1.0%/日、38.8 日收复，避险资产脉冲后回吐；行为型事件：物理切断供给 → 通胀与利率 → 反噬避险资产（2026 黄金 −25%）", metrics: [px.VIX, px.US10Y, dd_ath.GOLD], rules: [war.vix.30, war.us10y.above_5, war.gold.rebound]}
+      - {name: 哪条物理通道被切断, claim: "霍尔木兹=原油/LNG/尿素；波罗的海黑海=谷物钾肥影子船队；台海=先进芯片/半数集装箱/东亚 LNG；朝鲜印巴几乎不切断全球通道", metrics: [chokepoint.hormuz.ratio, chokepoint.bab_el_mandeb.ratio, chokepoint.taiwan.ratio, war.brent_physical_premium], rules: [war.hormuz.transits_low, war.bab.transits_low, war.taiwan_strait.transits_drop, war.brent.physical_premium]}
+      - {name: 资产映射, claim: "一阶：布伦特/亚洲 LNG；二阶（历史涨幅更大）：VLCC 运费、战争险、化肥、拦截弹补库；军工=多年预算慢牛+被回吐的战争日脉冲", metrics: [px.BRENT, px.TTF, px.FRO, px.CF, px.RHM], rules: [war.brent.weekly_spike, war.ttf.spike, war.tanker.pulse, war.defense.war_day_pulse]}
+      - {name: 当前起点, claim: "能源已充分定价；黄金较高点 −22%、军工 ETF 年内 0%、莱茵金属 −45%；台股与 KOSPI 历史高位；台海零折价", metrics: [dd_ath.GOLD, dd_ath.RHM, ytd.ITA, dd52w.TAIEX, dd52w.KOSPI], rules: [war.rhm.rebound, war.taiex.discount, war.kospi.crash]}
+      - {name: 未定价的尾部, claim: "台海封锁类 5 年 30–50% 但市场零折价；俄–北约东翼 2026 秋起；关键矿物反制；错杀的军工与黄金", metrics: [pm.taiwan_clash_2027, pm.taiwan_blockade_2026, pla.aircraft_daily, pm.russia_nato, px.MP], rules: [war.pm.taiwan_up, war.pla.aircraft_spike, war.news.russia_nato, war.news.rare_earth], kind: opportunity}
+  ai:
+    title: AI 时代：五步机制与 1999 年秋
+    steps:
+      - {name: 历史规律, claim: "三个时代同一套五步：内部人股权 → 无估值锚资产 → 卖铲人 → 零售准入时刻（人均回报最差）→ 崩盘后幸存者（最佳买点）", metrics: [dd52w.IPO_ETF, dd52w.FIG, dd52w.SPCX], rules: [ai.ipo_etf.drawdown]}
+      - {name: 当前位置, claim: "2026-09 ≈ 1999 年秋：估值尺（EPS 预期 20.2% > 2000 峰值、CAPE 仅次于互联网泡沫）、资本开支尺（7,000 亿 vs 需求空洞）、融资结构尺（AI 债 $5,700 亿、Meta 债 >7%）、货币与 IPO 尺（加息 + Anthropic/OpenAI IPO）", metrics: [val.cape, fred.HY_OAS, ai.breadth_gap_30d, pm.anthropic_ipo, fed.target_high], rules: [ai.hy_spread.500, ai.breadth.narrow, ai.news.anthropic_ipo, ai.news.ai_debt]}
+      - {name: 钱流向变了, claim: "交融的钱流向发行方、交易所股东、债权人、设备商，而非代币持有者；机会=站在有定价权的瓶颈上", metrics: [stable.total, px.CRCL, px.GEV, px.VRT, cg.cat.ai-agents], rules: [ai.gev.drawdown, ai.crcl.drawdown, ai.news.power_grid]}
+      - {name: 两段式机会, claim: "2026–28 防守+实业进攻（EEC 变电站、设备采购）；2028–31 清算期买幸存者（GPU 债务错配）；2031–36 生产率兑现；前提是那时还有现金", metrics: [dd52w.NVDA, dd52w.SOXX, dd52w.CRWV, dd52w.WULF], rules: [ai.nvda.drawdown20, ai.sox.drawdown30, ai.crwv.drawdown, ai.news.capex_cut]}
+      - {name: 个人次序, claim: "① 本职业 AI 化 + 实业订单（EEC 8.8 GW 采信 vs 35 GW 申请）② 留 2028 年后的弹药 ③ 小仓位持有已定价瓶颈层；避开代币/永续/杠杆", metrics: [px.SKHYNIX, dd52w.SKHYNIX, px.KOSPI], rules: [ai.news.thailand_dc, ai.news.sea_dc, ai.skhynix.drawdown], kind: action}

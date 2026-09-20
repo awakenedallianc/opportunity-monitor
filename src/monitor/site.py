@@ -21,5 +21,14 @@ def render(payload: dict, out: Path | None = None) -> Path:
     out = out or (DOCS_DIR / "index.html")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html, encoding="utf-8")
+    # 静态资源（样式/脚本）随模板一起发布，保证 file:// 与 Pages 都能加载
+    assets_src = TEMPLATES / "assets"
+    if assets_src.exists():
+        import shutil
+        dst = out.parent / "assets"
+        dst.mkdir(parents=True, exist_ok=True)
+        for p in assets_src.iterdir():
+            if p.is_file():
+                shutil.copy2(p, dst / p.name)
     log.info("site written: %s (%.1f KB)", out, len(html.encode("utf-8")) / 1024)
     return out

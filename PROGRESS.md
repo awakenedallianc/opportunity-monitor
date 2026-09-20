@@ -2,7 +2,14 @@
 
 > 目的：会话中断、token 受限、换电脑后都能从这里接上，**不要重跑已完成的工作**。
 
-## 断点（2026-09-20 22:50 曼谷）— 本地与云端均已上线；剩余为增量优化
+## 断点（2026-09-20 23:20 曼谷）— 本地与云端均已上线；当前任务：前端全面重设计（数据/规则链条不动）
+
+### 已完成：UI 重设计（2026-09-20 23:30）
+- 调研工作流 `wf_7ae863b7-7ab`（6 个视角 + 设计总监合成 brief），journal 在 `...\subagents\workflows\wf_7ae863b7-7ab\journal.jsonl`
+- 已落地：新模板 `src/monitor/templates/index.html.j2` + `templates/assets/app.css|app.js`（构建时复制到 docs/assets）；`config/static.yaml: logic_chains`；rules.py 结果新增 `when`/`metric_keys` 字段（仅供前端画阈值条与抽屉曲线，不改评估逻辑）
+- 设计 brief 全文在 `data/raw/design_brief.json`（design-brief 键）；未实现的次要项：Inter 字体子集、数值 count-up 动画、CSV 下载、日期滑块、Full-Coverage 二级抽屉、列表虚拟化
+- 已在桌面/手机/深色三种视图下检查：无控制台错误、无横向溢出
+- 数据、规则、抓取、payload 结构一律不改；只改呈现
 
 ### 已完成（不要重做）
 - 三篇报告通读与规则化：config/ 下 rules(115)、calendar、baseline、static、topics、feeds、watchlist 全部就绪

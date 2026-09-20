@@ -192,5 +192,22 @@ def evaluate_rules(rules: list[dict], ctx: RuleContext) -> list[dict]:
             "status": "fired" if ok is True else ("nodata" if ok is None else "idle"),
             "why": why,
             "priority": int(r.get("priority", 3)),
+            "when": r.get("when"),              # 原始条件（仅供前端展示阈值/画条，不参与评估）
+            "metric_keys": _metric_keys(r.get("when")),
         })
     return out
+
+
+def _metric_keys(cond: Any) -> list[str]:
+    """收集条件里引用的指标键（前端抽屉据此画曲线）。"""
+    keys: list[str] = []
+    if isinstance(cond, dict):
+        for k in ("metric", "ref_metric"):
+            if cond.get(k):
+                keys.append(cond[k])
+        for k in ("all", "any"):
+            for sub in cond.get(k, []) or []:
+                keys += _metric_keys(sub)
+        if cond.get("condition"):
+            keys += _metric_keys(cond["condition"])
+    return list(dict.fromkeys(keys))

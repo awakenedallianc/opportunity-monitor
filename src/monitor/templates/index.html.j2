@@ -2,516 +2,95 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>机会监控 · {{ date }}</title>
-<meta name="description" content="基于三篇深度推演报告的每日自动更新信息可视化与机会监控">
-<style>
-{% raw %}
-:root{
-  color-scheme:light;
-  --page:#f9f9f7;--surface:#fcfcfb;--surface-2:#f3f2ee;--ink:#0b0b0b;--ink-2:#52514e;--muted:#898781;--grid:#e1e0d9;--axis:#c3c2b7;--border:rgba(11,11,11,.10);
-  --s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;--s6:#008300;--s7:#4a3aa7;--s8:#e34948;
-  --good:#0ca30c;--warn:#fab219;--serious:#ec835a;--critical:#d03b3b;--up:#006300;--down:#b42318;
-  --good-bg:rgba(12,163,12,.10);--warn-bg:rgba(250,178,25,.14);--serious-bg:rgba(236,131,90,.14);--critical-bg:rgba(208,59,59,.10);--info-bg:rgba(137,135,129,.12);
-  --radius:10px;--shadow:0 1px 2px rgba(0,0,0,.04);
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    color-scheme:dark;
-    --page:#0d0d0d;--surface:#1a1a19;--surface-2:#232322;--ink:#ffffff;--ink-2:#c3c2b7;--muted:#898781;--grid:#2c2c2a;--axis:#383835;--border:rgba(255,255,255,.10);
-    --s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300;--s7:#9085e9;--s8:#e66767;
-    --up:#0ca30c;--down:#e66767;
-  }
-}
-:root[data-theme="dark"]{
-  color-scheme:dark;
-  --page:#0d0d0d;--surface:#1a1a19;--surface-2:#232322;--ink:#ffffff;--ink-2:#c3c2b7;--muted:#898781;--grid:#2c2c2a;--axis:#383835;--border:rgba(255,255,255,.10);
-  --s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300;--s7:#9085e9;--s8:#e66767;
-  --up:#0ca30c;--down:#e66767;
-}
-*{box-sizing:border-box}
-html,body{margin:0;background:var(--page);color:var(--ink);font:14px/1.5 system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
-a{color:var(--s1);text-decoration:none}a:hover{text-decoration:underline}
-header{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--grid);padding:8px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-header h1{font-size:17px;margin:0;font-weight:700}
-header .sub{color:var(--ink-2);font-size:12px}
-header .spacer{flex:1}
-.btn{border:1px solid var(--border);background:var(--surface-2);color:var(--ink);border-radius:8px;padding:5px 10px;font-size:12px;cursor:pointer}
-.btn:hover{border-color:var(--axis)}
-nav.tabs{display:flex;gap:4px;overflow-x:auto;padding:6px 12px;background:var(--surface);border-bottom:1px solid var(--grid);position:sticky;top:49px;z-index:19}
-nav.tabs button{white-space:nowrap;border:0;background:transparent;color:var(--ink-2);padding:8px 12px;border-radius:8px;font-size:14px;cursor:pointer}
-nav.tabs button.active{background:var(--surface-2);color:var(--ink);font-weight:600}
-nav.tabs button .n{display:inline-block;min-width:18px;padding:0 5px;border-radius:9px;background:var(--critical);color:#fff;font-size:11px;margin-left:4px;text-align:center}
-main{max-width:1380px;margin:0 auto;padding:12px 16px 60px}
-section.tab{display:none}section.tab.active{display:block}
-h2{font-size:16px;margin:22px 0 10px;display:flex;align-items:baseline;gap:8px}
-h2 small{color:var(--muted);font-weight:400;font-size:12px}
-h3{font-size:14px;margin:16px 0 8px;color:var(--ink-2)}
-.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;box-shadow:var(--shadow)}
-.grid{display:grid;gap:10px}
-.g-kpi{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
-.g-2{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}
-.g-3{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
-.tile{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:10px 12px;min-height:84px;display:flex;flex-direction:column;gap:2px}
-.tile .l{font-size:12px;color:var(--ink-2);display:flex;justify-content:space-between;gap:6px}
-.tile .v{font-size:22px;font-weight:600;letter-spacing:-.01em}
-.tile .d{font-size:12px;color:var(--ink-2);display:flex;gap:8px;align-items:center}
-.tile svg{width:100%;height:26px;margin-top:2px}
-.up{color:var(--up)}.down{color:var(--down)}
-.chip{display:inline-block;font-size:11px;padding:1px 7px;border-radius:10px;background:var(--surface-2);color:var(--ink-2);border:1px solid var(--border);margin-right:4px;white-space:nowrap}
-.chip.r-crypto{border-color:var(--s1)}.chip.r-war{border-color:var(--s2)}.chip.r-ai{border-color:var(--s3)}.chip.r-all{border-color:var(--muted)}
-.lvl{display:inline-flex;align-items:center;gap:4px;font-size:11px;padding:1px 8px;border-radius:10px;font-weight:600;white-space:nowrap}
-.lvl.opportunity{background:var(--good-bg);color:var(--good)}
-.lvl.warning{background:var(--warn-bg);color:#8a5a00}
-.lvl.invalidation{background:var(--critical-bg);color:var(--critical)}
-.lvl.event{background:var(--serious-bg);color:#a3421f}
-.lvl.info{background:var(--info-bg);color:var(--ink-2)}
-:root[data-theme="dark"] .lvl.warning{color:var(--warn)}
-:root[data-theme="dark"] .lvl.event{color:var(--serious)}
-@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .lvl.warning{color:var(--warn)} :root:not([data-theme="light"]) .lvl.event{color:var(--serious)} }
-.new{background:var(--critical);color:#fff;font-size:10px;padding:0 5px;border-radius:8px;margin-left:4px}
-.alert{border-left:4px solid var(--muted);padding:8px 10px;margin:6px 0;background:var(--surface);border-radius:6px;border-top:1px solid var(--border);border-right:1px solid var(--border);border-bottom:1px solid var(--border)}
-.alert.opportunity{border-left-color:var(--good)}.alert.warning{border-left-color:var(--warn)}.alert.invalidation{border-left-color:var(--critical)}.alert.event{border-left-color:var(--serious)}
-.alert .t{font-weight:600}.alert .w{color:var(--ink-2);font-size:12px;margin-top:2px}.alert .a{font-size:12px;margin-top:4px}.alert .s{font-size:11px;color:var(--muted);margin-top:2px}
-table{width:100%;border-collapse:collapse;font-size:13px}
-th{text-align:left;color:var(--ink-2);font-weight:600;font-size:12px;border-bottom:1px solid var(--axis);padding:6px 8px;white-space:nowrap;position:sticky;top:0;background:var(--surface)}
-td{padding:6px 8px;border-bottom:1px solid var(--grid);vertical-align:top}
-td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
-tr:hover td{background:var(--surface-2)}
-.tbl{overflow:auto;max-height:70vh;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}
-.chart{height:280px;width:100%}
-.chart-title{font-size:13px;color:var(--ink-2);margin:0 0 4px;display:flex;justify-content:space-between}
-.legend{font-size:11px;color:var(--ink-2)}.legend i{display:inline-block;width:14px;height:2px;vertical-align:middle;margin:0 4px 0 8px}
-.muted{color:var(--muted)}.small{font-size:12px}
-.status-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
-.st-fired .status-dot{background:var(--critical)}.st-idle .status-dot{background:var(--axis)}.st-nodata .status-dot{background:var(--warn)}
-.news{list-style:none;padding:0;margin:0}
-.news li{padding:8px 4px;border-bottom:1px solid var(--grid)}
-.news li.read{opacity:.55}
-.news .h{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
-.news .h .time{color:var(--muted);font-size:11px;white-space:nowrap;font-variant-numeric:tabular-nums}
-.news .h .src{color:var(--ink-2);font-size:11px;white-space:nowrap}
-.news .h .tier{font-size:10px;border:1px solid var(--border);border-radius:4px;padding:0 4px;color:var(--muted)}
-.news .h .title{font-size:14px}
-.news .sum{color:var(--ink-2);font-size:12px;margin-top:3px;display:none}
-.reading .news .sum{display:block}
-.news .hot{color:var(--critical);font-weight:700}
-.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0}
-.filters select,.filters input{border:1px solid var(--border);background:var(--surface);color:var(--ink);border-radius:8px;padding:5px 8px;font-size:13px}
-.filters label{font-size:12px;color:var(--ink-2);display:flex;align-items:center;gap:4px}
-.dir{font-weight:700}.dir.u2{color:var(--up)}.dir.u1{color:var(--up)}.dir.d2{color:var(--down)}.dir.d1{color:var(--down)}.dir.p{color:var(--s2)}.dir.n{color:var(--muted)}
-.mat td{font-size:12px}
-.kv{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:12px}
-.kv b{color:var(--ink-2);font-weight:500}
-.hot-card{display:flex;flex-direction:column;gap:4px}
-.bar{height:8px;background:var(--surface-2);border-radius:4px;position:relative;overflow:hidden}
-.bar i{position:absolute;top:0;bottom:0;background:var(--s2);opacity:.85;border-radius:4px}
-.bar i.b5{background:var(--s1);opacity:.6}
-.phase{border-left:3px solid var(--s1);padding:4px 10px;margin:6px 0}
-.phase.p2{border-left-color:var(--s2)}.phase.p3{border-left-color:var(--s3)}
-details summary{cursor:pointer;color:var(--ink-2);font-size:13px}
-.footer{color:var(--muted);font-size:11px;margin-top:30px;border-top:1px solid var(--grid);padding-top:10px}
-.pill-row{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
-.pill{font-size:12px;padding:3px 9px;border-radius:12px;border:1px solid var(--border);background:var(--surface);cursor:pointer}
-.pill.active{background:var(--ink);color:var(--surface)}
-@media (max-width:640px){main{padding:8px 12px 60px}.tile .v{font-size:19px}.chart{height:220px}nav.tabs{top:auto;position:static}header{position:static}}
-{% endraw %}
-</style>
+<meta name="description" content="基于三篇深度推演报告的每日自动更新信息可视化与机会监控（纯规则，无大模型）">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
-<header>
-  <h1>机会监控</h1>
-  <span class="sub">数据日期 <b id="hdr-date">{{ date }}</b> · 生成于 <span id="hdr-gen">{{ generated_at }}</span></span>
-  <span class="spacer"></span>
-  <span class="sub" id="hdr-status"></span>
-  <button class="btn" id="theme-btn" title="切换主题">🌗 主题</button>
-</header>
-<nav class="tabs" id="tabs">
-  <button data-tab="overview" class="active">总览</button>
-  <button data-tab="crypto">加密</button>
-  <button data-tab="geo">地缘</button>
-  <button data-tab="ai">AI 时代</button>
-  <button data-tab="track">推演追踪</button>
-  <button data-tab="read">阅读</button>
-  <button data-tab="data">数据</button>
+<a class="sr-only" href="#main">跳到内容</a>
+<div class="frame">
+  <aside class="rail" id="rail" aria-label="主导航">
+    <div class="brand">机会监控</div>
+    <button class="nv" data-tab="overview" role="tab" aria-selected="true">总览<span class="n" data-count="overview"></span></button>
+    <hr>
+    <button class="nv" data-tab="crypto" role="tab">加密<span class="n" data-count="crypto"></span></button>
+    <button class="nv" data-tab="geo" role="tab">地缘<span class="n" data-count="geo"></span></button>
+    <button class="nv" data-tab="ai" role="tab">AI 时代<span class="n" data-count="ai"></span></button>
+    <hr>
+    <button class="nv" data-tab="track" role="tab">推演追踪<span class="n" data-count="track"></span></button>
+    <button class="nv" data-tab="read" role="tab">阅读<span class="n" data-count="read"></span></button>
+    <hr>
+    <button class="nv" data-tab="data" role="tab">数据<span class="n" data-count="data"></span></button>
+    <div class="foot" id="rail-foot"></div>
+  </aside>
+  <div class="content">
+    <header class="top">
+      <span class="brand">机会监控</span>
+      <span class="date" id="hdr-date">{{ date }}</span>
+      <span class="spacer"></span>
+      <button class="iconbtn" id="btn-help" title="快捷键 (?)" aria-label="快捷键"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 1-1 1.7"/><path d="M12 17h.01"/></svg></button>
+      <button class="iconbtn" id="btn-settings" title="设置" aria-label="设置" aria-haspopup="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+    </header>
+    <div class="pop" id="pop-settings" role="dialog" aria-label="设置">
+      <div class="row"><span>主题</span><span class="seg" data-setting="theme"><button data-v="auto">自动</button><button data-v="light">浅色</button><button data-v="dark">深色</button></span></div>
+      <div class="row"><span>涨跌色</span><span class="seg" data-setting="dir"><button data-v="green-up">绿涨红跌</button><button data-v="red-up">红涨绿跌</button></span></div>
+      <div class="row"><span>密度</span><span class="seg" data-setting="density"><button data-v="normal">标准</button><button data-v="compact">紧凑</button></span></div>
+      <div class="row small muted">设置只保存在本浏览器</div>
+    </div>
+    <div class="pop" id="pop-help" role="dialog" aria-label="快捷键">
+      <div class="row"><span>切换页面</span><span><span class="kbd">1</span>–<span class="kbd">7</span></span></div>
+      <div class="row"><span>关闭抽屉/弹层</span><span class="kbd">Esc</span></div>
+      <div class="row"><span>打开数字/规则详情</span><span>点击任意读数</span></div>
+      <div class="row"><span>阅读页标记已读</span><span>点击标题</span></div>
+    </div>
+    <div class="strip" id="strip"></div>
+    <nav class="tabs" id="tabs" role="tablist" aria-label="页面">
+      <button role="tab" data-tab="overview" aria-selected="true">总览</button>
+      <button role="tab" data-tab="crypto">加密</button>
+      <button role="tab" data-tab="geo">地缘</button>
+      <button role="tab" data-tab="ai">AI 时代</button>
+      <button role="tab" data-tab="track">推演追踪</button>
+      <button role="tab" data-tab="read">阅读</button>
+      <button role="tab" data-tab="data">数据</button>
+    </nav>
+    <main id="main">
+      <div class="watchstrip" id="watchstrip"></div>
+      <section class="tab" id="tab-overview" data-active="true" role="tabpanel"></section>
+      <section class="tab" id="tab-crypto" role="tabpanel"></section>
+      <section class="tab" id="tab-geo" role="tabpanel"></section>
+      <section class="tab" id="tab-ai" role="tabpanel"></section>
+      <section class="tab" id="tab-track" role="tabpanel"></section>
+      <section class="tab" id="tab-read" role="tabpanel"></section>
+      <section class="tab" id="tab-data" role="tabpanel"></section>
+      <div class="footer">本页为基于公开数据与三篇研究报告的自动化监控，不构成投资建议。所有阈值来自报告原文；数据来源与时间戳见「数据」页。规则引擎不使用任何大模型；新闻只做关键词打标与排序，不做改写。</div>
+    </main>
+  </div>
+</div>
+<nav class="bottombar" id="bottombar" aria-label="底部导航">
+  <button data-tab="overview" aria-selected="true"><svg viewBox="0 0 24 24"><path d="M3 12h7V3H3zM14 21h7v-9h-7zM14 8h7V3h-7zM3 21h7v-5H3z"/></svg>总览<span class="badge" data-badge="overview"></span></button>
+  <button data-tab="crypto"><svg viewBox="0 0 24 24"><path d="M12 3v18M7 8h7a3 3 0 0 1 0 6H7m0 0h8a3 3 0 0 1 0 6H7"/></svg>加密</button>
+  <button data-tab="geo"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>地缘</button>
+  <button data-tab="ai"><svg viewBox="0 0 24 24"><path d="M4 4h16v12H4zM8 20h8M12 16v4"/></svg>AI</button>
+  <button data-tab="__more"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg>更多</button>
 </nav>
-<main>
-  <section class="tab active" id="tab-overview"></section>
-  <section class="tab" id="tab-crypto"></section>
-  <section class="tab" id="tab-geo"></section>
-  <section class="tab" id="tab-ai"></section>
-  <section class="tab" id="tab-track"></section>
-  <section class="tab" id="tab-read"></section>
-  <section class="tab" id="tab-data"></section>
-  <div class="footer">本页为基于公开数据与三篇研究报告的自动化监控，不构成投资建议。所有阈值来自报告原文；数据来源与时间戳见「数据」页。规则引擎不使用任何大模型。</div>
-</main>
+<div class="sheet" id="sheet">
+  <button data-tab="track">推演追踪 <span class="muted small" data-count="track"></span></button>
+  <button data-tab="read">阅读 <span class="muted small" data-count="read"></span></button>
+  <button data-tab="data">数据 <span class="muted small" data-count="data"></span></button>
+</div>
+<div class="backdrop" id="backdrop"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-label="详情"></aside>
 <script id="__DATA__" type="application/json">{{ data_json|safe }}</script>
 <script src="assets/echarts.min.js"></script>
 <script>
-{% raw %}
 if (!window.echarts) {
   var s = document.createElement('script'); s.src = 'https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js';
   s.onerror = function(){ var t=document.createElement('script'); t.src='https://registry.npmmirror.com/echarts/5.6.0/files/dist/echarts.min.js'; document.head.appendChild(t); };
   document.head.appendChild(s);
 }
-{% endraw %}
 </script>
-<script>
-{% raw %}
-(function(){
-'use strict';
-const D = JSON.parse(document.getElementById('__DATA__').textContent);
-const M = D.metrics || {}, S = D.series || {};
-const TODAY = D.date;
-const LS = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch(e){ return null; } };
-
-// ---------- helpers ----------
-const v = k => (M[k] && M[k].value != null) ? +M[k].value : null;
-const meta = k => (M[k] && M[k].meta) || {};
-const dOf = k => M[k] ? (M[k].asof || M[k].date) : null;
-const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function fmtPx(x){ if (x == null || isNaN(x)) return '—'; const a=Math.abs(x); if (a>=1e12) return (x/1e12).toFixed(2)+'T'; if (a>=1e9) return (x/1e9).toFixed(2)+'B'; if (a>=1e6) return (x/1e6).toFixed(1)+'M'; if (a>=1000) return x.toLocaleString('en-US',{maximumFractionDigits:0}); if (a>=1) return x.toFixed(2); if (a>=0.01) return x.toFixed(4); return x.toPrecision(3); }
-function fmtPct(x,d){ if (x == null || isNaN(x)) return '—'; d = d==null?1:d; return (x>0?'+':'')+x.toFixed(d)+'%'; }
-function fmtNum(x,d){ if (x == null || isNaN(x)) return '—'; return x.toFixed(d==null?2:d); }
-const cls = x => x == null ? '' : (x > 0 ? 'up' : (x < 0 ? 'down' : ''));
-const rl = r => ({crypto:'加密',war:'地缘',ai:'AI',all:'宏观'}[r] || r || '');
-const LEVEL = {opportunity:['▲','机会'],warning:['⚠','风险'],invalidation:['✖','失效'],event:['◆','事件'],info:['●','信息']};
-const lvl = l => { const x = LEVEL[l] || LEVEL.info; return `<span class="lvl ${l}">${x[0]} ${x[1]}</span>`; };
-const chip = (t, r) => `<span class="chip r-${r||''}">${esc(t)}</span>`;
-function spark(key, n){ const s = S[key]; if (!s || s.length < 3) return ''; const pts = s.slice(-(n||40)); const ys = pts.map(p=>p[1]); const mn=Math.min(...ys), mx=Math.max(...ys); const w=100,h=26; const d = pts.map((p,i)=>{ const x=i/(pts.length-1)*w; const y = mx===mn?h/2:h-((p[1]-mn)/(mx-mn))*(h-4)-2; return (i?'L':'M')+x.toFixed(1)+','+y.toFixed(1); }).join(''); const up = ys[ys.length-1] >= ys[0]; return `<svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-hidden="true"><path d="${d}" fill="none" stroke="${up?'var(--s3)':'var(--s2)'}" stroke-width="1.5" vector-effect="non-scaling-stroke"/></svg>`; }
-function tile(o){ const val = v(o.key); const f = o.fmt==='pct'? fmtPct(val, o.d) : o.fmt==='num'? fmtNum(val, o.d) : fmtPx(val); const dk = o.delta; const dv = dk ? v(dk) : null; const dtxt = dv==null ? '' : `<span class="${cls(dv)}">${fmtPct(dv)}</span><span class="muted">${o.deltaLabel||'1d'}</span>`; const sub = o.sub ? `<span class="muted">${esc(o.sub)}</span>` : ''; const asof = dOf(o.key); return `<div class="tile" title="${esc(o.key)} · ${esc(asof||'')}"><div class="l"><span>${esc(o.label)}</span><span class="muted">${esc((asof||'').slice(5,10))}</span></div><div class="v">${o.prefix||''}${f}${o.unit||''}</div><div class="d">${dtxt}${sub}</div>${o.spark?spark(o.spark):''}</div>`; }
-function pctCell(x,d){ return `<td class="num ${cls(x)}">${fmtPct(x,d)}</td>`; }
-function daysLabel(n){ if (n==null) return ''; n = Math.round(n); if (n===0) return '今天'; if (n>0) return `${n} 天后`; return `${-n} 天前`; }
-const cssVar = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
-
-// ---------- charts ----------
-const charts = [];
-function lineChart(id, opt){
-  const el = document.getElementById(id); if (!el || !window.echarts) { if (el) el.innerHTML = '<div class="muted small">图表库未加载（离线且无本地 echarts）。数值见表格。</div>'; return; }
-  const ink2 = cssVar('--ink-2'), grid = cssVar('--grid'), axis = cssVar('--axis'), surface = cssVar('--surface');
-  const colors = [cssVar('--s1'), cssVar('--s2'), cssVar('--s3'), cssVar('--s4'), cssVar('--s7'), cssVar('--s5')];
-  const series = (opt.series||[]).map((s,i)=>{ let data = S[s.key] || []; if (s.transform) data = s.transform(data); if (opt.days) data = data.slice(-opt.days); return { name:s.name, type:'line', showSymbol:false, symbol:'circle', symbolSize:6, lineStyle:{width:s.width||2}, itemStyle:{color:s.color||colors[i%colors.length]}, data, connectNulls:true, areaStyle: s.area?{opacity:.08}:undefined, emphasis:{focus:'series'} }; }).filter(s=>s.data.length);
-  if (!series.length){ el.innerHTML = '<div class="muted small">暂无数据</div>'; return; }
-  const ml = (opt.markLines||[]).map(m=>({ yAxis:m.y, name:m.label, lineStyle:{type:'dashed', color:m.color||ink2, width:1}, label:{formatter:m.label, position:'insideEndTop', color:ink2, fontSize:11} }));
-  if (ml.length) series[0].markLine = { silent:true, symbol:'none', data: ml };
-  const ch = echarts.init(el, null, {renderer:'canvas'});
-  ch.setOption({
-    animation:false, color: colors, backgroundColor:'transparent',
-    grid:{left:8,right:16,top:28,bottom:24,containLabel:true},
-    legend:{show: series.length>1, top:0, textStyle:{color:ink2,fontSize:11}, icon:'rect', itemWidth:14, itemHeight:2},
-    tooltip:{trigger:'axis', axisPointer:{type:'cross', lineStyle:{color:axis}, label:{backgroundColor:ink2}}, backgroundColor:surface, borderColor:grid, textStyle:{color:cssVar('--ink'), fontSize:12}, valueFormatter: val => opt.yFmt ? opt.yFmt(val) : fmtPx(val)},
-    xAxis:{type:'time', axisLine:{lineStyle:{color:axis}}, axisLabel:{color:ink2, fontSize:11}, splitLine:{show:false}},
-    yAxis:{type: opt.log?'log':'value', scale:true, axisLabel:{color:ink2, fontSize:11, formatter: val => opt.yFmt ? opt.yFmt(val) : fmtPx(val)}, splitLine:{lineStyle:{color:grid}}, axisLine:{show:false}, min: opt.min, max: opt.max},
-    series
-  });
-  charts.push(ch);
-}
-function chartBox(id, title, legendHtml){ return `<div class="card"><div class="chart-title"><span>${esc(title)}</span><span class="legend">${legendHtml||''}</span></div><div class="chart" id="${id}"></div></div>`; }
-window.addEventListener('resize', ()=>charts.forEach(c=>c.resize()));
-
-// ---------- rules ----------
-const RULES = D.rules || [];
-const fired = RULES.filter(r=>r.fired).sort((a,b)=> (a.priority-b.priority) || (a.is_new===b.is_new?0:(a.is_new?-1:1)));
-function alertCard(r){ return `<div class="alert ${r.level}"><div class="t">${lvl(r.level)} ${esc(r.title)}${r.is_new?'<span class="new">新</span>':''} <span class="muted small">${r.first_fired && r.first_fired!==TODAY ? '自 '+r.first_fired : ''}</span></div><div class="w">${esc(r.why)}</div><div class="a">→ ${esc(r.action||'')}</div><div class="s">${chip(rl(r.report), r.report)}${(r.assets||[]).map(a=>chip(a)).join('')} 依据：${esc(r.source||'')}</div></div>`; }
-function rulesTable(report){ const rows = RULES.filter(r=>!report || r.report===report || r.report==='all'); rows.sort((a,b)=>{ const o={fired:0,nodata:2,idle:1}; return (o[a.status]-o[b.status]) || (a.priority-b.priority); }); return `<div class="tbl"><table><thead><tr><th>状态</th><th>条件</th><th>当前读数</th><th>触发后的动作</th><th>依据</th></tr></thead><tbody>${rows.map(r=>`<tr class="st-${r.status}"><td><span class="status-dot"></span>${r.status==='fired'?'<b>触发</b>':(r.status==='nodata'?'无数据':'未触发')}${r.is_new?'<span class="new">新</span>':''}</td><td>${lvl(r.level)} ${esc(r.title)}<div class="small muted">${(r.assets||[]).map(a=>chip(a)).join('')}</div></td><td class="small">${esc(r.why)}</td><td class="small">${esc(r.action||'')}</td><td class="small muted">${esc(r.source||'')}</td></tr>`).join('')}</tbody></table></div>`; }
-
-// ---------- watch tables ----------
-const YAHOO = (D.watch && D.watch.yahoo) || [];
-const ANCH = (D.watch && D.watch.anchors) || {};
-function watchTable(groups, report){ const items = YAHOO.filter(y => groups ? groups.includes(y.group) : (!report || y.report===report)); let cur=''; let html = `<div class="tbl"><table><thead><tr><th>标的</th><th class="num">价格</th><th class="num">1d</th><th class="num">7d</th><th class="num">30d</th><th class="num">YTD</th><th class="num">1y</th><th class="num">较52周高</th><th class="num">较报告锚点</th><th>日期</th></tr></thead><tbody>`; for (const y of items){ if (y.group!==cur){ cur=y.group; html += `<tr><td colspan="10" style="background:var(--surface-2);font-weight:600">${esc(cur)}</td></tr>`; } const k=y.key; const px=v('px.'+k); if (px==null){ html += `<tr><td>${esc(y.label)} <span class="muted small">${esc(y.symbol)}</span></td><td colspan="9" class="muted small">无数据</td></tr>`; continue; } const ddA = v('dd_ath.'+k); html += `<tr><td>${esc(y.label)} <span class="muted small">${esc(y.symbol)}</span></td><td class="num">${fmtPx(px)}</td>${pctCell(v('chg1d.'+k))}${pctCell(v('chg7d.'+k))}${pctCell(v('chg30d.'+k))}${pctCell(v('ytd.'+k))}${pctCell(v('chg1y.'+k))}${pctCell(v('dd52w.'+k))}<td class="num ${cls(ddA)}">${ddA==null?'—':fmtPct(ddA)}${ANCH[k]?`<div class="muted" style="font-size:10px">锚 ${fmtPx(ANCH[k].ath)}</div>`:''}</td><td class="small muted">${esc((dOf('px.'+k)||'').slice(0,10))}</td></tr>`; } return html + '</tbody></table></div>'; }
-
-// ---------- calendar ----------
-const CAL = D.calendar || [];
-function calTable(filterFn, limit){ const rows = CAL.filter(e=>e.days_to >= -3).filter(filterFn||(()=>true)).slice(0, limit||200); return `<div class="tbl"><table><thead><tr><th>日期</th><th>倒计时</th><th>事件</th><th>报告</th><th>影响标的</th><th>说明</th></tr></thead><tbody>${rows.map(e=>`<tr><td class="num">${e.date}${e.approx?'<span class="muted">≈</span>':''}</td><td class="num ${e.days_to<=7?'down':''}">${daysLabel(e.days_to)}</td><td>${esc(e.title)}</td><td>${chip(rl(e.report), e.report)}</td><td>${(e.assets||[]).map(a=>chip(a)).join('')}</td><td class="small muted">${esc(e.note||'')}</td></tr>`).join('')}</tbody></table></div>`; }
-
-// ---------- news ----------
-const NEWS = D.news || [];
-const TOPICS = D.topics || {};
-const readSet = new Set((LS('read')||'').split(',').filter(Boolean));
-function newsItem(n, showSum){ const t = (n.published||n.first_seen||'').replace('T',' ').slice(5,16); const topics=(n.topics||[]).map(tp=>chip((TOPICS[tp]&&TOPICS[tp].label)||tp, TOPICS[tp]&&TOPICS[tp].report)).join(''); const hot = n.score>=3.5; return `<li class="${readSet.has(n.id)?'read':''}" data-id="${n.id}"><div class="h"><span class="time">${t}</span><span class="src">${esc(n.source)}</span><span class="tier">T${n.tier||'?'}</span>${hot?'<span class="hot">●</span>':''}<a class="title" href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a></div><div>${topics}</div>${n.summary?`<div class="sum">${esc(n.summary)}</div>`:''}</li>`; }
-function newsList(items){ return `<ul class="news">${items.map(n=>newsItem(n)).join('')}</ul>`; }
-function topNews(filterFn, n){ const now = Date.now(); return NEWS.filter(x=>filterFn?filterFn(x):true).map(x=>{ const t = Date.parse(x.published||x.first_seen||0)||0; const age = (now-t)/3.6e6; return {x, s:(x.score||0) - Math.max(0, age-24)/24}; }).sort((a,b)=>b.s-a.s).slice(0,n).map(o=>o.x); }
-document.addEventListener('click', e => { const li = e.target.closest && e.target.closest('li[data-id]'); if (li && e.target.tagName==='A'){ readSet.add(li.dataset.id); li.classList.add('read'); LS('read', Array.from(readSet).slice(-3000).join(',')); } });
-
-// ---------- static (报告结构化内容) ----------
-const ST = D.static || {};
-const BASE = D.baseline || [];
-const REPORTS = D.reports || [];
-
-// ================= OVERVIEW =================
-function renderOverview(){
-  const el = document.getElementById('tab-overview');
-  const newCount = fired.filter(r=>r.is_new).length;
-  const byLevel = l => fired.filter(r=>r.level===l);
-  const run = D.run || {};
-  const fAll = Object.values(run.fetchers||{}).filter(f=>!f.skipped); const okF = fAll.filter(f=>f.ok===true).length, allF = fAll.length;
-  document.getElementById('hdr-status').textContent = `抓取 ${okF}/${allF} 正常 · 新闻 +${run.news_new||0} · 触发 ${fired.length}（新 ${newCount}）`;
-  const tabBtn = document.querySelector('[data-tab="overview"]'); if (fired.length) tabBtn.innerHTML = `总览 <span class="n">${fired.length}</span>`;
-  let h = '';
-  h += `<h2>今日读数 <small>核心资产 · 括号为日期</small></h2><div class="grid g-kpi">`;
-  h += tile({label:'BTC', key:'px.BTC', delta:'chg24h.BTC', deltaLabel:'24h', spark:'px.BTC', prefix:'$'});
-  h += tile({label:'ETH', key:'px.ETH', delta:'chg24h.ETH', deltaLabel:'24h', spark:'px.ETH', prefix:'$'});
-  h += tile({label:'ETH/BTC', key:'crypto.ethbtc', fmt:'num', d:4, spark:'crypto.ethbtc', sub:'加仓 .028–.030 / 失效 <.025'});
-  h += tile({label:'布伦特', key:'px.BRENT', delta:'chg1d.BRENT', spark:'px.BRENT', prefix:'$', sub:`战前 $72.5`});
-  h += tile({label:'黄金', key:'px.GOLD', delta:'chg1d.GOLD', spark:'px.GOLD', prefix:'$', sub:`较ATH ${fmtPct(v('dd_ath.GOLD'))}`});
-  h += tile({label:'10 年期美债', key:'px.US10Y', fmt:'num', d:2, unit:'%', spark:'px.US10Y', sub:'>5% 逆风 / <4% 顺风'});
-  h += tile({label:'VIX', key:'px.VIX', fmt:'num', d:1, spark:'px.VIX', sub:'>30 = 历史买点窗口'});
-  h += tile({label:'美元指数', key:'px.DXY', fmt:'num', d:2, delta:'chg30d.DXY', deltaLabel:'30d', spark:'px.DXY'});
-  h += tile({label:'标普 500', key:'px.SPX', delta:'chg1d.SPX', spark:'px.SPX', sub:`YTD ${fmtPct(v('ytd.SPX'))}`});
-  h += tile({label:'英伟达', key:'px.NVDA', delta:'chg1d.NVDA', spark:'px.NVDA', prefix:'$', sub:`较52周高 ${fmtPct(v('dd52w.NVDA'))}`});
-  h += tile({label:'KOSPI', key:'px.KOSPI', delta:'chg1d.KOSPI', spark:'px.KOSPI', sub:`较52周高 ${fmtPct(v('dd52w.KOSPI'))}`});
-  h += tile({label:'台股 TAIEX', key:'px.TAIEX', delta:'chg1d.TAIEX', spark:'px.TAIEX', sub:`较52周高 ${fmtPct(v('dd52w.TAIEX'))}`});
-  h += tile({label:'莱茵金属', key:'px.RHM', delta:'chg1d.RHM', spark:'px.RHM', prefix:'€', sub:`较高点 ${fmtPct(v('dd_ath.RHM'))}`});
-  h += tile({label:'稳定币总量', key:'stable.total', spark:'stable.total', prefix:'$', sub:'30d '+fmtPct((()=>{const s=S['stable.total']; if(!s||s.length<31) return null; return (s[s.length-1][1]/s[s.length-31][1]-1)*100;})())});
-  h += tile({label:'恐惧贪婪', key:'crypto.fng', fmt:'num', d:0, spark:'crypto.fng', sub: meta('crypto.fng').label||''});
-  h += tile({label:'台海冲突赔率', key:'pm.taiwan_clash_2027', fmt:'num', d:1, unit:'%', spark:'pm.taiwan_clash_2027', sub:'Polymarket · 2025末曾近30%'});
-  h += `</div>`;
-
-  h += `<h2>机会雷达 <small>规则触发 ${fired.length} 条 · 新触发 ${newCount} 条 · 完整条件表见各报告页</small></h2>`;
-  if (!fired.length) h += `<div class="card muted">今日无规则触发。</div>`;
-  else {
-    h += `<div class="grid g-2">`;
-    for (const [l, name] of [['opportunity','机会'],['invalidation','失效'],['warning','风险'],['event','事件/日历'],['info','信息']]){ const rs = byLevel(l); if (!rs.length) continue; h += `<div><h3>${LEVEL[l][0]} ${name}（${rs.length}）</h3>${rs.slice(0,8).map(alertCard).join('')}${rs.length>8?`<div class="muted small">另有 ${rs.length-8} 条，见各报告页</div>`:''}</div>`; }
-    h += `</div>`;
-  }
-
-  // 今日变化：最大变动 + 昨日触发今日解除的规则
-  const crW = (D.watch && D.watch.crypto) || [];
-  const hist = D.alerts_history || [];
-  const prevDates = [...new Set(hist.map(a=>a.date).filter(d=>d<TODAY))].sort();
-  const yd = prevDates.length ? prevDates[prevDates.length-1] : null;
-  const ydIds = new Set(hist.filter(a=>a.date===yd).map(a=>a.rule_id));
-  const todayIds = new Set(fired.map(r=>r.rule_id));
-  const resolved = yd ? [...ydIds].filter(id=>!todayIds.has(id)).map(id=>RULES.find(r=>r.rule_id===id)||{title:id,level:'info'}) : [];
-  const movers = [...YAHOO.map(y=>({label:y.label, chg:v('chg1d.'+y.key), px:v('px.'+y.key)})), ...crW.slice(0,20).map(c=>({label:c.symbol, chg:v('chg24h.'+c.symbol), px:v('px.'+c.symbol)}))].filter(x=>x.chg!=null).sort((a,b)=>Math.abs(b.chg)-Math.abs(a.chg)).slice(0,12);
-  h += `<h2>今日变化 <small>1 日最大变动 · 昨日（${yd||'—'}）触发而今日解除的规则</small></h2><div class="grid g-2"><div class="card"><b class="small">最大变动</b><table style="margin-top:6px"><tbody>${movers.map(m=>`<tr><td>${esc(m.label)}</td><td class="num">${fmtPx(m.px)}</td><td class="num ${cls(m.chg)}">${fmtPct(m.chg)}</td></tr>`).join('')}</tbody></table></div><div class="card"><b class="small">已解除的触发（${resolved.length}）</b><div style="margin-top:6px">${resolved.length? resolved.map(r=>`<div class="small" style="padding:3px 0;border-bottom:1px solid var(--grid)">${lvl(r.level)} ${esc(r.title)}</div>`).join('') : '<span class="muted small">无（或尚无昨日记录）</span>'}</div><div class="small muted" style="margin-top:8px">新触发 ${newCount} 条已在上方标为 <span class="new">新</span></div></div></div>`;
-  h += `<h2>三条主线的位置 <small>相对报告基准日 2026-09-20</small></h2><div class="grid g-3">`;
-  const btcdd = v('athdd.BTC');
-  h += `<div class="card"><b>加密 · 三年周期</b><div class="kv" style="margin-top:6px"><b>BTC 较 ATH</b><span class="${cls(btcdd)}">${fmtPct(btcdd)}（报告：-40%，6月低点 -54%）</span><b>vs 50周均线</b><span>${fmtPx(v('px.BTC'))} / ${fmtPx(v('crypto.btc.wma50'))}（${v('px.BTC')>v('crypto.btc.wma50')?'其上 ✔':'其下'}）</span><b>vs 200周均线</b><span>${fmtPx(v('crypto.btc.wma200'))}</span><b>BTC 主导率</b><span>${fmtNum(v('crypto.btc_dominance'),1)}%（报告 58–60%）</span><b>HYPE 回购收益率</b><span>${fmtNum(v('crypto.hype.buyback_yield'),1)}%（失效 <3%）</span><b>USDe 供给</b><span>$${fmtPx(v('stable.USDe'))}（触发 $75亿 / 失效 $40亿）</span></div></div>`;
-  h += `<div class="card"><b>地缘 · 买中断卖恐惧</b><div class="kv" style="margin-top:6px"><b>布伦特 vs 战前</b><span class="${cls(v('vs_prewar.BRENT'))}">${fmtPct(v('vs_prewar.BRENT'))}（报告 +43%）</span><b>黄金 较 ATH</b><span class="${cls(v('dd_ath.GOLD'))}">${fmtPct(v('dd_ath.GOLD'))}（报告 -22%）</span><b>莱茵金属 较高点</b><span class="${cls(v('dd_ath.RHM'))}">${fmtPct(v('dd_ath.RHM'))}（报告 -45%）</span><b>ITA YTD</b><span class="${cls(v('ytd.ITA'))}">${fmtPct(v('ytd.ITA'))}（报告 ≈0%）</span><b>台股 较52周高</b><span>${fmtPct(v('dd52w.TAIEX'))}（报告：零折价）</span><b>Polymarket 台海</b><span>${fmtNum(v('pm.taiwan_clash_2027'),1)}%</span></div></div>`;
-  h += `<div class="card"><b>AI 时代 · 1999 年秋</b><div class="kv" style="margin-top:6px"><b>NVDA 较52周高</b><span class="${cls(v('dd52w.NVDA'))}">${fmtPct(v('dd52w.NVDA'))}</span><b>SOXX 较52周高</b><span class="${cls(v('dd52w.SOXX'))}">${fmtPct(v('dd52w.SOXX'))}（≥30% = 阶段一情景）</span><b>高收益利差</b><span>${fmtNum(v('fred.HY_OAS'),2)}%（>5% 信用重定价）</span><b>CoreWeave 较52周高</b><span class="${cls(v('dd52w.CRWV'))}">${fmtPct(v('dd52w.CRWV'))}</span><b>GE Vernova 较52周高</b><span class="${cls(v('dd52w.GEV'))}">${fmtPct(v('dd52w.GEV'))}</span><b>SPY−RSP 30日差</b><span>${fmtNum(v('ai.breadth_gap_30d'),1)} pp</span></div></div>`;
-  h += `</div>`;
-
-  h += `<h2>未来 45 天 <small>触发日历（≈ 为报告仅给出月份/季度）</small></h2>` + calTable(e=>e.days_to<=45, 30);
-  h += `<h2>今日要闻 <small>按关键词权重 × 来源等级排序（24h 内优先）· 点击标题标记已读</small></h2><div class="card">` + newsList(topNews(null, 25)) + `</div>`;
-  el.innerHTML = h;
-}
-
-// ================= CRYPTO =================
-function renderCrypto(){
-  const el = document.getElementById('tab-crypto');
-  const cr = (D.watch && D.watch.crypto) || [];
-  let h = `<h2>条件仪表盘 <small>《加密三年测评图鉴》六、监控指标与失效条件 → 机读规则</small></h2>` + rulesTable('crypto');
-  h += `<h2>周期位置</h2><div class="grid g-2">`;
-  h += chartBox('c-btc', 'BTC 与 50/200 周均线（$53.6K 实现价格 / $81K 条件 a）');
-  h += chartBox('c-ethbtc', 'ETH/BTC（加仓区 0.028–0.030；失效 <0.025）');
-  h += chartBox('c-stable', '稳定币总供给（美元）');
-  h += chartBox('c-fng', '恐惧贪婪指数');
-  h += chartBox('c-dom', 'BTC 主导率 %');
-  h += chartBox('c-usde', 'USDe 供给（触发回购 $75亿 / 失效 $40亿）');
-  h += chartBox('c-fees', '30 日滚动手续费：HYPE / AAVE / UNI（美元）');
-  h += chartBox('c-chainrev', '链级 30 日收入：Solana / Ethereum（REV 近似）');
-  h += `</div>`;
-  const tiers = ['核心','卫星','期权','期权（仅已持有）','观察','回避','对照'];
-  h += `<h2>43 标的 · 五档 <small>价格 CoinGecko · 费用/TVL DefiLlama · 评分来自报告（风险调整 / 弹性）</small></h2><div class="tbl"><table><thead><tr><th>档位</th><th>标的</th><th>赛道</th><th class="num">价格</th><th class="num">24h</th><th class="num">7d</th><th class="num">30d</th><th class="num">1y</th><th class="num">较ATH</th><th class="num">市值</th><th class="num">FDV</th><th class="num">流通%</th><th class="num">30d费用</th><th class="num">P/F</th><th class="num">TVL</th><th class="num">评分</th></tr></thead><tbody>`;
-  for (const t of tiers){ const rows = cr.filter(c=>c.tier===t); if (!rows.length) continue; for (const c of rows){ const s=c.symbol; h += `<tr><td>${esc(t)}</td><td><b>${esc(s)}</b> <span class="muted small">${esc(meta('px.'+s).name||'')}</span></td><td class="small">${esc(c.track||'')}</td><td class="num">${fmtPx(v('px.'+s))}</td>${pctCell(v('chg24h.'+s))}${pctCell(v('chg7d.'+s))}${pctCell(v('chg30d.'+s))}${pctCell(v('chg1y.'+s))}${pctCell(v('athdd.'+s),0)}<td class="num">${fmtPx(v('mcap.'+s))}</td><td class="num">${fmtPx(v('fdv.'+s))}</td><td class="num">${fmtNum(v('supply_ratio.'+s),0)}</td><td class="num">${fmtPx(v('fees30d.'+s))}</td><td class="num">${v('pf.'+s)?fmtNum(v('pf.'+s),0)+'x':'—'}</td><td class="num">${fmtPx(v('tvl.'+s))}</td><td class="num small">${c.risk!=null?c.risk.toFixed(2)+' / '+c.elastic.toFixed(2):''}</td></tr>`; } }
-  h += `</tbody></table></div>`;
-  // unlocks
-  const un = Object.keys(M).filter(k=>k.startsWith('unlock.next_days.')).map(k=>({sym:k.split('.').pop(), m:M[k]}));
-  if (un.length){ h += `<h2>解锁（DefiLlama emissions）<small>报告规则：解锁悬崖前不持仓</small></h2><div class="tbl"><table><thead><tr><th>标的</th><th class="num">下次解锁</th><th>说明</th><th>近期事件</th></tr></thead><tbody>`; for (const u of un.sort((a,b)=>(a.m.value??999)-(b.m.value??999))){ const nx = (u.m.meta||{}).next; h += `<tr><td><b>${esc(u.sym)}</b></td><td class="num">${nx?nx.date+'（'+daysLabel(u.m.value)+'）':'—'}</td><td class="small">${nx?esc(nx.description||'')+' '+(nx.tokens?fmtPx(nx.tokens)+' 枚':''):''}</td><td class="small muted">${((u.m.meta||{}).events||[]).slice(0,4).map(e=>e.date+' '+(e.tokens?fmtPx(e.tokens):'')).join(' · ')}</td></tr>`; } h += `</tbody></table></div>`; }
-  h += `<h2>预测市场（加密/宏观）</h2><div class="grid g-kpi">` + ['btc_100k','clarity_act','fed_next_hike','us_recession','anthropic_ipo'].map(k=>M['pm.'+k]?tile({label:meta('pm.'+k).label||k, key:'pm.'+k, fmt:'num', d:1, unit:'%', spark:'pm.'+k, sub:(meta('pm.'+k).question||'').slice(0,40)}):'').join('') + `</div>`;
-  h += `<h2>触发日历 · 加密</h2>` + calTable(e=>e.report==='crypto');
-  h += `<h2>相关新闻</h2><div class="card">` + newsList(topNews(n=>(n.topics||[]).some(t=>TOPICS[t]&&TOPICS[t].report==='crypto'), 40)) + `</div>`;
-  el.innerHTML = h;
-  lineChart('c-btc', {series:[{name:'BTC',key:'px.BTC'},{name:'50周均线',key:'crypto.btc.wma50',color:cssVar('--s4')},{name:'200周均线',key:'crypto.btc.wma200',color:cssVar('--s7')}], markLines:[{y:53600,label:'$53.6K 实现价格'},{y:81000,label:'$81K 50周线'},{y:126198,label:'ATH'}], yFmt:x=>'$'+fmtPx(x)});
-  lineChart('c-ethbtc', {series:[{name:'ETH/BTC',key:'crypto.ethbtc'}], markLines:[{y:0.028,label:'0.028'},{y:0.030,label:'0.030'},{y:0.025,label:'0.025 失效',color:cssVar('--critical')}], yFmt:x=>x.toFixed(4)});
-  lineChart('c-stable', {series:[{name:'总量',key:'stable.total',area:true}], yFmt:x=>'$'+fmtPx(x)});
-  lineChart('c-fng', {series:[{name:'F&G',key:'crypto.fng'}], markLines:[{y:20,label:'极度恐惧'},{y:80,label:'极度贪婪'}], min:0, max:100, yFmt:x=>fmtNum(x,0)});
-  lineChart('c-dom', {series:[{name:'BTC.D',key:'crypto.btc_dominance'}], yFmt:x=>fmtNum(x,1)+'%'});
-  lineChart('c-usde', {series:[{name:'USDe',key:'stable.USDe'}], markLines:[{y:7.5e9,label:'$75亿 触发'},{y:4e9,label:'$40亿 失效',color:cssVar('--critical')}], yFmt:x=>'$'+fmtPx(x)});
-  lineChart('c-fees', {series:[{name:'HYPE',key:'fees30d.HYPE'},{name:'AAVE',key:'fees30d.AAVE'},{name:'UNI',key:'fees30d.UNI'}], yFmt:x=>'$'+fmtPx(x)});
-  lineChart('c-chainrev', {series:[{name:'Solana',key:'chainrev30d.solana'},{name:'Ethereum',key:'chainrev30d.ethereum'}], yFmt:x=>'$'+fmtPx(x)});
-}
-
-// ================= GEO =================
-function renderGeo(){
-  const el = document.getElementById('tab-geo');
-  let h = `<h2>条件仪表盘 <small>《大国战争风险与资产机会推演》→ 机读规则</small></h2>` + rulesTable('war');
-  const hs = ST.hotspots || [];
-  if (hs.length){ h += `<h2>七大热点 <small>浅色条 = 12 个月概率区间，深色条 = 5 年；预测市场为实时数据</small></h2><div class="grid g-3">`; for (const x of hs){ const pm = x.pm_key ? v('pm.'+x.pm_key) : null; const bar = (r, c) => r ? `<div class="bar"><i class="${c}" style="left:${r[0]}%;width:${Math.max(1,r[1]-r[0])}%"></i></div>` : ''; h += `<div class="card hot-card"><b>${esc(x.name)}</b><div class="small">12 个月：${x.p12?x.p12.join('–')+'%':'—'} ${x.p12_type?'<span class="muted">('+esc(x.p12_type)+')</span>':''}</div>${bar(x.p12,'b1')}<div class="small">5 年：${x.p5?x.p5.join('–')+'%':'—'} ${x.p5_type?'<span class="muted">('+esc(x.p5_type)+')</span>':''}</div>${bar(x.p5,'b5')}${pm!=null?`<div class="small">预测市场（${esc(meta('pm.'+x.pm_key).label||'')}）：<b>${fmtNum(pm,1)}%</b></div>`:''}<div class="small muted">锚点：${esc(x.anchor||'')}</div><div class="small">领先指标：${esc(x.trigger||'')}</div></div>`; } h += `</div>`; }
-  h += `<h2>物理通道 <small>IMF PortWatch 船舶通过量（7 日均 / 去年同期 90 日基线）· 解放军台海活动（社区整理，需与国防部通报核对）· GPR 地缘风险指数</small></h2><div class="grid g-kpi">`;
-  for (const [k,lab] of [['hormuz','霍尔木兹'],['bab_el_mandeb','曼德海峡'],['suez','苏伊士'],['taiwan','台湾海峡'],['malacca','马六甲']]){ const r=v('chokepoint.'+k+'.ratio'); if (r==null && v('chokepoint.'+k+'.transits')==null) continue; h += `<div class="tile" title="chokepoint.${k}"><div class="l"><span>${lab} 通行量</span><span class="muted">${esc((dOf('chokepoint.'+k+'.transits')||'').slice(5,10))}</span></div><div class="v ${r!=null&&r<0.5?'down':''}">${r==null?'—':(r*100).toFixed(0)+'%'}<span class="muted" style="font-size:12px"> 基线</span></div><div class="d"><span>7日均 ${fmtNum(v('chokepoint.'+k+'.avg7'),1)} 艘/日</span><span class="muted">基线 ${fmtNum(v('chokepoint.'+k+'.baseline'),0)}</span></div>${spark('chokepoint.'+k+'.transits', 120)}</div>`; }
-  h += tile({label:'PLA 台海军机/日', key:'pla.aircraft_daily', fmt:'num', d:0, spark:'pla.aircraft_daily', sub:`7日均 ${fmtNum(v('pla.aircraft_7d_avg'),0)} · 30日最高 ${fmtNum(v('pla.aircraft_30d_max'),0)}`});
-  h += tile({label:'GPR 地缘风险指数', key:'gpr.daily', fmt:'num', d:0, spark:'gpr.daily', sub:`30日均 ${fmtNum(v('gpr.daily_30d_avg'),0)}（>200 高位）`});
-  h += tile({label:'布伦特期现价差', key:'war.brent_physical_premium', fmt:'num', d:1, prefix:'$', sub:'EIA 现货 − 期货；>15 = 实物中断'});
-  h += tile({label:'SCFI 集运指数', key:'freight.scfi', fmt:'num', d:0, sub:'上海航交所'});
-  h += tile({label:'Drewry WCI', key:'freight.drewry_wci', prefix:'$', sub:'/40ft'});
-  h += tile({label:'铀期货 UX', key:'px.URANIUM_FUT', prefix:'$', fmt:'num', d:1, spark:'px.URANIUM_FUT', sub:'/lb · 报告：现货 ~$90'});
-  h += `</div>`;
-  h += `<h2>资产雷达 <small>"先问哪条物理通道会被切断、多久，再问谁会赢"</small></h2>` + watchTable(['能源与航运','避险与利率','军工','亚洲市场','铀矿物化肥']);
-  h += `<h2>走势</h2><div class="grid g-2">`;
-  h += chartBox('g-brent','布伦特（战前 $72.5 · $100 · 4月峰 $126）');
-  h += chartBox('g-gold','黄金（ATH $5,608 · -25% 线）');
-  h += chartBox('g-us10y','10 年期美债收益率（5% 线）');
-  h += chartBox('g-vix','VIX（30 线）');
-  h += chartBox('g-rhm','莱茵金属（52周高 €2,007）');
-  h += chartBox('g-taiex','台股加权 / KOSPI（指数化 = 100，一年）');
-  h += chartBox('g-pm','预测市场：台海 / 俄乌停火 / 美国再打伊朗（%）');
-  h += chartBox('g-ttf','欧洲天然气 TTF / 美国 HH（指数化 = 100）');
-  h += chartBox('g-choke','咽喉要道日通过量：霍尔木兹 / 曼德 / 台湾海峡（艘/日，IMF PortWatch）');
-  h += chartBox('g-pla','解放军台海周边军机架次/日（plavis 社区数据）');
-  h += chartBox('g-gpr','GPR 地缘风险指数（日频，Caldara–Iacoviello；>200 高位）');
-  h += `</div>`;
-  const matA = ST.matrix_a, matB = ST.matrix_b;
-  const matTable = (m) => { if (!m) return ''; return `<div class="tbl"><table class="mat"><thead><tr>${m.heads.map(x=>`<th>${esc(x)}</th>`).join('')}</tr></thead><tbody>${m.rows.map(r=>`<tr><td><b>${esc(r.n)}</b></td>${r.c.map(c=>{ const i=c.indexOf(' '); const sym=i>0?c.slice(0,i):c; const rest=i>0?c.slice(i+1):''; const k = sym.startsWith('↑↑')?'u2':sym.startsWith('⚡')?'p':sym.startsWith('↑')?'u1':sym.startsWith('↓↓')?'d2':sym.startsWith('↓')?'d1':'n'; return `<td><span class="dir ${k}">${esc(sym)}</span> <span class="small">${esc(rest)}</span></td>`; }).join('')}</tr>`).join('')}</tbody></table></div>`; };
-  if (matA) h += `<h2>情景 × 资产 · 表 A <small>大宗商品、运力与货币（研究员推断；↑↑/↓↓ >30% 或结构性；↑/↓ 5–30%；⚡ 冲击日反向后修复）</small></h2>` + matTable(matA);
-  if (matB) h += `<h2>情景 × 资产 · 表 B <small>股票板块与数字资产</small></h2>` + matTable(matB);
-  if (ST.start_table) h += `<h2>报告起点表（2026-09 中旬）<small>与「资产雷达」对照即可看出偏离</small></h2><div class="tbl"><table><thead><tr><th>资产</th><th>报告水平</th><th>相对参照</th><th>含义</th></tr></thead><tbody>${ST.start_table.map(r=>`<tr>${r.map(c=>`<td class="small">${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
-  h += `<h2>触发日历 · 地缘</h2>` + calTable(e=>e.report==='war');
-  if (ST.war_risks) h += `<h2>八条纪律</h2><div class="card">${ST.war_risks.map(r=>`<details><summary><b>${esc(r[0])}</b></summary><div class="small" style="margin:6px 0 10px">${esc(r[1])}</div></details>`).join('')}</div>`;
-  h += `<h2>相关新闻</h2><div class="card">` + newsList(topNews(n=>(n.topics||[]).some(t=>TOPICS[t]&&TOPICS[t].report==='war'), 50)) + `</div>`;
-  el.innerHTML = h;
-  lineChart('g-brent', {series:[{name:'Brent',key:'px.BRENT'},{name:'WTI',key:'px.WTI'}], markLines:[{y:72.48,label:'战前 $72.5'},{y:100,label:'$100'},{y:126,label:'4月峰 $126'}], yFmt:x=>'$'+fmtNum(x,0)});
-  lineChart('g-gold', {series:[{name:'黄金',key:'px.GOLD'}], markLines:[{y:5608,label:'ATH $5,608'},{y:5608*0.75,label:'-25%'}], yFmt:x=>'$'+fmtPx(x)});
-  lineChart('g-us10y', {series:[{name:'10Y',key:'px.US10Y'},{name:'实际收益率',key:'fred.DFII10',color:cssVar('--s3')}], markLines:[{y:5,label:'5%'},{y:4,label:'4%'}], yFmt:x=>fmtNum(x,2)+'%'});
-  lineChart('g-vix', {series:[{name:'VIX',key:'px.VIX'}], markLines:[{y:30,label:'30'}], yFmt:x=>fmtNum(x,0)});
-  lineChart('g-rhm', {series:[{name:'RHM',key:'px.RHM'}], markLines:[{y:2007,label:'€2,007'},{y:2007*0.55,label:'-45%'}], yFmt:x=>'€'+fmtPx(x)});
-  const idx = (data)=>{ const d = data.slice(-260); if (!d.length) return d; const b=d[0][1]; return d.map(p=>[p[0], p[1]/b*100]); };
-  lineChart('g-taiex', {series:[{name:'TAIEX',key:'px.TAIEX',transform:idx},{name:'KOSPI',key:'px.KOSPI',transform:idx},{name:'台积电',key:'px.TSMC_TW',transform:idx}], markLines:[{y:100,label:'基期'}], yFmt:x=>fmtNum(x,0)});
-  lineChart('g-pm', {series:[{name:'台海冲突',key:'pm.taiwan_clash_2027'},{name:'俄乌停火',key:'pm.ukraine_ceasefire'},{name:'美再打伊朗',key:'pm.iran_us_strike'}], min:0, max:100, yFmt:x=>fmtNum(x,0)+'%'});
-  lineChart('g-ttf', {series:[{name:'TTF',key:'px.TTF',transform:idx},{name:'Henry Hub',key:'px.NATGAS',transform:idx}], markLines:[{y:100,label:'基期'}], yFmt:x=>fmtNum(x,0)});
-  lineChart('g-choke', {series:[{name:'霍尔木兹',key:'chokepoint.hormuz.transits'},{name:'曼德海峡',key:'chokepoint.bab_el_mandeb.transits'},{name:'台湾海峡',key:'chokepoint.taiwan.transits'}], yFmt:x=>fmtNum(x,0)});
-  lineChart('g-pla', {series:[{name:'PLA 军机/日',key:'pla.aircraft_daily'}], markLines:[{y:60,label:'60 架次（演习级别）'}], yFmt:x=>fmtNum(x,0)});
-  lineChart('g-gpr', {series:[{name:'GPR',key:'gpr.daily'}], markLines:[{y:200,label:'200'}], yFmt:x=>fmtNum(x,0)});
-}
-
-// ================= AI =================
-function renderAI(){
-  const el = document.getElementById('tab-ai');
-  let h = `<h2>条件仪表盘 <small>《AI时代交融十年推演》→ 机读规则</small></h2>` + rulesTable('ai');
-  h += `<h2>四把尺子 <small>估值 · 资本开支 · 融资结构 · 货币与 IPO</small></h2><div class="grid g-kpi">`;
-  h += tile({label:'标普 YTD', key:'ytd.SPX', fmt:'pct', sub:'报告 +11.5%（9-1）'});
-  h += tile({label:'SPY−RSP 30日差', key:'ai.breadth_gap_30d', fmt:'num', d:1, unit:'pp', sub:'>5 = 集中度扩大'});
-  h += tile({label:'NVDA 较52周高', key:'dd52w.NVDA', fmt:'pct', sub:'-20% 前兆 · -30% 情景'});
-  h += tile({label:'SOXX 较52周高', key:'dd52w.SOXX', fmt:'pct', spark:'px.SOXX'});
-  h += tile({label:'高收益利差', key:'fred.HY_OAS', fmt:'num', d:2, unit:'%', spark:'fred.HY_OAS', sub:'>5% 信用重定价'});
-  h += tile({label:'投资级利差', key:'fred.IG_OAS', fmt:'num', d:2, unit:'%', spark:'fred.IG_OAS'});
-  h += tile({label:'联邦基金利率', key:'fred.DFF', fmt:'num', d:2, unit:'%', sub:'9/16 加息至 3.75–4.00%'});
-  h += tile({label:'CoreWeave 较52周高', key:'dd52w.CRWV', fmt:'pct', spark:'px.CRWV', sub:'新云信用事件前兆'});
-  h += tile({label:'GE Vernova', key:'px.GEV', delta:'chg30d.GEV', deltaLabel:'30d', spark:'px.GEV', prefix:'$', sub:`较52周高 ${fmtPct(v('dd52w.GEV'))}`});
-  h += tile({label:'IPO ETF 较52周高', key:'dd52w.IPO_ETF', fmt:'pct', spark:'px.IPO_ETF', sub:'零售准入后的基准'});
-  h += tile({label:'Anthropic IPO 赔率', key:'pm.anthropic_ipo', fmt:'num', d:0, unit:'%', sub:(meta('pm.anthropic_ipo').question||'').slice(0,42)});
-  h += tile({label:'Circle 较52周高', key:'dd52w.CRCL', fmt:'pct', spark:'px.CRCL'});
-  h += `</div>`;
-  if (ST.ai_phases){ h += `<h2>两段式机会分布 <small>报告主观概率</small></h2><div class="card">${ST.ai_phases.map((p,i)=>`<div class="phase p${i+1}"><b>${esc(p.title)}</b><div class="small">${esc(p.desc)}</div><ul class="small" style="margin:4px 0 0 16px;padding:0">${(p.items||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`).join('')}</div>`; }
-  h += `<h2>卖铲人与瓶颈层</h2>` + watchTable(['半导体','云与新云','电力设备','加密相关股','美股指数']);
-  h += `<h2>走势</h2><div class="grid g-2">`;
-  h += chartBox('a-nvda','英伟达 / SOXX / 纳指100（指数化 = 100，一年）');
-  h += chartBox('a-breadth','SPY vs 等权 RSP（指数化 = 100，一年）');
-  h += chartBox('a-credit','信用利差：高收益 / 投资级 OAS（%）');
-  h += chartBox('a-power','电力设备：GEV / VRT / 西门子能源（指数化）');
-  h += chartBox('a-neo','新云与矿企：CRWV / WULF / IREN（指数化）');
-  h += chartBox('a-korea','KOSPI / SK 海力士（指数化）');
-  h += `</div>`;
-  const thNews = topNews(n=>(n.topics||[]).some(t=>['thailand_dc','sea_dc','power_grid','nuclear_smr'].includes(t)), 30);
-  h += `<h2>读者主场：泰国 EEC 电网与东南亚数据中心 <small>报告：8.8 GW 采信 vs 35 GW 申请；瓶颈在输配电</small></h2>`;
-  if (ST.eec) h += `<div class="card"><div class="tbl"><table><thead><tr><th>交付点</th><th class="num">容量</th><th>状态/日期</th></tr></thead><tbody>${ST.eec.map(r=>`<tr><td>${esc(r[0])}</td><td class="num">${esc(r[1])}</td><td class="small">${esc(r[2])}</td></tr>`).join('')}</tbody></table></div></div>`;
-  h += `<div class="card" style="margin-top:10px">` + (thNews.length ? newsList(thNews) : '<span class="muted">近 7 天无相关新闻</span>') + `</div>`;
-  if (ST.ai_paths) h += `<h2>个人路径矩阵（报告）</h2><div class="tbl"><table><thead><tr><th>路径</th><th>门槛</th><th>上行</th><th>失败率/基准</th><th>适用性</th></tr></thead><tbody>${ST.ai_paths.map(r=>`<tr>${r.map(c=>`<td class="small">${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
-  h += `<h2>触发日历 · AI</h2>` + calTable(e=>e.report==='ai');
-  h += `<h2>相关新闻</h2><div class="card">` + newsList(topNews(n=>(n.topics||[]).some(t=>TOPICS[t]&&TOPICS[t].report==='ai'), 50)) + `</div>`;
-  el.innerHTML = h;
-  const idx = (data)=>{ const d = data.slice(-260); if (!d.length) return d; const b=d[0][1]; return d.map(p=>[p[0], p[1]/b*100]); };
-  lineChart('a-nvda', {series:[{name:'NVDA',key:'px.NVDA',transform:idx},{name:'SOXX',key:'px.SOXX',transform:idx},{name:'NDX',key:'px.NDX',transform:idx}], markLines:[{y:100,label:'基期'}], yFmt:x=>fmtNum(x,0)});
-  lineChart('a-breadth', {series:[{name:'SPY',key:'px.SPY',transform:idx},{name:'RSP 等权',key:'px.RSP',transform:idx}], markLines:[{y:100,label:'基期'}], yFmt:x=>fmtNum(x,0)});
-  lineChart('a-credit', {series:[{name:'HY OAS',key:'fred.HY_OAS'},{name:'IG OAS',key:'fred.IG_OAS'}], markLines:[{y:5,label:'5%'}], yFmt:x=>fmtNum(x,2)+'%'});
-  lineChart('a-power', {series:[{name:'GEV',key:'px.GEV',transform:idx},{name:'VRT',key:'px.VRT',transform:idx},{name:'西门子能源',key:'px.SIEMENS_ENERGY',transform:idx}], markLines:[{y:100,label:'基期'}], yFmt:x=>fmtNum(x,0)});
-  lineChart('a-neo', {series:[{name:'CRWV',key:'px.CRWV',transform:idx},{name:'WULF',key:'px.WULF',transform:idx},{name:'IREN',key:'px.IREN',transform:idx}], markLines:[{y:100,label:'基期'}], yFmt:x=>fmtNum(x,0)});
-  lineChart('a-korea', {series:[{name:'KOSPI',key:'px.KOSPI',transform:idx},{name:'SK海力士',key:'px.SKHYNIX',transform:idx}], markLines:[{y:100,label:'基期'}], yFmt:x=>fmtNum(x,0)});
-}
-
-// ================= TRACK =================
-function renderTrack(){
-  const el = document.getElementById('tab-track');
-  let h = `<h2>三篇报告 <small>基准日 2026-09-20 · 本页把报告结论当作"待验证的推演"逐日对照</small></h2><div class="grid g-3">`;
-  for (const r of REPORTS){ h += `<div class="card"><b>${esc(r.title)}</b> <span class="muted small">${esc(r.window||'')}</span><div class="small" style="margin-top:6px">${esc(r.thesis||'')}</div><div class="small" style="margin-top:6px"><a href="${esc(r.file)}" target="_blank">打开原报告 ↗</a> <span class="muted">（若托管版本未包含原文，请在本机打开）</span></div></div>`; }
-  h += `</div>`;
-  if (BASE.length){
-    h += `<h2>基线 vs 现在 <small>报告写下的数字，今天是多少</small></h2><div class="tbl"><table><thead><tr><th>报告</th><th>指标</th><th class="num">报告基线</th><th class="num">现在</th><th class="num">变化</th><th>说明</th></tr></thead><tbody>`;
-    for (const b of BASE){ const chg = b.change_pts!=null ? `<span class="${cls(b.change_pts)}">${(b.change_pts>0?'+':'')+b.change_pts.toFixed(2)} pp</span>` : (b.change_pct==null?'—':`<span class="${cls(b.change_pct)}">${fmtPct(b.change_pct)}</span>`); h += `<tr><td>${chip(rl(b.report), b.report)}</td><td>${esc(b.label)}<div class="muted" style="font-size:11px">${esc(b.metric||'')}</div></td><td class="num">${esc(b.baseline_display||fmtPx(b.baseline_value))}<div class="muted" style="font-size:10px">${esc(b.baseline_date||'')}</div></td><td class="num">${b.now==null?'<span class="muted">无数据</span>':(b.fmt==='pct'?fmtPct(b.now):(b.fmt==='num'?fmtNum(b.now,2):fmtPx(b.now)))}<div class="muted" style="font-size:10px">${esc(b.now_date||'')}</div></td><td class="num">${chg}</td><td class="small muted">${esc(b.note||'')}</td></tr>`; }
-    h += `</tbody></table></div>`;
-  }
-  const hist = D.alerts_history || [];
-  if (hist.length){ const byDate = {}; for (const a of hist){ (byDate[a.date] = byDate[a.date] || []).push(a); } const dates = Object.keys(byDate).sort().reverse(); h += `<h2>推演变化日志 <small>每日触发的规则（最近 120 天）</small></h2><div class="card">`; for (const d of dates.slice(0,60)){ h += `<div style="padding:4px 0;border-bottom:1px solid var(--grid)"><b class="small">${d}</b> ${byDate[d].map(a=>`${lvl(a.level)} <span class="small">${esc(a.title)}</span>`).join(' · ')}</div>`; } h += `</div>`; }
-  h += `<h2>完整触发日历</h2>` + calTable(null, 200);
-  const runs = D.runs || [];
-  if (runs.length) h += `<h2>运行记录</h2><div class="tbl"><table><thead><tr><th>时间</th><th class="num">耗时(s)</th><th>抓取器</th></tr></thead><tbody>${runs.slice(0,15).map(r=>`<tr><td class="num small">${esc(r.run_at)}</td><td class="num">${fmtNum(r.duration_s,0)}</td><td class="small">${Object.entries(r.status||{}).map(([k,s])=>`${k}:${s.skipped?'跳过':(s.ok?'✔':'✖')}`).join(' ')}</td></tr>`).join('')}</tbody></table></div>`;
-  el.innerHTML = h;
-}
-
-// ================= READ =================
-function renderRead(){
-  const el = document.getElementById('tab-read');
-  const topicOpts = Object.entries(TOPICS).sort((a,b)=>(a[1].report||'').localeCompare(b[1].report||'')).map(([k,t])=>`<option value="${k}">${esc(rl(t.report))} · ${esc(t.label)}</option>`).join('');
-  const tc = D.topic_counts || {};
-  const pulse = Object.entries(tc).sort((a,b)=>b[1]['24h']-a[1]['24h']).slice(0,18).map(([k,c])=>`<span class="pill" data-topic="${k}">${esc((TOPICS[k]||{}).label||k)} <b>${c['24h']}</b><span class="muted">/${c['48h']}</span></span>`).join('');
-  el.innerHTML = `<h2>阅读 <small>${NEWS.length} 条 · 最近 7 天 · 无 LLM 改写，全部为原标题与原摘要</small></h2>
-  <div class="card"><div class="small muted">话题脉搏（24h 独立来源数 / 48h）— 点击筛选</div><div class="pill-row">${pulse}</div></div>
-  <div class="filters"><label>报告 <select id="f-report"><option value="">全部</option><option value="crypto">加密</option><option value="war">地缘</option><option value="ai">AI 时代</option><option value="all">宏观</option></select></label>
-  <label>话题 <select id="f-topic"><option value="">全部</option>${topicOpts}</select></label>
-  <label>语言 <select id="f-lang"><option value="">全部</option><option value="zh">中文</option><option value="en">English</option></select></label>
-  <label>排序 <select id="f-sort"><option value="score">敏感度</option><option value="time">时间</option></select></label>
-  <label><input type="checkbox" id="f-hot"> 只看敏感（权重≥3）</label>
-  <label><input type="checkbox" id="f-unread"> 隐藏已读</label>
-  <label><input type="checkbox" id="f-reading"> 研读模式（显示摘要）</label>
-  <input id="f-q" placeholder="搜索标题/摘要…" style="min-width:200px"></div>
-  <div class="card" id="read-list"></div>`;
-  const apply = () => {
-    const rep = document.getElementById('f-report').value, tp = document.getElementById('f-topic').value, lang = document.getElementById('f-lang').value, sort = document.getElementById('f-sort').value, hot = document.getElementById('f-hot').checked, unread = document.getElementById('f-unread').checked, q = document.getElementById('f-q').value.trim().toLowerCase();
-    document.getElementById('read-list').classList.toggle('reading', document.getElementById('f-reading').checked);
-    let items = NEWS.filter(n => (!rep || (n.topics||[]).some(t=>TOPICS[t]&&TOPICS[t].report===rep)) && (!tp || (n.topics||[]).includes(tp)) && (!lang || n.lang===lang) && (!hot || n.score>=3) && (!unread || !readSet.has(n.id)) && (!q || (n.title+' '+(n.summary||'')).toLowerCase().includes(q)));
-    if (sort==='score') items = topNews(x=>items.includes(x), 400); else items = items.slice(0, 400);
-    document.getElementById('read-list').innerHTML = items.length ? newsList(items) : '<span class="muted">没有匹配的新闻</span>';
-  };
-  el.querySelectorAll('select,input').forEach(x=>x.addEventListener('change', apply));
-  document.getElementById('f-q').addEventListener('input', apply);
-  el.querySelectorAll('.pill[data-topic]').forEach(p=>p.addEventListener('click', ()=>{ document.getElementById('f-topic').value = p.dataset.topic; apply(); }));
-  apply();
-}
-
-// ================= DATA =================
-function renderData(){
-  const el = document.getElementById('tab-data');
-  const run = D.run || {};
-  let h = `<h2>抓取器状态 <small>生成于 ${esc(D.generated_at)} · 总耗时 ${run.duration_s||'?'}s</small></h2><div class="tbl"><table><thead><tr><th>抓取器</th><th>状态</th><th class="num">指标</th><th class="num">回填</th><th class="num">新闻</th><th class="num">秒</th><th>备注</th></tr></thead><tbody>`;
-  for (const [k,s] of Object.entries(run.fetchers||{})) h += `<tr><td><b>${k}</b></td><td>${s.skipped?'<span class="muted">未运行</span>':(s.ok?'<span class="up">正常</span>':'<span class="down">失败</span>')}${s.stale_from?`<div class="muted" style="font-size:10px">上次运行 ${esc(String(s.stale_from).slice(0,16))}</div>`:''}</td><td class="num">${s.metrics??''}</td><td class="num">${s.backfill??''}</td><td class="num">${s.news??''}</td><td class="num">${s.seconds??''}</td><td class="small muted">${esc(s.error||s.notes||'')}</td></tr>`;
-  h += `</tbody></table></div>`;
-  const sub = ((run.fetchers||{}).extras||{}).sub_status || {};
-  if (Object.keys(sub).length) h += `<h3>专项来源（extras）</h3><div class="card small">${Object.entries(sub).map(([k,s])=>`<span class="chip" title="${esc(s.error||'')}">${s.ok?'✔':'✖'} ${esc(k)} ${s.n!=null?'('+s.n+')':''}</span>`).join(' ')}</div>`;
-  const fs = run.feed_status || {};
-  const fsE = Object.entries(fs); const okN = fsE.filter(([k,s])=>s.ok).length;
-  h += `<h2>新闻源 <small>${okN}/${fsE.length} 正常</small></h2><div class="tbl"><table><thead><tr><th>来源</th><th>状态</th><th class="num">条数</th><th>错误</th></tr></thead><tbody>${fsE.sort((a,b)=>(a[1].ok===b[1].ok?0:(a[1].ok?1:-1))).map(([k,s])=>`<tr><td>${esc(k)}</td><td>${s.ok?'<span class="up">✔</span>':'<span class="down">✖</span>'}</td><td class="num">${s.n??''}</td><td class="small muted">${esc(s.error||'')}</td></tr>`).join('')}</tbody></table></div>`;
-  const stale = Object.entries(M).filter(([k,m])=>k.startsWith('px.') || k.startsWith('pm.') || k.startsWith('stable.') || k.startsWith('fred.')).map(([k,m])=>({k, d:m.date})).filter(x=>{ const age=(Date.parse(TODAY)-Date.parse(x.d))/864e5; return age>3; });
-  h += `<h2>过期指标 <small>超过 3 天未更新（周末/假日属正常）</small></h2><div class="card small">${stale.length? stale.map(x=>`<span class="chip">${esc(x.k)} ${x.d}</span>`).join(' ') : '<span class="muted">无</span>'}</div>`;
-  h += `<h2>来源等级与准确性约定</h2><div class="card small"><b>T1</b> 官方/一手（美联储、SEC、财政部、交易所与协议链上数据、DefiLlama、Polymarket 成交价）· <b>T2</b> 主流媒体与成熟聚合（CoinDesk、The Block、CNBC、Google News 检索到的路透/彭博等）· <b>T3</b> 二级聚合/博客（仅作线索，需二次核实）。<br>价格类数据：CoinGecko 与 Binance/Yahoo 交叉；FRED 失败时以财政部收益率曲线兜底。所有指标带时间戳；规则在数据缺失时显示"无数据"而非猜测。<br>本工具不使用大模型改写或总结任何内容；新闻只做关键词打标与排序。</div>`;
-  if (ST.data_gaps) h += `<h2>报告自述的数据缺口</h2><div class="card small">${ST.data_gaps.map(g=>`<div>· ${esc(g)}</div>`).join('')}</div>`;
-  h += `<h2>指标字典 <small>${Object.keys(M).length} 个键</small></h2><details><summary>展开全部指标（键 · 值 · 日期 · 来源）</summary><div class="tbl" style="max-height:60vh"><table><thead><tr><th>键</th><th class="num">值</th><th>日期</th><th>来源</th></tr></thead><tbody>${Object.entries(M).sort().map(([k,m])=>`<tr><td class="small">${esc(k)}</td><td class="num small">${m.value==null?'—':fmtPx(+m.value)}</td><td class="small">${esc(m.asof||m.date||'')}</td><td class="small muted">${esc(m.source||'')}</td></tr>`).join('')}</tbody></table></div></details>`;
-  el.innerHTML = h;
-}
-
-// ---------- tabs & theme ----------
-const renderers = {overview:renderOverview, crypto:renderCrypto, geo:renderGeo, ai:renderAI, track:renderTrack, read:renderRead, data:renderData};
-const rendered = {};
-function show(tab){ document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.toggle('active', b.dataset.tab===tab)); document.querySelectorAll('section.tab').forEach(s=>s.classList.toggle('active', s.id==='tab-'+tab)); if (!rendered[tab]){ try { renderers[tab](); } catch(e){ document.getElementById('tab-'+tab).innerHTML = '<div class="card down">渲染错误：'+esc(e.message)+'</div>'; console.error(e); } rendered[tab]=true; } setTimeout(()=>charts.forEach(c=>c.resize()),0); LS('tab', tab); }
-document.getElementById('tabs').addEventListener('click', e=>{ const b=e.target.closest('button'); if (b) show(b.dataset.tab); });
-const themeBtn = document.getElementById('theme-btn');
-function applyTheme(t){ if (t==='auto') document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme', t); LS('theme', t); }
-applyTheme(LS('theme')||'auto');
-themeBtn.addEventListener('click', ()=>{ const cur = LS('theme')||'auto'; const nxt = cur==='auto'?'dark':(cur==='dark'?'light':'auto'); applyTheme(nxt); charts.length=0; Object.keys(rendered).forEach(k=>rendered[k]=false); show(document.querySelector('nav.tabs button.active').dataset.tab); });
-function boot(){ renderOverview(); rendered.overview = true; const last = LS('tab'); if (last && last!=='overview' && renderers[last]) show(last); }
-if (window.echarts) boot(); else { let n=0; const t=setInterval(()=>{ if (window.echarts || ++n>40){ clearInterval(t); boot(); } }, 100); }
-})();
-{% endraw %}
-</script>
+<script src="assets/app.js"></script>
 </body>
 </html>
