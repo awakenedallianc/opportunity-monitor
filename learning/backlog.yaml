@@ -1,0 +1,7 @@
+# 功能候选榜（由学习周期维护）。分 = value×2 − effort − (needs_llm?2) − risk_words + (data_ok?1)，由 learn_page 计算。
+# status：candidate 候选 | planned 下期做 | building 在做 | done 已上线 | dropped 放弃（写明原因）
+# 每期最多新增 5 条；每期只把 1 条设为 planned/building；done 的保留 90 天后移到 backlog_archive.yaml。
+# 字段：id name what why first_version seen_at[] effort(1-5) value(1-5) needs_llm risk_words(0-3) data_ok status added notes
+version: 1
+updated: 2026-09-21
+features: []

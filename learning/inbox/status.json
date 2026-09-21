@@ -1,0 +1,225 @@
+{
+ "generated_at": "2026-09-21T06:28:40.975805+00:00",
+ "sources": 24,
+ "ok": 19,
+ "new_items": 368,
+ "duration_s": 10.9,
+ "status": [
+  {
+   "name": "Andrew Chen",
+   "feed_url": "https://andrewchen.com/feed/",
+   "ok": true,
+   "items": 15,
+   "new": 0,
+   "last_item": "2024-02-26",
+   "error": null
+  },
+  {
+   "name": "Benedict Evans",
+   "feed_url": "https://www.ben-evans.com/benedictevans?format=rss",
+   "ok": true,
+   "items": 20,
+   "new": 1,
+   "last_item": "2026-09-03",
+   "error": null
+  },
+  {
+   "name": "Coin Metrics",
+   "feed_url": "https://coinmetrics.substack.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 8,
+   "last_item": "2026-09-15",
+   "error": null
+  },
+  {
+   "name": "Datawrapper Blog",
+   "feed_url": "https://blog.datawrapper.de/feed/",
+   "ok": true,
+   "items": 1073,
+   "new": 22,
+   "last_item": "2026-09-17",
+   "error": null
+  },
+  {
+   "name": "FlowingData",
+   "feed_url": "https://flowingdata.com/feed/",
+   "ok": true,
+   "items": 10,
+   "new": 10,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
+   "name": "Hacker News (best)",
+   "feed_url": "https://hnrss.org/best",
+   "ok": true,
+   "items": 30,
+   "new": 30,
+   "last_item": "2026-09-20",
+   "error": null
+  },
+  {
+   "name": "Latent Space",
+   "feed_url": "https://www.latent.space/feed",
+   "ok": true,
+   "items": 20,
+   "new": 20,
+   "last_item": "2026-09-19",
+   "error": null
+  },
+  {
+   "name": "Lenny's Newsletter",
+   "feed_url": "https://www.lennysnewsletter.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 20,
+   "last_item": "2026-09-20",
+   "error": null
+  },
+  {
+   "name": "Nielsen Norman Group",
+   "feed_url": "https://www.nngroup.com/feed/rss/",
+   "ok": true,
+   "items": 20,
+   "new": 20,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
+   "name": "OpenAI News",
+   "feed_url": "https://openai.com/news/rss.xml",
+   "ok": true,
+   "items": 1210,
+   "new": 80,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
+   "name": "Product Hunt",
+   "feed_url": "https://www.producthunt.com/feed",
+   "ok": true,
+   "items": 50,
+   "new": 48,
+   "last_item": "2026-09-20",
+   "error": null
+  },
+  {
+   "name": "Simon Willison",
+   "feed_url": "https://simonwillison.net/atom/everything/",
+   "ok": true,
+   "items": 30,
+   "new": 30,
+   "last_item": "2026-09-20",
+   "error": null
+  },
+  {
+   "name": "Smashing Magazine",
+   "feed_url": "https://www.smashingmagazine.com/feed/",
+   "ok": true,
+   "items": 40,
+   "new": 13,
+   "last_item": "2026-09-16",
+   "error": null
+  },
+  {
+   "name": "Stratechery",
+   "feed_url": "https://stratechery.com/feed/",
+   "ok": true,
+   "items": 10,
+   "new": 10,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
+   "name": "The Pragmatic Engineer",
+   "feed_url": "https://newsletter.pragmaticengineer.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 19,
+   "last_item": "2026-09-17",
+   "error": null
+  },
+  {
+   "name": "The Pudding",
+   "feed_url": "https://pudding.cool/feed/index.xml",
+   "ok": true,
+   "items": 20,
+   "new": 2,
+   "last_item": "2026-08-04",
+   "error": null
+  },
+  {
+   "name": "UX Collective",
+   "feed_url": "https://uxdesign.cc/feed",
+   "ok": true,
+   "items": 10,
+   "new": 10,
+   "last_item": "2026-09-20",
+   "error": null
+  },
+  {
+   "name": "人人都是产品经理",
+   "feed_url": "https://www.woshipm.com/feed",
+   "ok": true,
+   "items": 15,
+   "new": 15,
+   "last_item": "2026-09-21",
+   "error": null
+  },
+  {
+   "name": "少数派",
+   "feed_url": "https://sspai.com/feed",
+   "ok": true,
+   "items": 10,
+   "new": 10,
+   "last_item": "2026-09-21",
+   "error": null
+  },
+  {
+   "name": "36氪",
+   "feed_url": "https://36kr.com/feed",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "not a feed (<unknown>:10:542: not well-formed (invalid token))"
+  },
+  {
+   "name": "Every",
+   "feed_url": "https://every.to/feed.xml",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "not a feed (<unknown>:8:40: not well-formed (invalid token))"
+  },
+  {
+   "name": "Glassnode Insights",
+   "feed_url": "https://insights.glassnode.com/rss/",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "403 Client Error: Forbidden for url: https://insights.glassnode.com/rss/"
+  },
+  {
+   "name": "a16z",
+   "feed_url": "https://a16z.com/feed/",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "404 Client Error: Not Found for url: https://a16z.com/feed/"
+  },
+  {
+   "name": "机器之心",
+   "feed_url": "https://www.jiqizhixin.com/rss",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "not a feed (<unknown>:8:82: not well-formed (invalid token))"
+  }
+ ]
+}

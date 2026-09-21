@@ -1,0 +1,30 @@
+# 学习摄入来源（无 LLM 车道每天抓）。字段：name / site_url / feed_url / topics（第一个是主分组）/ language / cadence / why / enabled
+# 主分组取值：product ai ux growth design china finance dataviz crypto macro forecasting changelog engineering
+# 增删来源不需要改代码；抓不到的源会在 learning/inbox/status.json 里标 error，学习周期会决定替换或删除。
+version: 1
+updated: 2026-09-21
+sources:
+  - {name: "Lenny's Newsletter", site_url: https://www.lennysnewsletter.com, feed_url: https://www.lennysnewsletter.com/feed, topics: [product, growth], language: en, cadence: weekly, why: 产品经理方法论的事实标准，AI PM 专题多}
+  - {name: "a16z", site_url: https://a16z.com, feed_url: https://a16z.com/feed/, topics: [ai, product], language: en, cadence: weekly, why: AI 应用层与市场结构观点}
+  - {name: "Stratechery", site_url: https://stratechery.com, feed_url: https://stratechery.com/feed/, topics: [product, ai], language: en, cadence: weekly, why: 互联网商业模式与战略分析}
+  - {name: "Nielsen Norman Group", site_url: https://www.nngroup.com, feed_url: https://www.nngroup.com/feed/rss/, topics: [ux], language: en, cadence: weekly, why: 可用性研究的权威，AI UX 系列}
+  - {name: "Smashing Magazine", site_url: https://www.smashingmagazine.com, feed_url: https://www.smashingmagazine.com/feed/, topics: [design, ux], language: en, cadence: daily, why: 前端与设计实践}
+  - {name: "UX Collective", site_url: https://uxdesign.cc, feed_url: https://uxdesign.cc/feed, topics: [ux, design], language: en, cadence: daily, why: 设计师社区，案例多}
+  - {name: "Andrew Chen", site_url: https://andrewchen.com, feed_url: https://andrewchen.com/feed/, topics: [growth], language: en, cadence: monthly, why: 增长与网络效应}
+  - {name: "Benedict Evans", site_url: https://www.ben-evans.com, feed_url: "https://www.ben-evans.com/benedictevans?format=rss", topics: [product, ai], language: en, cadence: weekly, why: 科技行业结构性观察}
+  - {name: "Every", site_url: https://every.to, feed_url: https://every.to/feed.xml, topics: [ai, product], language: en, cadence: daily, why: AI 时代的工作与产品实践}
+  - {name: "Latent Space", site_url: https://www.latent.space, feed_url: https://www.latent.space/feed, topics: [ai, engineering], language: en, cadence: weekly, why: AI 工程师视角的产品与模型动态}
+  - {name: "The Pragmatic Engineer", site_url: https://newsletter.pragmaticengineer.com, feed_url: https://newsletter.pragmaticengineer.com/feed, topics: [engineering, product], language: en, cadence: weekly, why: 工程团队如何做产品}
+  - {name: "Simon Willison", site_url: https://simonwillison.net, feed_url: https://simonwillison.net/atom/everything/, topics: [ai, engineering], language: en, cadence: daily, why: LLM 工具与实践的一线记录}
+  - {name: "OpenAI News", site_url: https://openai.com/news, feed_url: https://openai.com/news/rss.xml, topics: [ai], language: en, cadence: daily, why: 模型与产品发布}
+  - {name: "Hacker News (best)", site_url: https://news.ycombinator.com/best, feed_url: https://hnrss.org/best, topics: [engineering, ai], language: en, cadence: daily, why: 技术社区高票内容}
+  - {name: "Product Hunt", site_url: https://www.producthunt.com, feed_url: https://www.producthunt.com/feed, topics: [product], language: en, cadence: daily, why: 新产品与功能灵感}
+  - {name: "Datawrapper Blog", site_url: https://blog.datawrapper.de, feed_url: https://blog.datawrapper.de/feed/, topics: [dataviz], language: en, cadence: weekly, why: 图表怎么做得好读}
+  - {name: "FlowingData", site_url: https://flowingdata.com, feed_url: https://flowingdata.com/feed/, topics: [dataviz], language: en, cadence: daily, why: 数据可视化案例}
+  - {name: "The Pudding", site_url: https://pudding.cool, feed_url: https://pudding.cool/feed/index.xml, topics: [dataviz], language: en, cadence: monthly, why: 视觉叙事标杆}
+  - {name: "Glassnode Insights", site_url: https://insights.glassnode.com, feed_url: https://insights.glassnode.com/rss/, topics: [crypto], language: en, cadence: weekly, why: 链上数据研究}
+  - {name: "Coin Metrics", site_url: https://coinmetrics.substack.com, feed_url: https://coinmetrics.substack.com/feed, topics: [crypto], language: en, cadence: weekly, why: State of the Network}
+  - {name: "少数派", site_url: https://sspai.com, feed_url: https://sspai.com/feed, topics: [china, product], language: zh, cadence: daily, why: 中文数字生活与效率产品}
+  - {name: "人人都是产品经理", site_url: https://www.woshipm.com, feed_url: https://www.woshipm.com/feed, topics: [china, product], language: zh, cadence: daily, why: 中文产品经理社区}
+  - {name: "机器之心", site_url: https://www.jiqizhixin.com, feed_url: https://www.jiqizhixin.com/rss, topics: [china, ai], language: zh, cadence: daily, why: 中文 AI 资讯}
+  - {name: "36氪", site_url: https://36kr.com, feed_url: https://36kr.com/feed, topics: [china, product], language: zh, cadence: daily, why: 中文科技商业}

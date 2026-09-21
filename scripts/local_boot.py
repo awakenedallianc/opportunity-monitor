@@ -80,8 +80,8 @@ def main() -> int:
         return 0
     if (ROOT / ".git").exists() and has_remote():
         # 生成物可重建：丢弃本地改动与未跟踪的本地快照，确保 ff-only 拉取不被阻塞
-        sh(["git", "checkout", "--", "data"])
-        sh(["git", "clean", "-fdq", "--", "data/snapshots", "data/news_archive"])
+        sh(["git", "checkout", "--", "data", "learning/inbox"])
+        sh(["git", "clean", "-fdq", "--", "data/snapshots", "data/news_archive", "learning/inbox"])
         rc, out = sh(["git", "pull", "--ff-only"], timeout=180)
         log.info("git pull rc=%s %s", rc, out[-300:])
         if rc != 0:
@@ -95,6 +95,8 @@ def main() -> int:
         # --resume：若今天已有近 3 小时内完成的抓取器（例如上次开机被中断/刚跑过），跳过它们
         rc, out = sh([sys.executable, str(ROOT / "run.py"), "--resume"], timeout=1500)
         log.info("run.py rc=%s tail=%s", rc, out[-600:])
+        rc_l, out_l = sh([sys.executable, str(ROOT / "scripts" / "learn_intake.py")], timeout=600)
+        log.info("learn_intake rc=%s tail=%s", rc_l, out_l[-300:])
     _open()
     # 云端是否需要补跑
     try:

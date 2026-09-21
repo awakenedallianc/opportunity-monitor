@@ -1,0 +1,6 @@
+# 方法论知识库（由学习周期维护）。每条 = 一句话教训 + 本站怎么用 + 可核验来源。
+# 规则：最多 60 条；超出时把 rank 最靠后的移到 knowledge_archive.yaml；同义合并，不堆砌。
+# 字段：id title takeaway action applies_to(ai|product|ux|monitor|dataviz|growth) source_name url added rank
+version: 1
+updated: 2026-09-21
+lessons: []

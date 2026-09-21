@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>机会监控 · 学习</title>
+<meta name="description" content="学习循环：每天自动收新信息，定期沉淀成方法论与功能候选">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="assets/app.css">
+<style>
+.learn{max-width:980px;margin:0 auto;padding:16px 16px 80px}
+.learn .hdr{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;padding:8px 0 18px;border-bottom:1px solid var(--border-hair)}
+.learn .hdr h1{font:700 22px/30px var(--font-sans);margin:0}
+.learn .hdr a{color:var(--accent);text-decoration:none;font-size:14px}
+.learn .hdr .meta{margin-left:auto;font:400 12px/18px var(--font-mono);color:var(--muted)}
+.learn h2{font:600 18px/26px var(--font-sans);margin:28px 0 10px;display:flex;align-items:baseline;gap:10px}
+.learn h2 .count{font:400 12px/18px var(--font-mono);color:var(--muted)}
+.learn .card{background:var(--surface);border:1px solid var(--border-hair);border-radius:12px;padding:14px 16px}
+.learn .lesson{padding:10px 0;border-bottom:1px solid var(--border-hair)}
+.learn .lesson:last-child{border-bottom:0}
+.learn .lesson .t{font:600 15px/22px var(--font-sans)}
+.learn .lesson .k{font:400 14px/22px var(--font-sans);margin-top:2px}
+.learn .lesson .a{font:400 13px/20px var(--font-sans);color:var(--ink-2);margin-top:4px}
+.learn .lesson .a b{color:var(--accent);font-weight:600}
+.learn .lesson .s{font:400 12px/18px var(--font-mono);color:var(--muted);margin-top:4px}
+.learn .lesson .s a{color:var(--muted)}
+.learn .area{font:600 12px/18px var(--font-sans);color:var(--muted);letter-spacing:.08em;margin:14px 0 4px}
+.learn .area:first-child{margin-top:0}
+.learn .frow{display:grid;grid-template-columns:40px 1fr auto;gap:10px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--border-hair)}
+.learn .frow:last-child{border-bottom:0}
+.learn .frow .sc{font:700 18px/24px var(--font-mono);color:var(--ink-2);text-align:center}
+.learn .frow .n{font:600 15px/22px var(--font-sans)}
+.learn .frow .w{font:400 13px/20px var(--font-sans);color:var(--ink-2)}
+.learn .frow .fv{font:400 12px/18px var(--font-sans);color:var(--muted);margin-top:2px}
+.learn .st{font:500 12px/20px var(--font-sans);border-radius:10px;padding:0 10px;background:var(--surface-2);color:var(--ink-2);white-space:nowrap}
+.learn .st.planned,.learn .st.building{background:var(--st-opportunity-bg);color:var(--st-opportunity)}
+.learn .st.done{background:var(--st-info-bg);color:var(--st-info)}
+.learn .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.learn .tabs button{font:500 13px/28px var(--font-sans);border:1px solid var(--border);background:var(--surface-2);color:var(--ink-2);border-radius:14px;padding:0 12px;cursor:pointer}
+.learn .tabs button[aria-pressed="true"]{background:var(--ink);color:var(--page);border-color:var(--ink)}
+.learn .nrow{display:grid;grid-template-columns:52px 1fr;gap:4px 10px;padding:8px 0;border-bottom:1px solid var(--border-hair)}
+.learn .nrow:last-child{border-bottom:0}
+.learn .nrow .d{font:400 12px/20px var(--font-mono);color:var(--muted)}
+.learn .nrow a{color:var(--ink);font:500 14px/22px var(--font-sans);text-decoration:none}
+.learn .nrow a:hover{text-decoration:underline}
+.learn .nrow .m{grid-column:2;font:400 12px/18px var(--font-sans);color:var(--muted)}
+.learn .nrow .m .chip{display:inline-block;font:400 11px/16px var(--font-sans);background:var(--surface-2);border-radius:8px;padding:0 6px;margin-left:4px}
+.learn .log h3{font:600 15px/22px var(--font-sans);margin:0 0 6px}
+.learn .log h4{font:600 14px/22px var(--font-sans);margin:8px 0 4px}
+.learn .log ul{margin:4px 0 8px;padding-left:18px}
+.learn .log li,.learn .log p{font:400 14px/22px var(--font-sans);margin:2px 0}
+.learn .log .entry{padding:10px 0;border-bottom:1px solid var(--border-hair)}
+.learn .log .entry:last-child{border-bottom:0}
+.learn .empty{color:var(--muted);font:400 14px/22px var(--font-sans);padding:14px 0}
+.learn .foot{margin-top:28px;font:400 12px/18px var(--font-sans);color:var(--muted)}
+.learn .intro{font:400 15px/24px var(--font-sans);color:var(--ink-2);margin:12px 0 0}
+@media (max-width:639px){.learn .frow{grid-template-columns:36px 1fr}.learn .frow .st{grid-column:2}}
+</style>
+</head>
+<body>
+<div class="learn">
+  <div class="hdr"><h1>学习</h1><a href="index.html">← 回到机会监控</a><span class="meta">更新 {{ generated }}</span></div>
+  <p class="intro">这个页面是系统"自己学习"的地方：每天自动收 {{ n_sources }} 个来源的新文章；每个周期（时间你定）Claude 读一遍、联网研究、把值得学的写成一句话方法论、把值得做的排成功能榜，再动手做一个。</p>
+
+  <h2>最近一期学到什么 <span class="count">{{ logs|length }} 期</span></h2>
+  <div class="card log">
+    {% if logs %}{% for e in logs %}<div class="entry"><h3>{{ e.title }}</h3>{{ e.html|safe }}</div>{% endfor %}
+    {% else %}<div class="empty">还没有跑过学习周期。第一次运行后这里会出现"学到 / 新增候选 / 本期实现 / 下期做什么"。</div>{% endif %}
+  </div>
+
+  <h2>功能候选榜 <span class="count">{{ feats|length }} 项 · 分 = 价值×2 − 工作量 − 需要大模型 − 字多风险 + 免费数据</span></h2>
+  <div class="card">
+    {% if feats %}{% for f in feats[:20] %}
+    <div class="frow"><span class="sc">{{ f.score }}</span><div><div class="n">{{ f.name }}</div><div class="w">{{ f.what }}</div>{% if f.first_version %}<div class="fv">第一版最小做法：{{ f.first_version }}</div>{% endif %}</div><span class="st {{ f.status }}">{{ f.status_label }}</span></div>
+    {% endfor %}{% else %}<div class="empty">功能候选榜为空。首轮研究完成后会填入。</div>{% endif %}
+  </div>
+
+  <h2>方法论 <span class="count">{{ n_lessons }} 条 · 每条一句话 + 本站怎么用</span></h2>
+  <div class="card">
+    {% if lessons_by_area %}{% for area, ls in lessons_by_area.items() %}<div class="area">{{ area }}</div>
+      {% for l in ls %}<div class="lesson"><div class="t">{{ l.title }}</div><div class="k">{{ l.takeaway }}</div>{% if l.action %}<div class="a"><b>本站怎么用</b> {{ l.action }}</div>{% endif %}<div class="s">{% if l.url %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.source_name or '来源' }}</a>{% endif %}{% if l.added %} · {{ l.added }}{% endif %}</div></div>{% endfor %}
+    {% endfor %}{% else %}<div class="empty">知识库为空。首轮研究完成后会填入。</div>{% endif %}
+  </div>
+
+  <h2>新收到的文章 <span class="count">近 {{ digest.window_days or 14 }} 天 {{ digest.total or 0 }} 篇 · 来源 {{ digest.sources_ok or 0 }}/{{ digest.sources_total or n_sources }} 正常</span></h2>
+  <div class="card">
+    {% if groups %}
+    <div class="tabs">{% for g in groups %}<button data-g="{{ g.key }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ g.label }} {{ g.entries|length }}</button>{% endfor %}</div>
+    {% for g in groups %}<div class="gb" data-g="{{ g.key }}" {% if not loop.first %}style="display:none"{% endif %}>
+      {% for it in g.entries[:25] %}<div class="nrow"><span class="d">{{ it.date[5:] }}</span><a href="{{ it.link }}" target="_blank" rel="noopener">{{ it.title }}</a><span class="m">{{ it.source }}{% for t in it.tags[:3] %}<span class="chip">{{ t }}</span>{% endfor %}</span></div>{% endfor %}
+    </div>{% endfor %}
+    {% else %}<div class="empty">还没有收到文章（首次摄入后出现）。</div>{% endif %}
+    {% if digest.failed_sources %}<div class="empty">暂时抓不到：{{ digest.failed_sources|join('、') }}</div>{% endif %}
+  </div>
+
+  <div class="foot">流程：learning/sources.yaml（来源）→ scripts/learn_intake.py（每天抓，无大模型）→ learning/inbox（收件箱）→ 学习周期（learning/LOOP.md，Claude 执行）→ knowledge.yaml / backlog.yaml / log.md → 这个页面。周期由计划任务控制，可随时改时间或暂停。</div>
+</div>
+<script>
+document.querySelectorAll('.learn .tabs button').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.learn .tabs button').forEach(x => x.setAttribute('aria-pressed', 'false'));
+  b.setAttribute('aria-pressed', 'true');
+  document.querySelectorAll('.learn .gb').forEach(x => x.style.display = x.dataset.g === b.dataset.g ? 'block' : 'none');
+}));
+</script>
+</body>
+</html>

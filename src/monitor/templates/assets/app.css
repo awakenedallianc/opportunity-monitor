@@ -465,3 +465,4 @@ details.story-card.rep summary{display:none}details.story-card.rep .sb{padding-t
 @media (min-width:1100px){.grid.g-3{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .alist>.arow{min-width:0}.arow .ab{min-width:0}
 @media (max-width:639px){.top .date{display:none}}
+.rail a.nv.ext{display:block;text-decoration:none;color:var(--muted)}.rail a.nv.ext:hover{color:var(--ink)}.tabs a.ext{font:500 13px/36px var(--font-sans);color:var(--muted);text-decoration:none;padding:0 10px;white-space:nowrap}.sheet a{display:block;padding:12px 16px;color:var(--ink);text-decoration:none}

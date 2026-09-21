@@ -255,6 +255,11 @@ def main(argv: list[str] | None = None) -> int:
     except Exception as e:
         log.warning("news archive export failed: %s", e)
     site.render(payload)
+    try:
+        from . import learn_page
+        learn_page.render()
+    except Exception as e:  # 学习页缺失不影响主站
+        log.warning("learn page skipped: %s", e)
     store.put_run(time.time() - t0, status)
     log.info("done in %.1fs", time.time() - t0)
     print(json.dumps({"ok": True, "date": today, "fired": len(fired), "news_new": news_new,
