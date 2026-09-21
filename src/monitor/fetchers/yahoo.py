@@ -96,9 +96,13 @@ def fetch(cfg: dict, settings: dict) -> dict:
             metrics.append({"key": f"chg1d.{key}", "value": chg1d, "source": src, "date": asof})
             metrics.append({"key": f"chg7d.{key}", "value": _pct(cur, vals[-6] if n >= 6 else None), "source": src, "date": asof})
             metrics.append({"key": f"chg30d.{key}", "value": _pct(cur, vals[-22] if n >= 22 else None), "source": src, "date": asof})
-            metrics.append({"key": f"chg1y.{key}", "value": _pct(cur, vals[-253] if n >= 253 else vals[0]), "source": src, "date": asof})
+            # 历史不足一年时不给 1 年变化（回退 vals[0] 会把上市以来涨跌错标成 1y）
+            metrics.append({"key": f"chg1y.{key}", "value": _pct(cur, vals[-253]) if n >= 253 else None, "source": src, "date": asof})
             ytd_base = next((v for d, v in zip(dates, vals) if d >= f"{year}-01-01"), None)
             metrics.append({"key": f"ytd.{key}", "value": _pct(cur, ytd_base), "source": src, "date": asof})
+            metrics.append({"key": f"chg90d.{key}", "value": _pct(cur, vals[-64] if n >= 64 else None), "source": src, "date": asof})
+            if n >= 200:
+                metrics.append({"key": f"sma200.{key}", "value": sum(vals[-200:]) / 200, "source": src, "date": asof})
             last252 = vals[-252:]
             hi52 = max(last252)
             hi2y = max(vals)

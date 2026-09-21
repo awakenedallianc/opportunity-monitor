@@ -28,6 +28,7 @@ jobs:
       TZ: Asia/Bangkok
       PYTHONUTF8: '1'
       EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+      TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}   # 可选：Jev 新闻信号分（未设则纯关键词排序）
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 1 }

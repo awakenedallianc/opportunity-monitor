@@ -101,6 +101,7 @@ def fetch_one(src: dict, max_age_days: int) -> tuple[dict, list[dict]]:
             raise ValueError(f"not a feed ({getattr(feed, 'bozo_exception', '')})")
         cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
         newest = None
+        undated = 0
         for e in feed.entries[:80]:
             link = (e.get("link") or "").strip()
             title = clean_text(e.get("title") or "", 200)
@@ -111,6 +112,11 @@ def fetch_one(src: dict, max_age_days: int) -> tuple[dict, list[dict]]:
                 newest = when
             if when and datetime.fromisoformat(when) < cutoff:
                 continue
+            if not when:
+                # 无日期条目绕过时效截断且会被记成"今天"：新启用的源最多收 5 条，避免旧文灌满近 14 天摘要
+                undated += 1
+                if undated > 5:
+                    continue
             summary = clean_text(e.get("summary") or (e.get("content") or [{}])[0].get("value", "") or "", 300)
             iid = hashlib.sha1((link or title).encode("utf-8")).hexdigest()[:16]
             items.append({"id": iid, "date": (when or datetime.now(timezone.utc).isoformat())[:10], "published": when,

@@ -7,7 +7,8 @@ series_days: 400           # 曲线保留天数
 series_prefixes: ["px.", "crypto.", "stable.", "fees30d.", "rev30d.", "tvl.", "pm.", "fred.", "ust.",
                   "chainrev30d.", "chainfees30d.", "ratio.", "dd_ath.", "chainfees24h.", "chokepoint.", "gpr.", "pla.",
                   "etf.", "eia.", "lbma.", "fed.", "macro.", "val.", "freight.", "funding.", "hl.", "war.", "fiscal.",
-                  "kalshi.", "eth.", "btc.", "treasury.", "cg.cat.", "rwa."]
+                  "kalshi.", "eth.", "btc.", "treasury.", "cg.cat.", "rwa.",
+                  "mof.", "cftc.", "nrc.", "fx."]
 
 reports:
   - id: crypto

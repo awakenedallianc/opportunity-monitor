@@ -105,6 +105,10 @@ fred:
   - {id: WTREGEN, key: fred.TGA, label: 财政部一般账户}
   - {id: M2SL, key: fred.M2, label: M2}
   - {id: DTWEXBGS, key: fred.DXY_BROAD, label: 广义美元指数}
+  # 扩展第 1 批（Actions 端抓取；泰国本机 FRED 熔断跳过）
+  - {id: BAMLH0A3HYC, key: fred.CCC_OAS, label: CCC级垃圾债利差}
+  - {id: A34SUO, key: fred.GRID_BACKLOG, label: 电气设备未交付订单}
+  - {id: A34SNO, key: fred.GRID_NEWORDERS, label: 电气设备新订单}
   - {id: VIXCLS, key: fred.VIX, label: VIX}
 
 # Yahoo Finance：key 为页面代号，group 供分组展示，report 标记所属报告
@@ -136,6 +140,18 @@ yahoo:
   - {key: USDCNY, symbol: "USDCNY=X", label: 美元/人民币, group: 避险与利率, report: war}
   - {key: USDTWD, symbol: "TWD=X", label: 美元/新台币, group: 避险与利率, report: war}
   - {key: USDKRW, symbol: "KRW=X", label: 美元/韩元, group: 避险与利率, report: war}
+  # --- 扩展第 1 批：信用 / 波动率 / 套息 / 铜（见 data/raw/expansion_research.json）---
+  - {key: HYG, symbol: HYG, label: 高收益债 HYG, group: 信用与波动, report: all}
+  - {key: LQD, symbol: LQD, label: 投资级债 LQD, group: 信用与波动, report: all}
+  - {key: IEF, symbol: IEF, label: 7-10年国债 IEF, group: 信用与波动, report: all}
+  - {key: VIX3M, symbol: "^VIX3M", label: VIX 三个月, group: 信用与波动, report: all}
+  - {key: SKEW, symbol: "^SKEW", label: SKEW 尾部对冲, group: 信用与波动, report: all}
+  - {key: VVIX, symbol: "^VVIX", label: VVIX, group: 信用与波动, report: all}
+  - {key: CNH, symbol: "CNH=X", label: 美元/离岸人民币, group: 避险与利率, report: all}
+  - {key: FXY, symbol: FXY, label: 日元 ETF FXY, group: 避险与利率, report: all}
+  - {key: MUFG, symbol: "8306.T", label: 三菱UFJ（东京）, group: 避险与利率, report: all}
+  - {key: FCX, symbol: FCX, label: 自由港铜业, group: 铀矿物化肥, report: war}
+  - {key: COPX, symbol: COPX, label: 铜矿 ETF COPX, group: 铀矿物化肥, report: war}
   # --- 军工 ---
   - {key: RHM, symbol: "RHM.DE", label: 莱茵金属, group: 军工, report: war}
   - {key: ITA, symbol: ITA, label: 美国军工 ETF ITA, group: 军工, report: war}
@@ -202,6 +218,17 @@ yahoo:
   - {key: VST, symbol: VST, label: Vistra, group: 电力设备, report: ai}
   - {key: TLN, symbol: TLN, label: Talen, group: 电力设备, report: ai}
   - {key: OKLO, symbol: OKLO, label: Oklo（SMR）, group: 电力设备, report: ai}
+  # --- 扩展第 1 批：电网设备 / 公用事业 / 泰国 EEC ---
+  - {key: XLU, symbol: XLU, label: 公用事业 ETF XLU, group: 电力设备, report: ai}
+  - {key: POWL, symbol: POWL, label: Powell Industries, group: 电力设备, report: ai}
+  - {key: HUBB, symbol: HUBB, label: Hubbell, group: 电力设备, report: ai}
+  - {key: SIEYUAN, symbol: "002028.SZ", label: 思源电气, group: 电力设备, report: ai}
+  - {key: DELTA_TH, symbol: "DELTA.BK", label: 泰达电（泰国）, group: 泰国EEC, report: ai}
+  - {key: GULF_TH, symbol: "GULF.BK", label: Gulf Energy（泰国）, group: 泰国EEC, report: ai}
+  - {key: WHA_TH, symbol: "WHA.BK", label: WHA 工业地产（泰国）, group: 泰国EEC, report: ai}
+  - {key: AMATA_TH, symbol: "AMATA.BK", label: Amata 工业园（泰国）, group: 泰国EEC, report: ai}
+  - {key: AJBU_SG, symbol: "AJBU.SI", label: Keppel DC REIT（新加坡）, group: 泰国EEC, report: ai}
+  - {key: JKM, symbol: "JKM=F", label: 亚洲 LNG JKM, group: 泰国EEC, report: ai}
   # --- 加密相关股 ---
   - {key: COIN, symbol: COIN, label: Coinbase, group: 加密相关股, report: crypto}
   - {key: HOOD, symbol: HOOD, label: Robinhood, group: 加密相关股, report: ai}
@@ -263,4 +290,5 @@ polymarket:
 
 extras: [portwatch, gpr, plavis, freight, treasury_curve, nyfed_rates, fiscal_tga, bls_cpi, coinmetrics, sosovalue_etf, cg_treasuries, cmc_altseason, mempool,
          ultrasound, funding, kalshi_fed, eia_brent_spot, lbma_gold, multpl_cape, llama_pm_volume, cg_categories, rwa_xyz,
-         govtrack_clarity, llama_unlocks]
+         govtrack_clarity, llama_unlocks,
+         mof_jgb, cftc_cot, nrc_power, fiscal_debt, eia_power]

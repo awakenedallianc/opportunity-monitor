@@ -12,7 +12,11 @@ Set-Location $root
 function Invoke-Native { param([string]$Cmd) Invoke-Expression $Cmd; return $LASTEXITCODE }
 
 if (-not (Test-Path '.git')) { git init -b main *> $null }
-git add -A *> $null
+# CLAUDE.md 约定：永远不 git add -A —— 首发布也走白名单（与 scripts/release.py 一致），数据快照单列
+$paths = @('src','config','scripts','tests','run.py','requirements.txt','README.md','PROGRESS.md','HANDOVER.md',
+           'CLAUDE.md','.gitignore','.github','learning','docs/assets/echarts.min.js','docs/.nojekyll',
+           'data/snapshots','data/news_archive') | Where-Object { Test-Path $_ }
+git add -- $paths *> $null
 git -c user.name='monitor' -c user.email='monitor@local' commit -m "init: opportunity monitor" *> $null
 
 $owner = (gh api user --jq .login)

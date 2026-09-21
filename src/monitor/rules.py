@@ -130,11 +130,12 @@ def eval_condition(c: dict, ctx: RuleContext) -> tuple[bool | None, str]:
             return None, f"{key} 历史不足 {n} 天"
         vals = [v for _, v in s[-n:]]
         if "ref_metric" in sub:
-            refs = ctx.store.series(sub["ref_metric"], n + 5)
-            if len(refs) < n:
-                return None, f"{sub['ref_metric']} 历史不足"
-            refv = [v for _, v in refs[-n:]]
-            oks = [OPS[sub.get("op", "gt")](a, b) for a, b in zip(vals, refv)]
+            # 按日期对齐两个序列（不能按位置 zip：缺日不一致时会拿 A 的今天和 B 的昨天比）
+            refs = dict(ctx.store.series(sub["ref_metric"], n + 30))
+            pairs = [(v, refs.get(d)) for d, v in s[-n:]]
+            if any(rv is None for _, rv in pairs):
+                return None, f"{sub['ref_metric']} 与 {key} 日期未对齐"
+            oks = [OPS[sub.get("op", "gt")](a, b) for a, b in pairs]
         else:
             oks = [OPS[sub.get("op", "gt")](a, float(sub["value"])) for a in vals]
         return all(oks), f"{sub.get('label', key)} 连续{n}天 {sub.get('op')} : {sum(oks)}/{n}"

@@ -2,6 +2,28 @@
 
 > 目的：会话中断、token 受限、换电脑后都能从这里接上，**不要重跑已完成的工作**。
 
+## 断点（2026-09-21 17:00 曼谷）：监控范围扩展第 1 批 + Jev 判断模型接入（v2026.09.21.6）
+
+### 已完成：全代码审查（用户 /codex-review → /code-review 全部源码）
+- 10 角度审查 src/scripts/run.py/workflows 全部 3450 行 → 12 条发现（无高危）全部修复：财政部曲线 break 吞瞬时错误、streak+ref_metric 日期错位（潜伏）、news first_seen 时区混用、alerts_history UTC 差一天、CPI 用错季调序列（改 CUUR0000SA0）、chg1y 历史不足标签失真、GPR 文本日期不补零、learn_intake 无日期条目灌今天、checkpoint 跨午夜作废、feed_status 双份+runs 内嵌 30 份全量状态（页面瘦身 ~224KB）、defillama 死代码、publish_github.ps1 用 git add -A
+
+### 已完成：Jev（TypeSafe System One 判断模型）接入 —— 用户提供 API key，已实测
+- 是什么：只做判断的模型，输入数据返回带校准概率的答案（70ms、输出 token 免费），不生成文字 → 与「运行时不用大模型生成内容」约定兼容
+- 用在哪（唯一用途）：`src/monitor/jev.py` 给最近一二级来源新闻打「信号价值」分（0–1，四档 criteria），run.py 每次运行一个合批请求 ≤40 条 → 新闻排序把 jev_score≥0.5 的提前；规则判定永远与它无关
+- 降级：无 TYPESAFE_API_KEY 时零影响（纯关键词排序）；密钥在本机 .env + GitHub secret（均已配好）
+- 质量实测：加息新闻 0.92 / 军机越线 0.71 / 明星宠物 0.0 / 旧闻盘点 0.05；现网 40/40 打分成功（jev-1.13.0，394 input tokens/4 条）
+- 「怎么算」与数据页来源约定已注明此事（诚实原则）
+
+### 已完成：监控扩展第 1 批（研究工作流 wf_c96c8e91-cf5：7 视角 53 候选 → 20 条新线，全档案在 data/raw/expansion_research.json）
+- 落地 8 条线 43 条新规则（总规则 115→158）：信用利差引信（credit.*）、美债利息雪球（usdebt.*）、日元套息引信（carry.*）、惊吓/危机分辨器（vol.*，给 VIX>30 抄底规则装否决器）、铜金比战争经济判别器（copperwar.*）、数据中心电力缺口（power.*）、电网设备十年短缺（grid.*，用户本行）、泰国 EEC 走廊（thaidc.*，用户主场）
+- 新监控标的 25 个（watchlist yahoo 106→128）：HYG/LQD/IEF、^VIX3M/^SKEW/^VVIX、CNH=X/FXY/8306.T、FCX/COPX、XLU/POWL/HUBB/002028.SZ、DELTA/GULF/WHA/AMATA.BK、AJBU.SI、JKM=F 等
+- 新数据源 5 个（extras 子抓取器，本机实测）：mof_jgb（日债利率 ✓）、cftc_cot（日元持仓 ✓）、fiscal_debt（总债务/利息 yoy/拍卖认购/上限余量 ✓，实测 $40.09T、10Y 拍卖 3 场最低 2.24）、eia_power（工业电价同比 ✓ +3.0%）、nrc_power（核电出力，泰国 403 → 云端美国 IP 供数，与 FRED 同模式）
+- 新 FRED 序列 3 个（云端供数）：BAMLH0A3HYC（CCC 利差）、A34SUO/A34SNO（电气设备订单）
+- 引擎增强：yahoo 每标的新增 chg90d + sma200；derived.compute_series 回填 7 个比值序列（铜金比/HYG比价/VIX期限比/CEG相对强弱等）及其 200 日线；CFTC 净头寸 4 周差值
+- 首日触发 5 条：usdebt.auction10（10Y 拍卖疲弱）、copperwar.regime（战争经济商品档 ON）、grid.copper_cost、thaidc.spread（EEC 扩散确认）、thaidc.lng
+- 第二批候选（20 条中未做的 12 条，含 3 条批评者指出缺失效规则要补）：金融抑制、货币换锚、AI 泡沫刹车、美元流动性管道、铀、中国政策反转、EM 危机网、科技脱钩、军费、航天、巨灾、科研拐点 —— 全部草案在 expansion_research.json，做之前先补 dedollar/decouple/china 的 invalidation 规则
+- 遗留：NRC/FRED 系列在本机永远 nodata（云端跑完 git pull 后有数）；critique 提到的空白域（聚变/固态电池/碳市场/欧洲/印度/拉美/选举日历）留给学习循环逐期补
+
 ## 断点（2026-09-20 23:20 曼谷）— 本地与云端均已上线；当前任务：前端全面重设计（数据/规则链条不动）
 
 ### 已完成：UI 重设计（2026-09-20 23:30）
@@ -116,6 +138,7 @@ powershell -ExecutionPolicy Bypass -File scripts\install_task.ps1
 ```
 
 ## 变更日志
+- 2026-09-21：监控扩展第 1 批（8 条新线 43 规则 25 标的 5 数据源，20 条线档案在 data/raw/expansion_research.json）；Jev 判断模型接入（新闻信号分，可降级）；全代码审查 12 处修复
 - 2026-09-21：学习循环第 1 期复核修正 22 处（PWA 图标/缓存、catchUp 本地日期与钳制、判定卡「数据：齐/缺/旧」、手机 ?/表格/反馈、ics 转义折行、推送漏报与静默）；新账户重建计划任务
 - 2026-09-21：学习循环系统 v1（learn_intake / learn_page / LOOP.md / release.py / HANDOVER.md / CLAUDE.md / 计划任务 learning-loop）；首轮研究填入 65 源 / 25 方法论 / 19 候选
 - 2026-09-21：简明模式按 Top-10 核心功能重写（app.js/app.css/index.html.j2 搜索框）；yahoo 连续期货 chg1d 假值修复；store.py 云端重建库后 first_fired 延续（此前云端每次把全部触发标成"新"）

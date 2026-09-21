@@ -1119,3 +1119,489 @@ rules:
     action: 检查 Polymarket Gamma 抓取状态
     source: 数据质量
     when: {type: missing, metric: pm.taiwan_clash_2027, days: 3}
+
+  # ======================= 扩展第 1 批（2026-09-21，推演与来源见 data/raw/expansion_research.json）=======================
+  # --- line.credit 信用利差引信（AI 债务链的前置引信）---
+  - id: credit.ccc.level
+    plain: 最差一档垃圾债的利差超过 10 个百分点，违约周期启动
+    report: all
+    title: CCC 级利差 > 10%
+    level: warning
+    priority: 2
+    assets: [HYG, CRWV, WULF]
+    action: 违约周期预警：减 CRWV/ORCL/WULF 等高杠杆 AI 标的
+    source: 扩展·信用利差引信（line.credit）
+    when: {type: compare, metric: fred.CCC_OAS, op: gt, value: 10, label: CCC级利差}
+  - id: credit.ccc.rise
+    plain: 最弱的一层垃圾债在快速变贵（借钱难了），先别加仓
+    report: all
+    title: CCC 级利差 90 日上升超三成
+    level: warning
+    priority: 3
+    assets: [HYG]
+    action: 最弱一层先着火，开始逐日盯信用面
+    source: 扩展·信用利差引信（line.credit）
+    when: {type: change, metric: fred.CCC_OAS, lookback: 90, op: gt, value: 30, label: CCC级利差90日变化}
+  - id: credit.divergence
+    plain: 垃圾债先跌、股票还没跌——信用市场比股票先闻到味道
+    report: all
+    title: HYG/LQD 20 日跌超 3% 而标普跌不足 2%
+    level: warning
+    priority: 1
+    assets: [HYG, SPX]
+    action: 信用-股票背离：提前减仓，不等股票回撤确认
+    source: 扩展·信用利差引信（line.credit）
+    when:
+      all:
+        - {type: change, metric: ratio.hyg_lqd, lookback: 20, op: lt, value: -3, label: HYG/LQD 20日}
+        - {type: change, metric: px.SPX, lookback: 20, op: gt, value: -2, label: 标普 20日}
+  - id: credit.trend
+    plain: 高收益债对国债的比价跌破 200 日线，信用趋势转坏
+    report: all
+    title: HYG/IEF 跌破 200 日均线
+    level: warning
+    priority: 2
+    assets: [HYG, IEF]
+    action: 信用趋势转空确认，风险仓位降一档
+    source: 扩展·信用利差引信（line.credit）
+    when: {type: compare, metric: ratio.hyg_ief, op: lt, ref_metric: sma200.ratio.hyg_ief, label: HYG/IEF, ref_label: 其200日线}
+  - id: credit.reset
+    plain: 信用担忧解除（利差回落、比价修复），这条线退回观察
+    report: all
+    title: HY 利差 < 3.5% 且 HYG/LQD 收复 200 日线
+    level: invalidation
+    priority: 3
+    assets: [HYG]
+    action: 信用重定价论证失效，退回普通监控
+    source: 扩展·信用利差引信（line.credit）
+    when:
+      all:
+        - {type: compare, metric: fred.HY_OAS, op: lt, value: 3.5, label: HY利差}
+        - {type: compare, metric: ratio.hyg_lqd, op: gt, ref_metric: sma200.ratio.hyg_lqd, label: HYG/LQD, ref_label: 其200日线}
+  # --- line.usdebt 美债利息雪球（财政不可持续 → 贬值交易）---
+  - id: usdebt.growth
+    plain: 美国总债务一年涨超 7%，比经济增速快，进入复利螺旋
+    report: all
+    title: 总债务同比 > 7%
+    level: warning
+    priority: 2
+    assets: [GOLD, BTC]
+    action: 贬值对冲仓（金/BTC）加权，回避长债
+    source: 扩展·美债利息雪球（line.usdebt）
+    when: {type: change, metric: fiscal.debt_total, lookback: 365, op: gt, value: 7, label: 总债务同比}
+  - id: usdebt.interest
+    plain: 美国政府的利息账单一年涨超 15%，雪球在加速
+    report: all
+    title: 利息支出 12 月滚动同比 > 15%
+    level: warning
+    priority: 2
+    assets: [GOLD]
+    action: 利息雪球加速：回避长债 TLT，金/短债替代
+    source: 扩展·美债利息雪球（line.usdebt）
+    when: {type: compare, metric: fiscal.interest_12m_yoy, op: gt, value: 15, label: 利息12月同比}
+  - id: usdebt.auction10
+    plain: 10 年期美债拍卖连着卖不动（买家变少）
+    report: all
+    title: 10Y 拍卖近 3 场最低认购倍数 < 2.3
+    level: warning
+    priority: 1
+    assets: [US10Y, GOLD]
+    action: 边际买家撤退：减久期，现金转短债
+    source: 扩展·美债利息雪球（line.usdebt）
+    when: {type: compare, metric: fiscal.auction_10y_b2c_min3, op: lt, value: 2.3, label: 10Y拍卖认购(3场最低)}
+  - id: usdebt.auction30
+    plain: 30 年期美债拍卖出现一场很差的（2023 年 10 月那种）
+    report: all
+    title: 30Y 最近一场认购倍数 < 2.2
+    level: warning
+    priority: 2
+    assets: [US30Y]
+    action: 长端消化不动，与 10Y 信号互相确认
+    source: 扩展·美债利息雪球（line.usdebt）
+    when: {type: compare, metric: fiscal.auction_30y_b2c, op: lt, value: 2.2, label: 30Y拍卖认购}
+  - id: usdebt.ceiling
+    plain: 债务上限余量快用完了，又要上演对峙戏码
+    report: all
+    title: 债务上限余量 < 8000 亿美元
+    level: event
+    priority: 2
+    assets: []
+    action: 对峙窗口：短债停泊避开 X-date 附近到期
+    source: 扩展·美债利息雪球（line.usdebt）
+    when: {type: compare, metric: fiscal.limit_headroom, op: lt, value: 800000000000, label: 上限余量}
+  - id: usdebt.reset
+    plain: 拍卖连续健康、利率回落，这条线退回观察
+    report: all
+    title: 10Y 拍卖认购回到 2.5 上且 10Y 利率 < 4%
+    level: invalidation
+    priority: 3
+    assets: [US10Y]
+    action: 财政担忧降档
+    source: 扩展·美债利息雪球（line.usdebt）
+    when:
+      all:
+        - {type: compare, metric: fiscal.auction_10y_b2c_min3, op: gt, value: 2.5, label: 10Y拍卖认购}
+        - {type: compare, metric: fred.DGS10, op: lt, value: 4, label: 10Y利率}
+  # --- line.carry 日元套息引信（全球风险资产的外生冲击预警器）---
+  - id: carry.jgb10
+    plain: 日本 10 年国债利率上台阶，全球便宜钱的源头在收紧
+    report: all
+    title: JGB 10Y > 3.2% 或单月上行超一成
+    level: warning
+    priority: 1
+    assets: [USDJPY, BTC, KOSPI]
+    action: 套息拆仓风险升温，日本资金搬家提速
+    source: 扩展·日元套息引信（line.carry）
+    when:
+      any:
+        - {type: compare, metric: mof.jgb10y, op: gt, value: 3.2, label: 日本10Y}
+        - {type: change, metric: mof.jgb10y, lookback: 30, op: gt, value: 10, label: 日本10Y月变化}
+  - id: carry.jgb40
+    plain: 日本超长债利率失控，进入央行被迫出手的博弈窗口
+    report: all
+    title: JGB 40Y > 4.5%
+    level: warning
+    priority: 2
+    assets: [USDJPY]
+    action: 长端失控：日银干预博弈窗口
+    source: 扩展·日元套息引信（line.carry）
+    when: {type: compare, metric: mof.jgb40y, op: gt, value: 4.5, label: 日本40Y}
+  - id: carry.crowd
+    plain: 借日元加杠杆的持仓极端拥挤（净空超 10 万手），别加高波动仓
+    report: all
+    title: CFTC 日元净头寸 < -10 万手
+    level: info
+    priority: 3
+    assets: [USDJPY]
+    action: 拥挤预警档：先别加高贝塔仓位
+    source: 扩展·日元套息引信（line.carry）
+    when: {type: compare, metric: cftc.jpy_net, op: lt, value: -100000, label: 日元净头寸}
+  - id: carry.unwind
+    plain: 套息平仓进行时——BTC、纳指、韩股同日挨打的那种日子（2024-08 剧本）
+    report: all
+    title: 日元空头 4 周回补超 3 万手且日元 10 日急升 4%
+    level: warning
+    priority: 1
+    assets: [USDJPY, BTC, KOSPI]
+    action: 全站减杠杆提示；当天的下跌先按「套息平仓」定性，不当成资产自身利空恐慌卖出
+    source: 扩展·日元套息引信（line.carry）
+    when:
+      all:
+        - {type: compare, metric: cftc.jpy_net_chg4w, op: gt, value: 30000, label: 净头寸4周变化}
+        - {type: change, metric: px.USDJPY, lookback: 10, op: lt, value: -4, label: 美元/日元10日}
+  - id: carry.cnh
+    plain: 离岸人民币比在岸贵出 4 分钱以上，资金外流压力大
+    report: all
+    title: USDCNH − USDCNY 价差 > 0.04
+    level: warning
+    priority: 3
+    assets: [CNH]
+    action: 人民币离岸承压，联动台海规则一起看
+    source: 扩展·日元套息引信（line.carry）
+    when: {type: compare, metric: fx.cnh_cny_spread, op: gt, value: 0.04, label: 离在岸价差}
+  - id: carry.reset
+    plain: 日元持仓回到中性、利率回落，引信拆除
+    report: all
+    title: 净头寸回到 ±3 万手且 JGB 10Y < 3%
+    level: invalidation
+    priority: 3
+    assets: [USDJPY]
+    action: 恢复普通监控频率
+    source: 扩展·日元套息引信（line.carry）
+    when:
+      all:
+        - {type: compare, metric: cftc.jpy_net, op: between, value: [-30000, 30000], label: 日元净头寸}
+        - {type: compare, metric: mof.jgb10y, op: lt, value: 3, label: 日本10Y}
+  # --- line.volveto 惊吓/危机分辨器（给 VIX>30 抄底规则装否决器）---
+  - id: vol.crisis
+    plain: 恐慌指数期限倒挂 3 天——这是 2008/2020 式危机，不是普通惊吓，别急着抄底
+    report: all
+    title: VIX/VIX3M > 1 连续 3 个交易日
+    level: warning
+    priority: 1
+    assets: [VIX, SPX, BTC]
+    action: 危机模式：否决「VIX>30 抄底」类规则，保存弹药等右侧
+    source: 扩展·惊吓/危机分辨器（line.volveto）
+    when: {type: streak, n: 3, condition: {metric: ratio.vix_term, op: gt, value: 1.0, label: VIX期限比}}
+  - id: vol.pulse
+    plain: 恐慌高但没倒挂——历史上这种「惊吓」平均 18 天见底，抄底规则可用
+    report: all
+    title: VIX > 25 且 VIX/VIX3M < 0.95
+    level: opportunity
+    priority: 2
+    assets: [VIX, SPX]
+    action: 脉冲模式：现有 VIX>30 抄底规则可执行
+    source: 扩展·惊吓/危机分辨器（line.volveto）
+    when:
+      all:
+        - {type: compare, metric: px.VIX, op: gt, value: 25, label: VIX}
+        - {type: compare, metric: ratio.vix_term, op: lt, value: 0.95, label: VIX期限比}
+  - id: vol.skew
+    plain: 机构在拥挤地买尾部保险，常出现在顶部前 1-2 个月
+    report: all
+    title: SKEW > 155
+    level: info
+    priority: 3
+    assets: [SKEW, SPX]
+    action: 背景确认信号，配合信用与套息线看
+    source: 扩展·惊吓/危机分辨器（line.volveto）
+    when: {type: compare, metric: px.SKEW, op: gt, value: 155, label: SKEW}
+  - id: vol.vvix
+    plain: 波动率自己也在剧烈波动，行情要出大动作
+    report: all
+    title: VVIX > 130
+    level: info
+    priority: 3
+    assets: [VVIX]
+    action: 联动检查 BTC 资金费率与日元套息线
+    source: 扩展·惊吓/危机分辨器（line.volveto）
+    when: {type: compare, metric: px.VVIX, op: gt, value: 130, label: VVIX}
+  # --- line.copperwar 铜金比战争经济判别器（1970s 滞胀剧本 vs 纯恐惧）---
+  - id: copperwar.regime
+    plain: 铜金比站上 200 日线——是有实物需求的战争经济，商品可以全面配
+    report: war
+    title: 铜金比站上 200 日均线
+    level: opportunity
+    priority: 2
+    assets: [COPPER, GOLD, XOM]
+    action: 战争经济开动：商品全面配置档（能源/金银/军工）
+    source: 扩展·铜金比判别器（line.copperwar）
+    when: {type: compare, metric: ratio.copper_gold, op: gt, ref_metric: sma200.ratio.copper_gold, label: 铜金比, ref_label: 其200日线}
+  - id: copperwar.fear
+    plain: 金独涨、铜不动——纯恐惧行情，只配贵金属就好
+    report: war
+    title: 铜金比在 200 日线下而金价创新高
+    level: info
+    priority: 3
+    assets: [GOLD, SILVER]
+    action: 1979 恐惧模式：只配贵金属档
+    source: 扩展·铜金比判别器（line.copperwar）
+    when:
+      all:
+        - {type: compare, metric: ratio.copper_gold, op: lt, ref_metric: sma200.ratio.copper_gold, label: 铜金比, ref_label: 其200日线}
+        - {type: compare, metric: px.GOLD, op: gt, ref_metric: hi52w.GOLD, ref_mult: 0.995, label: 黄金, ref_label: 52周高}
+  - id: copperwar.tips
+    plain: 通胀预期启动向上，滞胀剧本走起——回避长债和高市盈率成长股
+    report: war
+    title: 10 年盈亏平衡通胀 > 2.6%
+    level: warning
+    priority: 2
+    assets: [GOLD]
+    action: 滞胀预期：回避长债与高 PE 成长（漂亮 50 教训）
+    source: 扩展·铜金比判别器（line.copperwar）
+    when: {type: compare, metric: fred.T10YIE, op: gt, value: 2.6, label: 盈亏平衡通胀}
+  - id: copperwar.buy
+    plain: 铜回调到 5.0–5.5 美元区间——结构性缺口下的加仓窗口
+    report: war
+    title: 铜价回调至 $5.0–5.5
+    level: opportunity
+    priority: 3
+    assets: [COPPER, FCX, COPX]
+    action: 买矿商（FCX/COPX）而不是追期货
+    source: 扩展·铜金比判别器（line.copperwar）
+    when: {type: compare, metric: px.COPPER, op: between, value: [5.0, 5.5], label: 铜}
+  - id: copperwar.deflation
+    plain: 铜金比破位且通胀预期掉下来——转 1930 年代通缩剧本，商品仓思路作废
+    report: war
+    title: 铜金比破 200 日线且盈亏平衡通胀 < 2.2%
+    level: invalidation
+    priority: 3
+    assets: [COPPER, GOLD]
+    action: 通缩剧本：金 + 长债反而正确，商品全配失效
+    source: 扩展·铜金比判别器（line.copperwar）
+    when:
+      all:
+        - {type: compare, metric: ratio.copper_gold, op: lt, ref_metric: sma200.ratio.copper_gold, label: 铜金比, ref_label: 其200日线}
+        - {type: compare, metric: fred.T10YIE, op: lt, value: 2.2, label: 盈亏平衡通胀}
+  # --- line.power 数据中心电力缺口（AI 主线支线：机会 + 顶部预警双向）---
+  - id: power.price
+    plain: 美国工业电价同比涨超 8%——缺电确认，发电商议价权兑现
+    report: ai
+    title: 工业电价同比 > +8%
+    level: opportunity
+    priority: 2
+    assets: [CEG, VST]
+    action: 发电商定价权兑现期，持有 CEG/VST 类
+    source: 扩展·数据中心电力缺口（line.power）
+    when: {type: compare, metric: eia.ind_power_yoy, op: gt, value: 8, label: 工业电价同比}
+  - id: power.cool
+    plain: 电价同比转负且两大发电商双破 200 日线——缺电逻辑降温
+    report: ai
+    title: 电价转负 + CEG/VST 双破 200 日线
+    level: invalidation
+    priority: 2
+    assets: [CEG, VST]
+    action: 本线降档，检查 AI 主线的电力叙事
+    source: 扩展·数据中心电力缺口（line.power）
+    when:
+      all:
+        - {type: compare, metric: eia.ind_power_yoy, op: lt, value: 0, label: 工业电价同比}
+        - {type: compare, metric: px.CEG, op: lt, ref_metric: sma200.CEG, label: CEG, ref_label: 200日线}
+        - {type: compare, metric: px.VST, op: lt, ref_metric: sma200.VST, label: VST, ref_label: 200日线}
+  - id: power.nrc
+    plain: 全美核电出力异常收紧（非检修季低于 85%），电价上行催化
+    report: ai
+    title: NRC 核电平均出力 < 85%
+    level: info
+    priority: 3
+    assets: [CEG]
+    action: 供给侧收紧：留意电价与发电商
+    source: 扩展·数据中心电力缺口（line.power）
+    when: {type: compare, metric: nrc.fleet_avg_power, op: lt, value: 85, label: 核电平均出力}
+  - id: power.rs
+    plain: 发电商 90 天跑赢大盘 15%——市场在确认「电是稀缺品」
+    report: ai
+    title: CEG 相对标普 90 日超额 > 15%
+    level: opportunity
+    priority: 2
+    assets: [CEG, VST]
+    action: 定价权被市场确认
+    source: 扩展·数据中心电力缺口（line.power）
+    when: {type: change, metric: ratio.ceg_spx, lookback: 90, op: gt, value: 15, label: CEG/标普90日}
+  - id: power.narrative
+    plain: AI 电力股对公用事业 20 天崩 15%——电力叙事先崩是大顶部的历史先兆
+    report: ai
+    title: CEG/XLU 比值 20 日下跌 > 15%
+    level: warning
+    priority: 1
+    assets: [CEG, XLU, NVDA]
+    action: 顶部预警：联动 AI 主线减仓规则
+    source: 扩展·数据中心电力缺口（line.power）
+    when: {type: change, metric: ratio.ceg_xlu, lookback: 20, op: lt, value: -15, label: CEG/XLU 20日}
+  # --- line.grid 电网设备十年短缺（用户本行主场）---
+  - id: grid.backlog
+    plain: 电气设备的没交付订单还在创新高——短缺继续，拿住设备股
+    report: ai
+    title: 未交付订单同比 > +8%
+    level: opportunity
+    priority: 2
+    assets: [GEV, ETN, SIEYUAN]
+    action: 短缺持续：持有电网设备仓
+    source: 扩展·电网设备短缺（line.grid）
+    when: {type: change, metric: fred.GRID_BACKLOG, lookback: 365, op: gt, value: 8, label: 未交付订单同比}
+  - id: grid.neworders
+    plain: 新订单先转弱——它比在手订单先见顶，周期预警
+    report: ai
+    title: 新订单 90 日转负
+    level: warning
+    priority: 2
+    assets: [GEV, ETN]
+    action: 周期见顶预警：新订单领先未交付订单
+    source: 扩展·电网设备短缺（line.grid）
+    when: {type: change, metric: fred.GRID_NEWORDERS, lookback: 90, op: lt, value: 0, label: 新订单90日}
+  - id: grid.dip
+    plain: 订单还在创新高、龙头却深跌三成——基本面没变的错杀买点
+    report: ai
+    title: GEV 回撤 >30% 而未交付订单仍增长
+    level: opportunity
+    priority: 1
+    assets: [GEV]
+    action: 错杀买点：分批
+    source: 扩展·电网设备短缺（line.grid）
+    when:
+      all:
+        - {type: compare, metric: dd52w.GEV, op: lt, value: -30, label: GEV回撤}
+        - {type: change, metric: fred.GRID_BACKLOG, lookback: 365, op: gt, value: 0, label: 未交付订单同比}
+  - id: grid.copper_cost
+    plain: 铜价站上 5 美元——设备商短期毛利有压力，长期强化涨价逻辑
+    report: ai
+    title: 铜 > $5/磅
+    level: info
+    priority: 4
+    assets: [COPPER, GEV]
+    action: 盯设备商毛利指引
+    source: 扩展·电网设备短缺（line.grid）
+    when: {type: compare, metric: px.COPPER, op: gt, value: 5, label: 铜}
+  - id: grid.end
+    plain: 订单同比转负且龙头明显跑输大盘——短缺叙事结束
+    report: ai
+    title: 未交付订单转负 + GEV 相对标普 90 日跑输 15%
+    level: invalidation
+    priority: 3
+    assets: [GEV, ETN]
+    action: 本线关闭
+    source: 扩展·电网设备短缺（line.grid）
+    when:
+      all:
+        - {type: change, metric: fred.GRID_BACKLOG, lookback: 365, op: lt, value: 0, label: 未交付订单同比}
+        - {type: change, metric: ratio.gev_spx, lookback: 90, op: lt, value: -15, label: GEV/标普90日}
+  # --- line.thaidc 泰国 EEC 数据中心走廊（用户一手信息主场）---
+  - id: thaidc.delta
+    plain: 泰达电创一年新高且 60 天涨超两成——AI 服务器电源订单在兑现
+    report: ai
+    title: DELTA.BK 创 52 周新高且 60 日涨 >20%
+    level: opportunity
+    priority: 2
+    assets: [DELTA_TH]
+    action: EEC 走廊的设备端先兑现
+    source: 扩展·泰国EEC走廊（line.thaidc）
+    when:
+      all:
+        - {type: compare, metric: px.DELTA_TH, op: gte, ref_metric: hi52w.DELTA_TH, ref_mult: 0.99, label: 泰达电, ref_label: 52周高}
+        - {type: change, metric: px.DELTA_TH, lookback: 60, op: gt, value: 20, label: 泰达电60日}
+  - id: thaidc.spread
+    plain: Gulf 和 WHA 都站上 200 日线——逻辑从设备扩散到发电和工业园
+    report: ai
+    title: GULF 与 WHA 同时站上 200 日线
+    level: opportunity
+    priority: 3
+    assets: [GULF_TH, WHA_TH, AMATA_TH]
+    action: EEC 投资周期向上：PPA 与工业地产受益
+    source: 扩展·泰国EEC走廊（line.thaidc）
+    when:
+      all:
+        - {type: compare, metric: px.GULF_TH, op: gt, ref_metric: sma200.GULF_TH, label: Gulf, ref_label: 200日线}
+        - {type: compare, metric: px.WHA_TH, op: gt, ref_metric: sma200.WHA_TH, label: WHA, ref_label: 200日线}
+  - id: thaidc.reit
+    plain: 新加坡数据中心 REIT 创新高——区域资产整体在重估
+    report: ai
+    title: Keppel DC REIT 创 52 周新高
+    level: info
+    priority: 3
+    assets: [AJBU_SG]
+    action: 区域重估旁证
+    source: 扩展·泰国EEC走廊（line.thaidc）
+    when: {type: compare, metric: px.AJBU_SG, op: gte, ref_metric: hi52w.AJBU_SG, ref_mult: 0.995, label: Keppel DC, ref_label: 52周高}
+  - id: thaidc.thb_in
+    plain: 泰铢 90 天升值超 5%——外资在流入的旁证
+    report: ai
+    title: 泰铢 90 日升值 > 5%
+    level: info
+    priority: 4
+    assets: [USDTHB]
+    action: 外资流入旁证
+    source: 扩展·泰国EEC走廊（line.thaidc）
+    when: {type: change, metric: px.USDTHB, lookback: 90, op: lt, value: -5, label: 美元/泰铢90日}
+  - id: thaidc.thb_out
+    plain: 泰铢 90 天贬值超 8%——资金撤出预警，对冲上面的价格信号
+    report: ai
+    title: 泰铢 90 日贬值 > 8%
+    level: warning
+    priority: 3
+    assets: [USDTHB]
+    action: 撤出预警：EEC 线信号先打折
+    source: 扩展·泰国EEC走廊（line.thaidc）
+    when: {type: change, metric: px.USDTHB, lookback: 90, op: gt, value: 8, label: 美元/泰铢90日}
+  - id: thaidc.lng
+    plain: 亚洲 LNG 超过 15 美元——泰国电费上调压力（利好锁了 PPA 的发电商）
+    report: ai
+    title: JKM > $15/MMBtu
+    level: info
+    priority: 4
+    assets: [JKM, GULF_TH]
+    action: Ft 电费传导：利好已锁 PPA 发电商、利空用电大户
+    source: 扩展·泰国EEC走廊（line.thaidc）
+    when: {type: compare, metric: px.JKM, op: gt, value: 15, label: 亚洲LNG}
+  - id: thaidc.invalid
+    plain: 泰达电深跌四成、Gulf 破位——区域叙事证伪
+    report: ai
+    title: DELTA 回撤 >40% 且 GULF 破 200 日线
+    level: invalidation
+    priority: 3
+    assets: [DELTA_TH, GULF_TH]
+    action: 本线关闭；大厂公开取消项目为同效的人工事件
+    source: 扩展·泰国EEC走廊（line.thaidc）
+    when:
+      all:
+        - {type: compare, metric: dd52w.DELTA_TH, op: lt, value: -40, label: 泰达电回撤}
+        - {type: compare, metric: px.GULF_TH, op: lt, ref_metric: sma200.GULF_TH, label: Gulf, ref_label: 200日线}

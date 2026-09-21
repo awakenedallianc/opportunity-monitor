@@ -41,8 +41,11 @@ CHECKPOINT = DATA_DIR / "checkpoint.json"
 
 def load_checkpoint() -> dict:
     from .utils import read_json
+    # 不按日期作废：--resume 的判断本来就按条目时间戳的小时数算，按日作废会让跨午夜的中断续跑失效
     cp = read_json(CHECKPOINT, {}) or {}
-    return cp if cp.get("date") == today_str() else {"date": today_str(), "fetchers": {}}
+    cp.setdefault("fetchers", {})
+    cp["date"] = today_str()
+    return cp
 
 
 def save_checkpoint(cp: dict) -> None:
@@ -208,7 +211,10 @@ def main(argv: list[str] | None = None) -> int:
     latest = store.latest_all()
     d = derived.compute(latest, cfg)
     store.put_metrics(d)
-    log.info("derived %d metrics", len(d))
+    ds = derived.compute_series(store)
+    ds.sort(key=lambda r: 0 if r.get("_backfill") else 1)
+    store.put_metrics(ds)
+    log.info("derived %d metrics + %d series rows", len(d), len(ds))
 
     latest = store.latest_all()
     topic_counts = news_topic_source_counts(store)
@@ -225,11 +231,25 @@ def main(argv: list[str] | None = None) -> int:
     since = (datetime.now(timezone.utc) - timedelta(days=int(settings.get("news_keep_days", 7)))).isoformat()
     news_items = store.news_since(since, limit=int(settings.get("news_max_items", 600)))
     news_items.sort(key=lambda x: (x.get("published") or x.get("first_seen") or ""), reverse=True)
+    # 可选：Jev（判断模型，只回概率）给最近的一二级来源新闻打信号分，改进排序；未配置密钥时完全不生效
+    try:
+        from . import jev
+        cand = [n for n in news_items if (n.get("tier") or 3) <= 2 and n.get("topics")][:40]
+        scores = jev.score_news(cand, "三条推演主线：加密三年周期（BTC/ETH/稳定币/监管）、AI 时代十年（算力/电力/半导体/估值）、大国战争风险（台海/中东/俄乌/能源与航运），以及宏观（美联储/财政/美元体系）。")
+        if scores:
+            for n in news_items:
+                if n["id"] in scores:
+                    n["jev_score"] = round(scores[n["id"]], 3)
+    except Exception as e:
+        log.warning("jev scoring skipped: %s", e)
 
+    # 页面用的 fetchers 视图去掉内嵌的 feed_status（前端只读顶层 run.feed_status；不去重会在页面/快照里重复两份）
+    fetchers_view = {k: ({kk: vv for kk, vv in v.items() if kk != "feed_status"} if isinstance(v, dict) else v)
+                     for k, v in status.items()}
     payload = {
         "generated_at": now_iso(),
         "date": today,
-        "run": {"fetchers": status, "feed_status": extra.get("feed_status", {}), "news_new": news_new,
+        "run": {"fetchers": fetchers_view, "feed_status": extra.get("feed_status", {}), "news_new": news_new,
                 "duration_s": round(time.time() - t0, 1)},
         "metrics": latest,
         "series": build_series(store, latest, settings),
@@ -244,11 +264,17 @@ def main(argv: list[str] | None = None) -> int:
                    for k, v in cfg["topics"].items()},
         "reports": settings.get("reports", []),
         "static": cfg.get("static", {}),
-        "runs": store.last_runs(30),
+        # 运行记录只留前端用到的字段（内嵌 30 次完整状态会把 feed_status/sub_status 重复 30 份塞进页面）
+        "runs": [{"run_at": r.get("run_at"), "duration_s": r.get("duration_s"),
+                  "status": {k: {"ok": v.get("ok"), "skipped": v.get("skipped", False)}
+                             for k, v in (r.get("status") or {}).items() if isinstance(v, dict)}}
+                 for r in store.last_runs(30)],
     }
     # 输出
     write_json(DOCS_DIR / "data" / "latest.json", payload)
     snap = {k: payload[k] for k in ("generated_at", "date", "metrics", "rules", "calendar", "baseline", "topic_counts", "run")}
+    # 每日提交的快照不需要 146 个新闻源的状态：去掉后每个每日提交小一大截
+    snap["run"] = {**payload["run"], "feed_status": {}}
     write_json(DATA_DIR / "snapshots" / f"{today}.json", snap)
     try:
         store.export_news_archive(arch_dir)

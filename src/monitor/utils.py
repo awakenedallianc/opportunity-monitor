@@ -54,6 +54,11 @@ def now_iso() -> str:
     return now_bkk().replace(microsecond=0).isoformat()
 
 
+def now_utc_iso() -> str:
+    """UTC ISO：与新闻 published（UTC）做字符串比较/排序的字段必须用它，不能用曼谷时区。"""
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+
+
 def today_str() -> str:
     return now_bkk().strftime("%Y-%m-%d")
 

@@ -47,13 +47,18 @@ def fetch_treasury_curve(http: Http) -> list[dict]:
     months = [(now - timedelta(days=30 * i)).strftime("%Y%m") for i in range(0, 14)]
     for data, fields in (("daily_treasury_yield_curve", {"BC_10YEAR": "ust.10y", "BC_2YEAR": "ust.2y", "BC_30YEAR": "ust.30y", "BC_3MONTH": "ust.3m"}),
                          ("daily_treasury_real_yield_curve", {"TC_10YEAR": "ust.real10y", "TC_5YEAR": "ust.real5y"})):
+        fails = 0
         for ym in months:
             try:
                 url = ("https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml"
                        f"?data={data}&field_tdr_date_value_month={ym}")
                 txt = http.get_text(url, timeout=40)
                 root = ET.fromstring(txt.encode("utf-8"))
-                for entry in root.findall("a:entry", ns):
+                entries = root.findall("a:entry", ns)
+                if not entries:
+                    break  # 早于可用月份：正常耗尽，停止
+                fails = 0
+                for entry in entries:
                     props = entry.find("a:content/m:properties", ns)
                     if props is None:
                         continue
@@ -64,8 +69,11 @@ def fetch_treasury_curve(http: Http) -> list[dict]:
                         if el is not None and el.text:
                             out.append({"key": key, "value": float(el.text), "source": "treasury.gov", "date": date, "_backfill": True})
             except Exception as e:
+                # 瞬时网络/解析错误不放弃整个数据集（最新月份失败一次就 break 会丢掉全部曲线）
+                fails += 1
                 log.debug("treasury %s %s: %s", data, ym, e)
-                break  # 早于可用月份时停止
+                if fails >= 2:
+                    break
     latest: dict[str, dict] = {}
     for r in out:
         if r["key"] not in latest or r["date"] > latest[r["key"]]["date"]:
@@ -125,7 +133,8 @@ def fetch_fiscal_tga(http: Http) -> list[dict]:
 # ---------------- BLS CPI ----------------
 def fetch_bls_cpi(http: Http) -> list[dict]:
     y = datetime.now(UTC).year
-    d = http.get_json(f"https://api.bls.gov/publicAPI/v2/timeseries/data/CUSR0000SA0", params={"startyear": y - 2, "endyear": y})
+    # CUUR0000SA0 = 未季调（新闻/报告口径的同比用它；此前的 CUSR0000SA0 是季调，YoY 会差 0.1–0.2 个百分点）
+    d = http.get_json(f"https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0", params={"startyear": y - 2, "endyear": y})
     series = d.get("Results", {}).get("series", [{}])[0].get("data", [])
     pts = {}
     for r in series:
@@ -605,7 +614,10 @@ def fetch_gpr(http: Http) -> list[dict]:
                 y, m, dd, *_ = xlrd.xldate_as_tuple(dv, wb.datemode)
                 date = f"{y:04d}-{m:02d}-{dd:02d}"
             else:
-                date = str(dv)[:10].replace("/", "-")
+                # 文本日期必须补零规范化：'2026/9/5' 直接 replace 会得 '2026-9-5'，字符串 max() 会排错序
+                parts = str(dv).strip().replace("/", "-").split("-")[:3]
+                y, m, dd = (int(x) for x in parts)
+                date = f"{y:04d}-{m:02d}-{dd:02d}"
             v = float(sh.cell_value(rix, ci))
         except Exception:
             continue
@@ -684,6 +696,227 @@ def fetch_freight(http: Http) -> list[dict]:
     return out
 
 
+# ---------------- 日本财务省 JGB 收益率（套息引信）----------------
+def fetch_mof_jgb(http: Http) -> list[dict]:
+    import csv as _csv
+    import io as _io
+    txt = http.get_text("https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/jgbcme.csv", timeout=40)
+    rows = list(_csv.reader(_io.StringIO(txt)))
+    # 找表头行（含 Date 与年限列）
+    head_i = next((i for i, r in enumerate(rows) if r and str(r[0]).strip().lower() == "date"), None)
+    if head_i is None:
+        return []
+    head = [c.strip() for c in rows[head_i]]
+    cols = {}
+    for want, key in (("10Y", "mof.jgb10y"), ("30Y", "mof.jgb30y"), ("40Y", "mof.jgb40y")):
+        if want in head:
+            cols[head.index(want)] = key
+    out = []
+    last = {}
+    for r in rows[head_i + 1:]:
+        if not r or not r[0].strip():
+            continue
+        ds = r[0].strip().replace("/", "-")
+        try:
+            y, m, d0 = (int(x) for x in ds.split("-")[:3])
+            date = f"{y:04d}-{m:02d}-{d0:02d}"
+        except (ValueError, IndexError):
+            continue
+        for ci, key in cols.items():
+            try:
+                v = float(r[ci])
+            except (ValueError, IndexError):
+                continue
+            out.append({"key": key, "value": v, "source": "mof.go.jp", "date": date, "_backfill": True})
+            last[key] = (date, v)
+    for key, (date, v) in last.items():
+        out.append({"key": key, "value": v, "source": "mof.go.jp", "asof": date})
+    return out
+
+
+# ---------------- CFTC 日元期货持仓（套息拥挤度）----------------
+def fetch_cftc_cot(http: Http) -> list[dict]:
+    d = http.get_json("https://publicreporting.cftc.gov/resource/6dca-aqww.json",
+                      params={"cftc_contract_market_code": "097741", "$order": "report_date_as_yyyy_mm_dd DESC", "$limit": "60"})
+    out = []
+    pts = []
+    for r in d if isinstance(d, list) else []:
+        try:
+            date = str(r["report_date_as_yyyy_mm_dd"])[:10]
+            net = float(r["noncomm_positions_long_all"]) - float(r["noncomm_positions_short_all"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        pts.append((date, net))
+    pts.sort()
+    for date, net in pts:
+        out.append({"key": "cftc.jpy_net", "value": net, "source": "cftc", "date": date, "_backfill": True})
+    if pts:
+        out.append({"key": "cftc.jpy_net", "value": pts[-1][1], "source": "cftc", "asof": pts[-1][0],
+                    "meta": {"note": "非商业净头寸（多-空），周五发布周二数据"}})
+    return out
+
+
+# ---------------- NRC 核电机组每日出力（电力缺口 / 铀）----------------
+def fetch_nrc_power(http: Http) -> list[dict]:
+    txt = http.get_text("https://www.nrc.gov/documents-reports/document-collections/events-reports-associated-with/power-reactor-status-reports/PowerReactorStatusForLast365Days.txt", timeout=60)
+    from datetime import datetime as _dt
+    by_day: dict[str, list[float]] = {}
+    for line in txt.splitlines():
+        parts = line.split("|")
+        if len(parts) < 3:
+            continue
+        try:
+            date = _dt.strptime(parts[0].strip().split()[0], "%m/%d/%Y").strftime("%Y-%m-%d")
+            power = float(parts[2])
+        except (ValueError, IndexError):
+            continue
+        by_day.setdefault(date, []).append(power)
+    days = sorted(by_day)[-90:]
+    out = []
+    for d0 in days:
+        vals = by_day[d0]
+        out.append({"key": "nrc.fleet_avg_power", "value": sum(vals) / len(vals), "source": "nrc.gov", "date": d0, "_backfill": True})
+    if days:
+        d0 = days[-1]
+        out.append({"key": "nrc.fleet_avg_power", "value": sum(by_day[d0]) / len(by_day[d0]), "source": "nrc.gov", "asof": d0,
+                    "meta": {"units": len(by_day[d0])}})
+    return out
+
+
+# ---------------- 财政部：总债务 / 利息 / 拍卖 / 债务上限余量（美债利息雪球）----------------
+def fetch_fiscal_debt(http: Http) -> list[dict]:
+    out = []
+    base = "https://api.fiscaldata.treasury.gov/services/api/fiscal_service"
+    # 1) 日频总债务（回填 400 天，供 change/同比规则）
+    try:
+        d = http.get_json(f"{base}/v2/accounting/od/debt_to_penny",
+                          params={"sort": "-record_date", "page[size]": 400, "fields": "record_date,tot_pub_debt_out_amt"})
+        rows = d.get("data") or []
+        for r in reversed(rows):
+            try:
+                out.append({"key": "fiscal.debt_total", "value": float(r["tot_pub_debt_out_amt"]), "source": "fiscaldata",
+                            "date": r["record_date"], "_backfill": True})
+            except (KeyError, TypeError, ValueError):
+                continue
+        if rows:
+            out.append({"key": "fiscal.debt_total", "value": float(rows[0]["tot_pub_debt_out_amt"]), "source": "fiscaldata",
+                        "asof": rows[0]["record_date"]})
+    except Exception as e:
+        log.debug("debt_to_penny: %s", e)
+    # 2) 利息支出：滚动 12 月同比（月频数据集，字段名做候选探测）
+    try:
+        d = http.get_json(f"{base}/v2/accounting/od/interest_expense", params={"sort": "-record_date", "page[size]": 2500})
+        rows = d.get("data") or []
+        val_field = next((f for f in ("month_expense_amt", "expense_amt", "intragov_expense_amt") if rows and f in rows[0]), None)
+        if val_field:
+            monthly: dict[str, float] = {}
+            for r in rows:
+                try:
+                    monthly[str(r["record_date"])[:7]] = monthly.get(str(r["record_date"])[:7], 0.0) + float(r[val_field])
+                except (KeyError, TypeError, ValueError):
+                    continue
+            months = sorted(monthly)
+            # 最旧一个月可能被分页截断，弃掉不完整的首月
+            if len(months) >= 26:
+                months = months[1:]
+            if len(months) >= 24:
+                cur12 = sum(monthly[m] for m in months[-12:])
+                prev12 = sum(monthly[m] for m in months[-24:-12])
+                if prev12:
+                    out.append({"key": "fiscal.interest_12m_yoy", "value": (cur12 / prev12 - 1) * 100, "source": "fiscaldata",
+                                "asof": f"{months[-1]}-01", "meta": {"cur_12m": cur12, "field": val_field}})
+    except Exception as e:
+        log.debug("interest_expense: %s", e)
+    # 3) 拍卖认购倍数：10Y（近 3 场最低）与 30Y（最近一场）
+    try:
+        d = http.get_json(f"{base}/v1/accounting/od/auctions_query", params={"sort": "-auction_date", "page[size]": 120})
+        rows = d.get("data") or []
+        def b2c_list(sec_type: str, prefixes: tuple[str, ...]) -> list[float]:
+            vals = []
+            for r in rows:
+                if r.get("security_type") != sec_type:
+                    continue
+                term = str(r.get("security_term") or "")
+                if not term.startswith(prefixes):
+                    continue
+                try:
+                    vals.append(float(r["bid_to_cover_ratio"]))
+                except (KeyError, TypeError, ValueError):
+                    continue
+            return vals
+        t10 = b2c_list("Note", ("10-", "9-Year 1"))
+        t30 = b2c_list("Bond", ("30-", "29-Year"))
+        if len(t10) >= 3:
+            out.append({"key": "fiscal.auction_10y_b2c_min3", "value": min(t10[:3]), "source": "fiscaldata",
+                        "meta": {"last3": t10[:3]}})
+        if t30:
+            out.append({"key": "fiscal.auction_30y_b2c", "value": t30[0], "source": "fiscaldata"})
+    except Exception as e:
+        log.debug("auctions_query: %s", e)
+    # 4) 债务上限余量（DTS 表 IIIC；单位百万美元）：
+    #    受限余额 = 公众持有 + 政府内部 − 不受限各项 + 其他受限项；余量 = 法定上限 − 受限余额
+    try:
+        d = http.get_json(f"{base}/v1/accounting/dts/debt_subject_to_limit",
+                          params={"sort": "-record_date", "page[size]": 40})
+        rows = d.get("data") or []
+        limit = None
+        bal = 0.0
+        got = False
+        latest_date = rows[0]["record_date"] if rows else None
+        for r in rows:
+            if r.get("record_date") != latest_date:
+                break
+            cat = (r.get("debt_catg") or "")
+            try:
+                v = float(r.get("close_today_bal"))
+            except (TypeError, ValueError):
+                continue
+            if cat == "Statutory Debt Limit":
+                limit = v
+            elif cat in ("Debt Held by the Public", "Intragovernmental Holdings", "Other Debt Subject to Limit"):
+                bal += v
+                got = True
+            elif cat == "Debt Not Subject to Limit":
+                bal -= v
+        if limit and got and limit > 1e6:  # 上限暂停期挂 0，跳过
+            out.append({"key": "fiscal.limit_headroom", "value": (limit - bal) * 1e6, "source": "fiscaldata",
+                        "asof": latest_date, "meta": {"limit_mm": limit, "balance_mm": bal}})
+    except Exception as e:
+        log.debug("debt_subject_to_limit: %s", e)
+    return out
+
+
+# ---------------- EIA 工业电价同比（数据中心电力缺口）----------------
+def fetch_eia_power(http: Http) -> list[dict]:
+    key = os.environ.get("EIA_API_KEY", "DEMO_KEY")
+    d = http.get_json("https://api.eia.gov/v2/electricity/retail-sales/data/",
+                      params={"api_key": key, "frequency": "monthly", "data[0]": "price",
+                              "facets[sectorid][]": "IND", "facets[stateid][]": "US",
+                              "sort[0][column]": "period", "sort[0][direction]": "desc", "length": 40})
+    rows = (d.get("response") or {}).get("data") or []
+    monthly = {}
+    for r in rows:
+        try:
+            monthly[str(r["period"])] = float(r["price"])
+        except (KeyError, TypeError, ValueError):
+            continue
+    out = []
+    months = sorted(monthly)
+    for m in months:
+        y, mm = int(m[:4]), m[5:7]
+        prev = f"{y - 1}-{mm}"
+        if prev in monthly and monthly[prev]:
+            out.append({"key": "eia.ind_power_yoy", "value": (monthly[m] / monthly[prev] - 1) * 100, "source": "eia",
+                        "date": f"{m}-01", "_backfill": True})
+    if months:
+        out.append({"key": "eia.ind_power_price", "value": monthly[months[-1]], "source": "eia", "asof": months[-1]})
+        if out and out[-1]["key"] != "eia.ind_power_yoy":
+            yoys = [x for x in out if x["key"] == "eia.ind_power_yoy"]
+            if yoys:
+                out.append({"key": "eia.ind_power_yoy", "value": yoys[-1]["value"], "source": "eia", "asof": months[-1]})
+    return out
+
+
 SUBFETCHERS = {
     "portwatch": fetch_portwatch,
     "gpr": fetch_gpr,
@@ -709,6 +942,12 @@ SUBFETCHERS = {
     "rwa_xyz": fetch_rwa_xyz,
     "govtrack_clarity": fetch_govtrack_clarity,
     "llama_unlocks": fetch_llama_unlocks,
+    # 扩展第 1 批（2026-09-21，见 data/raw/expansion_research.json）
+    "mof_jgb": fetch_mof_jgb,
+    "cftc_cot": fetch_cftc_cot,
+    "nrc_power": fetch_nrc_power,
+    "fiscal_debt": fetch_fiscal_debt,
+    "eia_power": fetch_eia_power,
 }
 
 

@@ -8,12 +8,12 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 import sqlite3
 from pathlib import Path
 from typing import Any, Iterable
 
-from .utils import DATA_DIR, now_iso, today_str
+from .utils import DATA_DIR, now_iso, now_utc_iso, today_str
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS metrics (
@@ -128,7 +128,7 @@ class Store:
                     "VALUES(?,?,?,?,?,?,?,?,?,?,?,?)",
                     (it["id"], it.get("published"), it.get("source"), it.get("feed"), it.get("title"),
                      it.get("link"), it.get("summary"), it.get("lang"), it.get("tier"),
-                     json.dumps(it.get("topics", []), ensure_ascii=False), it.get("score", 0.0), now_iso()))
+                     json.dumps(it.get("topics", []), ensure_ascii=False), it.get("score", 0.0), now_utc_iso()))
                 if cur.rowcount:
                     new += 1
                 else:
@@ -179,9 +179,11 @@ class Store:
         return row["first_fired"] if row else None
 
     def alerts_history(self, days: int = 90) -> list[dict]:
+        # 窗口按曼谷日期算（today_str），不用 SQLite 的 UTC date('now')——早班时两者差一天
+        cutoff = (datetime.strptime(today_str(), "%Y-%m-%d") - timedelta(days=days)).strftime("%Y-%m-%d")
         rows = self.conn.execute(
-            "SELECT rule_id, date, level, title FROM alerts WHERE date >= date('now', ?) ORDER BY date DESC",
-            (f"-{days} day",)).fetchall()
+            "SELECT rule_id, date, level, title FROM alerts WHERE date >= ? ORDER BY date DESC",
+            (cutoff,)).fetchall()
         return [dict(r) for r in rows]
 
     # ----- runs -----
@@ -261,7 +263,7 @@ class Store:
                         "VALUES(?,?,?,?,?,?,?,?,?,?,?,?)",
                         (it["id"], it.get("published"), it.get("source"), it.get("feed"), it.get("title"), it.get("link"),
                          it.get("summary"), it.get("lang"), it.get("tier"), json.dumps(it.get("topics", []), ensure_ascii=False),
-                         it.get("score", 0.0), it.get("first_seen") or now_iso()))
+                         it.get("score", 0.0), it.get("first_seen") or now_utc_iso()))
                     n_news += 1
         return {"metrics": n_metrics, "alerts": n_alerts, "news": n_news}
 

@@ -99,4 +99,42 @@ def compute(latest: dict[str, dict], watch: dict[str, Any]) -> list[dict]:
     if zq:
         add("fed.implied_front", 100 - zq, {"symbol": "ZQ=F"})
 
+    # 离岸-在岸人民币价差（正=离岸承压/资金外流；负=回流）
+    cnh, cny = _v(latest, "px.CNH"), _v(latest, "px.USDCNY")
+    if cnh is not None and cny is not None:
+        add("fx.cnh_cny_spread", cnh - cny)
+
+    return out
+
+
+# 需要历史序列的派生：比值回填 + 比值的 200 日线（供「站上/跌破 200 日线」类规则）
+RATIOS = [
+    ("ratio.copper_gold", "px.COPPER", "px.GOLD"),   # 铜金比：实物需求 vs 恐惧
+    ("ratio.hyg_lqd", "px.HYG", "px.LQD"),           # 高收益/投资级：信用分层
+    ("ratio.hyg_ief", "px.HYG", "px.IEF"),           # 高收益/国债：信用趋势
+    ("ratio.vix_term", "px.VIX", "px.VIX3M"),        # VIX 期限结构：>1 倒挂=危机模式
+    ("ratio.ceg_spx", "px.CEG", "px.SPX"),           # 发电商相对大盘：缺电定价权
+    ("ratio.ceg_xlu", "px.CEG", "px.XLU"),           # 发电商相对公用事业：AI 电力叙事
+    ("ratio.gev_spx", "px.GEV", "px.SPX"),           # 电网设备相对大盘
+]
+
+
+def compute_series(store) -> list[dict]:
+    out: list[dict] = []
+    for key, a, b in RATIOS:
+        sa, sb = dict(store.series(a, 420)), dict(store.series(b, 420))
+        days = sorted(set(sa) & set(sb))
+        vals = [(d, sa[d] / sb[d]) for d in days if sb[d]]
+        if not vals:
+            continue
+        out += [{"key": key, "value": v, "date": d, "source": "derived", "_backfill": True} for d, v in vals]
+        d_last, v_last = vals[-1]
+        out.append({"key": key, "value": v_last, "source": "derived", "asof": d_last})
+        if len(vals) >= 200:
+            out.append({"key": f"sma200.{key}", "value": sum(v for _, v in vals[-200:]) / 200,
+                        "source": "derived", "asof": d_last})
+    # CFTC 日元净头寸 4 周变化（净头寸可为负，change 型规则不适用，这里直接算差值）
+    s = store.series("cftc.jpy_net", 90)
+    if len(s) >= 5:
+        out.append({"key": "cftc.jpy_net_chg4w", "value": s[-1][1] - s[-5][1], "source": "derived", "asof": s[-1][0]})
     return out

@@ -1,7 +1,6 @@
 """DefiLlama：协议手续费/收入、TVL、链级费用（REV 代理）、稳定币供给、代币解锁。全部免费无需密钥。"""
 from __future__ import annotations
 
-import time
 from datetime import datetime, timezone
 
 from ..utils import Http, log
@@ -106,36 +105,6 @@ def fetch_stablecoins(http: Http, wanted: dict[str, str]) -> list[dict]:
                             "date": _ts2date(p["date"]), "_backfill": True})
     except Exception as e:
         log.warning("stablecoincharts: %s", e)
-    return out
-
-
-def fetch_unlocks(http: Http, tokens: list[dict]) -> list[dict]:
-    """tokens: [{slug, symbol}] ；返回未来 180 天内的解锁事件（存入 meta）。"""
-    out = []
-    now = time.time()
-    for t in tokens:
-        try:
-            d = http.get_json(f"{BASE}/emission/{t['slug']}")
-            body = d.get("body") if isinstance(d, dict) else None
-            body = body or d
-            events = []
-            meta = body.get("metadata", {}) if isinstance(body, dict) else {}
-            for ev in (meta.get("events") or body.get("events") or []):
-                ts = ev.get("timestamp")
-                if not ts:
-                    continue
-                if now - 86400 * 30 <= ts <= now + 86400 * 180:
-                    events.append({"date": _ts2date(ts), "tokens": ev.get("noOfTokens"),
-                                   "description": ev.get("description"), "category": ev.get("category"),
-                                   "type": ev.get("unlockType")})
-            upcoming = [e for e in events if e["date"] >= datetime.now(timezone.utc).strftime("%Y-%m-%d")]
-            nxt = min(upcoming, key=lambda e: e["date"]) if upcoming else None
-            out.append({"key": f"unlock.next_days.{t['symbol']}",
-                        "value": (datetime.strptime(nxt["date"], "%Y-%m-%d") - datetime.utcnow()).days if nxt else None,
-                        "source": "defillama", "meta": {"events": events[:20], "next": nxt}})
-            time.sleep(0.5)
-        except Exception as e:
-            log.warning("unlock %s: %s", t.get("slug"), e)
     return out
 
 
