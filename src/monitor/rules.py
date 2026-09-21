@@ -192,6 +192,7 @@ def evaluate_rules(rules: list[dict], ctx: RuleContext) -> list[dict]:
             "status": "fired" if ok is True else ("nodata" if ok is None else "idle"),
             "why": why,
             "priority": int(r.get("priority", 3)),
+            "plain": r.get("plain"),            # 白话解释（简明模式）
             "when": r.get("when"),              # 原始条件（仅供前端展示阈值/画条，不参与评估）
             "metric_keys": _metric_keys(r.get("when")),
         })

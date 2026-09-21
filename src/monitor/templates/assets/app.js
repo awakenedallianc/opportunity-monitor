@@ -60,7 +60,7 @@ function parseRule(r) {
   const n = nums(seg0);
   if (out.kind === 'compare') {
     if (c.op === 'between' && Array.isArray(c.value)) { out.lo = c.value[0]; out.hi = c.value[1]; out.cur = n[0] != null ? n[0] : null; }
-    else if (c.ref_metric) { const parts = seg0.split(/\s(gt|gte|lt|lte)\s/); out.cur = nums(parts[0])[0]; out.thr = nums(parts[2] || '')[0]; out.op = parts[1] || out.op; out.refLabel = c.ref_label || c.ref_metric; }
+    else if (c.ref_metric) { const parts = seg0.split(/\s(gt|gte|lt|lte)\s/); out.cur = nums(parts[0]).pop(); out.thr = nums(parts[2] || '').pop(); out.op = parts[1] || out.op; out.refLabel = c.ref_label || c.ref_metric; }
     else { out.cur = n[0]; out.thr = typeof c.value === 'number' ? c.value : n[1]; }
   } else if (out.kind === 'change' || out.kind === 'drawdown') { const m = seg0.match(/([−+-]?\d+(?:\.\d+)?)%/); out.cur = m ? parseFloat(m[1].replace(MINUS, '-')) : null; out.thr = c.value; out.unit = '%'; }
   else if (out.kind === 'news') { const m = seg0.match(/内\s*(\d+)\s*家/); out.cur = m ? +m[1] : null; out.thr = c.min_sources; out.unit = ' 家'; out.op = 'gte'; }
@@ -334,8 +334,61 @@ function renderChrome() {
   document.getElementById('watchstrip').innerHTML = [['BTC', 'px.BTC', 'chg24h.BTC'], ['布伦特', 'px.BRENT', 'chg1d.BRENT'], ['黄金', 'px.GOLD', 'chg1d.GOLD'], ['US10Y', 'px.US10Y', null]].map(([l, k, d]) => `<span data-metric="${k}">${l} <b>${k === 'px.US10Y' ? fmtNum(v(k), 2) + '%' : fmtPx(v(k))}</b> ${d ? dirHtml(v(d)) : ''}</span>`).join('');
 }
 
+// ---------- 简明模式 ----------
+const MODE = { v: LS('mode') || 'simple' };
+const GLOSS = [['BTC', '比特币'], ['ETH/BTC', '以太坊相对比特币'], ['ETH', '以太坊'], ['周线收于 50 周均线之上', '站上中期趋势线'], ['50 周均线', '中期趋势线'], ['200 周均线', '长期趋势线'], ['实现价格', '持有者平均成本'], ['ETF', '基金'], ['净流入', '资金流入'], ['净流出', '资金流出'], ['较 52 周高', '比一年高点'], ['较 1 年高点', '比一年高点'], ['较 ATH', '比历史高点'], ['较 6 个月高点', '比半年高点'], ['回撤', '下跌'], ['高收益债利差', '垃圾债借钱成本'], ['市值/年化收入', '市值除以年收入'], ['P/S', '市值/收入'], ['REV', '链上收入'], ['话题 24h 内 ≥', '今天有'], ['家来源', '家媒体在报道'], ['24h 内 ≥', '今天有'], ['预测市场', '赌盘'], ['Polymarket', '赌盘'], ['Kalshi', '赌盘']];
+function plainOf(r) { if (r.plain) return r.plain; let t = r.title || ''; for (const [a, b] of GLOSS) t = t.split(a).join(b); return t; }
+function fmtBig(x, unit) { if (x == null || isNaN(x)) return '—'; unit = unit || ''; const a = Math.abs(x); let s; if (a >= 1e12) s = neg((x / 1e12).toFixed(2)) + ' 万亿'; else if (a >= 1e8) s = neg((x / 1e8).toFixed(a >= 1e10 ? 0 : 1)) + ' 亿'; else if (a >= 1e4) s = neg((x / 1e4).toFixed(a >= 1e6 ? 0 : 2)) + ' 万'; else if (a >= 100) s = neg(x.toFixed(0)); else if (a >= 1) s = neg(x.toFixed(2)); else s = neg(x.toFixed(4)); return unit + s; }
+const pct0 = x => x == null ? '—' : neg((x > 0 ? '+' : '') + Math.round(x)) + '%';
+function vsBase(metricKey, cur) { const b = BASE.find(x => x.metric === metricKey); if (!b || b.baseline_value == null || cur == null) return ''; if (b.fmt === 'pct' || b.fmt === 'num') { const d = cur - b.baseline_value; return `报告写作时 ${esc(b.baseline_display || b.baseline_value)} → ${d > 0 ? '升' : (d < 0 ? '降' : '持平')} ${neg(Math.abs(d).toFixed(b.fmt === 'pct' ? 0 : 2))}${b.fmt === 'pct' ? ' 个百分点' : ''}`; } const ch = (cur / b.baseline_value - 1) * 100; return `报告写作时 ${esc(b.baseline_display || fmtPx(b.baseline_value))} → ${ch >= 0 ? '涨' : '跌'} ${Math.abs(ch).toFixed(0)}%`; }
+const SIMPLE = {
+  crypto: { name: '加密', tab: 'crypto', say: '现在是熊市中段，2027 年才是建仓期；只买有真实收入、没有大量解锁的币；入场看条件不看价格。',
+    nums: [['px.BTC', '比特币价格', x => '$' + fmtBig(x), 'athdd.BTC', x => `比历史高点低 ${Math.abs(Math.round(x))}%`], ['crypto.btc.wma50', '中期趋势线（站上=买入信号）', x => '$' + fmtBig(x), null, null], ['crypto.ethbtc', '以太坊相对比特币', x => fmtNum(x, 3), null, () => '报告加仓区 0.028–0.030'], ['crypto.fng', '市场情绪（0 恐慌–100 贪婪）', x => fmtNum(x, 0), null, () => meta('crypto.fng').label || '']],
+    chart: () => chartCard({ id: 's-btc', series: [{ key: 'px.BTC', label: '比特币', role: 'focal' }, { key: 'crypto.btc.wma50', label: '中期趋势线', role: 'context' }, { key: 'crypto.btc.wma200', label: '长期趋势线', role: 'context' }], thresholds: [{ value: 53600, label: '报告失效线 $5.36万', color: cssVar('--st-invalidation') }], desc: '', takeaway: '比特币与两条趋势线', yFmt: x => '$' + fmtBig(x), range: '1Y' }),
+    cap: '报告说：站上中期趋势线（灰虚线上方那条）可以开始分批买；跌破红线，报告的整套判断作废。' },
+  war: { name: '地缘', tab: 'geo', say: '买中断、卖恐惧：只有真被切断的东西（油、油轮、化肥）才会持续涨；黄金和军工已经跌过头；台海是唯一没被市场定价的大风险。',
+    nums: [['chokepoint.hormuz.ratio', '霍尔木兹海峡船流（占战前）', x => Math.round(x * 100) + '%', null, () => '8% 以下 = 基本断航'], ['px.BRENT', '油价（布伦特）', x => '$' + fmtNum(x, 0), 'vs_prewar.BRENT', x => `比战前高 ${Math.round(x)}%`], ['dd_ath.GOLD', '黄金比高点', x => pct0(x), null, () => '报告：黄金这次没能避险'], ['pm.taiwan_clash_2027', '赌盘：2027 前台海冲突', x => Math.round(x) + '%', null, () => '演习期间曾到 30%']],
+    chart: () => chartCard({ id: 's-hormuz', series: [{ key: 'chokepoint.hormuz.transits', label: '霍尔木兹每日船数', role: 'focal' }], thresholds: [{ value: v('chokepoint.hormuz.baseline') || 0, label: '战前平均' }], takeaway: '霍尔木兹海峡每天通过的船', desc: '', yFmt: x => fmtNum(x, 0), range: '1Y' }),
+    cap: '报告说：先看这条通道有没有恢复。船流回到战前七成以上，油价和运费就会掉头向下（"卖事实"）。' },
+  ai: { name: 'AI 时代', tab: 'ai', say: '现在像 1999 年秋：别追 Anthropic/OpenAI 上市；把钱留到 2028 年之后的清算期；你的主场是泰国 EEC 变电站和设备订单，不是股票。',
+    nums: [['dd52w.NVDA', '英伟达比一年高点', x => pct0(x), null, () => '报告：跌 30% 才算机会'], ['dd52w.SOXX', '半导体板块比一年高点', x => pct0(x), null, () => '跌 30% = 报告说的大回撤'], ['pm.anthropic_ipo', '赌盘：Anthropic 年内上市', x => Math.round(x) + '%', null, () => '报告：散户入场时刻'], ['dd52w.KOSPI', '韩国股市比一年高点', x => pct0(x), null, () => '报告说裂缝已出现']],
+    chart: () => chartCard({ id: 's-sox', series: [{ key: 'px.SOXX', label: '半导体', role: 'focal', transform: idx }, { key: 'px.NVDA', label: '英伟达', transform: idx }, { key: 'px.KOSPI', label: '韩国股市', transform: idx }], thresholds: [{ value: 100, label: '一年前 = 100' }], takeaway: 'AI 核心资产一年走势', desc: '', yFmt: x => fmtNum(x, 0), range: '1Y' }),
+    cap: '报告说：这轮钱流向了卖铲子的人（芯片、电力设备、交易所），不是买币的人；等这条线从高点跌三成，才是普通人的买点。' },
+};
+function reportStatus(rep) { const rs = byReport(rep).filter(r => r.report === rep); const inv = rs.filter(r => r.fired && r.level === 'invalidation'); const opp = rs.filter(r => r.fired && r.level === 'opportunity'); const warn = rs.filter(r => r.fired && r.level === 'warning'); const near = rs.filter(r => r._near); if (inv.length) return { st: 'invalidation', text: `报告的判断出问题了：${plainOf(inv[0])}` }; if (opp.length) return { st: 'opportunity', text: `出现 ${opp.length} 个买入信号：${plainOf(opp[0])}` }; if (warn.length) return { st: 'warning', text: `${warn.length} 个风险提示，最重要的是：${plainOf([...warn].sort((a, b) => a.priority - b.priority || radarSort(a, b))[0])}` }; return { st: 'idle', text: near.length ? `还没到报告说的条件；${near.length} 个信号接近触发` : '还没到报告说的条件，继续等' }; }
+function simpleCard(rep, big) { const c = SIMPLE[rep]; const s = reportStatus(rep); const nums = c.nums.slice(0, big ? 4 : 2).map(([k, lab, f, dk, df]) => { const x = v(k); const d = dk ? v(dk) : null; return `<div data-metric="${esc(k)}"><div class="s-num">${x == null ? '—' : f(x)}</div><div class="s-lab">${esc(lab)}</div><div class="s-vs">${d != null && df ? esc(df(d)) : (df && !dk ? esc(df()) : vsBase(k, x))}</div></div>`; }).join(''); return `<div class="s-card" data-goto="${c.tab}"><div class="s-head"><span class="s-dot ${s.st}"></span>${esc(c.name)}</div><div class="s-status">${esc(s.text)}</div><div class="s-nums">${nums}</div><div class="s-say"><b>报告怎么说</b> ${esc(c.say)}</div>${big ? '' : `<div class="s-link">看详情 →</div>`}</div>`; }
+function simpleRule(r, showState) { const st = r.fired ? (r.level === 'invalidation' ? '已触发' : '已触发') : (r._near ? '接近' : (r.status === 'nodata' ? '缺数据' : '未触发')); const cls2 = r.fired ? (r.level === 'invalidation' ? 'bad' : 'on') : ''; return `<li data-rule="${esc(r.rule_id)}"><span class="s-dot ${r.fired ? r.level : ''}"></span><span>${esc(plainOf(r))}${r.is_new && r.fired ? ' <span class="chip new">新</span>' : ''}<div class="m">${r._p && r._p.text ? r._p.text : ''}</div></span>${showState ? `<span class="w ${cls2}">${st}</span>` : `<span class="w">${LEVEL[r.level]}</span>`}</li>`; }
+function simpleCal(filterFn, n) { const rows = CAL.filter(e => e.days_to >= 0).filter(filterFn || (() => true)).slice(0, n || 3); return rows.length ? `<div class="s-cal">${rows.map(e => `<span class="d">${e.days_to === 0 ? '今天' : e.days_to + ' 天后'}</span><span>${esc(e.title)}${e.note ? `<div class="n">${esc(String(e.note).slice(0, 40))}</div>` : ''}</span>`).join('')}</div>` : '<div class="muted">近期没有重要日子</div>'; }
+function simpleNews(filterFn, n) { const cs = clusters(filterFn).slice(0, n || 5); return `<div class="s-news">${cs.map(c => `<div data-id="${esc(c.lead.id)}"><a href="${esc(c.lead.link)}" target="_blank" rel="noopener">${esc(c.lead.title)}</a><div class="m">${esc(c.label)} · ${c.c24} 家媒体 · ${esc(c.lead.source)} · ${ageLabel(c.lead.published || c.lead.first_seen)}</div></div>`).join('')}</div>`; }
+function renderSimpleOverview() {
+  const el = document.getElementById('tab-overview'); const newR = fired.filter(r => r.is_new); const inv = fired.filter(r => r.level === 'invalidation'); const opp = fired.filter(r => r.level === 'opportunity');
+  const verdict = inv.length ? `注意：报告的 ${inv.length} 个判断出了问题` : (opp.length ? `今天有 ${opp.length} 个买入信号，${fired.length - opp.length} 个风险提示` : `今天没有买入信号，有 ${fired.filter(r => r.level === 'warning').length} 个风险提示`);
+  const top = [...fired].sort((a, b) => b._score - a._score || a.priority - b.priority).slice(0, 5);
+  let h = `<div class="s-verdict">${esc(verdict)}</div><div class="s-sub">${new Date(TODAY).toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', weekday: 'long' })} · 三篇报告的 ${RULES.length} 条判断已用今天的数据检查过一遍</div>`;
+  h += `<div class="s-grid">${simpleCard('crypto')}${simpleCard('war')}${simpleCard('ai')}</div>`;
+  h += `<div class="s-h">今天要注意的 <span class="count">${fired.length} 条里最重要的 ${top.length} 条</span></div><div class="card"><ul class="s-list nonum">${top.map(r => simpleRule(r, false)).join('')}</ul></div>`;
+  h += `<div class="s-h">关键日子</div><div class="card">${simpleCal(e => e.days_to <= 30, 4)}</div>`;
+  h += `<div class="s-h">今天值得读的新闻 <span class="right"><a href="#read" data-goto="read">全部 ${NEWS.length} 条 →</a></span></div><div class="card">${simpleNews(null, 5)}</div>`;
+  h += `<div class="s-foot">想看全部指标、规则和图表：右上角切换到「专业」。</div>`;
+  el.innerHTML = h;
+}
+function renderSimpleReport(tab) {
+  const rep = { crypto: 'crypto', geo: 'war', ai: 'ai' }[tab]; const el = document.getElementById('tab-' + tab); const c = SIMPLE[rep]; const rp = (D.reports || []).find(r => r.id === rep) || {};
+  const key = byReport(rep).filter(r => r.report === rep && r.priority <= 2 && (r.level === 'opportunity' || r.level === 'invalidation' || r.level === 'warning')).sort((a, b) => (a.level === 'opportunity' ? 0 : a.level === 'invalidation' ? 1 : 2) - (b.level === 'opportunity' ? 0 : b.level === 'invalidation' ? 1 : 2) || stateRank(a) - stateRank(b) || a.priority - b.priority).slice(0, 8);
+  let h = `<div class="s-verdict" style="margin-bottom:4px">${esc(rp.title || c.name)}</div><div class="s-sub">${esc(rp.window || '')} · 报告基准日 2026-09-20</div>`;
+  h += simpleCard(rep, true);
+  h += `<div class="s-h">一张图</div>${c.chart()}<div class="s-cap">${esc(c.cap)}</div>`;
+  h += `<div class="s-h">报告的买入 / 放弃信号 <span class="count">${key.filter(r => r.fired).length}/${key.length} 已触发</span></div><div class="card"><ul class="s-list">${key.map(r => simpleRule(r, true)).join('')}</ul></div>`;
+  h += `<div class="s-h">接下来</div><div class="card">${simpleCal(e => e.report === rep, 4)}</div>`;
+  h += `<div class="s-h">相关新闻</div><div class="card">${simpleNews(n => (n.topics || []).some(t => TOPICS[t] && TOPICS[t].report === rep), 5)}</div>`;
+  h += `<div class="s-foot">全部 ${byReport(rep).length} 条规则、43 个标的、所有图表在「专业」模式。</div>`;
+  el.innerHTML = h; initCharts(el);
+}
+function setMode(m) { MODE.v = m; LS('mode', m); document.querySelectorAll('#mode-seg button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.v === m))); document.documentElement.setAttribute('data-mode', m); }
+
 // ---------- tabs & routing ----------
-const renderers = { overview: renderOverview, crypto: () => renderReport('crypto'), geo: () => renderReport('geo'), ai: () => renderReport('ai'), track: renderTrack, read: renderRead, data: renderData };
+const renderers = { overview: () => MODE.v === 'simple' ? renderSimpleOverview() : renderOverview(), crypto: () => MODE.v === 'simple' ? renderSimpleReport('crypto') : renderReport('crypto'), geo: () => MODE.v === 'simple' ? renderSimpleReport('geo') : renderReport('geo'), ai: () => MODE.v === 'simple' ? renderSimpleReport('ai') : renderReport('ai'), track: renderTrack, read: renderRead, data: renderData };
+document.getElementById('mode-seg').addEventListener('click', e => { const b = e.target.closest('button'); if (!b || b.dataset.v === MODE.v) return; setMode(b.dataset.v); ['overview', 'crypto', 'geo', 'ai'].forEach(t => rendered[t] = false); instances.forEach(c => { try { c.dispose(); } catch (err) {} }); instances.length = 0; show(document.querySelector('nav.tabs [aria-selected="true"]').dataset.tab); });
 const rendered = {};
 function show(tab) {
   if (!renderers[tab]) tab = 'overview';
@@ -354,7 +407,7 @@ document.addEventListener('click', e => { if (!e.target.closest('.pop') && !e.ta
 if (window.matchMedia) window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { if (SETTINGS.theme === 'auto') applySettings(); });
 
 function boot() {
-  applySettings(); renderChrome();
+  applySettings(); setMode(MODE.v); renderChrome();
   const hash = location.hash.replace('#', ''); const initial = renderers[hash] ? hash : (LS('tab') || 'overview'); show('overview'); if (initial !== 'overview') show(initial);
   if (hash.startsWith('rule=')) openRule(hash.slice(5)); if (hash.startsWith('metric=')) openMetric(decodeURIComponent(hash.slice(7)));
   const pre = ['crypto', 'geo', 'ai', 'track', 'read', 'data']; const idle = window.requestIdleCallback || (cb => setTimeout(cb, 400)); const step = () => { const t = pre.shift(); if (!t) return; if (!rendered[t]) { try { renderers[t](); rendered[t] = true; } catch (e) { console.error(e); } } idle(step); }; idle(step);
