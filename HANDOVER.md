@@ -5,14 +5,14 @@
 <!-- AUTO:BEGIN -->
 | 项目 | 值 |
 |---|---|
-| 版本 | **v2026.09.21.6** |
-| 签发时间 | 2026-09-21 16:46 本机时间 |
-| 基于提交 | `74a2d0a` + 本次发布提交 |
-| 本次说明 | 监控扩展第 1 批：8 条新线 43 规则 25 标的 5 数据源（信用/美债/套息/波动率/铜金/电力/电网/泰国EEC）；Jev 判断模型新闻信号分；全代码审查 12 处修复 |
+| 版本 | **v2026.09.21.7** |
+| 签发时间 | 2026-09-21 16:58 本机时间 |
+| 基于提交 | `790e937` + 本次发布提交 |
+| 本次说明 | FRED 官方 API 通道（注册 FRED_API_KEY 后自动恢复 CCC/订单序列）；credit.reset 改纯 ETF 比价不依赖 FRED |
 | 规则数 | 158 |
 | 指标数 / 新闻数（最近构建） | 2350 / 600（数据日 2026-09-21） |
 | 学习来源 / 方法论 / 功能候选(已上线) | 65 / 25 / 19(5) |
-| Release | https://github.com/awakenedallianc/opportunity-monitor/releases/tag/v2026.09.21.6 |
+| Release | https://github.com/awakenedallianc/opportunity-monitor/releases/tag/v2026.09.21.7 |
 <!-- AUTO:END -->
 
 ## 一句话

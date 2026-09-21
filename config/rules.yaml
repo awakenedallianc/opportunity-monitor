@@ -1166,18 +1166,18 @@ rules:
     source: 扩展·信用利差引信（line.credit）
     when: {type: compare, metric: ratio.hyg_ief, op: lt, ref_metric: sma200.ratio.hyg_ief, label: HYG/IEF, ref_label: 其200日线}
   - id: credit.reset
-    plain: 信用担忧解除（利差回落、比价修复），这条线退回观察
+    plain: 信用担忧解除（两组比价都收复 200 日线），这条线退回观察
     report: all
-    title: HY 利差 < 3.5% 且 HYG/LQD 收复 200 日线
+    title: HYG/LQD 与 HYG/IEF 双双收复 200 日线
     level: invalidation
     priority: 3
     assets: [HYG]
     action: 信用重定价论证失效，退回普通监控
-    source: 扩展·信用利差引信（line.credit）
+    source: 扩展·信用利差引信（line.credit；FRED 云端也不可达后改为纯 ETF 比价条件）
     when:
       all:
-        - {type: compare, metric: fred.HY_OAS, op: lt, value: 3.5, label: HY利差}
         - {type: compare, metric: ratio.hyg_lqd, op: gt, ref_metric: sma200.ratio.hyg_lqd, label: HYG/LQD, ref_label: 其200日线}
+        - {type: compare, metric: ratio.hyg_ief, op: gt, ref_metric: sma200.ratio.hyg_ief, label: HYG/IEF, ref_label: 其200日线}
   # --- line.usdebt 美债利息雪球（财政不可持续 → 贬值交易）---
   - id: usdebt.growth
     plain: 美国总债务一年涨超 7%，比经济增速快，进入复利螺旋

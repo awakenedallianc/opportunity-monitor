@@ -22,7 +22,7 @@
 - 引擎增强：yahoo 每标的新增 chg90d + sma200；derived.compute_series 回填 7 个比值序列（铜金比/HYG比价/VIX期限比/CEG相对强弱等）及其 200 日线；CFTC 净头寸 4 周差值
 - 首日触发 5 条：usdebt.auction10（10Y 拍卖疲弱）、copperwar.regime（战争经济商品档 ON）、grid.copper_cost、thaidc.spread（EEC 扩散确认）、thaidc.lng
 - 第二批候选（20 条中未做的 12 条，含 3 条批评者指出缺失效规则要补）：金融抑制、货币换锚、AI 泡沫刹车、美元流动性管道、铀、中国政策反转、EM 危机网、科技脱钩、军费、航天、巨灾、科研拐点 —— 全部草案在 expansion_research.json，做之前先补 dedollar/decouple/china 的 invalidation 规则
-- 遗留：NRC/FRED 系列在本机永远 nodata（云端跑完 git pull 后有数）；critique 提到的空白域（聚变/固态电池/碳市场/欧洲/印度/拉美/选举日历）留给学习循环逐期补
+- 遗留（云端首跑 35585189137 success 后核实）：**FRED 的 fredgraph.csv 从 GitHub 运行器也连不上了**（此前只有泰国本机不可达）——利率类有财政部曲线兜底照常（DGS10=5.01/T10YIE=2.33 均最新），但 CCC/HY 利差与电气设备订单（credit.ccc.*、grid.backlog/neworders/dip/end 的 FRED 腿）暂 nodata；fred.py 已支持官方 API 通道，**用户免费注册 FRED_API_KEY**（https://fred.stlouisfed.org/docs/api/api_key.html，加到 GitHub secret + .env）即自动恢复。NRC 核电出力云端也 403（power.nrc 暂 nodata，下期找替代源）。credit.reset 已改为纯 ETF 比价条件不依赖 FRED。critique 提到的空白域（聚变/固态电池/碳市场/欧洲/印度/拉美/选举日历）留给学习循环逐期补
 
 ## 断点（2026-09-20 23:20 曼谷）— 本地与云端均已上线；当前任务：前端全面重设计（数据/规则链条不动）
 

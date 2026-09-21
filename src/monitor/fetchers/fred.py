@@ -1,33 +1,45 @@
-"""FRED（圣路易斯联储）：无需密钥的 fredgraph.csv 通道。本机曾出现超时，故设长超时并允许失败。
+"""FRED（圣路易斯联储）：优先官方 API（需免费注册 FRED_API_KEY），无密钥时退回 fredgraph.csv。
 
-备用：美国财政部每日收益率曲线 XML（extras.py）。
+2026-09-21 实测 fredgraph.csv 从 GitHub 运行器也连不上（此前只有泰国本机不可达），
+所以无密钥时 FRED 系列大概率缺数：利率类有财政部曲线兜底（extras.py + derived.py），
+CCC/HY 利差与电气设备订单（BAMLH0A3HYC / A34SUO / A34SNO）暂无兜底，等用户注册密钥后自动恢复。
+注册（免费）：https://fred.stlouisfed.org/docs/api/api_key.html → GitHub secret + .env 加 FRED_API_KEY。
 """
 from __future__ import annotations
 
 import csv
 import io
+import os
 
 from ..utils import Http, log
 
 URL = "https://fred.stlouisfed.org/graph/fredgraph.csv"
+API = "https://api.stlouisfed.org/fred/series/observations"
 
 
 def fetch_series(http: Http, sid: str, key: str) -> list[dict]:
-    txt = http.get_text(URL, params={"id": sid}, timeout=60)
-    rows = list(csv.reader(io.StringIO(txt)))
-    out = []
-    last = None
-    for r in rows[1:]:
-        if len(r) < 2 or r[1] in (".", ""):
-            continue
-        try:
-            v = float(r[1])
-        except ValueError:
-            continue
-        out.append({"key": key, "value": v, "source": "fred", "date": r[0], "_backfill": True})
-        last = (r[0], v)
-    if last:
-        out.append({"key": key, "value": last[1], "source": "fred", "asof": last[0], "meta": {"series": sid}})
+    api_key = os.environ.get("FRED_API_KEY")
+    pairs: list[tuple[str, float]] = []
+    if api_key:
+        d = http.get_json(API, params={"series_id": sid, "api_key": api_key, "file_type": "json",
+                                       "sort_order": "desc", "limit": 450}, timeout=60)
+        for o in reversed(d.get("observations") or []):
+            try:
+                pairs.append((o["date"], float(o["value"])))
+            except (KeyError, TypeError, ValueError):
+                continue
+    else:
+        txt = http.get_text(URL, params={"id": sid}, timeout=60)
+        for r in list(csv.reader(io.StringIO(txt)))[1:]:
+            if len(r) < 2 or r[1] in (".", ""):
+                continue
+            try:
+                pairs.append((r[0], float(r[1])))
+            except ValueError:
+                continue
+    out = [{"key": key, "value": v, "source": "fred", "date": d0, "_backfill": True} for d0, v in pairs]
+    if pairs:
+        out.append({"key": key, "value": pairs[-1][1], "source": "fred", "asof": pairs[-1][0], "meta": {"series": sid}})
     return out[-450:]
 
 
