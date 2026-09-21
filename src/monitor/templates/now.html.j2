@@ -6,9 +6,12 @@
 <title>机会监控 · 现在</title>
 <meta name="color-scheme" content="light dark">
 <link rel="manifest" href="manifest.webmanifest">
+<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <style>
 :root{--bg:#f6f7f8;--fg:#111318;--mut:#6b7280;--card:#fff;--line:#e5e7eb}
 @media (prefers-color-scheme:dark){:root{--bg:#0f1115;--fg:#f3f4f6;--mut:#9ca3af;--card:#171a20;--line:#262b34}}
+:root[data-theme="dark"]{--bg:#0f1115;--fg:#f3f4f6;--mut:#9ca3af;--card:#171a20;--line:#262b34}
+:root[data-theme="light"]{--bg:#f6f7f8;--fg:#111318;--mut:#6b7280;--card:#fff;--line:#e5e7eb}
 html,body{margin:0;background:var(--bg);color:var(--fg);font:400 16px/1.4 -apple-system,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
 .wrap{max-width:520px;margin:0 auto;padding:20px 16px 40px}
 .d{color:var(--mut);font-size:13px;margin-bottom:10px}

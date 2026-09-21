@@ -74,12 +74,24 @@
 - 步骤状态：[x] 工作流（15 agents 完成，结果 data/raw/learning_seed.json） [x] learning/ 骨架 [x] intake 脚本（首跑 19/24 源 ok，368 条） [x] 学习页 docs/learn.html（主站导航「学习 ↗」） [x] daily.yml + local_boot 接入 [x] 计划任务 `learning-loop`（默认每周日 20:00，用户可改） [x] scripts/release.py 一键发布 + HANDOVER.md 交接证书 + CLAUDE.md [x] 已填入：来源 65（64 可抓）、方法论 25、功能候选 19（F003「自上次访问以来」标为下期做）；LOOP.md 追加研究补充（坑/打分/空白主题）
 - 用户追加要求（2026-09-21）："每更新一版自动上传 GitHub，同时完成一个交接证书，可在其他 Claude Code 账户里衔接继续开发" → 已由 release.py（自动推送+标签+Release+刷新 HANDOVER.md 版本戳）与 CLAUDE.md（任何账户自动加载）满足
 
-### 进行中（2026-09-21 16:30 曼谷，原账户 token 用尽，转其他 Claude Code 账户继续）：学习循环第 1 期 —— 把首轮方法论用到应用上
+### 已完成（2026-09-21 新账户接手复核修正，发布 v2026.09.21.5）：学习循环第 1 期复核
+- 新账户直接读到了旧复核工作流 journal（wf_aa2cbd15-c30，同一台电脑路径可达）：4 个审查员 37 条发现 + 13 条已核实结论，全部逐条对照源码核实后修复；另有 1 条 high 误报被证伪（「推送早晚颠倒」——daily.yml 第 27-28 行 job 级 TZ=Asia/Bangkok，date +%H 本来就是曼谷时，不改）
+- 修复清单（22 处，全在呈现/推送/PWA 层，数据与规则链条未动）：
+  - PWA：两个 PNG 图标文件头是字面文本导致 Chrome 判损坏、安装按钮永不出现 → 修字节并 CRC 校验；sw.js 统一 ./ 与 ./index.html 缓存 key（om-v3）+ 导航 8 秒弱网竞速；manifest/theme-color 改浅色默认 + applySettings 同步 meta；iOS 显示「分享 → 添加到主屏幕」提示
+  - 自上次访问（catchUp）：UTC 日期改本地日期（曼谷早上不再多算 1 天）；历史只有 2 天时钳制到首日并标注「记录从 X 起」（原来任何老访客都显示「变了 28 件事」，现在只报真实的 6 件）；NaN 守卫；unread 小圆点与横幅同根因一并修
+  - 判定卡：「把握：高」改「数据：齐/缺/旧」（原指标只量数据齐不齐，不量判断强弱，会在报告说「别追」时显示高把握可动）；actionOf 要求 ≥2 个买入信号且至少 1 个非新闻规则才说「可以按报告分批动」；关键指标过期阈值 >3 改 >4（周一休市后周二不再误报）；conf 色去红绿（与涨跌色冲突）；大卡不再误跳回顶部；robo/反馈只在报告页大卡显示（首屏字数 823→635）
+  - 手机：? 提示锚定整行不再半截出屏、触区 28px、加 aria；规则表真 3 列（规则/现值/距离）不横滚；反馈按钮 32px、文案改「已记在本机，设置里可复制给我」（不再暗示已发出）
+  - calendar.ics：RFC 5545 转义 + 75 字节折行 + 稳定 DTSTAMP（订阅端不再每天全量「有更新」）+ Windows 本地生成不再是 \r\r\n + 提醒改前一天 09:00；ICS 链接只对 Apple 用 webcal://（安卓 Chrome 无处理程序会死链）
+  - 推送：push_text 按 first_fired≥昨天 选取（晚班首触发的规则不再永远漏报）；ntfy 步骤移到 deploy-pages 之后且失败不拖垮 job；代码 push 不再触发手机推送；定时班次无新变化时静默（L018）；三处结论措辞统一为「今天有 N 个买入信号、N 个风险提示」；now.html 数字舍入对齐 fmtBig、跟随站内主题
+- 发布前自审已完成：工作流 wf_e6d5a424-a00（3 视角审查 + 逐条对抗核实我这轮 diff）→ 确认 5 条 low 全部修复（catchUp 钳制边界、「数据：矛盾」标签、_fold 末行 76 字节、_fmt_big <1 分支、专业模式补「怎么算」节）、1 条证伪（push_text TypeError 场景在真实数据契约下不存在）
+- 学习循环计划任务已在新账户重建：「机会监控 · 学习循环」每周日 20:00（桌面 App → Scheduled 可改）
+- 剩余已知（下期）：首屏 635 字仍超 L002 的 400 字目标（再减要动头条条/判定卡结构，等用户反馈）；「加到手机日历」的安卓可见说明只放在了按钮 title 里
+### 上轮记录（2026-09-21 16:30 曼谷，原账户 token 用尽，转其他 Claude Code 账户继续）：学习循环第 1 期 —— 把首轮方法论用到应用上
 - 用户指令："我也需要结合最新学习的知识来更新迭代机会监控应用"（用户主动触发，不等周日计划任务）
 - 本期范围（按 backlog 分数 + 方法论）：
   功能：F003 自上次访问以来变化条 · F002 关键日子 .ics 订阅 · F005 极简 now.html · F004 PWA 离线/安装 · F001 每日 ntfy 推送（需用户加 secret NTFY_TOPIC）
   方法论落地：L002 首屏字数预算 · L003 判定卡高/中/低把握+动作 · L004 空状态三段式 · L006 数字带来源与时间 · L008 好处优先+「怎么算」· L009「固定规则算的，不是 AI 猜的」· L011 手机表格只留 3 列 · L013 具体的不确定说明 · L014 情境帮助 ? · L015 看懂了/没看懂反馈
-- 步骤：[x] 前端改动 [x] site.py 生成 calendar.ics + now.html + pwa [x] push_text.py + daily.yml [x] 构建+浏览器验证（1280/375） [x] 复核工作流已启动后被中断（wf_aa2cbd15-c30，journal：C:/Users/33010/.claude/projects/D------/8135a533-7761-47a6-ba9a-40120117470a/subagents/workflows/wf_aa2cbd15-c30/journal.jsonl，type=result 行是各审查员发现；新账户看不到该目录就自审 git diff v2026.09.21.3..v2026.09.21.4） [x] backlog/log 更新 [x] release v2026.09.21.4 已推送（未经复核修正） [ ] 新账户接手：读 journal 或自审 → 修正 → 再发一版
+- 步骤：[x] 前端改动 [x] site.py 生成 calendar.ics + now.html + pwa [x] push_text.py + daily.yml [x] 构建+浏览器验证（1280/375） [x] 复核工作流已启动后被中断（wf_aa2cbd15-c30，journal：C:/Users/33010/.claude/projects/D------/8135a533-7761-47a6-ba9a-40120117470a/subagents/workflows/wf_aa2cbd15-c30/journal.jsonl，type=result 行是各审查员发现；新账户看不到该目录就自审 git diff v2026.09.21.3..v2026.09.21.4） [x] backlog/log 更新 [x] release v2026.09.21.4 已推送（未经复核修正） [x] 新账户接手：读 journal → 修正 → 发布 v2026.09.21.5（见上一节）
 - 接手方法：新账户直接打开 D:/机会监控（HANDOVER.md 清单 A）。已知待查点：帮助 ? 提示在 iOS 触屏；首屏字数 ≈745（目标 ≤400）；confidence() 三条主线全"高"的阈值是否太宽；write_ics 的 RFC 5545 折行/转义；daily.yml 推送步骤未在云端验证（需 secret NTFY_TOPIC）
 - 若中断：git status 看改了哪些文件；node --check + python run.py --build-only 能过就继续未勾的步骤
 
@@ -104,6 +116,7 @@ powershell -ExecutionPolicy Bypass -File scripts\install_task.ps1
 ```
 
 ## 变更日志
+- 2026-09-21：学习循环第 1 期复核修正 22 处（PWA 图标/缓存、catchUp 本地日期与钳制、判定卡「数据：齐/缺/旧」、手机 ?/表格/反馈、ics 转义折行、推送漏报与静默）；新账户重建计划任务
 - 2026-09-21：学习循环系统 v1（learn_intake / learn_page / LOOP.md / release.py / HANDOVER.md / CLAUDE.md / 计划任务 learning-loop）；首轮研究填入 65 源 / 25 方法论 / 19 候选
 - 2026-09-21：简明模式按 Top-10 核心功能重写（app.js/app.css/index.html.j2 搜索框）；yahoo 连续期货 chg1d 假值修复；store.py 云端重建库后 first_fired 延续（此前云端每次把全部触发标成"新"）
 - 2026-09-20 项目创建；报告→规则；首轮运行；计划任务；断点续跑；部署修正；数据复核修正（进行中）

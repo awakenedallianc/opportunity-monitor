@@ -471,17 +471,18 @@ details.story-card.rep summary{display:none}details.story-card.rep .sb{padding-t
 .catch{background:var(--surface);border:1px solid var(--border-hair);border-left:3px solid var(--accent);border-radius:10px;padding:10px 14px;margin:12px 0 0;font:400 14px/22px var(--font-sans)}
 details.catch summary{list-style:none;cursor:pointer}details.catch summary::-webkit-details-marker{display:none}
 .catch .ci{padding:4px 0;cursor:pointer}
+/* 数据档位不用红绿：避免与涨跌色/信号色混淆（红涨绿跌模式下会自相矛盾） */
 .conf{display:inline-block;font:500 12px/20px var(--font-sans);border-radius:10px;padding:0 8px;margin-left:6px;background:var(--surface-2);color:var(--ink-2)}
-.conf.high{background:var(--st-opportunity-bg);color:var(--st-opportunity)}.conf.mid{background:var(--st-warning-bg);color:var(--st-warning)}.conf.low{background:var(--st-invalidation-bg);color:var(--st-invalidation)}
 .vcard .vact{font:600 14px/22px var(--font-sans)}
 .vcard .robo{font:400 12px/18px var(--font-sans);color:var(--muted)}
 .help{position:relative;display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;border:1px solid var(--border);color:var(--muted);font:500 11px/1 var(--font-sans);cursor:help;margin-left:4px;vertical-align:middle}
 .help::after{content:attr(data-tip);position:absolute;left:0;top:22px;z-index:30;width:240px;background:var(--surface);color:var(--ink);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font:400 12px/18px var(--font-sans);box-shadow:var(--shadow-pop);display:none;white-space:normal;text-align:left}
 .help:hover::after,.help:focus::after,.help.open::after{display:block}
 .fb{display:flex;gap:6px;align-items:center;border-top:1px solid var(--border-hair);padding-top:8px}
-.fbb{font:500 12px/24px var(--font-sans);border:1px solid var(--border);background:var(--surface-2);color:var(--ink-2);border-radius:12px;padding:0 10px;cursor:pointer}
+.fbb{font:500 13px/32px var(--font-sans);border:1px solid var(--border);background:var(--surface-2);color:var(--ink-2);border-radius:16px;padding:0 14px;cursor:pointer;min-height:32px}
 .fbb:hover{border-color:var(--ink)}
 .method p{font:400 14px/22px var(--font-sans);margin:6px 0}
 #offline{background:var(--st-warning-bg);color:var(--st-warning);font:500 13px/20px var(--font-sans);padding:6px 16px;text-align:center}
 .s-sub a,.s-foot a{color:var(--accent)}
-@media (max-width:639px){.help::after{left:auto;right:0}}
+/* 手机：提示锚定到整行宽度，不出屏幕；? 的触区放大 */
+@media (max-width:639px){.help{position:static;width:28px;height:28px}.vcard .vh,.s-h{position:relative}.help::after{left:0;right:0;width:auto;top:100%}}

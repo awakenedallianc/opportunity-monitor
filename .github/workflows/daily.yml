@@ -40,14 +40,6 @@ jobs:
         run: python scripts/learn_intake.py --no-render || echo "::warning::learn intake failed"
       - name: Fetch + build (history auto-rebuilt from data/snapshots on a fresh DB; no LLM)
         run: python run.py
-      - name: Push daily summary to phone (ntfy; only if NTFY_TOPIC secret is set, morning run only)
-        env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: |
-          if [ -z "$NTFY_TOPIC" ]; then echo "NTFY_TOPIC not set; skip"; exit 0; fi
-          if [ "$(date +%H)" -ge 12 ] && [ "${{ github.event_name }}" = "schedule" ]; then echo "evening run; skip push"; exit 0; fi
-          python scripts/push_text.py > /tmp/push.txt
-          curl -fsS -H "Title: 机会监控 $(date +%m-%d)" -H "Click: https://awakenedallianc.github.io/opportunity-monitor/" -H "Tags: chart_with_upwards_trend" --data-binary @/tmp/push.txt "https://ntfy.sh/$NTFY_TOPIC" > /dev/null || echo "::warning::push failed"
       - name: Commit snapshots + news archive (small, append-only; generated docs/ are NOT committed)
         run: |
           git config user.name 'monitor-bot'
@@ -65,3 +57,14 @@ jobs:
         with: { path: docs }
       - id: deployment
         uses: actions/deploy-pages@v4
+      # 推送放在部署之后：点通知打开的已是今天的页面；推送失败也不影响数据提交与部署
+      - name: Push daily summary to phone (ntfy; morning schedule + manual only)
+        if: ${{ github.event_name != 'push' }}
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ -z "$NTFY_TOPIC" ]; then echo "NTFY_TOPIC not set; skip"; exit 0; fi
+          if [ "$(date +%H)" -ge 12 ] && [ "${{ github.event_name }}" = "schedule" ]; then echo "evening run; skip push"; exit 0; fi
+          python scripts/push_text.py > /tmp/push.txt || { echo "::warning::push text failed"; exit 0; }
+          if grep -q '规则没有新变化' /tmp/push.txt && [ "${{ github.event_name }}" = "schedule" ]; then echo "no new rule changes; silent"; exit 0; fi
+          curl -fsS -H "Title: 机会监控 $(date +%m-%d)" -H "Click: https://awakenedallianc.github.io/opportunity-monitor/" -H "Tags: chart_with_upwards_trend" --data-binary @/tmp/push.txt "https://ntfy.sh/$NTFY_TOPIC" > /dev/null || echo "::warning::push failed"

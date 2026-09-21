@@ -12,25 +12,52 @@ TEMPLATES = Path(__file__).resolve().parent / "templates"
 
 
 def _fmt_big(x, unit=""):
+    # 与 app.js fmtBig 同一套舍入，避免 now.html 与主站显示不一致
     if x is None:
         return "—"
     a = abs(x)
+    if a >= 1e12:
+        return f"{unit}{x / 1e12:.2f} 万亿"
     if a >= 1e8:
-        return f"{unit}{x / 1e8:.1f} 亿"
+        return f"{unit}{x / 1e8:.0f} 亿" if a >= 1e10 else f"{unit}{x / 1e8:.1f} 亿"
     if a >= 1e4:
-        return f"{unit}{x / 1e4:.2f} 万"
+        return f"{unit}{x / 1e4:.0f} 万" if a >= 1e6 else f"{unit}{x / 1e4:.2f} 万"
+    if a >= 1000:
+        return f"{unit}{x:.0f}"
     if a >= 100:
-        return f"{unit}{x:,.0f}"
-    return f"{unit}{x:.2f}"
+        return f"{unit}{x:.1f}"
+    if a >= 1:
+        return f"{unit}{x:.2f}"
+    return f"{unit}{x:.4f}"
 
 
 def write_ics(payload: dict, out_dir: Path) -> Path:
-    """未来 90 天的关键日子 → docs/calendar.ics（全天事件，提前 1 天提醒）。"""
+    """未来 90 天的关键日子 → docs/calendar.ics（全天事件，前一天 09:00 提醒）。"""
     import hashlib
     from datetime import datetime, timedelta
+
+    def _esc(s):
+        # RFC 5545 §3.3.11：TEXT 值须转义 \ ; , 换行
+        return str(s).replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+
+    def _fold(line):
+        # RFC 5545 §3.1：每行 ≤75 字节，续行以一个空格开头（按 UTF-8 字符边界切）
+        b = line.encode("utf-8")
+        parts = []
+        while len(b) > (75 if not parts else 74):
+            cut = 75 if not parts else 74
+            while cut > 0 and (b[cut] & 0xC0) == 0x80:
+                cut -= 1
+            parts.append(b[:cut].decode("utf-8"))
+            b = b[cut:]
+        parts.append(b.decode("utf-8"))
+        return "\r\n ".join(parts)
+
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//opportunity-monitor//CN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
              "X-WR-CALNAME:机会监控 · 关键日子", "X-WR-TIMEZONE:Asia/Bangkok"]
     rep = {"crypto": "加密", "war": "地缘", "ai": "AI", "all": "宏观"}
+    # DTSTAMP 跟数据日走：订阅端不会每次构建都把全部事件当作"有更新"
+    stamp = f"{str(payload.get('date') or '1970-01-01').replace('-', '')}T000000Z"
     for e in payload.get("calendar") or []:
         try:
             d = datetime.strptime(e["date"], "%Y-%m-%d")
@@ -39,15 +66,17 @@ def write_ics(payload: dict, out_dir: Path) -> Path:
         if not (0 <= int(e.get("days_to", -1)) <= 90):
             continue
         uid = hashlib.sha1((e["date"] + e.get("title", "")).encode("utf-8")).hexdigest()[:12]
-        summary = f"[{rep.get(e.get('report'), '')}] {str(e.get('title', ''))[:24]}{'（约）' if e.get('approx') else ''}"
-        desc = str(e.get("note") or "").replace("\n", " ")[:120]
-        lines += ["BEGIN:VEVENT", f"UID:{uid}@opportunity-monitor", f"DTSTAMP:{datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')}",
+        summary = _esc(f"[{rep.get(e.get('report'), '')}] {str(e.get('title', ''))[:24]}{'（约）' if e.get('approx') else ''}")
+        desc = _esc(str(e.get("note") or "").replace("\n", " ")[:120])
+        lines += ["BEGIN:VEVENT", f"UID:{uid}@opportunity-monitor", f"DTSTAMP:{stamp}",
                   f"DTSTART;VALUE=DATE:{d.strftime('%Y%m%d')}", f"DTEND;VALUE=DATE:{(d + timedelta(days=1)).strftime('%Y%m%d')}",
                   f"SUMMARY:{summary}", f"DESCRIPTION:{desc}", "URL:https://awakenedallianc.github.io/opportunity-monitor/",
-                  "BEGIN:VALARM", "TRIGGER:-P1D", "ACTION:DISPLAY", f"DESCRIPTION:{summary}", "END:VALARM", "END:VEVENT"]
+                  "BEGIN:VALARM", "TRIGGER:-PT15H", "ACTION:DISPLAY", f"DESCRIPTION:{summary}", "END:VALARM", "END:VEVENT"]
     lines.append("END:VCALENDAR")
     out = out_dir / "calendar.ics"
-    out.write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
+    # newline=""：阻止 Windows 把 \n 再翻译成 \r\n（否则本地生成的 .ics 是 \r\r\n，解析器读不了）
+    with open(out, "w", encoding="utf-8", newline="") as f:
+        f.write("\r\n".join(_fold(l) for l in lines) + "\r\n")
     return out
 
 
@@ -72,7 +101,7 @@ def write_now(payload: dict, env, out_dir: Path) -> Path:
         else:
             dd = val("dd52w.SOXX")
             number, label = (f"{dd:+.0f}%" if dd is not None else "—"), "半导体 vs 一年高点"
-        sentence = "报告判断失效，别动" if inv else f"{opp} 个买入信号、{risk} 个风险信号"
+        sentence = "报告判断失效，别动" if inv else f"{opp} 个买入信号、{risk} 个风险提示"
         rows.append({"name": name, "dot": dot, "number": number, "number_label": label, "sentence": sentence})
     fired = [r for r in rules if r.get("fired")]
     inv_n = sum(1 for r in fired if r.get("level") == "invalidation")
@@ -114,10 +143,14 @@ def render(payload: dict, out: Path | None = None) -> Path:
                 shutil.copy2(p, out.parent / p.name)
             else:
                 shutil.copy2(p, out.parent / "icons" / p.name)
+    # 附属页面各自兜底：ics 失败不应连累 now.html（云端 now.html 缺失会让页脚/PWA 快捷方式 404）
     try:
         write_ics(payload, out.parent)
+    except Exception as e:
+        log.warning("ics skipped: %s", e)
+    try:
         write_now(payload, env, out.parent)
-    except Exception as e:  # 附属页面失败不影响主站
-        log.warning("ics/now skipped: %s", e)
+    except Exception as e:
+        log.warning("now skipped: %s", e)
     log.info("site written: %s (%.1f KB)", out, len(html.encode("utf-8")) / 1024)
     return out
