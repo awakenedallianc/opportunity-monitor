@@ -74,12 +74,13 @@
 - 步骤状态：[x] 工作流（15 agents 完成，结果 data/raw/learning_seed.json） [x] learning/ 骨架 [x] intake 脚本（首跑 19/24 源 ok，368 条） [x] 学习页 docs/learn.html（主站导航「学习 ↗」） [x] daily.yml + local_boot 接入 [x] 计划任务 `learning-loop`（默认每周日 20:00，用户可改） [x] scripts/release.py 一键发布 + HANDOVER.md 交接证书 + CLAUDE.md [x] 已填入：来源 65（64 可抓）、方法论 25、功能候选 19（F003「自上次访问以来」标为下期做）；LOOP.md 追加研究补充（坑/打分/空白主题）
 - 用户追加要求（2026-09-21）："每更新一版自动上传 GitHub，同时完成一个交接证书，可在其他 Claude Code 账户里衔接继续开发" → 已由 release.py（自动推送+标签+Release+刷新 HANDOVER.md 版本戳）与 CLAUDE.md（任何账户自动加载）满足
 
-### 进行中（2026-09-21 15:00 曼谷）：学习循环第 1 期 —— 把首轮方法论用到应用上
+### 进行中（2026-09-21 16:30 曼谷，原账户 token 用尽，转其他 Claude Code 账户继续）：学习循环第 1 期 —— 把首轮方法论用到应用上
 - 用户指令："我也需要结合最新学习的知识来更新迭代机会监控应用"（用户主动触发，不等周日计划任务）
 - 本期范围（按 backlog 分数 + 方法论）：
   功能：F003 自上次访问以来变化条 · F002 关键日子 .ics 订阅 · F005 极简 now.html · F004 PWA 离线/安装 · F001 每日 ntfy 推送（需用户加 secret NTFY_TOPIC）
   方法论落地：L002 首屏字数预算 · L003 判定卡高/中/低把握+动作 · L004 空状态三段式 · L006 数字带来源与时间 · L008 好处优先+「怎么算」· L009「固定规则算的，不是 AI 猜的」· L011 手机表格只留 3 列 · L013 具体的不确定说明 · L014 情境帮助 ? · L015 看懂了/没看懂反馈
-- 步骤：[x] 前端改动 [x] site.py 生成 calendar.ics + now.html + pwa [x] push_text.py + daily.yml [x] 构建+浏览器验证（1280/375） [~] 复核工作流（review-cycle1，后台） [x] backlog/log 更新 [ ] 按复核修正 [ ] release v2026.09.21.4
+- 步骤：[x] 前端改动 [x] site.py 生成 calendar.ics + now.html + pwa [x] push_text.py + daily.yml [x] 构建+浏览器验证（1280/375） [x] 复核工作流已启动后被中断（wf_aa2cbd15-c30，journal：C:/Users/33010/.claude/projects/D------/8135a533-7761-47a6-ba9a-40120117470a/subagents/workflows/wf_aa2cbd15-c30/journal.jsonl，type=result 行是各审查员发现；新账户看不到该目录就自审 git diff v2026.09.21.3..v2026.09.21.4） [x] backlog/log 更新 [x] release v2026.09.21.4 已推送（未经复核修正） [ ] 新账户接手：读 journal 或自审 → 修正 → 再发一版
+- 接手方法：新账户直接打开 D:/机会监控（HANDOVER.md 清单 A）。已知待查点：帮助 ? 提示在 iOS 触屏；首屏字数 ≈745（目标 ≤400）；confidence() 三条主线全"高"的阈值是否太宽；write_ics 的 RFC 5545 折行/转义；daily.yml 推送步骤未在云端验证（需 secret NTFY_TOPIC）
 - 若中断：git status 看改了哪些文件；node --check + python run.py --build-only 能过就继续未勾的步骤
 
 ## 已知限制（泰国网络）
