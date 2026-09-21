@@ -13,7 +13,7 @@
 - 上线线：货币换锚（dedollar，COFER 56.4%/TIC 中日 3 月 -139B 已触发）、金融抑制（repression）、AI 泡沫刹车（aibrake，台积电月营收 +53% 景气档触发）、科技脱钩（decouple，关税文书 8 篇/30 天 + 国产设备双雄已触发）、EM 危机网（emfood，糙米 +21%/糖 +36% 泰国主场机会已触发）、流动性管道（liquidity，SOMA 四周转正=QT 实质结束已触发！）、铀（uranium）、中国周期（china，铁矿石 97 跌破 120 刺激证伪档）、军费（defense）、商业航天（space，RKLB 破 200 日线触发）、巨灾雷达（catastrophe）、前沿科研首条（frontier.qbubble）
 - 新数据源（本机全部实测）：LBMA 白银、IMF COFER（SDMX XML 正则）、TIC Table5、Fed H.4.1 托管（正则 $2.87T）、NY Fed 互换/SOMA/SOFR 历史、Federal Register 计数、Celestrak 星座在轨数（CSV 行数；starlink 偶发限流）、Launch Library（YTD 234 次 +2.6%）、USGS 地震地理围栏、NHC 风暴、TWSE 台积电月营收、SEC EDGAR capex（**美国 IP 才通**，云端车道）、ECB DFR+HICP（表头定位列）、FAO 食价、DBnomics 中国 M2
 - 新派生：ratio.emb_ief/qqq_qqew/ura_spx/crland_hsi/gold_silver(回填版)、CNH 20/60 均线（现汇 CNH=X 无历史→用期货 CNH=F=CNHF）、SOFR-EFFR 价差与月尖峰数、SOMA 4 周变化、金价-实际利率 60 日相关性、星座 90 日净增
-- 已知 nodata（数据在路上）：edgar.*（云端首跑后有）、space.*_chg90（星座计数积累 90 天后有真值）、ez.hicp_yoy 序列滞后（慢变量）、defense USAspending 与 uranium NRC 腿延后（证书/403）
+- 已知 nodata：**edgar.* 两端都 403**（SEC 屏蔽数据中心网段，GitHub 运行器也不行——aibrake 线由台积电/CRWV/双回撤/集中度 4 条腿承担，capex 腿待找替代源）、space.*_chg90（星座计数积累 90 天后有真值）、ez.hicp_yoy 序列滞后（慢变量）、defense USAspending 与 uranium NRC 腿延后（证书/403）
 - 新话题：cb_gold/capital_controls/golden_dome/neutron_rocket/china_stimulus（topics.yaml）
 
 ## 上一断点（2026-09-21 17:00 曼谷）：监控范围扩展第 1 批 + Jev 判断模型接入（v2026.09.21.6）
