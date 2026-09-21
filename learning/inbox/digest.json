@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-21T06:29:16.265676+00:00",
+ "generated_at": "2026-09-21T06:31:56.244103+00:00",
  "window_days": 14,
- "total": 228,
+ "total": 231,
  "groups": {
   "china": [
    {
@@ -2340,6 +2340,21 @@
     "first_seen": "2026-09-21T06:28:36.939128+00:00"
    },
    {
+    "id": "60ba7a464b16fc16",
+    "date": "2026-09-16",
+    "published": "2026-09-16T12:26:17+00:00",
+    "source": "Product Hunt",
+    "title": "Ami AI",
+    "link": "https://www.producthunt.com/products/ami-ai",
+    "summary": "Lovable for getting customers Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:31:50.494453+00:00"
+   },
+   {
     "id": "a558850955077643",
     "date": "2026-09-16",
     "published": "2026-09-16T12:02:14+00:00",
@@ -2420,6 +2435,23 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-09-21T06:28:36.939128+00:00"
+   },
+   {
+    "id": "52a09a2dd6b2da8e",
+    "date": "2026-09-15",
+    "published": "2026-09-15T23:26:52+00:00",
+    "source": "Product Hunt",
+    "title": "omadesign",
+    "link": "https://www.producthunt.com/products/omadesign",
+    "summary": "Linux creative suite for design, layout, paint & motion Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:31:50.494456+00:00"
    },
    {
     "id": "c5778a07041ab54c",
@@ -2510,36 +2542,6 @@
     "title": "Lull",
     "link": "https://www.producthunt.com/products/lull-3",
     "summary": "Tell it what is on your mind. It writes the meditation. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "4b1fb83afaeeb131",
-    "date": "2026-09-14",
-    "published": "2026-09-14T21:14:31+00:00",
-    "source": "Product Hunt",
-    "title": "Scrapboard Cloud 4",
-    "link": "https://www.producthunt.com/products/scrapboard-cloud-4",
-    "summary": "Digital family refrigerator door, now pocket-sized n synced Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "16a7cb36a4d5023f",
-    "date": "2026-09-14",
-    "published": "2026-09-14T17:22:27+00:00",
-    "source": "Product Hunt",
-    "title": "Minicart",
-    "link": "https://www.producthunt.com/products/minicart",
-    "summary": "Launch your store. Let AI run the busywork. Discussion | Link",
     "topics": [
      "product"
     ],
@@ -2859,17 +2861,18 @@
  },
  "tag_counts": {
   "ai-product": 44,
-  "ux": 11,
+  "ux": 12,
   "data": 10,
   "dashboard": 8,
   "growth": 7,
   "retention": 2,
   "finance-product": 1
  },
- "sources_ok": 19,
+ "sources_ok": 18,
  "sources_total": 24,
  "failed_sources": [
   "36氪",
+  "Coin Metrics",
   "Every",
   "Glassnode Insights",
   "a16z",

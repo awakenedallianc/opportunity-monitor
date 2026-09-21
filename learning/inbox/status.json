@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-21T06:28:40.975805+00:00",
+ "generated_at": "2026-09-21T06:31:56.239912+00:00",
  "sources": 24,
- "ok": 19,
- "new_items": 368,
- "duration_s": 10.9,
+ "ok": 18,
+ "new_items": 3,
+ "duration_s": 7.1,
  "status": [
   {
    "name": "Andrew Chen",
@@ -19,17 +19,8 @@
    "feed_url": "https://www.ben-evans.com/benedictevans?format=rss",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-03",
-   "error": null
-  },
-  {
-   "name": "Coin Metrics",
-   "feed_url": "https://coinmetrics.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "new": 8,
-   "last_item": "2026-09-15",
    "error": null
   },
   {
@@ -37,7 +28,7 @@
    "feed_url": "https://blog.datawrapper.de/feed/",
    "ok": true,
    "items": 1073,
-   "new": 22,
+   "new": 0,
    "last_item": "2026-09-17",
    "error": null
   },
@@ -46,7 +37,7 @@
    "feed_url": "https://flowingdata.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 10,
+   "new": 0,
    "last_item": "2026-09-18",
    "error": null
   },
@@ -55,7 +46,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 30,
+   "new": 0,
    "last_item": "2026-09-20",
    "error": null
   },
@@ -64,7 +55,7 @@
    "feed_url": "https://www.latent.space/feed",
    "ok": true,
    "items": 20,
-   "new": 20,
+   "new": 0,
    "last_item": "2026-09-19",
    "error": null
   },
@@ -73,7 +64,7 @@
    "feed_url": "https://www.lennysnewsletter.com/feed",
    "ok": true,
    "items": 20,
-   "new": 20,
+   "new": 0,
    "last_item": "2026-09-20",
    "error": null
   },
@@ -82,7 +73,7 @@
    "feed_url": "https://www.nngroup.com/feed/rss/",
    "ok": true,
    "items": 20,
-   "new": 20,
+   "new": 0,
    "last_item": "2026-09-18",
    "error": null
   },
@@ -91,7 +82,7 @@
    "feed_url": "https://openai.com/news/rss.xml",
    "ok": true,
    "items": 1210,
-   "new": 80,
+   "new": 0,
    "last_item": "2026-09-18",
    "error": null
   },
@@ -100,7 +91,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 48,
+   "new": 3,
    "last_item": "2026-09-20",
    "error": null
   },
@@ -109,7 +100,7 @@
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
-   "new": 30,
+   "new": 0,
    "last_item": "2026-09-20",
    "error": null
   },
@@ -118,7 +109,7 @@
    "feed_url": "https://www.smashingmagazine.com/feed/",
    "ok": true,
    "items": 40,
-   "new": 13,
+   "new": 0,
    "last_item": "2026-09-16",
    "error": null
   },
@@ -127,7 +118,7 @@
    "feed_url": "https://stratechery.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 10,
+   "new": 0,
    "last_item": "2026-09-18",
    "error": null
   },
@@ -136,7 +127,7 @@
    "feed_url": "https://newsletter.pragmaticengineer.com/feed",
    "ok": true,
    "items": 20,
-   "new": 19,
+   "new": 0,
    "last_item": "2026-09-17",
    "error": null
   },
@@ -145,7 +136,7 @@
    "feed_url": "https://pudding.cool/feed/index.xml",
    "ok": true,
    "items": 20,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-08-04",
    "error": null
   },
@@ -154,7 +145,7 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 10,
+   "new": 0,
    "last_item": "2026-09-20",
    "error": null
   },
@@ -163,7 +154,7 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 15,
+   "new": 0,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -172,7 +163,7 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 10,
+   "new": 0,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -184,6 +175,15 @@
    "new": 0,
    "last_item": null,
    "error": "not a feed (<unknown>:10:542: not well-formed (invalid token))"
+  },
+  {
+   "name": "Coin Metrics",
+   "feed_url": "https://coinmetrics.substack.com/feed",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "403 Client Error: Forbidden for url: https://coinmetrics.substack.com/feed"
   },
   {
    "name": "Every",
