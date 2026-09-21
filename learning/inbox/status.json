@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-21T08:20:57.818062+00:00",
+ "generated_at": "2026-09-21T09:47:36.180026+00:00",
  "sources": 65,
- "ok": 57,
- "new_items": 15,
- "duration_s": 16.8,
+ "ok": 56,
+ "new_items": 33,
+ "duration_s": 16.7,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 8,
+   "new": 18,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -39,15 +39,6 @@
    "items": 13,
    "new": 0,
    "last_item": "2026-09-18",
-   "error": null
-  },
-  {
-   "name": "BIS Working Papers",
-   "feed_url": "https://www.bis.org/doclist/wppubls.rss",
-   "ok": true,
-   "items": 25,
-   "new": 0,
-   "last_item": "2026-09-17",
    "error": null
   },
   {
@@ -154,8 +145,8 @@
    "feed_url": "https://flowingdata.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-09-18",
+   "new": 1,
+   "last_item": "2026-09-21",
    "error": null
   },
   {
@@ -190,7 +181,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 0,
+   "new": 1,
    "last_item": "2026-09-20",
    "error": null
   },
@@ -199,7 +190,7 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 3,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -478,7 +469,7 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 5,
+   "new": 7,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -505,7 +496,7 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
+   "new": 1,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -514,7 +505,7 @@
    "feed_url": "https://www.qbitai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 2,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -526,6 +517,15 @@
    "new": 0,
    "last_item": null,
    "error": "403 Client Error: Forbidden for url: https://andrewchen.substack.com/feed"
+  },
+  {
+   "name": "BIS Working Papers",
+   "feed_url": "https://www.bis.org/doclist/wppubls.rss",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "404 Client Error: Not Found for url: https://www.bis.org/doclist/wppubls.rss"
   },
   {
    "name": "CalculatedRisk Newsletter",
