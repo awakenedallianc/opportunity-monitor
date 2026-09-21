@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-21T06:50:35.174822+00:00",
+ "generated_at": "2026-09-21T06:52:47.618321+00:00",
  "window_days": 14,
- "total": 561,
+ "total": 564,
  "groups": {
   "china": [
    {
@@ -3844,6 +3844,21 @@
     "first_seen": "2026-09-21T06:28:36.939128+00:00"
    },
    {
+    "id": "ef5767cfc8ce7544",
+    "date": "2026-09-18",
+    "published": "2026-09-18T01:28:31+00:00",
+    "source": "Product Hunt",
+    "title": "Verity Score",
+    "link": "https://www.producthunt.com/products/verity-score-geo-ai-visibility",
+    "summary": "Track what AI says about your store, fix it, generate blog Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:52:41.395313+00:00"
+   },
+   {
     "id": "1e27ee5e34f3631f",
     "date": "2026-09-18",
     "published": "2026-09-18T00:00:00+00:00",
@@ -4159,21 +4174,6 @@
     "title": "VoiceCap",
     "link": "https://www.producthunt.com/products/voicecap",
     "summary": "The AI notetaker for meetings in your language Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "ebde93366bd8f830",
-    "date": "2026-09-17",
-    "published": "2026-09-17T04:26:44+00:00",
-    "source": "Product Hunt",
-    "title": "cubicles.lol",
-    "link": "https://www.producthunt.com/products/cubicles-lol",
-    "summary": "A metaverse for builders, side projects, and bad driving Discussion | Link",
     "topics": [
      "product"
     ],
@@ -4889,9 +4889,17 @@
   "retention": 5,
   "notification": 2
  },
- "sources_ok": 64,
+ "sources_ok": 56,
  "sources_total": 65,
  "failed_sources": [
-  "Glassnode Research"
+  "Andrew Chen (Substack)",
+  "BIS Working Papers",
+  "CalculatedRisk Newsletter",
+  "Coin Metrics – State of the Network",
+  "Ecoinometrics",
+  "Forecasting Research Institute",
+  "Glassnode Research",
+  "The Beautiful Mess (John Cutler)",
+  "The Macro Compass"
  ]
 }
