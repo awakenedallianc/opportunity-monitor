@@ -1169,7 +1169,7 @@ rules:
     plain: 信用担忧解除（两组比价都收复 200 日线），这条线退回观察
     report: all
     title: HYG/LQD 与 HYG/IEF 双双收复 200 日线
-    level: invalidation
+    level: info
     priority: 3
     assets: [HYG]
     action: 信用重定价论证失效，退回普通监控
@@ -1233,7 +1233,7 @@ rules:
     plain: 拍卖连续健康、利率回落，这条线退回观察
     report: all
     title: 10Y 拍卖认购回到 2.5 上且 10Y 利率 < 4%
-    level: invalidation
+    level: info
     priority: 3
     assets: [US10Y]
     action: 财政担忧降档
@@ -1303,7 +1303,7 @@ rules:
     plain: 日元持仓回到中性、利率回落，引信拆除
     report: all
     title: 净头寸回到 ±3 万手且 JGB 10Y < 3%
-    level: invalidation
+    level: info
     priority: 3
     assets: [USDJPY]
     action: 恢复普通监控频率
@@ -1404,7 +1404,7 @@ rules:
     plain: 铜金比破位且通胀预期掉下来——转 1930 年代通缩剧本，商品仓思路作废
     report: war
     title: 铜金比破 200 日线且盈亏平衡通胀 < 2.2%
-    level: invalidation
+    level: info
     priority: 3
     assets: [COPPER, GOLD]
     action: 通缩剧本：金 + 长债反而正确，商品全配失效
@@ -1428,7 +1428,7 @@ rules:
     plain: 电价同比转负且两大发电商双破 200 日线——缺电逻辑降温
     report: ai
     title: 电价转负 + CEG/VST 双破 200 日线
-    level: invalidation
+    level: info
     priority: 2
     assets: [CEG, VST]
     action: 本线降档，检查 AI 主线的电力叙事
@@ -1516,7 +1516,7 @@ rules:
     plain: 订单同比转负且龙头明显跑输大盘——短缺叙事结束
     report: ai
     title: 未交付订单转负 + GEV 相对标普 90 日跑输 15%
-    level: invalidation
+    level: info
     priority: 3
     assets: [GEV, ETN]
     action: 本线关闭
@@ -1596,7 +1596,7 @@ rules:
     plain: 泰达电深跌四成、Gulf 破位——区域叙事证伪
     report: ai
     title: DELTA 回撤 >40% 且 GULF 破 200 日线
-    level: invalidation
+    level: info
     priority: 3
     assets: [DELTA_TH, GULF_TH]
     action: 本线关闭；大厂公开取消项目为同效的人工事件
