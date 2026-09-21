@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>机会监控 · 现在</title>
+<meta name="color-scheme" content="light dark">
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+:root{--bg:#f6f7f8;--fg:#111318;--mut:#6b7280;--card:#fff;--line:#e5e7eb}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--fg:#f3f4f6;--mut:#9ca3af;--card:#171a20;--line:#262b34}}
+html,body{margin:0;background:var(--bg);color:var(--fg);font:400 16px/1.4 -apple-system,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+.wrap{max-width:520px;margin:0 auto;padding:20px 16px 40px}
+.d{color:var(--mut);font-size:13px;margin-bottom:10px}
+.row{display:grid;grid-template-columns:18px 1fr auto;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:10px}
+.dot{width:14px;height:14px;border-radius:50%}
+.dot.green{background:#16a34a}.dot.amber{background:#d97706}.dot.red{background:#dc2626}.dot.grey{background:#9ca3af}
+.n{font-weight:700;font-size:18px}
+.s{color:var(--mut);font-size:14px;margin-top:2px}
+.big{font-weight:700;font-size:22px;white-space:nowrap;text-align:right}
+.big small{display:block;font-weight:400;font-size:12px;color:var(--mut)}
+.v{font-size:20px;font-weight:700;margin:6px 0 14px}
+a{color:inherit}
+.foot{margin-top:18px;font-size:13px;color:var(--mut)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="d">{{ date }} · 固定规则算的，不是 AI 猜的</div>
+  <div class="v">{{ verdict }}</div>
+  {% for r in rows %}
+  <div class="row"><span class="dot {{ r.dot }}"></span><div><div class="n">{{ r.name }}</div><div class="s">{{ r.sentence }}</div></div><div class="big">{{ r.number }}<small>{{ r.number_label }}</small></div></div>
+  {% endfor %}
+  <div class="foot"><a href="index.html">打开完整版 →</a> · <a href="learn.html">学习页</a></div>
+</div>
+</body>
+</html>

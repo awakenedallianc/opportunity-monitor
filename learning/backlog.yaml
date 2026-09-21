@@ -21,9 +21,10 @@ features:
   needs_llm: false
   risk_words: 0
   data_ok: true
-  status: candidate
+  status: done
   added: '2026-09-21'
-  notes: 数据：全部已有：docs/data/latest.json 的 verdict 一句话 + 今日 is_new 规则的 plain 字段；daily.yml 末尾加一步 curl，topic 放 GitHub Secrets。 ｜ 字多风险：低。模板硬限「结论 1 句 + 最多 5 条白话 + 链接」，无新触发只发「今天没变化」一行。
+  notes: 已实现：scripts/push_text.py + daily.yml 早间运行推送。启用方法：手机装 ntfy App 订阅一个自取的 topic 名，再在 GitHub 仓库 Settings→Secrets 加 NTFY_TOPIC=该名字。未设 secret 时自动跳过。 ｜ 验收：v2026.09.21.4 发布后在站点核对。
+  done: '2026-09-21'
 - id: F002
   name: 关键日子导出到手机日历（.ics 订阅）
   what: 一个「加到日历」按钮，把未来 90 天的解锁/FOMC/法案/选举等关键日子做成 .ics 订阅链接，iPhone/Google 日历自动更新。
@@ -37,9 +38,10 @@ features:
   needs_llm: false
   risk_words: 0
   data_ok: true
-  status: candidate
+  status: done
   added: '2026-09-21'
-  notes: 数据：全部已有：config/calendar.yaml → 构建时生成 docs/calendar.ics（Python 标准库），GitHub Pages 直接托管。 ｜ 字多风险：无。事件标题 ≤20 字，描述 1 句。
+  notes: 已实现：构建生成 docs/calendar.ics（未来 90 天，提前 1 天提醒）；催化剂日历右上「加到手机日历」（Pages 上是 webcal 订阅，本地是下载）。 ｜ 验收：v2026.09.21.4 发布后在站点核对。
+  done: '2026-09-21'
 - id: F003
   name: 「自上次访问以来」变化条
   what: 打开网站先看到一行「离你上次来 3 天，变了 4 件事」，点开只列这 4 件（新触发/解除的规则、跨过基线的指标、新出现的关键日子）。
@@ -54,9 +56,10 @@ features:
   needs_llm: false
   risk_words: 0
   data_ok: true
-  status: planned
+  status: done
   added: '2026-09-21'
-  notes: 第 1 期计划实现（纯前端 diff，不需新数据）。 ｜ 数据：已有：latest.json 的 alerts_history 与 rules[].first_fired；localStorage 记 last_seen；客户端比较即可，不需新数据。 ｜ 字多风险：低，且是减字功能：只显示差异，默认折叠，最多 5 条。
+  notes: 已实现：总览顶部「离你上次来 N 天，变了 M 件事」（≥2 天未访问才显示，点开 ≤5 条，可点进规则）。 ｜ 验收：v2026.09.21.4 发布后在站点核对。
+  done: '2026-09-21'
 - id: F004
   name: 离线 PWA + 安装到主屏幕
   what: 网站可「安装」成手机图标，断网也能打开上次的数据；打开时如有新数据自动换。
@@ -70,9 +73,10 @@ features:
   needs_llm: false
   risk_words: 0
   data_ok: true
-  status: candidate
+  status: done
   added: '2026-09-21'
-  notes: 数据：无新数据。manifest.json + 约 40 行 service worker（stale-while-revalidate），GitHub Pages 已是 HTTPS。 ｜ 字多风险：无。只多一个「安装到手机」小按钮和离线时一行「显示的是 X 月 X 日数据」。
+  notes: 已实现：manifest + sw.js（网络优先、离线回退）+ 图标；设置里「安装到手机/桌面」按钮（浏览器支持时出现）；离线时顶部提示显示的是哪天数据。 ｜ 验收：v2026.09.21.4 发布后在站点核对。
+  done: '2026-09-21'
 - id: F005
   name: 极简「三个数字」页 /now.html
   what: 一个只有三行的页面：三条主线各一个状态灯 + 一个数字 + 一句话，加到手机主屏当小组件用。
@@ -85,9 +89,10 @@ features:
   needs_llm: false
   risk_words: 0
   data_ok: true
-  status: candidate
+  status: done
   added: '2026-09-21'
-  notes: 数据：全部已有（简明模式三张状态卡的数据子集），构建时多渲染一个模板。 ｜ 字多风险：无，全站字最少的页面。
+  notes: 已实现：docs/now.html（三行：状态灯 + 一个数字 + 一句话），总览底部与设置里有入口。 ｜ 验收：v2026.09.21.4 发布后在站点核对。
+  done: '2026-09-21'
 - id: F006
   name: 新闻「同一件事」折叠
   what: 把 146 个源里报道同一件事的标题合并成一条「霍尔木兹船流下降（6 家报道）」，点开才看各家。

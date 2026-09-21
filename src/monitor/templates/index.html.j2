@@ -7,6 +7,10 @@
 <meta name="description" content="基于三篇深度推演报告的每日自动更新信息可视化与机会监控（纯规则，无大模型）">
 <meta name="color-scheme" content="light dark">
 <link rel="stylesheet" href="assets/app.css">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0f1115">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
 </head>
 <body>
 <a class="sr-only" href="#main">跳到内容</a>
@@ -40,6 +44,8 @@
       <div class="row"><span>主题</span><span class="seg" data-setting="theme"><button data-v="auto">自动</button><button data-v="light">浅色</button><button data-v="dark">深色</button></span></div>
       <div class="row"><span>涨跌色</span><span class="seg" data-setting="dir"><button data-v="green-up">绿涨红跌</button><button data-v="red-up">红涨绿跌</button></span></div>
       <div class="row"><span>密度</span><span class="seg" data-setting="density"><button data-v="normal">标准</button><button data-v="compact">紧凑</button></span></div>
+      <div class="row"><span>反馈</span><span><button class="pillbtn" id="fb-copy">复制我的反馈</button> <a class="small" href="https://github.com/awakenedallianc/opportunity-monitor/issues/new" target="_blank" rel="noopener">提 Issue</a></span></div>
+      <div class="row"><span>安装</span><span><button class="pillbtn" id="pwa-install" style="display:none">安装到手机 / 桌面</button><a class="small" href="now.html">只看三个数字</a></span></div>
       <div class="row small muted">设置只保存在本浏览器</div>
     </div>
     <div class="pop" id="pop-help" role="dialog" aria-label="快捷键">
@@ -48,6 +54,7 @@
       <div class="row"><span>打开数字/规则详情</span><span>点击任意读数</span></div>
       <div class="row"><span>阅读页标记已读</span><span>点击标题</span></div>
     </div>
+    <div id="offline" style="display:none"></div>
     <div class="strip" id="strip"></div>
     <nav class="tabs" id="tabs" role="tablist" aria-label="页面">
       <button role="tab" data-tab="overview" aria-selected="true">总览</button>
@@ -68,7 +75,7 @@
       <section class="tab" id="tab-track" role="tabpanel"></section>
       <section class="tab" id="tab-read" role="tabpanel"></section>
       <section class="tab" id="tab-data" role="tabpanel"></section>
-      <div class="footer">本页为基于公开数据与三篇研究报告的自动化监控，不构成投资建议。所有阈值来自报告原文；数据来源与时间戳见「数据」页。规则引擎不使用任何大模型；新闻只做关键词打标与排序，不做改写。</div>
+      <div class="footer">不构成投资建议 · 固定规则算的，不是 AI 猜的 · 怎么算见总览底部「怎么算」</div>
     </main>
   </div>
 </div>

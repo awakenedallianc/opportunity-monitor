@@ -5,29 +5,39 @@
 <!-- AUTO:BEGIN -->
 | 项目 | 值 |
 |---|---|
-| 版本 | **v2026.09.21.3** |
-| 签发时间 | 2026-09-21 13:51 本机时间 |
-| 基于提交 | `46001bf` + 本次发布提交 |
-| 本次说明 | 学习循环首轮内容：65 个已验证来源、25 条方法论、19 个功能候选（下期做「自上次访问以来」） |
+| 版本 | **v2026.09.21.4** |
+| 签发时间 | 2026-09-21 14:35 本机时间 |
+| 基于提交 | `1a7a3ea` + 本次发布提交 |
+| 本次说明 | 学习循环第 1 期：自上次访问/把握三档/加到日历/三个数字页/PWA/ntfy 推送/反馈按钮（未经复核，交接给新账户） |
 | 规则数 | 115 |
 | 指标数 / 新闻数（最近构建） | 1896 / 600（数据日 2026-09-21） |
-| 学习来源 / 方法论 / 功能候选(已上线) | 65 / 25 / 19(0) |
-| Release | https://github.com/awakenedallianc/opportunity-monitor/releases/tag/v2026.09.21.3 |
+| 学习来源 / 方法论 / 功能候选(已上线) | 65 / 25 / 19(5) |
+| Release | https://github.com/awakenedallianc/opportunity-monitor/releases/tag/v2026.09.21.4 |
 <!-- AUTO:END -->
 
 ## 一句话
 把三篇深度推演报告（加密三年 / AI 时代十年 / 大国战争风险）里的判断变成 115 条机读规则，每天用免费公开数据自动评估、抓新闻、算变化，生成一个白话的静态网页；**运行时不用任何大模型**。站点：https://awakenedallianc.github.io/opportunity-monitor/
 
-## 接手 10 分钟清单（在新的 Claude Code 账户里）
-1. `git clone https://github.com/awakenedallianc/opportunity-monitor.git` 到本地（用户的原路径是 `D:\机会监控`；换路径也行，但 `scripts/install_task.ps1` 与计划任务用绝对路径，需要重新注册）。
+## 接手清单
+
+### A. 同一台电脑换 Claude Code 账户（最常见，2 分钟，不用下载）
+1. 在新账户的 Claude Code 里直接打开本地文件夹 `D:\机会监控`（Code 页签 → 选择目录）。仓库根目录的 `CLAUDE.md` 会被自动加载，它会让新会话先读本文件和 `PROGRESS.md`。
+2. 本地已有的东西都不用重做：git 仓库与远端、`.env`（EIA 密钥）、历史库 `data/history.sqlite`、开机任务 OpportunityMonitor-Daily、`.claude/launch.json` 预览配置。
+3. 只有两样是"账户私有"的，需要在新账户里重建：
+   - 学习循环计划任务：在 Claude 桌面 App 新建计划任务，提示词一句话——"进入 D:\机会监控，按 learning/LOOP.md 执行一期"（周期你定）。
+   - Claude 的记忆文件：不需要迁移，本文件 + PROGRESS.md 就是全部上下文。
+4. 验收：`python scripts/release.py --check` 全绿；`gh auth status` 确认新账户能推送（不能就 `gh auth login`）。
+
+### B. 换一台电脑（10 分钟）
+1. `git clone https://github.com/awakenedallianc/opportunity-monitor.git`（路径任意；`scripts/install_task.ps1` 与计划任务用绝对路径，需重新注册）。
 2. `pip install -r requirements.txt`（Python 3.12；Windows 上 pandas 与 numpy 2.4 不兼容，项目不依赖 pandas）。
-3. 在仓库根目录建 `.env`，一行 `EIA_API_KEY=...`（向用户要；也已存在 GitHub Actions secrets 里）。**不要提交 .env。**
+3. 仓库根目录建 `.env`，一行 `EIA_API_KEY=...`（向用户要；也已存在 GitHub Actions secrets 里）。**不要提交 .env。**
 4. `python run.py --import-only` 从 `data/snapshots` + `data/news_archive` 重建本地历史库（约 1 分钟）。
-5. `python run.py --build-only` 生成 `docs/index.html`，用 `.claude/launch.json` 里的 `site`（端口 8791）或 `python -m http.server 8791 -d docs` 预览。
+5. `python run.py --build-only` 生成 `docs/index.html`，用 `.claude/launch.json` 的 `site`（端口 8791）或 `python -m http.server 8791 -d docs` 预览。
 6. 读 `PROGRESS.md`（断点、待办、已知问题）——这是工作状态的唯一真相。
-7. 学习循环：读 `learning/LOOP.md`；在 Claude 桌面 App 里新建计划任务（提示词就是"进入仓库目录，按 learning/LOOP.md 执行一期"），周期由用户定。
-8. 可选：`powershell -ExecutionPolicy Bypass -File scripts/install_task.ps1` 注册开机自动刷新（任务名 OpportunityMonitor-Daily）。
-9. GitHub：需要仓库的 push 权限并 `gh auth login`；云端 Actions（`.github/workflows/daily.yml`）每天 06:17 / 18:17 曼谷时间自动抓数据、提交快照、部署 Pages。
+7. 学习循环：读 `learning/LOOP.md`；新建计划任务（同 A.3）。
+8. 可选：`powershell -ExecutionPolicy Bypass -File scripts/install_task.ps1` 注册开机自动刷新。
+9. GitHub：需要仓库 push 权限并 `gh auth login`；云端 Actions 每天 06:17 / 18:17 曼谷时间自动抓数据、提交快照、部署 Pages。
 10. 验收：`python scripts/release.py --check` 全绿即接手成功。
 
 ## 架构一页
