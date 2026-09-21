@@ -116,6 +116,34 @@ def fetch_binance_ma(cfg: dict, http: Http) -> tuple[list[dict], dict]:
     return metrics, series
 
 
+def fetch_binance_alt_klines(cfg: dict, http: Http) -> list[dict]:
+    """山寨币的 K 线文件 + 3 年收盘历史回填（Binance USDT 对；不在 Binance 上市的静默跳过）。
+
+    CoinGecko 只给当前价，此前山寨币抽屉里没有历史曲线；这里补上，K 线文件同时让"点标的看 3 年 K 线"覆盖它们。
+    """
+    from .yahoo import write_kline
+    out: list[dict] = []
+    skip = {"BTC", "ETH", "SOL"}  # 已由 fetch_binance_ma 处理
+    for c in cfg.get("crypto", []):
+        sym = (c.get("symbol") or "").split("/")[-1].upper()
+        if not sym or sym in skip:
+            continue
+        try:
+            dk = _klines(http, sym + "USDT", "1d", 1000)
+        except Exception:
+            continue  # 未上市/代码不同：跳过（保留 CoinGecko 当前价与折线回退）
+        if len(dk) < 30:
+            continue
+        rows = [[datetime.fromtimestamp(x[0] / 1000, tz=timezone.utc).strftime("%Y-%m-%d"),
+                 float(x[1]), float(x[2]), float(x[3]), float(x[4])] for x in dk]
+        write_kline(sym, sym + "USDT", rows, sym)
+        # 收盘历史回填（不含今天：当日价以 CoinGecko 为准）
+        for r in rows[:-1]:
+            out.append({"key": f"px.{sym}", "value": r[4], "source": "binance", "date": r[0], "_backfill": True})
+        time.sleep(0.25)
+    return out
+
+
 def fetch_fng(http: Http) -> list[dict]:
     d = http.get_json("https://api.alternative.me/fng/", params={"limit": 30})
     rows = d.get("data", [])
@@ -164,6 +192,10 @@ def fetch(cfg: dict, settings: dict) -> dict:
             notes.append("DEGRADED: 主流币价格由 Binance 兜底，市值/ATH/山寨币缺失")
     except Exception as e:
         notes.append(f"binance: {e}")
+    try:
+        metrics += fetch_binance_alt_klines(cfg, Http(timeout=20, min_interval=0.25))
+    except Exception as e:
+        notes.append(f"binance-alts: {e}")
     try:
         metrics += fetch_fng(Http(timeout=15))
     except Exception as e:

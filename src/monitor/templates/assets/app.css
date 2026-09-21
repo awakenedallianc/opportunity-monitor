@@ -484,6 +484,13 @@ details.catch summary{list-style:none;cursor:pointer}details.catch summary::-web
 .method p{font:400 14px/22px var(--font-sans);margin:6px 0}
 #offline{background:var(--st-warning-bg);color:var(--st-warning);font:500 13px/20px var(--font-sans);padding:6px 16px;text-align:center}
 .s-sub a,.s-foot a{color:var(--accent)}
+/* 监控线总览 */
+.lines details.lrow{border-bottom:1px solid var(--border-hair)}
+.lines details.lrow:last-child{border-bottom:0}
+.lines .lrow summary{display:flex;align-items:center;gap:8px;padding:7px 0;cursor:pointer;list-style:none;min-width:0}
+.lines .lrow summary::-webkit-details-marker{display:none}
+.lines .lt{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:right;color:var(--ink-2)}
+.lines .lb{padding:4px 0 10px}
 .chip.asset[data-metric]{cursor:pointer}
 .chip.asset[data-metric]:hover{border-color:var(--accent);color:var(--accent)}
 /* 手机：提示锚定到整行宽度，不出屏幕；? 的触区放大 */

@@ -61,3 +61,45 @@ def score_news(items: list[dict], context: str) -> dict[str, float] | None:
     except Exception as e:
         log.warning("jev unavailable, keyword ranking only: %s", e)
         return None
+
+
+CAL_CRITERIA = [
+    "一般：例行事件，通常不改变任何判断",
+    "值得留意：可能影响某条推演线的信号",
+    "关键：大概率直接触发或改变某条推演（解锁悬崖/议息/停火到期/大选这类）",
+]
+
+
+def score_events(events: list[dict], context: str) -> dict[int, float] | None:
+    """events: [{title, note, days_to}]；返回 {下标: 0..1 重要度} 或 None（未配置/失败）。"""
+    key = os.environ.get("TYPESAFE_API_KEY")
+    if not key or not events:
+        return None
+    events = events[:30]
+    state = {
+        "context": context,
+        "events": [{"title": e.get("title"), "note": (e.get("note") or "")[:150], "days_to": e.get("days_to")} for e in events],
+    }
+    questions = {
+        f"e{i}": {
+            "type": "score",
+            "instructions": f"评估 `events[{i}]` 这件日历事件对 `context` 里推演的重要程度。",
+            "criteria": CAL_CRITERIA,
+        }
+        for i in range(len(events))
+    }
+    try:
+        http = Http(timeout=20, retries=1)
+        resp = http.post_json(API, {"model": MODEL, "state": state, "questions": questions},
+                              headers={"Authorization": f"Bearer {key}"})
+        answers = resp.get("answers") or {}
+        out: dict[int, float] = {}
+        for i in range(len(events)):
+            v = (answers.get(f"e{i}") or {}).get("score")
+            if isinstance(v, (int, float)):
+                out[i] = max(0.0, min(1.0, float(v) / (len(CAL_CRITERIA) - 1)))
+        log.info("jev scored %d/%d calendar events", len(out), len(events))
+        return out or None
+    except Exception as e:
+        log.warning("jev calendar scoring skipped: %s", e)
+        return None

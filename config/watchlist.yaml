@@ -325,4 +325,4 @@ extras: [portwatch, gpr, plavis, freight, treasury_curve, nyfed_rates, fiscal_tg
          govtrack_clarity, llama_unlocks,
          mof_jgb, cftc_cot, nrc_power, fiscal_debt, eia_power,
          lbma_silver, imf_cofer, tic_table5, fed_h41, nyfed_fxs, nyfed_soma, federal_register,
-         celestrak, ll2, usgs_quakes, nhc, twse_tsmc, edgar_capex, ecb, fao, china_m2]
+         celestrak, ll2, usgs_quakes, nhc, twse_tsmc, edgar_capex, ecb, fao, china_m2, usaspending_dod]

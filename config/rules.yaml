@@ -2196,6 +2196,26 @@ rules:
     action: 逐条核实合同规模
     source: 扩展·军费周期（line.defense）
     when: {type: news, topic: golden_dome, window: 48h, min_sources: 2}
+  - id: defense.dod
+    plain: 国防部财年支出同比涨超 10%——采购加速的硬数据确认
+    report: war
+    title: DoD 财年支出同比 > +10%
+    level: opportunity
+    priority: 2
+    assets: [SHLD, LHX, AVAV]
+    action: 军费超级周期确认（USAspending 官方口径）
+    source: 扩展·军费周期（line.defense）
+    when: {type: compare, metric: dod.obligations_yoy, op: gt, value: 10, label: DoD支出同比}
+  - id: defense.dod_slow
+    plain: 国防部支出同比转负——军费周期见顶预警
+    report: war
+    title: DoD 财年支出同比 < 0
+    level: warning
+    priority: 3
+    assets: [SHLD, ITA]
+    action: 周期见顶：军工仓位降档
+    source: 扩展·军费周期（line.defense）
+    when: {type: compare, metric: dod.obligations_yoy, op: lt, value: 0, label: DoD支出同比}
   - id: defense.ecb
     plain: 欧央行低利率 + 通胀可控——欧洲罕见的宽货币+宽财政共振成立
     report: war

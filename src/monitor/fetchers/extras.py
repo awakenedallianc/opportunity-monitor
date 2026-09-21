@@ -1257,6 +1257,26 @@ def fetch_fao(http: Http) -> list[dict]:
     return out
 
 
+# ---------------- USAspending 国防部支出（军费周期硬数据；泰国本机证书链报错→云端车道）----------------
+def fetch_usaspending_dod(http: Http) -> list[dict]:
+    d = http.get_json("https://api.usaspending.gov/api/v2/agency/097/budgetary_resources/", timeout=60)
+    by_fy = {}
+    for r in d.get("agency_data_by_year") or []:
+        try:
+            by_fy[int(r["fiscal_year"])] = float(r.get("agency_total_obligated") or 0)
+        except (KeyError, TypeError, ValueError):
+            continue
+    fys = sorted(fy for fy, v in by_fy.items() if v > 0)
+    out = []
+    if len(fys) >= 2:
+        cur, prev = fys[-1], fys[-2]
+        # 财年初的进行时口径同比无意义：当前财年支出超过上财年一半才输出
+        if by_fy[cur] > 0.5 * by_fy[prev]:
+            out.append({"key": "dod.obligations_yoy", "value": (by_fy[cur] / by_fy[prev] - 1) * 100, "source": "usaspending",
+                        "meta": {"fy": cur, "obligated_usd": by_fy[cur], "note": "国防部(097)财年累计支出同比"}})
+    return out
+
+
 # ---------------- DBnomics 中国 M2（慢变量）----------------
 def fetch_china_m2(http: Http) -> list[dict]:
     d = http.get_json("https://api.db.nomics.world/v22/series/NBS/M_A0D01/A0D0101", params={"observations": 1}, timeout=60)
@@ -1325,6 +1345,7 @@ SUBFETCHERS = {
     "ecb": fetch_ecb,
     "fao": fetch_fao,
     "china_m2": fetch_china_m2,
+    "usaspending_dod": fetch_usaspending_dod,   # 美国 IP 可达（云端车道）
 }
 
 

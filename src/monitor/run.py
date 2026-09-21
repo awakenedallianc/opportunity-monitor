@@ -33,6 +33,8 @@ def load_config() -> tuple[dict, dict]:
     cfg["baseline"] = ((read_yaml(p) or {}).get("claims", []) if p.exists() else [])
     p = CONFIG_DIR / "static.yaml"
     cfg["static"] = read_yaml(p) if p.exists() else {}
+    p = CONFIG_DIR / "lines.yaml"
+    cfg["lines"] = ((read_yaml(p) or {}).get("lines", []) if p.exists() else [])
     return settings, cfg
 
 
@@ -231,15 +233,23 @@ def main(argv: list[str] | None = None) -> int:
     since = (datetime.now(timezone.utc) - timedelta(days=int(settings.get("news_keep_days", 7)))).isoformat()
     news_items = store.news_since(since, limit=int(settings.get("news_max_items", 600)))
     news_items.sort(key=lambda x: (x.get("published") or x.get("first_seen") or ""), reverse=True)
-    # 可选：Jev（判断模型，只回概率）给最近的一二级来源新闻打信号分，改进排序；未配置密钥时完全不生效
+    calendar_rows = build_calendar(cfg)
+    # 可选：Jev（判断模型，只回概率）给新闻打信号分、给日历事件打重要度；未配置密钥时完全不生效
     try:
         from . import jev
+        ctx = "三条推演主线：加密三年周期（BTC/ETH/稳定币/监管）、AI 时代十年（算力/电力/半导体/估值）、大国战争风险（台海/中东/俄乌/能源与航运），以及宏观（美联储/财政/美元体系）。"
         cand = [n for n in news_items if (n.get("tier") or 3) <= 2 and n.get("topics")][:40]
-        scores = jev.score_news(cand, "三条推演主线：加密三年周期（BTC/ETH/稳定币/监管）、AI 时代十年（算力/电力/半导体/估值）、大国战争风险（台海/中东/俄乌/能源与航运），以及宏观（美联储/财政/美元体系）。")
+        scores = jev.score_news(cand, ctx)
         if scores:
             for n in news_items:
                 if n["id"] in scores:
                     n["jev_score"] = round(scores[n["id"]], 3)
+        upcoming = [e for e in calendar_rows if 0 <= e.get("days_to", -1) <= 90][:30]
+        imps = jev.score_events(upcoming, ctx)
+        if imps:
+            for i, e in enumerate(upcoming):
+                if i in imps:
+                    e["jev_imp"] = round(imps[i], 3)
     except Exception as e:
         log.warning("jev scoring skipped: %s", e)
 
@@ -255,7 +265,7 @@ def main(argv: list[str] | None = None) -> int:
         "series": build_series(store, latest, settings),
         "rules": results,
         "alerts_history": store.alerts_history(120),
-        "calendar": build_calendar(cfg),
+        "calendar": calendar_rows,
         "baseline": build_baseline(cfg, latest),
         "news": news_items,
         "topic_counts": topic_counts,
@@ -264,6 +274,7 @@ def main(argv: list[str] | None = None) -> int:
                    for k, v in cfg["topics"].items()},
         "reports": settings.get("reports", []),
         "static": cfg.get("static", {}),
+        "lines": cfg.get("lines", []),
         # 可用 K 线清单（docs/data/kline/*.json，抓取时生成）：前端只对清单内的标的发请求
         "kline_keys": sorted(p.stem for p in (DOCS_DIR / "data" / "kline").glob("*.json")) if (DOCS_DIR / "data" / "kline").exists() else [],
         # 运行记录只留前端用到的字段（内嵌 30 次完整状态会把 feed_status/sub_status 重复 30 份塞进页面）
