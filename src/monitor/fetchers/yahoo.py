@@ -84,10 +84,15 @@ def fetch(cfg: dict, settings: dict) -> dict:
             n = len(vals)
             # 1 日变化：期货用同合约 previousClose 避免换月假跳
             prev_close = meta.get("previousClose") or meta.get("chartPreviousClose")
+            chg1d = None
             if is_fut and prev_close and meta.get("regularMarketPrice"):
-                chg1d = _pct(float(meta["regularMarketPrice"]) * scale, float(prev_close) * scale)
-            else:
-                chg1d = _pct(cur, vals[-2] if n >= 2 else None)
+                rmp, pc = float(meta["regularMarketPrice"]) * scale, float(prev_close) * scale
+                # Yahoo 的 previousClose 有时属于另一合约/陈旧值：与现价偏离 >15% 视为无效，回退到日线
+                if pc > 0 and abs(rmp / pc - 1) <= 0.15:
+                    chg1d = _pct(rmp, pc)
+            if chg1d is None:
+                prev_bar = next((v for d, v in zip(reversed(dates[:-1]), reversed(vals[:-1])) if d < asof), None)
+                chg1d = _pct(cur, prev_bar)
             metrics.append({"key": f"chg1d.{key}", "value": chg1d, "source": src, "date": asof})
             metrics.append({"key": f"chg7d.{key}", "value": _pct(cur, vals[-6] if n >= 6 else None), "source": src, "date": asof})
             metrics.append({"key": f"chg30d.{key}", "value": _pct(cur, vals[-22] if n >= 22 else None), "source": src, "date": asof})
