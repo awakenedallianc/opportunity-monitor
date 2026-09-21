@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-21T11:03:26.117711+00:00",
+ "generated_at": "2026-09-21T11:46:03.255594+00:00",
  "sources": 65,
  "ok": 56,
- "new_items": 21,
- "duration_s": 17.7,
+ "new_items": 15,
+ "duration_s": 10.0,
  "status": [
   {
    "name": "36氪",
@@ -180,9 +180,9 @@
    "name": "Hacker News — Best",
    "feed_url": "https://hnrss.org/best",
    "ok": true,
-   "items": 0,
-   "new": 0,
-   "last_item": null,
+   "items": 30,
+   "new": 1,
+   "last_item": "2026-09-21",
    "error": null
   },
   {
@@ -190,7 +190,7 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 4,
+   "new": 0,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -433,8 +433,8 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-09-20",
+   "new": 1,
+   "last_item": "2026-09-21",
    "error": null
   },
   {
@@ -478,7 +478,7 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -487,7 +487,7 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -496,7 +496,7 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-21",
    "error": null
   },
