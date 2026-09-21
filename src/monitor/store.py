@@ -8,6 +8,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime
 import sqlite3
 from pathlib import Path
 from typing import Any, Iterable
@@ -162,7 +163,11 @@ class Store:
                 # 若上一次有记录的运行日也在触发（允许停机跳过的日子），沿用 first_fired；否则视为新触发
                 last_run_day = self.conn.execute(
                     "SELECT MAX(substr(run_at,1,10)) AS d FROM runs WHERE substr(run_at,1,10) < ?", (date,)).fetchone()
-                continuous = bool(prev and last_run_day and last_run_day["d"] and prev["date"] >= last_run_day["d"])
+                if last_run_day and last_run_day["d"]:
+                    continuous = bool(prev and prev["date"] >= last_run_day["d"])
+                else:
+                    # 无运行记录（如云端从快照重建库）：上一条告警在 3 天内即视为延续，避免每次都标成"新触发"
+                    continuous = bool(prev and (datetime.strptime(date, "%Y-%m-%d") - datetime.strptime(prev["date"], "%Y-%m-%d")).days <= 3)
                 first = prev["first_fired"] if continuous else date
                 self.conn.execute(
                     "INSERT OR REPLACE INTO alerts(rule_id,date,level,title,detail,first_fired,last_fired) VALUES(?,?,?,?,?,?,?)",
@@ -227,6 +232,10 @@ class Store:
             n_metrics += self.put_metrics(rows, date)
             fired = [r for r in (snap.get("rules") or []) if r.get("fired")]
             with self.conn:
+                # 把快照日也登记为一次运行，使 put_alerts 的"上一运行日"判断在重建库后仍然成立
+                run_at = snap.get("generated_at") or f"{date}T00:00:00"
+                self.conn.execute("INSERT OR IGNORE INTO runs(run_at,duration_s,status) VALUES(?,?,?)",
+                                  (run_at, (snap.get("run") or {}).get("duration_s"), "imported"))
                 for r in fired:
                     self.conn.execute(
                         "INSERT OR IGNORE INTO alerts(rule_id,date,level,title,detail,first_fired,last_fired) VALUES(?,?,?,?,?,?,?)",

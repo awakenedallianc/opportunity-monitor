@@ -85,5 +85,5 @@ powershell -ExecutionPolicy Bypass -File scripts\install_task.ps1
 ```
 
 ## 变更日志
-- 2026-09-21：简明模式按 Top-10 核心功能重写（app.js/app.css/index.html.j2 搜索框）；yahoo 连续期货 chg1d 假值修复
+- 2026-09-21：简明模式按 Top-10 核心功能重写（app.js/app.css/index.html.j2 搜索框）；yahoo 连续期货 chg1d 假值修复；store.py 云端重建库后 first_fired 延续（此前云端每次把全部触发标成"新"）
 - 2026-09-20 项目创建；报告→规则；首轮运行；计划任务；断点续跑；部署修正；数据复核修正（进行中）
