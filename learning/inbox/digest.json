@@ -1,9 +1,43 @@
 {
- "generated_at": "2026-09-21T06:52:47.618321+00:00",
+ "generated_at": "2026-09-21T07:37:09.740928+00:00",
  "window_days": 14,
- "total": 564,
+ "total": 606,
  "groups": {
   "china": [
+   {
+    "id": "6f1f689522aa8ecf",
+    "date": "2026-09-21",
+    "published": "2026-09-21T15:24:23+00:00",
+    "source": "InfoQ 中文",
+    "title": "智能效能进阶：丰富模型选择，实现智能路由",
+    "link": "https://www.infoq.cn/article/at5IL3FiObSQ4y9gBv0a?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T07:36:55.420552+00:00"
+   },
+   {
+    "id": "6eba8a6361ce15ec",
+    "date": "2026-09-21",
+    "published": "2026-09-21T15:04:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "开源项目为 Apple Silicon 带来了完整的 iOS 27 虚拟化功能",
+    "link": "https://www.infoq.cn/article/VqzNwHg56aUUjh9PvVCW?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T07:36:55.420564+00:00"
+   },
    {
     "id": "ac4adf073537aef1",
     "date": "2026-09-21",
@@ -169,6 +203,179 @@
     "first_seen": "2026-09-21T06:49:28.546066+00:00"
    },
    {
+    "id": "ee2560f30a515425",
+    "date": "2026-09-21",
+    "published": "2026-09-21T07:30:29+00:00",
+    "source": "36氪",
+    "title": "中汽协：1-8月销量排名前十位的MPV生产企业共销售52.8万辆",
+    "link": "https://36kr.com/newsflashes/3992843536186374?f=rss",
+    "summary": "36氪获悉，据中国汽车工业协会统计分析，2026年1-8月，销量排名前十位的MPV生产企业共销售52.8万辆，占MPV销售总量的79%。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T07:36:55.408351+00:00"
+   },
+   {
+    "id": "109cb1c2c8e51fd5",
+    "date": "2026-09-21",
+    "published": "2026-09-21T07:24:17+00:00",
+    "source": "36氪",
+    "title": "优必选等在广东成立茂优智造机器人公司，注册资本1000万",
+    "link": "https://36kr.com/newsflashes/3992837453855749?f=rss",
+    "summary": "36氪获悉，天眼查App显示，近日，广东茂优智造机器人有限公司成立，法定代表人为赵俊伟，注册资本1000万人民币，经营范围含工业机器人制造、智能机器人的研发、工业机器人销售、服务消费机器人制造、服务消费机器人销售、人工智能应用软件开发、货物进出口等。股东信息显示，该公司由广东茂名滨海控股有限公司、深圳市优必选科技股份有限公司分别持股70%、30%。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T07:36:55.408362+00:00"
+   },
+   {
+    "id": "55736af813294385",
+    "date": "2026-09-21",
+    "published": "2026-09-21T07:21:21+00:00",
+    "source": "36氪",
+    "title": "保时捷首席执行官：保时捷不计划额外裁员4000人",
+    "link": "https://36kr.com/newsflashes/3992834556017669?f=rss",
+    "summary": "保时捷首席执行官在给员工的备忘录中表示：保时捷不计划额外裁员4000人。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T07:36:55.408366+00:00"
+   },
+   {
+    "id": "3e3233c394113764",
+    "date": "2026-09-21",
+    "published": "2026-09-21T07:09:38+00:00",
+    "source": "36氪",
+    "title": "分析师预测美光2027财年利润有望超微软",
+    "link": "https://36kr.com/newsflashes/3992823054171138?f=rss",
+    "summary": "The Motley Fool分析师Daniel Sparks预测，到2027财年，美光的利润将超过微软。这是一个大胆判断，几乎完全依赖存储价格。美光最新指引显示，2026财年第四季度净利润或达约350亿美元。若按此节奏，其2027财年利润可能超过微软。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "forecasting"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-21T07:36:55.408368+00:00"
+   },
+   {
+    "id": "64efbe9f904648a9",
+    "date": "2026-09-21",
+    "published": "2026-09-21T07:03:30+00:00",
+    "source": "36氪",
+    "title": "习近平将对美国进行国事访问",
+    "link": "https://36kr.com/newsflashes/3992817016617985?f=rss",
+    "summary": "外交部发言人宣布：应美利坚合众国总统特朗普邀请，国家主席习近平将于9月23日至25日对美国进行国事访问。（央视新闻）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T07:36:55.408371+00:00"
+   },
+   {
+    "id": "d7906086a53afca9",
+    "date": "2026-09-21",
+    "published": "2026-09-21T07:01:35+00:00",
+    "source": "36氪",
+    "title": "A股三大指数集体收涨，医药股走强",
+    "link": "https://36kr.com/newsflashes/3992815140272901?f=rss",
+    "summary": "36氪获悉，A股三大指数集体收涨，沪指涨0.97%，深成指涨0.65%，创业板指涨0.8%；医药、房地产、海运板块领涨，近岸蛋白、华仁药业、万科A涨停，宁波远洋涨超4%；家电、贵金属、工程机械板块跌幅居前，海信家电跌超5%，赤峰黄金跌超2%，徐工机械跌近1%。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T07:36:55.408373+00:00"
+   },
+   {
+    "id": "d687c60f3c15641a",
+    "date": "2026-09-21",
+    "published": "2026-09-21T06:55:15+00:00",
+    "source": "人人都是产品经理",
+    "title": "教你用WorkBuddy复刻任何爆款视频",
+    "link": "https://www.woshipm.com/ai/6467542.html",
+    "summary": "开源工具 Hypit 不是简单的 Skill，而是一整套视频制作语言与系统。装进 WorkBuddy 后，丢一条爆款视频进去，就能复刻出包含画面、字幕、B-roll 与特效的完整工作流，代码渲染的画面无需再接视频模型。 说到爆款视频的复刻，场景需求还是挺多的，比如复刻一些带货的短视频，TVC广告，信息流广告，AI特效视频等等。 按以前的操作方法，是给Agent安装一个所谓的爆款视频复刻Skill，这类Skill会有一个拆解视频脚本的流程，然后还有可能使用多模态模型来反推视频的生成提示词。 当然，像市面上专业的AI视频生产工具，比如libTV、Lovart都有类似的爆款复刻功能，甚至于即梦都推出",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-21T07:36:56.748929+00:00"
+   },
+   {
+    "id": "bdd00b723a844056",
+    "date": "2026-09-21",
+    "published": "2026-09-21T06:51:59+00:00",
+    "source": "人人都是产品经理",
+    "title": "离 AGI 还早着呢",
+    "link": "https://www.woshipm.com/ai/6467532.html",
+    "summary": "一边是 OpenAI 让一万个智能体连干 88 小时冲击千禧年数学难题，一边是 Anthropic 员工辞职喊话踩刹车。作者觉得这些热闹像《封神演义》，AGI 眼下更像手脚麻利的实习生，离改变普通人的日常还早。 最近，很多行业大佬出来接受采访聊AI，我全看了一遍。 大家谈周期，谈投资热点，谈什么办公agent大战，看完之后感觉懂了很多，但依然过不好AI来临之后的生活。 直到我把盛大网络的联合创始人陈大年那篇两万字的长专访从头翻了一遍，有一句越想越对： 让每个人都有自己的智能，而不是让智能只属于几家公司。换句话说，人类的智慧，存在于人民群众之中，AI 也一样。 话说如今聊 AGI 的，大概分两拨",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ai-product",
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-21T07:36:56.748938+00:00"
+   },
+   {
+    "id": "dfbde022e8305bce",
+    "date": "2026-09-21",
+    "published": "2026-09-21T06:50:54+00:00",
+    "source": "人人都是产品经理",
+    "title": "YC最新判断：Harness比模型更重要",
+    "link": "https://www.woshipm.com/ai/6467530.html",
+    "summary": "同一个 GPT-6 Astra 在两套 Harness 下跑出 62.7% 与 98.6%，分差 35.9 个百分点，成本反而更低。YC 的 Paper Club 由此给出判断：AI 竞争的胜负手正从模型本身，转向模型之外的组织方式。 9月3日，ARC Prize（一个测试接近人类极限推理能力的综合考试）公布了 ARC-AGI-3 的最新成绩，数据有点反直觉。 同一个模型——GPT-6 Astra，同样的推理强度，在两套不同的 Harness下，却跑出来了截然不同的成绩： 放进标准 Harness，得分 62.7%；换成 Provider Adapter Harness，得分 98.6%。 请",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T07:36:56.748940+00:00"
+   },
+   {
+    "id": "20e98c198f311345",
+    "date": "2026-09-21",
+    "published": "2026-09-21T06:49:51+00:00",
+    "source": "人人都是产品经理",
+    "title": "硬件IPD开发的顺序，正在被AI倒过来",
+    "link": "https://www.woshipm.com/ai/6467528.html",
+    "summary": "硬件项目里每个部门都很努力，问题却总要拖到样机联调才暴露。作者认为根因不在执行而在顺序——PRD、硬件、嵌入式、结构各自拿走文档一角，天然留下解释空间，AI 驱动的 IPD 正在把顺序倒过来。 跟很多中小企业，以及集团性的企业合作过产品项目，包括最近跟国内家电厂合作。 对接合作过程有一个非常明确的感受： 每个部门其实都很努力在做好自己的事情，但是由于每个部门信息的局限性，导致整个协调效率就很低。 很多本应在项目初期就暴露并处理的问题，硬生生拖到了投入重资源研发的阶段。 比如成本问题，这个是要在启动项目前就要初步评估的，如果投入很多资源后再评估，就会浪费大量资源，甚至项目都要推倒重来。 再比如等",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-21T07:36:56.748964+00:00"
+   },
+   {
     "id": "43a813a1bbb964a1",
     "date": "2026-09-21",
     "published": "2026-09-21T06:48:37+00:00",
@@ -202,6 +409,24 @@
     ],
     "lang": "zh",
     "first_seen": "2026-09-21T06:49:30.579457+00:00"
+   },
+   {
+    "id": "88e5fab42383153b",
+    "date": "2026-09-21",
+    "published": "2026-09-21T06:47:17+00:00",
+    "source": "人人都是产品经理",
+    "title": "一手实测 Step 5 Preview，国产 AI 模型卷麻了！",
+    "link": "https://www.woshipm.com/ai/6467526.html",
+    "summary": "拿到阶跃 Step 5 Preview 的内测权限后，作者在 WorkBuddy 的 Agent Harness 里做了一轮实测，覆盖创意前端、3D 视觉与真实工程任务，重点看工具调用与较真场景下的表现。 七月份的时候，我就受邀参加了「阶跃」的新品发布会。当时还发了个朋友圈，那场的主角是手机，主打 端侧智能 。 当时想的就是：接下来他们发的模型，大概率是冲着手机去的。 果然，不到两个月的时间，阶跃的整个模型家族果然迎来了新成员， Step 5 Preview 。 不管是Coding、前端、Working 和 Agent 能力，对比上一代， 都有非常大的提升 。 通过官方信息我们也能看到，Ste",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-21T07:36:56.748966+00:00"
    },
    {
     "id": "60ac9e11057558e0",
@@ -485,238 +710,6 @@
     ],
     "lang": "zh",
     "first_seen": "2026-09-21T06:49:31.261845+00:00"
-   },
-   {
-    "id": "f3e801b73e0c4d93",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:45:13+00:00",
-    "source": "36氪",
-    "title": "科氪 | 第七届激光显示大会在京召开，行业预判：5年内120吋大屏将成主流",
-    "link": "https://36kr.com/p/3992739944659969?f=rss",
-    "summary": "9月20日，以“大有可为”为主题的第七届激光显示技术与产业发展大会在北京举行。来自政府、行业协会以及全球激光显示产业链核心企业代表、专家学者和媒体出席大会。作为大会支持单位，海信在会上明确提出“百吋之上，唯享激光”的核心主张。大会集中展示墙即银幕、巨幕隐身、造梦空间三大激光显示场景升级成果，并给出激光显示未来发展的三个判断。中国科学院院士、工信部领导与产业链各环节代表同台定调：三色激光，正成为“百吋之上”的共同选择。 官方图片 嘉宾共议：三色激光成为“百吋之上”共同选择 “激光显示是新一代自主可控显示技术，产业大有可为、发展正当其时。”工业和信息化部电子信息司副司长史惠康在致辞中这样定调。 官",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:49:31.261845+00:00"
-   },
-   {
-    "id": "eedb6afbadb580d3",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:44:36+00:00",
-    "source": "36氪",
-    "title": "联想创投入股格通智联",
-    "link": "https://36kr.com/newsflashes/3992739458808578?f=rss",
-    "summary": "36氪获悉，天眼查App显示，格通智联技术（上海）有限公司9月17日发生投资人及注册资本变更，注册资本由1.12亿元增至1.228亿元。现有股东中，上海联想未来创业投资合伙企业（有限合伙）持股约1.0423%；广州壁仞半导体科技有限公司持股约1.9544%。格通智联当前前两大股东为海南启新芯科技合伙企业（有限合伙）、格创通信（浙江）有限公司，分别持股约32.5733%、28.5016%。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:49:31.261845+00:00"
-   },
-   {
-    "id": "a44ef71f5e672268",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:44:07+00:00",
-    "source": "36氪",
-    "title": "三星投资2400亿韩元在韩国光州建暖通空调生产线，计划2028年投产",
-    "link": "https://36kr.com/newsflashes/3992732354624261?f=rss",
-    "summary": "三星电子公司周一在韩国西南部城市光州举行了暖通空调（HVAC）生产线的奠基仪式。该公司计划投资约2400亿韩元（约合1.73亿美元），在其光州生产基地建设一条占地21500平方米的暖通空调生产线。这条新生产线计划于2028年投产，将生产德国通风设备企业FlaktGroup Holding的暖通空调产品；三星电子于去年收购了该公司。（新浪财经）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:49:31.261845+00:00"
-   },
-   {
-    "id": "da17b69c032f2a9e",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:36:28+00:00",
-    "source": "36氪",
-    "title": "报告：商汤大装置位居中国Neocloud市场第一",
-    "link": "https://36kr.com/newsflashes/3992731457846025?f=rss",
-    "summary": "36氪获悉，近日，研究机构弗若斯特沙利文联合头豹研究院发布《中国全栈AI云服务市场报告、2026H1》。报告显示，商汤大装置以近50%的市场份额，位居中国Neocloud市场第一。沙利文指出，2026年是Agentic AI元年，相较传统大语言模型，在Token生成速度相同的情况下，Agentic AI对算力的要求提升10倍以上。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:49:31.261845+00:00"
-   },
-   {
-    "id": "42915ac7ce443cac",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:35:37+00:00",
-    "source": "36氪",
-    "title": "联讯仪器盘中一度跌超7%",
-    "link": "https://36kr.com/newsflashes/3992730628701186?f=rss",
-    "summary": "36氪获悉，A股“股王”联讯仪器盘中震荡走弱，午后一度跌超7%，成交金额超20亿元，换手率逾4%。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:49:31.261845+00:00"
-   },
-   {
-    "id": "b29bc6cf987b00c0",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:26:32+00:00",
-    "source": "少数派",
-    "title": "体验过华为 Pura X View 后，他们最想留下的「阔体验」是……",
-    "link": "https://sspai.com/post/114734",
-    "summary": "不久前，我们发起了「华为PuraXView新品探索计划」，请大家去线下门店亲自感受华为PuraXView，也向我们分享那些最真实、细致的上手体验。比起参数表，我们更想知道，换成一块更阔的屏幕后，到底哪 ... 查看全文",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:28:37.638646+00:00"
-   },
-   {
-    "id": "5341b9747f266269",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:26:19+00:00",
-    "source": "36氪",
-    "title": "大众预警加剧车企困境，德国工人发起抗议",
-    "link": "https://36kr.com/newsflashes/3992721479662340?f=rss",
-    "summary": "大众汽车集团再次凸显德国汽车行业深陷衰退，德国数万工人计划于周一举行抗议，要求保障岗位与工厂。大众上周五晚间下调盈利预期，该公司员工，以及梅赛德斯-奔驰集团、BMW 宝马、奥迪、保时捷和主要零部件供应商的员工，将在全国280余场��动中参与示威。实力雄厚的德国金属工业工会敦促企业保护工厂与就业岗位，同时呼吁弗里德里希・默茨总理领导的政府降低能源成本，保护本土产业免受低价进口产品冲击。（新浪财经）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:49:31.261845+00:00"
-   },
-   {
-    "id": "a94e4e5a20266d93",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:15:14+00:00",
-    "source": "36氪",
-    "title": "上汽大通、卓驭科技、时代电服、易森动力达成四方战略合作",
-    "link": "https://36kr.com/newsflashes/3992710579059464?f=rss",
-    "summary": "36氪获悉，9月20日，易森动力“每一程·皆AI”发布会在北京海淀举行。会上，上汽大通、卓驭科技、时代电服、易森动力正式达成四方战略合作，共同推进5万台搭载换电解决方案的无人物流车落地运营；同期，行业内首个城市运力云端AI调度中枢“太初”对外发布。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:49:31.261845+00:00"
-   },
-   {
-    "id": "238ba8a10b769e6a",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:13:50+00:00",
-    "source": "36氪",
-    "title": "国家新闻出版署印发《出版业发展“十五五”规划》",
-    "link": "https://36kr.com/newsflashes/3992709203704834?f=rss",
-    "summary": "36氪获悉，国家新闻出版署日前印发《出版业发展“十五五”规划》提出，到2030年，出版业高质量发展取得显著成效，出版激发全民族文化创新创造活力、推动文化繁荣发展的作用更加凸显。规划坚持目标导向和问题导向相统一，围绕着力做好主题出版、持续扩大出版优质供给、深化全民阅读工作、加快出版深度融合发展、推进报业系统性变革、推动印刷发行业创新发展、加强出版国际传播、建设高水平出版人才队伍等8个方面，提出“十五五”时期需要着力推进实施的重点任务，开列8个专栏、33个重大工程项目，涵盖出版的内容生产、阅读推广、行业升级、国际传播、人才队伍等出版全链条、各领域。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:49:31.261845+00:00"
-   },
-   {
-    "id": "2018ae639711ea3c",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:08:53+00:00",
-    "source": "36氪",
-    "title": "美联储和英国央行据悉加强审查银行对交易公司的风险敞口",
-    "link": "https://36kr.com/newsflashes/3992664154553346?f=rss",
-    "summary": "据报道，在Jane Street遭巨额损失后，英国央行和美联储已加强审查银行对大型交易公司的风险敞口。知情人士称，监管机构寻求了解这些公司的风险偏好、银行对它们的风险敞口在日内如何变化、以及风控措施如何运作等信息。（界面）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:49:31.261845+00:00"
-   },
-   {
-    "id": "b23fc73f5e740e67",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:04:01+00:00",
-    "source": "人人都是产品经理",
-    "title": "WorkBuddy金融版和能力平台上线，要做最懂金融的Agent",
-    "link": "https://www.woshipm.com/ai/6467213.html",
-    "summary": "腾讯在 9 月 3 日上线金融版 WorkBuddy，为银行与非银行金融机构提供专属 AI 工作台，围绕保险、资管、银行三大板块推出 80 多个金融专属专家与技能。配套的能力体验平台按身份和行业匹配能力，目前已上线 26 项精选能力，采用申请制。 各大厂和大模型公司， 都盯上了金融 AI Agent。 早在 9 月 3 日，腾讯就上线了金融版 WorkBuddy。 为银行与非银行金融机构，提供专属AI工作台。 基于WorkBuddy 应用能力定制，专为金融客户提供服务。 金融属大领域，包括银行、资管、保险等多个子行业，行业里工作岗位众多，工作性质、需要的 AI 能力都不尽相同。 WorkBud",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [
-     "ai-product",
-     "ux"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:28:38.912777+00:00"
-   },
-   {
-    "id": "0fb24356d1e47c01",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:02:20+00:00",
-    "source": "36氪",
-    "title": "厦门港务注册资本增至15.4亿，增幅约108%",
-    "link": "https://36kr.com/newsflashes/3992659702479874?f=rss",
-    "summary": "36氪获悉，天眼查App显示，近日，厦门港务发展股份有限公司发生工商变更，注册资本由约7.4亿人民币增至约15.4亿人民币，增幅约108%。该公司成立于1999年4月，法定代表人为陈朝辉，经营范围含港口经营、货物进出口、供应链管理服务、国内货物运输代理、金属材料销售、软件开发、数据处理和存储支持服务等。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:49:31.261845+00:00"
-   },
-   {
-    "id": "82a13125893fdc5b",
-    "date": "2026-09-21",
-    "published": "2026-09-21T04:54:21+00:00",
-    "source": "36氪",
-    "title": "中科曙光AI推理原生存储FN Neo全新升级",
-    "link": "https://36kr.com/newsflashes/3992663678909190?f=rss",
-    "summary": "36氪获悉，近日，中科曙光发布全新迭代升级的AI推理原生存储FN Neo。实测数据显示，模型首Token响应时间缩减73%，整体Token吞吐能力提升150%，有效压缩用户交互等待时长，强化系统并发服务能力。针对生产级AI业务7×24小时不间断运行需求，FN Neo还拥有99.999%高可靠性，多重故障防护机制保障推理业务连续不中断。同时产品兼容主流推理框架与多元组网环境，企业无需大规模改造现有系统即可完成部署，在复用现有推理生态前提下提质增效，有力支撑大模型、智能体规模化生产落地。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-21T06:49:31.261845+00:00"
    }
   ],
   "finance": [
@@ -735,6 +728,22 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "8e8896e397ce46e7",
+    "date": "2026-09-21",
+    "published": "2026-09-21T05:15:04+00:00",
+    "source": "Quantocracy",
+    "title": "Recent Quant Links from Quantocracy as of 09/20/2026",
+    "link": "https://quantocracy.com/recent-quant-links-from-quantocracy-as-of-09202026/",
+    "summary": "This is a summary of links recently featured on Quantocracy as of Sunday, 09/20/2026. To see our most recent links, visit the Quant Mashup. Read on readers! A sad day for the quant vol trading community, Vance is gone [Six Figure Investing] Vance Harwood passed away in September 2026 after a brief a",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:36:59.091520+00:00"
    },
    {
     "id": "cfe596d6514ecc3d",
@@ -1212,6 +1221,634 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-09-21T06:49:43.237211+00:00"
+   }
+  ],
+  "product": [
+   {
+    "id": "51955a69b5a3c9b1",
+    "date": "2026-09-21",
+    "published": "2026-09-21T04:12:23+00:00",
+    "source": "Product Hunt",
+    "title": "Google Flow for iOS & Android",
+    "link": "https://www.producthunt.com/products/google",
+    "summary": "Google's AI creative studio now on mobile Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615346+00:00"
+   },
+   {
+    "id": "15b6ce16e31df569",
+    "date": "2026-09-21",
+    "published": "2026-09-21T03:53:39+00:00",
+    "source": "Product Hunt",
+    "title": "OmniDICOM",
+    "link": "https://www.producthunt.com/products/omnidicom",
+    "summary": "DICOM viewing and metadata editing on Mac and Windows Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615323+00:00"
+   },
+   {
+    "id": "432b5de2a6dc71be",
+    "date": "2026-09-21",
+    "published": "2026-09-21T02:19:43+00:00",
+    "source": "Product Hunt",
+    "title": "Jev",
+    "link": "https://www.producthunt.com/products/jev-2",
+    "summary": "Fast, structured AI decisions for software automation Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615385+00:00"
+   },
+   {
+    "id": "c88faa28412f5c25",
+    "date": "2026-09-21",
+    "published": "2026-09-21T02:04:19+00:00",
+    "source": "Product Hunt",
+    "title": "NiubiGEO",
+    "link": "https://www.producthunt.com/products/niubigeo",
+    "summary": "Open-source AI visibility. Human-powered growth. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615381+00:00"
+   },
+   {
+    "id": "cb53df7b7c8cdeb2",
+    "date": "2026-09-20",
+    "published": "2026-09-20T21:56:29+00:00",
+    "source": "Product Hunt",
+    "title": "Cronhq",
+    "link": "https://www.producthunt.com/products/cronhq",
+    "summary": "Cron jobs that actually run Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615378+00:00"
+   },
+   {
+    "id": "4a206e8294a84535",
+    "date": "2026-09-20",
+    "published": "2026-09-20T21:22:04+00:00",
+    "source": "Product Hunt",
+    "title": "Jevtown",
+    "link": "https://www.producthunt.com/products/jevtown",
+    "summary": "10,000 AI readers react to your post before you publish it Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615320+00:00"
+   },
+   {
+    "id": "e827cc98720ea0dc",
+    "date": "2026-09-20",
+    "published": "2026-09-20T20:14:25+00:00",
+    "source": "Product Hunt",
+    "title": "Milliseconds.ai",
+    "link": "https://www.producthunt.com/products/milliseconds-ai",
+    "summary": "Fast AI decisions on text and images, via one API Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615357+00:00"
+   },
+   {
+    "id": "4a53dd25238abfdf",
+    "date": "2026-09-20",
+    "published": "2026-09-20T17:10:58+00:00",
+    "source": "Product Hunt",
+    "title": "slop-grader",
+    "link": "https://www.producthunt.com/products/slop-grader",
+    "summary": "Jev-AI CLI tool that evaluates text against custom rulesets Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615350+00:00"
+   },
+   {
+    "id": "51fb25f70b14a087",
+    "date": "2026-09-20",
+    "published": "2026-09-20T16:07:49+00:00",
+    "source": "Product Hunt",
+    "title": "Plume",
+    "link": "https://www.producthunt.com/products/plume-11",
+    "summary": "Import your old CV, get a polished ATS-ready one in minutes Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615329+00:00"
+   },
+   {
+    "id": "6623dba8f27d9617",
+    "date": "2026-09-20",
+    "published": "2026-09-20T12:32:17+00:00",
+    "source": "Lenny's Newsletter",
+    "title": "90 minutes of unfiltered product advice from Snap and Discord’s product chief | Peter Sellis",
+    "link": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
+    "summary": "Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
+    "topics": [
+     "product",
+     "growth"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.530320+00:00"
+   },
+   {
+    "id": "11129ce6b11b1e3f",
+    "date": "2026-09-20",
+    "published": "2026-09-20T09:44:03+00:00",
+    "source": "Product Hunt",
+    "title": "SecAIQ Watch",
+    "link": "https://www.producthunt.com/products/secaiq-watch",
+    "summary": "What are your AI tools really doing on your machine? Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615363+00:00"
+   },
+   {
+    "id": "6001fcbe25849673",
+    "date": "2026-09-20",
+    "published": "2026-09-20T09:25:25+00:00",
+    "source": "Product Hunt",
+    "title": "AppGrowthKit",
+    "link": "https://www.producthunt.com/products/appgrowthkit",
+    "summary": "Automate your App Store Screenshots and print money... Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615333+00:00"
+   },
+   {
+    "id": "763eb5f981315a40",
+    "date": "2026-09-20",
+    "published": "2026-09-20T08:57:52+00:00",
+    "source": "Product Hunt",
+    "title": "Flicka",
+    "link": "https://www.producthunt.com/products/flicka",
+    "summary": "Launch-ready product demos, from a Chrome extension Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615286+00:00"
+   },
+   {
+    "id": "6f9bebb7f38972bb",
+    "date": "2026-09-20",
+    "published": "2026-09-20T05:59:42+00:00",
+    "source": "Product Hunt",
+    "title": "The 101 Plays Itself",
+    "link": "https://www.producthunt.com/products/the-101-plays-itself",
+    "summary": "Five lanes of LA highway turned into an instrument Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:36.939128+00:00"
+   },
+   {
+    "id": "61f5e9e3327d60ac",
+    "date": "2026-09-20",
+    "published": "2026-09-20T04:37:16+00:00",
+    "source": "Product Hunt",
+    "title": "CC",
+    "link": "https://www.producthunt.com/products/google-labs",
+    "summary": "AI agent that helps keep your family in sync Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615353+00:00"
+   },
+   {
+    "id": "f32802006fcf2f43",
+    "date": "2026-09-19",
+    "published": "2026-09-19T20:11:04+00:00",
+    "source": "The Beautiful Mess (John Cutler)",
+    "title": "TBM 440: The Problem With Putting People in Boxes",
+    "link": "https://cutlefish.substack.com/p/tbm-440-the-problem-with-putting",
+    "summary": "Personality and “strength” tests at work have never sat right with me.",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:56.747310+00:00"
+   },
+   {
+    "id": "e7fca5ec88aacd3b",
+    "date": "2026-09-19",
+    "published": "2026-09-19T20:05:33+00:00",
+    "source": "Product Hunt",
+    "title": "Epismo OS",
+    "link": "https://www.producthunt.com/products/epismo",
+    "summary": "Keep your work when you switch AI tools Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:36.939128+00:00"
+   },
+   {
+    "id": "e06b36aa1924df7d",
+    "date": "2026-09-19",
+    "published": "2026-09-19T19:42:24+00:00",
+    "source": "Lenny's Newsletter",
+    "title": "🧠 Community Wisdom: Finding your first users before the product exists, debriefing your own interviews, what to optimize for in the early years of your career, and more",
+    "link": "https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
+    "summary": "Community Wisdom 299",
+    "topics": [
+     "product",
+     "growth"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.530320+00:00"
+   },
+   {
+    "id": "e4109ac69fa48e0b",
+    "date": "2026-09-19",
+    "published": "2026-09-19T17:24:57+00:00",
+    "source": "Product Hunt",
+    "title": "Sai",
+    "link": "https://www.producthunt.com/products/simular",
+    "summary": "The autonomous computer fleet at your command Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615308+00:00"
+   },
+   {
+    "id": "5ebdd6214ba967db",
+    "date": "2026-09-19",
+    "published": "2026-09-19T08:54:55+00:00",
+    "source": "Product Hunt",
+    "title": "Answers by Context.dev",
+    "link": "https://www.producthunt.com/products/context-dev",
+    "summary": "Give it a research task + the JSON shape you want back. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:36.939128+00:00"
+   },
+   {
+    "id": "6ddfc972cc599a3a",
+    "date": "2026-09-19",
+    "published": "2026-09-19T06:59:49+00:00",
+    "source": "Product Hunt",
+    "title": "Launchie 1.6.1",
+    "link": "https://www.producthunt.com/products/launchie",
+    "summary": "Launchpad Replacement for MacOS 27 Golden Gate Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:36.939128+00:00"
+   },
+   {
+    "id": "345afd8fd829fb43",
+    "date": "2026-09-19",
+    "published": "2026-09-19T06:44:50+00:00",
+    "source": "Product Hunt",
+    "title": "Mise",
+    "link": "https://www.producthunt.com/products/robot-recipes",
+    "summary": "The meal planner that gets all your dishes ready at once Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:36.939128+00:00"
+   },
+   {
+    "id": "2c23f7d128f5dfe0",
+    "date": "2026-09-18",
+    "published": "2026-09-18T20:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Spend Management expands to Enterprise Flexible Commitment plans",
+    "link": "https://vercel.com/changelog/spend-management-enterprise-flex",
+    "summary": "Enterprise teams on Flexible Commitment plans can now use Spend Management , already available on Pro , at no additional cost. You can set a budget at any time in Spend Management settings . Set a budget per billing cycle, and when your team's metered usage approaches or crosses it, Spend Management",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:50:07.608728+00:00"
+   },
+   {
+    "id": "32ae7a203db6d02f",
+    "date": "2026-09-18",
+    "published": "2026-09-18T18:00:00+00:00",
+    "source": "Vercel News",
+    "title": "WebMCP support now available in mcp-handler",
+    "link": "https://vercel.com/changelog/webmcp-mcp-handler",
+    "summary": "mcp-handler now has experimental support for WebMCP , the proposed web standard for exposing tools to in-browser agents. Add a single script tag to your site, and your existing MCP tools become available there too. Opt tools in by adding them to the experimental_webMcp object: Then load the script f",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:50:07.608728+00:00"
+   },
+   {
+    "id": "4bc7635220703c1c",
+    "date": "2026-09-18",
+    "published": "2026-09-18T17:16:18+00:00",
+    "source": "Product Hunt",
+    "title": "Gradio Workflow",
+    "link": "https://www.producthunt.com/products/gradio",
+    "summary": "connect nodes to build AI pipelines, powered by Hugging Face Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615311+00:00"
+   },
+   {
+    "id": "dae156fd162792ed",
+    "date": "2026-09-18",
+    "published": "2026-09-18T17:00:00+00:00",
+    "source": "Stratechery",
+    "title": "2026.38: Doomforce",
+    "link": "https://stratechery.com/2026/doomforce/",
+    "summary": "The best Stratechery content from the week of September 14, 2026, including the view from anywhere but San Francisco, the limited potential for a pacing deal, and the Salesforce zag.",
+    "topics": [
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:31.273612+00:00"
+   },
+   {
+    "id": "dde4a4801d14d622",
+    "date": "2026-09-18",
+    "published": "2026-09-18T17:00:00+00:00",
+    "source": "Vercel News",
+    "title": "v0 now reads npm credentials from shared environment variables",
+    "link": "https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables",
+    "summary": "v0 now installs private packages from npm and custom registries using credentials stored as shared environment variables on Vercel. This makes it easier for teams to build with their existing design systems, component libraries, and internal packages directly in v0. To get started, add one of the fo",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:50:07.608728+00:00"
+   },
+   {
+    "id": "3abeb50538e22a57",
+    "date": "2026-09-18",
+    "published": "2026-09-18T16:18:15+00:00",
+    "source": "Product Hunt",
+    "title": "Basedash Models",
+    "link": "https://www.producthunt.com/products/basedash",
+    "summary": "Define it once. Query it like a table. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:36.939128+00:00"
+   },
+   {
+    "id": "f0ef7b7fe6845272",
+    "date": "2026-09-18",
+    "published": "2026-09-18T13:56:07+00:00",
+    "source": "Product Hunt",
+    "title": "Punch",
+    "link": "https://www.producthunt.com/products/punch-4",
+    "summary": "Save your group chat's important stuff Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:36.939128+00:00"
+   },
+   {
+    "id": "c786187072fdefd6",
+    "date": "2026-09-18",
+    "published": "2026-09-18T13:28:57+00:00",
+    "source": "Product Hunt",
+    "title": "Steam Frame",
+    "link": "https://www.producthunt.com/products/steam-machine",
+    "summary": "Your Steam library, now on a wearable PC Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:36.939128+00:00"
+   },
+   {
+    "id": "a6bb14f964f7fa46",
+    "date": "2026-09-18",
+    "published": "2026-09-18T07:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Jev is the fastest-adopted model in AI Gateway history",
+    "link": "https://vercel.com/blog/ai-gateway-jev-model-launch",
+    "summary": "Within 24 hours of launching on AI Gateway, Jev from TypeSafe AI reached more than twice as many paid teams as any previous model launch, making it the fastest-adopted model in gateway history. Jev passed every other comparison model in its first twelve hours and continued to widen its lead for the ",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:50:07.608728+00:00"
+   },
+   {
+    "id": "5e204e94857a1bdd",
+    "date": "2026-09-18",
+    "published": "2026-09-18T06:11:48+00:00",
+    "source": "Product Hunt",
+    "title": "Notch Design",
+    "link": "https://www.producthunt.com/products/notch-design-2",
+    "summary": "Give your notch a personality Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:36.939128+00:00"
+   },
+   {
+    "id": "b6c45c4acce2cbb2",
+    "date": "2026-09-18",
+    "published": "2026-09-18T05:56:45+00:00",
+    "source": "Product Hunt",
+    "title": "MiRemoteBridge",
+    "link": "https://www.producthunt.com/products/miremotebridge",
+    "summary": "a $5 build that lets a Bluetooth remote run your PC Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:36.939128+00:00"
+   },
+   {
+    "id": "acbbf14a719ec984",
+    "date": "2026-09-18",
+    "published": "2026-09-18T05:26:36+00:00",
+    "source": "Product Hunt",
+    "title": "Lead Sparker",
+    "link": "https://www.producthunt.com/products/lead-sparker",
+    "summary": "Turn any brand URL into a ready-to-send insight deck Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:37:03.615343+00:00"
+   },
+   {
+    "id": "8e87e45b853a83ad",
+    "date": "2026-09-18",
+    "published": "2026-09-18T03:00:06+00:00",
+    "source": "Product Hunt",
+    "title": "Polishory",
+    "link": "https://www.producthunt.com/products/polishory",
+    "summary": "Get a clear plan to improve your website and prevent AI slop Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:36.939128+00:00"
+   },
+   {
+    "id": "ef5767cfc8ce7544",
+    "date": "2026-09-18",
+    "published": "2026-09-18T01:28:31+00:00",
+    "source": "Product Hunt",
+    "title": "Verity Score",
+    "link": "https://www.producthunt.com/products/verity-score-geo-ai-visibility",
+    "summary": "Track what AI says about your store, fix it, generate blog Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:52:41.395313+00:00"
+   },
+   {
+    "id": "1e27ee5e34f3631f",
+    "date": "2026-09-18",
+    "published": "2026-09-18T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
+    "link": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
+    "summary": "In August 2026, Hacktron reported what looked like a remote code execution (RCE) vulnerability in Next.js image optimization. Their investigation found that the vulnerable code was not in Next.js itself, but upstream in libheif, an AVIF image decoder used by Next.js, ImageMagick , WordPress , sharp ",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:50:07.608728+00:00"
+   },
+   {
+    "id": "32372f028bb44cbc",
+    "date": "2026-09-18",
+    "published": "2026-09-18T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "GLM 5.3 FlashX now available on AI Gateway",
+    "link": "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway",
+    "summary": "GLM 5.3 FlashX is now available on AI Gateway. GLM 5.3 FlashX is a high-speed serving option for Z.ai's multimodal coding model, delivering inference at ~200 tokens per second for faster streamed responses. The higher serving speed is useful for coding agents, tool loops, and interactive application",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:50:07.608728+00:00"
+   },
+   {
+    "id": "93a44558f0624485",
+    "date": "2026-09-17",
+    "published": "2026-09-17T23:57:40+00:00",
+    "source": "Product Hunt",
+    "title": "SmartCheck",
+    "link": "https://www.producthunt.com/products/smartcheck",
+    "summary": "Count objects in a photo with three example taps Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:28:36.939128+00:00"
+   },
+   {
+    "id": "a3cc0aadf044d8ad",
+    "date": "2026-09-17",
+    "published": "2026-09-17T22:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Sub-second artifact deployments are now supported in Vercel CLI",
+    "link": "https://vercel.com/changelog/sub-second-artifact-deployments-are-now-supported-in-vercel-cli",
+    "summary": "You and your agents can now deploy static artifacts to Vercel in under one second through Vercel CLI. Run vercel deploy to share a prototype, publish an HTML report, or preview a page created by your coding agent. Vercel automatically detects eligible deployments, and valid artifacts will skip the b",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:50:07.608728+00:00"
    }
   ],
   "dataviz": [
@@ -2524,6 +3161,22 @@
     "first_seen": "2026-09-21T06:49:26.925412+00:00"
    },
    {
+    "id": "36f0770f71563f2c",
+    "date": "2026-09-20",
+    "published": "2026-09-20T10:49:58+00:00",
+    "source": "Hacker News — Best",
+    "title": "Why do we need human mathematicians anymore?",
+    "link": "https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/",
+    "summary": "Article URL: https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/ Comments URL: https://news.ycombinator.com/item?id=49774521 Points: 179 # Comments: 145",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:36:56.133371+00:00"
+   },
+   {
     "id": "684925ddfa2fe38f",
     "date": "2026-09-20",
     "published": "2026-09-20T10:01:39+00:00",
@@ -2572,6 +3225,22 @@
     ],
     "lang": "en",
     "first_seen": "2026-09-21T06:28:33.888747+00:00"
+   },
+   {
+    "id": "984907575a7e8c24",
+    "date": "2026-09-19",
+    "published": "2026-09-19T17:14:51+00:00",
+    "source": "Hacker News — Best",
+    "title": "The Effect of CRTs on Pixel Art (2024)",
+    "link": "https://datagubbe.se/crt/",
+    "summary": "Article URL: https://datagubbe.se/crt/ Comments URL: https://news.ycombinator.com/item?id=49768336 Points: 177 # Comments: 55",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:36:56.133381+00:00"
    },
    {
     "id": "47336030addf468e",
@@ -3092,37 +3761,6 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-09-21T06:28:36.499303+00:00"
-   },
-   {
-    "id": "fc651ee7288f058a",
-    "date": "2026-09-16",
-    "published": "2026-09-16T16:00:54+00:00",
-    "source": "Simon Willison",
-    "title": "Quoting Mustafa Suleyman",
-    "link": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
-    "summary": "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make th",
-    "topics": [
-     "ai",
-     "engineering"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:33.888747+00:00"
-   },
-   {
-    "id": "027811ca1632d0f5",
-    "date": "2026-09-16",
-    "published": "2026-09-16T16:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "Helping older adults use AI in everyday life",
-    "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-    "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-    "topics": [
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.499303+00:00"
    }
   ],
   "ux": [
@@ -3544,642 +4182,6 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-09-21T06:28:31.262585+00:00"
-   }
-  ],
-  "product": [
-   {
-    "id": "6623dba8f27d9617",
-    "date": "2026-09-20",
-    "published": "2026-09-20T12:32:17+00:00",
-    "source": "Lenny's Newsletter",
-    "title": "90 minutes of unfiltered product advice from Snap and Discord’s product chief | Peter Sellis",
-    "link": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
-    "summary": "Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
-    "topics": [
-     "product",
-     "growth"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.530320+00:00"
-   },
-   {
-    "id": "6f9bebb7f38972bb",
-    "date": "2026-09-20",
-    "published": "2026-09-20T05:59:42+00:00",
-    "source": "Product Hunt",
-    "title": "The 101 Plays Itself",
-    "link": "https://www.producthunt.com/products/the-101-plays-itself",
-    "summary": "Five lanes of LA highway turned into an instrument Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "f32802006fcf2f43",
-    "date": "2026-09-19",
-    "published": "2026-09-19T20:11:04+00:00",
-    "source": "The Beautiful Mess (John Cutler)",
-    "title": "TBM 440: The Problem With Putting People in Boxes",
-    "link": "https://cutlefish.substack.com/p/tbm-440-the-problem-with-putting",
-    "summary": "Personality and “strength” tests at work have never sat right with me.",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:56.747310+00:00"
-   },
-   {
-    "id": "e7fca5ec88aacd3b",
-    "date": "2026-09-19",
-    "published": "2026-09-19T20:05:33+00:00",
-    "source": "Product Hunt",
-    "title": "Epismo OS",
-    "link": "https://www.producthunt.com/products/epismo",
-    "summary": "Keep your work when you switch AI tools Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "e06b36aa1924df7d",
-    "date": "2026-09-19",
-    "published": "2026-09-19T19:42:24+00:00",
-    "source": "Lenny's Newsletter",
-    "title": "🧠 Community Wisdom: Finding your first users before the product exists, debriefing your own interviews, what to optimize for in the early years of your career, and more",
-    "link": "https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
-    "summary": "Community Wisdom 299",
-    "topics": [
-     "product",
-     "growth"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.530320+00:00"
-   },
-   {
-    "id": "5ebdd6214ba967db",
-    "date": "2026-09-19",
-    "published": "2026-09-19T08:54:55+00:00",
-    "source": "Product Hunt",
-    "title": "Answers by Context.dev",
-    "link": "https://www.producthunt.com/products/context-dev",
-    "summary": "Give it a research task + the JSON shape you want back. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "6ddfc972cc599a3a",
-    "date": "2026-09-19",
-    "published": "2026-09-19T06:59:49+00:00",
-    "source": "Product Hunt",
-    "title": "Launchie 1.6.1",
-    "link": "https://www.producthunt.com/products/launchie",
-    "summary": "Launchpad Replacement for MacOS 27 Golden Gate Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "345afd8fd829fb43",
-    "date": "2026-09-19",
-    "published": "2026-09-19T06:44:50+00:00",
-    "source": "Product Hunt",
-    "title": "Mise",
-    "link": "https://www.producthunt.com/products/robot-recipes",
-    "summary": "The meal planner that gets all your dishes ready at once Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "2c23f7d128f5dfe0",
-    "date": "2026-09-18",
-    "published": "2026-09-18T20:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Spend Management expands to Enterprise Flexible Commitment plans",
-    "link": "https://vercel.com/changelog/spend-management-enterprise-flex",
-    "summary": "Enterprise teams on Flexible Commitment plans can now use Spend Management , already available on Pro , at no additional cost. You can set a budget at any time in Spend Management settings . Set a budget per billing cycle, and when your team's metered usage approaches or crosses it, Spend Management",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:50:07.608728+00:00"
-   },
-   {
-    "id": "32ae7a203db6d02f",
-    "date": "2026-09-18",
-    "published": "2026-09-18T18:00:00+00:00",
-    "source": "Vercel News",
-    "title": "WebMCP support now available in mcp-handler",
-    "link": "https://vercel.com/changelog/webmcp-mcp-handler",
-    "summary": "mcp-handler now has experimental support for WebMCP , the proposed web standard for exposing tools to in-browser agents. Add a single script tag to your site, and your existing MCP tools become available there too. Opt tools in by adding them to the experimental_webMcp object: Then load the script f",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:50:07.608728+00:00"
-   },
-   {
-    "id": "dae156fd162792ed",
-    "date": "2026-09-18",
-    "published": "2026-09-18T17:00:00+00:00",
-    "source": "Stratechery",
-    "title": "2026.38: Doomforce",
-    "link": "https://stratechery.com/2026/doomforce/",
-    "summary": "The best Stratechery content from the week of September 14, 2026, including the view from anywhere but San Francisco, the limited potential for a pacing deal, and the Salesforce zag.",
-    "topics": [
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.273612+00:00"
-   },
-   {
-    "id": "dde4a4801d14d622",
-    "date": "2026-09-18",
-    "published": "2026-09-18T17:00:00+00:00",
-    "source": "Vercel News",
-    "title": "v0 now reads npm credentials from shared environment variables",
-    "link": "https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables",
-    "summary": "v0 now installs private packages from npm and custom registries using credentials stored as shared environment variables on Vercel. This makes it easier for teams to build with their existing design systems, component libraries, and internal packages directly in v0. To get started, add one of the fo",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:50:07.608728+00:00"
-   },
-   {
-    "id": "3abeb50538e22a57",
-    "date": "2026-09-18",
-    "published": "2026-09-18T16:18:15+00:00",
-    "source": "Product Hunt",
-    "title": "Basedash Models",
-    "link": "https://www.producthunt.com/products/basedash",
-    "summary": "Define it once. Query it like a table. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "f0ef7b7fe6845272",
-    "date": "2026-09-18",
-    "published": "2026-09-18T13:56:07+00:00",
-    "source": "Product Hunt",
-    "title": "Punch",
-    "link": "https://www.producthunt.com/products/punch-4",
-    "summary": "Save your group chat's important stuff Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "c786187072fdefd6",
-    "date": "2026-09-18",
-    "published": "2026-09-18T13:28:57+00:00",
-    "source": "Product Hunt",
-    "title": "Steam Frame",
-    "link": "https://www.producthunt.com/products/steam-machine",
-    "summary": "Your Steam library, now on a wearable PC Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "a6bb14f964f7fa46",
-    "date": "2026-09-18",
-    "published": "2026-09-18T07:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Jev is the fastest-adopted model in AI Gateway history",
-    "link": "https://vercel.com/blog/ai-gateway-jev-model-launch",
-    "summary": "Within 24 hours of launching on AI Gateway, Jev from TypeSafe AI reached more than twice as many paid teams as any previous model launch, making it the fastest-adopted model in gateway history. Jev passed every other comparison model in its first twelve hours and continued to widen its lead for the ",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:50:07.608728+00:00"
-   },
-   {
-    "id": "5e204e94857a1bdd",
-    "date": "2026-09-18",
-    "published": "2026-09-18T06:11:48+00:00",
-    "source": "Product Hunt",
-    "title": "Notch Design",
-    "link": "https://www.producthunt.com/products/notch-design-2",
-    "summary": "Give your notch a personality Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "b6c45c4acce2cbb2",
-    "date": "2026-09-18",
-    "published": "2026-09-18T05:56:45+00:00",
-    "source": "Product Hunt",
-    "title": "MiRemoteBridge",
-    "link": "https://www.producthunt.com/products/miremotebridge",
-    "summary": "a $5 build that lets a Bluetooth remote run your PC Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "8e87e45b853a83ad",
-    "date": "2026-09-18",
-    "published": "2026-09-18T03:00:06+00:00",
-    "source": "Product Hunt",
-    "title": "Polishory",
-    "link": "https://www.producthunt.com/products/polishory",
-    "summary": "Get a clear plan to improve your website and prevent AI slop Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "ef5767cfc8ce7544",
-    "date": "2026-09-18",
-    "published": "2026-09-18T01:28:31+00:00",
-    "source": "Product Hunt",
-    "title": "Verity Score",
-    "link": "https://www.producthunt.com/products/verity-score-geo-ai-visibility",
-    "summary": "Track what AI says about your store, fix it, generate blog Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:52:41.395313+00:00"
-   },
-   {
-    "id": "1e27ee5e34f3631f",
-    "date": "2026-09-18",
-    "published": "2026-09-18T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
-    "link": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
-    "summary": "In August 2026, Hacktron reported what looked like a remote code execution (RCE) vulnerability in Next.js image optimization. Their investigation found that the vulnerable code was not in Next.js itself, but upstream in libheif, an AVIF image decoder used by Next.js, ImageMagick , WordPress , sharp ",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:50:07.608728+00:00"
-   },
-   {
-    "id": "32372f028bb44cbc",
-    "date": "2026-09-18",
-    "published": "2026-09-18T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "GLM 5.3 FlashX now available on AI Gateway",
-    "link": "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway",
-    "summary": "GLM 5.3 FlashX is now available on AI Gateway. GLM 5.3 FlashX is a high-speed serving option for Z.ai's multimodal coding model, delivering inference at ~200 tokens per second for faster streamed responses. The higher serving speed is useful for coding agents, tool loops, and interactive application",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:50:07.608728+00:00"
-   },
-   {
-    "id": "93a44558f0624485",
-    "date": "2026-09-17",
-    "published": "2026-09-17T23:57:40+00:00",
-    "source": "Product Hunt",
-    "title": "SmartCheck",
-    "link": "https://www.producthunt.com/products/smartcheck",
-    "summary": "Count objects in a photo with three example taps Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "a3cc0aadf044d8ad",
-    "date": "2026-09-17",
-    "published": "2026-09-17T22:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Sub-second artifact deployments are now supported in Vercel CLI",
-    "link": "https://vercel.com/changelog/sub-second-artifact-deployments-are-now-supported-in-vercel-cli",
-    "summary": "You and your agents can now deploy static artifacts to Vercel in under one second through Vercel CLI. Run vercel deploy to share a prototype, publish an HTML report, or preview a page created by your coding agent. Vercel automatically detects eligible deployments, and valid artifacts will skip the b",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:50:07.608728+00:00"
-   },
-   {
-    "id": "7953d9388a52cdeb",
-    "date": "2026-09-17",
-    "published": "2026-09-17T20:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Turbo build machines can now be enabled per deployment",
-    "link": "https://vercel.com/changelog/turbo-build-machines-can-now-be-enabled-per-deployment",
-    "summary": "You can now opt into Turbo build machines on any individual deployment. This is useful when you need to increase resources temporarily without changing project settings. You can do this in three ways: Include #VERCEL_BUILD_MACHINE=TURBO in your Git commit message before pushing to GitHub Use vc depl",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "notification"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:50:07.608728+00:00"
-   },
-   {
-    "id": "079093fc4a54c438",
-    "date": "2026-09-17",
-    "published": "2026-09-17T19:38:27+00:00",
-    "source": "Product Hunt",
-    "title": "ContextsBase - Backlog for Coding Agents",
-    "link": "https://www.producthunt.com/products/contextsbase",
-    "summary": "From chat prompts to AI backlog Platform. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "cdddfbccb29fbff7",
-    "date": "2026-09-17",
-    "published": "2026-09-17T19:10:52+00:00",
-    "source": "Product Hunt",
-    "title": "Galactic Receipt Scanner",
-    "link": "https://www.producthunt.com/products/galactic-receipt-scanner",
-    "summary": "Turn your phone into a hands-free receipt scanning station Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:54.222605+00:00"
-   },
-   {
-    "id": "82b0afd7a5d75547",
-    "date": "2026-09-17",
-    "published": "2026-09-17T19:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Run Terminal-Bench and other Harbor evals on Vercel Sandbox",
-    "link": "https://vercel.com/changelog/run-terminal-bench-and-other-harbor-evals-on-vercel-sandbox",
-    "summary": "You can now run Harbor evals on Vercel Sandbox. Harbor is the open-source harness behind Terminal-Bench , whose registry includes many other benchmarks such as SWE-bench, tau3-bench and OSWorld. Pass --env vercel to harbor run and each trial executes in its own isolated Firecracker microVM, so you c",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:50:07.608728+00:00"
-   },
-   {
-    "id": "a80d1119914b8b53",
-    "date": "2026-09-17",
-    "published": "2026-09-17T18:00:00+00:00",
-    "source": "Vercel News",
-    "title": "The skills CLI now supports Notion hosted skills",
-    "link": "https://vercel.com/changelog/skills-cli-notion-skills",
-    "summary": "skills@1.7.0 adds Notion skills databases as an install source for agent skills . Notion skills are reusable agent skills written as Notion pages. Teams author, review, and update them in the workspace they already use, then install them into any agent the skills CLI supports. No Git repository requ",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:50:07.608728+00:00"
-   },
-   {
-    "id": "ca8dd814c85be7b7",
-    "date": "2026-09-17",
-    "published": "2026-09-17T17:42:35+00:00",
-    "source": "Product Hunt",
-    "title": "VoiceChanger.Live",
-    "link": "https://www.producthunt.com/products/voicechanger-live",
-    "summary": "Sound like anime girl in realtime on your next call Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:54.222605+00:00"
-   },
-   {
-    "id": "69179ef28ecb9cfe",
-    "date": "2026-09-17",
-    "published": "2026-09-17T16:57:25+00:00",
-    "source": "Product Hunt",
-    "title": "Proto-Mind",
-    "link": "https://www.producthunt.com/products/proto-mind",
-    "summary": "A floating AI workspace for your Mac Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "607696345e1f030a",
-    "date": "2026-09-17",
-    "published": "2026-09-17T16:47:51+00:00",
-    "source": "Product Hunt",
-    "title": "StillTalk",
-    "link": "https://www.producthunt.com/products/stilltalk",
-    "summary": "A photo that talks back. Live on your device, not video. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:54.222605+00:00"
-   },
-   {
-    "id": "1477a36c8862af04",
-    "date": "2026-09-17",
-    "published": "2026-09-17T15:07:28+00:00",
-    "source": "Product Hunt",
-    "title": "Morsa Signals",
-    "link": "https://www.producthunt.com/products/morsa-signals",
-    "summary": "GTM and AI visibility workflows for developer tools Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "b1d8cc14bc6b951d",
-    "date": "2026-09-17",
-    "published": "2026-09-17T13:56:09+00:00",
-    "source": "Product Hunt",
-    "title": "ProductBridge",
-    "link": "https://www.producthunt.com/products/productbridge",
-    "summary": "AI-native customer support and feedback agent Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "037ab973f1a80f0b",
-    "date": "2026-09-17",
-    "published": "2026-09-17T13:00:52+00:00",
-    "source": "Product Talk (Teresa Torres)",
-    "title": "Creating Aha! Builder: Concept to Code, No Engineers Required",
-    "link": "https://www.producttalk.org/creating-aha-builder-concept-to-code-no-engineers-required/",
-    "summary": "Listen to this episode on: Spotify | Apple Podcasts What does it take to build an AI app builder specifically for product managers—not engineers—inside an already crowded market? In this episode of Just Now Possible, Teresa Torres talks with Brian De Haaff (CEO and Co-Founder), Chris",
-    "topics": [
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:55.339006+00:00"
-   },
-   {
-    "id": "d400dde4b8bded21",
-    "date": "2026-09-17",
-    "published": "2026-09-17T12:06:57+00:00",
-    "source": "Product Hunt",
-    "title": "Wingman",
-    "link": "https://www.producthunt.com/products/wingman-8",
-    "summary": "A little nudge to text your girlfriend Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:54.222605+00:00"
-   },
-   {
-    "id": "3afb2152658acbff",
-    "date": "2026-09-17",
-    "published": "2026-09-17T10:24:36+00:00",
-    "source": "Product Hunt",
-    "title": "Edgee Codex Compressor V2",
-    "link": "https://www.producthunt.com/products/edgee",
-    "summary": "Use Codex at 35.6% lower costs Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
-   },
-   {
-    "id": "0e954741e52cf193",
-    "date": "2026-09-17",
-    "published": "2026-09-17T10:00:00+00:00",
-    "source": "Stratechery",
-    "title": "An Interview with Joanna Stern About the iPhone Duo and AI for Normal People",
-    "link": "https://stratechery.com/2026/an-interview-with-joanna-stern-about-the-iphone-duo-and-ai-for-normal-people/",
-    "summary": "An Interview with Joanna Stern About the iPhone Duo and AI for Normal People",
-    "topics": [
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:31.273612+00:00"
-   },
-   {
-    "id": "fd75945309059573",
-    "date": "2026-09-17",
-    "published": "2026-09-17T07:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Open-weight models take 56% of token volume, Astra doubles Fable 5.1 spend",
-    "link": "https://vercel.com/blog/ai-gateway-production-index-september-2026",
-    "summary": "AI Gateway Production Index — September 2026 Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index repor",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:50:07.608728+00:00"
-   },
-   {
-    "id": "eef935736bb86a8f",
-    "date": "2026-09-17",
-    "published": "2026-09-17T05:56:36+00:00",
-    "source": "Product Hunt",
-    "title": "VoiceCap",
-    "link": "https://www.producthunt.com/products/voicecap",
-    "summary": "The AI notetaker for meetings in your language Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:28:36.939128+00:00"
    }
   ],
   "macro": [
@@ -4879,21 +4881,20 @@
   ]
  },
  "tag_counts": {
-  "ai-product": 101,
+  "ai-product": 108,
   "ux": 26,
-  "data": 24,
-  "finance-product": 18,
-  "growth": 17,
+  "data": 25,
+  "finance-product": 19,
+  "growth": 19,
   "dashboard": 17,
-  "forecasting": 6,
+  "forecasting": 7,
   "retention": 5,
   "notification": 2
  },
- "sources_ok": 56,
+ "sources_ok": 57,
  "sources_total": 65,
  "failed_sources": [
   "Andrew Chen (Substack)",
-  "BIS Working Papers",
   "CalculatedRisk Newsletter",
   "Coin Metrics – State of the Network",
   "Ecoinometrics",
