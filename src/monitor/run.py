@@ -264,6 +264,8 @@ def main(argv: list[str] | None = None) -> int:
                    for k, v in cfg["topics"].items()},
         "reports": settings.get("reports", []),
         "static": cfg.get("static", {}),
+        # 可用 K 线清单（docs/data/kline/*.json，抓取时生成）：前端只对清单内的标的发请求
+        "kline_keys": sorted(p.stem for p in (DOCS_DIR / "data" / "kline").glob("*.json")) if (DOCS_DIR / "data" / "kline").exists() else [],
         # 运行记录只留前端用到的字段（内嵌 30 次完整状态会把 feed_status/sub_status 重复 30 份塞进页面）
         "runs": [{"run_at": r.get("run_at"), "duration_s": r.get("duration_s"),
                   "status": {k: {"ok": v.get("ok"), "skipped": v.get("skipped", False)}

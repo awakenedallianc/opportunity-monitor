@@ -13,12 +13,13 @@ from __future__ import annotations
 import time
 from datetime import datetime, timezone
 
-from ..utils import Http, log
+from ..utils import DOCS_DIR, Http, log, write_json
 
 BASES = ["https://query1.finance.yahoo.com", "https://query2.finance.yahoo.com"]
 
 
-def chart(http: Http, symbol: str, rng: str = "2y", interval: str = "1d") -> tuple[list[str], list[float], dict]:
+def chart(http: Http, symbol: str, rng: str = "3y", interval: str = "1d") -> tuple[list[str], list[float], dict, list[list]]:
+    """返回 (dates, closes, meta, ohlc)；ohlc 行为 [date, open, high, low, close]（供 K 线文件）。"""
     last = None
     for base in BASES:
         try:
@@ -33,22 +34,39 @@ def chart(http: Http, symbol: str, rng: str = "2y", interval: str = "1d") -> tup
                 continue
             res = res[0]
             ts = res.get("timestamp") or []
-            closes = (res.get("indicators", {}).get("quote") or [{}])[0].get("close") or []
+            q = (res.get("indicators", {}).get("quote") or [{}])[0]
+            closes = q.get("close") or []
+            opens, highs, lows = q.get("open") or [], q.get("high") or [], q.get("low") or []
             meta = res.get("meta", {})
             off = int(meta.get("gmtoffset") or 0)
-            dates, vals = [], []
-            for t, c in zip(ts, closes):
+            dates, vals, ohlc = [], [], []
+            for i, (t, c) in enumerate(zip(ts, closes)):
                 if c is None:
                     continue
                 local = datetime.fromtimestamp(t + off, tz=timezone.utc)
                 if local.weekday() >= 5:  # 周末幻影 bar（交易所本地时间）
                     continue
-                dates.append(local.strftime("%Y-%m-%d"))
+                d = local.strftime("%Y-%m-%d")
+                dates.append(d)
                 vals.append(float(c))
-            return dates, vals, meta
+                o = opens[i] if i < len(opens) and opens[i] is not None else c
+                h = highs[i] if i < len(highs) and highs[i] is not None else max(o, c)
+                lo = lows[i] if i < len(lows) and lows[i] is not None else min(o, c)
+                ohlc.append([d, float(o), float(h), float(lo), float(c)])
+            return dates, vals, meta, ohlc
         except Exception as e:
             last = str(e)
     raise RuntimeError(f"yahoo {symbol}: {last}")
+
+
+def write_kline(key: str, symbol: str, ohlc: list[list], label: str | None = None) -> None:
+    """近 3 年日 K → docs/data/kline/{key}.json（页面点标的名时懒加载；失败不影响主流程）。"""
+    try:
+        safe = "".join(ch if ch.isalnum() or ch in "_-" else "_" for ch in key)
+        write_json(DOCS_DIR / "data" / "kline" / f"{safe}.json",
+                   {"key": key, "symbol": symbol, "label": label, "rows": ohlc[-756:]})
+    except Exception as e:
+        log.debug("kline %s: %s", key, e)
 
 
 def _pct(a, b):
@@ -64,13 +82,16 @@ def fetch(cfg: dict, settings: dict) -> dict:
     for it in items:
         key, sym = it["key"], it["symbol"]
         try:
-            dates, vals, meta = chart(http, sym)
+            dates, vals, meta, ohlc = chart(http, sym)
             if not vals:
                 notes.append(f"{sym}: no data")
                 continue
             scale = 0.01 if (meta.get("currency") or "").upper() in ("USX", "GBP0.01", "GBX") else 1.0
             currency = "USD" if (meta.get("currency") or "").upper() == "USX" else ("GBP" if scale != 1.0 else meta.get("currency"))
             vals = [v * scale for v in vals]
+            if scale != 1.0:
+                ohlc = [[d, o * scale, h * scale, lo * scale, c * scale] for d, o, h, lo, c in ohlc]
+            write_kline(key, sym, ohlc, it.get("label"))
             cur = vals[-1]
             asof = dates[-1]
             src = "yahoo"
@@ -105,7 +126,7 @@ def fetch(cfg: dict, settings: dict) -> dict:
                 metrics.append({"key": f"sma200.{key}", "value": sum(vals[-200:]) / 200, "source": src, "date": asof})
             last252 = vals[-252:]
             hi52 = max(last252)
-            hi2y = max(vals)
+            hi2y = max(vals[-504:] if n >= 504 else vals)  # 拉长到 3y 历史后，2 年高点仍取最近 504 根
             metrics.append({"key": f"hi52w.{key}", "value": hi52, "source": src, "date": asof})
             metrics.append({"key": f"dd52w.{key}", "value": _pct(cur, hi52), "source": src, "date": asof})
             metrics.append({"key": f"dd2y.{key}", "value": _pct(cur, hi2y), "source": src, "date": asof,

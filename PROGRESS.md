@@ -2,7 +2,21 @@
 
 > 目的：会话中断、token 受限、换电脑后都能从这里接上，**不要重跑已完成的工作**。
 
-## 断点（2026-09-21 17:00 曼谷）：监控范围扩展第 1 批 + Jev 判断模型接入（v2026.09.21.6）
+## 断点（2026-09-21 18:20 曼谷）：扩展第 2 批 + 全站标的 K 线（v2026.09.21.8）
+
+### 已完成：全站标的物点击看近 3 年 K 线（用户新要求）
+- 数据：yahoo.py 抓取时顺带写 `docs/data/kline/{key}.json`（同一次 API 响应里的 OHLC，零额外请求；range 2y→3y；USX 缩放同步）；crypto.py 用 Binance 1d×1000 写 BTC/ETH/SOL；共 161 个 K 线文件（docs/data/ 已 gitignore，Pages 随构建发布）
+- 前端：payload 带 `kline_keys` 清单；`openMetric` 对清单内的 px.* 懒加载渲染 ECharts 蜡烛图（3 年、dataZoom 缩放、涨跌色跟随红涨/绿涨设置、O/H/L/C 中文悬浮）；无 K 线文件或 file:// 时回退原折线；`assetChips` 全站资产小标签变可点（data-metric，规则卡内点标签优先开 K 线而非规则抽屉——事件优先级已调）
+- 注意：模式切换是懒渲染（只重画当前页，其他页访问时再画）——自动化测试时误判过一次"没渲染"，是设计不是 bug
+
+### 已完成：扩展第 2 批 12 条线（67 条新规则，总规则 158→225；标的 128→160；新子抓取器 16 个）
+- 上线线：货币换锚（dedollar，COFER 56.4%/TIC 中日 3 月 -139B 已触发）、金融抑制（repression）、AI 泡沫刹车（aibrake，台积电月营收 +53% 景气档触发）、科技脱钩（decouple，关税文书 8 篇/30 天 + 国产设备双雄已触发）、EM 危机网（emfood，糙米 +21%/糖 +36% 泰国主场机会已触发）、流动性管道（liquidity，SOMA 四周转正=QT 实质结束已触发！）、铀（uranium）、中国周期（china，铁矿石 97 跌破 120 刺激证伪档）、军费（defense）、商业航天（space，RKLB 破 200 日线触发）、巨灾雷达（catastrophe）、前沿科研首条（frontier.qbubble）
+- 新数据源（本机全部实测）：LBMA 白银、IMF COFER（SDMX XML 正则）、TIC Table5、Fed H.4.1 托管（正则 $2.87T）、NY Fed 互换/SOMA/SOFR 历史、Federal Register 计数、Celestrak 星座在轨数（CSV 行数；starlink 偶发限流）、Launch Library（YTD 234 次 +2.6%）、USGS 地震地理围栏、NHC 风暴、TWSE 台积电月营收、SEC EDGAR capex（**美国 IP 才通**，云端车道）、ECB DFR+HICP（表头定位列）、FAO 食价、DBnomics 中国 M2
+- 新派生：ratio.emb_ief/qqq_qqew/ura_spx/crland_hsi/gold_silver(回填版)、CNH 20/60 均线（现汇 CNH=X 无历史→用期货 CNH=F=CNHF）、SOFR-EFFR 价差与月尖峰数、SOMA 4 周变化、金价-实际利率 60 日相关性、星座 90 日净增
+- 已知 nodata（数据在路上）：edgar.*（云端首跑后有）、space.*_chg90（星座计数积累 90 天后有真值）、ez.hicp_yoy 序列滞后（慢变量）、defense USAspending 与 uranium NRC 腿延后（证书/403）
+- 新话题：cb_gold/capital_controls/golden_dome/neutron_rocket/china_stimulus（topics.yaml）
+
+## 上一断点（2026-09-21 17:00 曼谷）：监控范围扩展第 1 批 + Jev 判断模型接入（v2026.09.21.6）
 
 ### 已完成：全代码审查（用户 /codex-review → /code-review 全部源码）
 - 10 角度审查 src/scripts/run.py/workflows 全部 3450 行 → 12 条发现（无高危）全部修复：财政部曲线 break 吞瞬时错误、streak+ref_metric 日期错位（潜伏）、news first_seen 时区混用、alerts_history UTC 差一天、CPI 用错季调序列（改 CUUR0000SA0）、chg1y 历史不足标签失真、GPR 文本日期不补零、learn_intake 无日期条目灌今天、checkpoint 跨午夜作废、feed_status 双份+runs 内嵌 30 份全量状态（页面瘦身 ~224KB）、defillama 死代码、publish_github.ps1 用 git add -A

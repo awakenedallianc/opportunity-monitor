@@ -105,6 +105,12 @@ def fetch_nyfed_rates(http: Http) -> list[dict]:
     except Exception as e:
         log.debug("effr history: %s", e)
     try:
+        h = http.get_json("https://markets.newyorkfed.org/api/rates/secured/sofr/last/90.json")
+        for r in h.get("refRates", []):
+            out.append({"key": "fed.sofr", "value": float(r["percentRate"]), "source": "newyorkfed", "date": r["effectiveDate"], "_backfill": True})
+    except Exception as e:
+        log.debug("sofr history: %s", e)
+    try:
         rp = http.get_json("https://markets.newyorkfed.org/api/rp/reverserepo/propositions/search.json",
                            params={"startDate": (datetime.now(UTC) - timedelta(days=30)).strftime("%Y-%m-%d")})
         ops = rp.get("repo", {}).get("operations", [])
@@ -119,7 +125,7 @@ def fetch_nyfed_rates(http: Http) -> list[dict]:
 # ---------------- 财政部 TGA ----------------
 def fetch_fiscal_tga(http: Http) -> list[dict]:
     d = http.get_json("https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/dts/operating_cash_balance",
-                      params={"sort": "-record_date", "page[size]": 60})
+                      params={"sort": "-record_date", "page[size]": 240})  # 每日期多行账户类型，240 行 ≈ 覆盖 3 个月+
     out = []
     for r in d.get("data", []):
         if "Treasury General Account" in (r.get("account_type") or "") and r.get("open_today_bal"):
@@ -917,6 +923,360 @@ def fetch_eia_power(http: Http) -> list[dict]:
     return out
 
 
+# ==================== 扩展第 2 批（2026-09-21，来源与推演见 data/raw/expansion_research.json）====================
+
+# ---------------- LBMA 白银（货币换锚扩散段）----------------
+def fetch_lbma_silver(http: Http) -> list[dict]:
+    d = http.get_json("https://prices.lbma.org.uk/json/silver.json", timeout=40)
+    out = []
+    for r in d[-400:]:
+        try:
+            out.append({"key": "lbma.silver", "value": float(r["v"][0]), "source": "lbma", "date": r["d"], "_backfill": True})
+        except Exception:
+            continue
+    if out:
+        out.append({"key": "lbma.silver", "value": out[-1]["value"], "source": "lbma", "asof": out[-1]["date"]})
+    return out
+
+
+# ---------------- IMF COFER 美元储备份额（季度慢变量）----------------
+def fetch_imf_cofer(http: Http) -> list[dict]:
+    txt = http.get_text("https://api.imf.org/external/sdmx/2.1/data/COFER?lastNObservations=1", timeout=60)
+    # StructureSpecificData：找美元份额（SHRO_PT + CI_USD + 全球 G001）序列的 OBS_VALUE
+    out = []
+    for m in re.finditer(r"<Series\b([^>]*)>(.*?)</Series>", txt, re.S):
+        attrs, body = m.group(1), m.group(2)
+        if "USD" not in attrs or "SHR" not in attrs:
+            continue
+        if "G001" in attrs or "W00" in attrs or "world" in attrs.lower():
+            pm_ = re.search(r'TIME_PERIOD="([^"]+)"', body)
+            vm = re.search(r'OBS_VALUE="([\d.]+)"', body)
+            if pm_ and vm:
+                out.append({"key": "cofer.usd_share", "value": float(vm.group(1)), "source": "imf", "asof": pm_.group(1),
+                            "meta": {"note": "全球官方外汇储备中美元占比（滞后约一季）"}})
+                break
+    return out
+
+
+# ---------------- TIC 主要外国持有人（官方长钱 vs 快钱）----------------
+def fetch_tic_table5(http: Http) -> list[dict]:
+    txt = http.get_text("https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt", timeout=60)
+    lines = [l.split("\t") for l in txt.splitlines()]
+    head = next((l for l in lines if l and l[0].strip() == "Country"), None)
+    if not head:
+        return []
+    months = [c.strip() for c in head[1:] if c.strip()]
+
+    def row(names: tuple[str, ...]) -> list[float] | None:
+        vals = None
+        for l in lines:
+            nm = (l[0] or "").strip().lower()
+            if any(n in nm for n in names):
+                try:
+                    v = [float(c.replace(",", "")) for c in l[1:len(months) + 1]]
+                except ValueError:
+                    continue
+                vals = [a + b for a, b in zip(vals, v)] if vals else v
+        return vals
+
+    cnjp = row(("china", "japan"))
+    ukky = row(("united kingdom", "cayman"))
+    out = []
+    if cnjp and months:
+        out.append({"key": "tic.cn_jp", "value": cnjp[0], "source": "tic", "asof": months[0] + "-15",
+                    "meta": {"unit": "十亿美元", "note": "中国+日本官方口径持仓（月度，滞后约2月）"}})
+        if len(cnjp) >= 4:
+            out.append({"key": "tic.cn_jp_chg3m", "value": cnjp[0] - cnjp[3], "source": "tic", "asof": months[0] + "-15"})
+    if ukky and months:
+        out.append({"key": "tic.uk_ky", "value": ukky[0], "source": "tic", "asof": months[0] + "-15",
+                    "meta": {"unit": "十亿美元", "note": "英国+开曼（杠杆快钱代理）"}})
+    return out
+
+
+# ---------------- Fed H.4.1 外国官方托管（每周四）----------------
+def fetch_fed_h41(http: Http) -> list[dict]:
+    txt = http.get_text("https://www.federalreserve.gov/releases/h41/current/h41.htm", timeout=60)
+    m = re.search(r"custody for foreign official and international accounts.*?([\d,]{7,})", txt, re.I | re.S)
+    if not m:
+        return []
+    val = float(m.group(1).replace(",", "")) * 1e6  # 页面单位：百万美元
+    if val < 1e12 or val > 1e13:  # 合理性检查（应为 ~3 万亿）
+        return []
+    dm = re.search(r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),\s+(\d{4})", txt)
+    asof = None
+    if dm:
+        from datetime import datetime as _dt
+        try:
+            asof = _dt.strptime(f"{dm.group(1)} {dm.group(2)} {dm.group(3)}", "%B %d %Y").strftime("%Y-%m-%d")
+        except ValueError:
+            pass
+    return [{"key": "fed.custody_foreign", "value": val, "source": "federalreserve", "asof": asof,
+             "meta": {"note": "外国官方在美联储托管的证券（周度挤兑温度计）"}}]
+
+
+# ---------------- NY Fed 央行美元互换（天然报警器：非零即事）----------------
+def fetch_nyfed_fxs(http: Http) -> list[dict]:
+    d = http.get_json("https://markets.newyorkfed.org/api/fxs/all/latest.json", timeout=40)
+    ops = (d.get("fxSwaps") or {}).get("operations") or []
+    total = 0.0
+    for o in ops:
+        try:
+            total += float(o.get("amount") or o.get("totalAmtAccepted") or 0)
+        except (TypeError, ValueError):
+            continue
+    return [{"key": "fed.swap_outstanding", "value": total, "source": "newyorkfed",
+             "meta": {"operations": len(ops), "note": "央行美元流动性互换未偿余额；0=正常"}}]
+
+
+# ---------------- NY Fed SOMA 持仓（QT 拐点）----------------
+def fetch_nyfed_soma(http: Http) -> list[dict]:
+    d = http.get_json("https://markets.newyorkfed.org/api/soma/summary.json", timeout=60)
+    rows = (d.get("soma") or {}).get("summary") or []
+    out = []
+    for r in rows[-130:]:
+        try:
+            out.append({"key": "fed.soma_total", "value": float(r["total"]), "source": "newyorkfed",
+                        "date": r["asOfDate"], "_backfill": True})
+        except (KeyError, TypeError, ValueError):
+            continue
+    if out:
+        out.append({"key": "fed.soma_total", "value": out[-1]["value"], "source": "newyorkfed", "asof": out[-1]["date"]})
+    return out
+
+
+# ---------------- Federal Register 管制文书计数（脱钩流速表）----------------
+def fetch_federal_register(http: Http) -> list[dict]:
+    since = (datetime.now(UTC) - timedelta(days=30)).strftime("%Y-%m-%d")
+    out = []
+    for key, params, note in (
+        ("fr.entity_list_30d",
+         {"conditions[agencies][]": "industry-and-security-bureau", "conditions[term]": '"entity list"',
+          "conditions[publication_date][gte]": since, "per_page": 1},
+         "BIS 实体清单类文书 30 天计数"),
+        ("fr.tariff_pres_30d",
+         {"conditions[type][]": "PRESDOCU", "conditions[term]": "tariff",
+          "conditions[publication_date][gte]": since, "per_page": 1},
+         "总统关税类文书 30 天计数"),
+    ):
+        try:
+            d = http.get_json("https://www.federalregister.gov/api/v1/documents.json", params=params, timeout=60)
+            out.append({"key": key, "value": float(d.get("count") or 0), "source": "federalregister", "meta": {"note": note}})
+        except Exception as e:
+            log.debug("fedreg %s: %s", key, e)
+    return out
+
+
+# ---------------- Celestrak 星座在轨数（比财报早的另类数据）----------------
+def fetch_celestrak(http: Http) -> list[dict]:
+    out = []
+    for key, params in (("space.starlink_count", {"GROUP": "starlink", "FORMAT": "csv"}),
+                        ("space.kuiper_count", {"GROUP": "kuiper", "FORMAT": "csv"}),
+                        ("space.asts_count", {"NAME": "SPACEMOBILE", "FORMAT": "csv"})):
+        try:
+            txt = http.get_text("https://celestrak.org/NORAD/elements/gp.php", params=params, timeout=90)
+            n = max(0, len([l for l in txt.splitlines() if l.strip()]) - 1)  # 减表头
+            if n == 0 and "No GP data found" in txt:
+                n = 0
+            out.append({"key": key, "value": float(n), "source": "celestrak"})
+            time.sleep(1)
+        except Exception as e:
+            log.debug("celestrak %s: %s", key, e)
+    return out
+
+
+# ---------------- Launch Library 全球发射计数 ----------------
+def fetch_ll2(http: Http) -> list[dict]:
+    today = datetime.now(UTC)
+    y = today.year
+    cur = http.get_json("https://ll.thespacedevs.com/2.3.0/launches/",
+                        params={"net__gte": f"{y}-01-01", "net__lte": today.strftime("%Y-%m-%d"),
+                                "mode": "list", "limit": 1}, timeout=60).get("count")
+    prev = http.get_json("https://ll.thespacedevs.com/2.3.0/launches/",
+                         params={"net__gte": f"{y - 1}-01-01", "net__lte": today.replace(year=y - 1).strftime("%Y-%m-%d"),
+                                 "mode": "list", "limit": 1}, timeout=60).get("count")
+    out = []
+    if cur is not None:
+        out.append({"key": "space.launches_ytd", "value": float(cur), "source": "launchlibrary"})
+    if cur and prev:
+        out.append({"key": "space.launches_yoy", "value": (cur / prev - 1) * 100, "source": "launchlibrary",
+                    "meta": {"ytd": cur, "prev_same_window": prev}})
+    return out
+
+
+# ---------------- USGS 地震地理围栏（巨灾雷达）----------------
+QUAKE_BOXES = {"quake.tw_max7d": (21, 26, 119, 123), "quake.jp_max7d": (30, 46, 128, 147),
+               "quake.andaman_max7d": (5, 22, 90, 100)}
+
+
+def fetch_usgs_quakes(http: Http) -> list[dict]:
+    d = http.get_json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson", timeout=60)
+    best = {k: 0.0 for k in QUAKE_BOXES}
+    names = {k: None for k in QUAKE_BOXES}
+    for f in d.get("features") or []:
+        try:
+            lon, lat = f["geometry"]["coordinates"][:2]
+            mag = float(f["properties"].get("mag") or 0)
+        except (KeyError, TypeError, ValueError):
+            continue
+        for key, (la0, la1, lo0, lo1) in QUAKE_BOXES.items():
+            if la0 <= lat <= la1 and lo0 <= lon <= lo1 and mag > best[key]:
+                best[key] = mag
+                names[key] = f["properties"].get("place")
+    return [{"key": k, "value": v, "source": "usgs", "meta": {"place": names[k], "note": "7 天窗口内最大震级；0=无"}}
+            for k, v in best.items()]
+
+
+# ---------------- NOAA NHC 大西洋风暴强度 ----------------
+def fetch_nhc(http: Http) -> list[dict]:
+    d = http.get_json("https://www.nhc.noaa.gov/CurrentStorms.json", timeout=60)
+    storms = d.get("activeStorms") or []
+    mx, name = 0.0, None
+    for s in storms:
+        try:
+            kt = float(s.get("intensity") or 0)
+        except (TypeError, ValueError):
+            continue
+        if kt > mx:
+            mx, name = kt, s.get("name")
+    return [{"key": "nhc.atl_max_kt", "value": mx, "source": "nhc",
+             "meta": {"storms": len(storms), "strongest": name, "note": "现役最强风暴风速（节）；Cat4≈113kt"}}]
+
+
+# ---------------- TWSE 台积电月营收（AI 硬件最高频官方体温计）----------------
+def fetch_twse_tsmc(http: Http) -> list[dict]:
+    d = http.get_json("https://openapi.twse.com.tw/v1/opendata/t187ap05_L", timeout=60)
+    row = next((r for r in d if r.get("公司代號") == "2330"), None)
+    if not row:
+        return []
+    ym = str(row.get("資料年月") or "")
+    asof = f"{int(ym[:3]) + 1911}-{ym[3:5]}" if len(ym) == 5 else None
+    out = []
+    try:
+        out.append({"key": "tsmc.rev_yoy", "value": float(row["營業收入-去年同月增減(%)"]), "source": "twse", "asof": asof,
+                    "meta": {"mom_pct": row.get("營業收入-上月比較增減(%)"), "note": row.get("備註", "")[:60]}})
+    except (KeyError, TypeError, ValueError):
+        pass
+    return out
+
+
+# ---------------- SEC EDGAR：四大云厂 capex 剪刀差 + NVDA 营收（美国 IP 才可达）----------------
+EDGAR_CLOUD_CIKS = {"MSFT": "0000789019", "GOOGL": "0001652044", "AMZN": "0001018724", "META": "0001326801"}
+EDGAR_UA = {"User-Agent": "OpportunityMonitor admin@awakenedallianc.github.io"}
+
+
+def _edgar_frames(http: Http, cik: str, concept: str) -> dict[str, float]:
+    d = http.get_json(f"https://data.sec.gov/api/xbrl/companyconcept/CIK{cik}/us-gaap/{concept}.json",
+                      headers=EDGAR_UA, timeout=60)
+    out = {}
+    for u in (d.get("units") or {}).get("USD") or []:
+        fr = u.get("frame")
+        if fr and re.fullmatch(r"CY\d{4}Q\d", fr):
+            try:
+                out[fr] = float(u["val"])
+            except (KeyError, TypeError, ValueError):
+                continue
+    return out
+
+
+def fetch_edgar_capex(http: Http) -> list[dict]:
+    frames_all: list[dict[str, float]] = []
+    for sym, cik in EDGAR_CLOUD_CIKS.items():
+        frames_all.append(_edgar_frames(http, cik, "PaymentsToAcquirePropertyPlantAndEquipment"))
+        time.sleep(0.3)
+    common = set(frames_all[0])
+    for f in frames_all[1:]:
+        common &= set(f)
+    out = []
+    if common:
+        qs = sorted(common)
+        latest = qs[-1]
+        prev_year = f"CY{int(latest[2:6]) - 1}{latest[6:]}"
+        cur = sum(f[latest] for f in frames_all)
+        if prev_year in common:
+            prev = sum(f[prev_year] for f in frames_all)
+            if prev:
+                out.append({"key": "edgar.cloud_capex_yoy", "value": (cur / prev - 1) * 100, "source": "sec-edgar",
+                            "asof": latest, "meta": {"quarter": latest, "capex_usd": cur, "companies": list(EDGAR_CLOUD_CIKS)}})
+    # NVDA 营收同比
+    try:
+        rev = _edgar_frames(http, "0001045810", "RevenueFromContractWithCustomerExcludingAssessedTax") or \
+              _edgar_frames(http, "0001045810", "Revenues")
+        qs = sorted(rev)
+        if qs:
+            latest = qs[-1]
+            prev_year = f"CY{int(latest[2:6]) - 1}{latest[6:]}"
+            if prev_year in rev and rev[prev_year]:
+                out.append({"key": "edgar.nvda_rev_yoy", "value": (rev[latest] / rev[prev_year] - 1) * 100,
+                            "source": "sec-edgar", "asof": latest})
+    except Exception as e:
+        log.debug("edgar nvda: %s", e)
+    return out
+
+
+# ---------------- ECB 存款便利利率 + 欧元区 HICP（欧洲共振）----------------
+def fetch_ecb(http: Http) -> list[dict]:
+    out = []
+    for key, path, note in (("ecb.dfr", "FM/B.U2.EUR.4F.KR.DFR.LEV", "欧央行存款便利利率"),
+                            ("ez.hicp_yoy", "ICP/M.U2.N.000000.4.ANR", "欧元区 HICP 同比（慢变量）")):
+        try:
+            txt = http.get_text(f"https://data-api.ecb.europa.eu/service/data/{path}",
+                                params={"format": "csvdata", "lastNObservations": 3}, timeout=60)
+            lines = [l for l in txt.strip().splitlines() if l.strip()]
+            head = lines[0].split(",")
+            ti = head.index("TIME_PERIOD") if "TIME_PERIOD" in head else 8
+            vi = head.index("OBS_VALUE") if "OBS_VALUE" in head else 9
+            last = lines[-1].split(",")
+            out.append({"key": key, "value": float(last[vi]), "source": "ecb",
+                        "asof": last[ti], "meta": {"note": note}})
+        except Exception as e:
+            log.debug("ecb %s: %s", key, e)
+    return out
+
+
+# ---------------- FAO 食品价格指数（粮价-通胀-稳定链）----------------
+def fetch_fao(http: Http) -> list[dict]:
+    txt = http.get_text("https://www.fao.org/media/docs/worldfoodsituationlibraries/default-document-library/food_price_indices_data.csv", timeout=90)
+    monthly = {}
+    for line in txt.splitlines():
+        parts = line.split(",")
+        if len(parts) >= 2 and re.fullmatch(r"\d{4}-\d{2}", parts[0].strip()):
+            try:
+                monthly[parts[0].strip()] = float(parts[1])
+            except ValueError:
+                continue
+    out = []
+    months = sorted(monthly)
+    for m in months[-24:]:
+        out.append({"key": "fao.food_index", "value": monthly[m], "source": "fao", "date": f"{m}-01", "_backfill": True})
+    if months:
+        last = months[-1]
+        out.append({"key": "fao.food_index", "value": monthly[last], "source": "fao", "asof": last})
+        prev = f"{int(last[:4]) - 1}{last[4:]}"
+        if prev in monthly and monthly[prev]:
+            out.append({"key": "fao.food_index_yoy", "value": (monthly[last] / monthly[prev] - 1) * 100, "source": "fao", "asof": last})
+    return out
+
+
+# ---------------- DBnomics 中国 M2（慢变量）----------------
+def fetch_china_m2(http: Http) -> list[dict]:
+    d = http.get_json("https://api.db.nomics.world/v22/series/NBS/M_A0D01/A0D0101", params={"observations": 1}, timeout=60)
+    docs = (d.get("series") or {}).get("docs") or []
+    if not docs:
+        return []
+    s = docs[0]
+    periods, values = s.get("period") or [], s.get("value") or []
+    series = {p: v for p, v in zip(periods, values) if isinstance(v, (int, float))}
+    months = sorted(series)
+    out = []
+    if months:
+        last = months[-1]
+        prev = f"{int(last[:4]) - 1}{last[4:]}"
+        if prev in series and series[prev]:
+            out.append({"key": "china.m2_yoy", "value": (series[last] / series[prev] - 1) * 100, "source": "dbnomics",
+                        "asof": last, "meta": {"note": "NBS M2 同比（滞后约 6 月，慢变量）"}})
+    return out
+
+
 SUBFETCHERS = {
     "portwatch": fetch_portwatch,
     "gpr": fetch_gpr,
@@ -948,6 +1308,23 @@ SUBFETCHERS = {
     "nrc_power": fetch_nrc_power,
     "fiscal_debt": fetch_fiscal_debt,
     "eia_power": fetch_eia_power,
+    # 扩展第 2 批
+    "lbma_silver": fetch_lbma_silver,
+    "imf_cofer": fetch_imf_cofer,
+    "tic_table5": fetch_tic_table5,
+    "fed_h41": fetch_fed_h41,
+    "nyfed_fxs": fetch_nyfed_fxs,
+    "nyfed_soma": fetch_nyfed_soma,
+    "federal_register": fetch_federal_register,
+    "celestrak": fetch_celestrak,
+    "ll2": fetch_ll2,
+    "usgs_quakes": fetch_usgs_quakes,
+    "nhc": fetch_nhc,
+    "twse_tsmc": fetch_twse_tsmc,
+    "edgar_capex": fetch_edgar_capex,   # 美国 IP 才可达（云端车道）
+    "ecb": fetch_ecb,
+    "fao": fetch_fao,
+    "china_m2": fetch_china_m2,
 }
 
 

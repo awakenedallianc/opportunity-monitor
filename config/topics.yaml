@@ -295,6 +295,32 @@ topics:
     report: ai
     weight: 1.5
     keywords: ["TeraWulf", "Hut 8", "IREN", "Core Scientific", "Cipher Mining", "Applied Digital", "HPC contract", "AI hosting", "矿企 AI"]
+  # ---------- 扩展第 2 批 ----------
+  cb_gold:
+    label: 央行购金
+    report: war
+    weight: 2
+    keywords: ["central bank gold", "gold reserves", "gold purchases central", "央行购金", "黄金储备", "增持黄金"]
+  capital_controls:
+    label: 金融抑制/管制
+    report: all
+    weight: 2.5
+    keywords: ["capital controls", "yield curve control", "interest equalization", "SLR exemption", "bank treasury requirement", "资本管制", "利息平准", "存款利率上限", "金融抑制"]
+  golden_dome:
+    label: 金穹/防务产能
+    report: war
+    weight: 2
+    keywords: ["Golden Dome", "drone wall", "155mm production", "missile defense contract", "金穹", "无人机墙"]
+  neutron_rocket:
+    label: Neutron 首飞
+    report: all
+    weight: 1.5
+    keywords: ["Neutron rocket", "Rocket Lab Neutron", "Neutron launch", "Neutron first flight"]
+  china_stimulus:
+    label: 中国刺激政策
+    report: all
+    weight: 2
+    keywords: ["China stimulus", "PBOC rate cut", "special treasury bonds", "收储", "城中村改造", "存量房贷利率", "降准", "特别国债"]
   neocloud:
     label: 新云/CoreWeave
     report: ai

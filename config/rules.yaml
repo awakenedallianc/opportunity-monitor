@@ -1605,3 +1605,736 @@ rules:
       all:
         - {type: compare, metric: dd52w.DELTA_TH, op: lt, value: -40, label: 泰达电回撤}
         - {type: compare, metric: px.GULF_TH, op: lt, ref_metric: sma200.GULF_TH, label: Gulf, ref_label: 200日线}
+
+  # ======================= 扩展第 2 批（2026-09-21，推演与来源见 data/raw/expansion_research.json）=======================
+  # --- line.dedollar 货币换锚与央行买金 ---
+  - id: dedollar.corr
+    plain: 金价不再理会利率（负相关失效）——是央行在买，不是散户在赌
+    report: all
+    title: 金价与实际利率 60 日相关性 > 0
+    level: info
+    priority: 2
+    assets: [GOLD]
+    action: 官方购金主导定价，换锚逻辑增强
+    source: 扩展·货币换锚（line.dedollar）
+    when: {type: compare, metric: dedollar.gold_realrate_corr60, op: gt, value: 0, label: 金价-实际利率相关性}
+  - id: dedollar.cofer
+    plain: 美元在全球官方储备的份额跌破 55%，换锚进入加速段
+    report: all
+    title: COFER 美元份额 < 55%
+    level: warning
+    priority: 2
+    assets: [GOLD, BTC]
+    action: 加金银配置档
+    source: 扩展·货币换锚（line.dedollar）
+    when: {type: compare, metric: cofer.usd_share, op: lt, value: 55, label: 美元储备份额}
+  - id: dedollar.gsr
+    plain: 白银创新高且金银比向下——重估从黄金扩散到白银
+    report: all
+    title: 金银比 60 日下行且白银创 52 周新高
+    level: opportunity
+    priority: 2
+    assets: [SILVER, GOLD]
+    action: 白银补涨窗口；金银比 <40 转为过热警戒
+    source: 扩展·货币换锚（line.dedollar）
+    when:
+      all:
+        - {type: change, metric: ratio.gold_silver, lookback: 60, op: lt, value: -3, label: 金银比60日}
+        - {type: compare, metric: px.SILVER, op: gte, ref_metric: hi52w.SILVER, ref_mult: 0.995, label: 白银, ref_label: 52周高}
+  - id: dedollar.tic
+    plain: 中国+日本三个月里减持美债超 600 亿美元——官方在撤退
+    report: all
+    title: 中日持仓 3 个月净减 > $600 亿
+    level: warning
+    priority: 2
+    assets: [GOLD, US10Y]
+    action: 官方撤退加速，金作对手资产
+    source: 扩展·货币换锚（line.dedollar）
+    when: {type: compare, metric: tic.cn_jp_chg3m, op: lt, value: -60, label: 中日持仓3月变化(十亿$)}
+  - id: dedollar.flip
+    plain: 英国+开曼的快钱持仓超过中日官方长钱——美债的买家结构变脆了
+    report: all
+    title: 快钱持仓 > 官方长钱
+    level: warning
+    priority: 3
+    assets: [US10Y]
+    action: 持仓结构翻转警戒
+    source: 扩展·货币换锚（line.dedollar）
+    when: {type: compare, metric: tic.uk_ky, op: gt, ref_metric: tic.cn_jp, label: 英国+开曼, ref_label: 中国+日本}
+  - id: dedollar.custody
+    plain: 外国官方放在美联储的证券跌破 2.8 万亿——每周挤兑温度计报警
+    report: all
+    title: Fed 托管 < $2.80 万亿
+    level: warning
+    priority: 2
+    assets: [GOLD, USDJPY]
+    action: 检查日元与 VIX 是否同步异动
+    source: 扩展·货币换锚（line.dedollar）
+    when: {type: compare, metric: fed.custody_foreign, op: lt, value: 2800000000000, label: Fed托管}
+  - id: dedollar.swap
+    plain: 各国央行开始借美联储的美元互换——离岸美元挤兑已经发生
+    report: all
+    title: 央行美元互换余额 > $200 亿
+    level: warning
+    priority: 1
+    assets: [DXY, GOLD]
+    action: 短期避险、后段抢政策转向
+    source: 扩展·货币换锚（line.dedollar）
+    when: {type: compare, metric: fed.swap_outstanding, op: gt, value: 20000000000, label: 互换余额}
+  - id: dedollar.news
+    plain: 多家媒体同时报道央行购金——事件层确认
+    report: all
+    title: 央行购金话题 48h 内 ≥3 家来源
+    level: event
+    priority: 3
+    assets: [GOLD]
+    action: 与相关性信号互相验证
+    source: 扩展·货币换锚（line.dedollar）
+    when: {type: news, topic: cb_gold, window: 48h, min_sources: 3}
+  - id: dedollar.reset
+    plain: 金价重新跟着利率走（相关性恢复负值），本线退回观察
+    report: all
+    title: 相关性回落 < -0.3
+    level: info
+    priority: 4
+    assets: [GOLD]
+    action: 换锚逻辑降温
+    source: 扩展·货币换锚（line.dedollar）
+    when: {type: compare, metric: dedollar.gold_realrate_corr60, op: lt, value: -0.3, label: 金价-实际利率相关性}
+  # --- line.repression 金融抑制前兆 ---
+  - id: repression.real
+    plain: 实际利率压到负值而通胀还高——1946-51 年式的"温水煮储蓄"开始
+    report: all
+    title: 10Y 实际收益率 < 0 且 CPI > 3%
+    level: warning
+    priority: 1
+    assets: [GOLD, TIP, BTC]
+    action: 加金/商品/TIP/非美，减长债与美元现金
+    source: 扩展·金融抑制（line.repression）
+    when:
+      all:
+        - {type: compare, metric: ust.real10y, op: lt, value: 0, label: 实际收益率}
+        - {type: compare, metric: macro.cpi_yoy, op: gt, value: 3, label: CPI同比}
+  - id: repression.sofr
+    plain: 回购市场一个月尖峰 3 次以上——离央行被迫出手更近了（2019 年 9 月剧本）
+    report: all
+    title: SOFR-EFFR 月内尖峰 ≥3 次
+    level: info
+    priority: 3
+    assets: []
+    action: 盯美联储表态与流动性工具
+    source: 扩展·金融抑制（line.repression）
+    when: {type: compare, metric: fed.sofr_spikes_1m, op: gte, value: 3, label: 月内尖峰次数}
+  - id: repression.news
+    plain: 资本管制/利率管制类的制度动作见报——本线最重要的信号
+    report: all
+    title: 金融抑制话题 48h 内 ≥2 家来源
+    level: event
+    priority: 2
+    assets: []
+    action: 逐条核实是提案还是落地
+    source: 扩展·金融抑制（line.repression）
+    when: {type: news, topic: capital_controls, window: 48h, min_sources: 2}
+  - id: repression.reset
+    plain: 实际利率回到 +1.5% 以上——是正常紧缩不是抑制，本线退回观察
+    report: all
+    title: 10Y 实际收益率 > 1.5%
+    level: info
+    priority: 4
+    assets: []
+    action: 本线归零重置
+    source: 扩展·金融抑制（line.repression）
+    when: {type: compare, metric: ust.real10y, op: gt, value: 1.5, label: 实际收益率}
+  # --- line.aibrake AI 装机泡沫刹车 ---
+  - id: aibrake.capex
+    plain: 四大云厂的资本开支增速从 50%+ 掉到 20% 以下——减速本身就是冲击
+    report: ai
+    title: 云厂 capex 同比 < 20%
+    level: warning
+    priority: 1
+    assets: [NVDA, CRWV, VRT]
+    action: 剪刀差收敛，全链减仓预案（1873 铁路/1929 公用/2000 电信的顶部特征）
+    source: 扩展·AI泡沫刹车（line.aibrake）
+    when: {type: compare, metric: edgar.cloud_capex_yoy, op: lt, value: 20, label: 云厂capex同比}
+  - id: aibrake.canary
+    plain: CoreWeave 从高点腰斩——债务链上最脆的一环先断（每日金丝雀）
+    report: ai
+    title: CRWV 较 52 周高回撤 > 50%
+    level: warning
+    priority: 1
+    assets: [CRWV]
+    action: 神经云融资链承压，检查 AI 债务敞口
+    source: 扩展·AI泡沫刹车（line.aibrake）
+    when: {type: compare, metric: dd52w.CRWV, op: lt, value: -50, label: CRWV回撤}
+  - id: aibrake.pair
+    plain: 英伟达和 Vertiv 同时回撤超 25%——市场在定价砍单
+    report: ai
+    title: NVDA 与 VRT 双双回撤 > 25%
+    level: warning
+    priority: 2
+    assets: [NVDA, VRT]
+    action: 砍单情景定价中
+    source: 扩展·AI泡沫刹车（line.aibrake）
+    when:
+      all:
+        - {type: compare, metric: dd52w.NVDA, op: lt, value: -25, label: NVDA回撤}
+        - {type: compare, metric: dd52w.VRT, op: lt, value: -25, label: VRT回撤}
+  - id: aibrake.tsmc
+    plain: 台积电月营收同比掉到 10% 以下——全球 AI 硬件的官方体温计报警
+    report: ai
+    title: 台积电月营收同比 < 10%
+    level: warning
+    priority: 1
+    assets: [TSM, NVDA]
+    action: 全链减速确认（最高频官方数据）
+    source: 扩展·AI泡沫刹车（line.aibrake）
+    when: {type: compare, metric: tsmc.rev_yoy, op: lt, value: 10, label: 台积电营收同比}
+  - id: aibrake.tsmc_boom
+    plain: 台积电月营收同比仍高于 25%——景气档持续
+    report: ai
+    title: 台积电月营收同比 > 25%
+    level: info
+    priority: 4
+    assets: [TSM]
+    action: AI 硬件景气背景确认
+    source: 扩展·AI泡沫刹车（line.aibrake）
+    when: {type: compare, metric: tsmc.rev_yoy, op: gt, value: 25, label: 台积电营收同比}
+  - id: aibrake.concentration
+    plain: 指数还在高位、内部集中度先坏——顶部的结构信号
+    report: ai
+    title: QQQ/QQEW 比值 60 日回落 >5% 而 QQQ 仍在高位
+    level: warning
+    priority: 2
+    assets: [QQQ, NDX]
+    action: 减仓触发（内部先坏是历次顶部共性）
+    source: 扩展·AI泡沫刹车（line.aibrake）
+    when:
+      all:
+        - {type: change, metric: ratio.qqq_qqew, lookback: 60, op: lt, value: -5, label: 集中度60日}
+        - {type: compare, metric: px.QQQ, op: gt, ref_metric: hi52w.QQQ, ref_mult: 0.93, label: QQQ, ref_label: 52周高的93%}
+  - id: aibrake.nvda
+    plain: 英伟达营收同比掉到 30% 以下——链条最强一环也减速了
+    report: ai
+    title: NVDA 季度营收同比 < 30%
+    level: warning
+    priority: 2
+    assets: [NVDA]
+    action: 全链景气下修
+    source: 扩展·AI泡沫刹车（line.aibrake）
+    when: {type: compare, metric: edgar.nvda_rev_yoy, op: lt, value: 30, label: NVDA营收同比}
+  - id: aibrake.reset
+    plain: 云厂 capex 重新加速、CoreWeave 收复 200 日线——预警解除
+    report: ai
+    title: capex 同比回 40%+ 且 CRWV 站回 200 日线
+    level: info
+    priority: 4
+    assets: [CRWV]
+    action: 回补名单里电力股优先
+    source: 扩展·AI泡沫刹车（line.aibrake）
+    when:
+      all:
+        - {type: compare, metric: edgar.cloud_capex_yoy, op: gt, value: 40, label: 云厂capex同比}
+        - {type: compare, metric: px.CRWV, op: gt, ref_metric: sma200.CRWV, label: CRWV, ref_label: 200日线}
+  # --- line.decouple 科技脱钩双向盘 ---
+  - id: decouple.entity
+    plain: 一个月里实体清单类文书 3 篇以上——脱钩升级期
+    report: war
+    title: BIS 实体清单 30 天计数 ≥ 3
+    level: warning
+    priority: 2
+    assets: [MP, REMX, SMH]
+    action: 升级期：利多稀土与国产设备、利空中概与美设备敞口
+    source: 扩展·科技脱钩（line.decouple）
+    when: {type: compare, metric: fr.entity_list_30d, op: gte, value: 3, label: 实体清单30天}
+  - id: decouple.tariff
+    plain: 总统签了新的关税文书——关税波启动
+    report: war
+    title: 总统关税类文书 30 天内出现
+    level: event
+    priority: 3
+    assets: []
+    action: 检查半导体与中概持仓
+    source: 扩展·科技脱钩（line.decouple）
+    when: {type: compare, metric: fr.tariff_pres_30d, op: gte, value: 1, label: 关税文书30天}
+  - id: decouple.truce
+    plain: 中美稀土管制"停火"11 月 10 日前后到期——写在日历上的引信
+    report: war
+    title: 稀土停火到期倒计时 30 天
+    level: event
+    priority: 2
+    assets: [MP, REMX]
+    action: 到期窗口二元事件：恢复管制则稀缺逻辑点火
+    source: 扩展·科技脱钩（line.decouple）
+    when: {type: date, date: "2026-11-10", range: [0, 30]}
+  - id: decouple.mp
+    plain: MP 和稀土板块同时站上 200 日线——政策溢价在兑现
+    report: war
+    title: MP 与 REMX 双双站上 200 日线
+    level: opportunity
+    priority: 2
+    assets: [MP, REMX]
+    action: 稀缺逻辑兑现中（DoD 保底价模板）
+    source: 扩展·科技脱钩（line.decouple）
+    when:
+      all:
+        - {type: compare, metric: px.MP, op: gt, ref_metric: sma200.MP, label: MP, ref_label: 200日线}
+        - {type: compare, metric: px.REMX, op: gt, ref_metric: sma200.REMX, label: REMX, ref_label: 200日线}
+  - id: decouple.domestic
+    plain: 北方华创和中微同时走强——国产设备订单周期向上
+    report: war
+    title: 国产设备双雄站上 200 日线
+    level: opportunity
+    priority: 3
+    assets: [NAURA, AMEC, SMIC_HK]
+    action: 脱钩的中国侧受益腿
+    source: 扩展·科技脱钩（line.decouple）
+    when:
+      all:
+        - {type: compare, metric: px.NAURA, op: gt, ref_metric: sma200.NAURA, label: 北方华创, ref_label: 200日线}
+        - {type: compare, metric: px.AMEC, op: gt, ref_metric: sma200.AMEC, label: 中微, ref_label: 200日线}
+  - id: decouple.detente
+    plain: 一个月实体清单零新增——缓和期，反向利好中概
+    report: war
+    title: 实体清单 30 天零新增
+    level: info
+    priority: 4
+    assets: [KWEB]
+    action: 反向信号：稀土与国产设备降温
+    source: 扩展·科技脱钩（line.decouple）
+    when: {type: compare, metric: fr.entity_list_30d, op: lte, value: 0, label: 实体清单30天}
+  # --- line.emfood 泰铢与新兴市场危机网 ---
+  - id: emfood.gate
+    plain: 新兴市场债对国债比价 60 天跌超 7%——EM 危机总闸门打开
+    report: all
+    title: EMB/IEF 60 日跌幅 > 7%
+    level: warning
+    priority: 1
+    assets: [EMB, USDTHB]
+    action: 回避 EM 资产，美元短债避险；检查泰铢
+    source: 扩展·EM危机网（line.emfood）
+    when: {type: change, metric: ratio.emb_ief, lookback: 60, op: lt, value: -7, label: EMB/IEF 60日}
+  - id: emfood.thb
+    plain: 美元兑泰铢突破 38——泰铢自身承压（你的主场风险）
+    report: all
+    title: USDTHB > 38
+    level: warning
+    priority: 1
+    assets: [USDTHB]
+    action: 个人财务对冲：美元短债 / BTC
+    source: 扩展·EM危机网（line.emfood）
+    when: {type: compare, metric: px.USDTHB, op: gt, value: 38, label: 美元/泰铢}
+  - id: emfood.spark
+    plain: 印尼盾/卢比/里拉有一个月内急贬超 6%——单国危机点火，观察传染
+    report: all
+    title: 亚币/里拉任一 30 日贬值 > 6%
+    level: info
+    priority: 3
+    assets: [IDR, INR, TRY]
+    action: 观察是否向泰铢与 EM 债传染
+    source: 扩展·EM危机网（line.emfood）
+    when:
+      any:
+        - {type: change, metric: px.IDR, lookback: 30, op: gt, value: 6, label: 美元/印尼盾30日}
+        - {type: change, metric: px.INR, lookback: 30, op: gt, value: 6, label: 美元/卢比30日}
+        - {type: change, metric: px.TRY, lookback: 30, op: gt, value: 6, label: 美元/里拉30日}
+  - id: emfood.oil
+    plain: EM 债走弱叠加油价破百——1997 式传导链激活，权重加倍
+    report: all
+    title: EMB/IEF 走弱且布伦特 > $100
+    level: warning
+    priority: 1
+    assets: [EMB, BRENT, USDTHB]
+    action: 油价-EM 传导确认，主场风险升档
+    source: 扩展·EM危机网（line.emfood）
+    when:
+      all:
+        - {type: change, metric: ratio.emb_ief, lookback: 60, op: lt, value: -7, label: EMB/IEF 60日}
+        - {type: compare, metric: px.BRENT, op: gt, value: 100, label: 布伦特}
+  - id: emfood.rice
+    plain: 糙米 90 天涨超 20%——大米周期启动，泰国出口的主场机会
+    report: all
+    title: 糙米 90 日涨幅 > 20%
+    level: opportunity
+    priority: 3
+    assets: [RICE]
+    action: 泰国出口收入与农村消费受益
+    source: 扩展·EM危机网（line.emfood）
+    when: {type: change, metric: px.RICE, lookback: 90, op: gt, value: 20, label: 糙米90日}
+  - id: emfood.fao
+    plain: 全球食品价格指数同比涨超 10%——食品通胀进入政治敏感区
+    report: all
+    title: FAO 食价指数同比 > +10%
+    level: info
+    priority: 3
+    assets: []
+    action: 联动战争线与 EM 线
+    source: 扩展·EM危机网（line.emfood）
+    when: {type: compare, metric: fao.food_index_yoy, op: gt, value: 10, label: FAO食价同比}
+  - id: emfood.fao_hot
+    plain: 食价同比超 20%——历史上的社会动荡警戒窗（2008/2011）
+    report: all
+    title: FAO 食价指数同比 > +20%
+    level: warning
+    priority: 2
+    assets: []
+    action: 关注粮食出口国限售与进口国动荡
+    source: 扩展·EM危机网（line.emfood）
+    when: {type: compare, metric: fao.food_index_yoy, op: gt, value: 20, label: FAO食价同比}
+  - id: emfood.sugar
+    plain: 糖 90 天涨超 25%——泰国第二出口品确认
+    report: all
+    title: 糖 90 日涨幅 > 25%
+    level: info
+    priority: 4
+    assets: [SUGAR]
+    action: 与大米共振则主场机会档加强
+    source: 扩展·EM危机网（line.emfood）
+    when: {type: change, metric: px.SUGAR, lookback: 90, op: gt, value: 25, label: 糖90日}
+  - id: emfood.reset
+    plain: EM 债比价收复 200 日线——危机网降级
+    report: all
+    title: EMB/IEF 收复 200 日线
+    level: info
+    priority: 4
+    assets: [EMB]
+    action: 主场风险降档
+    source: 扩展·EM危机网（line.emfood）
+    when: {type: compare, metric: ratio.emb_ief, op: gt, ref_metric: sma200.ratio.emb_ief, label: EMB/IEF, ref_label: 其200日线}
+  # --- line.liquidity 美元流动性管道 ---
+  - id: liq.spread
+    plain: 隔夜回购利率高出政策利率 10 个基点——钱开始紧
+    report: all
+    title: SOFR − EFFR > +10bp
+    level: warning
+    priority: 2
+    assets: [BTC]
+    action: 风险资产短期承压，盯美联储表态
+    source: 扩展·流动性管道（line.liquidity）
+    when: {type: compare, metric: fed.sofr_effr_spread, op: gt, value: 0.10, label: SOFR-EFFR}
+  - id: liq.rrp
+    plain: 逆回购缓冲垫见底且回购利率偏紧——政策被迫转向的倒计时
+    report: all
+    title: RRP < $100 亿且价差为正
+    level: warning
+    priority: 2
+    assets: [BTC, GOLD]
+    action: 准备金见底临近（2019 剧本前夜）
+    source: 扩展·流动性管道（line.liquidity）
+    when:
+      all:
+        - {type: compare, metric: fed.rrp, op: lt, value: 10000000000, label: RRP}
+        - {type: compare, metric: fed.sofr_effr_spread, op: gt, value: 0, label: SOFR-EFFR}
+  - id: liq.soma
+    plain: 美联储持仓四周不再收缩——QT 实质结束，BTC/黄金的领先买点（2019 剧本）
+    report: all
+    title: SOMA 4 周变化 ≥ 0
+    level: opportunity
+    priority: 2
+    assets: [BTC, GOLD]
+    action: 流动性转宽：加仓信号
+    source: 扩展·流动性管道（line.liquidity）
+    when: {type: compare, metric: fed.soma_chg4w, op: gte, value: 0, label: SOMA 4周变化}
+  - id: liq.tga
+    plain: 财政部账户一个月抽水超两成——流动性被财政吸走
+    report: all
+    title: TGA 30 日回补 > 20%
+    level: info
+    priority: 3
+    assets: []
+    action: 风险资产逆风期
+    source: 扩展·流动性管道（line.liquidity）
+    when: {type: change, metric: fiscal.tga, lookback: 30, op: gt, value: 20, label: TGA 30日}
+  # --- line.uranium 核能复兴与铀 ---
+  - id: uranium.cycle
+    plain: 铀价站上 100 美元——新一轮铀周期确认
+    report: ai
+    title: 铀期货 > $100
+    level: opportunity
+    priority: 2
+    assets: [URANIUM, CCJ, URA]
+    action: 核能复兴主升段
+    source: 扩展·核能与铀（line.uranium）
+    when: {type: compare, metric: px.URANIUM, op: gt, value: 100, label: 铀}
+  - id: uranium.cool
+    plain: 铀价跌破 70 美元——周期降温，SMR 期权仓先撤
+    report: ai
+    title: 铀期货 < $70
+    level: warning
+    priority: 3
+    assets: [URANIUM, OKLO]
+    action: 高波动仓位先降
+    source: 扩展·核能与铀（line.uranium）
+    when: {type: compare, metric: px.URANIUM, op: lt, value: 70, label: 铀}
+  - id: uranium.fund
+    plain: Cameco 创新高且铀矿板块大幅跑赢大盘——资金确认
+    report: ai
+    title: CCJ 创 52 周新高且 URA 60 日跑赢标普 20%
+    level: info
+    priority: 3
+    assets: [CCJ, URA]
+    action: 加仓窗口参考
+    source: 扩展·核能与铀（line.uranium）
+    when:
+      all:
+        - {type: compare, metric: px.CCJ, op: gte, ref_metric: hi52w.CCJ, ref_mult: 0.99, label: CCJ, ref_label: 52周高}
+        - {type: change, metric: ratio.ura_spx, lookback: 60, op: gt, value: 20, label: URA/标普60日}
+  - id: uranium.sprott
+    plain: 实物铀信托两个月涨超 10%——金融买盘回归（领先现货）
+    report: ai
+    title: Sprott 实物铀 60 日涨 > 10%
+    level: info
+    priority: 4
+    assets: [SPROTT_U]
+    action: 现货紧张的前瞻信号
+    source: 扩展·核能与铀（line.uranium）
+    when: {type: change, metric: px.SPROTT_U, lookback: 60, op: gt, value: 10, label: 实物铀60日}
+  - id: uranium.reset
+    plain: 铀价跌破 65 美元——本线降级
+    report: ai
+    title: 铀期货 < $65
+    level: info
+    priority: 4
+    assets: [URANIUM]
+    action: 退回观察（NRC 机组数腿待数据源恢复后补）
+    source: 扩展·核能与铀（line.uranium）
+    when: {type: compare, metric: px.URANIUM, op: lt, value: 65, label: 铀}
+  # --- line.china 中国政策周期反转 ---
+  - id: china.cnh
+    plain: 人民币 20 日均线在 60 日均线下方（升值趋势延续）——修复行情有续航
+    report: all
+    title: USDCNH 20 日均线 < 60 日均线
+    level: opportunity
+    priority: 3
+    assets: [CNH, KWEB]
+    action: 人民币资产修复确认
+    source: 扩展·中国周期（line.china）
+    when: {type: compare, metric: fx.cnh_ma20, op: lt, ref_metric: fx.cnh_ma60, label: CNH20日线, ref_label: 60日线}
+  - id: china.hktech
+    plain: 恒生科技站上 200 日线并逼近一年新高——续航档
+    report: all
+    title: 恒科 ETF 站上 200 日线且近 52 周高
+    level: opportunity
+    priority: 3
+    assets: [HSTECH_ETF, KWEB]
+    action: 中国科技修复主升确认
+    source: 扩展·中国周期（line.china）
+    when:
+      all:
+        - {type: compare, metric: px.HSTECH_ETF, op: gt, ref_metric: sma200.HSTECH_ETF, label: 恒科ETF, ref_label: 200日线}
+        - {type: compare, metric: px.HSTECH_ETF, op: gte, ref_metric: hi52w.HSTECH_ETF, ref_mult: 0.99, label: 恒科ETF, ref_label: 52周高}
+  - id: china.iron
+    plain: 铁矿石站上 150 美元——建设需求企稳的实物验证
+    report: all
+    title: 铁矿石 > $150
+    level: info
+    priority: 3
+    assets: [IRONORE, COPPER]
+    action: 刺激见效的实物证据
+    source: 扩展·中国周期（line.china）
+    when: {type: compare, metric: px.IRONORE, op: gt, value: 150, label: 铁矿石}
+  - id: china.iron_bust
+    plain: 铁矿石跌破 120 美元——刺激证伪
+    report: all
+    title: 铁矿石 < $120
+    level: info
+    priority: 4
+    assets: [IRONORE]
+    action: 中国需求逻辑降温
+    source: 扩展·中国周期（line.china）
+    when: {type: compare, metric: px.IRONORE, op: lt, value: 120, label: 铁矿石}
+  - id: china.property
+    plain: 华润置地开始跑赢恒指——地产幸存者先见底（出清尾声的历史模式）
+    report: all
+    title: 华润/恒指相对强弱 90 日转正
+    level: opportunity
+    priority: 4
+    assets: [CRLAND, LONGFOR]
+    action: 左侧修复观察仓
+    source: 扩展·中国周期（line.china）
+    when: {type: change, metric: ratio.crland_hsi, lookback: 90, op: gt, value: 0, label: 华润/恒指90日}
+  - id: china.m2
+    plain: 中国 M2 同比超 10%——宽松在加码（数据滞后半年，只作背景）
+    report: all
+    title: M2 同比 > 10%
+    level: info
+    priority: 5
+    assets: []
+    action: 慢变量背景确认
+    source: 扩展·中国周期（line.china）
+    when: {type: compare, metric: china.m2_yoy, op: gt, value: 10, label: M2同比}
+  - id: china.news
+    plain: 收储/城中村改造这类刺激政策密集见报——政策加码事件
+    report: all
+    title: 中国刺激话题 48h 内 ≥3 家来源
+    level: event
+    priority: 3
+    assets: [KWEB]
+    action: 确认政策方向
+    source: 扩展·中国周期（line.china）
+    when: {type: news, topic: china_stimulus, window: 48h, min_sources: 3}
+  # --- line.defense 军费超级周期与金穹 ---
+  - id: defense.etf
+    plain: 全球与欧洲防务 ETF 都在 200 日线上——市场定价再武装持续
+    report: war
+    title: SHLD 与 EUAD 双双站上 200 日线
+    level: info
+    priority: 3
+    assets: [SHLD, EUAD, RHM]
+    action: 军费周期背景确认
+    source: 扩展·军费周期（line.defense）
+    when:
+      all:
+        - {type: compare, metric: px.SHLD, op: gt, ref_metric: sma200.SHLD, label: SHLD, ref_label: 200日线}
+        - {type: compare, metric: px.EUAD, op: gt, ref_metric: sma200.EUAD, label: EUAD, ref_label: 200日线}
+  - id: defense.golden
+    plain: 金穹合同/无人机墙/弹药产能类新闻密集——订单事件
+    report: war
+    title: 金穹话题 48h 内 ≥2 家来源
+    level: event
+    priority: 3
+    assets: [AVAV, LHX]
+    action: 逐条核实合同规模
+    source: 扩展·军费周期（line.defense）
+    when: {type: news, topic: golden_dome, window: 48h, min_sources: 2}
+  - id: defense.ecb
+    plain: 欧央行低利率 + 通胀可控——欧洲罕见的宽货币+宽财政共振成立
+    report: war
+    title: ECB 存款利率 ≤2.5% 且 HICP < 2.8%
+    level: info
+    priority: 4
+    assets: [EUAD, RHM]
+    action: 欧洲防务与工业股顺风
+    source: 扩展·军费周期（line.defense）
+    when:
+      all:
+        - {type: compare, metric: ecb.dfr, op: lte, value: 2.5, label: ECB存款利率}
+        - {type: compare, metric: ez.hicp_yoy, op: lt, value: 2.8, label: 欧元区HICP}
+  # --- line.space 商业航天双子星 ---
+  - id: space.launches
+    plain: 全球发射次数同比增 15% 以上——放量确认
+    report: all
+    title: 年发射次数同比 > +15%
+    level: info
+    priority: 4
+    assets: [RKLB]
+    action: 板块顺风背景
+    source: 扩展·商业航天（line.space）
+    when: {type: compare, metric: space.launches_yoy, op: gt, value: 15, label: 发射同比}
+  - id: space.launches_cool
+    plain: 发射次数同比转负——主题降温
+    report: all
+    title: 年发射次数同比 < 0
+    level: warning
+    priority: 3
+    assets: [RKLB, ASTS]
+    action: 板块逆风
+    source: 扩展·商业航天（line.space）
+    when: {type: compare, metric: space.launches_yoy, op: lt, value: 0, label: 发射同比}
+  - id: space.kuiper
+    plain: 亚马逊 Kuiper 90 天净增不到 100 颗——离 FCC 要求越来越远，Starlink 垄断强化
+    report: all
+    title: Kuiper 90 日净增 < 100 颗
+    level: info
+    priority: 4
+    assets: [ASTS]
+    action: 竞赛格局观察（2029-07 前需 3232 颗）
+    source: 扩展·商业航天（line.space）
+    when: {type: compare, metric: space.kuiper_chg90, op: lt, value: 100, label: Kuiper 90日净增}
+  - id: space.starlink
+    plain: Starlink 在轨数 90 天净增转负——部署饱和预警
+    report: all
+    title: Starlink 90 日净增 < 0
+    level: warning
+    priority: 4
+    assets: []
+    action: 发射需求见顶信号
+    source: 扩展·商业航天（line.space）
+    when: {type: compare, metric: space.starlink_chg90, op: lt, value: 0, label: Starlink 90日净增}
+  - id: space.asts
+    plain: AST 一个季度净增 5 颗以上——组网按计划推进
+    report: all
+    title: ASTS 90 日净增 ≥ 5 颗
+    level: opportunity
+    priority: 3
+    assets: [ASTS]
+    action: 持有期权仓（连续覆盖需 45-60 颗）
+    source: 扩展·商业航天（line.space）
+    when: {type: compare, metric: space.asts_chg90, op: gte, value: 5, label: ASTS 90日净增}
+  - id: space.neutron
+    plain: Neutron 首飞相关新闻——二元事件窗口（2026 年底）
+    report: all
+    title: Neutron 话题 48h 内 ≥2 家来源
+    level: event
+    priority: 3
+    assets: [RKLB]
+    action: 成功=里程碑；失败/再推迟=减仓
+    source: 扩展·商业航天（line.space）
+    when: {type: news, topic: neutron_rocket, window: 48h, min_sources: 2}
+  - id: space.rklb
+    plain: Rocket Lab 跌破 200 日线——预期抢跑过头
+    report: all
+    title: RKLB 跌破 200 日线
+    level: warning
+    priority: 4
+    assets: [RKLB]
+    action: 等 Neutron 首飞落地再评估
+    source: 扩展·商业航天（line.space）
+    when: {type: compare, metric: px.RKLB, op: lt, ref_metric: sma200.RKLB, label: RKLB, ref_label: 200日线}
+  # --- line.catastrophe 巨灾雷达 ---
+  - id: cat.quake_chip
+    plain: 台湾或日本发生 7 级以上地震——芯片供应链的非金融尾部
+    report: war
+    title: 台/日 7 天内最大震级 ≥ 7.0
+    level: event
+    priority: 1
+    assets: [TSM, TAIEX, SKHYNIX]
+    action: 立即核查台积电/海力士停产与台海规则联动（是天灾不是战争）
+    source: 扩展·巨灾雷达（line.catastrophe）
+    when:
+      any:
+        - {type: compare, metric: quake.tw_max7d, op: gte, value: 7, label: 台湾最大震级}
+        - {type: compare, metric: quake.jp_max7d, op: gte, value: 7, label: 日本最大震级}
+  - id: cat.hurricane
+    plain: 大西洋出现四级以上飓风——美湾能源设施风险
+    report: war
+    title: 大西洋最强风暴 ≥ Cat4（113 节）
+    level: event
+    priority: 2
+    assets: [NATGAS, XOM, CHENIERE]
+    action: 联动天然气与能源股
+    source: 扩展·巨灾雷达（line.catastrophe）
+    when: {type: compare, metric: nhc.atl_max_kt, op: gte, value: 113, label: 最强风暴(节)}
+  - id: cat.reinsure
+    plain: 再保龙头一个月跌超 15%——大灾后的逆向窗口（30-60 天分批）
+    report: war
+    title: RNR 30 日跌幅 > 15%
+    level: opportunity
+    priority: 3
+    assets: [RNR, KIE]
+    action: 灾后费率硬化的历史模式：先跌后强
+    source: 扩展·巨灾雷达（line.catastrophe）
+    when: {type: change, metric: px.RNR, lookback: 30, op: lt, value: -15, label: RNR 30日}
+  - id: cat.thai
+    plain: 缅甸/安达曼海 7.5 级以上地震——泰国主场核查
+    report: war
+    title: 安达曼周边最大震级 ≥ 7.5
+    level: event
+    priority: 2
+    assets: []
+    action: 核查泰国基建与 SET
+    source: 扩展·巨灾雷达（line.catastrophe）
+    when: {type: compare, metric: quake.andaman_max7d, op: gte, value: 7.5, label: 安达曼最大震级}
+  # --- line.frontier 前沿科研拐点（首条：量子泡沫预警）---
+  - id: frontier.qbubble
+    plain: IonQ 深跌四成且量子 ETF 破位——量子板块泡沫破裂预警
+    report: ai
+    title: IONQ 回撤 >40% 且 QTUM 破 200 日线
+    level: warning
+    priority: 4
+    assets: [IONQ, QTUM]
+    action: 板块整体减仓（本就只该小仓位）
+    source: 扩展·前沿科研（line.frontier）
+    when:
+      all:
+        - {type: compare, metric: dd52w.IONQ, op: lt, value: -40, label: IONQ回撤}
+        - {type: compare, metric: px.QTUM, op: lt, ref_metric: sma200.QTUM, label: QTUM, ref_label: 200日线}

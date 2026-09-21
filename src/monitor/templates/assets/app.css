@@ -484,5 +484,7 @@ details.catch summary{list-style:none;cursor:pointer}details.catch summary::-web
 .method p{font:400 14px/22px var(--font-sans);margin:6px 0}
 #offline{background:var(--st-warning-bg);color:var(--st-warning);font:500 13px/20px var(--font-sans);padding:6px 16px;text-align:center}
 .s-sub a,.s-foot a{color:var(--accent)}
+.chip.asset[data-metric]{cursor:pointer}
+.chip.asset[data-metric]:hover{border-color:var(--accent);color:var(--accent)}
 /* 手机：提示锚定到整行宽度，不出屏幕；? 的触区放大 */
 @media (max-width:639px){.help{position:static;width:28px;height:28px}.vcard .vh,.s-h{position:relative}.help::after{left:0;right:0;width:auto;top:100%}}

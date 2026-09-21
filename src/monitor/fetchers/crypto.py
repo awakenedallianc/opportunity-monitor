@@ -100,9 +100,16 @@ def fetch_binance_ma(cfg: dict, http: Http) -> tuple[list[dict], dict]:
             if mclose:
                 metrics.append({"key": f"crypto.{k}.monthly_close", "value": mclose[-1], "source": "binance",
                                 "asof": datetime.fromtimestamp(mo[-2][6] / 1000, tz=timezone.utc).strftime("%Y-%m-%d")})
-            # 日线回填（最近 400 天）供曲线使用
-            dk = _klines(http, sym, "1d", 400)
+            # 日线回填（最近 1000 天 ≈ 3 年）供曲线与 K 线使用
+            dk = _klines(http, sym, "1d", 1000)
             series[k] = [(datetime.fromtimestamp(x[0] / 1000, tz=timezone.utc).strftime("%Y-%m-%d"), float(x[4])) for x in dk]
+            # K 线文件（页面点标的名懒加载）：只写主流 USDT 对
+            kmap = {"btc": "BTC", "eth": "ETH", "sol": "SOL"}
+            if k in kmap:
+                from .yahoo import write_kline
+                rows = [[datetime.fromtimestamp(x[0] / 1000, tz=timezone.utc).strftime("%Y-%m-%d"),
+                         float(x[1]), float(x[2]), float(x[3]), float(x[4])] for x in dk]
+                write_kline(kmap[k], sym, rows, kmap[k])
             time.sleep(0.3)
         except Exception as e:
             log.warning("binance %s: %s", sym, e)

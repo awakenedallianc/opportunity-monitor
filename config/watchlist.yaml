@@ -140,6 +140,37 @@ yahoo:
   - {key: USDCNY, symbol: "USDCNY=X", label: 美元/人民币, group: 避险与利率, report: war}
   - {key: USDTWD, symbol: "TWD=X", label: 美元/新台币, group: 避险与利率, report: war}
   - {key: USDKRW, symbol: "KRW=X", label: 美元/韩元, group: 避险与利率, report: war}
+  # --- 扩展第 2 批：抑制/泡沫刹车/脱钩/EM/铀/中国/军费/航天/巨灾/量子（见 data/raw/expansion_research.json）---
+  - {key: TIP, symbol: TIP, label: 通胀保值债 TIP, group: 信用与波动, report: all}
+  - {key: QQQ, symbol: QQQ, label: 纳指100 QQQ, group: 美股指数, report: ai}
+  - {key: QQEW, symbol: QQEW, label: 纳指100等权 QQEW, group: 美股指数, report: ai}
+  - {key: EMB, symbol: EMB, label: 新兴市场债 EMB, group: 信用与波动, report: all}
+  - {key: RICE, symbol: "ZR=F", label: 糙米, group: 农产品, report: all}
+  - {key: SUGAR, symbol: "SB=F", label: 糖, group: 农产品, report: all}
+  - {key: IDR, symbol: "IDR=X", label: 美元/印尼盾, group: 避险与利率, report: all}
+  - {key: INR, symbol: "INR=X", label: 美元/印度卢比, group: 避险与利率, report: all}
+  - {key: TRY, symbol: "TRY=X", label: 美元/土耳其里拉, group: 避险与利率, report: all}
+  - {key: REMX, symbol: REMX, label: 稀土 ETF REMX, group: 铀矿物化肥, report: war}
+  - {key: NAURA, symbol: "002371.SZ", label: 北方华创, group: 亚洲市场, report: war}
+  - {key: AMEC, symbol: "688012.SS", label: 中微公司, group: 亚洲市场, report: war}
+  - {key: SMIC_HK, symbol: "0981.HK", label: 中芯国际, group: 亚洲市场, report: war}
+  - {key: KWEB, symbol: KWEB, label: 中概互联 KWEB, group: 亚洲市场, report: all}
+  - {key: HSTECH_ETF, symbol: "3067.HK", label: 恒生科技 ETF, group: 亚洲市场, report: all}
+  - {key: IRONORE, symbol: "TIO=F", label: 铁矿石, group: 铀矿物化肥, report: all}
+  - {key: CRLAND, symbol: "1109.HK", label: 华润置地, group: 亚洲市场, report: all}
+  - {key: LONGFOR, symbol: "0960.HK", label: 龙湖集团, group: 亚洲市场, report: all}
+  - {key: URANIUM, symbol: "UX=F", label: 铀期货, group: 铀矿物化肥, report: ai}
+  - {key: SPROTT_U, symbol: "U-UN.TO", label: Sprott 实物铀, group: 铀矿物化肥, report: ai}
+  - {key: SHLD, symbol: SHLD, label: 全球防务 ETF SHLD, group: 军工, report: war}
+  - {key: EUAD, symbol: EUAD, label: 欧洲防务 ETF EUAD, group: 军工, report: war}
+  - {key: AVAV, symbol: AVAV, label: AeroVironment（无人机）, group: 军工, report: war}
+  - {key: LHX, symbol: LHX, label: L3Harris, group: 军工, report: war}
+  - {key: RKLB, symbol: RKLB, label: Rocket Lab, group: 航天, report: all}
+  - {key: ASTS, symbol: ASTS, label: AST SpaceMobile, group: 航天, report: all}
+  - {key: RNR, symbol: RNR, label: RenaissanceRe（再保）, group: 保险, report: all}
+  - {key: KIE, symbol: KIE, label: 保险 ETF KIE, group: 保险, report: all}
+  - {key: QTUM, symbol: QTUM, label: 量子计算 ETF QTUM, group: 美股指数, report: ai}
+  - {key: IONQ, symbol: IONQ, label: IonQ, group: 美股指数, report: ai}
   # --- 扩展第 1 批：信用 / 波动率 / 套息 / 铜（见 data/raw/expansion_research.json）---
   - {key: HYG, symbol: HYG, label: 高收益债 HYG, group: 信用与波动, report: all}
   - {key: LQD, symbol: LQD, label: 投资级债 LQD, group: 信用与波动, report: all}
@@ -148,6 +179,7 @@ yahoo:
   - {key: SKEW, symbol: "^SKEW", label: SKEW 尾部对冲, group: 信用与波动, report: all}
   - {key: VVIX, symbol: "^VVIX", label: VVIX, group: 信用与波动, report: all}
   - {key: CNH, symbol: "CNH=X", label: 美元/离岸人民币, group: 避险与利率, report: all}
+  - {key: CNHF, symbol: "CNH=F", label: 离岸人民币期货, group: 避险与利率, report: all}
   - {key: FXY, symbol: FXY, label: 日元 ETF FXY, group: 避险与利率, report: all}
   - {key: MUFG, symbol: "8306.T", label: 三菱UFJ（东京）, group: 避险与利率, report: all}
   - {key: FCX, symbol: FCX, label: 自由港铜业, group: 铀矿物化肥, report: war}
@@ -291,4 +323,6 @@ polymarket:
 extras: [portwatch, gpr, plavis, freight, treasury_curve, nyfed_rates, fiscal_tga, bls_cpi, coinmetrics, sosovalue_etf, cg_treasuries, cmc_altseason, mempool,
          ultrasound, funding, kalshi_fed, eia_brent_spot, lbma_gold, multpl_cape, llama_pm_volume, cg_categories, rwa_xyz,
          govtrack_clarity, llama_unlocks,
-         mof_jgb, cftc_cot, nrc_power, fiscal_debt, eia_power]
+         mof_jgb, cftc_cot, nrc_power, fiscal_debt, eia_power,
+         lbma_silver, imf_cofer, tic_table5, fed_h41, nyfed_fxs, nyfed_soma, federal_register,
+         celestrak, ll2, usgs_quakes, nhc, twse_tsmc, edgar_capex, ecb, fao, china_m2]

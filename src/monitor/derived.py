@@ -104,6 +104,11 @@ def compute(latest: dict[str, dict], watch: dict[str, Any]) -> list[dict]:
     if cnh is not None and cny is not None:
         add("fx.cnh_cny_spread", cnh - cny)
 
+    # SOFR − EFFR 价差（回购压力温度计）
+    sofr, effr = _v(latest, "fed.sofr"), _v(latest, "fed.effr")
+    if sofr is not None and effr is not None:
+        add("fed.sofr_effr_spread", sofr - effr)
+
     return out
 
 
@@ -116,6 +121,12 @@ RATIOS = [
     ("ratio.ceg_spx", "px.CEG", "px.SPX"),           # 发电商相对大盘：缺电定价权
     ("ratio.ceg_xlu", "px.CEG", "px.XLU"),           # 发电商相对公用事业：AI 电力叙事
     ("ratio.gev_spx", "px.GEV", "px.SPX"),           # 电网设备相对大盘
+    # 第 2 批
+    ("ratio.emb_ief", "px.EMB", "px.IEF"),           # EM 主权债利差代理（危机总闸门）
+    ("ratio.qqq_qqew", "px.QQQ", "px.QQEW"),         # 纳指集中度（顶部结构）
+    ("ratio.ura_spx", "px.URA", "px.SPX"),           # 铀矿相对大盘
+    ("ratio.crland_hsi", "px.CRLAND", "px.HSI"),     # 地产幸存者相对恒指
+    ("ratio.gold_silver", "px.GOLD", "px.SILVER"),   # 金银比（回填版，compute() 的当日值与此一致）
 ]
 
 
@@ -137,4 +148,50 @@ def compute_series(store) -> list[dict]:
     s = store.series("cftc.jpy_net", 90)
     if len(s) >= 5:
         out.append({"key": "cftc.jpy_net_chg4w", "value": s[-1][1] - s[-5][1], "source": "derived", "asof": s[-1][0]})
+
+    # ---- 第 2 批派生 ----
+    # CNH 20/60 日均线（人民币趋势判断；现汇 CNH=X 无历史，用期货 CNH=F 序列）
+    s = store.series("px.CNHF", 120)
+    if len(s) >= 60:
+        vals = [v for _, v in s]
+        out.append({"key": "fx.cnh_ma20", "value": sum(vals[-20:]) / 20, "source": "derived", "asof": s[-1][0]})
+        out.append({"key": "fx.cnh_ma60", "value": sum(vals[-60:]) / 60, "source": "derived", "asof": s[-1][0]})
+    # SOFR−EFFR 尖峰计数（近 21 个交易日 >10bp 的天数；2019-09 回购危机同款前兆）
+    sofr = dict(store.series("fed.sofr", 60))
+    effr = dict(store.series("fed.effr", 60))
+    common = sorted(set(sofr) & set(effr))[-21:]
+    if len(common) >= 10:
+        n = sum(1 for d in common if sofr[d] - effr[d] > 0.10)
+        out.append({"key": "fed.sofr_spikes_1m", "value": float(n), "source": "derived", "asof": common[-1]})
+    # SOMA 4 周变化（≥0 = QT 实质结束）
+    s = store.series("fed.soma_total", 60)
+    if len(s) >= 5:
+        out.append({"key": "fed.soma_chg4w", "value": s[-1][1] - s[-5][1], "source": "derived", "asof": s[-1][0]})
+    # 星座在轨数 90 天净增（绝对差）
+    for key, dst in (("space.starlink_count", "space.starlink_chg90"), ("space.kuiper_count", "space.kuiper_chg90"),
+                     ("space.asts_count", "space.asts_chg90")):
+        s = store.series(key, 120)
+        if len(s) >= 2:
+            base = next((v for d, v in s if d <= (datetime_shift(s[-1][0], -90))), s[0][1])
+            out.append({"key": dst, "value": s[-1][1] - base, "source": "derived", "asof": s[-1][0]})
+    # 金价与 10Y 实际收益率的 60 日日度变化相关性（>0 = 负相关失效 = 换锚信号）
+    g = dict(store.series("px.GOLD", 150))
+    r = dict(store.series("ust.real10y", 150))
+    common = sorted(set(g) & set(r))
+    if len(common) >= 61:
+        dg = [g[common[i]] - g[common[i - 1]] for i in range(1, len(common))][-60:]
+        dr = [r[common[i]] - r[common[i - 1]] for i in range(1, len(common))][-60:]
+        n = len(dg)
+        mg, mr = sum(dg) / n, sum(dr) / n
+        cov = sum((a - mg) * (b - mr) for a, b in zip(dg, dr))
+        vg = sum((a - mg) ** 2 for a in dg) ** 0.5
+        vr = sum((b - mr) ** 2 for b in dr) ** 0.5
+        if vg and vr:
+            out.append({"key": "dedollar.gold_realrate_corr60", "value": cov / (vg * vr), "source": "derived",
+                        "asof": common[-1], "meta": {"note": "60 日日度变化相关性；正常 <-0.3，>0=央行购金主导定价"}})
     return out
+
+
+def datetime_shift(date_str: str, days: int) -> str:
+    from datetime import datetime as _dt, timedelta as _td
+    return (_dt.strptime(date_str, "%Y-%m-%d") + _td(days=days)).strftime("%Y-%m-%d")
