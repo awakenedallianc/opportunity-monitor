@@ -16,3 +16,6 @@ docs/reports/
 data/raw/
 data/checkpoint.json
 .claude/
+# 构建产物（由 templates/assets 复制而来）
+docs/assets/app.css
+docs/assets/app.js
