@@ -1,6 +1,234 @@
 # 方法论知识库（由学习周期维护）。每条 = 一句话教训 + 本站怎么用 + 可核验来源。
 # 规则：最多 60 条；超出时把 rank 最靠后的移到 knowledge_archive.yaml；同义合并，不堆砌。
 # 字段：id title takeaway action applies_to(ai|product|ux|monitor|dataviz|growth) source_name url added rank
-version: 1
-updated: 2026-09-21
-lessons: []
+version: 2
+updated: '2026-09-21'
+lessons:
+- id: L001
+  title: 解释为了看懂，不为了完整；点开再看细节
+  takeaway: 默认只给决策相关的一句，好奇的人再逐层点开；渐进披露最多两层，超过两层用户会迷路。
+  action: 每个模块默认只显结论+一句原因；层级压成两层：规则表直接内嵌现值/阈值/还差，抽屉只留 1 张图+1 句白话；展开按钮写明下一层是什么（「看 115 条规则的现值」）；加三档视图开关（只看结论/结论+证据/全部），默认最简，记 localStorage；把「默认折叠」写进设计规范。
+  applies_to: ux
+  source_name: Google PAIR — Explainability + Trust；NN/g — Progressive Disclosure
+  url: https://pair.withgoogle.com/guidebook-v2/chapter/explainability-trust/
+  added: '2026-09-21'
+  rank: 1
+- id: L002
+  title: 用户只读页面 20–28% 的字
+  takeaway: NN/g 眼动数据：平均只读 20% 的字；页面 ≤111 字时才可能读完一半；每多 100 字只多花 4.4 秒。
+  action: 字数硬预算：首屏可见文本 ≤111 字、一句话结论 ≤30 字、每张状态卡 ≤40 字、「报告怎么说」≤50 字。renderOverview 是客户端渲染，巡检时用浏览器工具量 innerText；若把结论文案挪到 Python 侧生成，则纯脚本检查，超标写进 PROGRESS.md。
+  applies_to: ux
+  source_name: Nielsen Norman Group — How Little Do Users Read?
+  url: https://www.nngroup.com/articles/how-little-do-users-read/
+  added: '2026-09-21'
+  rank: 2
+- id: L003
+  title: 置信度用三档，不要假精确的百分比
+  takeaway: 数字置信度要求用户懂概率，多数人不懂；高/中/低配动作提示更好；允许说「不确定」而不是硬凑结论。
+  action: 综合判定卡改成高/中/低三档，各配一句动作（可以按报告基线动 / 再等一天 / 别动）；首屏不出现 73.4% 这类数字，数值只在指标抽屉里给；允许输出「数据不足，今天不判定」。
+  applies_to: monitor
+  source_name: Google PAIR — Explainability + Trust；OpenAI Model Spec
+  url: https://pair.withgoogle.com/guidebook-v2/chapter/explainability-trust/
+  added: '2026-09-21'
+  rank: 3
+- id: L004
+  title: 空状态三原则：为什么空、什么时候会有、现在能做什么
+  takeaway: 容器不留白，一句话说明状态，借机教功能，并给直接的行动入口。
+  action: app.js 里 10 处「无数据」+3 处「暂无」统一改三段式：原因（「PortWatch 今天没更新」）+ 何时会有（「通常次日 09:00 曼谷」）+ 动作（「看上次值 ▸」「看替代指标 ▸」）。今日触发为 0 时挂进已有 nearRules：「今天 0 条触发，离阈值最近的是 X，还差 Y%」。
+  applies_to: ux
+  source_name: Nielsen Norman Group — Designing Empty States in Complex Applications
+  url: https://www.nngroup.com/articles/empty-state-interface-design/
+  added: '2026-09-21'
+  rank: 4
+- id: L005
+  title: 加载反馈：<1s 什么都别显示；2–10s 用骨架屏；离线也能看昨天结论
+  takeaway: 1 秒内加指示器反而扰人；骨架屏要模仿最终版式；预取要尊重 Save-Data。
+  action: 修正诊断：站点不 fetch latest.json，而是把全部数据内联进 2.76MB 的 index.html + echarts 1MB，泰国 4G 首屏被拖慢。做法：site.py 只内联核心数据（状态条/判定/触发/一句话结论 <100KB），其余写 latest-full.json 首屏后再取；echarts 延后加载；navigator.connection.saveData
+    时热力图退化为表格；图表容器固定高度静态骨架块（不脉冲）；sw.js 让离线也能看昨天结论。
+  applies_to: ux
+  source_name: Nielsen Norman Group — Skeleton Screens 101；web.dev — Prefetching & precaching
+  url: https://www.nngroup.com/articles/skeleton-screens/
+  added: '2026-09-21'
+  rank: 5
+- id: L006
+  title: 信任来自「完整、正确、当前」，每个数据点带来源与更新时间
+  takeaway: 过期或不完整内容让人觉得不可靠；敢链到外部来源是自信的表现；数据来源、更新时间是仪表盘元数据三件套。
+  action: app.js 目前 0 处「备用源」、0 处「曼谷」时间戳，降级源（CoinGecko→Binance、FRED→财政部曲线）对用户是静默的。简明模式每个 tile/状态卡/规则行加「09-21 08:00 曼谷 · CoinGecko ↗」；任何源超过 24h 没更新变灰并写「X 源停更 2 天」；降级明写「今天用备用源」；页脚固定「本次构建 X，下次 Y」。
+  applies_to: ux
+  source_name: Nielsen Norman Group — Trust or Bust；Microsoft HAX Guideline 2
+  url: https://www.nngroup.com/articles/communicating-trustworthiness/
+  added: '2026-09-21'
+  rank: 6
+- id: L007
+  title: 留存：回访奖励应是「信息差」而非分数；不做 streak
+  takeaway: Duolingo 的 streak 断了会赶走用户；CURR（7 天内回访率）影响最大；留存靠明确的核心动作。
+  action: 不做 streak、不做积分。lastVisit 已存在，做首屏第一行「你 3 天没来：期间 2 条新触发、1 条解除、BTC −4.1%」；定义核心动作 =「看完一句话结论 + 点开一条触发」，要求 ≤2 次点击可达，成为每期巡检项；localStorage 记 visits[]。
+  applies_to: ux
+  source_name: Lenny's Newsletter — How Duolingo reignited user growth；Reforge — Retention Is The Silent Killer
+  url: https://www.lennysnewsletter.com/p/how-duolingo-reignited-user-growth
+  added: '2026-09-21'
+  rank: 7
+- id: L008
+  title: 讲好处，不讲技术；一开始说清能做什么不能做什么，并有一页「怎么算」
+  takeaway: PAIR：Set the right expectations、Explain the benefit not the technology；538 靠公开方法论页建立可信度。
+  action: 'app.js 现在 0 处「关于/投资建议/免责」。首屏第一行改成一句好处「每天帮你看三大风险有没有变、要不要动」，「115 条规则/146 源/机读」全部挪到新增 #tab-method「怎么算」（≤300 字：数据从哪来 / 规则怎么判 / 不做什么 / 已知限制含泰国网络 / 报错入口 Issues 预填），并引用 Anthropic 与 O''Reilly 说明「为什么不用大模型」。'
+  applies_to: ux
+  source_name: Google PAIR — Patterns；FiveThirtyEight — How Our Model Works；Anthropic — Building Effective Agents
+  url: https://pair.withgoogle.com/guidebook-v2/patterns
+  added: '2026-09-21'
+  rank: 8
+- id: L009
+  title: 把推理步骤摊开给用户看：这不是 AI 猜的，是固定规则算的
+  takeaway: 显式展示系统的推理步骤（transparency）；LLM 的解释常不忠实，而规则算出的解释可完全可信；局限说明必须配动作。
+  action: 每条触发规则旁固定三行白话（用的哪个数据 / 阈值多少 / 今天的值），rules.yaml 每条已有 plain/label/value，纯模板生成；UI 加一句「这不是 AI 猜的，是固定规则算的」作为差异化；局限配动作：「价格延迟约 15 分钟，盘中别据此下单」；证据紧贴断言放，不放页脚。
+  applies_to: monitor
+  source_name: Nielsen Norman Group — Explainable AI in Chat Interfaces；Anthropic — Building Effective Agents
+  url: https://www.nngroup.com/articles/explainable-ai/
+  added: '2026-09-21'
+  rank: 9
+- id: L010
+  title: 数字与排版规范：标签并进数值、标题写结论、等宽数字右对齐、行长受控
+  takeaway: 能从上下文看懂的数据不加标签；图表标题说结论；去尾零、同列小数位一致；tabular figures；正文行长 50–75 字符。
+  action: stripTile「BTC 现价 63,210」→「BTC 6.3万 ▲1.8% 今天」；规则表「距离阈值 4.2%」→「还差 4.2% 触发」；百分比去尾零、同列小数位一致；数值列加 .num 右对齐；ECharts 轴标签 rotate=0 且 textStyle 指定等宽字体；正文块 max-width 34em。注意中文用户用 万/亿 而非 k/m/b。
+  applies_to: ux
+  source_name: Refactoring UI；Datawrapper — Text in data visualizations；Material 3 — Applying type；Baymard — Line Length
+  url: https://refactoringui.com/previews/labels-are-a-last-resort
+  added: '2026-09-21'
+  rank: 10
+- id: L011
+  title: 手机表格：锁首列、只留 2–3 列、明示可横滚
+  takeaway: 横滚时固定行标签列和表头；复杂表手机上只放 2–3 列；用截断/箭头提示可横滚，小圆点常被忽略。
+  action: rulesTableFull 与 watchTable 在 ≤600px 只显示「规则 / 现值 / 还差」，规则名列 position:sticky;left:0（app.css 已有 sticky 用法可复用）；右缘渐隐遮罩提示可横滚；「阈值/报告/首次触发」放进点击展开行；按报告分组用 details 手风琴。
+  applies_to: ux
+  source_name: Nielsen Norman Group — Mobile Tables
+  url: https://www.nngroup.com/articles/mobile-tables/
+  added: '2026-09-21'
+  rank: 11
+- id: L012
+  title: 聚焦、有主张的界面能赢；往老界面里塞新功能会失败
+  takeaway: a16z 复盘：赢家是有主张、聚焦的界面；把新体验塞进原有界面没有一个真正突破；专精一件事。
+  action: 学习循环硬规则：首页模块上限 6 个，加一必减一；新亮点先做独立入口+一句话说明，观察两周（localStorage 计数）没人点就下线；只做三篇报告的三个主题，不做通用金融看板。这是防「越学越臃肿」的闸门。
+  applies_to: product
+  source_name: a16z — State of Consumer AI 2025；a16z — Notes on AI Apps in 2026
+  url: https://a16z.com/state-of-consumer-ai-2025-product-hits-misses-and-whats-next/
+  added: '2026-09-21'
+  rank: 12
+- id: L013
+  title: 通用免责声明是背景噪音，不确定要说具体
+  takeaway: 一直挂着的「AI 可能出错」没人看；有效的是具体的不确定表达、分档置信度、来源展示、把矛盾当信号亮出来；robotext 防误读。
+  action: 不挂全站「仅供参考」，改在具体判定旁写原因（「两个价格源今天差 3%，可信度降为中」）；多源/多规则矛盾时标「今天有矛盾」而不是取平均；判定卡下一句 robotext「来自 115 条里 X 条触发，30 天翻转 N 次，单日变化不代表趋势」；预测市场 tile 加「30% = 10 次约 3 次」；触发行加「触发 ≠ 建议买卖」。
+  applies_to: ux
+  source_name: Nielsen Norman Group — AI Hallucinations；FiveThirtyEight 2020 Forecast showcase
+  url: https://www.nngroup.com/articles/ai-hallucinations/
+  added: '2026-09-21'
+  rank: 13
+- id: L014
+  title: 首次使用：不做前置教程，把帮助放到用到的那一刻
+  takeaway: 读过前置教程的人任务成功率并不更高，反而觉得更难；帮助在情境中给；先给价值再要信息，问了偏好就必须用上。
+  action: 不做欢迎弹窗。综合判定卡/基线区间条/热力图三处标题旁放 ? 小图标，点开一句白话（≤30 字）+「不再提示」；第二次访问顶部一个可跳过的单选「最关心：加密/AI/战争」，选后必须真的置顶该主线（问了不用会伤信任）。
+  applies_to: ux
+  source_name: Nielsen Norman Group — Onboarding Tutorials vs. Contextual Help；Growth.Design — Blinkist onboarding
+  url: https://www.nngroup.com/articles/onboarding-tutorials/
+  added: '2026-09-21'
+  rank: 14
+- id: L015
+  title: 反馈：任务完成后再问、按钮不打字、封闭题、按模块统计；每期只问 3 个问题
+  takeaway: NN/g：在互动发生处问、一分钟内、封闭题+可选开放题；NPS 说不清原因；错误分析用二元对错归成 <10 类，≤20 条样本就够。
+  action: 每张状态卡/触发行底部两个 28px 按钮「看懂了/没看懂」与「对/错」，单击记录存 localStorage；设置里「复制我的反馈」+ GitHub Issues 预填链接；每期 LOOP 第一步读反馈按模块统计，归 <10 类只做第一名；每期只问用户 3 个「讲讲上一次你…」问题写入 user_needs；RSS 摄入加基础断言（feed 为空/日期异常/重复率）。
+  applies_to: ux
+  source_name: Nielsen Norman Group — User-Feedback Requests；NN/g — Interview Guide；Lenny's — Building eval systems (Hamel & Shreya)
+  url: https://www.nngroup.com/articles/user-feedback/
+  added: '2026-09-21'
+  rank: 15
+- id: L016
+  title: 红绿不可靠：状态必须有第二编码；柱从 0 起、手机图例放图上
+  takeaway: 蓝/橙对色盲最安全；唯一可靠办法是再加形状/符号/直接标注；Material：柱从 0 基线开始、粗体只给 1–2 个关键元素。
+  action: '触发/接近/未触发三态加形状与文字（▲触发实心、半实心、灰空心）；热力图每格显示 ±%；storyChart/condBar 柱 min=0；≤600px 图例 top:0；图内只加粗一个标注；设置里加「色盲友好」配色（蓝 #2563eb / 橙 #ea580c），复用已有 green-up/red-up 开关。'
+  applies_to: dataviz
+  source_name: Datawrapper — Visualizing data for colorblind readers；Material Design — Data visualization
+  url: https://www.datawrapper.de/blog/colorblindness-part2
+  added: '2026-09-21'
+  rank: 16
+- id: L017
+  title: 对比度硬指标 4.5:1 / 3:1，触控目标 ≥44px，字号用 rem
+  takeaway: WCAG 1.4.3/1.4.11：文字 ≥4.5:1、图形元素 ≥3:1，不四舍五入；Apple HIG：控件 ≥44pt、文字可放大 200%、尊重 Reduce Motion。
+  action: app.css 实测有 11px/12px 字号、0 处 rem、min-height 仅 8 处。写 scripts/check_contrast.py 从 app.css 读 --ink/--muted/--up/--down 两套主题算 WCAG 比值，低于阈值构建报警；bottombar/tabs/按钮 min-height:44px，规则行整行可点；字号改 rem 让手机放大生效；动画挂在已有
+    prefers-reduced-motion 下。
+  applies_to: product
+  source_name: W3C — Understanding SC 1.4.3 / 1.4.11；Apple HIG — Accessibility
+  url: https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html
+  added: '2026-09-21'
+  rank: 17
+- id: L018
+  title: 通知与每日摘要：只发有价值的、同一件事不发两次、没变化就静默
+  takeaway: Apple HIG：内容简短有信息量；避免为同一件事发多条；用户决定送达时间。
+  action: 只有「新触发/解除/阶段翻转/数据源失效」才发，否则当天不发；同一规则连续触发不重复推；模板 = 一句话结论 + ≤3 条变化 + 链接，≤80 字；site.py 构建时生成 docs/feed.xml（Atom）；站内新触发用 bottombar 小圆点不弹窗。修正：GitHub Pages 无法「让用户定时间」，真正可定时的通道是 Actions 后的 ntfy/Telegram/邮件（见
+    gaps）。
+  applies_to: ux
+  source_name: Apple Human Interface Guidelines — Notifications
+  url: https://developer.apple.com/design/human-interface-guidelines/notifications
+  added: '2026-09-21'
+  rank: 18
+- id: L019
+  title: 引用要能一键看到原句，主动提示「哪里可能错」；引用是责任不是装饰
+  takeaway: 用户几乎不点引用链接；深链原句才会引发核查。AAAI 2025 实验：哪怕引用是随机的，带引用就显得可信——所以坏引用是欺骗。
+  action: 新闻给「原句+发布时间」预览；判定卡加「复核」（跳原始数据源）与「反方证据」（把规则 when 条件取反生成「若 X 跌回 Y 之下此条解除」，不需 LLM）；分层新闻按 feeds.yaml 已有 tier 排序而非时间；每期抽查 10 条引用 + 20 条分层结果，坏链下线；RSS 摄入校验链接可达性。
+  applies_to: ux
+  source_name: Nielsen Norman Group — AI Chatbots Discourage Error Checking；Ding et al. — Citations and Trust (AAAI 2025)；Anthropic — Multi-agent research system
+  url: https://www.nngroup.com/articles/ai-chatbots-discourage-error-checking/
+  added: '2026-09-21'
+  rank: 19
+- id: L020
+  title: 评估要当成架构，信任是瓶颈，先定「可接受的错误」
+  takeaway: evaluation became architecture, trust became the bottleneck；上线前先定错到什么程度可接受；让用户知道系统多常出错。
+  action: store.py 目前无回溯/命中率，但已有约 400 天快照。建「判定回溯表」：opportunity/warning/invalidation（74 条）触发后 7/30 天自动回看是否命中，全规则表加「历史命中率 / 数据新鲜度」两列；连续下滑自动标「待复核」成为学习周期输入；写明可接受错误「误报可以，漏报大事不行」。这是学习循环唯一的量化闭环。
+  applies_to: product
+  source_name: Google Cloud Blog — Lessons from 2025 on agents and trust；Microsoft HAX Guideline 2
+  url: https://cloud.google.com/transform/ai-grew-up-and-got-a-job-lessons-from-2025-on-agents-and-trust
+  added: '2026-09-21'
+  rank: 20
+- id: L021
+  title: 没过评估不上线，PM 要自己定验收标准
+  takeaway: vibe check 不够，AI 产品没通过有意图的评估就不该上线；写评估是 PM 核心技能。
+  action: 用户以 PM 身份定 3 条验收标准写进 learning/knowledge.yaml：首屏 10 秒内说出今天该不该动；任何数字一键找到来源；手机不横向滚动。LOOP 第 5 步发布前逐条对照，未过不发布；把「体验巡检」从软性变硬性。
+  applies_to: product
+  source_name: Lenny's Newsletter — Beyond vibe checks (Aman Khan)
+  url: https://www.lennysnewsletter.com/p/beyond-vibe-checks-a-pms-complete
+  added: '2026-09-21'
+  rank: 21
+- id: L022
+  title: Changelog：每条 = 日期 + 一句标题 + 为什么重要，固定标签，站内
+  takeaway: Linear/Notion/Stripe 的 changelog 让「产品在进步」可感知，并让阈值改动可追溯。
+  action: learning/log.md 已有固定每期格式，直接生成 docs/changelog.html；固定标签「新功能/改进/数据修正/规则阈值调整」，凡改 rules.yaml 阈值必须进 changelog；设置弹层加「新功能 →」入口，localStorage 记 seenChangelog 版本，有新条目显示小圆点。让用户看得见学习系统每期做了什么。
+  applies_to: ux
+  source_name: Linear Changelog；Notion Releases；Stripe API Changelog
+  url: https://linear.app/changelog
+  added: '2026-09-21'
+  rank: 22
+- id: L023
+  title: 区间条要标明是什么区间，并抵消「条内更可信」偏差
+  takeaway: 读者天然认为落在区间内的值更可能；要标注是 2 年区间还是置信区间，并检查手机上标注不重叠。
+  action: rangeBar() 加一行 12px 图例「灰条 = 过去 2 年区间 · ▽ = 报告写作时 · ● = 现在」，当前值直接标数字；灰条 30% 透明；旁边半句「超出区间不等于异常，只是两年没见过」；375px 下检查 ▽ 与 ● 不重叠。
+  applies_to: dataviz
+  source_name: Datawrapper Blog — Confidence intervals and value markers
+  url: https://www.datawrapper.de/blog/confidence-intervals-value-markers-bar-charts
+  added: '2026-09-21'
+  rank: 23
+- id: L024
+  title: 模型会说你想听的：问功能想法前先要反方意见，每期只改一个变量
+  takeaway: sycophancy：模型为讨好而顺着用户改答案；对策是先要反方、每期新开会话、标把握度与假设；评估就是科学方法：看→标→猜→改→量。
+  action: LOOP.md 硬约束：用户提功能想法，Claude 先给「不做的理由/会带来的复杂度」再给方案；候选打分先独立后看偏好；每期新会话只读知识库事实；每条建议标把握度（高/中/低）与依赖假设；每期只改一个变量（阈值/数据源/文案三选一）并用命中率量结果；20 条样本就够开始。
+  applies_to: ai
+  source_name: Nielsen Norman Group — Sycophancy in Generative-AI Chatbots；Eugene Yan — eval process；OpenAI Model Spec
+  url: https://www.nngroup.com/articles/sycophancy-generative-ai-chatbots/
+  added: '2026-09-21'
+  rank: 24
+- id: L025
+  title: 知识库要「最少的高信号信息」，会话之间靠结构化笔记接力；工具少而准、输出说人话
+  takeaway: 用最少的高信号信息达成结果，按需加载；长任务靠交接笔记保持记忆；工具返回人能读懂的内容而不是 ID。
+  action: learning/index.md 每条一行（日期/结论/链接）；每期结束必写交接笔记（做了什么/待验证/下次先看什么）；会话开始只读 index + 交接笔记；准备 3–4 个脚本工具（拉最近触发记录、RSS 新增摘要、回溯命中率、发布前检查），输出规则名/日期/白话不输出内部 ID。注意：「syncdata 注入」是一建 App 的规则，与本站无关。
+  applies_to: ai
+  source_name: Anthropic Engineering — Effective context engineering；Anthropic — Writing effective tools for agents
+  url: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+  added: '2026-09-21'
+  rank: 25

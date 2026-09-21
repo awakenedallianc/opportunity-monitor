@@ -64,14 +64,14 @@
 - 顺手修的数据 bug：`fetchers/yahoo.py` 连续期货 chg1d 用 Yahoo previousClose 出现 +67%/+131% 假值 → 偏离 >15% 判无效回退日线
 - 可能的后续（等用户反馈）：DEFS 白话定义只覆盖 ~50 个指标，其余回退到 labelOf；催化剂重要度暂按类别静态打分（无共识/实际值）；热力图尺寸权重 IMPORTANCE 是手工表。
 
-### 进行中（2026-09-21 10:30 曼谷）：学习循环系统（定期自动学习 → 新功能模块 + AI/互联网产品方法论）
+### 已完成（2026-09-21 14:10 曼谷）：学习循环系统（定期自动学习 → 新功能模块 + AI/互联网产品方法论）
 - 用户指令："继续在网络学习研究相关信息，做成一个定期自动化学习的系统（时间我来调控），不断循环更新、接收新信息、增加亮点功能模块，同时学习如何做 AI 产品和互联网产品，提升用户全方位体验感。"
 - 设计（两条车道）：
   1. 无 LLM 车道（免费、每日随云端/本机跑）：`scripts/learn_intake.py` 从 `learning/sources.yaml` 抓 RSS → 去重写入 `learning/inbox/YYYY-MM.jsonl` → 关键词打标 → 渲染 `docs/learn.html`（学习页，任何电脑可读）
   2. LLM 车道（用户定周期，桌面 App 计划任务 `learning-loop`）：按 `learning/LOOP.md` 执行：读 inbox 新条目 + 现有站点 + backlog → agent 联网研究 → 更新 `learning/knowledge.yaml`（方法论/教训）与 `learning/backlog.yaml`（功能模块，打分排序）→ 视情况实现 1 个小模块 → 写 `learning/log.md` 周期日志 → 提交推送
 - 研究工作流（首轮内容）：`wf_54965116-677`（journal 在 subagents/workflows/wf_54965116-677/journal.jsonl），结果要写到 data/raw/learning_seed.json 再填入 learning/*.yaml
 - 若中断：先看 data/raw/learning_seed.json 是否已生成；已生成则直接填 learning/*.yaml 并渲染；未生成则读 journal.jsonl 拼接
-- 步骤状态：[~] 工作流（后台跑中） [x] learning/ 骨架 [x] intake 脚本（首跑 19/24 源 ok，368 条） [x] 学习页 docs/learn.html（主站导航「学习 ↗」） [x] daily.yml + local_boot 接入 [x] 计划任务 `learning-loop`（默认每周日 20:00，用户可改） [x] scripts/release.py 一键发布 + HANDOVER.md 交接证书 + CLAUDE.md [ ] 工作流结果填入 knowledge/backlog/sources 并再发一版
+- 步骤状态：[x] 工作流（15 agents 完成，结果 data/raw/learning_seed.json） [x] learning/ 骨架 [x] intake 脚本（首跑 19/24 源 ok，368 条） [x] 学习页 docs/learn.html（主站导航「学习 ↗」） [x] daily.yml + local_boot 接入 [x] 计划任务 `learning-loop`（默认每周日 20:00，用户可改） [x] scripts/release.py 一键发布 + HANDOVER.md 交接证书 + CLAUDE.md [x] 已填入：来源 65（64 可抓）、方法论 25、功能候选 19（F003「自上次访问以来」标为下期做）；LOOP.md 追加研究补充（坑/打分/空白主题）
 - 用户追加要求（2026-09-21）："每更新一版自动上传 GitHub，同时完成一个交接证书，可在其他 Claude Code 账户里衔接继续开发" → 已由 release.py（自动推送+标签+Release+刷新 HANDOVER.md 版本戳）与 CLAUDE.md（任何账户自动加载）满足
 
 ## 已知限制（泰国网络）
@@ -95,5 +95,6 @@ powershell -ExecutionPolicy Bypass -File scripts\install_task.ps1
 ```
 
 ## 变更日志
+- 2026-09-21：学习循环系统 v1（learn_intake / learn_page / LOOP.md / release.py / HANDOVER.md / CLAUDE.md / 计划任务 learning-loop）；首轮研究填入 65 源 / 25 方法论 / 19 候选
 - 2026-09-21：简明模式按 Top-10 核心功能重写（app.js/app.css/index.html.j2 搜索框）；yahoo 连续期货 chg1d 假值修复；store.py 云端重建库后 first_fired 延续（此前云端每次把全部触发标成"新"）
 - 2026-09-20 项目创建；报告→规则；首轮运行；计划任务；断点续跑；部署修正；数据复核修正（进行中）

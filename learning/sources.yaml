@@ -1,30 +1,660 @@
 # 学习摄入来源（无 LLM 车道每天抓）。字段：name / site_url / feed_url / topics（第一个是主分组）/ language / cadence / why / enabled
 # 主分组取值：product ai ux growth design china finance dataviz crypto macro forecasting changelog engineering
 # 增删来源不需要改代码；抓不到的源会在 learning/inbox/status.json 里标 error，学习周期会决定替换或删除。
-version: 1
-updated: 2026-09-21
+version: 2
+updated: '2026-09-21'
 sources:
-  - {name: "Lenny's Newsletter", site_url: https://www.lennysnewsletter.com, feed_url: https://www.lennysnewsletter.com/feed, topics: [product, growth], language: en, cadence: weekly, why: 产品经理方法论的事实标准，AI PM 专题多}
-  - {name: "a16z", site_url: https://a16z.com, feed_url: https://a16z.com/feed/, topics: [ai, product], language: en, cadence: weekly, why: AI 应用层与市场结构观点}
-  - {name: "Stratechery", site_url: https://stratechery.com, feed_url: https://stratechery.com/feed/, topics: [product, ai], language: en, cadence: weekly, why: 互联网商业模式与战略分析}
-  - {name: "Nielsen Norman Group", site_url: https://www.nngroup.com, feed_url: https://www.nngroup.com/feed/rss/, topics: [ux], language: en, cadence: weekly, why: 可用性研究的权威，AI UX 系列}
-  - {name: "Smashing Magazine", site_url: https://www.smashingmagazine.com, feed_url: https://www.smashingmagazine.com/feed/, topics: [design, ux], language: en, cadence: daily, why: 前端与设计实践}
-  - {name: "UX Collective", site_url: https://uxdesign.cc, feed_url: https://uxdesign.cc/feed, topics: [ux, design], language: en, cadence: daily, why: 设计师社区，案例多}
-  - {name: "Andrew Chen", site_url: https://andrewchen.com, feed_url: https://andrewchen.com/feed/, topics: [growth], language: en, cadence: monthly, why: 增长与网络效应}
-  - {name: "Benedict Evans", site_url: https://www.ben-evans.com, feed_url: "https://www.ben-evans.com/benedictevans?format=rss", topics: [product, ai], language: en, cadence: weekly, why: 科技行业结构性观察}
-  - {name: "Every", site_url: https://every.to, feed_url: https://every.to/feed.xml, topics: [ai, product], language: en, cadence: daily, why: AI 时代的工作与产品实践}
-  - {name: "Latent Space", site_url: https://www.latent.space, feed_url: https://www.latent.space/feed, topics: [ai, engineering], language: en, cadence: weekly, why: AI 工程师视角的产品与模型动态}
-  - {name: "The Pragmatic Engineer", site_url: https://newsletter.pragmaticengineer.com, feed_url: https://newsletter.pragmaticengineer.com/feed, topics: [engineering, product], language: en, cadence: weekly, why: 工程团队如何做产品}
-  - {name: "Simon Willison", site_url: https://simonwillison.net, feed_url: https://simonwillison.net/atom/everything/, topics: [ai, engineering], language: en, cadence: daily, why: LLM 工具与实践的一线记录}
-  - {name: "OpenAI News", site_url: https://openai.com/news, feed_url: https://openai.com/news/rss.xml, topics: [ai], language: en, cadence: daily, why: 模型与产品发布}
-  - {name: "Hacker News (best)", site_url: https://news.ycombinator.com/best, feed_url: https://hnrss.org/best, topics: [engineering, ai], language: en, cadence: daily, why: 技术社区高票内容}
-  - {name: "Product Hunt", site_url: https://www.producthunt.com, feed_url: https://www.producthunt.com/feed, topics: [product], language: en, cadence: daily, why: 新产品与功能灵感}
-  - {name: "Datawrapper Blog", site_url: https://blog.datawrapper.de, feed_url: https://blog.datawrapper.de/feed/, topics: [dataviz], language: en, cadence: weekly, why: 图表怎么做得好读}
-  - {name: "FlowingData", site_url: https://flowingdata.com, feed_url: https://flowingdata.com/feed/, topics: [dataviz], language: en, cadence: daily, why: 数据可视化案例}
-  - {name: "The Pudding", site_url: https://pudding.cool, feed_url: https://pudding.cool/feed/index.xml, topics: [dataviz], language: en, cadence: monthly, why: 视觉叙事标杆}
-  - {name: "Glassnode Insights", site_url: https://insights.glassnode.com, feed_url: https://insights.glassnode.com/rss/, topics: [crypto], language: en, cadence: weekly, why: 链上数据研究}
-  - {name: "Coin Metrics", site_url: https://coinmetrics.substack.com, feed_url: https://coinmetrics.substack.com/feed, topics: [crypto], language: en, cadence: weekly, why: State of the Network}
-  - {name: "少数派", site_url: https://sspai.com, feed_url: https://sspai.com/feed, topics: [china, product], language: zh, cadence: daily, why: 中文数字生活与效率产品}
-  - {name: "人人都是产品经理", site_url: https://www.woshipm.com, feed_url: https://www.woshipm.com/feed, topics: [china, product], language: zh, cadence: daily, why: 中文产品经理社区}
-  - {name: "机器之心", site_url: https://www.jiqizhixin.com, feed_url: https://www.jiqizhixin.com/rss, topics: [china, ai], language: zh, cadence: daily, why: 中文 AI 资讯}
-  - {name: "36氪", site_url: https://36kr.com, feed_url: https://36kr.com/feed, topics: [china, product], language: zh, cadence: daily, why: 中文科技商业}
+- name: Anthropic News (unofficial mirror)
+  site_url: https://www.anthropic.com/news
+  feed_url: https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml
+  topics:
+  - ai
+  language: en
+  cadence: weekly
+  why: Anthropic 官方无 RSS，用 GitHub 镜像；条目是旧到新排序，解析要按 pubDate 排；备用 https://rsshub.bestblogs.dev/anth
+  verified: '2026-09-18'
+- name: Ben's Bites
+  site_url: https://www.bensbites.com/
+  feed_url: https://www.bensbites.com/feed
+  topics:
+  - ai
+  - product
+  language: en
+  cadence: weekly
+  why: 「用 agent 做产品」的实践笔记与工具推荐，直接产出功能候选灵感。
+  verified: '2026-09-17'
+- name: Benedict Evans – Essays
+  site_url: https://www.ben-evans.com/
+  feed_url: https://www.ben-evans.com/benedictevans?format=rss
+  topics:
+  - ai
+  - product
+  language: en
+  cadence: 每 6–8 周
+  why: AI 与工具变革的宏观判断，文章少但每篇值得进知识库。
+  verified: '2026-09-03'
+- name: Claude Blog (unofficial RSS)
+  site_url: https://claude.com/blog
+  feed_url: https://tim-hilde.github.io/anthropic-rss/rss.xml
+  topics:
+  - ai
+  - product
+  language: en
+  cadence: weekly
+  why: Claude 产品改版与企业案例，直接对标「如何做 AI 产品」。
+  verified: '2026-09-17'
+- name: Google — The Keyword (AI)
+  site_url: https://blog.google/technology/ai/
+  feed_url: https://blog.google/technology/ai/rss/
+  topics:
+  - ai
+  - product
+  language: en
+  cadence: daily
+  why: Google 官方 AI 板块，Gemini 等产品功能发布。
+  verified: '2026-09-18'
+- name: Hacker News — Best
+  site_url: https://news.ycombinator.com/best
+  feed_url: https://hnrss.org/best
+  topics:
+  - ai
+  - product
+  language: en
+  cadence: daily
+  why: Best 榜比首页噪音低，可加 ?points=200 再过滤。
+  verified: '2026-09-20'
+- name: Latent Space (AINews)
+  site_url: https://www.latent.space/
+  feed_url: https://www.latent.space/feed
+  topics:
+  - ai
+  language: en
+  cadence: daily
+  why: 每日 AI 行业动态摘要，一条 feed 覆盖当天 AI 圈发生了什么。
+  verified: '2026-09-19'
+- name: One Useful Thing (Ethan Mollick)
+  site_url: https://www.oneusefulthing.org/
+  feed_url: https://www.oneusefulthing.org/feed
+  topics:
+  - ai
+  language: en
+  cadence: monthly
+  why: AI 能力与实际工作用法的白话解读，非程序员也能读懂。
+  verified: '2026-09-18'
+- name: OpenAI News
+  site_url: https://openai.com/news/
+  feed_url: https://openai.com/news/rss.xml
+  topics:
+  - ai
+  - product
+  language: en
+  cadence: daily
+  why: 官方 feed 200 条，产品发布与案例是 AI 产品交互的参照系；量大需过滤。
+  verified: '2026-09-21'
+- name: Simon Willison's Weblog
+  site_url: https://simonwillison.net/
+  feed_url: https://simonwillison.net/atom/everything/
+  topics:
+  - ai
+  language: en
+  cadence: daily
+  why: LLM 工具与新模型第一时间实测；量大，需关键词过滤。
+  verified: '2026-09-20'
+- name: The Intercom Blog
+  site_url: https://www.intercom.com/blog/
+  feed_url: https://www.intercom.com/blog/feed/
+  topics:
+  - ai
+  - ux
+  - product
+  language: en
+  cadence: weekly
+  why: AI Agent 用户体验研究（2026 AI Sentiment Report），用户对 AI 功能的真实态度数据。
+  verified: '2026-09-09'
+- name: The Pragmatic Engineer
+  site_url: https://newsletter.pragmaticengineer.com/
+  feed_url: https://newsletter.pragmaticengineer.com/feed
+  topics:
+  - ai
+  - product
+  language: en
+  cadence: weekly
+  why: AI 编码 agent 与工程实践一线报道，了解 Claude Code 等工具怎么被团队用。
+  verified: '2026-09-17'
+- name: The Product Compass (Paweł Huryn)
+  site_url: https://www.productcompass.pm/
+  feed_url: https://www.productcompass.pm/feed
+  topics:
+  - ai
+  - product
+  language: en
+  cadence: weekly
+  why: 一步步的 AI 产品 playbook，非程序员可照做；feed 只露 1 条。
+  verified: '2026-09-14'
+- name: The a16z Show (podcast)
+  site_url: https://a16z.com/podcasts/
+  feed_url: https://feeds.simplecast.com/JGE3yC0V
+  topics:
+  - ai
+  - growth
+  language: en
+  cadence: weekly
+  why: a16z 文章 feed 已全部 404，仅播客可用；非 AI 集数多，按标题关键词过滤，只摄入标题+节目笔记。
+  verified: '2026-09-20'
+- name: 36氪
+  site_url: https://36kr.com/
+  feed_url: https://www.36kr.com/feed
+  topics:
+  - china
+  - product
+  - ai
+  language: zh
+  cadence: daily
+  why: 必须用 www 主机；不带 www 的地址海外/国内都返回火山引擎安全检测页。
+  verified: '2026-09-21'
+- name: InfoQ 中文
+  site_url: https://www.infoq.cn/
+  feed_url: https://www.infoq.cn/feed
+  topics:
+  - china
+  - ai
+  - finance
+  language: zh
+  cadence: daily
+  why: AI 在金融/工程落地的中文技术视角（如金融 NL2SQL）。
+  verified: '2026-09-21'
+- name: 人人都是产品经理
+  site_url: https://www.woshipm.com/
+  feed_url: https://www.woshipm.com/feed
+  topics:
+  - china
+  - product
+  language: zh
+  cadence: daily
+  why: 中文产品经理社区；海外抓取偶发 ECONNREFUSED，脚本要重试退避；备用 /rss；GitHub 镜像已停更勿用。
+  verified: '2026-09-21'
+- name: 少数派
+  site_url: https://sspai.com/
+  feed_url: https://sspai.com/feed
+  topics:
+  - china
+  - product
+  - ai
+  language: zh
+  cadence: daily
+  why: 中文效率与产品体验社区，白话讲工具与 AI 用法，与用户阅读习惯最接近。
+  verified: '2026-09-21'
+- name: 极客公园
+  site_url: https://www.geekpark.net/
+  feed_url: https://www.geekpark.net/rss
+  topics:
+  - china
+  - ai
+  - product
+  language: zh
+  cadence: daily
+  why: 中文科技/AI 产品深度报道与访谈。
+  verified: '2026-09-21'
+- name: 爱范儿
+  site_url: https://www.ifanr.com/
+  feed_url: https://www.ifanr.com/feed
+  topics:
+  - china
+  - product
+  language: zh
+  cadence: daily
+  why: 中文消费科技与产品体验评测。
+  verified: '2026-09-21'
+- name: 量子位
+  site_url: https://www.qbitai.com/
+  feed_url: https://www.qbitai.com/feed
+  topics:
+  - china
+  - ai
+  language: zh
+  cadence: daily
+  why: 中文 AI 资讯，国内大模型/产品动态首选。
+  verified: '2026-09-21'
+- name: Coin Metrics – State of the Network
+  site_url: https://coinmetrics.substack.com/
+  feed_url: https://coinmetrics.substack.com/feed
+  topics:
+  - crypto
+  - macro
+  - finance
+  language: en
+  cadence: weekly
+  why: 每期一个可量化主题（BTC 与宏观相关性），可直接转化为规则阈值；feed 约 1MB 含全文。
+  verified: '2026-09-15'
+- name: Ecoinometrics
+  site_url: https://ecoinometrics.substack.com/
+  feed_url: https://ecoinometrics.substack.com/feed
+  topics:
+  - crypto
+  - macro
+  - dataviz
+  - finance
+  language: en
+  cadence: 每周 3 篇
+  why: 每篇一张图+三段话讲 ETF 流与 BTC，正是本站 ETF 流指标的解读模板。
+  verified: '2026-09-18'
+- name: Glassnode Research
+  site_url: https://research.glassnode.com/
+  feed_url: https://research.glassnode.com/rss/
+  topics:
+  - crypto
+  - finance
+  language: en
+  cadence: weekly
+  why: 链上指标的基线区间与触发判定方法论；Cloudflare 对 Chrome/feedparser UA 返回 403，脚本须用 curl/8.x 或 FeedFetcher-Goo
+  verified: '2026-09-17'
+- name: Datawrapper Blog
+  site_url: https://www.datawrapper.de/blog/
+  feed_url: https://www.datawrapper.de/blog/feed/
+  topics:
+  - dataviz
+  - ux
+  language: en
+  cadence: weekly
+  why: 新闻级金融图表规范（文字、颜色、区间条）；feed 200 条，只解析前 N 条。
+  verified: '2026-09-17'
+- name: Datawrapper Blog
+  site_url: https://blog.datawrapper.de
+  feed_url: https://blog.datawrapper.de/feed/
+  topics:
+  - dataviz
+  language: en
+  cadence: weekly
+  why: 图表怎么做得好读
+  verified: '2026-09-21'
+- name: FT Visual & Data Journalism
+  site_url: https://www.ft.com/visual-and-data-journalism
+  feed_url: https://www.ft.com/visual-and-data-journalism?format=rss
+  topics:
+  - dataviz
+  - finance
+  - macro
+  language: en
+  cadence: weekly
+  why: 金融图表行业天花板，「持续更新的追踪器」范例；WebFetch 被拒，用 curl/feedparser 正常。
+  verified: '2026-09-18'
+- name: FlowingData
+  site_url: https://flowingdata.com/
+  feed_url: https://flowingdata.com/feed/
+  topics:
+  - dataviz
+  language: en
+  cadence: daily
+  why: 每日数据可视化点评，金融/宏观图表表达的灵感库。
+  verified: '2026-09-18'
+- name: Grafana Labs Blog
+  site_url: https://grafana.com/blog/
+  feed_url: https://grafana.com/blog/index.xml
+  topics:
+  - dataviz
+  - changelog
+  - product
+  language: en
+  cadence: weekly
+  why: 监控仪表盘的告警分级、状态条、面板布局模式，本站本质是规则触发的监控面板；pubDate 无时区，按 UTC 解析。
+  verified: '2026-09-14'
+- name: Nightingale (Data Visualization Society)
+  site_url: https://nightingaledvs.com/
+  feed_url: https://nightingaledvs.com/feed/
+  topics:
+  - dataviz
+  - ux
+  language: en
+  cadence: weekly
+  why: 数据可视化协会期刊，图表设计方法，对应「少图但每张图要对」。
+  verified: '2026-09-14'
+- name: Our World in Data
+  site_url: https://ourworldindata.org/
+  feed_url: https://ourworldindata.org/atom.xml
+  topics:
+  - dataviz
+  - macro
+  language: en
+  cadence: weekly
+  why: 开源图表系统的设计与文案范式：默认白话、每图一句标题、可下载数据。
+  verified: '2026-09-21'
+- name: Storytelling with Data
+  site_url: https://www.storytellingwithdata.com/blog
+  feed_url: https://www.storytellingwithdata.com/blog?format=rss
+  topics:
+  - dataviz
+  - ux
+  language: en
+  cadence: weekly
+  why: 用数据讲故事、少图少字的方法，直接对应「一句话结论」模块。
+  verified: '2026-09-18'
+- name: The Economist – Graphic detail
+  site_url: https://www.economist.com/graphic-detail
+  feed_url: https://www.economist.com/graphic-detail/rss.xml
+  topics:
+  - dataviz
+  - macro
+  - finance
+  language: en
+  cadence: weekly
+  why: 「一图一结论」，标题本身就是结论句，直接学「一句话结论」写法；用 curl/feedparser 抓。
+  verified: '2026-09-18'
+- name: The Pudding
+  site_url: https://pudding.cool/
+  feed_url: https://pudding.cool/rss.xml
+  topics:
+  - dataviz
+  language: en
+  cadence: monthly
+  why: 滚动叙事与「故事图」标杆，每篇一个可拆解的交互模式；适合周/月级研究会话。
+  verified: '2026-08-04'
+- name: The Pudding
+  site_url: https://pudding.cool
+  feed_url: https://pudding.cool/feed/index.xml
+  topics:
+  - dataviz
+  language: en
+  cadence: monthly
+  why: 视觉叙事标杆
+  verified: '2026-09-21'
+- name: Visual Capitalist
+  site_url: https://www.visualcapitalist.com/
+  feed_url: https://www.visualcapitalist.com/feed/
+  topics:
+  - dataviz
+  - finance
+  - macro
+  language: en
+  cadence: daily
+  why: '面向散户的排名/榜单信息图，热力图和日历模块的视觉参考；标题模板 Ranked:/Charted: 可复用。'
+  verified: '2026-09-20'
+- name: Smashing Magazine
+  site_url: https://www.smashingmagazine.com/
+  feed_url: https://www.smashingmagazine.com/feed/
+  topics:
+  - design
+  - ux
+  language: en
+  cadence: weekly
+  why: 前端与界面设计实践，CSS/响应式技巧可直接用到 GitHub Pages 前端。
+  verified: '2026-09-16'
+- name: FT Alphaville
+  site_url: https://www.ft.com/alphaville
+  feed_url: https://www.ft.com/rss/alphaville
+  topics:
+  - finance
+  - macro
+  language: en
+  cadence: daily
+  why: 市场解读的白话化范本，语气轻、字少、结论先行；该地址 301 到 ?format=rss，抓取要跟随跳转。
+  verified: '2026-09-21'
+- name: Quantocracy
+  site_url: https://quantocracy.com/
+  feed_url: http://feeds.feedburner.com/Quantocracy
+  topics:
+  - finance
+  - macro
+  language: en
+  cadence: 每 2 天 1 期
+  why: 量化博客聚合器，一个源覆盖数十个量化博客，从中挑可转化为规则的研究。
+  verified: '2026-09-17'
+- name: Above the Fold (Manifold Markets)
+  site_url: https://news.manifold.markets/
+  feed_url: https://news.manifold.markets/feed
+  topics:
+  - forecasting
+  - changelog
+  - product
+  language: en
+  cadence: weekly
+  why: 预测市场产品更新与实验，预测市场 UX 的一手迭代记录。
+  verified: '2026-09-15'
+- name: Forecasting Research Institute
+  site_url: https://forecastingresearch.substack.com/
+  feed_url: https://forecastingresearch.substack.com/feed
+  topics:
+  - forecasting
+  language: en
+  cadence: monthly
+  why: 灾难风险与 AI 预测方法，对「大国战争风险」「AI 十年」规则复核最有针对性。
+  verified: '2026-09-11'
+- name: Good Judgment (Superforecasting)
+  site_url: https://goodjudgment.com/
+  feed_url: https://goodjudgment.com/feed/
+  topics:
+  - forecasting
+  language: en
+  cadence: monthly
+  why: 超级预测者 vs 预测市场的校准数据，可用于预测市场指标的可信度加权。
+  verified: '2026-09-09'
+- name: The Oracle by Polymarket
+  site_url: https://news.polymarket.com/
+  feed_url: https://news.polymarket.com/feed
+  topics:
+  - forecasting
+  - finance
+  language: en
+  cadence: weekly
+  why: Polymarket 唯一可抓的官方渠道，解读赔率大幅变动，是预测市场板块「为什么变了」的文案来源。
+  verified: '2026-09-18'
+- name: Andrew Chen
+  site_url: https://andrewchen.com
+  feed_url: https://andrewchen.com/feed/
+  topics:
+  - growth
+  language: en
+  cadence: monthly
+  why: 增长与网络效应
+  verified: '2026-09-21'
+- name: Andrew Chen (Substack)
+  site_url: https://andrewchen.substack.com/
+  feed_url: https://andrewchen.substack.com/feed
+  topics:
+  - growth
+  - ai
+  language: en
+  cadence: sparse (几篇/年)
+  why: AI 时代留存专题（《The coming product retention crisis》）；一年几篇，进月度汇总。
+  verified: '2026-09-08'
+- name: Elena's Growth Scoop (Elena Verna)
+  site_url: https://www.elenaverna.com/
+  feed_url: https://www.elenaverna.com/feed
+  topics:
+  - growth
+  - product
+  language: en
+  cadence: weekly
+  why: PLG/留存/变现的实战增长模型，给增长类模块打分时的标准来源。
+  verified: '2026-09-11'
+- name: BIS Working Papers
+  site_url: https://www.bis.org/wpapers/
+  feed_url: https://www.bis.org/doclist/wppubls.rss
+  topics:
+  - macro
+  - crypto
+  - finance
+  language: en
+  cadence: weekly
+  why: 与三大主题重合（霍尔木兹船流、稳定币）；端点约 40% 概率返回 404 HTML，须重试 2–3 次，HTML 视为暂时故障。
+  verified: '2026-09-17'
+- name: Bank Underground (Bank of England)
+  site_url: https://bankunderground.co.uk/
+  feed_url: https://bankunderground.co.uk/feed/
+  topics:
+  - macro
+  language: en
+  cadence: weekly
+  why: 货币政策传导的实证短文，校准利率曲线类规则的解释与阈值。
+  verified: '2026-09-17'
+- name: Bridgewater – Research & Insights
+  site_url: https://www.bridgewater.com/research-and-insights
+  feed_url: https://www.bridgewater.com/research-and-insights.rss
+  topics:
+  - macro
+  - forecasting
+  - finance
+  language: en
+  cadence: monthly
+  why: 用于「AI 时代十年」规则的季度复核；feed 只保留 2 条，必须本地持久化历史。
+  verified: '2026-09-09'
+- name: CalculatedRisk Newsletter
+  site_url: https://calculatedrisk.substack.com/
+  feed_url: https://calculatedrisk.substack.com/feed
+  topics:
+  - macro
+  - finance
+  language: en
+  cadence: daily
+  why: 标题即数据点的极简格式，可作催化剂日历自动填充数据发布日的来源；旧 feedburner 已停更。
+  verified: '2026-09-18'
+- name: FRED Blog
+  site_url: https://fredblog.stlouisfed.org/
+  feed_url: https://fredblog.stlouisfed.org/feed/
+  topics:
+  - macro
+  - dataviz
+  - finance
+  language: en
+  cadence: 每周 2 篇
+  why: 「一张 FRED 图+三段白话」是指标抽屉文案的直接模板，每篇附序列 ID 可即时加入数据管线。
+  verified: '2026-09-17'
+- name: Liberty Street Economics (NY Fed)
+  site_url: https://libertystreeteconomics.newyorkfed.org/
+  feed_url: https://libertystreeteconomics.newyorkfed.org/feed/
+  topics:
+  - macro
+  - finance
+  language: en
+  cadence: weekly
+  why: 纽约联储博客，每篇一个可复现图表与数据源，关联去美元化与利率路径规则；feed 2.8MB，只解析前 N 条。
+  verified: '2026-09-18'
+- name: The Macro Compass
+  site_url: https://themacrocompass.substack.com/
+  feed_url: https://themacrocompass.substack.com/feed
+  topics:
+  - macro
+  - finance
+  language: en
+  cadence: low (2026 年仅 4 篇)
+  why: 利率/流动性规则的解释材料；放周汇总，预期长间隔。
+  verified: '2026-07-13'
+- name: Lenny's Newsletter
+  site_url: https://www.lennysnewsletter.com/
+  feed_url: https://www.lennysnewsletter.com/feed
+  topics:
+  - product
+  - growth
+  - ai
+  language: en
+  cadence: weekly
+  why: PM/增长方法论第一大源，onboarding/留存/AI 产品案例最密集；免费 feed 只露 4 条，要每周抓。
+  verified: '2026-09-20'
+- name: Product Growth (Aakash Gupta)
+  site_url: https://www.news.aakashg.com/
+  feed_url: https://www.news.aakashg.com/feed
+  topics:
+  - product
+  - ai
+  - growth
+  language: en
+  cadence: weekly
+  why: AI 公司产品团队工具栈与 PM 实操拆解；feed 只露 2 条，需每周抓。
+  verified: '2026-09-14'
+- name: Product Hunt
+  site_url: https://www.producthunt.com/
+  feed_url: https://www.producthunt.com/feed
+  topics:
+  - product
+  language: en
+  cadence: daily
+  why: 每日 50 条新产品，扫「别人做了什么亮点功能」；只取标题+一句话。
+  verified: '2026-09-19'
+- name: Product Talk (Teresa Torres)
+  site_url: https://www.producttalk.org/
+  feed_url: https://www.producttalk.org/feed/
+  topics:
+  - product
+  - ai
+  language: en
+  cadence: weekly
+  why: 持续发现与 AI evals 落地方法，教你怎么验证一个功能该不该做。
+  verified: '2026-09-17'
+- name: SVPG (Marty Cagan)
+  site_url: https://www.svpg.com/
+  feed_url: https://www.svpg.com/feed/
+  topics:
+  - product
+  language: en
+  cadence: monthly
+  why: 《Inspired》作者的产品判断原则，用来校准「做什么、不做什么」；实际约每月 1 篇。
+  verified: '2026-09-11'
+- name: Stratechery
+  site_url: https://stratechery.com/
+  feed_url: https://stratechery.com/feed/
+  topics:
+  - product
+  - ai
+  language: en
+  cadence: daily
+  why: 科技/AI 战略分析，理解产品背后的商业逻辑。
+  verified: '2026-09-18'
+- name: The Beautiful Mess (John Cutler)
+  site_url: https://cutlefish.substack.com/
+  feed_url: https://cutlefish.substack.com/feed
+  topics:
+  - product
+  language: en
+  cadence: weekly
+  why: 产品开发流程与团队决策的深度短文，补「怎么排功能优先级」。
+  verified: '2026-09-19'
+- name: Vercel News
+  site_url: https://vercel.com/blog
+  feed_url: https://vercel.com/atom
+  topics:
+  - product
+  - design
+  language: en
+  cadence: weekly
+  why: 前端产品发布与 changelog 写法的范本。
+  verified: '2026-09-18'
+- name: Y Combinator Blog
+  site_url: https://www.ycombinator.com/blog
+  feed_url: https://www.ycombinator.com/blog/rss
+  topics:
+  - product
+  - growth
+  language: en
+  cadence: low (3 个月无新文)
+  why: 创业方法与 YC 观点，低噪音；已 3 个月没更新，下次核查若仍无新文则停用。
+  verified: '2026-06-16'
+- name: Interaction Design Foundation — UX Daily
+  site_url: https://www.interaction-design.org/literature/articles
+  feed_url: https://ixdf.org/rss/site_news.xml
+  topics:
+  - ux
+  - design
+  language: en
+  cadence: daily
+  why: 基础 UX 原则与启发式；旧域名已 301 到 ixdf.org。
+  verified: '2026-09-20'
+- name: Nielsen Norman Group
+  site_url: https://www.nngroup.com/
+  feed_url: https://www.nngroup.com/feed/rss/
+  topics:
+  - ux
+  - ai
+  language: en
+  cadence: weekly
+  why: UX 研究权威，「字太多看不懂」类可用性问题的标准答案；注意知识库里 NN/g 占比别超 30%。
+  verified: '2026-09-18'
+- name: UX Collective (Medium)
+  site_url: https://uxdesign.cc/
+  feed_url: https://uxdesign.cc/feed
+  topics:
+  - ux
+  - design
+  - ai
+  language: en
+  cadence: daily
+  why: 最大 UX 社区刊物，AI 界面设计讨论最活跃。
+  verified: '2026-09-20'

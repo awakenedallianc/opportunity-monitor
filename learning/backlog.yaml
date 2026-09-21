@@ -2,6 +2,318 @@
 # status：candidate 候选 | planned 下期做 | building 在做 | done 已上线 | dropped 放弃（写明原因）
 # 每期最多新增 5 条；每期只把 1 条设为 planned/building；done 的保留 90 天后移到 backlog_archive.yaml。
 # 字段：id name what why first_version seen_at[] effort(1-5) value(1-5) needs_llm risk_words(0-3) data_ok status added notes
-version: 1
-updated: 2026-09-21
-features: []
+version: 2
+updated: '2026-09-21'
+features:
+- id: F001
+  name: 每日一条推送（ntfy 优先，Server酱/Telegram 备选）
+  what: 每天云端跑完后，把「一句话结论 + 今天新触发的规则（最多 5 条）+ 一个链接」推到手机，不用打开网站。
+  why: Glassnode/Wind/雪球都把「到点提醒」做成核心功能：信息来找人。ntfy 一条 curl 即可推送、无需注册、支持 Click 动作和附件；Server酱免费版每天 5 条；Telegram Bot 免费。
+  first_version: 'daily.yml 末尾加一步 curl -H ''Click: 站点URL'' -d "$(python scripts/push_text.py)" ntfy.sh/$NTFY_TOPIC；push_text.py 取 verdict 一句 + is_new 规则 plain（≤5 条），无新触发只发「今天没变化」；用户手机装 ntfy App 订阅 topic
+    即可。'
+  seen_at:
+  - https://docs.ntfy.sh/publish/
+  - https://sct.ftqq.com/
+  - https://github.com/appleboy/telegram-action
+  - https://studio.glassnode.com/alerts
+  effort: 2
+  value: 5
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：全部已有：docs/data/latest.json 的 verdict 一句话 + 今日 is_new 规则的 plain 字段；daily.yml 末尾加一步 curl，topic 放 GitHub Secrets。 ｜ 字多风险：低。模板硬限「结论 1 句 + 最多 5 条白话 + 链接」，无新触发只发「今天没变化」一行。
+- id: F002
+  name: 关键日子导出到手机日历（.ics 订阅）
+  what: 一个「加到日历」按钮，把未来 90 天的解锁/FOMC/法案/选举等关键日子做成 .ics 订阅链接，iPhone/Google 日历自动更新。
+  why: Investing.com 只能一个一个加，TradingView 日历没有任何导出/订阅功能；本站一次订阅整份日历是大站没做的差异点，关键日子前一天手机自动提醒。
+  first_version: site.py 构建时用标准库写 docs/calendar.ics（未来 90 天，SUMMARY≤20 字，DESCRIPTION=note 一句，VALARM 提前 1 天）；催化剂日历标题旁一个「加到手机日历」链接 webcal://awakenedallianc.github.io/opportunity-monitor/calendar.ics。
+  seen_at:
+  - https://www.investing-support.com/hc/en-us/articles/115003955789-How-to-Add-Economic-Calendar-Events-to-Your-Personal-Calendar
+  - https://www.tradingview.com/support/solutions/43000707391-tradingview-calendar-key-economic-and-corporate-events/
+  effort: 1
+  value: 4
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：全部已有：config/calendar.yaml → 构建时生成 docs/calendar.ics（Python 标准库），GitHub Pages 直接托管。 ｜ 字多风险：无。事件标题 ≤20 字，描述 1 句。
+- id: F003
+  name: 「自上次访问以来」变化条
+  what: 打开网站先看到一行「离你上次来 3 天，变了 4 件事」，点开只列这 4 件（新触发/解除的规则、跨过基线的指标、新出现的关键日子）。
+  why: Google Drive「Catch me up」、Miro「Catch up」、Linear「Pulse」都解决「隔几天回来不知道该看哪里」；按用户自己的缺席时长算差异，比「今日触发」更贴身。Google 版靠 Gemini 且仅付费，本站是纯 diff。
+  first_version: 不做新模块，把已实现的「自昨日变化 chips」的「昨日」改成「上次访问」：localStorage 记 last_seen；只在缺席 ≥2 天时显示一行「离上次 N 天，变了 M 件事」，点开 ≤5 条。
+  seen_at:
+  - https://workspaceupdates.googleblog.com/2025/06/catch-me-up-in-google-drive.html
+  - https://help.miro.com/hc/en-us/articles/24002895569298-Catch-up
+  - https://linear.app/changelog/2025-04-16-pulse
+  effort: 2
+  value: 5
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: planned
+  added: '2026-09-21'
+  notes: 第 1 期计划实现（纯前端 diff，不需新数据）。 ｜ 数据：已有：latest.json 的 alerts_history 与 rules[].first_fired；localStorage 记 last_seen；客户端比较即可，不需新数据。 ｜ 字多风险：低，且是减字功能：只显示差异，默认折叠，最多 5 条。
+- id: F004
+  name: 离线 PWA + 安装到主屏幕
+  what: 网站可「安装」成手机图标，断网也能打开上次的数据；打开时如有新数据自动换。
+  why: 用户在泰国工地/出差网络不稳，PWA 让站点像 App 一样有图标、秒开、离线可读；本站已是单文件内联数据，一次缓存即可完整离线。
+  first_version: manifest.json（scope 与 start_url 必须写 /opportunity-monitor/）+ 约 40 行 sw.js 只缓存 index.html 与 echarts（stale-while-revalidate）；离线时顶部一行「显示的是 X 月 X 日数据」；「安装到手机」按钮只在 beforeinstallprompt 触发时显示。
+  seen_at:
+  - https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
+  - https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/
+  effort: 2
+  value: 4
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：无新数据。manifest.json + 约 40 行 service worker（stale-while-revalidate），GitHub Pages 已是 HTTPS。 ｜ 字多风险：无。只多一个「安装到手机」小按钮和离线时一行「显示的是 X 月 X 日数据」。
+- id: F005
+  name: 极简「三个数字」页 /now.html
+  what: 一个只有三行的页面：三条主线各一个状态灯 + 一个数字 + 一句话，加到手机主屏当小组件用。
+  why: iPhone 股票小组件证明「不打开 App 也能瞄一眼」的需求；秒开、无滚动、大字的页面加到主屏效果接近，也是「字太多」反馈的极端解法。
+  first_version: site.py 多渲染一个模板：三主线各一个状态灯 + 一个数字 + 一句话 + 更新日期，无 JS、无图、无滚动；底部一个「打开完整版」链接；与 PWA 组合成主屏快捷方式。
+  seen_at:
+  - https://support.apple.com/guide/iphone/use-a-stocks-widget-iphd2f15d06e/ios
+  effort: 1
+  value: 3
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：全部已有（简明模式三张状态卡的数据子集），构建时多渲染一个模板。 ｜ 字多风险：无，全站字最少的页面。
+- id: F006
+  name: 新闻「同一件事」折叠
+  what: 把 146 个源里报道同一件事的标题合并成一条「霍尔木兹船流下降（6 家报道）」，点开才看各家。
+  why: Google News「Full Coverage」把同一事件多源报道归组，是它区别于普通 RSS 阅读器的核心；直接解决「新闻太多、都是重复」，且「几家在报」本身是重要度信号。
+  first_version: news.py 后处理：英文标题小写去停用词后 token 集合 Jaccard≥0.5 且 48h 内 → 同簇；中文用 2-gram 集合同法；簇标题取 tier 最低那条，显示「（N 家）」，点开才列其余；不合并跨语言。
+  seen_at:
+  - https://uxdesign.cc/google-news-the-full-coverage-feature-d83a9e92b714
+  - https://blog.google/products/news/new-google-news-ai-meets-human-intelligence/
+  effort: 2
+  value: 4
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：已有新闻归档。news.py 目前只按 link 的 sha1 去重，没有标题聚类；无 LLM 方案：标题分词后 Jaccard ≥0.5 且 48 小时内 → 同簇。 ｜ 字多风险：无，减字功能：新闻条数通常减 40–60%。注意中英文标题不会互相聚簇，「N 家」是同语种计数，文案别夸大。
+- id: F007
+  name: 一分钟朗读（浏览器自带中文语音）
+  what: 一个「听」按钮，用手机/电脑自带中文语音把「一句话结论 + 今天最重要 5 条 + 明天关键日子」读出来，约 60 秒。
+  why: Bloomberg 加 text-to-audio 后每次打开平均听 6 篇（2018 年数据，别当新趋势引用）；Substack 朗读、Linear Daily Pulse 证明「通勤/工地时用耳朵」是刚需。对「字太多」的用户，这是不用看字的方案。
+  first_version: 一个「听」按钮，speechSynthesis 朗读 verdict + 今日最重要 5 条 plain + 明天关键日子；数字用正则转成「六万零三百」；找不到 zh 声音就隐藏按钮。
+  seen_at:
+  - https://digiday.com/media/bloomberg-text-to-audio/
+  - https://support.substack.com/hc/en-us/articles/7265753724692-How-do-I-listen-to-a-Substack-post
+  - https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API
+  effort: 2
+  value: 3
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：全部已有。Web Speech API speechSynthesis 选 lang 以 zh 开头的声音；文本就是简明模式的白话句子拼接。 ｜ 字多风险：无（减字）。数字要转成读得顺的形式。
+- id: F008
+  name: 「为什么」解释链——只补第三层（报告原文引用）
+  what: 点任一条判定逐层展开：白话「因为 X 超过了 Y」→ 阈值/现值/来源时间 → 报告原文那一段。前两层已实现，只缺原文引用。
+  why: Google Finance「key moments」和 Robinhood「Cortex Digests」卖点都是「不只告诉你动了，还告诉你为什么」；能追到原文这一步是「信不信这个站」的关键。
+  first_version: rules.yaml 加 report_quote 字段，由 LLM 车道一次性从 data/raw/*_text.txt 摘 ≤3 句，先做 priority 1 的规则；前端在抽屉「报告依据」下折叠显示。
+  seen_at:
+  - https://www.robinhood.com/us/en/support/articles/cortex-digests-methodology
+  - https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/
+  - https://support.simplywall.st/hc/en-us/articles/360001740916-How-does-the-Snowflake-work
+  effort: 2
+  value: 5
+  needs_llm: false
+  risk_words: 1
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：第一、二层已有。第三层需一次性离线工作：rules.yaml 加 report_quote 字段，从 data/raw/*_text.txt 摘原文，由 LLM 车道会话一次做完，运行时不用 LLM。 ｜ 字多风险：中。必须默认折叠，原文引用 ≤3 句。
+- id: F009
+  name: 故事图上的事件标记
+  what: 在每主线唯一那张故事图上，把「规则触发日」和「关键日子」画成小圆点，点一下显示一句话。
+  why: TradingView 图上的财报/事件圆点、Google Finance「key moments」标注，把「价格为什么在这里拐」贴到图上，省去来回对照。本站已有触发日期，只是没画上去。
+  first_version: 每主线故事图上画最近 5 个规则触发日和已过去的关键日子为小圆点，tooltip 一句 plain；简明模式默认只显示触发日，专业模式加日历事件。
+  seen_at:
+  - https://www.tradingview.com/support/solutions/43000494799-how-can-i-enable-disable-colored-circles-of-earnings-splits-or-dividends-on-a-chart/
+  effort: 2
+  value: 4
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：已有：snapshots 的 first_fired 日期、calendar.yaml 过去事件；ECharts markPoint 原生支持。 ｜ 字多风险：低，不增加图的数量；圆点默认只显示最近 5 个。
+- id: F010
+  name: 一张图分享卡（今日判定卡 PNG）
+  what: 一键把「今天的一句话结论 + 三主线状态灯 + 3 个大数字 + 日期」生成一张手机竖版图片，可存图或发微信/Telegram。
+  why: TradingView 相机按钮、Bloomberg GRAB 都是「让分析可传播」的机制；群里发一张图比发链接更容易被看，站点变成社交货币。
+  first_version: 前端 Canvas 手绘 1080×1350 竖图：日期、一句话结论、三个状态灯、3 个大数字、站点短链；「存图」按钮 canvas.toBlob 下载；第二版再把图作为 ntfy 附件推送。
+  seen_at:
+  - https://www.tradingview.com/support/solutions/43000482537-how-to-share-a-snapshot/
+  - https://guides.nyu.edu/bloombergguide/popular-commands
+  effort: 2
+  value: 4
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：全部已有。前端 Canvas 手绘；放弃 Pillow 方案，GitHub 运行器需另装 CJK 字体（≥10MB）。 ｜ 字多风险：低。卡片固定 5 行以内，大字，只放状态灯和大数字，不放图表。
+- id: F011
+  name: 我的关注（第一版只做星标）
+  what: 给任意资产/规则点星，首页多一块「我的」区；第二版可选填个人阈值（如 BTC 跌破 60000），到点置顶提示并进每日推送。
+  why: Yahoo Finance、雪球「股价提醒」、TradingView 警报是各家留存最高的功能——用户设了阈值就会回来看。本站 115 条规则是作者的阈值，用户需要几条自己的。
+  first_version: 资产/规则旁 ☆，localStorage；首页「我的」区只列星标资产的价格与其今日触发规则（≤5 行）；阈值 + 推送第二版。
+  seen_at:
+  - https://help.yahoo.com/kb/SLN31006.html
+  - https://xueqiu.com/9243245648/29652947
+  - https://www.tradingview.com/support/solutions/43000520149-introduction-to-tradingview-alerts/
+  - https://www.koyfin.com/help/mywatchlists/
+  effort: 2
+  value: 4
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：星标：纯前端 localStorage。阈值推送：需写进仓库 config/my_alerts.yaml，每日跑时评估后走推送通道（第二版，effort 3）。 ｜ 字多风险：低。「我的」区无星标时不显示。
+- id: F012
+  name: 本站更新日志 + 规则变更记录
+  what: 一个「更新了什么」页：每次学习循环加了什么功能、改了哪条规则的阈值、哪个数据源换了，每条一行带日期。
+  why: Linear 把「产品在进步」变成用户可感知的事；对本站正是「定期自动学习系统」的成果展示窗，也让规则阈值改动可追溯。注意「60% 用户每月看 changelog」不在 Linear 页面，引用时删掉或换来源。
+  first_version: learn_page.py 顺手把 learning/log.md 渲染成 docs/changelog.html（最近 4 期，每条一行），主站导航加「更新了什么」；git diff 自动抽「规则 X 阈值 a→b」放第二版。
+  seen_at:
+  - https://www.notion.com/releases
+  - https://linear.app/changelog
+  - https://support.simplywall.st/hc/en-us/articles/7894830045199-What-s-New
+  effort: 1
+  value: 3
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：learning/log.md（LLM 车道每期写）+ git log 中 config/rules.yaml 的 diff。 ｜ 字多风险：低。每条一行，按周折叠，只显示最近 4 周。
+- id: F013
+  name: 推演记分卡（报告说 vs 实际）
+  what: 总览一行「报告写下 N 个数字判断，到今天已能验证 M 个，方向对 K 个」，点开看每条：报告怎么说 / 现在怎样 / 对或错或未到期。
+  why: Metaculus 公开 track record（Brier 0.111）是它可信度的来源；本站独有优势：三篇报告的判断是固定文本，可以被逐条打分，这是商业网站做不到的「推演可证伪」。
+  first_version: site.py 对 56 条 baseline 算「方向对 / 错 / 未到期」，首页一行「报告写下 56 个数字，已能验证 N 个，方向对 M 个」，明细放专业模式；claims.yaml 与人工判定第二版。
+  seen_at:
+  - https://www.metaculus.com/questions/track-record/
+  - https://www.metaculus.com/faq/
+  - https://predictionnews.com/news/study-reveals-nuance-behind-polymarket-90-percent-accuracy-rate/
+  effort: 2
+  value: 4
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：第一版只用已有 baseline.yaml（56 条数字判断）自动比对；日期类事件需 config/claims.yaml + 人工 resolved（第二版，effort 3）。 ｜ 字多风险：低。首页只一行分数；明细用「对 / 错 / 还没到时候」三个词，不用 Brier 这类术语。
+- id: F014
+  name: 首次引导（3 步，不用 Intro.js）
+  what: 第一次打开时用 3 个气泡告诉你：这行是今天结论、这三张卡是三条主线、右上角可切换简明/专业。可跳过，可在设置里重看。
+  why: 用户抱怨「看不懂」很多时候是不知道从哪看起，而不是内容难。Intro.js 是双许可（AGPLv3/商业），本站非商用可用但没必要引依赖。
+  first_version: 自写约 60 行高亮气泡，只 3 步（结论行 → 三张卡 → 右上角简明/专业切换），每步 ≤15 字，可跳过，localStorage 记完成，「设置」里可重看。
+  seen_at:
+  - https://introjs.com/
+  - https://github.com/usablica/intro.js
+  effort: 2
+  value: 3
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：无新数据。自写约 60 行高亮气泡。 ｜ 字多风险：低。每步 ≤15 字，共 3 步；完成状态存 localStorage。
+- id: F015
+  name: 我的判断日志（在规则旁记一句）
+  what: 任一规则或资产旁可写一句「我当时怎么想」，下次触发时旁边显示这句和当时的读数。
+  why: TradingView Text Notes、Simply Wall St Narratives 的核心是「写下并追踪自己的论点」；推演记分卡给报告打分，判断日志让用户也能给自己打分——投资者最缺的复盘工具。
+  first_version: 专业模式规则抽屉底部一个 50 字输入框，localStorage 存 {rule_id, date, text, 当时读数}；下次该规则触发时在抽屉顶部显示这句；导出/导入 JSON 换设备。
+  seen_at:
+  - https://www.tradingview.com/support/solutions/43000667881-how-to-create-a-text-note/
+  - https://support.simplywall.st/hc/en-us/articles/13416018054415-Getting-Started-with-Narratives
+  effort: 2
+  value: 3
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：无新数据。localStorage 存 {规则 id, 日期, 一句话, 当时读数}；提供导出/导入 JSON 换设备。 ｜ 字多风险：无。输入框限 50 字，默认折叠，只有写过的规则才显示铅笔图标。
+- id: F016
+  name: 预设问题芯片（搜索框下 4 个）
+  what: 搜索框下方放常问问题按钮，如「今天变了什么」「下周大事」，点一下跳到对应模块并高亮答案。
+  why: 同花顺问财、Messari AI 用「问一句话」降低门槛；本站运行时无 LLM，但用户会问的问题就那十几个，把「问」变成「点」效果接近且零成本、零幻觉。
+  first_version: 与已有搜索框（Ctrl+K）只做最小增量：搜索框下 4 个芯片（不是 8）「今天变了什么」「下周大事」「能买 BTC 吗」「油价怎么了」，点击滚动到对应模块并高亮 2 秒；映射写在 static.yaml 的 faq 列表。
+  seen_at:
+  - https://quant.10jqka.com.cn/view/dataplatform/detail/398
+  - https://messari.io/ai
+  - https://support.google.com/websearch/answer/16490185?hl=en
+  effort: 2
+  value: 3
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：无新数据。config/static.yaml 增 faq 列表：问题 → 目标模块锚点。 ｜ 字多风险：低。芯片 ≤10 字；答案就是已有模块，不新增文字。
+- id: F017
+  name: 时间机器（先做「昨天 / 一周前」两个按钮）
+  what: 回到某一天：当时的一句话结论、触发了什么、指标多少，用来复盘「报告和站点当时怎么说」；满 90 天后再做日期滑块。
+  why: TradingView Bar Replay 是付费转化最高的功能之一，用户用它复盘和练习；本站每天的 snapshot 都在 git 里，天然具备回放素材。
+  first_version: site.py 把 snapshots 压成 history.json，专业模式加「昨天 / 一周前」两个按钮切换渲染源；简明模式不显示；满 90 天后再做滑块。
+  seen_at:
+  - https://www.tradingview.com/support/solutions/43000474024-how-do-i-turn-bar-replay-on/
+  effort: 3
+  value: 3
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：已有 data/snapshots/*.json，但目前只有 2 天；构建时压成 history.json（每天 verdict + 规则状态）。 ｜ 字多风险：低。只在专业模式显示；简明模式不显示。
+- id: F018
+  name: 数据导出 CSV
+  what: 专业模式每个表格右上角一个「下载 CSV」，把规则表、基线对照表导出到 Excel。
+  why: Koyfin 允许从表格下载价格/表现数据（财报受授权限制不可下）；本站数据全免费反而更能放开导出；设计 brief 已列为未实现项。
+  first_version: 规则表与基线表右上角「下载 CSV」，前端 Blob 生成，UTF-8 带 BOM 保证 Excel 中文不乱码。
+  seen_at:
+  - https://www.koyfin.com/help/faq/can-i-download-data/
+  effort: 1
+  value: 2
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：全部已有（latest.json）。前端 Blob 生成 CSV。 ｜ 字多风险：无，只在专业模式显示一个小按钮。
+- id: F019
+  name: 规则触发后的历史表现（只做纯价格规则的回测）
+  what: 每条机会/风险规则旁一句：「过去 2 年触发 6 次，之后 20 天平均 +4.1%，5 次上涨」。
+  why: TradingView 策略测试器和 MacroMicro 回测是付费用户最常用功能；用户最想知道的不是「规则触发了」，而是「这规则以前灵不灵」。但 ETF 流/船流/赔率历史只有几个月，样本极少容易误导，所以只做纯价格切片。
+  first_version: scripts/backtest.py 只对纯价格规则在 history.sqlite 回放，写 rules[].track={n, avg20, up}；n<3 显示「触发不足 3 次，暂无统计」；只显示一句话并带「样本少、仅供参考」，仅专业模式。
+  seen_at:
+  - https://www.tv-hub.org/guide/tradingview-backtesting
+  - https://en.macromicro.me/subscribe
+  - https://predictionnews.com/news/study-reveals-nuance-behind-polymarket-90-percent-accuracy-rate/
+  effort: 2
+  value: 4
+  needs_llm: false
+  risk_words: 1
+  data_ok: true
+  status: candidate
+  added: '2026-09-21'
+  notes: 数据：已有约 2 年 Binance/Yahoo 价格历史（history.sqlite）。新增 scripts/backtest.py 只对 when 为纯价格 compare（px.*、dd52w.*、均线）的规则回放。 ｜ 字多风险：中。只显示一句话，仅专业模式，必须带「样本少、仅供参考」。

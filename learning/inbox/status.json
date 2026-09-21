@@ -1,10 +1,28 @@
 {
- "generated_at": "2026-09-21T06:31:56.239912+00:00",
- "sources": 24,
- "ok": 18,
- "new_items": 3,
- "duration_s": 7.1,
+ "generated_at": "2026-09-21T06:50:07.634104+00:00",
+ "sources": 65,
+ "ok": 64,
+ "new_items": 626,
+ "duration_s": 43.8,
  "status": [
+  {
+   "name": "36氪",
+   "feed_url": "https://www.36kr.com/feed",
+   "ok": true,
+   "items": 30,
+   "new": 30,
+   "last_item": "2026-09-21",
+   "error": null
+  },
+  {
+   "name": "Above the Fold (Manifold Markets)",
+   "feed_url": "https://news.manifold.markets/feed",
+   "ok": true,
+   "items": 20,
+   "new": 7,
+   "last_item": "2026-09-15",
+   "error": null
+  },
   {
    "name": "Andrew Chen",
    "feed_url": "https://andrewchen.com/feed/",
@@ -15,12 +33,102 @@
    "error": null
   },
   {
-   "name": "Benedict Evans",
+   "name": "Andrew Chen (Substack)",
+   "feed_url": "https://andrewchen.substack.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 1,
+   "last_item": "2026-09-08",
+   "error": null
+  },
+  {
+   "name": "Anthropic News (unofficial mirror)",
+   "feed_url": "https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml",
+   "ok": true,
+   "items": 13,
+   "new": 13,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
+   "name": "BIS Working Papers",
+   "feed_url": "https://www.bis.org/doclist/wppubls.rss",
+   "ok": true,
+   "items": 25,
+   "new": 7,
+   "last_item": "2026-09-17",
+   "error": null
+  },
+  {
+   "name": "Bank Underground (Bank of England)",
+   "feed_url": "https://bankunderground.co.uk/feed/",
+   "ok": true,
+   "items": 10,
+   "new": 9,
+   "last_item": "2026-09-17",
+   "error": null
+  },
+  {
+   "name": "Ben's Bites",
+   "feed_url": "https://www.bensbites.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 20,
+   "last_item": "2026-09-17",
+   "error": null
+  },
+  {
+   "name": "Benedict Evans – Essays",
    "feed_url": "https://www.ben-evans.com/benedictevans?format=rss",
    "ok": true,
    "items": 20,
    "new": 0,
    "last_item": "2026-09-03",
+   "error": null
+  },
+  {
+   "name": "Bridgewater – Research & Insights",
+   "feed_url": "https://www.bridgewater.com/research-and-insights.rss",
+   "ok": true,
+   "items": 2,
+   "new": 2,
+   "last_item": "2026-09-09",
+   "error": null
+  },
+  {
+   "name": "CalculatedRisk Newsletter",
+   "feed_url": "https://calculatedrisk.substack.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 20,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
+   "name": "Claude Blog (unofficial RSS)",
+   "feed_url": "https://tim-hilde.github.io/anthropic-rss/rss.xml",
+   "ok": true,
+   "items": 20,
+   "new": 20,
+   "last_item": "2026-09-17",
+   "error": null
+  },
+  {
+   "name": "Coin Metrics – State of the Network",
+   "feed_url": "https://coinmetrics.substack.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 0,
+   "last_item": "2026-09-15",
+   "error": null
+  },
+  {
+   "name": "Datawrapper Blog",
+   "feed_url": "https://www.datawrapper.de/blog/feed/",
+   "ok": true,
+   "items": 1073,
+   "new": 0,
+   "last_item": "2026-09-17",
    "error": null
   },
   {
@@ -33,6 +141,51 @@
    "error": null
   },
   {
+   "name": "Ecoinometrics",
+   "feed_url": "https://ecoinometrics.substack.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 20,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
+   "name": "Elena's Growth Scoop (Elena Verna)",
+   "feed_url": "https://www.elenaverna.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 4,
+   "last_item": "2026-09-11",
+   "error": null
+  },
+  {
+   "name": "FRED Blog",
+   "feed_url": "https://fredblog.stlouisfed.org/feed/",
+   "ok": true,
+   "items": 10,
+   "new": 10,
+   "last_item": "2026-09-17",
+   "error": null
+  },
+  {
+   "name": "FT Alphaville",
+   "feed_url": "https://www.ft.com/rss/alphaville",
+   "ok": true,
+   "items": 25,
+   "new": 25,
+   "last_item": "2026-09-21",
+   "error": null
+  },
+  {
+   "name": "FT Visual & Data Journalism",
+   "feed_url": "https://www.ft.com/visual-and-data-journalism?format=rss",
+   "ok": true,
+   "items": 25,
+   "new": 25,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
    "name": "FlowingData",
    "feed_url": "https://flowingdata.com/feed/",
    "ok": true,
@@ -42,16 +195,70 @@
    "error": null
   },
   {
-   "name": "Hacker News (best)",
+   "name": "Forecasting Research Institute",
+   "feed_url": "https://forecastingresearch.substack.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 5,
+   "last_item": "2026-09-11",
+   "error": null
+  },
+  {
+   "name": "Good Judgment (Superforecasting)",
+   "feed_url": "https://goodjudgment.com/feed/",
+   "ok": true,
+   "items": 10,
+   "new": 2,
+   "last_item": "2026-09-09",
+   "error": null
+  },
+  {
+   "name": "Google — The Keyword (AI)",
+   "feed_url": "https://blog.google/technology/ai/rss/",
+   "ok": true,
+   "items": 20,
+   "new": 20,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
+   "name": "Grafana Labs Blog",
+   "feed_url": "https://grafana.com/blog/index.xml",
+   "ok": true,
+   "items": 10,
+   "new": 10,
+   "last_item": null,
+   "error": null
+  },
+  {
+   "name": "Hacker News — Best",
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 0,
+   "new": 1,
    "last_item": "2026-09-20",
    "error": null
   },
   {
-   "name": "Latent Space",
+   "name": "InfoQ 中文",
+   "feed_url": "https://www.infoq.cn/feed",
+   "ok": true,
+   "items": 20,
+   "new": 20,
+   "last_item": "2026-09-21",
+   "error": null
+  },
+  {
+   "name": "Interaction Design Foundation — UX Daily",
+   "feed_url": "https://ixdf.org/rss/site_news.xml",
+   "ok": true,
+   "items": 20,
+   "new": 20,
+   "last_item": "2026-09-20",
+   "error": null
+  },
+  {
+   "name": "Latent Space (AINews)",
    "feed_url": "https://www.latent.space/feed",
    "ok": true,
    "items": 20,
@@ -69,11 +276,38 @@
    "error": null
   },
   {
+   "name": "Liberty Street Economics (NY Fed)",
+   "feed_url": "https://libertystreeteconomics.newyorkfed.org/feed/",
+   "ok": true,
+   "items": 100,
+   "new": 12,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
    "name": "Nielsen Norman Group",
    "feed_url": "https://www.nngroup.com/feed/rss/",
    "ok": true,
    "items": 20,
    "new": 0,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
+   "name": "Nightingale (Data Visualization Society)",
+   "feed_url": "https://nightingaledvs.com/feed/",
+   "ok": true,
+   "items": 12,
+   "new": 8,
+   "last_item": "2026-09-14",
+   "error": null
+  },
+  {
+   "name": "One Useful Thing (Ethan Mollick)",
+   "feed_url": "https://www.oneusefulthing.org/feed",
+   "ok": true,
+   "items": 20,
+   "new": 3,
    "last_item": "2026-09-18",
    "error": null
   },
@@ -87,16 +321,61 @@
    "error": null
   },
   {
+   "name": "Our World in Data",
+   "feed_url": "https://ourworldindata.org/atom.xml",
+   "ok": true,
+   "items": 10,
+   "new": 10,
+   "last_item": "2026-09-21",
+   "error": null
+  },
+  {
+   "name": "Product Growth (Aakash Gupta)",
+   "feed_url": "https://www.news.aakashg.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 14,
+   "last_item": "2026-09-14",
+   "error": null
+  },
+  {
    "name": "Product Hunt",
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 3,
+   "new": 6,
    "last_item": "2026-09-20",
    "error": null
   },
   {
-   "name": "Simon Willison",
+   "name": "Product Talk (Teresa Torres)",
+   "feed_url": "https://www.producttalk.org/feed/",
+   "ok": true,
+   "items": 15,
+   "new": 9,
+   "last_item": "2026-09-17",
+   "error": null
+  },
+  {
+   "name": "Quantocracy",
+   "feed_url": "http://feeds.feedburner.com/Quantocracy",
+   "ok": true,
+   "items": 10,
+   "new": 10,
+   "last_item": "2026-09-17",
+   "error": null
+  },
+  {
+   "name": "SVPG (Marty Cagan)",
+   "feed_url": "https://www.svpg.com/feed/",
+   "ok": true,
+   "items": 15,
+   "new": 3,
+   "last_item": "2026-09-11",
+   "error": null
+  },
+  {
+   "name": "Simon Willison's Weblog",
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
@@ -114,11 +393,65 @@
    "error": null
   },
   {
+   "name": "Storytelling with Data",
+   "feed_url": "https://www.storytellingwithdata.com/blog?format=rss",
+   "ok": true,
+   "items": 20,
+   "new": 7,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
    "name": "Stratechery",
    "feed_url": "https://stratechery.com/feed/",
    "ok": true,
    "items": 10,
    "new": 0,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
+   "name": "The Beautiful Mess (John Cutler)",
+   "feed_url": "https://cutlefish.substack.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 12,
+   "last_item": "2026-09-19",
+   "error": null
+  },
+  {
+   "name": "The Economist – Graphic detail",
+   "feed_url": "https://www.economist.com/graphic-detail/rss.xml",
+   "ok": true,
+   "items": 300,
+   "new": 13,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
+   "name": "The Intercom Blog",
+   "feed_url": "https://www.intercom.com/blog/feed/",
+   "ok": true,
+   "items": 10,
+   "new": 3,
+   "last_item": "2026-09-09",
+   "error": null
+  },
+  {
+   "name": "The Macro Compass",
+   "feed_url": "https://themacrocompass.substack.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 0,
+   "last_item": "2026-07-13",
+   "error": null
+  },
+  {
+   "name": "The Oracle by Polymarket",
+   "feed_url": "https://news.polymarket.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 16,
    "last_item": "2026-09-18",
    "error": null
   },
@@ -132,6 +465,24 @@
    "error": null
   },
   {
+   "name": "The Product Compass (Paweł Huryn)",
+   "feed_url": "https://www.productcompass.pm/feed",
+   "ok": true,
+   "items": 20,
+   "new": 6,
+   "last_item": "2026-09-14",
+   "error": null
+  },
+  {
+   "name": "The Pudding",
+   "feed_url": "https://pudding.cool/rss.xml",
+   "ok": true,
+   "items": 20,
+   "new": 0,
+   "last_item": "2026-08-04",
+   "error": null
+  },
+  {
    "name": "The Pudding",
    "feed_url": "https://pudding.cool/feed/index.xml",
    "ok": true,
@@ -141,12 +492,48 @@
    "error": null
   },
   {
-   "name": "UX Collective",
+   "name": "The a16z Show (podcast)",
+   "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
+   "ok": true,
+   "items": 1000,
+   "new": 53,
+   "last_item": "2026-09-20",
+   "error": null
+  },
+  {
+   "name": "UX Collective (Medium)",
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
    "new": 0,
    "last_item": "2026-09-20",
+   "error": null
+  },
+  {
+   "name": "Vercel News",
+   "feed_url": "https://vercel.com/atom",
+   "ok": true,
+   "items": 1595,
+   "new": 80,
+   "last_item": "2026-09-18",
+   "error": null
+  },
+  {
+   "name": "Visual Capitalist",
+   "feed_url": "https://www.visualcapitalist.com/feed/",
+   "ok": true,
+   "items": 10,
+   "new": 10,
+   "last_item": "2026-09-20",
+   "error": null
+  },
+  {
+   "name": "Y Combinator Blog",
+   "feed_url": "https://www.ycombinator.com/blog/rss",
+   "ok": true,
+   "items": 15,
+   "new": 0,
+   "last_item": "2026-06-16",
    "error": null
   },
   {
@@ -168,58 +555,40 @@
    "error": null
   },
   {
-   "name": "36氪",
-   "feed_url": "https://36kr.com/feed",
-   "ok": false,
-   "items": 0,
-   "new": 0,
-   "last_item": null,
-   "error": "not a feed (<unknown>:10:542: not well-formed (invalid token))"
+   "name": "极客公园",
+   "feed_url": "https://www.geekpark.net/rss",
+   "ok": true,
+   "items": 30,
+   "new": 30,
+   "last_item": "2026-09-21",
+   "error": null
   },
   {
-   "name": "Coin Metrics",
-   "feed_url": "https://coinmetrics.substack.com/feed",
-   "ok": false,
-   "items": 0,
-   "new": 0,
-   "last_item": null,
-   "error": "403 Client Error: Forbidden for url: https://coinmetrics.substack.com/feed"
+   "name": "爱范儿",
+   "feed_url": "https://www.ifanr.com/feed",
+   "ok": true,
+   "items": 20,
+   "new": 20,
+   "last_item": "2026-09-21",
+   "error": null
   },
   {
-   "name": "Every",
-   "feed_url": "https://every.to/feed.xml",
-   "ok": false,
-   "items": 0,
-   "new": 0,
-   "last_item": null,
-   "error": "not a feed (<unknown>:8:40: not well-formed (invalid token))"
+   "name": "量子位",
+   "feed_url": "https://www.qbitai.com/feed",
+   "ok": true,
+   "items": 10,
+   "new": 10,
+   "last_item": "2026-09-21",
+   "error": null
   },
   {
-   "name": "Glassnode Insights",
-   "feed_url": "https://insights.glassnode.com/rss/",
+   "name": "Glassnode Research",
+   "feed_url": "https://research.glassnode.com/rss/",
    "ok": false,
    "items": 0,
    "new": 0,
    "last_item": null,
-   "error": "403 Client Error: Forbidden for url: https://insights.glassnode.com/rss/"
-  },
-  {
-   "name": "a16z",
-   "feed_url": "https://a16z.com/feed/",
-   "ok": false,
-   "items": 0,
-   "new": 0,
-   "last_item": null,
-   "error": "404 Client Error: Not Found for url: https://a16z.com/feed/"
-  },
-  {
-   "name": "机器之心",
-   "feed_url": "https://www.jiqizhixin.com/rss",
-   "ok": false,
-   "items": 0,
-   "new": 0,
-   "last_item": null,
-   "error": "not a feed (<unknown>:8:82: not well-formed (invalid token))"
+   "error": "403 Client Error: Forbidden for url: https://research.glassnode.com/rss/"
   }
  ]
 }
