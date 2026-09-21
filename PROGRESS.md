@@ -41,6 +41,12 @@
 - [x] 已发布（用户确认）：仓库 https://github.com/awakenedallianc/opportunity-monitor ，站点 https://awakenedallianc.github.io/opportunity-monitor/ ；Pages 来源 = GitHub Actions；首个工作流运行 35519872649 结果见 `gh run list --workflow daily.yml`
 - [ ] 若云端首跑失败：`gh run view <id> --log-failed`；常见原因 CoinGecko 429（已有 Binance 兜底）、Yahoo 限流
 
+
+### 简明模式（2026-09-21，用户反馈"字太多、看不懂、图太多"后新增，默认开启）
+- 右上角「简明 / 专业」切换（localStorage 记忆）。简明模式：总览 = 一句话结论 + 三张状态卡（每张：状态灯、一句白话、2 个大数字带"报告写作时"对比、"报告怎么说"一句）+ 今天最重要 5 条（白话）+ 关键日子 + 5 条新闻；报告页 = 状态卡（4 个数字）+ 唯一一张图 + 买入/放弃信号进度（白话）+ 接下来 + 新闻。
+- 89 条关键规则加了 `plain` 白话解释（config/rules.yaml），其余用术语替换表兜底（app.js GLOSS）。
+- 专业模式保留原全部页面；`docs/assets/app.*` 改为构建产物不再跟踪。
+
 ## 已知限制（泰国网络）
 - FRED 不可达（熔断，财政部曲线兜底）；Farside/ISW 原站/Metaculus 403；GDELT 429；Stooq 需 JS 挑战
 - Binance 主站在 GitHub 美国运行器 451 → 已回退 data-api.binance.vision；CoinGecko 失败时主流币价格由 Binance 兜底（降级标记）
