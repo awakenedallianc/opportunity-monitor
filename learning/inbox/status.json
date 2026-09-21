@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-21T11:46:03.255594+00:00",
+ "generated_at": "2026-09-21T17:03:03.834441+00:00",
  "sources": 65,
- "ok": 56,
- "new_items": 15,
- "duration_s": 10.0,
+ "ok": 57,
+ "new_items": 43,
+ "duration_s": 16.6,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 13,
+   "new": 18,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -39,6 +39,15 @@
    "items": 13,
    "new": 0,
    "last_item": "2026-09-18",
+   "error": null
+  },
+  {
+   "name": "BIS Working Papers",
+   "feed_url": "https://www.bis.org/doclist/wppubls.rss",
+   "ok": true,
+   "items": 25,
+   "new": 0,
+   "last_item": "2026-09-17",
    "error": null
   },
   {
@@ -118,8 +127,8 @@
    "feed_url": "https://fredblog.stlouisfed.org/feed/",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-09-17",
+   "new": 1,
+   "last_item": "2026-09-21",
    "error": null
   },
   {
@@ -127,7 +136,7 @@
    "feed_url": "https://www.ft.com/rss/alphaville",
    "ok": true,
    "items": 25,
-   "new": 0,
+   "new": 1,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -137,7 +146,7 @@
    "ok": true,
    "items": 25,
    "new": 0,
-   "last_item": "2026-09-18",
+   "last_item": "2026-09-21",
    "error": null
   },
   {
@@ -181,7 +190,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 1,
+   "new": 7,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -190,7 +199,7 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
+   "new": 1,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -217,8 +226,8 @@
    "feed_url": "https://www.lennysnewsletter.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-20",
+   "new": 2,
+   "last_item": "2026-09-21",
    "error": null
   },
   {
@@ -261,9 +270,9 @@
    "name": "OpenAI News",
    "feed_url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1210,
-   "new": 0,
-   "last_item": "2026-09-18",
+   "items": 1211,
+   "new": 1,
+   "last_item": "2026-09-21",
    "error": null
   },
   {
@@ -298,8 +307,8 @@
    "feed_url": "https://www.producttalk.org/feed/",
    "ok": true,
    "items": 15,
-   "new": 0,
-   "last_item": "2026-09-17",
+   "new": 1,
+   "last_item": "2026-09-21",
    "error": null
   },
   {
@@ -433,7 +442,7 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -441,9 +450,9 @@
    "name": "Vercel News",
    "feed_url": "https://vercel.com/atom",
    "ok": true,
-   "items": 1595,
-   "new": 0,
-   "last_item": "2026-09-18",
+   "items": 1597,
+   "new": 2,
+   "last_item": "2026-09-21",
    "error": null
   },
   {
@@ -451,8 +460,8 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-09-20",
+   "new": 3,
+   "last_item": "2026-09-21",
    "error": null
   },
   {
@@ -469,7 +478,7 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 0,
+   "new": 1,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -478,7 +487,7 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 0,
+   "new": 1,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -487,7 +496,7 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 0,
+   "new": 1,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -496,7 +505,7 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
+   "new": 3,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -517,15 +526,6 @@
    "new": 0,
    "last_item": null,
    "error": "403 Client Error: Forbidden for url: https://andrewchen.substack.com/feed"
-  },
-  {
-   "name": "BIS Working Papers",
-   "feed_url": "https://www.bis.org/doclist/wppubls.rss",
-   "ok": false,
-   "items": 0,
-   "new": 0,
-   "last_item": null,
-   "error": "404 Client Error: Not Found for url: https://www.bis.org/doclist/wppubls.rss"
   },
   {
    "name": "CalculatedRisk Newsletter",
