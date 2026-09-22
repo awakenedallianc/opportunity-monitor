@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-21T17:03:03.834441+00:00",
+ "generated_at": "2026-09-22T01:36:20.018972+00:00",
  "sources": 65,
  "ok": 57,
- "new_items": 43,
- "duration_s": 16.6,
+ "new_items": 61,
+ "duration_s": 12.1,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 18,
-   "last_item": "2026-09-21",
+   "new": 23,
+   "last_item": "2026-09-22",
    "error": null
   },
   {
@@ -127,7 +127,7 @@
    "feed_url": "https://fredblog.stlouisfed.org/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -190,7 +190,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 7,
+   "new": 8,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -200,7 +200,7 @@
    "ok": true,
    "items": 20,
    "new": 1,
-   "last_item": "2026-09-21",
+   "last_item": "2026-09-22",
    "error": null
   },
   {
@@ -217,8 +217,8 @@
    "feed_url": "https://www.latent.space/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-19",
+   "new": 1,
+   "last_item": "2026-09-21",
    "error": null
   },
   {
@@ -226,7 +226,7 @@
    "feed_url": "https://www.lennysnewsletter.com/feed",
    "ok": true,
    "items": 20,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -270,8 +270,8 @@
    "name": "OpenAI News",
    "feed_url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1211,
-   "new": 1,
+   "items": 1215,
+   "new": 4,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -307,7 +307,7 @@
    "feed_url": "https://www.producttalk.org/feed/",
    "ok": true,
    "items": 15,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -334,8 +334,8 @@
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
-   "new": 0,
-   "last_item": "2026-09-20",
+   "new": 3,
+   "last_item": "2026-09-21",
    "error": null
   },
   {
@@ -433,8 +433,8 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 0,
-   "last_item": "2026-09-20",
+   "new": 1,
+   "last_item": "2026-09-21",
    "error": null
   },
   {
@@ -442,7 +442,7 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 0,
+   "new": 2,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -450,7 +450,7 @@
    "name": "Vercel News",
    "feed_url": "https://vercel.com/atom",
    "ok": true,
-   "items": 1597,
+   "items": 1599,
    "new": 2,
    "last_item": "2026-09-21",
    "error": null
@@ -460,7 +460,7 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 3,
+   "new": 2,
    "last_item": "2026-09-21",
    "error": null
   },
@@ -478,8 +478,8 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 1,
-   "last_item": "2026-09-21",
+   "new": 10,
+   "last_item": "2026-09-22",
    "error": null
   },
   {
@@ -488,7 +488,7 @@
    "ok": true,
    "items": 10,
    "new": 1,
-   "last_item": "2026-09-21",
+   "last_item": "2026-09-22",
    "error": null
   },
   {
@@ -497,7 +497,7 @@
    "ok": true,
    "items": 30,
    "new": 1,
-   "last_item": "2026-09-21",
+   "last_item": "2026-09-22",
    "error": null
   },
   {
@@ -505,8 +505,8 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 3,
-   "last_item": "2026-09-21",
+   "new": 1,
+   "last_item": "2026-09-22",
    "error": null
   },
   {
