@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-22T15:31:45.084309+00:00",
+ "generated_at": "2026-09-23T01:30:03.630109+00:00",
  "sources": 65,
- "ok": 55,
- "new_items": 134,
- "duration_s": 28.3,
+ "ok": 57,
+ "new_items": 70,
+ "duration_s": 9.0,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 27,
-   "last_item": "2026-09-22",
+   "new": 21,
+   "last_item": "2026-09-23",
    "error": null
   },
   {
@@ -19,8 +19,8 @@
    "feed_url": "https://news.manifold.markets/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-15",
+   "new": 1,
+   "last_item": "2026-09-23",
    "error": null
   },
   {
@@ -37,8 +37,8 @@
    "feed_url": "https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml",
    "ok": true,
    "items": 13,
-   "new": 0,
-   "last_item": "2026-09-18",
+   "new": 1,
+   "last_item": "2026-09-22",
    "error": null
   },
   {
@@ -64,7 +64,7 @@
    "feed_url": "https://www.bensbites.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-22",
    "error": null
   },
@@ -97,16 +97,16 @@
   },
   {
    "name": "Datawrapper Blog",
-   "feed_url": "https://www.datawrapper.de/blog/feed/",
+   "feed_url": "https://blog.datawrapper.de/feed/",
    "ok": true,
    "items": 1074,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-22",
    "error": null
   },
   {
    "name": "Datawrapper Blog",
-   "feed_url": "https://blog.datawrapper.de/feed/",
+   "feed_url": "https://www.datawrapper.de/blog/feed/",
    "ok": true,
    "items": 1074,
    "new": 0,
@@ -118,8 +118,8 @@
    "feed_url": "https://www.elenaverna.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-11",
+   "new": 1,
+   "last_item": "2026-09-22",
    "error": null
   },
   {
@@ -136,7 +136,7 @@
    "feed_url": "https://www.ft.com/rss/alphaville",
    "ok": true,
    "items": 25,
-   "new": 3,
+   "new": 0,
    "last_item": "2026-09-22",
    "error": null
   },
@@ -154,7 +154,7 @@
    "feed_url": "https://flowingdata.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-22",
    "error": null
   },
@@ -181,8 +181,17 @@
    "feed_url": "https://grafana.com/blog/index.xml",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": null,
+   "error": null
+  },
+  {
+   "name": "Hacker News — Best",
+   "feed_url": "https://hnrss.org/best",
+   "ok": true,
+   "items": 30,
+   "new": 14,
+   "last_item": "2026-09-22",
    "error": null
   },
   {
@@ -190,8 +199,8 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 11,
-   "last_item": "2026-09-22",
+   "new": 1,
+   "last_item": "2026-09-23",
    "error": null
   },
   {
@@ -217,7 +226,7 @@
    "feed_url": "https://www.lennysnewsletter.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 2,
    "last_item": "2026-09-22",
    "error": null
   },
@@ -226,7 +235,7 @@
    "feed_url": "https://libertystreeteconomics.newyorkfed.org/feed/",
    "ok": true,
    "items": 100,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-22",
    "error": null
   },
@@ -261,9 +270,9 @@
    "name": "OpenAI News",
    "feed_url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1215,
-   "new": 0,
-   "last_item": "2026-09-21",
+   "items": 1219,
+   "new": 4,
+   "last_item": "2026-09-22",
    "error": null
   },
   {
@@ -289,7 +298,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 39,
+   "new": 0,
    "last_item": "2026-09-22",
    "error": null
   },
@@ -298,7 +307,7 @@
    "feed_url": "https://www.producttalk.org/feed/",
    "ok": true,
    "items": 15,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-22",
    "error": null
   },
@@ -325,8 +334,8 @@
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
-   "new": 0,
-   "last_item": "2026-09-21",
+   "new": 5,
+   "last_item": "2026-09-22",
    "error": null
   },
   {
@@ -352,7 +361,7 @@
    "feed_url": "https://stratechery.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-22",
    "error": null
   },
@@ -361,8 +370,8 @@
    "feed_url": "https://www.economist.com/graphic-detail/rss.xml",
    "ok": true,
    "items": 300,
-   "new": 0,
-   "last_item": "2026-09-18",
+   "new": 1,
+   "last_item": "2026-09-22",
    "error": null
   },
   {
@@ -388,8 +397,8 @@
    "feed_url": "https://newsletter.pragmaticengineer.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-17",
+   "new": 1,
+   "last_item": "2026-09-22",
    "error": null
   },
   {
@@ -424,7 +433,7 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-22",
    "error": null
   },
@@ -433,7 +442,7 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 6,
+   "new": 1,
    "last_item": "2026-09-22",
    "error": null
   },
@@ -441,9 +450,9 @@
    "name": "Vercel News",
    "feed_url": "https://vercel.com/atom",
    "ok": true,
-   "items": 1600,
-   "new": 1,
-   "last_item": "2026-09-21",
+   "items": 1603,
+   "new": 3,
+   "last_item": "2026-09-22",
    "error": null
   },
   {
@@ -469,8 +478,8 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 15,
-   "last_item": "2026-09-22",
+   "new": 4,
+   "last_item": "2026-09-23",
    "error": null
   },
   {
@@ -478,8 +487,17 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 4,
+   "new": 1,
    "last_item": "2026-09-22",
+   "error": null
+  },
+  {
+   "name": "极客公园",
+   "feed_url": "https://www.geekpark.net/rss",
+   "ok": true,
+   "items": 30,
+   "new": 2,
+   "last_item": "2026-09-23",
    "error": null
   },
   {
@@ -487,8 +505,8 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 6,
-   "last_item": "2026-09-22",
+   "new": 1,
+   "last_item": "2026-09-23",
    "error": null
   },
   {
@@ -496,7 +514,7 @@
    "feed_url": "https://www.qbitai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 10,
+   "new": 3,
    "last_item": "2026-09-22",
    "error": null
   },
@@ -555,15 +573,6 @@
    "error": "403 Client Error: Forbidden for url: https://research.glassnode.com/rss/"
   },
   {
-   "name": "Hacker News — Best",
-   "feed_url": "https://hnrss.org/best",
-   "ok": false,
-   "items": 0,
-   "new": 0,
-   "last_item": null,
-   "error": "HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /best (Caused by ConnectTimeoutError(<HTTPSConnection(host='hnrss.org', port=443"
-  },
-  {
    "name": "The Beautiful Mess (John Cutler)",
    "feed_url": "https://cutlefish.substack.com/feed",
    "ok": false,
@@ -580,15 +589,6 @@
    "new": 0,
    "last_item": null,
    "error": "403 Client Error: Forbidden for url: https://themacrocompass.substack.com/feed"
-  },
-  {
-   "name": "极客公园",
-   "feed_url": "https://www.geekpark.net/rss",
-   "ok": false,
-   "items": 0,
-   "new": 0,
-   "last_item": null,
-   "error": "HTTPSConnectionPool(host='www.geekpark.net', port=443): Read timed out."
   }
  ]
 }
