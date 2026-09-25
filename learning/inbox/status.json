@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-25T01:28:57.807095+00:00",
+ "generated_at": "2026-09-25T15:49:07.604089+00:00",
  "sources": 65,
  "ok": 57,
- "new_items": 38,
- "duration_s": 17.0,
+ "new_items": 121,
+ "duration_s": 9.5,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 10,
+   "new": 20,
    "last_item": "2026-09-25",
    "error": null
   },
@@ -64,8 +64,8 @@
    "feed_url": "https://www.bensbites.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-24",
+   "new": 1,
+   "last_item": "2026-09-25",
    "error": null
   },
   {
@@ -82,7 +82,7 @@
    "feed_url": "https://www.bridgewater.com/research-and-insights.rss",
    "ok": true,
    "items": 3,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-24",
    "error": null
   },
@@ -91,8 +91,8 @@
    "feed_url": "https://tim-hilde.github.io/anthropic-rss/rss.xml",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-23",
+   "new": 2,
+   "last_item": "2026-09-24",
    "error": null
   },
   {
@@ -100,7 +100,7 @@
    "feed_url": "https://www.datawrapper.de/blog/feed/",
    "ok": true,
    "items": 1075,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-24",
    "error": null
   },
@@ -118,7 +118,7 @@
    "feed_url": "https://www.elenaverna.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-24",
    "error": null
   },
@@ -136,8 +136,8 @@
    "feed_url": "https://www.ft.com/rss/alphaville",
    "ok": true,
    "items": 25,
-   "new": 1,
-   "last_item": "2026-09-24",
+   "new": 2,
+   "last_item": "2026-09-25",
    "error": null
   },
   {
@@ -154,8 +154,8 @@
    "feed_url": "https://flowingdata.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-09-24",
+   "new": 1,
+   "last_item": "2026-09-25",
    "error": null
   },
   {
@@ -181,7 +181,7 @@
    "feed_url": "https://grafana.com/blog/index.xml",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": null,
    "error": null
   },
@@ -190,8 +190,8 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 10,
-   "last_item": "2026-09-24",
+   "new": 9,
+   "last_item": "2026-09-25",
    "error": null
   },
   {
@@ -199,8 +199,8 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-24",
+   "new": 3,
+   "last_item": "2026-09-25",
    "error": null
   },
   {
@@ -217,8 +217,8 @@
    "feed_url": "https://www.latent.space/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-24",
+   "new": 2,
+   "last_item": "2026-09-25",
    "error": null
   },
   {
@@ -289,7 +289,7 @@
    "feed_url": "https://www.news.aakashg.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-24",
    "error": null
   },
@@ -298,8 +298,8 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 0,
-   "last_item": "2026-09-24",
+   "new": 49,
+   "last_item": "2026-09-25",
    "error": null
   },
   {
@@ -316,8 +316,8 @@
    "feed_url": "http://feeds.feedburner.com/Quantocracy",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-09-23",
+   "new": 1,
+   "last_item": "2026-09-25",
    "error": null
   },
   {
@@ -334,7 +334,7 @@
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
-   "new": 2,
+   "new": 1,
    "last_item": "2026-09-24",
    "error": null
   },
@@ -370,7 +370,7 @@
    "feed_url": "https://www.economist.com/graphic-detail/rss.xml",
    "ok": true,
    "items": 300,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-24",
    "error": null
   },
@@ -397,7 +397,7 @@
    "feed_url": "https://newsletter.pragmaticengineer.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-24",
    "error": null
   },
@@ -412,7 +412,7 @@
   },
   {
    "name": "The Pudding",
-   "feed_url": "https://pudding.cool/rss.xml",
+   "feed_url": "https://pudding.cool/feed/index.xml",
    "ok": true,
    "items": 20,
    "new": 0,
@@ -421,7 +421,7 @@
   },
   {
    "name": "The Pudding",
-   "feed_url": "https://pudding.cool/feed/index.xml",
+   "feed_url": "https://pudding.cool/rss.xml",
    "ok": true,
    "items": 20,
    "new": 0,
@@ -434,7 +434,7 @@
    "ok": true,
    "items": 1000,
    "new": 1,
-   "last_item": "2026-09-24",
+   "last_item": "2026-09-25",
    "error": null
   },
   {
@@ -442,7 +442,7 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-24",
    "error": null
   },
@@ -451,7 +451,7 @@
    "feed_url": "https://vercel.com/atom",
    "ok": true,
    "items": 1608,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-24",
    "error": null
   },
@@ -460,8 +460,8 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 2,
-   "last_item": "2026-09-24",
+   "new": 4,
+   "last_item": "2026-09-25",
    "error": null
   },
   {
@@ -478,7 +478,7 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 1,
+   "new": 15,
    "last_item": "2026-09-25",
    "error": null
   },
@@ -487,8 +487,8 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-09-24",
+   "new": 1,
+   "last_item": "2026-09-25",
    "error": null
   },
   {
@@ -496,7 +496,7 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 1,
+   "new": 2,
    "last_item": "2026-09-25",
    "error": null
   },
@@ -505,7 +505,7 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-25",
    "error": null
   },
@@ -514,8 +514,8 @@
    "feed_url": "https://www.qbitai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-09-24",
+   "new": 7,
+   "last_item": "2026-09-25",
    "error": null
   },
   {

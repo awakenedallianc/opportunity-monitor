@@ -1,723 +1,92 @@
 {
- "generated_at": "2026-09-25T01:28:57.825675+00:00",
+ "generated_at": "2026-09-25T15:49:07.618308+00:00",
  "window_days": 14,
- "total": 1259,
+ "total": 1378,
  "groups": {
-  "china": [
-   {
-    "id": "4a91352103f8574e",
-    "date": "2026-09-25",
-    "published": "2026-09-25T01:27:27+00:00",
-    "source": "36氪",
-    "title": "长三角铁路迎来客流高峰，预计发送旅客418万人次",
-    "link": "https://36kr.com/newsflashes/3998148977545089?f=rss",
-    "summary": "2026年9月25日是中秋节，也是中秋小长假首日，据中国铁路上海局集团有限公司，长三角铁路将迎来客流高峰。预计当日发送旅客418万人次，较去年同期增长116%。昨天（9月24日），中国铁路上海局集团有限公司发送旅客324.4万人次。（央视新闻）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-25T01:28:44.263503+00:00"
-   },
-   {
-    "id": "1caca343e22af791",
-    "date": "2026-09-25",
-    "published": "2026-09-25T01:25:07+00:00",
-    "source": "36氪",
-    "title": "9只光伏设备股上半年净利润增长",
-    "link": "https://36kr.com/newsflashes/3998120214270086?f=rss",
-    "summary": "据统计，A股光伏设备板块上市公司共有73家。从业绩来看，在行业整体承压背景下，9股上半年实现归母净利润同比增长，主要为光伏辅材细分领域个股，1股扭亏为盈，11股同比减亏。同享科技、联泓新科、贝特利上半年归母净利润同比增幅超过100%，均属于光伏辅材细分领域。同享科技半年报显示，实现归母净利润0.48亿元，同比增长568.86%。公司表示，上半年原材料铜市场价格持续上行，公司依托下游价格传导机制相应上调产品销售价格，产品销售均价有所提升，产品均价上涨带来的收益覆盖了出货量减少产生的影响。（证券时报）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-25T01:28:44.263512+00:00"
-   },
-   {
-    "id": "cdc59c03285cd362",
-    "date": "2026-09-25",
-    "published": "2026-09-25T01:24:37+00:00",
-    "source": "36氪",
-    "title": "国盛证券：收到行政处罚及行政监管措施事先告知书",
-    "link": "https://36kr.com/newsflashes/3998140227850377?f=rss",
-    "summary": "36氪获悉，国盛证券公告，公司及相关当事人收到江西证监局下发的《行政处罚事先告知书》及《行政监管措施事先告知书》。因公司经纪业务管控存在重大缺陷、落实账户实名制存在重大过错、严重违反信息安全规定，江西证监局拟对公司给予警告并处以29万元罚款，对相关责任人匡文邦、吴蝶、陆修然、刘国宁、卢果、周明来分别处以8万至18万元不等罚款。同时，拟对公司采取责令改正、暂停新开证券账户3个月及责令处分有关人员的行政监管措施等。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-25T01:28:44.263516+00:00"
-   },
-   {
-    "id": "f6a191b43f5d720e",
-    "date": "2026-09-25",
-    "published": "2026-09-25T01:23:41+00:00",
-    "source": "36氪",
-    "title": "恒指开盘跌0.96%，恒生科技指数跌0.99%",
-    "link": "https://36kr.com/newsflashes/3998145279938694?f=rss",
-    "summary": "36氪获悉，恒指开盘跌0.96%，恒生科技指数跌0.99%；科技股走弱，阿里巴巴跌超2%，腾讯控股、京东集团、小米集团跌超1%。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-25T01:28:44.263520+00:00"
-   },
-   {
-    "id": "6d0838eddd19b0ab",
-    "date": "2026-09-25",
-    "published": "2026-09-25T01:18:01+00:00",
-    "source": "36氪",
-    "title": "OpenAI正准备在未来几天预览其最新网络安全专用模型GPT-6 Cyber",
-    "link": "https://36kr.com/newsflashes/3998123088629895?f=rss",
-    "summary": "据报道，OpenAI正准备在未来几天预览其最新网络安全专用模型GPT-6 Cyber。该公司还将发布一款新产品，帮助客户以更安全、自动化的方式部署GPT-6 Cyber。（财联社）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-25T01:28:44.263525+00:00"
-   },
-   {
-    "id": "9b6f418d9f7cc5f3",
-    "date": "2026-09-25",
-    "published": "2026-09-25T01:14:48+00:00",
-    "source": "极客公园",
-    "title": "「济公」游本昌去世；罗永浩再评小米 18 Fold；Meta 推出手持设备 Muse Charm｜极客早知道",
-    "link": "http://www.geekpark.net/news/371033",
-    "summary": "送别「济公」！表演艺术家游本昌去世，享年 93 岁 9 月 24 日消息，据央视新闻今日报道，中国国家话剧院表演艺术家、一级演员游本昌，因病在北京去世。 游本昌出生于 1933 年，享年 93 岁。他生前长期从事戏剧表演，在《济公》等作品中塑造了许多深受人民群众喜爱的艺术形象。1951 年，从南京市私立钟英中学（现南京市钟英中学）毕业后加入南京文工团。1985 年，在演了 79 个「小角色」后， 首次出演主角——「济公」 ，凭该角色被大众所知。1994 年成立北京本昌艺术传播中心，制作二十集电视系列剧《济公游记》，并担任导演、主演、出品人。 2023 年，他出演了王家卫导演的电视剧《繁花》，作",
-    "topics": [
-     "china",
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-25T01:28:47.051337+00:00"
-   },
-   {
-    "id": "aef8da3bc0334cc8",
-    "date": "2026-09-25",
-    "published": "2026-09-25T01:10:26+00:00",
-    "source": "36氪",
-    "title": "商务部：今年前8个月我国服务外包稳步发展",
-    "link": "https://36kr.com/newsflashes/3998119516868744?f=rss",
-    "summary": "商务部最新数据显示：今年前8个月，我国服务外包稳步发展，其中，维修维护服务和研发服务增长较快。据介绍，今年前8个月，我国企业承接服务外包合同额12852.4亿元。其中，承接离岸服务外包合同额同比增长4%。从业务结构看，我国企业承接离岸业务流程外包执行额同比增长8.3%。其中，维修维护服务和研发服务增长较快，分别增长8.8%、10.8%。从国际市场看，美国、中国香港、新加坡居离岸服务外包来源地的前三位，合计占离岸服务外包执行总额的53.2%。（央视新闻）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-25T01:28:44.263528+00:00"
-   },
-   {
-    "id": "538ca3fd4ae53b24",
-    "date": "2026-09-25",
-    "published": "2026-09-25T01:02:53+00:00",
-    "source": "36氪",
-    "title": "Anthropic与Akamai达成116亿美元的AI算力协议",
-    "link": "https://36kr.com/newsflashes/3998124827381895?f=rss",
-    "summary": "Anthropic与Akamai Technologies签署一项为期七年、价值116亿美元的算力合同，进一步扩大数据中心布局。根据协议，Akamai将向Anthropic提供CPU算力。近年来，随着CPU被用于支持AI服务，数据中心对这类通用芯片的需求迎来增长。Akamai还向Anthropic发行认股权证，后者有权以每股111.33美元购买B系列股票，可转换为770万股Akamai普通股。（新浪财经）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-25T01:28:44.263531+00:00"
-   },
-   {
-    "id": "2fd7f895798a16cf",
-    "date": "2026-09-25",
-    "published": "2026-09-25T01:02:31+00:00",
-    "source": "36氪",
-    "title": "全球新能源汽车迈入全面市场化新阶段",
-    "link": "https://36kr.com/newsflashes/3998118599921543?f=rss",
-    "summary": "9月22日至24日，2026世界新能源汽车大会在海南海口举办。与会嘉宾认为，全球新能源汽车产业已告别政策主导的导入期、成长期，转向市场驱动、大范围普及、高质量迭代的全新发展阶段。中国作为重要创新输出地，成为全球汽车产业链稳定运行的重要基石。“全球新能源汽车行业已进入大范围普及应用的全新阶段。”世界新能源汽车大会主席万钢在大会上说，2026年上半年，全球新能源汽车销量达1123.4万辆，同比增长14%，市场渗透率提升至24%；全球新能源汽车累计销量已突破9400万辆，其中中国累计销量超6200万辆，稳居全球市场核心地位。（新华社）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-25T01:28:44.263534+00:00"
-   },
-   {
-    "id": "2ffb3fc3730130ee",
-    "date": "2026-09-25",
-    "published": "2026-09-25T00:54:34+00:00",
-    "source": "36氪",
-    "title": "美股三大指数收盘涨跌不一，Meta涨超4%",
-    "link": "https://36kr.com/newsflashes/3998116652306304?f=rss",
-    "summary": "36氪获悉，9月24日收盘，美股三大指数涨跌不一，道指跌0.31%，标普500指数跌0.02%，纳指涨0.01%。大型科技股涨跌不一，Meta涨超4%，英特尔涨近3%，谷歌涨超1%，亚马逊小幅上涨，特斯拉、苹果、微软、英伟达小幅下跌。热门中概股多数下跌，百度、京东、拼多多、哔哩哔哩、蔚来跌超1%，阿里巴巴、小鹏集团小幅下跌，爱奇艺涨近3%，理想汽车小幅上涨。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-25T01:28:44.263537+00:00"
-   },
-   {
-    "id": "4a3453358849efbb",
-    "date": "2026-09-25",
-    "published": "2026-09-25T00:46:38+00:00",
-    "source": "36氪",
-    "title": "习近平同美国总统特朗普会谈",
-    "link": "https://36kr.com/newsflashes/3998108853489797?f=rss",
-    "summary": "当地时间9月24日上午，国家主席习近平同美国总统特朗普在白宫举行会谈。 习近平指出，中美两国元首在不到半年时间里实现互访，在中美关系史上是前所未有的。我和特朗普总统一直通过各种方式保持沟通，共同为中美关系这艘大船领航掌舵。今年5月，我和特朗普总统一致决定构建中美建设性战略稳定关系。这一新定位反映了中美关系的现实，也体现了对未来的期许，是迈向两国正确相处之道的重要一步。我们要把这一愿景转化为行动，朝着合作为主、竞争有度、分歧可控、和平可期的方向努力，��出一条两个大国的正确相处之道。中美两国应当也完全可以在务实合作中互利共赢，在良性竞争中彼此成就，在求同存异中妥处分歧，在累积互信中构筑和平，让中",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-25T01:28:44.263541+00:00"
-   },
-   {
-    "id": "872eb3727f31cb2e",
-    "date": "2026-09-25",
-    "published": "2026-09-25T00:32:17+00:00",
-    "source": "人人都是产品经理",
-    "title": "做品牌是反人性的，大多数人死在第 3 年",
-    "link": "https://www.woshipm.com/share/6470069.html",
-    "summary": "《品牌营销 100 讲》里被划线最多的 20 多句话，按认知、定位、符号、传播、组织五层排开。人性喜欢爆款和短期见效，做品牌却要十年如一日，大多数人死在第 3 年。从心智份额到视觉锤，这篇文章把品牌营销的底层骨架重新捋了一遍。 这几天把《品牌营销 100 讲》这本书又翻了一遍，我把书中被读者划线最多的 20 多条热门句子整理出来，按 认知—定位—符号—传播—组织 五个层次排好。 读懂这 20 句，相当于读懂了品牌营销的底层骨架。 其中最后一句尤其让人印象深刻，提到： 做品牌，是反人性的。 人性喜欢爆款、一夜爆红、流量收割、短期见效； 做品牌却要 10 年如一日地做对的事。大多数人死在第 3 年",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-25T01:28:45.722661+00:00"
-   },
-   {
-    "id": "6c52b2d2fe435a39",
-    "date": "2026-09-25",
-    "published": "2026-09-25T00:24:44+00:00",
-    "source": "爱范儿",
-    "title": "早报｜网易云音乐鸿蒙版正式上线/任正非重申「华为不造车」/腾讯QClaw将停运",
-    "link": "https://www.ifanr.com/1682171?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "summary": "· 腾讯 WorkBuddy 上线微信小程序生成和发布能力 · Google 下周将把 TPU 送入轨道，测试太空运行条件 · 9999 元，尼康发布 Z5IIC 全画幅相机 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-25T01:28:45.999490+00:00"
-   },
-   {
-    "id": "d160415ab60d0c68",
-    "date": "2026-09-24",
-    "published": "2026-09-24T18:38:59+00:00",
-    "source": "InfoQ 中文",
-    "title": "云栖之后，10+阿里AI实战派将亮相QCon上海站",
-    "link": "https://www.infoq.cn/article/lh6Z5E9Zkr33bOeHQGky?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.844133+00:00"
-   },
-   {
-    "id": "d717dd940c0d681d",
-    "date": "2026-09-24",
-    "published": "2026-09-24T18:11:27+00:00",
-    "source": "InfoQ 中文",
-    "title": "世界人工智能开源大赛（GOAI）总决赛暨颁奖盛典在杭州举行",
-    "link": "https://www.infoq.cn/article/hrmb2p18iKEwl24OMvcv?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.844145+00:00"
-   },
-   {
-    "id": "0082403e80fb917a",
-    "date": "2026-09-24",
-    "published": "2026-09-24T17:25:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "WSO2 发布 Agent Manager，企业寻求应对日益严重的 AI Agent 泛滥问题",
-    "link": "https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.844148+00:00"
-   },
-   {
-    "id": "c472fd5c94f7992b",
-    "date": "2026-09-24",
-    "published": "2026-09-24T16:34:30+00:00",
-    "source": "InfoQ 中文",
-    "title": "数据、模型、算力越来越难分开，Data+AI 基础设施怎么进化？",
-    "link": "https://www.infoq.cn/article/amffXXMpr23rX3eoJDhv?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.844150+00:00"
-   },
-   {
-    "id": "b1f6d1c3f5d37148",
-    "date": "2026-09-24",
-    "published": "2026-09-24T16:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "29 小时攻破浏览器，GPT-6 Astra 成为 OpenAI 首个“严重级”模型",
-    "link": "https://www.infoq.cn/article/b5oxzJyafr0lkZexoo8E?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.844151+00:00"
-   },
-   {
-    "id": "fbf6f904655bb587",
-    "date": "2026-09-24",
-    "published": "2026-09-24T15:30:10+00:00",
-    "source": "InfoQ 中文",
-    "title": "代码不再稀缺之后，软件工程还剩下什么？",
-    "link": "https://www.infoq.cn/video/P6mBiPWbwZIIpWpUVcOa?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.844153+00:00"
-   },
-   {
-    "id": "004209ca5d2c7593",
-    "date": "2026-09-24",
-    "published": "2026-09-24T14:52:42+00:00",
-    "source": "InfoQ 中文",
-    "title": "GPU负责算，CPU负责干活：英特尔开始重新出牌",
-    "link": "https://www.infoq.cn/article/Zh6Xo7f31MJdQtbUTUk5?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.844155+00:00"
-   },
-   {
-    "id": "81331d50ce02be98",
-    "date": "2026-09-24",
-    "published": "2026-09-24T14:49:18+00:00",
-    "source": "极客公园",
-    "title": "Agent 时代来了，3D 生成大模型接下来比什么？",
-    "link": "http://www.geekpark.net/news/371031",
-    "summary": "9 月 3 日，GPT-6 Astra 的发布，把 3D 内容创作带到了舞台中央。 在 GPT-6 Astra 官方发布页的一个不到 3 分钟的视频里与后续解读中，Astra 已经能直接进入 Blender，从一句住宅设计需求开始搭场景，先生成极简住宅，后来又将其扩展为围绕庭院展开的家庭住宅。里面有卧室、办公室、厨房和卫生间；家具从床板、衣柜挂杆、烤箱、餐具抽屉，再到灯光模拟，一应俱全。甚至水槽表面的法线出了问题之后，Astra 还会自己返工。 为了制作 30 秒室内漫游，它还会把相机放在约 1.65 米的人眼高度，用 24—26mm 镜头安排四段运动；进入 Unreal Engine 5 之",
-    "topics": [
-     "china",
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "ai-product",
-     "ux"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:18.859290+00:00"
-   },
-   {
-    "id": "de459e41c404d2e5",
-    "date": "2026-09-24",
-    "published": "2026-09-24T14:20:14+00:00",
-    "source": "量子位",
-    "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
-    "link": "https://www.qbitai.com/2026/09/496961.html",
-    "summary": "懂出海，能记忆，自进化",
-    "topics": [
-     "china",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:12.677157+00:00"
-   },
-   {
-    "id": "1a96160ea37d9808",
-    "date": "2026-09-24",
-    "published": "2026-09-24T14:17:48+00:00",
-    "source": "量子位",
-    "title": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
-    "link": "https://www.qbitai.com/2026/09/496925.html",
-    "summary": "1.5台6000D跑赢1台B300！",
-    "topics": [
-     "china",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:12.677166+00:00"
-   },
-   {
-    "id": "2d8e99e2361e36f0",
-    "date": "2026-09-24",
-    "published": "2026-09-24T13:56:48+00:00",
-    "source": "36氪",
-    "title": "模型之外，游戏+AI的下一道门槛在哪里？",
-    "link": "https://36kr.com/p/3997468580958089?f=rss",
-    "summary": "在一局《永劫无间》的游戏对局里，你的队友可能不是“人”。 Qwen大模型是这些AI队友的底座。会协作的队友，是游戏行业变革中最容易被看见的一角，冰山以下是“游戏正在被AI重做一遍”已经成为一个共识判断。 2026云栖大会现场，专门为游戏行业安排了一个上午的AI专场。网易、TapTap等标杆企业的技术负责人和创作者先后上台，从智能NPC讲到AI原生玩法，再讲到AI游戏创作。 但重做的程度并不相同。把AI当提效工具，和按AI的方式重做游戏，正在变成两门不同的生意。 前者优化单位成本，后者彻底改写生产与体验。而游戏的玩法形态、生产组织与运行方式，都不仅仅是效率问题。那么，当厂商决定把游戏“用AI重做",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "ai-product",
-     "ux"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.277599+00:00"
-   },
-   {
-    "id": "9fe4d59d77f28295",
-    "date": "2026-09-24",
-    "published": "2026-09-24T13:44:32+00:00",
-    "source": "InfoQ 中文",
-    "title": "GPT-6猛砍价，Opus 5.5忙“变好用”：模型价格战，已经不能只看API定价",
-    "link": "https://www.infoq.cn/article/VSIsPFiO2hrjBi30wDfE?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [
-     "growth",
-     "data"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.844157+00:00"
-   },
-   {
-    "id": "34564e7f6efa53e4",
-    "date": "2026-09-24",
-    "published": "2026-09-24T13:42:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "GPT-5.6-Cyber 代理多次突破虚拟机限制，证明虚拟机和操作系统需要更好的维护",
-    "link": "https://www.infoq.cn/article/TFaXKQvEWOOPfEuqmLkY?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.844158+00:00"
-   },
-   {
-    "id": "54fa19cd97843761",
-    "date": "2026-09-24",
-    "published": "2026-09-24T13:40:34+00:00",
-    "source": "InfoQ 中文",
-    "title": "显存不够、内存太贵，KV Cache越堆越大：华为给出自己的新解法",
-    "link": "https://www.infoq.cn/article/LtHFz94fa1W1DQjNvHVb?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.844160+00:00"
-   },
-   {
-    "id": "9467a7f0aa024dcb",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:58:55+00:00",
-    "source": "量子位",
-    "title": "时隔十年，AI大牛署名新论文",
-    "link": "https://www.qbitai.com/2026/09/496834.html",
-    "summary": "让自动驾驶“走一步想十步”",
-    "topics": [
-     "china",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:12.677169+00:00"
-   },
-   {
-    "id": "28fe871f288d22e3",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:58:35+00:00",
-    "source": "36氪",
-    "title": "LVMH阿诺特家族推进股权架构重组，巩固集团控制权",
-    "link": "https://36kr.com/newsflashes/3997403088883843?f=rss",
-    "summary": "阿诺特家族公布方案，计划简化持有 LVMH 股权的多家控股公司架构，以此保障家族对奢侈品巨头的长期掌控权。根据该方案，由 LVMH 掌舵人伯纳德・阿诺特家族控制的两家控股公司，将并入迪奥（Christian Dior）；迪奥将从巴黎证券交易所退市WWD。迪奥于周三表示，重组全部完成之后，LVMH 的控制权将归集至单一主体行使。（新浪财经）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.277629+00:00"
-   },
-   {
-    "id": "4421465dc2140b05",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:58:08+00:00",
-    "source": "36氪",
-    "title": "热门中概股美股盘前跌多涨少，百度跌超1%",
-    "link": "https://36kr.com/newsflashes/3997412363014020?f=rss",
-    "summary": "36氪获悉，热门中概股美股盘前跌多涨少，截至发稿，百度、蔚来跌超1%，哔哩哔哩跌0.4%，小鹏集团跌0.39%，京东跌0.29%，拼多多跌0.24%，理想汽车涨超2%，网易、阿里巴巴涨超1%。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.277631+00:00"
-   },
-   {
-    "id": "abb2d40ea0eeadac",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:53:44+00:00",
-    "source": "36氪",
-    "title": "美股大型科技股盘前普跌，美光科技跌超2%",
-    "link": "https://36kr.com/newsflashes/3997408036638594?f=rss",
-    "summary": "36氪获悉，美股大型科技股盘前普跌，截至发稿，美光科技、英特尔、闪迪跌超2%，Meta、亚马逊、英伟达跌超1%，特斯拉跌0.97%，微软跌0.51%，谷歌跌0.31%，苹果跌0.02%。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.277632+00:00"
-   },
-   {
-    "id": "56078202f0d7beb9",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:52:27+00:00",
-    "source": "36氪",
-    "title": "中颖电子：向特定对象发行股票获证监会同意注册批复",
-    "link": "https://36kr.com/newsflashes/3997396115591042?f=rss",
-    "summary": "36氪获悉，中颖电子公告，公司收到证监会出具的《关于同意中颖电子股份有限公司向特定对象发行股票注册的批复》，同意公司向特定对象发行股票的注册申请。本次发行应严格按照报送深交所的申报文件和发行方案实施，批复自同意注册之日起12个月内有效。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.277634+00:00"
-   },
-   {
-    "id": "dd6c4531c0b129f0",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:46:36+00:00",
-    "source": "36氪",
-    "title": "*ST利达：收到江苏证监局行政处罚决定书",
-    "link": "https://36kr.com/newsflashes/3997384485146496?f=rss",
-    "summary": "36氪获悉，*ST利达公告，公司收到中国证券监督管理委员会江苏监管局《行政处罚决定书》。2020年1月至2022年12月，公司发生关联方非经营性资金占用合计17.03亿元，公司未及时披露且相关定期报告存在重大遗漏、虚假记载。江苏证监局对公司责令改正、给予警告，并处以900万元罚款；对顾益明等5名相关责任人给予警告并处以210万元至1620万元不等罚款，同时对顾益明采取5年证券市场禁入措施。截至2026年4月22日，关联方已归还全部占用资金及利息，本次事项未触及重大违法强制退市相关情形，公司目前生产经营正常。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.277635+00:00"
-   },
-   {
-    "id": "d207bbc865b438e4",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:44:01+00:00",
-    "source": "36氪",
-    "title": "美国至9月19日当周初请失业金人数19.7万人",
-    "link": "https://36kr.com/newsflashes/3997398495498112?f=rss",
-    "summary": "美国至9月19日当周初请失业金人数四周均值20.225万人，前值由20.325万人修正为20.4万人。美国至9月12日当周续请失业金人数171.9万人，预期174.5万人，前值由173万人修正为171.7万人。（新浪财经）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.277637+00:00"
-   },
-   {
-    "id": "be3e3026a69aeb04",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:42:21+00:00",
-    "source": "36氪",
-    "title": "商务部副部长兼中华人民共和国国际贸易谈判副代表凌激与欧委会贸易和经济安全总司总司长约根森开展磋商",
-    "link": "https://36kr.com/newsflashes/3997396858802055?f=rss",
-    "summary": "36氪获悉，9月23—24日，商务部副部长兼中华人民共和国国际贸易谈判副代表凌激带领中方团队，与欧委会贸易和经济安全总司总司长约根森带领的欧方团队在京开展了磋商，为中欧贸易投资磋商机制第二次会议作准备。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.277639+00:00"
-   },
-   {
-    "id": "8f2ae4896e1bbaff",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:40:33+00:00",
-    "source": "36氪",
-    "title": "商务部：1-8月全国吸收外资4799.5亿元人民币",
-    "link": "https://36kr.com/newsflashes/3997395080269702?f=rss",
-    "summary": "36氪获悉，商务部发布数据，2026年1-8月，全国新设立外商投资企业42582家，同比增长0.3%；实际使用外资金额4799.5亿元人民币，同比下降5.3%。从行业看，制造业实际使用外资1195.5亿元人民币，服务业实际使用外资3504.2亿元人民币。高技术产业实际使用外资2002.6亿元人民币，同比增长35.1%，占全国实际使用外资的41.7%，较去年同期提升12.4个百分点。其中，研发与设计服务、科技成果转化服务、电子及通信设备制造业实际使用外资分别增长74%、64.2%、41.9%。从来源地看，法国、瑞士、韩国实际对华投资分别增长39.2%、16.7%、16.5%（含通过自由港投资数据",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "ux",
-     "growth",
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.277641+00:00"
-   },
-   {
-    "id": "84370305b4d838fd",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:37:45+00:00",
-    "source": "36氪",
-    "title": "商务部：1-8月我国企业在共建“一带一路”国家非金融类直接投资243.6亿美元，下降7.4%",
-    "link": "https://36kr.com/newsflashes/3997392335556488?f=rss",
-    "summary": "36氪获悉，商务部发布数据，2026年1-8月，我国企业在共建“一带一路”国家非金融类直接投资1672.4亿元人民币，同比下降11.3%（以美元计为243.6亿美元，下降7.4%）。对外承包工程方面，我国企业在共建“一带一路”国家新签承包工程合同额10498.6亿元人民币，同比下降2.0%（以美元计为1529.2亿美元，增长2.4%）；完成营业额6823.5亿元人民币，增长7.7%（以美元计为993.9亿美元，增长12.5%）。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth",
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.277643+00:00"
-   },
-   {
-    "id": "3dd73ee78d233a16",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:37:11+00:00",
-    "source": "36氪",
-    "title": "中文在线：因网络推广代理服务合同纠纷被提起仲裁",
-    "link": "https://36kr.com/newsflashes/3997379528233088?f=rss",
-    "summary": "36氪获悉，中文在线公告，近日，公司及子公司收到北京仲裁委员会送达的《仲裁申请书》等材料，申请人香港品众互动网络营销技术有限公司就其与公司子公司签订的《媒体平台网络推广代理服务合同》相关纠纷，向北京仲裁委员会提起仲裁申请。涉案金额1244.26万美元及人民币15.91万元。本次案件财产保全实际冻结公司及子公司银行账户金额约291.01万元，占公司最近一期经审计净资产的0.98%，冻结公司持有的子公司北京中文在线文化传媒有限公司约3.33%的股权（对应股权数额为200万元）。现阶段该保全事项不会对公司生产经营造成重大不利影响。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.277649+00:00"
-   },
-   {
-    "id": "c65d21e1526addb1",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:36:49+00:00",
-    "source": "36氪",
-    "title": "商务部：1-8月我国企业共向境外派出各类劳务人员31.5万人，较上年同期增加4.4万人",
-    "link": "https://36kr.com/newsflashes/3997391417528193?f=rss",
-    "summary": "36氪获悉，商务部发布数据，2026年1-8月，我国企业共向境外派出各类劳务人员31.5万人，较上年同期增加4.4万人；其中承包工程项下派出9.2万人，劳务合作项下派出22.3万人。月末在外各类劳务人员68.1万人。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.277652+00:00"
-   },
-   {
-    "id": "c3d88d2fac3fd4e7",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:35:52+00:00",
-    "source": "36氪",
-    "title": "商务部：1-8月我国全行业对外直接投资1133.9亿美元，增长3.9%",
-    "link": "https://36kr.com/newsflashes/3997390471237510?f=rss",
-    "summary": "36氪获悉，据商务部、外汇局统计，2026年1-8月，我国全行业对外直接投资7784.7亿元人民币，同比下降0.6%（以美元计为1133.9亿美元，增长3.9%）。其中，我国境内投资者共对全球148个国家和地区的8424家境外企业进行了非金融类直接投资，累计投资5950.6亿元人民币，下降14.4%（以美元计为866.8亿美元，下降10.6%）。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth",
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-09-24T15:49:10.277655+00:00"
-   }
-  ],
   "dataviz": [
+   {
+    "id": "783851f67bdbf539",
+    "date": "2026-09-25",
+    "published": "2026-09-25T15:08:28+00:00",
+    "source": "Visual Capitalist",
+    "title": "Where Work-Life Balance Is Best and Worst in the U.S.",
+    "link": "https://www.visualcapitalist.com/where-work-life-balance-is-best-and-worst-in-the-u-s/",
+    "summary": "Maine ranks first for work-life balance, while nine of the 10 lowest-ranked states are in the South. See how all 50 states compare.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:03.786838+00:00"
+   },
+   {
+    "id": "0332771b0c137678",
+    "date": "2026-09-25",
+    "published": "2026-09-25T13:17:03+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: Average Student Debt by State in 2026",
+    "link": "https://www.visualcapitalist.com/mapped-average-student-debt-by-state-in-2026/",
+    "summary": "Washington, D.C. may have high salaries, but the average borrower has more student debt there than anywhere else.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:03.786846+00:00"
+   },
+   {
+    "id": "350a30f2a668305c",
+    "date": "2026-09-25",
+    "published": "2026-09-25T11:24:00+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The Countries That Dominate the Fertilizer Trade",
+    "link": "https://www.visualcapitalist.com/ranked-the-countries-that-dominate-the-fertilizer-trade/",
+    "summary": "Global agriculture depends on three main fertilizers. Four countries are responsible for over half of all fertilizer exports.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:03.786848+00:00"
+   },
+   {
+    "id": "295601dd22e1b779",
+    "date": "2026-09-25",
+    "published": "2026-09-25T10:02:36+00:00",
+    "source": "FlowingData",
+    "title": "Game to understand the president’s crypto endeavors",
+    "link": "https://flowingdata.com/2026/09/25/game-crypto/",
+    "summary": "Thin Air, Real Money is a game to help you understand the cryptocurrency… Tags: cryptocurrency , game",
+    "topics": [
+     "dataviz"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:01.891440+00:00"
+   },
+   {
+    "id": "b69a9807a9bf5a64",
+    "date": "2026-09-25",
+    "published": "2026-09-25T04:27:38+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: Countries Importing the Most Military Drones",
+    "link": "https://www.visualcapitalist.com/ranked-countries-importing-most-military-drones/",
+    "summary": "Ukraine and Russia received more than 91% of the 16,822 large military drones traded internationally from 2022 to 2025.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:03.786849+00:00"
+   },
    {
     "id": "872090f6788c6a6f",
     "date": "2026-09-25",
@@ -1313,98 +682,2106 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-09-21T06:49:46.787987+00:00"
+   }
+  ],
+  "china": [
+   {
+    "id": "64edc1d87def1009",
+    "date": "2026-09-25",
+    "published": "2026-09-25T14:18:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "htmx 4.0 发布：改用 Fetch API 重写，内置 DOM Morphing Swap，并明确属性继承规则",
+    "link": "https://www.infoq.cn/article/kJ4EkjPLVTh9iT5yyXkM?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:00.865704+00:00"
    },
    {
-    "id": "b1009baf00c27f63",
-    "date": "2026-09-21",
-    "published": null,
-    "source": "Grafana Labs Blog",
-    "title": "The Grafana AI SDK for Go: a shared foundation for building AI applications",
-    "link": "https://grafana.com/blog/the-grafana-ai-sdk-for-go-a-shared-foundation-for-building-ai-applications/",
-    "summary": "Starting an experiment with an LLM has never been easier. Keeping a growing collection of those experiments consistent is another matter. Earlier this year, as more teams began exploring AI features here at Grafana Labs, we repeatedly encountered the same pattern: a new experiment would start, move ",
+    "id": "01d5d70cbf463b2a",
+    "date": "2026-09-25",
+    "published": "2026-09-25T13:24:20+00:00",
+    "source": "量子位",
+    "title": "“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”",
+    "link": "https://www.qbitai.com/2026/09/497278.html",
+    "summary": "",
     "topics": [
-     "dataviz",
-     "changelog",
+     "china",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:04.211789+00:00"
+   },
+   {
+    "id": "caa862ea1e9f8b66",
+    "date": "2026-09-25",
+    "published": "2026-09-25T13:15:45+00:00",
+    "source": "量子位",
+    "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
+    "link": "https://www.qbitai.com/2026/09/497177.html",
+    "summary": "",
+    "topics": [
+     "china",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:04.211797+00:00"
+   },
+   {
+    "id": "87067b970a0403d5",
+    "date": "2026-09-25",
+    "published": "2026-09-25T10:35:47+00:00",
+    "source": "人人都是产品经理",
+    "title": "体验 PixVerse R2：世界模型的产品流程已经变了",
+    "link": "https://www.woshipm.com/ai/6470225.html",
+    "summary": "PixVerse R2 将 AI 视频生成从“提交任务”推向“实时交互”，但十几秒的响应延迟让用户陷入等待与操作的模糊地带。本文从产品体验视角出发，探讨世界模型下反馈机制、状态记忆与用户控制感的设计挑战，为生成式产品的交互设计提供新思路。 PixVerse R2：实时世界模型生成的世界，你可以实时走入、操控、并通过自然语言实时改变画面和剧情。我体验了一下，点开 PixVerse R2 的一个世界，等了大概7-8秒，画面出现。然后按下方向键，角色没有立刻跟上，画面也没有按照我的点击改变。我一时不知道是网络卡了还是我的操作有误，还是模型仍在生成。后来我又输入一句话，想让眼前的世界发生变化，又等了大",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:01.525977+00:00"
+   },
+   {
+    "id": "0c0657ba363d56c1",
+    "date": "2026-09-25",
+    "published": "2026-09-25T10:10:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "每周下载量约 16 万，仍处 Alpha 的 TanStack Charts 为什么火了？",
+    "link": "https://www.infoq.cn/article/OUcL9autU0dg1BIt6bib?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [
+     "dashboard"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:00.865712+00:00"
+   },
+   {
+    "id": "2552fd5419eac7ac",
+    "date": "2026-09-25",
+    "published": "2026-09-25T10:00:14+00:00",
+    "source": "量子位",
+    "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
+    "link": "https://www.qbitai.com/2026/09/497108.html",
+    "summary": "大厂造芯，正在从交付芯片，走向更广泛的开放共建阶段。",
+    "topics": [
+     "china",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:04.211798+00:00"
+   },
+   {
+    "id": "e955946d4e99a463",
+    "date": "2026-09-25",
+    "published": "2026-09-25T10:00:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "当 Vibe Coding 撞上企业级现实：真实工程中的 AI 效能之路｜QCon上海",
+    "link": "https://www.infoq.cn/article/QQk3wiolU1VScH3u0P7T?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:00.865714+00:00"
+   },
+   {
+    "id": "ba160dc0f706cdd6",
+    "date": "2026-09-25",
+    "published": "2026-09-25T09:50:30+00:00",
+    "source": "36氪",
+    "title": "IMF：2026年全球AI投资规模或突破2万亿美元，成为增长重要驱动力",
+    "link": "https://36kr.com/newsflashes/3998607176274049?f=rss",
+    "summary": "国际货币基金组织（IMF）近日发布年报表示，人工智能可能成为推动全球生产率和投资增长的重要力量，但同时可能加剧劳动力市场压力并带来金融风险。IMF称，2025年AI相关投资预计为美国GDP增长贡献约0.5个百分点，2026年全球私营部门AI投资规模可能超过2万亿美元。IMF指出，AI技能劳动者收入正在提高，但部分中等技能岗位面临自动化替代风险。与此同时，高额AI投资若回报不及预期，可能引发股市估值调整、财富损失和裁员。此外，AI产业链中企业之间的交叉投资和融资关系可能放大风险传导。（界面）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "growth",
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683233+00:00"
+   },
+   {
+    "id": "d9300d71ce750b24",
+    "date": "2026-09-25",
+    "published": "2026-09-25T09:35:01+00:00",
+    "source": "36氪",
+    "title": "交通运输部：9月24日全社会跨区域人员流动量22850.9万人次",
+    "link": "https://36kr.com/newsflashes/3998606708920448?f=rss",
+    "summary": "36氪获悉，据交通运输部消息，9月24日（中秋假期前1日，下同），全社会跨区域人员流动量22850.9万人次，环比增长37.2%，比2024年同期增长17.1%（以下同比均为与2024年同期比较）。其中：铁路客运量1713.9万人次，环比增长49.4%，同比增长30.7%。公路人员流动量（包括高速公路及普通国省道非营业性小客车人员出行量、公路营业性客运量）20840万人次，环比增长36.9%，同比增长16.2%。其中，公路营业性客运量3701万人次，环比增长21.5%，同比增长5%；高速公路及普通国省道非营业性小客车人员出行量17139万人次，环比增长40.7%，同比增长18.9%。水路客运量",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683243+00:00"
+   },
+   {
+    "id": "0217207feca6199e",
+    "date": "2026-09-25",
+    "published": "2026-09-25T09:30:00+00:00",
+    "source": "少数派",
+    "title": "本周看什么 | 最近值得一看的 6 部作品",
+    "link": "https://sspai.com/post/114957",
+    "summary": "📅本周新预告《侦战》定档预告9月21日，电影《侦战》发布定档预告，宣布10月1日上映。影片由孔令政编剧、导演，古天乐、此沙、任达华、谢君豪领衔主演，袁富华、卢慧敏、杨伟伦主演，讲述一名嫌疑人从警署羁押 ... 查看全文",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:01.350238+00:00"
+   },
+   {
+    "id": "801c93d07de9a4db",
+    "date": "2026-09-25",
+    "published": "2026-09-25T09:20:27+00:00",
+    "source": "36氪",
+    "title": "日本监管机构正加强对人工智能数据中心融资的审查力度",
+    "link": "https://36kr.com/newsflashes/3998605168529284?f=rss",
+    "summary": "随着日本大型银行和人寿保险公司增加对这一快速扩张领域的风险敞口，日本金融厅（FSA）正加强对相关AI数据中心融资的审查力度。据一位要求匿名的金融厅高级官员透露，监管机构将重点审查贷款机构的风险管理框架等关键环节。该官员表示，目前主要关注的是位于美国的数据中心项目。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683245+00:00"
+   },
+   {
+    "id": "61b0899848f4f937",
+    "date": "2026-09-25",
+    "published": "2026-09-25T09:06:56+00:00",
+    "source": "36氪",
+    "title": "2026年中秋档票房突破1亿元",
+    "link": "https://36kr.com/newsflashes/3998593904595075?f=rss",
+    "summary": "36氪获悉，据灯塔专业版，截至9月25日16时30分，2026年中秋档档期（9月25日—9月27日）票房突破1亿元，《复仇者联盟4：终局之战（加码臻享版）》《欢迎来龙餐馆》《八仙！》暂列档期票房前三。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683247+00:00"
+   },
+   {
+    "id": "1d11c8aafe1cd10a",
+    "date": "2026-09-25",
+    "published": "2026-09-25T09:02:46+00:00",
+    "source": "人人都是产品经理",
+    "title": "DeepSeek Harness客户端来了，AI办公又多了一个王者？",
+    "link": "https://www.woshipm.com/ai/6470242.html",
+    "summary": "DeepSeek 终于有自己的官方客户端了。 而且这次做得还挺大。 Windows、Mac 都可以直接下载安装，能读本地文件、联网搜索、跑终端，还能让多个 Agent 一起干活。 如果非要给它找一个普通用户容易理解的名字，我觉得可以叫： DeepSeek 的“AI 办公版”。 它的正式名字叫 DeepSeek Harness 。 目前 DeepSeek 官方还没有正式官宣，但安装包已经开始在社区流传。我第一时间下载安装，又把整个流程跑了一遍。 先说结论： 确实能用，而且已经不是一个简单的“DeepSeek桌面壳子”了。 比如今天正好是中秋节，我随手让它写了一段祝福： 海上生明月，天涯共此时。无",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:01.525986+00:00"
+   },
+   {
+    "id": "cc335df76885227e",
+    "date": "2026-09-25",
+    "published": "2026-09-25T08:59:36+00:00",
+    "source": "36氪",
+    "title": "亚马逊推出工具帮助商家管理沃尔玛、Shopify等平台库",
+    "link": "https://36kr.com/newsflashes/3998593465749640?f=rss",
+    "summary": "亚马逊周四在年度卖家大会上宣布，入驻亚马逊平台的商家现在可以利用亚马逊的软件工具，管理其在竞争对手平台上的库存，包括沃尔玛（Walmart）、Shopify、eBay商家将能够通过亚马逊“卖家中心”（Amazon Seller Central）控制面板，统一更新不同平台上的商品信息，并追踪各个平台的订单。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683248+00:00"
+   },
+   {
+    "id": "3615f6ffb2333ec1",
+    "date": "2026-09-25",
+    "published": "2026-09-25T08:55:22+00:00",
+    "source": "人人都是产品经理",
+    "title": "豆包前负责人，又做了个AI",
+    "link": "https://www.woshipm.com/ai/6470241.html",
+    "summary": "Teambition 创始人、前豆包 PC 端负责人齐俊元的新产品 Today，正式在国内上线了。 这个产品之前已经在海外开放公测，现在中国用户也可以直接下载安装。目前覆盖 Mac、Windows、Linux、iOS 和 Android，基础版永久免费，新注册用户还会送 1 亿 Tokens + 1 个月 Pro 权益。 1 亿 Token 看着很猛，但 Today 真正有意思的地方，其实不在于送多少 Token。 因为现在 AI 圈最不缺的就是 Token。 Today 想做一个「会惦记事」的 AI 现在大部分 AI Agent 的工作方式都差不多。 你打开 ChatGPT、Claude、W",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ai-product",
+     "ux"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:01.525988+00:00"
+   },
+   {
+    "id": "004c6440559c738a",
+    "date": "2026-09-25",
+    "published": "2026-09-25T08:45:25+00:00",
+    "source": "人人都是产品经理",
+    "title": "扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河",
+    "link": "https://www.woshipm.com/ai/6470240.html",
+    "summary": "Muse上线后，Meta久违地拥有了一款迅速出圈的AI产品。不到两周，它登上美国应用下载榜首。据Sensor Tower统计，截至9月22日，累计下载量已超过250万次。 为了让Agent真正替人行动，Meta给它配置了云端虚拟机。为了让用户敢把邮件、账户和私人信息交给它，又必须设计记忆、凭据存储和逐项授权的权限系统。扎克伯格认为，这些能力不能靠给现成模型增加一个产品界面完成；模型从预训练开始，就要学会理解个人目标，判断哪些信息可以使用、哪些不能向外披露。 这也是Muse背后更深的一场竞争。Meta首席执行官扎克伯格在与科技记者Alex Heath的对话中，谈到了这套产品设计，也谈及Llama",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "notification",
+     "ai-product",
+     "ux"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:01.525989+00:00"
+   },
+   {
+    "id": "92c52c5fba11466b",
+    "date": "2026-09-25",
+    "published": "2026-09-25T08:31:05+00:00",
+    "source": "人人都是产品经理",
+    "title": "支付宝鱼来拆解：C端消费Agent如何跨越「信任鸿沟」？",
+    "link": "https://www.woshipm.com/pd/6468264.html",
+    "summary": "当AI Agent从对话框走向真实消费，效率与信任的矛盾便浮出水面。本文以支付宝「鱼来」为样本，拆解生活消费类Agent的市场分层、商业模式与产品三问，剖析自动化执行中「太保守没价值，太自动不敢用」的底层困局，为C端Agent产品经理提供一份清醒的避坑指南。 很多人只看见 AI 炫酷的能力，却忽略了一个产品底层矛盾： 自动化程度越高，效率越强，但用户的信任风险同步指数级放大；自动化做的太保守，又会直接消解 Agent 全部价值 。太保守，没有价值；太自动，用户不敢用。鱼来不是一个简单的玩梗营销小功能，它是国民级超级 App 对 消费执行类 AI Agent的一次压力测试 。本文从市场分析、商业",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:01.525990+00:00"
+   },
+   {
+    "id": "22f20da3cbc8e1fd",
+    "date": "2026-09-25",
+    "published": "2026-09-25T08:28:38+00:00",
+    "source": "36氪",
+    "title": "马斯克计划在年底前将Colossus 2的英伟达芯片数量增加一倍",
+    "link": "https://36kr.com/newsflashes/3998521879810183?f=rss",
+    "summary": "马斯克表示，其旗下xAI公司打造的AI算力集群Colossus 2，到年底时英伟达芯片的数量可能会比目前增加一倍以上。这位亿万富翁为孟菲斯地区该集群的扩建计划提供了迄今为止最详细的时间表，他正竞相扩大AI算力规模。马斯克在X平台上发帖称，Colossus 2目前拥有11万块英伟达GB200芯片和44万块GB300芯片。他表示，下周将有另外22万块GB300芯片投入运行，11月份预计还将有22万块芯片上线。他补充道，如果“运气够好”，12月下旬可能还会再有22万块芯片上线。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683250+00:00"
+   },
+   {
+    "id": "27fcf66e9e209265",
+    "date": "2026-09-25",
+    "published": "2026-09-25T08:12:48+00:00",
+    "source": "36氪",
+    "title": "恒指收跌1.01%，恒生科技指数跌1.13%",
+    "link": "https://36kr.com/newsflashes/3998547448500357?f=rss",
+    "summary": "36氪获悉，恒指收跌1.01%，恒生科技指数跌1.13%；科技、汽车股领跌，网易、理想汽车跌超3%，小米集团跌超2%，阿里巴巴、百度集团、京东集团跌超1%；医药股走强，迈博医药涨超29%，凯莱英涨超3%，药明康德涨超2%。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683251+00:00"
+   },
+   {
+    "id": "89d3d7a607bdc17a",
+    "date": "2026-09-25",
+    "published": "2026-09-25T08:00:51+00:00",
+    "source": "36氪",
+    "title": "通航满一周，平陆运河全线运行平稳有序",
+    "link": "https://36kr.com/newsflashes/3998486613168265?f=rss",
+    "summary": "据广西交通运输厅消息，9月23日，平陆运河通航满一周。通航首周，运河船舶过闸顺畅，全线运行平稳有序，货运航线双向启航，水上客运首发火爆。新开通的2条货运航线中，“南宁—海南洋浦”内贸航线主要承运建材、粮食、工业成品等大宗货物，架起广西内河腹地与海南自由贸易港互联互通的核心物流通道；“南宁—越南芹苴”外贸航线进一步畅通区内机电、轻工、特色农产品等优势产品出海通道，同时助力东盟大宗商品更加高效便捷进口。（央视新闻）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683252+00:00"
+   },
+   {
+    "id": "fddcbf61e6537c62",
+    "date": "2026-09-25",
+    "published": "2026-09-25T07:43:25+00:00",
+    "source": "36氪",
+    "title": "中信证券：高阶智驾加速渗透，产业链持续受益",
+    "link": "https://36kr.com/newsflashes/3998474433253504?f=rss",
+    "summary": "36氪获悉，中信证券研报指出，根据第一电动汽车网数据，2026年上半年城市NOA在国内乘用车市场的渗透率已提升至20.9%，正带动中大算力智驾芯片、城市NOA软件、激光雷达、智驾域控等产品出货量高增，头部公司相关收入大幅增长。另一方面，L4自动驾驶商业化加速，多家公司已在标杆项目中兑现经济效益，正致力于推进轻资产模式商业化与全球市场拓展。展望2026年下半年，产业链各环节料将进一步推进技术研发和产品投放，汽车智能化产业链有望受益。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683254+00:00"
+   },
+   {
+    "id": "58e592330fc9f133",
+    "date": "2026-09-25",
+    "published": "2026-09-25T07:24:15+00:00",
+    "source": "36氪",
+    "title": "国盛、湘财证券被立案后罚单出炉：暂停新开户3个月，多名责任人被追责",
+    "link": "https://36kr.com/newsflashes/3998470352506760?f=rss",
+    "summary": "因涉嫌违反账户实名制等规定，被立案近两个月后，国盛证券与湘财证券同日收到监管下发的行政处罚及行政监管措施事先告知书，拟暂停两家券商新开证券账户3个月。9月24日，国盛证券公告称，公司及相关当事人收到江西证监局下发的《行政处罚事先告知书》《行政监管措施事先告知书》。同日，湘财股份公告称，子公司湘财证券收到湖南证监局下发的《行政处罚事先告知书》和相关行政监管措施事先告知书。两家券商均于7月31日被中国证监会立案。（澎湃）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683255+00:00"
+   },
+   {
+    "id": "5dea7aa8aa6221b0",
+    "date": "2026-09-25",
+    "published": "2026-09-25T07:10:17+00:00",
+    "source": "人人都是产品经理",
+    "title": "做 Agent 半年才醒悟：对话框只是入口，真正的核心是任务闭环",
+    "link": "https://www.woshipm.com/ai/6469962.html",
+    "summary": "过去一年身边很多团队都在冲 Agent，踩完坑后看到一个扎心的现状：九成产品只是套了对话壳的升级版聊天机器人，加了工具调用、写满自主执行，却没有进度、没有留存、没有结果交付。文章复盘这四大通病，并给出一套可复用的五层任务闭环模型。 过去一年，身边很多团队都在冲 AI Agent，踩完项目坑后我发现一个很扎心的现状： 90% 的 Agent 产品，只是「套了对话壳的升级版聊天机器人」。 界面换成智能体、加了工具调用、写满自主执行，但核心逻辑依旧是：用户提问 → AI 回答 → 对话结束。 没有进度、没有留存、没有结果交付、没有迭代。 这也是为什么很多 Agent 上线即沉寂：用户新鲜感一过，完全",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "retention",
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:01.525992+00:00"
+   },
+   {
+    "id": "54d1966a4cf175af",
+    "date": "2026-09-25",
+    "published": "2026-09-25T07:04:22+00:00",
+    "source": "36氪",
+    "title": "欧洲央行三大高层职位将陆续空缺，人事接班竞争料加剧",
+    "link": "https://36kr.com/newsflashes/3998467504148617?f=rss",
+    "summary": "欧洲央行执委会成员Isabel Schnabel将提前离任，料加剧包括行长拉加德接班人在内的高层人事竞争。德国籍的Schnabel周四宣布，将于明年1月离开欧洲央行执委会，比原定任期提前一年。这意味着欧洲央行最高决策层三个多月后就会出现空缺。首席经济学家Philip Lane和拉加德也将在2027年先后任期届满，而拉加德还暗示可能提前离任，因此各国围绕多个职位达成一揽子人事安排的可能性正在上升。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683257+00:00"
+   },
+   {
+    "id": "521ee531f303b5b2",
+    "date": "2026-09-25",
+    "published": "2026-09-25T06:50:45+00:00",
+    "source": "36氪",
+    "title": "报告：今夏热浪预计致德国损失约250亿欧元",
+    "link": "https://36kr.com/newsflashes/3998465842483080?f=rss",
+    "summary": "德国安联集团24日发布的研究报告显示，今年夏季热浪预计给德国造成约250亿欧元经济损失。报告说，由于缺乏空调等降温设备，高温使员工休息时间延长、缺勤率增加，导致德国生产力下降。受热浪影响，德国今年经济增速降低约0.54个百分点，损失约占全年国内生产总值的0.53%。（财联社）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683258+00:00"
+   },
+   {
+    "id": "906caa4305c94978",
+    "date": "2026-09-25",
+    "published": "2026-09-25T06:36:40+00:00",
+    "source": "人人都是产品经理",
+    "title": "实体生意全套经营打法，让你的生意能快速做起来",
+    "link": "https://www.woshipm.com/share/6469890.html",
+    "summary": "实体生意早就不是守店卖货就能赚钱的时代。前端让利换流量、后端靠升单会员复购赚长钱，用短视频做同城曝光、直播集中成交、私域养客复购、个人 IP 建信任，再搭出引流品、利润品、爆款品的价格梯度。本文把这三套逻辑拆开讲，也说了老板容易卡住的环节。 现在的实体生意，早就不是单纯靠守店、靠产品赚钱的时代了。 想要稳定盈利、持续增长、不被同行内卷淘汰，必须吃透三套通用的核心经营逻辑。 ①前端+后端+客户终身价值 ②短视频+直播+私域+IP+门店体验 ③流量+转化+产品价格体系 这三套体系组合起来，就是所有实体门店通用、可落地、能长期赚钱的完整商业模式。 一、前端引流、后端盈利、锁定客户终身价值 这是门店盈",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "retention",
+     "ux",
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:01.525993+00:00"
+   },
+   {
+    "id": "568fbdfeb8d0f565",
+    "date": "2026-09-25",
+    "published": "2026-09-25T06:34:02+00:00",
+    "source": "36氪",
+    "title": "Nanexa与诺和诺德就长效注射剂达成11.65亿欧元全球许可和合作协议",
+    "link": "https://36kr.com/newsflashes/3998408154435462?f=rss",
+    "summary": "当地时间9��24日，瑞典药物递送平台公司Nanexa宣布，已与诺和诺德就使用PharmaShell技术平台针对某些靶向肥胖、2型糖尿病和其他心脏代谢适应症的肽类药物达成全球独家许可和合作协议。该协议包括最多五个开发项目，并涵盖不同的给药频率方案，以每月和每季度给药为目标方案。诺和诺德将主导全球开发和商业化，Nanexa有资格获得总计最高达11.65亿欧元的付款，其中包括6.15亿欧元的首付款以及开发和监管里程碑付款。其余里程碑付款为销售里程碑付款。此外，Nanexa有资格获得协议项下开发产品全球净销售额的低个位数百分比特许权使用费。（界面）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683260+00:00"
+   },
+   {
+    "id": "38b21b5ae9870cb8",
+    "date": "2026-09-25",
+    "published": "2026-09-25T06:20:56+00:00",
+    "source": "量子位",
+    "title": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
+    "link": "https://www.qbitai.com/2026/09/497075.html",
+    "summary": "Agent的手越伸越长",
+    "topics": [
+     "china",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:04.211800+00:00"
+   },
+   {
+    "id": "f37c10e69dcc418f",
+    "date": "2026-09-25",
+    "published": "2026-09-25T06:14:47+00:00",
+    "source": "36氪",
+    "title": "印度允许规模4630亿美元的财富类基金出海投资",
+    "link": "https://36kr.com/newsflashes/3998404978724745?f=rss",
+    "summary": "印度市场监管机构将实施全面规则修订，首次允许面向高净值人群、规模达4630亿美元的投资组合管理行业投资海外证券，并可做空股票期权。印度证券交易委员会在周四董事会会议后表示，还允许这类基金投资非上市债务证券，交易所衍生品敞口最高可达客户资产的1.25倍。投资组合管理人也可在监管划定上限内持有未对冲空头头寸，该上限数值监管机构并未披露。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683261+00:00"
+   },
+   {
+    "id": "c52f67b34d71384f",
+    "date": "2026-09-25",
+    "published": "2026-09-25T06:14:07+00:00",
+    "source": "量子位",
+    "title": "华为大模型双子星联手创业，要找物理世界的Scaling Law",
+    "link": "https://www.qbitai.com/2026/09/497070.html",
+    "summary": "一场物理世界的基模实验",
+    "topics": [
+     "china",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:04.211801+00:00"
+   },
+   {
+    "id": "70b0b42ed6ad36a8",
+    "date": "2026-09-25",
+    "published": "2026-09-25T06:11:10+00:00",
+    "source": "量子位",
+    "title": "呃…小扎「自研Manus」刚成Meta太子，就塌房了",
+    "link": "https://www.qbitai.com/2026/09/497060.html",
+    "summary": "人工外包团队",
+    "topics": [
+     "china",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:04.211802+00:00"
+   },
+   {
+    "id": "82e2da050d0d60af",
+    "date": "2026-09-25",
+    "published": "2026-09-25T05:59:50+00:00",
+    "source": "36氪",
+    "title": "日本10年期国债收益率一度升至3.115%",
+    "link": "https://36kr.com/newsflashes/3998381187288966?f=rss",
+    "summary": "据日本方面消息，在25日的东京债券市场上，作为长期利率指标的新发10年期国债收益率一度升至3.115%。据日本相互证券公司统计，这是自1996年8月以来的最高水平。国债收益率与价格呈反向关系，收益率升高意味着债券价格下跌。（央视新闻）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683263+00:00"
+   },
+   {
+    "id": "450f5a59f249c483",
+    "date": "2026-09-25",
+    "published": "2026-09-25T05:52:18+00:00",
+    "source": "量子位",
+    "title": "给机器人当老师，还能赚外快？“中国版Index”觅蜂派来了",
+    "link": "https://www.qbitai.com/2026/09/497012.html",
+    "summary": "",
+    "topics": [
+     "china",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:04.211803+00:00"
+   },
+   {
+    "id": "af29995f6c312da3",
+    "date": "2026-09-25",
+    "published": "2026-09-25T05:50:40+00:00",
+    "source": "36氪",
+    "title": "特斯拉Semi电动卡车开启量产交付",
+    "link": "https://36kr.com/newsflashes/3998407736856449?f=rss",
+    "summary": "9月25日，特斯拉宣布Semi电动卡车开启量产交付。据马斯克介绍，该车搭载特斯拉辅助驾驶功能，Megacharger可提供兆瓦级充电功率。（界面）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683264+00:00"
+   },
+   {
+    "id": "7d18ba59eaacb1d8",
+    "date": "2026-09-25",
+    "published": "2026-09-25T05:45:08+00:00",
+    "source": "36氪",
+    "title": "海外机构调研股出炉，融资客加仓多只个股",
+    "link": "https://36kr.com/newsflashes/3998381724438400?f=rss",
+    "summary": "据统计，近10日（9月11日至24日），共有380家公司获机构调研，海外机构共对66家上市公司进行走访。海外机构调研榜单中，广合科技参与调研的海外机构达到62家，最受关注。公司在调研中表示，PCIe 6.0的服务器PCB出货主要受CPU算力芯片量产计划影响，预计今年会有小批量的出货，大批量出货会在明年。多只海外机构调研股获杠杆资金青睐，近10日，沪电股份、普冉股份、杰瑞股份、比亚迪的融资净买入额居前，均超1亿元。（证券时报）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683266+00:00"
+   },
+   {
+    "id": "9c8dd9c1c2605800",
+    "date": "2026-09-25",
+    "published": "2026-09-25T05:36:37+00:00",
+    "source": "人人都是产品经理",
+    "title": "本地生活深度思考：白牌云连锁与信任成本构建",
+    "link": "https://www.woshipm.com/share/6469856.html",
+    "summary": "本地生活服务到店与到家是两套逻辑，履约主体不同，信任沉淀的资产也不同。高客单拉新正在出现新变化：优质门店更愿意把自己做成个体而非连锁，因为线上运营的黑匣子已经被打开。本文从信任成本出发，推演逆连锁化为什么会出现，以及多数白牌云连锁卡在哪里。 1/ 本地生活服务到店与到家业务是两个不同的逻辑，两个业务构建的信任场景是不同的。到店服务履约的主体是「店中的人」，用户构建的信任主体是围绕「店」。 你想让人推荐好吃的套餐，对方推荐的是某某店或者是每个门店的某款套餐。而到家的服务，履约的是去家里的服务人员。信任的构建是围绕人，例如这个阿姨服务好，你其实更愿意添加阿姨的联系方式，下次让她再过来。 围绕到家与",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:01.525995+00:00"
+   },
+   {
+    "id": "b4e5cc5d46d9dd2d",
+    "date": "2026-09-25",
+    "published": "2026-09-25T05:31:48+00:00",
+    "source": "人人都是产品经理",
+    "title": "拆了100个Seedance提示词后，发现3个切片粒度黄金分割点（附模板）",
+    "link": "https://www.woshipm.com/ai/6470209.html",
+    "summary": "时间轴切片法被说烂了，但照着模板填，视频依然在第三秒崩坏。拆解100个Seedance提示词后，发现被忽略的切片粒度黄金分割点：3秒保动作、4秒保情绪、5秒保光影。本文用实测数据与DZS因果链框架，教你用工程化思维替代拍脑袋切片，让AI视频渲染稳定不翻车。 时间轴切片法被说烂了。 0-4秒写什么，4-8秒写什么，8-12秒写什么——这套模板几乎成了Seedance玩家的入门仪式。 但一个尴尬的事实是：照着模板填，依然有大量视频在第三秒开始崩。人物变形、动作跳帧、镜头运动突然卡顿。问题不在描述不够细，而在切片的粒度选错了。 拆完100个Seedance提示词后，发现三个被忽略的切片粒度黄金分割点",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:01.525997+00:00"
+   },
+   {
+    "id": "7a3f69f63ac4988e",
+    "date": "2026-09-25",
+    "published": "2026-09-25T05:28:05+00:00",
+    "source": "36氪",
+    "title": "影石正布局AI眼镜，或采用“分体电池”设计",
+    "link": "https://36kr.com/newsflashes/3998333280227202?f=rss",
+    "summary": "有接近影石创新人士透露，当前影石创新正在布局AI眼镜赛道，并在进行相关研发，未来或将推出自己的AI眼镜产品。此前，影石创新获得了一项名为“可穿戴式眼镜”的实用新型专利授权。专利摘要显示，该眼镜主体佩戴于头部，电池装置与眼镜主体分离、佩戴于身体其他部位，通过电连接线供电，目的是“减轻用户头部负重，降低长时间佩戴的压力”。这一“分体电池”设计思路，与当前主流AI眼镜将电池塞入镜腿的方案明显不同，更接近长时间佩戴拍摄的工程取向。（新浪科技）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683267+00:00"
+   },
+   {
+    "id": "dd76e879531542d2",
+    "date": "2026-09-25",
+    "published": "2026-09-25T05:12:25+00:00",
+    "source": "36氪",
+    "title": "受AI相关产品等拉动，泰国出口创四年��大增幅",
+    "link": "https://36kr.com/newsflashes/3998333856337800?f=rss",
+    "summary": "得益于全球人工智能热潮带动的电子产品出口，叠加中国对泰国榴莲、山竹需求大增，泰国出口实现四年多来最快增速。泰国商务部周五公布数据，8月出口额同比猛增24.3%，为56个月以来最高增速，高于7月的21.6%。进口同比增长25.1%，较上月36.7%的涨幅有所回落。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683268+00:00"
+   },
+   {
+    "id": "dad85305a7ff5404",
+    "date": "2026-09-25",
+    "published": "2026-09-25T04:55:39+00:00",
+    "source": "36氪",
+    "title": "华泰证券：部分商金浮息债提供了更厚的收益补偿，更适合能够承受一定流动性约束、以持有至到期为主的配置型账户",
+    "link": "https://36kr.com/newsflashes/3998333027471241?f=rss",
+    "summary": "36氪获悉，华泰证券指出，本轮浮息债扩容由政策性银行与商业银行共同推动，兼顾发行人的负债成本管理与投资者的资产配置需求。当前政策性银行浮息债与可比固息债收益率基本持平，对潜在降息的补偿有限；部分商金浮息债提供了更厚的收益补偿，更适合能够承受一定流动性约束、以持有至到期为主的配置型账户。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-09-25T15:49:03.683270+00:00"
+   }
+  ],
+  "ai": [
+   {
+    "id": "d5124dbc116d6fbd",
+    "date": "2026-09-25",
+    "published": "2026-09-25T14:00:00+00:00",
+    "source": "The a16z Show (podcast)",
+    "title": "The Reputation Graph of Silicon Valley | Introducing Cosign",
+    "link": "https://a16z.simplecast.com/episodes/the-reputation-graph-of-silicon-valley-introducing-cosign-qLcU00IT",
+    "summary": "a16z’s Erik Torenberg sits down with Josh Elman, Olivia Moore, and David Booth to introduce Cosign, a new product built around professional reputation and the people, companies, and products you’re willing to put your name behind. They unpack a simple idea at the heart of Silicon Valley: some of the",
+    "topics": [
+     "ai",
+     "growth"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:02.926361+00:00"
+   },
+   {
+    "id": "907d5902295bf051",
+    "date": "2026-09-25",
+    "published": "2026-09-25T13:50:24+00:00",
+    "source": "Ben's Bites",
+    "title": "50 years of tech devices",
+    "link": "https://www.bensbites.com/p/50-years-of-tech-devices",
+    "summary": "Ben's session #7",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:48:59.171500+00:00"
+   },
+   {
+    "id": "6b0119e5efd77ad4",
+    "date": "2026-09-25",
+    "published": "2026-09-25T08:06:49+00:00",
+    "source": "Hacker News — Best",
+    "title": "Dutch governments builds alternative for Microsoft based on NixOS",
+    "link": "https://www.dawo.community/en/",
+    "summary": "Article URL: https://www.dawo.community/en/ Comments URL: https://news.ycombinator.com/item?id=49841563 Points: 695 # Comments: 384",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:48:58.523133+00:00"
+   },
+   {
+    "id": "658e36b5c11a1596",
+    "date": "2026-09-25",
+    "published": "2026-09-25T05:37:00+00:00",
+    "source": "Latent Space (AINews)",
+    "title": "[AINews] The Future of Latent Space",
+    "link": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+    "summary": "A quiet day lets us discuss the work behind the scenes - now open for business!",
+    "topics": [
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:48:58.795140+00:00"
+   },
+   {
+    "id": "6c1df0eaaeb4e9f7",
+    "date": "2026-09-25",
+    "published": "2026-09-25T01:30:57+00:00",
+    "source": "Latent Space (AINews)",
+    "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+    "link": "https://www.latent.space/p/runway",
+    "summary": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
+    "topics": [
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:48:58.795151+00:00"
+   },
+   {
+    "id": "414ec5ebf00c8740",
+    "date": "2026-09-24",
+    "published": "2026-09-24T23:31:08+00:00",
+    "source": "Simon Willison's Weblog",
+    "title": "Note on 24th September 2026",
+    "link": "https://simonwillison.net/2026/Sep/24/harder/",
+    "summary": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge. Tags: coding-agents , ai , llms",
+    "topics": [
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:48:58.850794+00:00"
+   },
+   {
+    "id": "33c8282a4c0782cc",
+    "date": "2026-09-24",
+    "published": "2026-09-24T20:34:32+00:00",
+    "source": "Hacker News — Best",
+    "title": "California is chasing wealth that has feet",
+    "link": "https://blog.landeconomics.org/p/california-is-chasing-wealth-that",
+    "summary": "Article URL: https://blog.landeconomics.org/p/california-is-chasing-wealth-that Comments URL: https://news.ycombinator.com/item?id=49836419 Points: 266 # Comments: 730",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:48:58.523145+00:00"
+   },
+   {
+    "id": "e3359762ea699c23",
+    "date": "2026-09-24",
+    "published": "2026-09-24T20:28:47+00:00",
+    "source": "Hacker News — Best",
+    "title": "Opus 5.5 is good at explainer videos",
+    "link": "https://launchvideo.io",
+    "summary": "Article URL: https://launchvideo.io Comments URL: https://news.ycombinator.com/item?id=49836374 Points: 330 # Comments: 179",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:48:58.523147+00:00"
+   },
+   {
+    "id": "e804eb39ba09ffde",
+    "date": "2026-09-24",
+    "published": "2026-09-24T20:06:53+00:00",
+    "source": "Simon Willison's Weblog",
+    "title": "commit-rewriter 0.2",
+    "link": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+    "summary": "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git",
+    "topics": [
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T01:28:42.146901+00:00"
+   },
+   {
+    "id": "afd37b587ece6ba4",
+    "date": "2026-09-24",
+    "published": "2026-09-24T19:15:23+00:00",
+    "source": "Simon Willison's Weblog",
+    "title": "datasette 1.0a41",
+    "link": "https://simonwillison.net/2026/Sep/24/datasette/",
+    "summary": "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now documented for other plugins to use . Tags: javascript , datasette , web-components , alex-garcia , opente",
+    "topics": [
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T01:28:42.146911+00:00"
+   },
+   {
+    "id": "185ddb0abcfc6b08",
+    "date": "2026-09-24",
+    "published": "2026-09-24T17:21:36+00:00",
+    "source": "Hacker News — Best",
+    "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+    "link": "https://github.com/devdotfast/whiteboard",
+    "summary": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard ( https://whiteboard.dev.fast/ ), an open-source desktop app where humans and agents can architect software together in a common workspace. Here’s our repo: https://github.com/devdotfast/whiteboard . We were missing the feeling of a",
+    "topics": [
+     "ai",
      "product"
     ],
     "tags": [
      "ai-product"
     ],
     "lang": "en",
-    "first_seen": "2026-09-21T06:49:46.787987+00:00"
+    "first_seen": "2026-09-25T15:48:58.523149+00:00"
    },
    {
-    "id": "51a757c05522d19b",
-    "date": "2026-09-21",
-    "published": null,
-    "source": "Grafana Labs Blog",
-    "title": "How to scale Alloy as a central telemetry gateway: capacity planning, load testing, and production lessons",
-    "link": "https://grafana.com/blog/how-to-scale-alloy-as-a-central-telemetry-gateway-capacity-planning-load-testing-and-production-lessons/",
-    "summary": "Running Alloy as a single-instance sidecar is simple. Running it as a centralized gateway that absorbs the full telemetry stream of an enterprise platform—tens of millions of active series, terabytes of logs per day, and tens of thousands of trace spans per second—is a different challenge altogether",
+    "id": "53a9cbbf31427d0e",
+    "date": "2026-09-24",
+    "published": "2026-09-24T16:44:27+00:00",
+    "source": "The Pragmatic Engineer",
+    "title": "The Pulse: RoR creator sparks new “death of coding by hand” debate",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-end-of-coding-by-hand",
+    "summary": "37signals – the creator of Ruby on Rails (RoR) – moves over to agents generating nearly all its code. Also: Amazon and Meta struggle to hire engineers, code reviews will probably also go away and more",
     "topics": [
-     "dataviz",
-     "changelog",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:46.787987+00:00"
-   },
-   {
-    "id": "deeee4bbd29c215e",
-    "date": "2026-09-21",
-    "published": null,
-    "source": "Grafana Labs Blog",
-    "title": "Grafana 13.2 release: easier ways to query and explore your data",
-    "link": "https://grafana.com/blog/grafana-13-2-release-all-the-latest-features/",
-    "summary": "Grafana 13.2 is here, bringing more improvements to help you and your team explore your data and get to insights faster. In this post, we’ll highlight the latest updates to saved queries, a feature that lets teams share, discover, and reuse queries to get to trusted answers faster and help new teamm",
-    "topics": [
-     "dataviz",
-     "changelog",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:46.787987+00:00"
-   },
-   {
-    "id": "31e923224157a542",
-    "date": "2026-09-21",
-    "published": null,
-    "source": "Grafana Labs Blog",
-    "title": "Knowledge Graph as context for LLMs: demonstrating decisive RCA and faster production performance",
-    "link": "https://grafana.com/blog/knowledge-graph-as-context-for-llms-demonstrating-decisive-rca-and-faster-production-performance/",
-    "summary": "On the product team here at Grafana Labs, we consider AI agents our users, too. That’s why we set out to test how well agents can debug incidents across the full stack, and how much better they perform with Grafana Cloud’s Knowledge Graph vs. using raw telemetry alone. Our early results are promisin",
-    "topics": [
-     "dataviz",
-     "changelog",
+     "ai",
      "product"
     ],
     "tags": [
      "ai-product"
     ],
     "lang": "en",
-    "first_seen": "2026-09-21T06:49:46.787987+00:00"
+    "first_seen": "2026-09-25T01:28:43.147044+00:00"
    },
    {
-    "id": "af2b95d8a8d2b59b",
-    "date": "2026-09-21",
-    "published": null,
-    "source": "Grafana Labs Blog",
-    "title": "From failed check to real user impact: Pairing Synthetic Monitoring and Frontend Observability in Grafana Cloud",
-    "link": "https://grafana.com/blog/from-failed-check-to-real-user-impact-pairing-synthetic-monitoring-and-frontend-observability-in-grafana-cloud/",
-    "summary": "Say you get a support escalation about a page in the app that won’t load. But when you pull up your synthetic checks, they're all green: 100% uptime, probes are passing. Something's not adding up, but which one do you trust? If you’ve run Grafana Cloud Synthetic Monitoring , you’ve been on both side",
+    "id": "6e8691490283cb3c",
+    "date": "2026-09-24",
+    "published": "2026-09-24T16:23:00+00:00",
+    "source": "Hacker News — Best",
+    "title": "Why is the liver so weirdly regenerative?",
+    "link": "https://dynomight.substack.com/p/liver",
+    "summary": "Article URL: https://dynomight.substack.com/p/liver Comments URL: https://news.ycombinator.com/item?id=49832938 Points: 478 # Comments: 248",
     "topics": [
-     "dataviz",
-     "changelog",
+     "ai",
      "product"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-09-21T06:49:46.787987+00:00"
+    "first_seen": "2026-09-25T15:48:58.523150+00:00"
+   },
+   {
+    "id": "a8471fde1c3c64df",
+    "date": "2026-09-24",
+    "published": "2026-09-24T15:50:26+00:00",
+    "source": "Hacker News — Best",
+    "title": "GitHub has not removed malicious imitation software after 3 weeks",
+    "link": "https://successfulsoftware.net/2026/09/24/github-has-not-removed-malicious-imitation-software-after-3-weeks/",
+    "summary": "Article URL: https://successfulsoftware.net/2026/09/24/github-has-not-removed-malicious-imitation-software-after-3-weeks/ Comments URL: https://news.ycombinator.com/item?id=49832406 Points: 261 # Comments: 116",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:48:58.523151+00:00"
+   },
+   {
+    "id": "50c0b912a0edf25f",
+    "date": "2026-09-24",
+    "published": "2026-09-24T15:26:12+00:00",
+    "source": "Hacker News — Best",
+    "title": "F-Droid 2.0",
+    "link": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+    "summary": "Article URL: https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html Comments URL: https://news.ycombinator.com/item?id=49831968 Points: 918 # Comments: 261",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T01:28:46.431812+00:00"
+   },
+   {
+    "id": "383cf544a6fcbaee",
+    "date": "2026-09-24",
+    "published": "2026-09-24T15:03:16+00:00",
+    "source": "Latent Space (AINews)",
+    "title": "Foundries vs Navigators: Lowering the Cost of Science",
+    "link": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+    "summary": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
+    "topics": [
+     "ai"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-24T15:49:09.628756+00:00"
+   },
+   {
+    "id": "e31b30769dfe667a",
+    "date": "2026-09-24",
+    "published": "2026-09-24T13:04:08+00:00",
+    "source": "Ben's Bites",
+    "title": "Back to Claude",
+    "link": "https://www.bensbites.com/p/back-to-claude",
+    "summary": "GPT-6 Sol and Luna got cheaper",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-24T15:49:08.396010+00:00"
+   },
+   {
+    "id": "106d9b92dc30795e",
+    "date": "2026-09-24",
+    "published": "2026-09-24T12:58:08+00:00",
+    "source": "Hacker News — Best",
+    "title": "Owners mourn spoiled food after firmware update bricks Samsung smart fridges",
+    "link": "https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/",
+    "summary": "Article URL: https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/ Comments URL: https://news.ycombinator.com/item?id=49829960 Points: 267 # Comments: 273",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T01:28:46.431819+00:00"
+   },
+   {
+    "id": "b0c2cd2b9ace0151",
+    "date": "2026-09-24",
+    "published": "2026-09-24T10:39:19+00:00",
+    "source": "Hacker News — Best",
+    "title": "Two-tier encryption in the UK",
+    "link": "https://macanorak.com/two-tier-encryption-in-the-uk/",
+    "summary": "Article URL: https://macanorak.com/two-tier-encryption-in-the-uk/ Comments URL: https://news.ycombinator.com/item?id=49828731 Points: 374 # Comments: 370",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T01:28:46.431822+00:00"
+   },
+   {
+    "id": "3226f9e5eca7df04",
+    "date": "2026-09-24",
+    "published": "2026-09-24T09:24:13+00:00",
+    "source": "The Product Compass (Paweł Huryn)",
+    "title": "Building In Public: How to Get Your First 100/1,000/10,000 Users",
+    "link": "https://www.productcompass.pm/p/building-in-public-first-users",
+    "summary": "We take AskOne, the Slido alternative we built in Product Engineering for PMs, to its first real users: customers, value proposition, a free plan, and 7 ways to be found.",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-24T15:49:10.184788+00:00"
+   },
+   {
+    "id": "6257b0592dcab8be",
+    "date": "2026-09-24",
+    "published": "2026-09-24T08:23:03+00:00",
+    "source": "Hacker News — Best",
+    "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+    "link": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
+    "summary": "Article URL: https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/ Comments URL: https://news.ycombinator.com/item?id=49827794 Points: 471 # Comments: 267",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-24T15:49:10.048206+00:00"
+   },
+   {
+    "id": "eb583865492c3c45",
+    "date": "2026-09-24",
+    "published": "2026-09-24T08:12:59+00:00",
+    "source": "Latent Space (AINews)",
+    "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
+    "link": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
+    "summary": "Team Zuck is absolutely on fire.",
+    "topics": [
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-24T15:49:09.628769+00:00"
+   },
+   {
+    "id": "f4c488e9b99f85d1",
+    "date": "2026-09-24",
+    "published": "2026-09-24T07:00:00+00:00",
+    "source": "The a16z Show (podcast)",
+    "title": "The Case Against an AI Pause | Eddy Lazzarin",
+    "link": "https://a16z.simplecast.com/episodes/the-case-against-an-ai-pause-eddy-lazzarin-oPay7sAU",
+    "summary": "a16z crypto General Partner Eddy Lazzarin joins Theo Jaffee on MTS to debate the increasingly prominent calls to slow AI development and whether the current safety conversation is conflating very different kinds of risk. Eddy argues that the debate puts too much emphasis on speculative superintellig",
+    "topics": [
+     "ai",
+     "growth"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T01:28:53.437288+00:00"
+   },
+   {
+    "id": "e82bf04022f67ea0",
+    "date": "2026-09-24",
+    "published": "2026-09-24T05:21:10+00:00",
+    "source": "Hacker News — Best",
+    "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+    "link": "https://transluce.org/agent-activity",
+    "summary": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 261 # Comments: 289",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:48:58.523152+00:00"
+   },
+   {
+    "id": "7ea4ec009fe31d42",
+    "date": "2026-09-24",
+    "published": "2026-09-24T02:52:09+00:00",
+    "source": "Hacker News — Best",
+    "title": "Ideas on modernizing the open-source desktop",
+    "link": "https://lwn.net/SubscriberLink/1095425/2d9f411252325784/",
+    "summary": "Article URL: https://lwn.net/SubscriberLink/1095425/2d9f411252325784/ Comments URL: https://news.ycombinator.com/item?id=49825642 Points: 379 # Comments: 486",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T01:28:46.431824+00:00"
+   },
+   {
+    "id": "58f5982d38529521",
+    "date": "2026-09-24",
+    "published": "2026-09-24T02:44:48+00:00",
+    "source": "Hacker News — Best",
+    "title": "OpenAI agent hacked Australian government website, PM says",
+    "link": "https://www.bbc.com/news/live/cvgl73pxgndwt",
+    "summary": "Article URL: https://www.bbc.com/news/live/cvgl73pxgndwt Comments URL: https://news.ycombinator.com/item?id=49825580 Points: 250 # Comments: 193",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-25T01:28:46.431826+00:00"
+   },
+   {
+    "id": "2886d8572f92b04c",
+    "date": "2026-09-24",
+    "published": "2026-09-24T00:41:31+00:00",
+    "source": "Hacker News — Best",
+    "title": "Feds Target AI Critics as \"Foreign Agents\"",
+    "link": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+    "summary": "Article URL: https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign Comments URL: https://news.ycombinator.com/item?id=49824686 Points: 334 # Comments: 352",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-24T15:49:10.048216+00:00"
+   },
+   {
+    "id": "b09f0ad26be3b80a",
+    "date": "2026-09-24",
+    "published": "2026-09-24T00:00:00+00:00",
+    "source": "Claude Blog (unofficial RSS)",
+    "title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+    "link": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+    "summary": "We estimate Claude Opus 5.5 costs about 40% less to run than Opus 5 for typical workloads billed by token. For developers, exactly how those savings stack up matters. If you pay by the token, you will see the greatest cost difference for longer-running, higher context sessions–the exact type of Clau",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:48:58.354535+00:00"
+   },
+   {
+    "id": "12e00b1d790164b6",
+    "date": "2026-09-24",
+    "published": "2026-09-24T00:00:00+00:00",
+    "source": "Claude Blog (unofficial RSS)",
+    "title": "Claude Tag now supports personal connectors in channels",
+    "link": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+    "summary": "Claude Tag (beta) lets you add Claude to a Slack channel, where it works alongside your team. Until now, Claude could only use the connectors an admin attached to the channel , and most organizations keep that list short on purpose: they want access to follow the person, not the channel. Now Claude ",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:48:58.354544+00:00"
+   },
+   {
+    "id": "6b5eff58280f39ec",
+    "date": "2026-09-23",
+    "published": "2026-09-23T23:47:56+00:00",
+    "source": "Hacker News — Best",
+    "title": "Meta VR Glasses",
+    "link": "https://www.meta.com/vr-glasses/",
+    "summary": "Article URL: https://www.meta.com/vr-glasses/ Comments URL: https://news.ycombinator.com/item?id=49824268 Points: 459 # Comments: 418",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-24T15:49:10.048219+00:00"
+   },
+   {
+    "id": "2e8aa166044b7443",
+    "date": "2026-09-23",
+    "published": "2026-09-23T22:53:28+00:00",
+    "source": "Hacker News — Best",
+    "title": "Show HN: Make cursed fonts like Times New Bastard",
+    "link": "https://bastardica.mitpit.com",
+    "summary": "A joke tool that abuses OpenType's ligature feature to mix fonts. It works pretty fast on client-side by loading Python in WASM. Comments URL: https://news.ycombinator.com/item?id=49823738 Points: 466 # Comments: 64",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T01:28:46.431828+00:00"
+   },
+   {
+    "id": "b8a00fb73adf166f",
+    "date": "2026-09-23",
+    "published": "2026-09-23T22:45:49+00:00",
+    "source": "Hacker News — Best",
+    "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+    "link": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
+    "summary": "Article URL: https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/ Comments URL: https://news.ycombinator.com/item?id=49823664 Points: 304 # Comments: 38",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T01:28:46.431829+00:00"
+   },
+   {
+    "id": "4de1641fc6e49020",
+    "date": "2026-09-23",
+    "published": "2026-09-23T22:38:16+00:00",
+    "source": "Hacker News — Best",
+    "title": "Linux support is coming to Snapdragon X2 Series",
+    "link": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+    "summary": "Article URL: https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux Comments URL: https://news.ycombinator.com/item?id=49823582 Points: 538 # Comments: 219",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product",
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-24T15:49:10.048221+00:00"
+   },
+   {
+    "id": "36cfe6391e3ac4ea",
+    "date": "2026-09-23",
+    "published": "2026-09-23T22:37:28+00:00",
+    "source": "Hacker News — Best",
+    "title": "Toyota is taking the Corolla electric",
+    "link": "https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric/",
+    "summary": "Article URL: https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric/ Comments URL: https://news.ycombinator.com/item?id=49823568 Points: 381 # Comments: 681",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:48:58.523154+00:00"
+   },
+   {
+    "id": "522af5193d6200cf",
+    "date": "2026-09-23",
+    "published": "2026-09-23T21:01:48+00:00",
+    "source": "Hacker News — Best",
+    "title": "VSCode's SSH Agent Is Bananas (2025)",
+    "link": "https://fly.io/blog/vscode-ssh-wtf/",
+    "summary": "Article URL: https://fly.io/blog/vscode-ssh-wtf/ Comments URL: https://news.ycombinator.com/item?id=49822555 Points: 276 # Comments: 170",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-24T15:49:10.048222+00:00"
+   },
+   {
+    "id": "903b1128f9a0f405",
+    "date": "2026-09-23",
+    "published": "2026-09-23T21:01:48+00:00",
+    "source": "Hacker News — Best",
+    "title": "OpenAI breaches Medicare, Albanese reveals",
+    "link": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
+    "summary": "Article URL: https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html Comments URL: https://news.ycombinator.com/item?id=49822556 Points: 249 # Comments: 253",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T01:28:46.431831+00:00"
+   },
+   {
+    "id": "977e1d2cb1979cc5",
+    "date": "2026-09-23",
+    "published": "2026-09-23T19:55:14+00:00",
+    "source": "Hacker News — Best",
+    "title": "DoorDash Spent $1.4M Trying to Stop Mamdani from Becoming Mayor. Now We Know Why",
+    "link": "https://theintercept.com/2026/09/23/doordash-delivery-nyc-mamdani-wage-theft-settlement/",
+    "summary": "Article URL: https://theintercept.com/2026/09/23/doordash-delivery-nyc-mamdani-wage-theft-settlement/ Comments URL: https://news.ycombinator.com/item?id=49821608 Points: 289 # Comments: 140",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-24T01:23:20.219350+00:00"
+   },
+   {
+    "id": "8a86c97089bb6492",
+    "date": "2026-09-23",
+    "published": "2026-09-23T18:00:00+00:00",
+    "source": "Google — The Keyword (AI)",
+    "title": "Google Beam expands with new regions, partners, and customers",
+    "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+    "summary": "Google Beam promotional animation",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-24T01:23:20.166823+00:00"
+   },
+   {
+    "id": "e9c1ddde4585931b",
+    "date": "2026-09-23",
+    "published": "2026-09-23T17:12:27+00:00",
+    "source": "Simon Willison's Weblog",
+    "title": "Gemini 3.8 TTS Playground",
+    "link": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+    "summary": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you ",
+    "topics": [
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-24T01:23:20.842130+00:00"
+   },
+   {
+    "id": "3a35425568c413eb",
+    "date": "2026-09-23",
+    "published": "2026-09-23T17:07:22+00:00",
+    "source": "The Pragmatic Engineer",
+    "title": "Design Engineering with Maggie Appleton",
+    "link": "https://newsletter.pragmaticengineer.com/p/design-engineering-with-maggie-appleton",
+    "summary": "Maggie Appleton on what engineers can learn from designers, working with AI agents, and why human judgment still matters.",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-24T01:23:22.140181+00:00"
+   }
+  ],
+  "finance": [
+   {
+    "id": "3e991c01fa32d2f2",
+    "date": "2026-09-25",
+    "published": "2026-09-25T07:38:29+00:00",
+    "source": "FT Alphaville",
+    "title": "FTAV’s further reading",
+    "link": "https://www.ft.com/content/4d9a6492-bd8c-43ca-bca8-309aa8f43ab6",
+    "summary": "Big numbers; inflation; mystery meat; getting rich quick; AI doom; AI cringe; and sprites",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:03.868319+00:00"
+   },
+   {
+    "id": "13e11dec52c3aecf",
+    "date": "2026-09-25",
+    "published": "2026-09-25T05:15:04+00:00",
+    "source": "Quantocracy",
+    "title": "Recent Quant Links from Quantocracy as of 09/24/2026",
+    "link": "https://quantocracy.com/recent-quant-links-from-quantocracy-as-of-09242026/",
+    "summary": "This is a summary of links recently featured on Quantocracy as of Thursday, 09/24/2026. To see our most recent links, visit the Quant Mashup. Read on readers! Tech companies that spend more on capex than their operating cash flow [Quanter Lab] Before the dot-com crash, the telecom companies building",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:03.785563+00:00"
+   },
+   {
+    "id": "780ad19f9ec16f84",
+    "date": "2026-09-25",
+    "published": "2026-09-25T05:00:08+00:00",
+    "source": "FT Alphaville",
+    "title": "SpaceX pivots away from space",
+    "link": "https://www.ft.com/content/0fd15797-ac89-4222-a4bb-03a6a1330f48",
+    "summary": "Starbase, we have a problem",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:03.868328+00:00"
+   },
+   {
+    "id": "a56fb9eb6d482575",
+    "date": "2026-09-24",
+    "published": "2026-09-24T17:20:10+00:00",
+    "source": "FT Alphaville",
+    "title": "Oracle feels the force",
+    "link": "https://www.ft.com/content/82dbd39c-f8dd-4ef1-8a80-d430a22579bd",
+    "summary": "Majeure problem?",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T01:28:49.289021+00:00"
+   },
+   {
+    "id": "cc29002ee3426ea2",
+    "date": "2026-09-24",
+    "published": "2026-09-24T08:17:45+00:00",
+    "source": "FT Alphaville",
+    "title": "Oops! You added the wrong email attachment and leaked the bank’s deal list. What happens next?",
+    "link": "https://www.ft.com/content/8124e18d-ca77-424f-aa43-97983653eec4",
+    "summary": "A six-point plan for putting toothpaste back in the tube",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-24T15:49:14.924364+00:00"
+   },
+   {
+    "id": "233e854f5e754c4b",
+    "date": "2026-09-24",
+    "published": "2026-09-24T07:39:33+00:00",
+    "source": "FT Alphaville",
+    "title": "FTAV’s further reading",
+    "link": "https://www.ft.com/content/9771d493-6c70-4250-9852-854351f13bad",
+    "summary": "The usual assortment of terrible things; and crisps",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-24T15:49:14.924374+00:00"
+   },
+   {
+    "id": "938681080cbfde26",
+    "date": "2026-09-24",
+    "published": "2026-09-24T05:00:01+00:00",
+    "source": "FT Alphaville",
+    "title": "Are Big Tech bonds crowding out the US Treasury?",
+    "link": "https://www.ft.com/content/6354c1ec-286a-4251-bac8-ca0cd4ac7eac",
+    "summary": "Probably not",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-24T15:49:14.924377+00:00"
+   },
+   {
+    "id": "65479ed584eccd90",
+    "date": "2026-09-23",
+    "published": "2026-09-23T17:03:01+00:00",
+    "source": "FT Alphaville",
+    "title": "Can Warsh tighten financial conditions without engineering a stock market fall?",
+    "link": "https://www.ft.com/content/281a2cd1-2094-4f33-af04-387b75fe9db1",
+    "summary": "Change the messenger",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-24T01:23:26.009195+00:00"
+   },
+   {
+    "id": "0150ea367669420e",
+    "date": "2026-09-23",
+    "published": "2026-09-23T13:15:26+00:00",
+    "source": "FT Alphaville",
+    "title": "The argument for Kalshi taking bets on its own legality",
+    "link": "https://www.ft.com/content/d13b1982-450f-45d2-b79b-431f30b048b2",
+    "summary": "Predictor, predict thyself",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [
+     "forecasting"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-23T15:27:04.691981+00:00"
+   },
+   {
+    "id": "59faad98eb4ae18c",
+    "date": "2026-09-23",
+    "published": "2026-09-23T09:30:06+00:00",
+    "source": "FT Alphaville",
+    "title": "Enter slopfiling",
+    "link": "https://www.ft.com/content/7d0f525e-f99d-4175-b37c-78d4dd4adf2b",
+    "summary": "Some companies love ChatGPT and they don’t care who knows it",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-23T15:27:04.691989+00:00"
+   },
+   {
+    "id": "ef14433459002495",
+    "date": "2026-09-23",
+    "published": "2026-09-23T07:18:00+00:00",
+    "source": "FT Alphaville",
+    "title": "FTAV’s further reading",
+    "link": "https://www.ft.com/content/344e7af4-42ce-4cf0-b608-aa25eaa1e7ee",
+    "summary": "Bonds; FCF; circular capex; real estate bubbles; unionisation; solar panels; and vaping",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-23T15:27:04.691993+00:00"
+   },
+   {
+    "id": "15a709224f2bfff6",
+    "date": "2026-09-23",
+    "published": "2026-09-23T06:00:08+00:00",
+    "source": "FT Alphaville",
+    "title": "Confessions of an accidental bonus basher",
+    "link": "https://www.ft.com/content/a0c1434a-4f27-445b-ac37-23181424cd33",
+    "summary": "Why bonus caps do kinda make sense (ish) though",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-23T15:27:04.692000+00:00"
+   },
+   {
+    "id": "4aff29d4eabd61a2",
+    "date": "2026-09-23",
+    "published": "2026-09-23T05:15:06+00:00",
+    "source": "Quantocracy",
+    "title": "Recent Quant Links from Quantocracy as of 09/22/2026",
+    "link": "https://quantocracy.com/recent-quant-links-from-quantocracy-as-of-09222026/",
+    "summary": "This is a summary of links recently featured on Quantocracy as of Tuesday, 09/22/2026. To see our most recent links, visit the Quant Mashup. Read on readers! Building and Testing Trend-Following Strategies on One-Minute SPY Data [Quantpedia] Intraday trading strategies have gained increasing attenti",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-23T15:27:04.226272+00:00"
+   },
+   {
+    "id": "1b2b8b0953a1087e",
+    "date": "2026-09-22",
+    "published": "2026-09-22T12:08:58+00:00",
+    "source": "FT Alphaville",
+    "title": "Pick a stock, just not any stock",
+    "link": "https://www.ft.com/content/193a14eb-5650-48a8-8ead-eb8184fc50f5",
+    "summary": "Fewer ziggers, more zaggers",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-22T15:31:22.342259+00:00"
+   },
+   {
+    "id": "4534cad26ef7b58f",
+    "date": "2026-09-22",
+    "published": "2026-09-22T06:24:53+00:00",
+    "source": "FT Alphaville",
+    "title": "FTAV’s further reading",
+    "link": "https://www.ft.com/content/9d97d6db-3706-4842-bcdc-3f7c58aa58c1",
+    "summary": "Inflation; oil tankers; the basis trade; BOE independence; Mark Spitznagel; Nick Candy; Chinese AI; slop text; and a weird office",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-22T15:31:22.342266+00:00"
+   },
+   {
+    "id": "f9f2d4d97fcd5e29",
+    "date": "2026-09-22",
+    "published": "2026-09-22T05:00:01+00:00",
+    "source": "FT Alphaville",
+    "title": "The USS lesson plan",
+    "link": "https://www.ft.com/content/a0d1351f-0f16-4994-a71e-c9b134d70d71",
+    "summary": "Why doesn’t the UK’s largest pension fund go all-in on stocks? Or maybe bonds?",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-22T15:31:22.342268+00:00"
+   },
+   {
+    "id": "db13addea1b62e37",
+    "date": "2026-09-21",
+    "published": "2026-09-21T16:01:03+00:00",
+    "source": "FT Alphaville",
+    "title": "US data centres ‘are short six NYCs of electricity’",
+    "link": "https://www.ft.com/content/f29de45a-3d32-4d9f-90cd-615f7466c1de",
+    "summary": "With great power comes great implausibility",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-22T01:36:14.465770+00:00"
+   },
+   {
+    "id": "2ea10d6a0de61d8e",
+    "date": "2026-09-21",
+    "published": "2026-09-21T12:58:38+00:00",
+    "source": "FT Alphaville",
+    "title": "And the charts quiz winner is . . .",
+    "link": "https://www.ft.com/content/36175b45-b177-448c-95d0-3221d539ab89",
+    "summary": "Mad Hatter",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [
+     "dashboard"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T17:02:54.550241+00:00"
+   },
+   {
+    "id": "7cf3ca8f8e4ff832",
+    "date": "2026-09-21",
+    "published": "2026-09-21T06:10:43+00:00",
+    "source": "FT Alphaville",
+    "title": "FTAV’s further reading",
+    "link": "https://www.ft.com/content/3b646756-12bc-442f-b77b-6583cee6de46",
+    "summary": "Capex; schools; debt ratings; defaults; money quality; betting; The Kennedy Center; onion futures; and Lemmings",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "8e8896e397ce46e7",
+    "date": "2026-09-21",
+    "published": "2026-09-21T05:15:04+00:00",
+    "source": "Quantocracy",
+    "title": "Recent Quant Links from Quantocracy as of 09/20/2026",
+    "link": "https://quantocracy.com/recent-quant-links-from-quantocracy-as-of-09202026/",
+    "summary": "This is a summary of links recently featured on Quantocracy as of Sunday, 09/20/2026. To see our most recent links, visit the Quant Mashup. Read on readers! A sad day for the quant vol trading community, Vance is gone [Six Figure Investing] Vance Harwood passed away in September 2026 after a brief a",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T07:36:59.091520+00:00"
+   },
+   {
+    "id": "cfe596d6514ecc3d",
+    "date": "2026-09-21",
+    "published": "2026-09-21T05:00:09+00:00",
+    "source": "FT Alphaville",
+    "title": "Octopus still won’t give investors their money back",
+    "link": "https://www.ft.com/content/13cb8980-e8fa-4848-953f-8aa6e98ca219",
+    "summary": "Just another few weeks . . . okay?",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "b80407a3a6693b8c",
+    "date": "2026-09-18",
+    "published": "2026-09-18T22:07:23+00:00",
+    "source": "FT Alphaville",
+    "title": "Startup Nscale’s CEO pay nearly matched the FTSE 100 record, because of course it did",
+    "link": "https://www.ft.com/content/713d23b5-1559-4623-9a29-d40b43ab3da0",
+    "summary": "Power? Low. Pay? Very high",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "05574c0a3f95ffc3",
+    "date": "2026-09-18",
+    "published": "2026-09-18T11:14:44+00:00",
+    "source": "FT Alphaville",
+    "title": "Britons say they’re taking less annual leave. The ONS doesn’t believe them",
+    "link": "https://www.ft.com/content/6584e52f-5a8c-4427-ba39-b401a808850d",
+    "summary": "Incoherent methods —> “coherent series”",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "345fb11c1835221c",
+    "date": "2026-09-18",
+    "published": "2026-09-18T10:48:43+00:00",
+    "source": "FT Alphaville",
+    "title": "FTAV’s Friday charts quiz",
+    "link": "https://www.ft.com/content/3d1234ea-081e-41b3-a2e5-bbd7a81cdb0d",
+    "summary": "Portrait of The Chart as a Young Graph",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [
+     "dashboard"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "0093c357dbd735ed",
+    "date": "2026-09-18",
+    "published": "2026-09-18T09:00:01+00:00",
+    "source": "FT Alphaville",
+    "title": "‘Greek finance minister encourages Germany to implement reforms’",
+    "link": "https://www.ft.com/content/7a285c59-2a2f-4e8b-9456-d4b92334fec7",
+    "summary": "🤩🤩🤩",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "7e24f3e4653b1df2",
+    "date": "2026-09-18",
+    "published": "2026-09-18T08:08:28+00:00",
+    "source": "FT Alphaville",
+    "title": "FTAV’s further reading",
+    "link": "https://www.ft.com/content/9937d230-9ce7-4847-814b-cc99fe8ded37",
+    "summary": "Lesbian bars; quant winters, the return of wind power; service journalism; journalism slop; Raheem Sterling; AI economics; AI safety as a sex cult",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "c3cceba4b9cd33fc",
+    "date": "2026-09-18",
+    "published": "2026-09-18T05:00:09+00:00",
+    "source": "FT Alphaville",
+    "title": "Joining the dots between big AI",
+    "link": "https://www.ft.com/content/8475dc9b-b2d4-4e10-a6b6-12796b11758a",
+    "summary": "In the loop?",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "519cbdc78154ab7b",
+    "date": "2026-09-17",
+    "published": "2026-09-17T17:53:12+00:00",
+    "source": "FT Alphaville",
+    "title": "Bank of England follows FTAV advice",
+    "link": "https://www.ft.com/content/46e25252-9e1e-4ead-aa56-293a0f09a393",
+    "summary": "Although maybe correlation ≠ causation",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "0b17f796f1d307f9",
+    "date": "2026-09-17",
+    "published": "2026-09-17T16:55:35+00:00",
+    "source": "FT Alphaville",
+    "title": "Sun, stats and suspicious productivity",
+    "link": "https://www.ft.com/content/fc324c65-11d6-473d-b15b-deef27cbadc2",
+    "summary": "UK workers are better and more offline than previously thought",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "a3b5a22f0d068e08",
+    "date": "2026-09-17",
+    "published": "2026-09-17T10:35:49+00:00",
+    "source": "FT Alphaville",
+    "title": "Chattering central bankers are good, actually",
+    "link": "https://www.ft.com/content/b4d3b969-76e8-49f2-8528-4d34a810e7a4",
+    "summary": "Some data for Warsh’s task force",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "3f5f6c8b1754e782",
+    "date": "2026-09-17",
+    "published": "2026-09-17T05:30:01+00:00",
+    "source": "FT Alphaville",
+    "title": "FTAV’s further reading",
+    "link": "https://www.ft.com/content/094d8a79-e0d0-47b7-8b0d-d4e72e079dbe",
+    "summary": "Easing the FBI’s bestiality standards; Anthropic’s ‘profits’; killing people; green repo; GPU prices have gone mad",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "f4bfdf7dde25ca6b",
+    "date": "2026-09-17",
+    "published": "2026-09-17T05:15:04+00:00",
+    "source": "Quantocracy",
+    "title": "Recent Quant Links from Quantocracy as of 09/16/2026",
+    "link": "https://quantocracy.com/recent-quant-links-from-quantocracy-as-of-09162026/",
+    "summary": "This is a summary of links recently featured on Quantocracy as of Wednesday, 09/16/2026. To see our most recent links, visit the Quant Mashup. Read on readers! Fama-French factors inside the S&P 500: walk-forward 2006 to 2025 [Quanter Lab] Fama and French sort every US stock on the signal at the end",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:43.237211+00:00"
+   },
+   {
+    "id": "a2e63b4bbcf9a183",
+    "date": "2026-09-17",
+    "published": "2026-09-17T05:00:01+00:00",
+    "source": "FT Alphaville",
+    "title": "Either Meta Glasses are selling extremely well or this Citi survey might have some issues",
+    "link": "https://www.ft.com/content/2739954a-816a-465a-ae21-7d846bb70365",
+    "summary": "Alternate virtual realities",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "960737a4205e8d06",
+    "date": "2026-09-16",
+    "published": "2026-09-16T15:32:40+00:00",
+    "source": "FT Alphaville",
+    "title": "This is good for AI!!!! Aaargh!!!!",
+    "link": "https://www.ft.com/content/1b95b8c0-3563-4c3d-93f2-9d4d9fe3bc2e",
+    "summary": "A brief survey of sell-side scribbling at the end of the world",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "1ca48810e30f903f",
+    "date": "2026-09-16",
+    "published": "2026-09-16T13:27:04+00:00",
+    "source": "FT Alphaville",
+    "title": "Anthropic’s mother of all risk factors",
+    "link": "https://www.ft.com/content/29f0dac0-0523-46c4-a573-cd681a69b445",
+    "summary": "What to say in your S-1 when your product has a >10% possibility of causing the extinction of humankind",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "120ff8dc67399160",
+    "date": "2026-09-16",
+    "published": "2026-09-16T10:31:38+00:00",
+    "source": "FT Alphaville",
+    "title": "The Extended Farageverse is coming together",
+    "link": "https://www.ft.com/content/7727d99d-dce5-48e9-aebd-7d09ab3aa608",
+    "summary": "Stacking sats 🤜 🤛 selling gold",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "4c18b023e28fc711",
+    "date": "2026-09-16",
+    "published": "2026-09-16T05:30:03+00:00",
+    "source": "FT Alphaville",
+    "title": "FTAV’s further reading",
+    "link": "https://www.ft.com/content/85f684e6-15df-4015-a626-73a5e2f2b438",
+    "summary": "Kushnerplomacy; Canada+Europe; L/S hedge funds; little red dots, Chinese drone submarine; and Baal",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "b15501700054518a",
+    "date": "2026-09-16",
+    "published": "2026-09-16T05:00:02+00:00",
+    "source": "FT Alphaville",
+    "title": "The BoE’s three balance sheet problem",
+    "link": "https://www.ft.com/content/3401a104-598d-4145-a03b-8bb08b2d7165",
+    "summary": "Issues with the Issue Department",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "f6f3bb1b2b1c54ad",
+    "date": "2026-09-15",
+    "published": "2026-09-15T11:37:18+00:00",
+    "source": "FT Alphaville",
+    "title": "BPRE’s extremely large, very huge, getting-bigger NAV discount",
+    "link": "https://www.ft.com/content/fa93720c-4df4-42dc-bee5-c1026fbd7f77",
+    "summary": "Private marks v public markets",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
+   },
+   {
+    "id": "23b98ecc5853cdf1",
+    "date": "2026-09-15",
+    "published": "2026-09-15T05:30:08+00:00",
+    "source": "FT Alphaville",
+    "title": "FTAV’s further reading",
+    "link": "https://www.ft.com/content/0b1b2875-fa2d-417b-8617-c6e51bebf083",
+    "summary": "Don Jr’s wedding-backer; Bank of England review; AI and maths; Mark Zuckerberg profile; LP incentive pay; Anthropic job ad",
+    "topics": [
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-21T06:49:41.347684+00:00"
    }
   ],
   "product": [
+   {
+    "id": "b04335be77f25e5a",
+    "date": "2026-09-25",
+    "published": "2026-09-25T02:17:21+00:00",
+    "source": "Product Hunt",
+    "title": "Wand",
+    "link": "https://www.producthunt.com/products/wand-6",
+    "summary": "Build software at the speed of thought Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941265+00:00"
+   },
+   {
+    "id": "196b764c72c97d51",
+    "date": "2026-09-25",
+    "published": "2026-09-25T02:16:38+00:00",
+    "source": "Product Hunt",
+    "title": "Jango",
+    "link": "https://www.producthunt.com/products/jango",
+    "summary": "Test multi-user apps with AI agents that act like real users Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941290+00:00"
+   },
+   {
+    "id": "09605592b4762b5f",
+    "date": "2026-09-25",
+    "published": "2026-09-25T00:50:36+00:00",
+    "source": "Product Hunt",
+    "title": "SocialGPT",
+    "link": "https://www.producthunt.com/products/socialgpt",
+    "summary": "Edit videos by chatting with your timeline Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941283+00:00"
+   },
+   {
+    "id": "e62503a3f1f16b84",
+    "date": "2026-09-24",
+    "published": "2026-09-24T23:40:41+00:00",
+    "source": "Product Hunt",
+    "title": "Stimly",
+    "link": "https://www.producthunt.com/products/stimly",
+    "summary": "Real-time caffeine metabolism curve and bedtime estimate Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941287+00:00"
+   },
+   {
+    "id": "2969dbe02f150608",
+    "date": "2026-09-24",
+    "published": "2026-09-24T23:05:08+00:00",
+    "source": "Product Hunt",
+    "title": "Once UI 2.0",
+    "link": "https://www.producthunt.com/products/once-ui-for-figma",
+    "summary": "Builds consistent React apps for developers and AI agents Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941283+00:00"
+   },
    {
     "id": "8b06c9e402b58848",
     "date": "2026-09-24",
@@ -1425,6 +2802,171 @@
     "first_seen": "2026-09-25T01:28:53.602226+00:00"
    },
    {
+    "id": "514992a4f29f6deb",
+    "date": "2026-09-24",
+    "published": "2026-09-24T18:54:08+00:00",
+    "source": "Product Hunt",
+    "title": "Decktly",
+    "link": "https://www.producthunt.com/products/decktly",
+    "summary": "Edit HTML presentations like PowerPoint Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941263+00:00"
+   },
+   {
+    "id": "1a88197a37c17430",
+    "date": "2026-09-24",
+    "published": "2026-09-24T17:15:54+00:00",
+    "source": "Product Hunt",
+    "title": "UIDCaption",
+    "link": "https://www.producthunt.com/products/uidcaption",
+    "summary": "Automatic and animated captions, completely offline Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941303+00:00"
+   },
+   {
+    "id": "822fe5ece7b4478f",
+    "date": "2026-09-24",
+    "published": "2026-09-24T17:05:25+00:00",
+    "source": "Product Hunt",
+    "title": "Cutsio",
+    "link": "https://www.producthunt.com/products/cutsio",
+    "summary": "One video asset library shared with your whole team Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941273+00:00"
+   },
+   {
+    "id": "06d46f4a53f7ead9",
+    "date": "2026-09-24",
+    "published": "2026-09-24T15:47:40+00:00",
+    "source": "Product Hunt",
+    "title": "Hyperdream",
+    "link": "https://www.producthunt.com/products/hyperdream",
+    "summary": "The Cursor of AI filmmaking Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941291+00:00"
+   },
+   {
+    "id": "6e9c0bd8d7530d94",
+    "date": "2026-09-24",
+    "published": "2026-09-24T14:29:20+00:00",
+    "source": "Product Hunt",
+    "title": "DEV·TV",
+    "link": "https://www.producthunt.com/products/dev-tv",
+    "summary": "A retro TV for GitHub, HN, Hugging Face & more: 10 channels Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941268+00:00"
+   },
+   {
+    "id": "73c2e36e64525f03",
+    "date": "2026-09-24",
+    "published": "2026-09-24T12:39:35+00:00",
+    "source": "Product Hunt",
+    "title": "DokBot",
+    "link": "https://www.producthunt.com/products/dokbot",
+    "summary": "Turn your docs into a support chatbot for your website Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941293+00:00"
+   },
+   {
+    "id": "d284a44bf99b27ff",
+    "date": "2026-09-24",
+    "published": "2026-09-24T10:50:49+00:00",
+    "source": "Product Hunt",
+    "title": "COOLDOWN",
+    "link": "https://www.producthunt.com/products/cooldown-5",
+    "summary": "A little pause before your next impulse purchase Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941296+00:00"
+   },
+   {
+    "id": "10083821b96a5224",
+    "date": "2026-09-24",
+    "published": "2026-09-24T10:35:43+00:00",
+    "source": "Product Hunt",
+    "title": "DemoScreen",
+    "link": "https://www.producthunt.com/products/demoscreen",
+    "summary": "Turn product screenshots into a narrated demo video Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941291+00:00"
+   },
+   {
+    "id": "56bbb5836a0d534e",
+    "date": "2026-09-24",
+    "published": "2026-09-24T10:25:27+00:00",
+    "source": "Product Hunt",
+    "title": "Kapshot",
+    "link": "https://www.producthunt.com/products/kapshot",
+    "summary": "Screen recordings that look like you edited them Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941279+00:00"
+   },
+   {
+    "id": "44fb122f6a6211c3",
+    "date": "2026-09-24",
+    "published": "2026-09-24T10:20:29+00:00",
+    "source": "Product Hunt",
+    "title": "Markly",
+    "link": "https://www.producthunt.com/products/markly-3",
+    "summary": "A calm, native Markdown editor for your folders Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941297+00:00"
+   },
+   {
+    "id": "71df42c3804ce56c",
+    "date": "2026-09-24",
+    "published": "2026-09-24T10:00:44+00:00",
+    "source": "Product Hunt",
+    "title": "layernote",
+    "link": "https://www.producthunt.com/products/layernote",
+    "summary": "Visual feedback on websites, Figma files, PDFs and images Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941289+00:00"
+   },
+   {
     "id": "ae6927f8c429134e",
     "date": "2026-09-24",
     "published": "2026-09-24T10:00:00+00:00",
@@ -1439,6 +2981,72 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-09-24T15:49:18.306394+00:00"
+   },
+   {
+    "id": "3acaaea4c2014c37",
+    "date": "2026-09-24",
+    "published": "2026-09-24T09:51:45+00:00",
+    "source": "Product Hunt",
+    "title": "GitHub statistics · Velocity Radar",
+    "link": "https://www.producthunt.com/products/github-statistics-velocity-radar",
+    "summary": "Real GitHub momentum, including private repos & AI agents Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941301+00:00"
+   },
+   {
+    "id": "360ac79bf7e991e7",
+    "date": "2026-09-24",
+    "published": "2026-09-24T09:20:27+00:00",
+    "source": "Product Hunt",
+    "title": "RemoteConsole",
+    "link": "https://www.producthunt.com/products/remoteconsole",
+    "summary": "Reach your home or work terminal when agents can't or won't Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941299+00:00"
+   },
+   {
+    "id": "08c29ef962ce2a33",
+    "date": "2026-09-24",
+    "published": "2026-09-24T08:16:05+00:00",
+    "source": "Product Hunt",
+    "title": "JevForAgents",
+    "link": "https://www.producthunt.com/products/jevforagents",
+    "summary": "Explore real Jev agent builds, demos, and patterns Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941306+00:00"
+   },
+   {
+    "id": "a4ac6c8a51de8521",
+    "date": "2026-09-24",
+    "published": "2026-09-24T08:10:10+00:00",
+    "source": "Product Hunt",
+    "title": "HireOtto",
+    "link": "https://www.producthunt.com/products/hireotto",
+    "summary": "Run your performance marketing stack from AI Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941292+00:00"
    },
    {
     "id": "c6bcfff27582d282",
@@ -1492,6 +3100,36 @@
     "first_seen": "2026-09-25T01:28:57.805574+00:00"
    },
    {
+    "id": "b613c18da912ea51",
+    "date": "2026-09-24",
+    "published": "2026-09-24T03:53:44+00:00",
+    "source": "Product Hunt",
+    "title": "Meta VR Glasses",
+    "link": "https://www.producthunt.com/products/meta-vr-glasses",
+    "summary": "A Cinema, Courtside Seat, and Workspace in Just 100 Grams Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941276+00:00"
+   },
+   {
+    "id": "f0d9d8bdfd04cd57",
+    "date": "2026-09-24",
+    "published": "2026-09-24T01:50:08+00:00",
+    "source": "Product Hunt",
+    "title": "Quiver GTM",
+    "link": "https://www.producthunt.com/products/quiver-gtm",
+    "summary": "Run developer marketing like an engineering system Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941269+00:00"
+   },
+   {
     "id": "87a5f976e60de043",
     "date": "2026-09-24",
     "published": "2026-09-24T00:00:00+00:00",
@@ -1525,6 +3163,23 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-09-24T01:23:32.450911+00:00"
+   },
+   {
+    "id": "6c36a9a38d0474a8",
+    "date": "2026-09-23",
+    "published": "2026-09-23T22:21:41+00:00",
+    "source": "Product Hunt",
+    "title": "WapiSender",
+    "link": "https://www.producthunt.com/products/wapisender",
+    "summary": "Powerful WhatsApp automations with AI, visual flows and MCP Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941277+00:00"
    },
    {
     "id": "6e30af5aa3251ae0",
@@ -1604,6 +3259,23 @@
     "first_seen": "2026-09-24T15:49:17.970194+00:00"
    },
    {
+    "id": "a1bd1ef8f96b6330",
+    "date": "2026-09-23",
+    "published": "2026-09-23T18:37:04+00:00",
+    "source": "Product Hunt",
+    "title": "Bleetz Network",
+    "link": "https://www.producthunt.com/products/bleetz-network",
+    "summary": "AI agent-to-agent VC fundraising & scouting network Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941271+00:00"
+   },
+   {
     "id": "0f2da2fb41c30724",
     "date": "2026-09-23",
     "published": "2026-09-23T18:17:40+00:00",
@@ -1635,6 +3307,21 @@
     "first_seen": "2026-09-24T01:23:36.839000+00:00"
    },
    {
+    "id": "c5a76232f860b7d0",
+    "date": "2026-09-23",
+    "published": "2026-09-23T14:53:06+00:00",
+    "source": "Product Hunt",
+    "title": "Aks.ai",
+    "link": "https://www.producthunt.com/products/aks-ai",
+    "summary": "Your personal companion for guided self-reflection. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-09-25T15:49:04.941295+00:00"
+   },
+   {
     "id": "5456cb5432f5844e",
     "date": "2026-09-23",
     "published": "2026-09-23T12:37:30+00:00",
@@ -1648,404 +3335,6 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-09-24T15:49:17.970178+00:00"
-   },
-   {
-    "id": "d26aa656b8373464",
-    "date": "2026-09-23",
-    "published": "2026-09-23T10:45:46+00:00",
-    "source": "Product Hunt",
-    "title": "IntellAgents.io",
-    "link": "https://www.producthunt.com/products/intellagents-io",
-    "summary": "One AI agent for every call, chat, and DM Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:17.970134+00:00"
-   },
-   {
-    "id": "836e43d312ea7666",
-    "date": "2026-09-23",
-    "published": "2026-09-23T10:00:00+00:00",
-    "source": "Stratechery",
-    "title": "More on Muse, Amazon, and Walmart; Muse and Expedia; Whither Google?",
-    "link": "https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/",
-    "summary": "Meta needs Walmart to wait out Amazon; Expedia seeks to keep its middleware position; meanwhile, where is Google?",
-    "topics": [
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:07.948225+00:00"
-   },
-   {
-    "id": "39134e905e46e7f0",
-    "date": "2026-09-23",
-    "published": "2026-09-23T06:09:39+00:00",
-    "source": "Product Hunt",
-    "title": "Storytailor®",
-    "link": "https://www.producthunt.com/products/storytailor",
-    "summary": "A personal world built around your child’s imagination Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:17.970182+00:00"
-   },
-   {
-    "id": "87420250a1bb32c7",
-    "date": "2026-09-23",
-    "published": "2026-09-23T05:02:48+00:00",
-    "source": "Product Hunt",
-    "title": "jev-seo",
-    "link": "https://www.producthunt.com/products/jev-seo",
-    "summary": "Free Rust CLI SEO/GEO auditor, no subscription needed Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:17.970183+00:00"
-   },
-   {
-    "id": "8326b405447e59dd",
-    "date": "2026-09-23",
-    "published": "2026-09-23T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Gemini 3.8 text-to-speech models now available on AI Gateway",
-    "link": "https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway",
-    "summary": "Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS from Google are now available on AI Gateway . Both models take text and generate speech in more than 100 languages. They support long-form narration, control over delivery, and two-speaker dialogue. google/gemini-3.8-flash-lite-tts is suited to high",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:36.839003+00:00"
-   },
-   {
-    "id": "f0c4809f601ab6f6",
-    "date": "2026-09-22",
-    "published": "2026-09-22T23:12:49+00:00",
-    "source": "Lenny's Newsletter",
-    "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
-    "link": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
-    "summary": "Watch now (39 mins) | 🎙️ I ran blind evaluations across writing, frontend prototypes, long-running agentic tasks, SVGs, coding, and video editing, then put Opus 5.5 through Barbie Bench",
-    "topics": [
-     "product",
-     "growth",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-23T01:30:01.558744+00:00"
-   },
-   {
-    "id": "48b6ca0f8847a958",
-    "date": "2026-09-22",
-    "published": "2026-09-22T19:06:40+00:00",
-    "source": "Lenny's Newsletter",
-    "title": "I left Claude for months. Opus 5.5 is why I'm back",
-    "link": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
-    "summary": "Watch now (25 mins) | 🎙️ I abandoned Claude for months because it drove me insane. Opus 5.5 changed that, and I'll show you exactly where it's earning a spot back in my stack for frontend, SVGs, and agentic tasks",
-    "topics": [
-     "product",
-     "growth",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-23T01:30:01.558751+00:00"
-   },
-   {
-    "id": "96ab52143f40484f",
-    "date": "2026-09-22",
-    "published": "2026-09-22T18:53:46+00:00",
-    "source": "Product Hunt",
-    "title": "Jev State",
-    "link": "https://www.producthunt.com/products/jev-state",
-    "summary": "Turn AI conversations into tests and runnable code Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:07.577086+00:00"
-   },
-   {
-    "id": "00d9382276de30bc",
-    "date": "2026-09-22",
-    "published": "2026-09-22T18:07:06+00:00",
-    "source": "Product Hunt",
-    "title": "Speechka",
-    "link": "https://www.producthunt.com/products/speechka",
-    "summary": "Real-time voice translation that sounds like you Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:07.577076+00:00"
-   },
-   {
-    "id": "244de21722e8266d",
-    "date": "2026-09-22",
-    "published": "2026-09-22T17:16:10+00:00",
-    "source": "Product Hunt",
-    "title": "Alexandria by Firecrawl",
-    "link": "https://www.producthunt.com/products/extract-by-firecrawl",
-    "summary": "The knowledge library for superintelligence Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:07.577072+00:00"
-   },
-   {
-    "id": "d597474c2fc64aec",
-    "date": "2026-09-22",
-    "published": "2026-09-22T16:36:09+00:00",
-    "source": "Product Hunt",
-    "title": "Claude Opus 5.5",
-    "link": "https://www.producthunt.com/products/claude-fable-5-1",
-    "summary": "Anthropic's first model in their new Claude 5.5 family Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:07.577059+00:00"
-   },
-   {
-    "id": "167f0f0136ef100a",
-    "date": "2026-09-22",
-    "published": "2026-09-22T15:25:52+00:00",
-    "source": "Product Hunt",
-    "title": "Opaline",
-    "link": "https://www.producthunt.com/products/rudel",
-    "summary": "PostHog for team Claude Code and Codex sessions. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:17.970190+00:00"
-   },
-   {
-    "id": "b909a08d6dcd20d1",
-    "date": "2026-09-22",
-    "published": "2026-09-22T14:30:21+00:00",
-    "source": "Product Hunt",
-    "title": "Dub Program Marketplace",
-    "link": "https://www.producthunt.com/products/dub",
-    "summary": "Browse and apply to the best SaaS affiliate programs Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:07.577062+00:00"
-   },
-   {
-    "id": "94e228a257ef1f46",
-    "date": "2026-09-22",
-    "published": "2026-09-22T13:00:04+00:00",
-    "source": "Product Talk (Teresa Torres)",
-    "title": "Trash Can Tracking - All Things Product Podcast with Teresa Torres & Petra Wille",
-    "link": "https://www.producttalk.org/trash-can-tracking-all-things-product-podcast-with-teresa-torres-petra-wille/",
-    "summary": "Listen to this episode on: Spotify | Apple Podcasts What if the ideas you throw away tell you more about the health of your product process than the ones you ship? In this episode of All Things Product, Petra Wille introduces trash can tracking — a deceptively simple technique for making",
-    "topics": [
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-22T15:31:24.700786+00:00"
-   },
-   {
-    "id": "0a672cefe769050b",
-    "date": "2026-09-22",
-    "published": "2026-09-22T12:47:36+00:00",
-    "source": "Product Hunt",
-    "title": "Koreshield",
-    "link": "https://www.producthunt.com/products/koreshield",
-    "summary": "Security and evidence for AI support agents Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:07.577047+00:00"
-   },
-   {
-    "id": "29473932169baf7d",
-    "date": "2026-09-22",
-    "published": "2026-09-22T12:45:14+00:00",
-    "source": "Lenny's Newsletter",
-    "title": "Advanced evals: How to find (and fix) hidden AI failures in your product",
-    "link": "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix",
-    "summary": "Why you should never skip error discovery",
-    "topics": [
-     "product",
-     "growth",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-22T15:31:24.653319+00:00"
-   },
-   {
-    "id": "9cb0bfc289ac90b1",
-    "date": "2026-09-22",
-    "published": "2026-09-22T10:20:30+00:00",
-    "source": "Product Hunt",
-    "title": "CtrlOps 1.0",
-    "link": "https://www.producthunt.com/products/ctrlops",
-    "summary": "Your server. Audited, managed, and deployed with AI. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:17.970126+00:00"
-   },
-   {
-    "id": "a5457bf5f304e893",
-    "date": "2026-09-22",
-    "published": "2026-09-22T10:00:00+00:00",
-    "source": "Stratechery",
-    "title": "Amazon Blocks Muse, Amazon’s Moat, Aggregator v Aggregator",
-    "link": "https://stratechery.com/2026/amazon-blocks-muse-amazons-moat-aggregator-v-aggregator/",
-    "summary": "Amazon predictably blocked Muse, but there is room for a deal based on the reality that Amazon's physical world investments are an AI moat.",
-    "topics": [
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-22T15:31:24.901514+00:00"
-   },
-   {
-    "id": "7851baa0accdd688",
-    "date": "2026-09-22",
-    "published": "2026-09-22T04:06:00+00:00",
-    "source": "Product Hunt",
-    "title": "Lightmeter",
-    "link": "https://www.producthunt.com/products/lightmeter-2",
-    "summary": "Film Camera designed for everyday moments Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:07.577040+00:00"
-   },
-   {
-    "id": "d2b0a536627e4267",
-    "date": "2026-09-22",
-    "published": "2026-09-22T03:41:09+00:00",
-    "source": "Product Hunt",
-    "title": "Xem",
-    "link": "https://www.producthunt.com/products/xem",
-    "summary": "Open-source email marketing with managed SMTP Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-22T15:31:24.331000+00:00"
-   },
-   {
-    "id": "f4b6756463ad530e",
-    "date": "2026-09-22",
-    "published": "2026-09-22T02:47:37+00:00",
-    "source": "Product Hunt",
-    "title": "MiMo-V2.6",
-    "link": "https://www.producthunt.com/products/mimo-3",
-    "summary": "Open omnimodal intelligence, trained in public Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-22T15:31:24.331013+00:00"
-   },
-   {
-    "id": "2552a467f602a723",
-    "date": "2026-09-22",
-    "published": "2026-09-22T00:59:17+00:00",
-    "source": "Product Hunt",
-    "title": "Shootsolo 2.0",
-    "link": "https://www.producthunt.com/products/shootsolo",
-    "summary": "Voice-controlled camera + teleprompter for solo creators Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-22T15:31:24.331021+00:00"
-   },
-   {
-    "id": "4c642d9ef0a97ce0",
-    "date": "2026-09-22",
-    "published": "2026-09-22T00:40:01+00:00",
-    "source": "Product Hunt",
-    "title": "QuietGlass",
-    "link": "https://www.producthunt.com/products/quietglass",
-    "summary": "Screen privacy for your Mac, with or without AirPods Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-22T15:31:24.331008+00:00"
-   },
-   {
-    "id": "4c2ef1619d5f5a76",
-    "date": "2026-09-22",
-    "published": "2026-09-22T00:23:50+00:00",
-    "source": "Product Hunt",
-    "title": "ToneBird",
-    "link": "https://www.producthunt.com/products/tonebird",
-    "summary": "AI reply assistant that remembers your relationships Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:07.577080+00:00"
-   },
-   {
-    "id": "c332c2aee6a296e5",
-    "date": "2026-09-22",
-    "published": "2026-09-22T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "GPT-6 Sol and Luna now available on AI Gateway",
-    "link": "https://vercel.com/changelog/gpt-6-sol-and-luna-now-available-on-ai-gateway",
-    "summary": "GPT-6 Sol and GPT-6 Luna from OpenAI are now available on AI Gateway . Both models bring GPT-6 improvements in professional work, coding, computer use, factuality, and communication at a lower price than GPT-6 Astra . GPT-6 Sol ( openai/gpt-6-sol ) is suited to complex professional workflows and sus",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T01:30:03.628664+00:00"
    }
   ],
   "ux": [
@@ -2728,662 +4017,6 @@
     "first_seen": "2026-09-21T06:28:31.262585+00:00"
    }
   ],
-  "ai": [
-   {
-    "id": "e804eb39ba09ffde",
-    "date": "2026-09-24",
-    "published": "2026-09-24T20:06:53+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "commit-rewriter 0.2",
-    "link": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
-    "summary": "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git",
-    "topics": [
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-25T01:28:42.146901+00:00"
-   },
-   {
-    "id": "afd37b587ece6ba4",
-    "date": "2026-09-24",
-    "published": "2026-09-24T19:15:23+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "datasette 1.0a41",
-    "link": "https://simonwillison.net/2026/Sep/24/datasette/",
-    "summary": "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now documented for other plugins to use . Tags: javascript , datasette , web-components , alex-garcia , opente",
-    "topics": [
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-25T01:28:42.146911+00:00"
-   },
-   {
-    "id": "53a9cbbf31427d0e",
-    "date": "2026-09-24",
-    "published": "2026-09-24T16:44:27+00:00",
-    "source": "The Pragmatic Engineer",
-    "title": "The Pulse: RoR creator sparks new “death of coding by hand” debate",
-    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-end-of-coding-by-hand",
-    "summary": "37signals – the creator of Ruby on Rails (RoR) – moves over to agents generating nearly all its code. Also: Amazon and Meta struggle to hire engineers, code reviews will probably also go away and more",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-25T01:28:43.147044+00:00"
-   },
-   {
-    "id": "50c0b912a0edf25f",
-    "date": "2026-09-24",
-    "published": "2026-09-24T15:26:12+00:00",
-    "source": "Hacker News — Best",
-    "title": "F-Droid 2.0",
-    "link": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-    "summary": "Article URL: https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html Comments URL: https://news.ycombinator.com/item?id=49831968 Points: 918 # Comments: 261",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-25T01:28:46.431812+00:00"
-   },
-   {
-    "id": "383cf544a6fcbaee",
-    "date": "2026-09-24",
-    "published": "2026-09-24T15:03:16+00:00",
-    "source": "Latent Space (AINews)",
-    "title": "Foundries vs Navigators: Lowering the Cost of Science",
-    "link": "https://www.latent.space/p/foundries-vs-navigators-lowering",
-    "summary": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
-    "topics": [
-     "ai"
-    ],
-    "tags": [
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:09.628756+00:00"
-   },
-   {
-    "id": "e31b30769dfe667a",
-    "date": "2026-09-24",
-    "published": "2026-09-24T13:04:08+00:00",
-    "source": "Ben's Bites",
-    "title": "Back to Claude",
-    "link": "https://www.bensbites.com/p/back-to-claude",
-    "summary": "GPT-6 Sol and Luna got cheaper",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:08.396010+00:00"
-   },
-   {
-    "id": "106d9b92dc30795e",
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:58:08+00:00",
-    "source": "Hacker News — Best",
-    "title": "Owners mourn spoiled food after firmware update bricks Samsung smart fridges",
-    "link": "https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/",
-    "summary": "Article URL: https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/ Comments URL: https://news.ycombinator.com/item?id=49829960 Points: 267 # Comments: 273",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-25T01:28:46.431819+00:00"
-   },
-   {
-    "id": "b0c2cd2b9ace0151",
-    "date": "2026-09-24",
-    "published": "2026-09-24T10:39:19+00:00",
-    "source": "Hacker News — Best",
-    "title": "Two-tier encryption in the UK",
-    "link": "https://macanorak.com/two-tier-encryption-in-the-uk/",
-    "summary": "Article URL: https://macanorak.com/two-tier-encryption-in-the-uk/ Comments URL: https://news.ycombinator.com/item?id=49828731 Points: 374 # Comments: 370",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-25T01:28:46.431822+00:00"
-   },
-   {
-    "id": "3226f9e5eca7df04",
-    "date": "2026-09-24",
-    "published": "2026-09-24T09:24:13+00:00",
-    "source": "The Product Compass (Paweł Huryn)",
-    "title": "Building In Public: How to Get Your First 100/1,000/10,000 Users",
-    "link": "https://www.productcompass.pm/p/building-in-public-first-users",
-    "summary": "We take AskOne, the Slido alternative we built in Product Engineering for PMs, to its first real users: customers, value proposition, a free plan, and 7 ways to be found.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:10.184788+00:00"
-   },
-   {
-    "id": "6257b0592dcab8be",
-    "date": "2026-09-24",
-    "published": "2026-09-24T08:23:03+00:00",
-    "source": "Hacker News — Best",
-    "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
-    "link": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
-    "summary": "Article URL: https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/ Comments URL: https://news.ycombinator.com/item?id=49827794 Points: 471 # Comments: 267",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:10.048206+00:00"
-   },
-   {
-    "id": "eb583865492c3c45",
-    "date": "2026-09-24",
-    "published": "2026-09-24T08:12:59+00:00",
-    "source": "Latent Space (AINews)",
-    "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
-    "link": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
-    "summary": "Team Zuck is absolutely on fire.",
-    "topics": [
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:09.628769+00:00"
-   },
-   {
-    "id": "f4c488e9b99f85d1",
-    "date": "2026-09-24",
-    "published": "2026-09-24T07:00:00+00:00",
-    "source": "The a16z Show (podcast)",
-    "title": "The Case Against an AI Pause | Eddy Lazzarin",
-    "link": "https://a16z.simplecast.com/episodes/the-case-against-an-ai-pause-eddy-lazzarin-oPay7sAU",
-    "summary": "a16z crypto General Partner Eddy Lazzarin joins Theo Jaffee on MTS to debate the increasingly prominent calls to slow AI development and whether the current safety conversation is conflating very different kinds of risk. Eddy argues that the debate puts too much emphasis on speculative superintellig",
-    "topics": [
-     "ai",
-     "growth"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-25T01:28:53.437288+00:00"
-   },
-   {
-    "id": "7ea4ec009fe31d42",
-    "date": "2026-09-24",
-    "published": "2026-09-24T02:52:09+00:00",
-    "source": "Hacker News — Best",
-    "title": "Ideas on modernizing the open-source desktop",
-    "link": "https://lwn.net/SubscriberLink/1095425/2d9f411252325784/",
-    "summary": "Article URL: https://lwn.net/SubscriberLink/1095425/2d9f411252325784/ Comments URL: https://news.ycombinator.com/item?id=49825642 Points: 379 # Comments: 486",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-25T01:28:46.431824+00:00"
-   },
-   {
-    "id": "58f5982d38529521",
-    "date": "2026-09-24",
-    "published": "2026-09-24T02:44:48+00:00",
-    "source": "Hacker News — Best",
-    "title": "OpenAI agent hacked Australian government website, PM says",
-    "link": "https://www.bbc.com/news/live/cvgl73pxgndwt",
-    "summary": "Article URL: https://www.bbc.com/news/live/cvgl73pxgndwt Comments URL: https://news.ycombinator.com/item?id=49825580 Points: 250 # Comments: 193",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-25T01:28:46.431826+00:00"
-   },
-   {
-    "id": "2886d8572f92b04c",
-    "date": "2026-09-24",
-    "published": "2026-09-24T00:41:31+00:00",
-    "source": "Hacker News — Best",
-    "title": "Feds Target AI Critics as \"Foreign Agents\"",
-    "link": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
-    "summary": "Article URL: https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign Comments URL: https://news.ycombinator.com/item?id=49824686 Points: 334 # Comments: 352",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:10.048216+00:00"
-   },
-   {
-    "id": "6b5eff58280f39ec",
-    "date": "2026-09-23",
-    "published": "2026-09-23T23:47:56+00:00",
-    "source": "Hacker News — Best",
-    "title": "Meta VR Glasses",
-    "link": "https://www.meta.com/vr-glasses/",
-    "summary": "Article URL: https://www.meta.com/vr-glasses/ Comments URL: https://news.ycombinator.com/item?id=49824268 Points: 459 # Comments: 418",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:10.048219+00:00"
-   },
-   {
-    "id": "2e8aa166044b7443",
-    "date": "2026-09-23",
-    "published": "2026-09-23T22:53:28+00:00",
-    "source": "Hacker News — Best",
-    "title": "Show HN: Make cursed fonts like Times New Bastard",
-    "link": "https://bastardica.mitpit.com",
-    "summary": "A joke tool that abuses OpenType's ligature feature to mix fonts. It works pretty fast on client-side by loading Python in WASM. Comments URL: https://news.ycombinator.com/item?id=49823738 Points: 466 # Comments: 64",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-25T01:28:46.431828+00:00"
-   },
-   {
-    "id": "b8a00fb73adf166f",
-    "date": "2026-09-23",
-    "published": "2026-09-23T22:45:49+00:00",
-    "source": "Hacker News — Best",
-    "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
-    "link": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
-    "summary": "Article URL: https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/ Comments URL: https://news.ycombinator.com/item?id=49823664 Points: 304 # Comments: 38",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-25T01:28:46.431829+00:00"
-   },
-   {
-    "id": "4de1641fc6e49020",
-    "date": "2026-09-23",
-    "published": "2026-09-23T22:38:16+00:00",
-    "source": "Hacker News — Best",
-    "title": "Linux support is coming to Snapdragon X2 Series",
-    "link": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
-    "summary": "Article URL: https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux Comments URL: https://news.ycombinator.com/item?id=49823582 Points: 538 # Comments: 219",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "ai-product",
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:10.048221+00:00"
-   },
-   {
-    "id": "522af5193d6200cf",
-    "date": "2026-09-23",
-    "published": "2026-09-23T21:01:48+00:00",
-    "source": "Hacker News — Best",
-    "title": "VSCode's SSH Agent Is Bananas (2025)",
-    "link": "https://fly.io/blog/vscode-ssh-wtf/",
-    "summary": "Article URL: https://fly.io/blog/vscode-ssh-wtf/ Comments URL: https://news.ycombinator.com/item?id=49822555 Points: 276 # Comments: 170",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:10.048222+00:00"
-   },
-   {
-    "id": "903b1128f9a0f405",
-    "date": "2026-09-23",
-    "published": "2026-09-23T21:01:48+00:00",
-    "source": "Hacker News — Best",
-    "title": "OpenAI breaches Medicare, Albanese reveals",
-    "link": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
-    "summary": "Article URL: https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html Comments URL: https://news.ycombinator.com/item?id=49822556 Points: 249 # Comments: 253",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-25T01:28:46.431831+00:00"
-   },
-   {
-    "id": "977e1d2cb1979cc5",
-    "date": "2026-09-23",
-    "published": "2026-09-23T19:55:14+00:00",
-    "source": "Hacker News — Best",
-    "title": "DoorDash Spent $1.4M Trying to Stop Mamdani from Becoming Mayor. Now We Know Why",
-    "link": "https://theintercept.com/2026/09/23/doordash-delivery-nyc-mamdani-wage-theft-settlement/",
-    "summary": "Article URL: https://theintercept.com/2026/09/23/doordash-delivery-nyc-mamdani-wage-theft-settlement/ Comments URL: https://news.ycombinator.com/item?id=49821608 Points: 289 # Comments: 140",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:20.219350+00:00"
-   },
-   {
-    "id": "8a86c97089bb6492",
-    "date": "2026-09-23",
-    "published": "2026-09-23T18:00:00+00:00",
-    "source": "Google — The Keyword (AI)",
-    "title": "Google Beam expands with new regions, partners, and customers",
-    "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-    "summary": "Google Beam promotional animation",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:20.166823+00:00"
-   },
-   {
-    "id": "e9c1ddde4585931b",
-    "date": "2026-09-23",
-    "published": "2026-09-23T17:12:27+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "Gemini 3.8 TTS Playground",
-    "link": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
-    "summary": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you ",
-    "topics": [
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:20.842130+00:00"
-   },
-   {
-    "id": "3a35425568c413eb",
-    "date": "2026-09-23",
-    "published": "2026-09-23T17:07:22+00:00",
-    "source": "The Pragmatic Engineer",
-    "title": "Design Engineering with Maggie Appleton",
-    "link": "https://newsletter.pragmaticengineer.com/p/design-engineering-with-maggie-appleton",
-    "summary": "Maggie Appleton on what engineers can learn from designers, working with AI agents, and why human judgment still matters.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:22.140181+00:00"
-   },
-   {
-    "id": "5dce497623aece16",
-    "date": "2026-09-23",
-    "published": "2026-09-23T17:06:16+00:00",
-    "source": "Hacker News — Best",
-    "title": "Italian parliament votes for return to nuclear energy",
-    "link": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
-    "summary": "Article URL: https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567 Comments URL: https://news.ycombinator.com/item?id=49819221 Points: 579 # Comments: 372",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:20.219370+00:00"
-   },
-   {
-    "id": "ba339dfd75be84d1",
-    "date": "2026-09-23",
-    "published": "2026-09-23T16:37:18+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "Shadow roots, explained with live examples",
-    "link": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
-    "summary": "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots in CSS with interactive examples Tags: css",
-    "topics": [
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:20.842140+00:00"
-   },
-   {
-    "id": "58a4ef2e527bcfbc",
-    "date": "2026-09-23",
-    "published": "2026-09-23T16:35:34+00:00",
-    "source": "Hacker News — Best",
-    "title": "28% of job postings on company career sites have been open over 90 days",
-    "link": "https://unlisted.careers/ghost-jobs/report/2026-09",
-    "summary": "Article URL: https://unlisted.careers/ghost-jobs/report/2026-09 Comments URL: https://news.ycombinator.com/item?id=49818698 Points: 285 # Comments: 338",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:10.048224+00:00"
-   },
-   {
-    "id": "9d02eeb8cef10808",
-    "date": "2026-09-23",
-    "published": "2026-09-23T16:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "Two years of OpenAI Academy",
-    "link": "https://openai.com/index/two-years-of-openai-academy",
-    "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:26:58.568787+00:00"
-   },
-   {
-    "id": "2bbd4da8914b66c7",
-    "date": "2026-09-23",
-    "published": "2026-09-23T15:29:23+00:00",
-    "source": "Hacker News — Best",
-    "title": "Gemini 3.8 text-to-speech",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-    "summary": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/ Comments URL: https://news.ycombinator.com/item?id=49817615 Points: 249 # Comments: 121",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:20.219373+00:00"
-   },
-   {
-    "id": "f8d9a221b9a46866",
-    "date": "2026-09-23",
-    "published": "2026-09-23T15:18:53+00:00",
-    "source": "Hacker News — Best",
-    "title": "Fixing the Portobello Police Station Clock",
-    "link": "https://pointinthecloud.com/2026-04-11-211700.html",
-    "summary": "Article URL: https://pointinthecloud.com/2026-04-11-211700.html Comments URL: https://news.ycombinator.com/item?id=49817469 Points: 378 # Comments: 85",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:20.219376+00:00"
-   },
-   {
-    "id": "18c511d8742ebf23",
-    "date": "2026-09-23",
-    "published": "2026-09-23T15:14:22+00:00",
-    "source": "Hacker News — Best",
-    "title": "GPT-6 Astra has gained the ability to drive a car",
-    "link": "https://drivingbench.com/",
-    "summary": "Article URL: https://drivingbench.com/ Comments URL: https://news.ycombinator.com/item?id=49817404 Points: 272 # Comments: 221",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:20.219379+00:00"
-   },
-   {
-    "id": "2d582ad1a864a534",
-    "date": "2026-09-23",
-    "published": "2026-09-23T15:05:20+00:00",
-    "source": "Hacker News — Best",
-    "title": "Why is Hacker News like that?",
-    "link": "https://drewdevault.com/blog/Why-is-HN-like-that/",
-    "summary": "Article URL: https://drewdevault.com/blog/Why-is-HN-like-that/ Comments URL: https://news.ycombinator.com/item?id=49817280 Points: 299 # Comments: 151",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:10.048226+00:00"
-   },
-   {
-    "id": "b5a850df8aaa5796",
-    "date": "2026-09-23",
-    "published": "2026-09-23T14:04:34+00:00",
-    "source": "Hacker News — Best",
-    "title": "Seattle City Council votes to ban surveillance pricing in sale of groceries",
-    "link": "https://advocacy.consumerreports.org/press_release/seattle-city-council-votes-to-ban-surveillance-pricing-in-sale-of-groceries/",
-    "summary": "Article URL: https://advocacy.consumerreports.org/press_release/seattle-city-council-votes-to-ban-surveillance-pricing-in-sale-of-groceries/ Comments URL: https://news.ycombinator.com/item?id=49816374 Points: 306 # Comments: 194",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:20.219381+00:00"
-   },
-   {
-    "id": "bd03d329b12465d9",
-    "date": "2026-09-23",
-    "published": "2026-09-23T13:27:18+00:00",
-    "source": "Latent Space (AINews)",
-    "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "link": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
-    "summary": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
-    "topics": [
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:26:57.618692+00:00"
-   },
-   {
-    "id": "c09e1d6d9ea6709c",
-    "date": "2026-09-23",
-    "published": "2026-09-23T13:04:44+00:00",
-    "source": "Hacker News — Best",
-    "title": "I don't want the details",
-    "link": "https://michaelheap.com/i-dont-want-the-details/",
-    "summary": "Article URL: https://michaelheap.com/i-dont-want-the-details/ Comments URL: https://news.ycombinator.com/item?id=49815466 Points: 344 # Comments: 194",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:20.219383+00:00"
-   },
-   {
-    "id": "1d77064cbebb782f",
-    "date": "2026-09-23",
-    "published": "2026-09-23T13:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-    "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-    "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:26:58.568805+00:00"
-   },
-   {
-    "id": "5f54a61aa38259e8",
-    "date": "2026-09-23",
-    "published": "2026-09-23T12:15:33+00:00",
-    "source": "Hacker News — Best",
-    "title": "Claude Code reads AGENTS.md only when telemetry is on",
-    "link": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
-    "summary": "Article URL: https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/ Comments URL: https://news.ycombinator.com/item?id=49814947 Points: 302 # Comments: 134",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:26:57.760400+00:00"
-   },
-   {
-    "id": "01d4e543c9419cea",
-    "date": "2026-09-23",
-    "published": "2026-09-23T12:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "Sam Altman’s remarks at the United Nations Security Council",
-    "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
-    "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:21.808584+00:00"
-   },
-   {
-    "id": "f7558dc5c9de5bb5",
-    "date": "2026-09-23",
-    "published": "2026-09-23T12:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-    "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-    "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:21.808602+00:00"
-   }
-  ],
   "macro": [
    {
     "id": "a4aea040f012c505",
@@ -3744,660 +4377,6 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-09-21T06:49:52.171012+00:00"
-   }
-  ],
-  "finance": [
-   {
-    "id": "a56fb9eb6d482575",
-    "date": "2026-09-24",
-    "published": "2026-09-24T17:20:10+00:00",
-    "source": "FT Alphaville",
-    "title": "Oracle feels the force",
-    "link": "https://www.ft.com/content/82dbd39c-f8dd-4ef1-8a80-d430a22579bd",
-    "summary": "Majeure problem?",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-25T01:28:49.289021+00:00"
-   },
-   {
-    "id": "cc29002ee3426ea2",
-    "date": "2026-09-24",
-    "published": "2026-09-24T08:17:45+00:00",
-    "source": "FT Alphaville",
-    "title": "Oops! You added the wrong email attachment and leaked the bank’s deal list. What happens next?",
-    "link": "https://www.ft.com/content/8124e18d-ca77-424f-aa43-97983653eec4",
-    "summary": "A six-point plan for putting toothpaste back in the tube",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:14.924364+00:00"
-   },
-   {
-    "id": "233e854f5e754c4b",
-    "date": "2026-09-24",
-    "published": "2026-09-24T07:39:33+00:00",
-    "source": "FT Alphaville",
-    "title": "FTAV’s further reading",
-    "link": "https://www.ft.com/content/9771d493-6c70-4250-9852-854351f13bad",
-    "summary": "The usual assortment of terrible things; and crisps",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:14.924374+00:00"
-   },
-   {
-    "id": "938681080cbfde26",
-    "date": "2026-09-24",
-    "published": "2026-09-24T05:00:01+00:00",
-    "source": "FT Alphaville",
-    "title": "Are Big Tech bonds crowding out the US Treasury?",
-    "link": "https://www.ft.com/content/6354c1ec-286a-4251-bac8-ca0cd4ac7eac",
-    "summary": "Probably not",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T15:49:14.924377+00:00"
-   },
-   {
-    "id": "65479ed584eccd90",
-    "date": "2026-09-23",
-    "published": "2026-09-23T17:03:01+00:00",
-    "source": "FT Alphaville",
-    "title": "Can Warsh tighten financial conditions without engineering a stock market fall?",
-    "link": "https://www.ft.com/content/281a2cd1-2094-4f33-af04-387b75fe9db1",
-    "summary": "Change the messenger",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-24T01:23:26.009195+00:00"
-   },
-   {
-    "id": "0150ea367669420e",
-    "date": "2026-09-23",
-    "published": "2026-09-23T13:15:26+00:00",
-    "source": "FT Alphaville",
-    "title": "The argument for Kalshi taking bets on its own legality",
-    "link": "https://www.ft.com/content/d13b1982-450f-45d2-b79b-431f30b048b2",
-    "summary": "Predictor, predict thyself",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [
-     "forecasting"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:04.691981+00:00"
-   },
-   {
-    "id": "59faad98eb4ae18c",
-    "date": "2026-09-23",
-    "published": "2026-09-23T09:30:06+00:00",
-    "source": "FT Alphaville",
-    "title": "Enter slopfiling",
-    "link": "https://www.ft.com/content/7d0f525e-f99d-4175-b37c-78d4dd4adf2b",
-    "summary": "Some companies love ChatGPT and they don’t care who knows it",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:04.691989+00:00"
-   },
-   {
-    "id": "ef14433459002495",
-    "date": "2026-09-23",
-    "published": "2026-09-23T07:18:00+00:00",
-    "source": "FT Alphaville",
-    "title": "FTAV’s further reading",
-    "link": "https://www.ft.com/content/344e7af4-42ce-4cf0-b608-aa25eaa1e7ee",
-    "summary": "Bonds; FCF; circular capex; real estate bubbles; unionisation; solar panels; and vaping",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:04.691993+00:00"
-   },
-   {
-    "id": "15a709224f2bfff6",
-    "date": "2026-09-23",
-    "published": "2026-09-23T06:00:08+00:00",
-    "source": "FT Alphaville",
-    "title": "Confessions of an accidental bonus basher",
-    "link": "https://www.ft.com/content/a0c1434a-4f27-445b-ac37-23181424cd33",
-    "summary": "Why bonus caps do kinda make sense (ish) though",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:04.692000+00:00"
-   },
-   {
-    "id": "4aff29d4eabd61a2",
-    "date": "2026-09-23",
-    "published": "2026-09-23T05:15:06+00:00",
-    "source": "Quantocracy",
-    "title": "Recent Quant Links from Quantocracy as of 09/22/2026",
-    "link": "https://quantocracy.com/recent-quant-links-from-quantocracy-as-of-09222026/",
-    "summary": "This is a summary of links recently featured on Quantocracy as of Tuesday, 09/22/2026. To see our most recent links, visit the Quant Mashup. Read on readers! Building and Testing Trend-Following Strategies on One-Minute SPY Data [Quantpedia] Intraday trading strategies have gained increasing attenti",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-23T15:27:04.226272+00:00"
-   },
-   {
-    "id": "1b2b8b0953a1087e",
-    "date": "2026-09-22",
-    "published": "2026-09-22T12:08:58+00:00",
-    "source": "FT Alphaville",
-    "title": "Pick a stock, just not any stock",
-    "link": "https://www.ft.com/content/193a14eb-5650-48a8-8ead-eb8184fc50f5",
-    "summary": "Fewer ziggers, more zaggers",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-22T15:31:22.342259+00:00"
-   },
-   {
-    "id": "4534cad26ef7b58f",
-    "date": "2026-09-22",
-    "published": "2026-09-22T06:24:53+00:00",
-    "source": "FT Alphaville",
-    "title": "FTAV’s further reading",
-    "link": "https://www.ft.com/content/9d97d6db-3706-4842-bcdc-3f7c58aa58c1",
-    "summary": "Inflation; oil tankers; the basis trade; BOE independence; Mark Spitznagel; Nick Candy; Chinese AI; slop text; and a weird office",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-22T15:31:22.342266+00:00"
-   },
-   {
-    "id": "f9f2d4d97fcd5e29",
-    "date": "2026-09-22",
-    "published": "2026-09-22T05:00:01+00:00",
-    "source": "FT Alphaville",
-    "title": "The USS lesson plan",
-    "link": "https://www.ft.com/content/a0d1351f-0f16-4994-a71e-c9b134d70d71",
-    "summary": "Why doesn’t the UK’s largest pension fund go all-in on stocks? Or maybe bonds?",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-22T15:31:22.342268+00:00"
-   },
-   {
-    "id": "db13addea1b62e37",
-    "date": "2026-09-21",
-    "published": "2026-09-21T16:01:03+00:00",
-    "source": "FT Alphaville",
-    "title": "US data centres ‘are short six NYCs of electricity’",
-    "link": "https://www.ft.com/content/f29de45a-3d32-4d9f-90cd-615f7466c1de",
-    "summary": "With great power comes great implausibility",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-22T01:36:14.465770+00:00"
-   },
-   {
-    "id": "2ea10d6a0de61d8e",
-    "date": "2026-09-21",
-    "published": "2026-09-21T12:58:38+00:00",
-    "source": "FT Alphaville",
-    "title": "And the charts quiz winner is . . .",
-    "link": "https://www.ft.com/content/36175b45-b177-448c-95d0-3221d539ab89",
-    "summary": "Mad Hatter",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [
-     "dashboard"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T17:02:54.550241+00:00"
-   },
-   {
-    "id": "7cf3ca8f8e4ff832",
-    "date": "2026-09-21",
-    "published": "2026-09-21T06:10:43+00:00",
-    "source": "FT Alphaville",
-    "title": "FTAV’s further reading",
-    "link": "https://www.ft.com/content/3b646756-12bc-442f-b77b-6583cee6de46",
-    "summary": "Capex; schools; debt ratings; defaults; money quality; betting; The Kennedy Center; onion futures; and Lemmings",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "8e8896e397ce46e7",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:15:04+00:00",
-    "source": "Quantocracy",
-    "title": "Recent Quant Links from Quantocracy as of 09/20/2026",
-    "link": "https://quantocracy.com/recent-quant-links-from-quantocracy-as-of-09202026/",
-    "summary": "This is a summary of links recently featured on Quantocracy as of Sunday, 09/20/2026. To see our most recent links, visit the Quant Mashup. Read on readers! A sad day for the quant vol trading community, Vance is gone [Six Figure Investing] Vance Harwood passed away in September 2026 after a brief a",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T07:36:59.091520+00:00"
-   },
-   {
-    "id": "cfe596d6514ecc3d",
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:00:09+00:00",
-    "source": "FT Alphaville",
-    "title": "Octopus still won’t give investors their money back",
-    "link": "https://www.ft.com/content/13cb8980-e8fa-4848-953f-8aa6e98ca219",
-    "summary": "Just another few weeks . . . okay?",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "b80407a3a6693b8c",
-    "date": "2026-09-18",
-    "published": "2026-09-18T22:07:23+00:00",
-    "source": "FT Alphaville",
-    "title": "Startup Nscale’s CEO pay nearly matched the FTSE 100 record, because of course it did",
-    "link": "https://www.ft.com/content/713d23b5-1559-4623-9a29-d40b43ab3da0",
-    "summary": "Power? Low. Pay? Very high",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "05574c0a3f95ffc3",
-    "date": "2026-09-18",
-    "published": "2026-09-18T11:14:44+00:00",
-    "source": "FT Alphaville",
-    "title": "Britons say they’re taking less annual leave. The ONS doesn’t believe them",
-    "link": "https://www.ft.com/content/6584e52f-5a8c-4427-ba39-b401a808850d",
-    "summary": "Incoherent methods —> “coherent series”",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "345fb11c1835221c",
-    "date": "2026-09-18",
-    "published": "2026-09-18T10:48:43+00:00",
-    "source": "FT Alphaville",
-    "title": "FTAV’s Friday charts quiz",
-    "link": "https://www.ft.com/content/3d1234ea-081e-41b3-a2e5-bbd7a81cdb0d",
-    "summary": "Portrait of The Chart as a Young Graph",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [
-     "dashboard"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "0093c357dbd735ed",
-    "date": "2026-09-18",
-    "published": "2026-09-18T09:00:01+00:00",
-    "source": "FT Alphaville",
-    "title": "‘Greek finance minister encourages Germany to implement reforms’",
-    "link": "https://www.ft.com/content/7a285c59-2a2f-4e8b-9456-d4b92334fec7",
-    "summary": "🤩🤩🤩",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "7e24f3e4653b1df2",
-    "date": "2026-09-18",
-    "published": "2026-09-18T08:08:28+00:00",
-    "source": "FT Alphaville",
-    "title": "FTAV’s further reading",
-    "link": "https://www.ft.com/content/9937d230-9ce7-4847-814b-cc99fe8ded37",
-    "summary": "Lesbian bars; quant winters, the return of wind power; service journalism; journalism slop; Raheem Sterling; AI economics; AI safety as a sex cult",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "c3cceba4b9cd33fc",
-    "date": "2026-09-18",
-    "published": "2026-09-18T05:00:09+00:00",
-    "source": "FT Alphaville",
-    "title": "Joining the dots between big AI",
-    "link": "https://www.ft.com/content/8475dc9b-b2d4-4e10-a6b6-12796b11758a",
-    "summary": "In the loop?",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "519cbdc78154ab7b",
-    "date": "2026-09-17",
-    "published": "2026-09-17T17:53:12+00:00",
-    "source": "FT Alphaville",
-    "title": "Bank of England follows FTAV advice",
-    "link": "https://www.ft.com/content/46e25252-9e1e-4ead-aa56-293a0f09a393",
-    "summary": "Although maybe correlation ≠ causation",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "0b17f796f1d307f9",
-    "date": "2026-09-17",
-    "published": "2026-09-17T16:55:35+00:00",
-    "source": "FT Alphaville",
-    "title": "Sun, stats and suspicious productivity",
-    "link": "https://www.ft.com/content/fc324c65-11d6-473d-b15b-deef27cbadc2",
-    "summary": "UK workers are better and more offline than previously thought",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "a3b5a22f0d068e08",
-    "date": "2026-09-17",
-    "published": "2026-09-17T10:35:49+00:00",
-    "source": "FT Alphaville",
-    "title": "Chattering central bankers are good, actually",
-    "link": "https://www.ft.com/content/b4d3b969-76e8-49f2-8528-4d34a810e7a4",
-    "summary": "Some data for Warsh’s task force",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "3f5f6c8b1754e782",
-    "date": "2026-09-17",
-    "published": "2026-09-17T05:30:01+00:00",
-    "source": "FT Alphaville",
-    "title": "FTAV’s further reading",
-    "link": "https://www.ft.com/content/094d8a79-e0d0-47b7-8b0d-d4e72e079dbe",
-    "summary": "Easing the FBI’s bestiality standards; Anthropic’s ‘profits’; killing people; green repo; GPU prices have gone mad",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "f4bfdf7dde25ca6b",
-    "date": "2026-09-17",
-    "published": "2026-09-17T05:15:04+00:00",
-    "source": "Quantocracy",
-    "title": "Recent Quant Links from Quantocracy as of 09/16/2026",
-    "link": "https://quantocracy.com/recent-quant-links-from-quantocracy-as-of-09162026/",
-    "summary": "This is a summary of links recently featured on Quantocracy as of Wednesday, 09/16/2026. To see our most recent links, visit the Quant Mashup. Read on readers! Fama-French factors inside the S&P 500: walk-forward 2006 to 2025 [Quanter Lab] Fama and French sort every US stock on the signal at the end",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:43.237211+00:00"
-   },
-   {
-    "id": "a2e63b4bbcf9a183",
-    "date": "2026-09-17",
-    "published": "2026-09-17T05:00:01+00:00",
-    "source": "FT Alphaville",
-    "title": "Either Meta Glasses are selling extremely well or this Citi survey might have some issues",
-    "link": "https://www.ft.com/content/2739954a-816a-465a-ae21-7d846bb70365",
-    "summary": "Alternate virtual realities",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "960737a4205e8d06",
-    "date": "2026-09-16",
-    "published": "2026-09-16T15:32:40+00:00",
-    "source": "FT Alphaville",
-    "title": "This is good for AI!!!! Aaargh!!!!",
-    "link": "https://www.ft.com/content/1b95b8c0-3563-4c3d-93f2-9d4d9fe3bc2e",
-    "summary": "A brief survey of sell-side scribbling at the end of the world",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "1ca48810e30f903f",
-    "date": "2026-09-16",
-    "published": "2026-09-16T13:27:04+00:00",
-    "source": "FT Alphaville",
-    "title": "Anthropic’s mother of all risk factors",
-    "link": "https://www.ft.com/content/29f0dac0-0523-46c4-a573-cd681a69b445",
-    "summary": "What to say in your S-1 when your product has a >10% possibility of causing the extinction of humankind",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "120ff8dc67399160",
-    "date": "2026-09-16",
-    "published": "2026-09-16T10:31:38+00:00",
-    "source": "FT Alphaville",
-    "title": "The Extended Farageverse is coming together",
-    "link": "https://www.ft.com/content/7727d99d-dce5-48e9-aebd-7d09ab3aa608",
-    "summary": "Stacking sats 🤜 🤛 selling gold",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "4c18b023e28fc711",
-    "date": "2026-09-16",
-    "published": "2026-09-16T05:30:03+00:00",
-    "source": "FT Alphaville",
-    "title": "FTAV’s further reading",
-    "link": "https://www.ft.com/content/85f684e6-15df-4015-a626-73a5e2f2b438",
-    "summary": "Kushnerplomacy; Canada+Europe; L/S hedge funds; little red dots, Chinese drone submarine; and Baal",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "b15501700054518a",
-    "date": "2026-09-16",
-    "published": "2026-09-16T05:00:02+00:00",
-    "source": "FT Alphaville",
-    "title": "The BoE’s three balance sheet problem",
-    "link": "https://www.ft.com/content/3401a104-598d-4145-a03b-8bb08b2d7165",
-    "summary": "Issues with the Issue Department",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "f6f3bb1b2b1c54ad",
-    "date": "2026-09-15",
-    "published": "2026-09-15T11:37:18+00:00",
-    "source": "FT Alphaville",
-    "title": "BPRE’s extremely large, very huge, getting-bigger NAV discount",
-    "link": "https://www.ft.com/content/fa93720c-4df4-42dc-bee5-c1026fbd7f77",
-    "summary": "Private marks v public markets",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "23b98ecc5853cdf1",
-    "date": "2026-09-15",
-    "published": "2026-09-15T05:30:08+00:00",
-    "source": "FT Alphaville",
-    "title": "FTAV’s further reading",
-    "link": "https://www.ft.com/content/0b1b2875-fa2d-417b-8617-c6e51bebf083",
-    "summary": "Don Jr’s wedding-backer; Bank of England review; AI and maths; Mark Zuckerberg profile; LP incentive pay; Anthropic job ad",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "6d8f5dedb4ef01ab",
-    "date": "2026-09-15",
-    "published": "2026-09-15T05:15:06+00:00",
-    "source": "Quantocracy",
-    "title": "Recent Quant Links from Quantocracy as of 09/14/2026",
-    "link": "https://quantocracy.com/recent-quant-links-from-quantocracy-as-of-09142026/",
-    "summary": "This is a summary of links recently featured on Quantocracy as of Monday, 09/14/2026. To see our most recent links, visit the Quant Mashup. Read on readers! Tom Carlson s Adaptive 60/40 Portfolio: Momentum-based Selection of Stock Diversifiers [Portfolio Optimizer] Welcome to 2026, where bonds no lo",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:43.237211+00:00"
-   },
-   {
-    "id": "9d9c91d9236ccac0",
-    "date": "2026-09-15",
-    "published": "2026-09-15T05:00:08+00:00",
-    "source": "FT Alphaville",
-    "title": "It’s crunch time for BoneSupport, one of Europe’s most shorted stocks",
-    "link": "https://www.ft.com/content/b14ad3a8-f36c-4023-b619-c6e939165886",
-    "summary": "Casing the joint",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
-   },
-   {
-    "id": "d5fffb33074c264f",
-    "date": "2026-09-14",
-    "published": "2026-09-14T14:23:48+00:00",
-    "source": "FT Alphaville",
-    "title": "How much should lenders charge hyperscalers?",
-    "link": "https://www.ft.com/content/ba38df40-9898-48a0-bc9e-39d8a3da4305",
-    "summary": "Pricing equity punters’ collective histrionics in a credit context",
-    "topics": [
-     "finance",
-     "macro"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "en",
-    "first_seen": "2026-09-21T06:49:41.347684+00:00"
    }
   ],
   "forecasting": [
@@ -5181,14 +5160,14 @@
   ]
  },
  "tag_counts": {
-  "ai-product": 211,
-  "finance-product": 72,
-  "ux": 71,
-  "growth": 65,
-  "data": 31,
-  "dashboard": 18,
-  "retention": 13,
-  "notification": 10,
+  "ai-product": 235,
+  "ux": 79,
+  "finance-product": 76,
+  "growth": 71,
+  "data": 33,
+  "dashboard": 20,
+  "retention": 15,
+  "notification": 11,
   "forecasting": 7,
   "onboarding": 2
  },
