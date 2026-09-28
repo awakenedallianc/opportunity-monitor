@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-27T15:40:25.783797+00:00",
+ "generated_at": "2026-09-28T01:38:48.721962+00:00",
  "sources": 65,
- "ok": 56,
- "new_items": 76,
- "duration_s": 37.2,
+ "ok": 57,
+ "new_items": 55,
+ "duration_s": 11.7,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 20,
-   "last_item": "2026-09-27",
+   "new": 22,
+   "last_item": "2026-09-28",
    "error": null
   },
   {
@@ -190,7 +190,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 17,
+   "new": 11,
    "last_item": "2026-09-27",
    "error": null
   },
@@ -199,7 +199,7 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-09-27",
    "error": null
   },
@@ -226,7 +226,7 @@
    "feed_url": "https://www.lennysnewsletter.com/feed",
    "ok": true,
    "items": 20,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-09-27",
    "error": null
   },
@@ -237,6 +237,15 @@
    "items": 100,
    "new": 0,
    "last_item": "2026-09-22",
+   "error": null
+  },
+  {
+   "name": "Nielsen Norman Group",
+   "feed_url": "https://www.nngroup.com/feed/rss/",
+   "ok": true,
+   "items": 20,
+   "new": 0,
+   "last_item": "2026-09-25",
    "error": null
   },
   {
@@ -289,7 +298,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 6,
+   "new": 0,
    "last_item": "2026-09-25",
    "error": null
   },
@@ -307,7 +316,7 @@
    "feed_url": "http://feeds.feedburner.com/Quantocracy",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-27",
    "error": null
   },
@@ -326,7 +335,7 @@
    "ok": true,
    "items": 30,
    "new": 1,
-   "last_item": "2026-09-26",
+   "last_item": "2026-09-27",
    "error": null
   },
   {
@@ -424,7 +433,7 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-27",
    "error": null
   },
@@ -433,17 +442,17 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-09-25",
+   "new": 1,
+   "last_item": "2026-09-27",
    "error": null
   },
   {
    "name": "Vercel News",
    "feed_url": "https://vercel.com/atom",
    "ok": true,
-   "items": 1612,
-   "new": 0,
-   "last_item": "2026-09-25",
+   "items": 1613,
+   "new": 1,
+   "last_item": "2026-09-27",
    "error": null
   },
   {
@@ -451,7 +460,7 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 4,
+   "new": 1,
    "last_item": "2026-09-27",
    "error": null
   },
@@ -470,7 +479,7 @@
    "ok": true,
    "items": 15,
    "new": 15,
-   "last_item": "2026-09-27",
+   "last_item": "2026-09-28",
    "error": null
   },
   {
@@ -487,8 +496,8 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 2,
-   "last_item": "2026-09-27",
+   "new": 1,
+   "last_item": "2026-09-28",
    "error": null
   },
   {
@@ -496,8 +505,8 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-25",
+   "new": 1,
+   "last_item": "2026-09-28",
    "error": null
   },
   {
@@ -505,7 +514,7 @@
    "feed_url": "https://www.qbitai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 4,
+   "new": 0,
    "last_item": "2026-09-27",
    "error": null
   },
@@ -562,15 +571,6 @@
    "new": 0,
    "last_item": null,
    "error": "403 Client Error: Forbidden for url: https://research.glassnode.com/rss/"
-  },
-  {
-   "name": "Nielsen Norman Group",
-   "feed_url": "https://www.nngroup.com/feed/rss/",
-   "ok": false,
-   "items": 0,
-   "new": 0,
-   "last_item": null,
-   "error": "HTTPSConnectionPool(host='www.nngroup.com', port=443): Max retries exceeded with url: /feed/rss/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nngro"
   },
   {
    "name": "The Beautiful Mess (John Cutler)",
