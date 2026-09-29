@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-28T18:36:22.130758+00:00",
+ "generated_at": "2026-09-29T02:34:35.698430+00:00",
  "sources": 65,
  "ok": 57,
- "new_items": 151,
- "duration_s": 10.0,
+ "new_items": 89,
+ "duration_s": 16.9,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 27,
-   "last_item": "2026-09-28",
+   "new": 24,
+   "last_item": "2026-09-29",
    "error": null
   },
   {
@@ -36,9 +36,9 @@
    "name": "Anthropic News (unofficial mirror)",
    "feed_url": "https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml",
    "ok": true,
-   "items": 14,
-   "new": 0,
-   "last_item": "2026-09-23",
+   "items": 15,
+   "new": 1,
+   "last_item": "2026-09-28",
    "error": null
   },
   {
@@ -97,7 +97,7 @@
   },
   {
    "name": "Datawrapper Blog",
-   "feed_url": "https://blog.datawrapper.de/feed/",
+   "feed_url": "https://www.datawrapper.de/blog/feed/",
    "ok": true,
    "items": 1075,
    "new": 0,
@@ -106,7 +106,7 @@
   },
   {
    "name": "Datawrapper Blog",
-   "feed_url": "https://www.datawrapper.de/blog/feed/",
+   "feed_url": "https://blog.datawrapper.de/feed/",
    "ok": true,
    "items": 1075,
    "new": 0,
@@ -127,7 +127,7 @@
    "feed_url": "https://fredblog.stlouisfed.org/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-28",
    "error": null
   },
@@ -136,7 +136,7 @@
    "feed_url": "https://www.ft.com/rss/alphaville",
    "ok": true,
    "items": 25,
-   "new": 5,
+   "new": 1,
    "last_item": "2026-09-28",
    "error": null
   },
@@ -146,7 +146,7 @@
    "ok": true,
    "items": 25,
    "new": 0,
-   "last_item": "2026-09-21",
+   "last_item": "2026-09-28",
    "error": null
   },
   {
@@ -154,7 +154,7 @@
    "feed_url": "https://flowingdata.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-28",
    "error": null
   },
@@ -172,8 +172,8 @@
    "feed_url": "https://blog.google/technology/ai/rss/",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-23",
+   "new": 1,
+   "last_item": "2026-09-28",
    "error": null
   },
   {
@@ -190,7 +190,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 14,
+   "new": 8,
    "last_item": "2026-09-28",
    "error": null
   },
@@ -199,8 +199,8 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 7,
-   "last_item": "2026-09-28",
+   "new": 2,
+   "last_item": "2026-09-29",
    "error": null
   },
   {
@@ -208,7 +208,7 @@
    "feed_url": "https://ixdf.org/rss/site_news.xml",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-24",
    "error": null
   },
@@ -217,8 +217,8 @@
    "feed_url": "https://www.latent.space/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-25",
+   "new": 1,
+   "last_item": "2026-09-29",
    "error": null
   },
   {
@@ -226,7 +226,7 @@
    "feed_url": "https://www.lennysnewsletter.com/feed",
    "ok": true,
    "items": 20,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-09-28",
    "error": null
   },
@@ -235,7 +235,7 @@
    "feed_url": "https://libertystreeteconomics.newyorkfed.org/feed/",
    "ok": true,
    "items": 100,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-28",
    "error": null
   },
@@ -270,9 +270,9 @@
    "name": "OpenAI News",
    "feed_url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1231,
-   "new": 1,
-   "last_item": "2026-09-28",
+   "items": 1234,
+   "new": 3,
+   "last_item": "2026-09-29",
    "error": null
   },
   {
@@ -298,7 +298,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 23,
+   "new": 0,
    "last_item": "2026-09-28",
    "error": null
   },
@@ -334,7 +334,7 @@
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
-   "new": 4,
+   "new": 2,
    "last_item": "2026-09-28",
    "error": null
   },
@@ -361,7 +361,7 @@
    "feed_url": "https://stratechery.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-28",
    "error": null
   },
@@ -388,8 +388,8 @@
    "feed_url": "https://news.polymarket.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-23",
+   "new": 1,
+   "last_item": "2026-09-28",
    "error": null
   },
   {
@@ -433,7 +433,7 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-09-28",
    "error": null
   },
@@ -442,7 +442,7 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 2,
    "last_item": "2026-09-28",
    "error": null
   },
@@ -450,8 +450,8 @@
    "name": "Vercel News",
    "feed_url": "https://vercel.com/atom",
    "ok": true,
-   "items": 1615,
-   "new": 2,
+   "items": 1616,
+   "new": 1,
    "last_item": "2026-09-28",
    "error": null
   },
@@ -460,7 +460,7 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 4,
+   "new": 0,
    "last_item": "2026-09-28",
    "error": null
   },
@@ -478,8 +478,8 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 15,
-   "last_item": "2026-09-28",
+   "new": 8,
+   "last_item": "2026-09-29",
    "error": null
   },
   {
@@ -487,8 +487,8 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 4,
-   "last_item": "2026-09-28",
+   "new": 1,
+   "last_item": "2026-09-29",
    "error": null
   },
   {
@@ -497,7 +497,7 @@
    "ok": true,
    "items": 30,
    "new": 30,
-   "last_item": "2026-09-28",
+   "last_item": "2026-09-29",
    "error": null
   },
   {
@@ -505,8 +505,8 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 4,
-   "last_item": "2026-09-28",
+   "new": 2,
+   "last_item": "2026-09-29",
    "error": null
   },
   {
@@ -514,8 +514,8 @@
    "feed_url": "https://www.qbitai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 2,
-   "last_item": "2026-09-28",
+   "new": 1,
+   "last_item": "2026-09-29",
    "error": null
   },
   {
