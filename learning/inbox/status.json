@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-02T16:38:13.641936+00:00",
+ "generated_at": "2026-10-03T01:56:27.945012+00:00",
  "sources": 65,
  "ok": 57,
- "new_items": 103,
- "duration_s": 8.8,
+ "new_items": 26,
+ "duration_s": 17.0,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 20,
-   "last_item": "2026-10-02",
+   "new": 5,
+   "last_item": "2026-10-03",
    "error": null
   },
   {
@@ -37,8 +37,8 @@
    "feed_url": "https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml",
    "ok": true,
    "items": 15,
-   "new": 0,
-   "last_item": "2026-10-01",
+   "new": 1,
+   "last_item": "2026-10-02",
    "error": null
   },
   {
@@ -91,7 +91,7 @@
    "feed_url": "https://tim-hilde.github.io/anthropic-rss/rss.xml",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-01",
    "error": null
   },
@@ -136,7 +136,7 @@
    "feed_url": "https://www.ft.com/rss/alphaville",
    "ok": true,
    "items": 25,
-   "new": 2,
+   "new": 1,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -145,7 +145,7 @@
    "feed_url": "https://www.ft.com/visual-and-data-journalism?format=rss",
    "ok": true,
    "items": 25,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -154,7 +154,7 @@
    "feed_url": "https://flowingdata.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -172,7 +172,7 @@
    "feed_url": "https://blog.google/technology/ai/rss/",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -190,7 +190,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 11,
+   "new": 7,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -199,7 +199,7 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -217,7 +217,7 @@
    "feed_url": "https://www.latent.space/feed",
    "ok": true,
    "items": 20,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -244,8 +244,8 @@
    "feed_url": "https://www.nngroup.com/feed/rss/",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-09-25",
+   "new": 2,
+   "last_item": "2026-10-02",
    "error": null
   },
   {
@@ -270,7 +270,7 @@
    "name": "OpenAI News",
    "feed_url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1244,
+   "items": 1245,
    "new": 1,
    "last_item": "2026-10-02",
    "error": null
@@ -298,7 +298,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 33,
+   "new": 0,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -361,8 +361,8 @@
    "feed_url": "https://stratechery.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-10-01",
+   "new": 1,
+   "last_item": "2026-10-02",
    "error": null
   },
   {
@@ -370,8 +370,8 @@
    "feed_url": "https://www.economist.com/graphic-detail/rss.xml",
    "ok": true,
    "items": 300,
-   "new": 0,
-   "last_item": "2026-09-24",
+   "new": 1,
+   "last_item": "2026-10-02",
    "error": null
   },
   {
@@ -433,7 +433,7 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -442,7 +442,7 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -450,8 +450,8 @@
    "name": "Vercel News",
    "feed_url": "https://vercel.com/atom",
    "ok": true,
-   "items": 1629,
-   "new": 2,
+   "items": 1630,
+   "new": 1,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -460,7 +460,7 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 3,
+   "new": 2,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -478,8 +478,8 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 15,
-   "last_item": "2026-10-02",
+   "new": 3,
+   "last_item": "2026-10-03",
    "error": null
   },
   {
@@ -487,7 +487,7 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -496,8 +496,8 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 0,
-   "last_item": "2026-10-02",
+   "new": 1,
+   "last_item": "2026-10-03",
    "error": null
   },
   {
@@ -505,7 +505,7 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-10-02",
    "error": null
   },
@@ -514,7 +514,7 @@
    "feed_url": "https://www.qbitai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 3,
+   "new": 0,
    "last_item": "2026-10-02",
    "error": null
   },
