@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T13:16:14.971223+00:00",
+ "generated_at": "2026-10-04T13:30:23.994942+00:00",
  "window_days": 14,
  "total": 2346,
  "groups": {
@@ -5065,10 +5065,17 @@
   "forecasting": 17,
   "onboarding": 4
  },
- "sources_ok": 63,
+ "sources_ok": 56,
  "sources_total": 65,
  "failed_sources": [
+  "Andrew Chen (Substack)",
+  "CalculatedRisk Newsletter",
+  "Coin Metrics – State of the Network",
+  "Ecoinometrics",
   "FRED Blog",
-  "Glassnode Research"
+  "Forecasting Research Institute",
+  "Glassnode Research",
+  "The Beautiful Mess (John Cutler)",
+  "The Macro Compass"
  ]
 }
