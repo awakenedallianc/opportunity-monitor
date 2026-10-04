@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-04T13:30:23.962053+00:00",
+ "generated_at": "2026-10-04T15:48:36.871701+00:00",
  "sources": 65,
  "ok": 56,
- "new_items": 0,
- "duration_s": 16.9,
+ "new_items": 6,
+ "duration_s": 17.0,
  "status": [
   {
    "name": "36氪",
@@ -181,7 +181,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 0,
+   "new": 3,
    "last_item": "2026-10-04",
    "error": null
   },
@@ -433,8 +433,8 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-10-03",
+   "new": 1,
+   "last_item": "2026-10-04",
    "error": null
   },
   {
@@ -451,7 +451,7 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 0,
+   "new": 1,
    "last_item": "2026-10-04",
    "error": null
   },
@@ -496,7 +496,7 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
+   "new": 1,
    "last_item": "2026-10-04",
    "error": null
   },
