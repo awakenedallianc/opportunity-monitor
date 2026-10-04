@@ -2,7 +2,7 @@
 # 规则：最多 60 条；超出时把 rank 最靠后的移到 knowledge_archive.yaml；同义合并，不堆砌。
 # 字段：id title takeaway action applies_to(ai|product|ux|monitor|dataviz|growth) source_name url added rank
 version: 2
-updated: '2026-09-21'
+updated: '2026-10-04'
 lessons:
 - id: L001
   title: 解释为了看懂，不为了完整；点开再看细节
@@ -232,3 +232,39 @@ lessons:
   url: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
   added: '2026-09-21'
   rank: 25
+- id: L026
+  title: AI 参与要就地标注，不拟人
+  takeaway: NN/g PACED：AI 贡献越核心越该披露；用户正是在「为什么排在这里」处困惑，解释要放在排序发生的地方；说能力不说人格更可信。
+  action: 新闻列表标题旁加「模型排序」、催化剂日历旁加「模型打分」（≤4 字，悬停一句说明），不写「AI 认为」；「怎么算」页保留长说明。本期已做。
+  applies_to: ai
+  source_name: Nielsen Norman Group — When Should You Disclose AI Use? The PACED Framework；NN/g — Machine Learning UX
+  url: https://www.nngroup.com/articles/disclose-ai-paced/
+  added: '2026-10-04'
+  rank: 26
+- id: L027
+  title: 战绩要分母先行、到期才判、分类别说
+  takeaway: Metaculus/Good Judgment 只统计「到期且已判定」的题并把题数摆在头条；FRI 自曝早判定的题偏向低估；Polymarket 只给 90% 不给样本量是反面教材。
+  action: F013 推演记分卡：N 全部 / M 到期可核 / K 方向对 三段互斥，其余写「还没到时候」；按报告自带时限判，趋势对也不提前算对；三篇报告分开，M<5 的只写数字不写比例。
+  applies_to: monitor
+  source_name: Forecasting Research Institute — Improving the Accuracy of AI Forecasts；Metaculus Track Record；Good Judgment — Superforecasters Track Record
+  url: https://www.metaculus.com/questions/track-record/
+  added: '2026-10-04'
+  rank: 27
+- id: L028
+  title: 中文快讯体例：时间 + 一句结论，≤55 字
+  takeaway: 财联社电报每条「HH:MM:SS + 财联社X月X日电，一句话结论」，普通条 30–55 字无标题；重点条正文前加【标题】并加粗。
+  action: 每日推送 push_text 与 now.html 的句式改成「HH:MM 结论句」；新触发的重要规则前加【买入信号】/【风险】标签；新闻行标题不改写只排序。
+  applies_to: ux
+  source_name: 财联社 · 电报
+  url: https://www.cls.cn/telegraph
+  added: '2026-10-04'
+  rank: 28
+- id: L029
+  title: 中文金融数字惯例：万/亿、2 位小数、双时区
+  takeaway: 雪球/东方财富用 万/亿/万亿，价格 2 位小数，涨跌幅 2 位带 % 且正数带 +；新浪美股页同时显示「北京 | 美东」两地时间。红涨绿跌的官方默认值未核实，保留开关。
+  action: 核对 fmtBig 全站用 万/亿；涨跌幅正数带 +；更新时间改「MM-DD HH:MM 曼谷（北京 HH:MM）」；涨跌色开关保留，设置里一句「大陆习惯红涨绿跌」。
+  applies_to: ux
+  source_name: 雪球 · 贵州茅台行情页；新浪财经 · 美股 AAPL；富途帮助 · 涨跌颜色设置
+  url: https://xueqiu.com/S/SH600519
+  added: '2026-10-04'
+  rank: 29

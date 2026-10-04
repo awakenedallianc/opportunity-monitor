@@ -2,7 +2,19 @@
 
 > 目的：会话中断、token 受限、换电脑后都能从这里接上，**不要重跑已完成的工作**。
 
-## 断点（2026-09-21 18:50 曼谷）：监控线总览 + 加密 K 线补全 + Jev 日历重要度（v2026.09.21.9）
+## 学习循环 · 第 2 期（2026-10-04 曼谷，计划任务自动触发）
+- 计划：主题 ①AI 披露时机（NN/g PACED）②预测记分卡怎么呈现（FRI/Metaculus）③中文金融信息产品惯例（财联社/雪球/同花顺）；实现 F008「为什么」第三层（报告原文引用，仅三篇报告的 priority 1 规则）
+- 状态：[x] 准备（pull、intake 63/65 源 104 新）[x] 挑主题 [x] 研究合并（3 个 agent，结论全带 URL）[x] knowledge.yaml L026–L029 [x] backlog.yaml F008 done、F020 planned、新增 F021–F023 [x] F008 实现+浏览器验证（1280/375 无横滚、深浅色、抽屉原文渲染；preview_start 在无人值守下不可用，改用同命令的 http.server 临时验证）[x] 体验巡检（首屏中文 253 字仍超 150，未新增；console 的「fetching the script」错误为 sw.js 在内嵌浏览器注册失败，非本期改动）[x] log.md [x] release（版本戳见 HANDOVER.md）
+- 若中断：F008 的候选原文在 scratchpad quotes.txt（可重跑 quotes.py）；rules.yaml 只新增 report_quote 字段，不改语义
+
+## 断点（2026-09-21 20:15 曼谷）：新频道《刀尖舞 KnifeWaltz》一版到位产品规格书落盘
+
+### 已完成（研究工作流：7 视角 53 条发现 → 定稿规格书）
+- **规格书**：`data/raw/blade_channel_spec.json`（约 222KB，UTF-8，已 round-trip 校验）——品牌定稿【刀尖舞 / KnifeWaltz / knifewaltz】+ slogan「纪律是唯一的刀鞘」+ 坐标级 SVG logo（坠刀K线主标 + 临界V favicon）+ 暗色 palette/字体（得意黑+Noto Sans SC+JetBrains Mono，全自托管）+ 三层 IA（首页首屏 8 模块精确排序）+ 信号引擎（8 个市场闸门 + 12 条信号规则，含 VIX 36/45/50 三档 36 年回测战绩、5 状态机、KnifeScore 40/20/20/20、三层放弃规则）+ 刀落板行级规格 + 仓位计算器公式（1/4 Kelly × 连败倒推双封顶、蒙特卡洛破产概率）+ 18 例崩盘刀谱（A/B 族标注、直接可渲染）+ 风险框架（免责全文 v1.0、Wilson 诚实统计卡、连败室、模拟器伦理排序）+ Jev 只回概率四触点 + 建站计划（GitHub org knifewaltz、复用/新写模块清单、8 步每步可发布、验收标准）+ 全部 53 条原始发现
+- **计算产物收编**（scratchpad 临时目录→仓库）：`data/raw/knife_archive.py`（13+ 例崩盘重算脚本，今日生产网络跑通）、`data/raw/knife_archive_computed.json`（刀谱种子数据）、`data/raw/vix_rule.py`（VIX≥36/45/50 36 年回测脚本，17 轮 episode）
+- **下一步**：按 build_plan.build_order 第 1 步起建 knifewaltz.github.io（注册 org 锁名 → 全站心跳状态机）；data/ 不进 git 的约定不变
+
+## 上一断点（2026-09-21 18:50 曼谷）：监控线总览 + 加密 K 线补全 + Jev 日历重要度（v2026.09.21.9）
 
 ### 已完成（用户"继续"指令的第 3 轮增强）
 - **监控线总览**：`config/lines.yaml`（20 条线的名称/白话推演/规则前缀，生成自 expansion_research.json，可直接编辑文案）→ payload.lines → 简明总览新增「监控线」区块（今日触发排序，每行：灯 + 名称 + x/y + 最重要触发白话；点开一行看该线推演与全部规则表）。三条主线之外的推演线从此有了线级呈现

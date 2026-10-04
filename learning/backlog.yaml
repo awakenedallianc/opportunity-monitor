@@ -3,7 +3,7 @@
 # 每期最多新增 5 条；每期只把 1 条设为 planned/building；done 的保留 90 天后移到 backlog_archive.yaml。
 # 字段：id name what why first_version seen_at[] effort(1-5) value(1-5) needs_llm risk_words(0-3) data_ok status added notes
 version: 2
-updated: '2026-09-21'
+updated: '2026-10-04'
 features:
 - id: F001
   name: 每日一条推送（ntfy 优先，Server酱/Telegram 备选）
@@ -140,9 +140,10 @@ features:
   needs_llm: false
   risk_words: 1
   data_ok: true
-  status: candidate
+  status: done
   added: '2026-09-21'
-  notes: 数据：第一、二层已有。第三层需一次性离线工作：rules.yaml 加 report_quote 字段，从 data/raw/*_text.txt 摘原文，由 LLM 车道会话一次做完，运行时不用 LLM。 ｜ 字多风险：中。必须默认折叠，原文引用 ≤3 句。
+  notes: 已实现（第 2 期）：三篇报告的 24 条 priority 1 规则在 rules.yaml 加 report_quote（逐字摘自报告，脚本校验 100% 原文子串，≤3 句）；规则抽屉「报告依据」下默认折叠的「报告原文（N 句）」。扩展线（扩展·…）的 15 条 priority 1 规则无报告原文，留给下一步从 lines.yaml 推演文案补。 ｜ 验收：打开任一 BTC 入场规则抽屉，展开「报告原文」能看到报告句子。
+  done: '2026-10-04'
 - id: F009
   name: 故事图上的事件标记
   what: 在每主线唯一那张故事图上，把「规则触发日」和「关键日子」画成小圆点，点一下显示一句话。
@@ -225,7 +226,7 @@ features:
   data_ok: true
   status: candidate
   added: '2026-09-21'
-  notes: 数据：第一版只用已有 baseline.yaml（56 条数字判断）自动比对；日期类事件需 config/claims.yaml + 人工 resolved（第二版，effort 3）。 ｜ 字多风险：低。首页只一行分数；明细用「对 / 错 / 还没到时候」三个词，不用 Brier 这类术语。
+  notes: 数据：第一版只用已有 baseline.yaml（56 条数字判断）自动比对；日期类事件需 config/claims.yaml + 人工 resolved（第二版，effort 3）。 ｜ 字多风险：低。首页只一行分数；明细用「对 / 错 / 还没到时候」三个词，不用 Brier 这类术语。 ｜ 第 2 期核实：baseline.yaml 只有报告值没有「预期方向/到期日」，须先一次性人工给每条加 expect 与 due（读报告原文），否则「方向对」无法算；呈现按 L027（分母先行、到期才判、三篇分开）。
 - id: F014
   name: 首次引导（3 步，不用 Intro.js）
   what: 第一次打开时用 3 个气泡告诉你：这行是今天结论、这三张卡是三条主线、右上角可切换简明/专业。可跳过，可在设置里重看。
@@ -322,3 +323,63 @@ features:
   status: candidate
   added: '2026-09-21'
   notes: 数据：已有约 2 年 Binance/Yahoo 价格历史（history.sqlite）。新增 scripts/backtest.py 只对 when 为纯价格 compare（px.*、dd52w.*、均线）的规则回放。 ｜ 字多风险：中。只显示一句话，仅专业模式，必须带「样本少、仅供参考」。
+- id: F020
+  name: 数据过期红字提示（站点静默过期检测）
+  what: 页面打开时用内联的构建时间和现在比，超过 14 小时首屏一行红字「数据可能已过期（上次更新 X 小时前）」，正常时不显示。
+  why: GitHub Actions 失败或限流时页面停在旧版，用户看不出来；NN/g「完整、正确、当前」是信任三件套，过期不提示比没数据更伤信任。泰国网络 + 免费运行器是最常见的失败模式。
+  first_version: app.js 读 payload.built_at 与 Date.now() 比较；>14h 在总览顶部插一行红字（≤25 字），点开说明「云端每天 06:17/18:17 曼谷更新，这次没更新成」；sw.js 离线时沿用已有提示不重复。
+  seen_at:
+  - https://www.nngroup.com/articles/communicating-trustworthiness/
+  effort: 1
+  value: 4
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: planned
+  added: '2026-10-04'
+  notes: 数据：payload 已有构建时间戳（页脚在用）。 ｜ 字多风险：无，正常时零文字。下期做。
+- id: F021
+  name: 黄金按泰铢重计价（本地避险品一个数字）
+  what: 首屏多一个数字「每泰铢重金价 ≈ X 泰铢」和与 30 天前比的 ▲▼，让金店牌价对得上。
+  why: 泰国买金按「泰铢重」（1 บาททอง = 15.244 克、96.5% 成色），报告的避险判断只给美元/盎司；站点已有 px.GOLD 与 px.USDTHB，纯算术。
+  first_version: derived.py 派生 th.gold_baht = px.GOLD × px.USDTHB × 15.244/31.1035 × 0.965；首屏状态条加一格；不抓金店牌价、不加图。
+  seen_at:
+  - https://www.goldtraders.or.th/
+  effort: 1
+  value: 3
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-10-04'
+  notes: value 来自「我猜用户会喜欢」（用户未提），guess_penalty。 ｜ 字多风险：低，一格数字。
+- id: F022
+  name: 推送与 now.html 改成财联社电报句式
+  what: 每日推送和三个数字页每条写成「HH:MM 结论句」≤55 字，新触发的重要规则前加【买入信号】或【风险】。
+  why: 财联社电报是中文用户最熟的快讯体例（时间 + 一句结论，重点加【】加粗）；现有推送模板是英文通知的译法。
+  first_version: scripts/push_text.py 与 now.html 模板改句式；标签只有两种；不改规则。
+  seen_at:
+  - https://www.cls.cn/telegraph
+  effort: 1
+  value: 3
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-10-04'
+  notes: 数据：全部已有。 ｜ 字多风险：无（减字）。
+- id: F023
+  name: 更新时间双显「曼谷（北京）」
+  what: 页脚与推送里的更新时间写成「10-04 08:00 曼谷（北京 09:00）」，关键日子标「你睡觉时发生」。
+  why: 新浪美股页并列「北京 | 美东」是中文产品惯例；用户在泰国、家人在国内，两地时间都要对得上。FOMC 决议是曼谷凌晨 01:00。
+  first_version: app.js 时间格式函数加北京时间括注；calendar 事件在 00:00–06:00 曼谷的加「夜间」小字；不改数据。
+  seen_at:
+  - https://stock.finance.sina.com.cn/usstock/quotes/AAPL.html
+  effort: 1
+  value: 3
+  needs_llm: false
+  risk_words: 0
+  data_ok: true
+  status: candidate
+  added: '2026-10-04'
+  notes: 数据：payload 已有 UTC 时间戳。 ｜ 字多风险：低，每处多 10 字。

@@ -12,6 +12,8 @@ rules:
     assets: [BTC]
     action: 深跌情景失效，加快核心建仓（BTC 入场条件 a）
     source: 六、监控指标｜宏观：BTC周线 vs 50周均线（约$81K）收于其上
+    report_quote:
+      - "作为组合压舱石，分批建仓条件是（a）周线收于50周均线（约$81K）之上确认深跌情景失效，或（b）价格进入$54K–64K实现价格区间且ETF出现连续净流入；"
     when: {type: compare, metric: crypto.btc.weekly_close, op: gt, ref_metric: crypto.btc.wma50, label: BTC周收盘, ref_label: 50周均线}
   - id: crypto.btc.entry_b_zone
     plain: 比特币跌到报告说的"便宜区"（5.4–6.4 万美元）
@@ -22,6 +24,8 @@ rules:
     assets: [BTC]
     action: 若同时出现 ETF 连续净流入 → 分批建仓（BTC 入场条件 b）；本规则仅判断价格区间
     source: 逐标的测评｜BTC 我的判断（b）
+    report_quote:
+      - "作为组合压舱石，分批建仓条件是（a）周线收于50周均线（约$81K）之上确认深跌情景失效，或（b）价格进入$54K–64K实现价格区间且ETF出现连续净流入；"
     when: {type: compare, metric: px.BTC, op: between, value: [54000, 64000], label: BTC}
   - id: crypto.btc.entry_b
     plain: 便宜区 + 资金持续流入，报告说的买入条件齐了
@@ -32,6 +36,8 @@ rules:
     assets: [BTC]
     action: 分批建仓（BTC 入场条件 b 的完整版）
     source: 逐标的测评｜BTC 我的判断（b）
+    report_quote:
+      - "作为组合压舱石，分批建仓条件是（a）周线收于50周均线（约$81K）之上确认深跌情景失效，或（b）价格进入$54K–64K实现价格区间且ETF出现连续净流入；"
     when:
       all:
         - {type: compare, metric: px.BTC, op: between, value: [54000, 64000], label: BTC}
@@ -45,6 +51,9 @@ rules:
     assets: [BTC, ALL]
     action: 降低整体加密敞口（报告：连续两月净流出 >$30 亿）
     source: 六、监控指标｜BTC ETF月度净流
+    report_quote:
+      - "失效信号 ETF连续两月净流出超$30亿且Strategy执行BTC货币化出售；"
+      - "ETF资金流是2026年最重要的边际变量：BTC现货ETF累计净流入$550亿（9月17日），2026年1–7月净流出$53亿、8月净流入$35.2亿；"
     when:
       all:
         - {type: compare, metric: etf.btc.flow_60d, op: lt, value: -3000000000, label: ETF 60日净流}
@@ -68,6 +77,9 @@ rules:
     assets: [BTC]
     action: 逼近整体失效条件 (1)：月线收盘若也低于 $53.6K 则周期深度模板恢复
     source: 六、监控指标｜BTC月线 vs 实现价格
+    report_quote:
+      - "月线跌破$53.6K实现价格；"
+      - "本轮回撤浅于历史（−54% vs −77–87%），低点守在200周均线之上；"
     when: {type: compare, metric: px.BTC, op: lt, ref_metric: crypto.btc.realized_price, label: BTC, ref_label: 实现价格}
   - id: crypto.eth.inflation
     plain: 以太坊每年多印的币超过 1%，报告说这是坏信号
@@ -107,6 +119,8 @@ rules:
     assets: [BTC, ALL]
     action: 周期深度模板恢复，暂停卫星与期权仓位；整体失效条件 (1)
     source: 六、监控指标｜BTC月线 vs 实现价格（约$53.6K）跌破
+    report_quote:
+      - "月线跌破$53.6K实现价格；"
     when: {type: compare, metric: crypto.btc.monthly_close, op: lt, value: 53600, label: BTC月收盘}
   - id: crypto.btc.below_200wma
     plain: 比特币跌破长期趋势线，"浅回撤"的说法站不住了
@@ -435,6 +449,9 @@ rules:
     assets: [BRENT, FRO, TTF]
     action: “行为型”事件信号：只做多物理中断型资产（原油、油运、LNG、化肥），避险资产反而承压
     source: 04 历史证据｜1990/2022/2026 三次供给冲击
+    report_quote:
+      - "战前 $72.48（2-27）→ $92.69（3-6，单周 +28%，1983 年来最大）→ 3-9 破 $100 → 4-30 盘中 $126 / 收盘 $118（+74%）→ 6-24 油轮恢复过境跌回 $73.74 → 7 月战事重启 → 9-18 约 $104（同比 +54%）。"
+      - "三次供给冲击对比：中断规模 vs 油价峰值涨幅 1990：$17→$46（约 +170%），冲击约 9 个月。"
     when: {type: change, metric: px.BRENT, lookback: 7, op: gt, value: 10, label: 布伦特}
   - id: war.hormuz.transits_low
     plain: 霍尔木兹海峡的船几乎断了，油和油轮的涨幅能保住
@@ -445,6 +462,9 @@ rules:
     assets: [BRENT, FRO, TTF, CF]
     action: 物理通道实质关闭：只有被切断供给的商品与运力保留涨幅；核对期现价差与 VLCC 运费
     source: 02 机制｜物理通道决定资产映射
+    report_quote:
+      - "只有物理供给被切断的商品与其运力（原油、油轮运费、LNG、尿素、铀长协）能在 3–12 个月维度保留大部分涨幅"
+      - "霍尔木兹关闭造成约 14 mb/d（全球 14%）供应中断。"
     when: {type: compare, metric: chokepoint.hormuz.ratio, op: lt, value: 0.3, label: 霍尔木兹通行量/基线}
   - id: war.hormuz.recovering
     plain: 霍尔木兹海峡恢复通航，油价和运费会掉头向下
@@ -455,6 +475,9 @@ rules:
     assets: [BRENT, FRO]
     action: 反向情景（海峡正常化）：原油↓↓、运费↓↓、黄金↑；能源多头进入"卖事实"阶段
     source: 07 推演矩阵｜反向：美伊最终协议 + 霍尔木兹正常化
+    report_quote:
+      - "6-24 油轮恢复过境跌回 $73.74 → 7 月战事重启 → 9-18 约 $104（同比 +54%）。"
+      - "反向因素是美军 7 月 29 日后受海湾国家施压主动克制、ATACMS/PrSM 库存几乎耗尽、11 月美国中期选举前的油价政治压力。"
     when: {type: compare, metric: chokepoint.hormuz.ratio, op: gt, value: 0.7, label: 霍尔木兹通行量/基线}
   - id: war.bab.transits_low
     plain: 红海出口（曼德海峡）的船流大减
@@ -475,6 +498,8 @@ rules:
     assets: [TAIEX, TSM, ZIM]
     action: 台海航运维度被低估：集装箱与东亚 LNG 航线；若与 PLA 活动激增同时出现 = 封锁/隔离前兆
     source: 02 机制｜台海的航运维度被低估
+    report_quote:
+      - "讨论集中在半导体，但台海/巴士海峡承担的是集装箱与东亚 LNG 航线——班轮公司与日韩台公用事业的敞口远大于油轮。"
     when: {type: compare, metric: chokepoint.taiwan.ratio, op: lt, value: 0.7, label: 台海通行量/基线}
   - id: war.pla.aircraft_spike
     plain: 解放军在台海周边的军机架次达到演习级别
@@ -485,6 +510,9 @@ rules:
     assets: [TAIEX, TSM, MP]
     action: 演习主题若为"封锁重点港口"则对应封锁情景；核对国防部通报与 Polymarket 赔率（2025 末演习期间曾近 30%）
     source: 03 概率｜台海：正义使命-2025 首日 130 架次
+    report_quote:
+      - "“正义使命-2025”（2025-12-29/30）首日 130 架次、27 枚火箭弹中 10 枚落入台湾邻接区、首次在台东部部署 075 两栖编队，主题即“封锁重点港口”。"
+      - "Polymarket“2026 年底前入侵”从 2025 年末“正义使命-2025”演习时近 30% 回落至 2026 年 9 月约 5%（成交 $4,200 万）；"
     when: {type: compare, metric: pla.aircraft_daily, op: gt, value: 60, label: PLA军机/日}
   - id: war.gpr.elevated
     plain: 全球地缘风险指数持续高位
@@ -505,6 +533,8 @@ rules:
     assets: [BRENT, FRO, TTF]
     action: 实物中断指标（9-15 现货 $130.8 vs 期货 $99）；期现价差收窄 = 海峡恢复的最早信号
     source: 04 历史证据｜模型系统性低估“事实关闭”时长
+    report_quote:
+      - "高盛战前基准“完全关闭一个月 +$15”被远超——模型系统性低估保险撤出、扣船与选择性放行造成的“事实关闭”时长。"
     when: {type: compare, metric: war.brent_physical_premium, op: gt, value: 15, label: 布伦特期现价差$}
   - id: war.brent.premium_collapse
     plain: 现货溢价消失，说明供应恢复了
@@ -691,6 +721,9 @@ rules:
     assets: [TAIEX, TSMC_TW, TSM, SOXX]
     action: 台海"零折价"开始被定价；核对 PLA 活动、军售、Polymarket 赔率
     source: 06 起点｜台股/台积电
+    report_quote:
+      - "台海入侵 1 年内概率极低（Polymarket 约 5%）、5 年内约 15–25%，但“封锁/隔离”类非入侵武力 5 年内 30–50% ——且它是唯一几乎完全未被市场定价的尾部风险（台股 2026 年 1 月首破 30,000 点、台积电创历史新高）。"
+      - "机构与市场对 5 年内封锁类事件的估计（专家过半认为 likely）与台股零折价之间的鸿沟，使其成为极少数“对冲便宜、尾部巨大”的组合；"
     when: {type: drawdown, metric: px.TAIEX, lookback: 130, op: lt, value: -10, label: 台股}
   - id: war.taiex.single_day
     plain: 台股单日大跌超过 3%
@@ -721,6 +754,9 @@ rules:
     assets: [TAIEX, TSM, MP]
     action: 2025 年末演习期间 Polymarket 曾冲至近 30%；对冲便宜、尾部巨大的组合
     source: 03 概率｜台海
+    report_quote:
+      - "Polymarket“2026 年底前入侵”从 2025 年末“正义使命-2025”演习时近 30% 回落至 2026 年 9 月约 5%（成交 $4,200 万）；"
+      - "台海入侵 1 年内概率极低（Polymarket 约 5%）、5 年内约 15–25%，但“封锁/隔离”类非入侵武力 5 年内 30–50% ——且它是唯一几乎完全未被市场定价的尾部风险（台股 2026 年 1 月首破 30,000 点、台积电创历史新高）。"
     when: {type: compare, metric: pm.taiwan_clash_2027, op: gt, value: 15, label: Polymarket台海}
   - id: war.pm.ukraine_ceasefire_up
     plain: 预测市场认为俄乌停火概率上升
@@ -768,6 +804,9 @@ rules:
     assets: [BRENT, FRO, TTF, CF]
     action: 先问"哪条物理通道被切断、多久"；一阶：布伦特/亚洲 LNG；二阶：VLCC 运费、战争险、化肥
     source: 02 机制｜物理通道决定资产映射
+    report_quote:
+      - "评估任何未来情景的第一问不是“谁会赢”或“多可怕”，而是“哪一条物理通道会被切断、多久”——霍尔木兹是原油与 LNG，波罗的海与黑海是谷物、钾肥与影子船队，台海是先进芯片、集装箱与东亚 LNG"
+      - "霍尔木兹战争险由船值 1–3% 升至 7.5–10%（每艘 VLCC 约 $2,100 万）；"
     when: {type: news, topic: hormuz, window: 24h, min_sources: 3}
   - id: war.news.iran
     plain: 伊朗战争/停火有重大动态
@@ -778,6 +817,8 @@ rules:
     assets: [BRENT, GOLD, ITA]
     action: 研究员推断 12 个月内再次大规模空袭 55–65%；停火日 = 油价反转日；军工脉冲不追
     source: 03 概率｜中东
+    report_quote:
+      - "研究员将“12 个月内再次大规模空袭”定在 55–65% 的理由：年内已三次停火崩溃（4 月 8 日、6 月 20 日、7 月 8 日）、零核查下任何浓缩情报都会触发以色列行动"
     when: {type: news, topic: iran_war, window: 24h, min_sources: 4}
   - id: war.news.taiwan
     plain: 台海有重大动态
@@ -788,6 +829,9 @@ rules:
     assets: [TAIEX, TSM, MP, SOXX]
     action: 唯一几乎完全未被定价的尾部；封锁类 5 年 30–50%；集装箱与东亚 LNG 维度被低估
     source: 03 概率｜台海
+    report_quote:
+      - "台海入侵 1 年内概率极低（Polymarket 约 5%）、5 年内约 15–25%，但“封锁/隔离”类非入侵武力 5 年内 30–50% ——且它是唯一几乎完全未被市场定价的尾部风险（台股 2026 年 1 月首破 30,000 点、台积电创历史新高）。"
+      - "美国情报界 2026 年度威胁评估（ODNI ATA，3 月）明确“中国领导人目前不计划在 2027 年执行对台入侵，也没有实现统一的固定时间表”，更倾向“非战争强制手段”。"
     when: {type: news, topic: taiwan, window: 24h, min_sources: 3}
   - id: war.news.russia_nato
     plain: 俄罗斯与北约东翼有摩擦
@@ -798,6 +842,9 @@ rules:
     assets: [RHM, SAAB, TTF, WHEAT]
     action: 美国情报窗口"2026 年秋起"；观察加里宁格勒戒备与波罗的海假旗事件；莱茵金属回撤 45% 后事件弹性高
     source: 03 概率｜俄–北约
+    report_quote:
+      - "俄罗斯对北约东翼的有限/混合试探 （美国情报警告窗口“最早 2026 年秋至 2029 年”，5 年内约 50–60%）"
+      - "但窗口被前移：WSJ（2026-08-06）美国情报警告俄可能“早在 2026 年秋”以大规模混合攻击或有限地面入侵试探第五条，波罗的海/波兰最可能，并可能用乌克兰制造的无人机实施假旗攻击；"
     when: {type: news, topic: russia_nato, window: 24h, min_sources: 3}
   - id: war.news.red_sea
     plain: 红海/胡塞武装有重大动态
@@ -904,6 +951,9 @@ rules:
     assets: [SOXX, NVDA, MU, SKHYNIX]
     action: 报告定义的"≥30% 回撤"情景兑现；进入"保存弹药、等清算期"纪律，不是全仓时刻
     source: 四、阶段一：2028 年底前 AI 核心资产（Mag 7 或 SOX）出现 30% 以上回撤约 55–60%
+    report_quote:
+      - "2028年底前AI核心资产（Mag 7或SOX）出现30%以上回撤：约55-60%；"
+      - "2026-28年零售准入与首次大幅回撤（我判断AI核心资产30%以上回撤的概率约55-60%），2028-31年GPU债务与数据中心过剩的清算窗口（这是历史上零售风险调整回报最好的买点）"
     when: {type: compare, metric: dd52w.SOXX, op: lt, value: -30, label: SOXX较52周高}
   - id: ai.ndx.drawdown30
     plain: 纳斯达克比高点跌了三成，报告说的大回撤来了
@@ -914,6 +964,9 @@ rules:
     assets: [NDX]
     action: 同上；互联网泡沫级（-70%）概率约 15–20%
     source: 四、阶段一
+    report_quote:
+      - "2028年底前AI核心资产（Mag 7或SOX）出现30%以上回撤：约55-60%；"
+      - "出现互联网泡沫级（-70%）回撤：约15-20%。"
     when: {type: compare, metric: dd52w.NDX, op: lt, value: -30, label: NDX较52周高}
   - id: ai.hy_spread.500
     plain: 垃圾债借钱成本飙升，AI 债务链条开始紧张
@@ -924,6 +977,9 @@ rules:
     assets: [CRWV, ORCL, WULF]
     action: 信用重新定价（Meta 债 >7% 是早期信号）；GPU 债权人（保险/养老金）首当其冲
     source: 二、融资结构尺；六、情景C
+    report_quote:
+      - "信用市场已开始重新定价：Meta的120亿美元El Paso数据中心债券投资者要求超过7%的收益率，而9个月前Hyperion项目还是“慷慨条款”；"
+      - "依据：估值与盈利预期超过2000年峰值、货币收紧（若加息报道属实）、信用重新定价（Meta债券>7%）、OpenAI 2028年740亿美元预计经营亏损、IPO供给激增。"
     when: {type: compare, metric: fred.HY_OAS, op: gt, value: 5.0, label: HY利差%}
   - id: ai.crwv.drawdown
     plain: CoreWeave 股价腰斩，AI 债务风险的前兆
@@ -1001,6 +1057,10 @@ rules:
     priority: 1
     action: 零售准入时刻；不建议开盘追高，等锁定期与首次回撤；Bloomberg：能否避免 SpaceX 式 -50% 是关键
     source: 二、货币与 IPO 尺；六、情景C
+    report_quote:
+      - "Anthropic于2026年内完成IPO：约70%；"
+      - "触发点可能是Anthropic或OpenAI IPO后重演SpaceX的-50%（Bloomberg已把“Anthropic IPO避免SpaceX式下滑”列为美国投行盈利的关键 ( Bloomberg )），或者某家超大规模云商下调资本开支指引。"
+      - "Figma -81%、SpaceX -50%、1999年IPO中位数负回报 不建议开盘追高；"
     when: {type: news, topic: anthropic_ipo, window: 24h, min_sources: 3}
   - id: ai.news.openai_ipo
     plain: OpenAI 上市有新消息
@@ -1020,6 +1080,9 @@ rules:
     assets: [NVDA, GEV, VRT, CRWV]
     action: 情景 C 的触发点之一（某家超大规模云商下调资本开支指引）；交期骤缩 → 高价锁槽方承担存货损失
     source: 六、情景C；对读者最具体的风险
+    report_quote:
+      - "触发点可能是Anthropic或OpenAI IPO后重演SpaceX的-50%（Bloomberg已把“Anthropic IPO避免SpaceX式下滑”列为美国投行盈利的关键 ( Bloomberg )），或者某家超大规模云商下调资本开支指引。"
+      - "若2027-28年美国需求因资本开支削减回落，交期可能骤然缩短，提前囤货或以高价锁槽的一方将承担存货损失。"
     when: {type: news, topic: capex_cut, window: 48h, min_sources: 2}
   - id: ai.news.ai_debt
     plain: AI 借债/数据中心债券有新消息
@@ -1039,6 +1102,9 @@ rules:
     priority: 1
     action: 读者主场：EEC 交付点（Rayong 2 / Phanthong / Pluak Daeng / Sattahip）与用户侧 115 kV 变电站；核对 BOI 批复、EGAT 投运、PDP 采信量
     source: 三、3.9 泰国与东南亚；五、路径矩阵
+    report_quote:
+      - "在泰国， 电网接入本身是数据中心竞争中最稀缺的资源"
+      - "依据：EGAT已公布投运日期并部分完成（Rayong 2、Phanthong），350亿泰铢升级已列入能源部计划，BOI已批准的项目需要接入。"
     when: {type: news, topic: thailand_dc, window: 48h, min_sources: 1}
   - id: ai.news.power_grid
     plain: 变压器/燃气轮机/电网有新消息

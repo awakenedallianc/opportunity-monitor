@@ -495,3 +495,5 @@ details.catch summary{list-style:none;cursor:pointer}details.catch summary::-web
 .chip.asset[data-metric]:hover{border-color:var(--accent);color:var(--accent)}
 /* 手机：提示锚定到整行宽度，不出屏幕；? 的触区放大 */
 @media (max-width:639px){.help{position:static;width:28px;height:28px}.vcard .vh,.s-h{position:relative}.help::after{left:0;right:0;width:auto;top:100%}}
+/* F008 报告原文（第 2 期） */
+.drawer details.rq{margin-top:8px}.drawer details.rq summary{cursor:pointer;font:600 13px/20px var(--font-sans);color:var(--muted)}.drawer details.rq blockquote{margin:6px 0 0;padding:4px 10px;border-left:3px solid var(--border-hair);font-size:13px;line-height:20px}

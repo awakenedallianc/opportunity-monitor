@@ -194,6 +194,7 @@ def evaluate_rules(rules: list[dict], ctx: RuleContext) -> list[dict]:
             "why": why,
             "priority": int(r.get("priority", 3)),
             "plain": r.get("plain"),            # 白话解释（简明模式）
+            "report_quote": r.get("report_quote") or None,  # 报告原文（仅展示，F008）
             "when": r.get("when"),              # 原始条件（仅供前端展示阈值/画条，不参与评估）
             "metric_keys": _metric_keys(r.get("when")),
         })
