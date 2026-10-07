@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-06T17:11:15.284855+00:00",
+ "generated_at": "2026-10-07T02:22:21.537464+00:00",
  "sources": 65,
  "ok": 56,
- "new_items": 112,
- "duration_s": 17.3,
+ "new_items": 47,
+ "duration_s": 16.6,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 18,
-   "last_item": "2026-10-06",
+   "new": 15,
+   "last_item": "2026-10-07",
    "error": null
   },
   {
@@ -37,8 +37,8 @@
    "feed_url": "https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml",
    "ok": true,
    "items": 15,
-   "new": 0,
-   "last_item": "2026-10-02",
+   "new": 1,
+   "last_item": "2026-10-06",
    "error": null
   },
   {
@@ -46,7 +46,7 @@
    "feed_url": "https://www.bis.org/doclist/wppubls.rss",
    "ok": true,
    "items": 25,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -64,7 +64,7 @@
    "feed_url": "https://www.bensbites.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -91,7 +91,7 @@
    "feed_url": "https://tim-hilde.github.io/anthropic-rss/rss.xml",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-05",
    "error": null
   },
@@ -100,7 +100,7 @@
    "feed_url": "https://www.datawrapper.de/blog/feed/",
    "ok": true,
    "items": 1078,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -127,7 +127,7 @@
    "feed_url": "https://www.ft.com/rss/alphaville",
    "ok": true,
    "items": 25,
-   "new": 3,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -181,7 +181,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 12,
+   "new": 5,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -190,8 +190,8 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
-   "last_item": "2026-10-06",
+   "new": 2,
+   "last_item": "2026-10-07",
    "error": null
   },
   {
@@ -208,7 +208,7 @@
    "feed_url": "https://www.latent.space/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -226,7 +226,7 @@
    "feed_url": "https://libertystreeteconomics.newyorkfed.org/feed/",
    "ok": true,
    "items": 100,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -244,7 +244,7 @@
    "feed_url": "https://nightingaledvs.com/feed/",
    "ok": true,
    "items": 12,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -261,8 +261,8 @@
    "name": "OpenAI News",
    "feed_url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1248,
-   "new": 1,
+   "items": 1251,
+   "new": 3,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -289,7 +289,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 40,
+   "new": 0,
    "last_item": "2026-10-05",
    "error": null
   },
@@ -298,7 +298,7 @@
    "feed_url": "https://www.producttalk.org/feed/",
    "ok": true,
    "items": 15,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -307,7 +307,7 @@
    "feed_url": "http://feeds.feedburner.com/Quantocracy",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -325,8 +325,8 @@
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
-   "new": 1,
-   "last_item": "2026-10-06",
+   "new": 9,
+   "last_item": "2026-10-07",
    "error": null
   },
   {
@@ -334,7 +334,7 @@
    "feed_url": "https://www.smashingmagazine.com/feed/",
    "ok": true,
    "items": 40,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -352,7 +352,7 @@
    "feed_url": "https://stratechery.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -388,7 +388,7 @@
    "feed_url": "https://newsletter.pragmaticengineer.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -424,7 +424,7 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -433,16 +433,16 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-10-05",
+   "new": 3,
+   "last_item": "2026-10-06",
    "error": null
   },
   {
    "name": "Vercel News",
    "feed_url": "https://vercel.com/atom",
    "ok": true,
-   "items": 1633,
-   "new": 2,
+   "items": 1634,
+   "new": 1,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -451,7 +451,7 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 3,
+   "new": 1,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -469,8 +469,8 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 13,
-   "last_item": "2026-10-06",
+   "new": 5,
+   "last_item": "2026-10-07",
    "error": null
   },
   {
@@ -478,7 +478,7 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
@@ -487,8 +487,8 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 0,
-   "last_item": "2026-10-06",
+   "new": 1,
+   "last_item": "2026-10-07",
    "error": null
   },
   {
@@ -505,7 +505,7 @@
    "feed_url": "https://www.qbitai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 3,
+   "new": 0,
    "last_item": "2026-10-06",
    "error": null
   },
