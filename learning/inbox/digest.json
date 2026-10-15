@@ -1,9 +1,441 @@
 {
- "generated_at": "2026-10-14T15:49:54.905612+00:00",
+ "generated_at": "2026-10-15T01:27:28.592247+00:00",
  "window_days": 14,
- "total": 2215,
+ "total": 2059,
  "groups": {
   "china": [
+   {
+    "id": "9f1d00320ce2ceb8",
+    "date": "2026-10-15",
+    "published": "2026-10-15T09:15:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "Atlassian 围绕 OpenTelemetry 构建了大规模的指标管道",
+    "link": "https://www.infoq.cn/article/Z1dzWgsvtLgDhqMjkRAv?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.544708+00:00"
+   },
+   {
+    "id": "14170d29b0fb0f7f",
+    "date": "2026-10-15",
+    "published": "2026-10-15T01:23:18+00:00",
+    "source": "36氪",
+    "title": "恒指开盘跌0.8%，恒生科技指数跌2.21%",
+    "link": "https://36kr.com/newsflashes/4026456444571784?f=rss",
+    "summary": "36氪获悉，恒指开盘跌0.8%，恒生科技指数跌2.21%；电气设备、半导体板块跌幅居前，天数智芯跌超9%，宁德时代跌超6%；医疗、煤炭板块领涨，天星医疗涨超3%，农业银行涨超1%；新股传音控股跌0.96%。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145289+00:00"
+   },
+   {
+    "id": "ef224306b5865596",
+    "date": "2026-10-15",
+    "published": "2026-10-15T01:19:24+00:00",
+    "source": "36氪",
+    "title": "人民币兑美元中间价报6.7253",
+    "link": "https://36kr.com/newsflashes/4026452619038849?f=rss",
+    "summary": "36氪获悉，人民币兑美元中间价报6.7253，下调4点。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145292+00:00"
+   },
+   {
+    "id": "03284af63def9693",
+    "date": "2026-10-15",
+    "published": "2026-10-15T01:17:03+00:00",
+    "source": "36氪",
+    "title": "DeepSeek崩了",
+    "link": "https://36kr.com/newsflashes/4026450307453056?f=rss",
+    "summary": "36氪获悉，10月15日，北京时间早上8点后，DeepSeek网页和App显示“服务器暂时不可用”。 DeepSeek官方信息显示对话服务部分中断、DeepSeekV4.1 FlashAPI服务部分中断，网页/API性能下降，官方正在排查问题、定位原因。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145294+00:00"
+   },
+   {
+    "id": "4f6340cde13e1329",
+    "date": "2026-10-15",
+    "published": "2026-10-15T01:12:05+00:00",
+    "source": "36氪",
+    "title": "​现货白银、现货黄金均涨超1%",
+    "link": "https://36kr.com/newsflashes/4026445427314818?f=rss",
+    "summary": "36氪获悉，现货白银涨超1%，现报56.31美元/盎司。现货黄金站上4150美元/盎司，现涨1.1%。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145296+00:00"
+   },
+   {
+    "id": "71358bb452984e23",
+    "date": "2026-10-15",
+    "published": "2026-10-15T01:00:00+00:00",
+    "source": "36氪",
+    "title": "“NEXFORM新元体”完成数千万元种子轮融资",
+    "link": "https://36kr.com/newsflashes/4025635149942659?f=rss",
+    "summary": "近日，“NEXFORM新元体”正式宣布完成数千万元种子轮融资，投资方包括戈壁创投、浙大友创等。据了解，NEXFORM新元体是一家Physical AGI公司，围绕“通用硬件平台＋开发者生态＋物理智能体（Physical Agent）”展开布局，以AI for Physical AI为研发范式，通过AI Agentic开展Auto Research，以Physical RSI为技术路线，推动机器人实现自我进化。公司提供通用机器人产品与开发工具，支持开发者开发面向不同场景的物理智能体，为客户交付作业能力，并持续扩展机器人的应用范围。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ai-product",
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145300+00:00"
+   },
+   {
+    "id": "cd39c1f27c95ba2e",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:58:00+00:00",
+    "source": "36氪",
+    "title": "中金：预计美联储10月仍可能暂停加息，12月再度行动",
+    "link": "https://36kr.com/newsflashes/4026431575068806?f=rss",
+    "summary": "36氪获悉，中金公司研报称，美国9月CPI季调环比上涨0.6%，同比上涨3.7%；核心CPI环比上涨0.3%，同比上涨2.6%，均较上月反弹，且超出市场预期。涨价来源较广，能源、核心商品及房租均形成推动。油价高企加剧能源通胀，消费韧性与AI投资需求支撑商品价格，租金粘性则制约服务通胀回落。货币政策方面，通胀反弹强化了美联储继续加息的必要性，但由于近期美债收益率上行、美元走强，金融条件已部分收紧，美联储或保持耐心。中金预计10月仍可能暂停加息，12月再度行动。不过，加息节奏放缓并不意味着货币政策转向宽松，未来一年，美联储或仍将维持偏紧的政策立场。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145308+00:00"
+   },
+   {
+    "id": "0d17a1aa786c54d3",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:52:42+00:00",
+    "source": "36氪",
+    "title": "韩国KOSPI指数跌幅扩大至7%",
+    "link": "https://36kr.com/newsflashes/4026426371346560?f=rss",
+    "summary": "36氪获悉，韩国KOSPI指数跌幅扩大至7%，SK海力士跌超10%，三星电子跌近8%。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145313+00:00"
+   },
+   {
+    "id": "28fb092e8d972e27",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:52:02+00:00",
+    "source": "36氪",
+    "title": "金融总量合理增长，多元融资结构不断优化",
+    "link": "https://36kr.com/newsflashes/4026417894084740?f=rss",
+    "summary": "中国人民银行10月14日发布数据显示，9月末，广义货币(M2)余额359.63万亿元，同比增长7.2%；社会融资规模存量468.17万亿元，同比增长7.1%，与经济增长、价格总水平的预期目标相匹配。专家表示，金融总量合理增长，为前三季度经济平稳运行、向新向优营造了适宜的货币金融环境。在社融增量结构中，债券、股票融资占比持续上升，融资渠道多元化特征更加鲜明。下一阶段，随着货币政策存量与增量措施的集成效应进一步显现，金融体系将继续保持对实体经济高质量发展的有力支持。（中证报）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145318+00:00"
+   },
+   {
+    "id": "f8c0b9dc6546af10",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:51:49+00:00",
+    "source": "36氪",
+    "title": "AI硬件需求持续兑现，多家算力上市公司三季报预喜",
+    "link": "https://36kr.com/newsflashes/4026414240600198?f=rss",
+    "summary": "随着AI（人工智能）大模型规模化落地、算力基础设施建设持续推进，2026年国内算力产业需求持续旺盛，产业链各环节订单加速释放。近期，多家算力相关上市公司披露前三季度业绩预告。从已披露预告的上市公司来看，AI服务器、高速测试设备、散热配套等硬件环节订单持续落地，多家公司业绩预计实现大幅预增。（证券日报）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145322+00:00"
+   },
+   {
+    "id": "463f8dd8af7f7888",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:51:40+00:00",
+    "source": "36氪",
+    "title": "两市融资余额减少106.38亿元",
+    "link": "https://36kr.com/newsflashes/4026425344921728?f=rss",
+    "summary": "36氪获悉，截至10月14日，上交所融资余额报12800.77亿元，较前一交易日减少59.88亿元；深交所融资余额报12174.08亿元，较前一交易日减少46.5亿元；两市合计24974.85亿元，较前一交易日减少106.38亿元。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145326+00:00"
+   },
+   {
+    "id": "57d7784f9b051243",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:50:24+00:00",
+    "source": "36氪",
+    "title": "“MIRAVA”完成近5000万元天使轮融资",
+    "link": "https://36kr.com/newsflashes/4026415302135684?f=rss",
+    "summary": "36氪获悉，水面智能消费硬件品牌智能电动游艇公司“MIRAVA”近日完成近5000万元天使轮融资，本轮由九合创投领投，初心资本、Eversnow跟投。资金将重点投入核心技术研发迭代，推进产线量产建设、以保障首批终端用户订单交付，并搭建欧洲本地化渠道及服务体系，加快海外市场适配与商业化拓展。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145330+00:00"
+   },
+   {
+    "id": "864c2d5befc0f0a0",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:47:38+00:00",
+    "source": "36氪",
+    "title": "中信证券：建议重点关注具备全球竞争力的中国家电龙头",
+    "link": "https://36kr.com/newsflashes/4026414550192000?f=rss",
+    "summary": "36氪获悉，中信证券研报称，贸易壁垒、成本优势与本地需求共同推动白电龙头加快东南亚建厂，中国家电龙头海外经营由产品出口转向产能、研发、品牌和渠道协同布局。面对约3万亿元的全球家电市场，中国企业凭借供应链效率、产品迭代及本土化能力，有望持续抢占日韩及欧美品牌份额，推动海外收入与盈利中枢稳步提升。建议重点关注具备全球竞争力的中国家电龙头。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145335+00:00"
+   },
+   {
+    "id": "08675129ccbf9cf5",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:44:41+00:00",
+    "source": "36氪",
+    "title": "韩国尚未决定11至12月是否进一步缩减韩国国债发行量",
+    "link": "https://36kr.com/newsflashes/4026418493198216?f=rss",
+    "summary": "韩国财政部表示，尚未决定是否利用今年的超收税收，在11月和12月进一步缩减国债发行，也未确定相关缩减规模。此前，韩国News1新闻报道称，韩国正考虑利用税收超收，在11、12月合计最多削减10万亿韩元国债发行。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145339+00:00"
+   },
+   {
+    "id": "3e3fc5f1a5980d43",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:43:09+00:00",
+    "source": "36氪",
+    "title": "中信证券：深度受益于载板化升级趋势，国产ABF载板蓄势待发",
+    "link": "https://36kr.com/newsflashes/4026408171835265?f=rss",
+    "summary": "36氪获悉，中信证券研报称，ABF封装基板作为受益于AI成长逻辑最持续的PCB产业环节之一，深度受益于PCB载板化的升级趋势，有望迎来市场空间和利润的快速爆发。中信证券判断行业的产能缺口在短期内或将持续扩大，行业涨价有望持续，此外分别从国产板厂及国产客户的视角切入研究，判断当前已成为国产ABF载板全面起量的关键节点，看好国产厂商ABF载板业务未来的业绩弹性。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145342+00:00"
+   },
+   {
+    "id": "5296cfb8883e1b41",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:41:39+00:00",
+    "source": "36氪",
+    "title": "中信证券：电价周期拐点来临，核电重拾弹性",
+    "link": "https://36kr.com/newsflashes/4026407691178116?f=rss",
+    "summary": "36氪获悉，中信证券研报称，沿海供需改善，预计核电即将走出2024—2026年的电价下行周期，预计2027年中国核电、中国广核销售电价同比上涨5%、4%；核电在建机组投产周期启动，量价齐升助力核电公司业绩进入新一轮释放周期；上调中国核电及中国广核业绩预测，且当前市场尚未完全计入电价上涨对核电公司的业绩催化，板块估值仍具备较强安全边际。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "forecasting"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145346+00:00"
+   },
+   {
+    "id": "d3d4497d784edd71",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:39:21+00:00",
+    "source": "36氪",
+    "title": "北交所做市商持续扩容，年内5家券商获批入场",
+    "link": "https://36kr.com/newsflashes/4026407396905090?f=rss",
+    "summary": "做市商制度是为市场提供流动性、促进市场价格发现的重要机制。近日，山西证券获批北交所股票做市业务资格。今年以来，已有5家券商拿到北交所做市赛道“入场券”，全行业拥有这一业务资格的券商达28家。（证券日报）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145371+00:00"
+   },
+   {
+    "id": "351c2c63c95db87b",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:39:00+00:00",
+    "source": "36氪",
+    "title": "湾芯展一线观察：千余家企业齐聚，在手订单充足",
+    "link": "https://36kr.com/newsflashes/4026402875756422?f=rss",
+    "summary": "10月14日，2026湾区半导体产业生态博览会（简称“湾芯展”）在深圳开幕。本届湾芯展汇聚1000余家优质企业，覆盖晶圆制造、化合物半导体、先进封装、IC设计/AI基础设施等细分领域。多家参展企业表示，目前半导体市场需求旺盛，在手订单充足。（中证报）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145377+00:00"
+   },
+   {
+    "id": "c2ce5fdde8484ea9",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:36:27+00:00",
+    "source": "36氪",
+    "title": "深化期现融合与跨境协同，共筑油脂油料产业新生态",
+    "link": "https://36kr.com/newsflashes/4026404541157505?f=rss",
+    "summary": "近年来，全球油脂油料市场供需格局深刻调整，大豆、棕榈油等主要品种价格波动风险加大，产业链上下游企业经营面临更多不确定性。10月14日，在��19届国际油脂油料大会暨农畜产业（衍生品）大会油脂油料论坛上，与会人士表示，面对复杂多变的市场环境，应进一步发挥期货市场价格发现和风险管理功能，推动期货工具与企业采购、加工、贸易等经营环节深度融合，持续丰富风险管理工具、完善产业服务体系、深化境内外市场协同合作，以期现融合和跨境联动提升产业链供应链韧性，助力油脂油料产业高质量发展。（中证报）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145381+00:00"
+   },
+   {
+    "id": "fc6d2524de1e5a8e",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:29:50+00:00",
+    "source": "36氪",
+    "title": "中信建投：AI4S迈向产业化临界点",
+    "link": "https://36kr.com/newsflashes/4026392146317193?f=rss",
+    "summary": "36氪获悉，中信建投证券研报称，当前，AI制药产业链已经演化为以平台和技术中台为核心，上中下游深度协同的网状赋能体系，并呈现出多种商业模式兼容并进的发展趋势。AI4S正由模型能力竞赛迈向产业化临界点，技术、产业、需求、政策四重共振，价值锚点由模型能力向科研生产力、数据资产与系统化生物设计升维。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145385+00:00"
+   },
+   {
+    "id": "dc10f2876bb8e01a",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:29:39+00:00",
+    "source": "36氪",
+    "title": "争夺终端定义权，智能体手机行业迎来新博弈",
+    "link": "https://36kr.com/newsflashes/4026388210716546?f=rss",
+    "summary": "近期，随着努比亚、阶跃终端相继发布或迭代智能体手机，该赛道步入加速落地阶段。手机端侧AI备案加速扩容、相关新品密集登场，AI正试图改写智能手机的交互逻辑，一场关于终端定义权的行业博弈悄然开启。与此同时，跨应用执行、数据安全、生态协同、成本管控等多重挑战亟待行业破解，智能体手机能否扛起新一轮换机周期的大旗，仍待市场给出答案。（上证报）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145390+00:00"
+   },
+   {
+    "id": "304a8cd31df51055",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:29:12+00:00",
+    "source": "极客公园",
+    "title": "腾讯上线「绿泡泡」短剧，主打免费好看；特斯拉 Roadster 跑车明日发布；豆包工作支持一键导入 GPT、Claude 对话 | 极客早知道",
+    "link": "http://www.geekpark.net/news/372366",
+    "summary": "155 款应用拒绝豆包助手 AI 自动化操作 10 月 14 日，豆包手机助手《屏幕自动化操作声明协议》（SAEP）30 天公示期结束，官方公布名单显示，已有 155 款第三方应用拒绝 AI 自动化操作，腾讯、阿里、美团、快手旗下多款产品，连同 Kimi、DeepSeek 等 AI 产品均在名单内，堪称互联网头部厂商的集体表态。 SAEP 协议核心是将 AI 屏幕自动操作的选择权交还应用开发者，开发者可自主决定是否允许豆包助手执行屏幕识别、模拟点击等操作。公示期内应用默认不开放权限；公示结束后，未明确拒绝的应用将按风险分级逐步开放，拒绝方后续也可随时调整声明。该自动化权限仅影响 AI 代操作，",
+    "topics": [
+     "china",
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:16.148798+00:00"
+   },
+   {
+    "id": "e4cff63da03fc9b5",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:13:46+00:00",
+    "source": "36氪",
+    "title": "8点1氪丨微信、淘宝、美团等应用，拒绝接入豆包手机助手；苹果成为全球第二家市值破5万亿美元企业；美国9月CPI同比增长3.7%，高于预期",
+    "link": "https://36kr.com/p/4026385299165321?f=rss",
+    "summary": "今日热点导览 绿泡泡短剧可查看朋友在看剧目 A股三大指数集体收跌，全市场近4500股下跌 OpenAI办公室发现隐藏录音设备，涉事员工被捕 德国拟2027年开征含糖饮料税 华尔街大空头警示美股：现40年未见极端市场失衡 TOP3大新闻 微信、淘宝、美团等151款应用拒绝豆包手机助手GUI自动化操作 10月14日，豆包手机助手SAEP协议公示期结束，共有151款应用声明拒绝其GUI屏幕自动化操作，微信、淘宝、美团、快手、DeepSeek等高频App在列。拒绝仅代表禁止AI自动点击代操作，App仍可正常手动安装使用。其中腾讯系65款、阿里系23款应用上榜，覆盖社交、电商、办公等核心场景。SAEP协",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:14.145280+00:00"
+   },
+   {
+    "id": "dc25217a01bde3c2",
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:13:28+00:00",
+    "source": "爱范儿",
+    "title": "早报｜iPhone Duo完成大模型备案，有望12月上线/企业微信与WorkBuddy打通/OPPO与Manus官宣合作",
+    "link": "https://www.ifanr.com/1684374?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "summary": "· 苹果公布 HomeView 维修费：保修外服务预估 279 美元 · ASML 第三季度营收 116.62 亿欧元，计划扩产应对 AI 需求 · 9 月消费电子价格普涨，存储设备同比上涨 46.7% #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-15T01:27:15.843393+00:00"
+   },
    {
     "id": "7d1727f1595f33d3",
     "date": "2026-10-14",
@@ -288,438 +720,2146 @@
     "tags": [],
     "lang": "zh",
     "first_seen": "2026-10-14T15:49:40.391772+00:00"
-   },
+   }
+  ],
+  "ux": [
    {
-    "id": "09a1cde884f94a12",
+    "id": "3203e6e3fab351d2",
     "date": "2026-10-14",
-    "published": "2026-10-14T12:20:17+00:00",
-    "source": "36氪",
-    "title": "一箭十星，朱雀二号改进型遥四运载火箭发射成功",
-    "link": "https://36kr.com/newsflashes/4025686711488647?f=rss",
-    "summary": "10月14日19时40分，朱雀二号改进型遥四运载火箭在东风商业航天创新试验区发射升空，将搭载的国星宇航星时代-39、44～50星，光传-03、04星共10颗卫星顺利送入预定轨道，飞行试验任务取得圆满成功。（央视新闻）",
+    "published": "2026-10-14T22:09:56+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Nobody wants your AI app",
+    "link": "https://uxdesign.cc/nobody-wants-your-ai-app-cff8629064a4?source=rss----138adf9c44c---4",
+    "summary": "The switchboard operator’s job was automated out of existence. The work it became, the invisible systems that now connect every call, is worth more than the job ever was. AI is about to do the same thing to the app. The people buying AI are blunt about the fact that the future is intelligence that d",
     "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.391775+00:00"
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:24.187643+00:00"
    },
    {
-    "id": "685608669c8c90cc",
+    "id": "eb0ffbf5c19bb2e2",
     "date": "2026-10-14",
-    "published": "2026-10-14T12:18:53+00:00",
-    "source": "36氪",
-    "title": "美银因监管处罚计提12亿美元费用",
-    "link": "https://36kr.com/newsflashes/4025670681284739?f=rss",
-    "summary": "美国银行周三在公告中宣布计提12亿美元不可抵税费用，令净利润每股减少17美分。该费用与美国财政部周二公布的反洗钱和制裁违规罚款有关。财政部称，美国银行为保护收入，实际上将合规工作中的一个关键环节“外包”出去。美国银行表示，整改相关问题的成本已计入费用。（财联社）",
+    "published": "2026-10-14T22:09:29+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "What I told the CFO when he asked why design matters",
+    "link": "https://uxdesign.cc/what-i-told-the-cfo-when-he-asked-why-design-matters-ceadb07c929e?source=rss----138adf9c44c---4",
+    "summary": "How to sell design and show the impact of design outcomes to business and finance leaders. Many years ago a business unit CFO told me: “I don’t need another presentation explaining why design is important. I need to know whether investing another million dollars in design will outperform investing i",
     "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.391779+00:00"
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:24.187650+00:00"
    },
    {
-    "id": "f445caea17a8805f",
+    "id": "f2ac10ab8859a6aa",
     "date": "2026-10-14",
-    "published": "2026-10-14T12:13:35+00:00",
-    "source": "36氪",
-    "title": "盛视科技：人形机器人业务正在有序推进中 上半年营收占比不超2%",
-    "link": "https://36kr.com/newsflashes/4025668399861897?f=rss",
-    "summary": "36氪获悉，盛视科技发布股票交易异常波动公告，关于市场关注的智算业务，智算业务为公司新开展的业务，智算业务的推进受行业政策、市场环境、技术进步、客户经营情况等因素影响，能否持续保持高速增长存在不确定性；关于市场关注的人形机器人业务，公司人形机器人业务正在有序推进中，2026年上半年，人形机器人的营业收入占公司营业收入的比例不超过2%，对公司经营业绩不构成重大影响。",
+    "published": "2026-10-14T08:53:49+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "How getting good at your job can stop you getting better",
+    "link": "https://uxdesign.cc/how-getting-good-at-your-job-can-stop-you-getting-better-023b6e7637ec?source=rss----138adf9c44c---4",
+    "summary": "Many experienced people plateau out of sight. Whether they keep growing depends partly on the problems they’re given to tackle. Continue reading on UX Collective »",
     "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.391783+00:00"
-   },
-   {
-    "id": "31b51e56563ecddd",
-    "date": "2026-10-14",
-    "published": "2026-10-14T12:09:57+00:00",
-    "source": "36氪",
-    "title": "荣盛石化：预计2026年前三季度净利润同比增长778%-823%",
-    "link": "https://36kr.com/newsflashes/4025676554358916?f=rss",
-    "summary": "36氪获悉，荣盛石化公告，预计2026年前三季度归属于上市公司股东的净利润为78.00亿元-82.00亿元，同比增长777.93%-822.95%。业绩变动主要系报告期内石油化工行业景气度回升，海外成品油市场行情向好，公司动态优化产销策略，主要产品加工价差明显修复，产品毛利水平得到改善。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth",
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.391786+00:00"
-   },
-   {
-    "id": "f02323a238b6fc67",
-    "date": "2026-10-14",
-    "published": "2026-10-14T12:09:02+00:00",
-    "source": "36氪",
-    "title": "东诚药业：拟不超11.21亿元回购控股子公司蓝纳成少数股东股权",
-    "link": "https://36kr.com/newsflashes/4025667877687427?f=rss",
-    "summary": "36氪获悉，东诚药业公告，公司拟以不超过11.21亿元回购控股子公司蓝纳成少数股东持有的34.9232%股份。回购后，公司持股比例由43.9502%增至78.8734%。本次交易构成关联交易，不构成重大资产重组，尚需提交股东会审议。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.391788+00:00"
-   },
-   {
-    "id": "235f7e5fc98d1ddc",
-    "date": "2026-10-14",
-    "published": "2026-10-14T11:59:24+00:00",
-    "source": "36氪",
-    "title": "迈为股份：拟1亿元参与认购广州众行励芯创业投资基金",
-    "link": "https://36kr.com/newsflashes/4025647578910597?f=rss",
-    "summary": "36氪获悉，迈为股份公告，公司拟作为有限合伙人以自有资金认缴出资1亿元，与关联方周剑及其他合伙人共同认购广州众行励芯创业投资基金合伙企业（有限合伙）基金份额。该基金认缴规模8.8亿元，主要投资于新一代电子信息技术、集成电路、新能源及储能等硬科技领域。本次投资构成与关联方共同投资，关联董事已回避表决。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.391792+00:00"
-   },
-   {
-    "id": "2a9c6c5a31a63519",
-    "date": "2026-10-14",
-    "published": "2026-10-14T11:54:57+00:00",
-    "source": "36氪",
-    "title": "申昊科技：申昊智算成为A公司算力服务供应商并提供集群算力服务",
-    "link": "https://36kr.com/newsflashes/4025646154633090?f=rss",
-    "summary": "36氪获悉，申昊科技公告，全资子公司杭州申昊智算科技有限公司于近日收到A公司出具的合作意向确认邮件。该客户通知申昊智算为其算力服务供应商并提供集群算力服务。根据双方约定，服务周期锁定为5年，预计服务费用总计约3.33亿元。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "notification"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.391795+00:00"
-   },
-   {
-    "id": "05f6ead6ef999af0",
-    "date": "2026-10-14",
-    "published": "2026-10-14T11:49:54+00:00",
-    "source": "36氪",
-    "title": "德福科技：预计2026年前三季度净利润同比增长561%-621%",
-    "link": "https://36kr.com/newsflashes/4025640210599817?f=rss",
-    "summary": "36氪获悉，德福科技公告，预计2026年前三季度归属于上市公司股东的净利润为4.40亿元-4.80亿元，同比增长560.72%-620.78%。业绩变动主要系公司持续推进产品迭代升级，高附加值产品出货占比提升，产品结构优化带动平均加工费提高，同时产销规模扩大，产能利用率大幅提升，规模化效应降低成本。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.391798+00:00"
-   },
-   {
-    "id": "fb059e9b85b922f4",
-    "date": "2026-10-14",
-    "published": "2026-10-14T11:46:46+00:00",
-    "source": "InfoQ 中文",
-    "title": "Claude写代码太快，Git扛不住了：Anthropic仅靠7人，5个月重造版本控制系统",
-    "link": "https://www.infoq.cn/article/6iRATYfkqF7aITPaFR2R?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.488417+00:00"
-   },
-   {
-    "id": "aa43177ad076797c",
-    "date": "2026-10-14",
-    "published": "2026-10-14T11:43:09+00:00",
-    "source": "36氪",
-    "title": "摩根士丹利三季度营收203亿美元，同比增长12%",
-    "link": "https://36kr.com/newsflashes/4025644461592452?f=rss",
-    "summary": "摩根士丹利公布2026年第三季度业绩，净营收203.38亿美元，同比增长12%；归属于摩根士丹利的净利润为49.09亿美元，同比增长6%；摊薄后每股收益3.03美元，上年同期为2.80美元。公司第三季度有形普通股股本回报率（ROTCE）为22.6%。截至第三季度末，财富管理与投资管理业务客户资产总规模达到10.5万亿美元。公司当季回购普通股约15.4亿美元，并宣布每股派发季度股息1.15美元，计划于11月13日支付。（财联社）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth",
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.391801+00:00"
-   },
-   {
-    "id": "da5cceef2eff09b5",
-    "date": "2026-10-14",
-    "published": "2026-10-14T11:39:53+00:00",
-    "source": "36氪",
-    "title": "欧普康视：控股子公司旗下星程眼科拟1.2亿元受让恒熠医疗100%股权",
-    "link": "https://36kr.com/newsflashes/4025636267085961?f=rss",
-    "summary": "36氪获悉，欧普康视发布公告，控股子公司宿迁市尚悦启程医院管理有限公司的全资子公司昆明星程眼科医院有限责任公司与宫经兰、蒋心景、刘录、杨立翠在安徽省合肥市签订了《昆明星程眼科医院有限责任公司与宫经兰、蒋心景、刘录、杨立翠关于宿迁恒熠医疗服务有限公司之投资合作协议》，星程眼科以自有资金1.2亿元，通过受让股权的方式投资于宿迁恒熠医疗服务有限公司。本次投资完成后，星程眼科将持有恒熠医疗100%的股权。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.391804+00:00"
-   },
-   {
-    "id": "16fc7d6c3eb797c8",
-    "date": "2026-10-14",
-    "published": "2026-10-14T11:35:29+00:00",
-    "source": "36氪",
-    "title": "2025年欧盟生产的汽车中近四成为电动及混合动力车型",
-    "link": "https://36kr.com/newsflashes/4025626873171841?f=rss",
-    "summary": "欧盟统计局最新数据显示，2025年欧盟共生产约1260万辆乘用车，其中电动及混合动力汽车约480万辆，占总产量近四成，较上年增加约90万辆。数据显示，2025年纯电动汽车占欧盟汽车总产量的17%，插电式混合动力汽车占7%，非插电式混合动力汽车占14%。（新华财经）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.391809+00:00"
-   },
-   {
-    "id": "52067d0bdde34b26",
-    "date": "2026-10-14",
-    "published": "2026-10-14T11:29:09+00:00",
-    "source": "36氪",
-    "title": "国庆假期后股基ETF净流入超570亿元",
-    "link": "https://36kr.com/newsflashes/4025629675851907?f=rss",
-    "summary": "资金持续借道股票型ETF入市。自国庆假期后首个交易日（10月8日）以来，股票型ETF净流入超570亿元，宽基ETF成为“吸金”主力。据Choice测算，10月13日，股票型ETF净流入126.81亿元。具体来看，创业板ETF易方达净流入21.54亿元，沪深300ETF华泰柏瑞、科创50ETF华夏净流入均超10亿元。（上证报）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.391813+00:00"
-   },
-   {
-    "id": "0fef5ca232098f14",
-    "date": "2026-10-14",
-    "published": "2026-10-14T11:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "一块 GPU 空转 11 天？Adobe 用 Prometheus 找出问题所在",
-    "link": "https://www.infoq.cn/article/AO4MbiBaYqwwCubevkpD?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.488418+00:00"
-   },
-   {
-    "id": "cf041d47ef4ada84",
-    "date": "2026-10-14",
-    "published": "2026-10-14T10:46:44+00:00",
-    "source": "36氪",
-    "title": "2026年度「焦点」产品计划重磅启动",
-    "link": "https://36kr.com/p/4025592761864321?f=rss",
-    "summary": "让更多好产品被看见。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.391739+00:00"
-   },
-   {
-    "id": "6b22d085628e7c41",
-    "date": "2026-10-14",
-    "published": "2026-10-14T10:41:47+00:00",
-    "source": "量子位",
-    "title": "抢先盘点2026全球开发者先锋大会暨国际具身智能技能大赛十大亮点！",
-    "link": "https://www.qbitai.com/2026/10/503294.html",
-    "summary": "“具身进实景，劳动最光荣”",
-    "topics": [
-     "china",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:43.693666+00:00"
-   },
-   {
-    "id": "9f49b14374735b22",
-    "date": "2026-10-14",
-    "published": "2026-10-14T10:14:04+00:00",
-    "source": "爱范儿",
-    "title": "Nothing Headphone (1) Pro 体验：全面晋级，当旗舰头戴也开始玩多单元",
-    "link": "https://www.ifanr.com/1683906?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "summary": "面向未来，用于当代 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-    "topics": [
-     "china",
-     "product"
     ],
     "tags": [
      "ux"
     ],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:41.909972+00:00"
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:49.963780+00:00"
    },
    {
-    "id": "ebc83fd71e0cc477",
-    "date": "2026-10-14",
-    "published": "2026-10-14T10:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "无问芯穹联合创始人戴国浩博士确认出席QCon上海，分享Agentic Infra 技术探索与实践",
-    "link": "https://www.infoq.cn/article/EVQ0s2JRvxZyo9f9gSg6?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
+    "id": "e1b85572a7158d2c",
+    "date": "2026-10-13",
+    "published": "2026-10-13T22:27:46+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Taste is not a design methodology",
+    "link": "https://uxdesign.cc/taste-is-not-a-design-methodology-e02b37aea148?source=rss----138adf9c44c---4",
+    "summary": "Judgment brings the facts. Agency puts them on the table. AI assisted. It has become our favorite answer to AI-generated sameness. The reality is good products come from judgment built on facts, and the agency to use them when the room prefers opinions. Ask Rick Rubin what he does and he’ll tell you",
     "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.488420+00:00"
-   },
-   {
-    "id": "d62722f4063c8e76",
-    "date": "2026-10-14",
-    "published": "2026-10-14T09:33:49+00:00",
-    "source": "少数派",
-    "title": "认知心理学背后的播客剪辑技巧",
-    "link": "https://sspai.com/post/114861",
-    "summary": "为什么剪辑时会时常出现爆音？为什么有些地方剪辑后意思接得上，听起来却觉得别扭？为什么有些地方稍微动一下就会不自然？ 查看全文",
-    "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:40.825034+00:00"
+    "lang": "en",
+    "first_seen": "2026-10-14T01:54:14.640305+00:00"
    },
    {
-    "id": "610a44f270045a64",
-    "date": "2026-10-14",
-    "published": "2026-10-14T09:21:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "Cloudflare 推出 Worker Previews：看似隔离，仍会连接生产",
-    "link": "https://www.infoq.cn/article/Jf88XAvrK0zmBj2Ud2OD?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
+    "id": "16a31e10743f174e",
+    "date": "2026-10-13",
+    "published": "2026-10-13T22:26:58+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "How to talk about a design that looks worse on paper",
+    "link": "https://uxdesign.cc/how-to-talk-about-a-design-that-looks-worse-on-paper-da73da6d7b57?source=rss----138adf9c44c---4",
+    "summary": "Why it took Microsoft 5 years to roll out an ‘obvious fix’ Continue reading on UX Collective »",
     "topics": [
-     "china",
-     "ai",
-     "finance"
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T01:54:14.640318+00:00"
+   },
+   {
+    "id": "245827699a87170e",
+    "date": "2026-10-13",
+    "published": "2026-10-13T09:03:24+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "The synth everyone owned and few could program: a lesson for AI design",
+    "link": "https://uxdesign.cc/the-synth-everyone-owned-and-few-could-program-a-lesson-for-ai-design-6f618ec2aea0?source=rss----138adf9c44c---4",
+    "summary": "AI made quality available to everyone, and made it average. What sets work apart now is a decision you can see. An AI assistant helped me write this. The ideas, the data and the final edit are mine. E.PIANO 1 In 1983, Yamaha released the DX7 , the first digital synthesizer to sell in large numbers. ",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-14T01:54:06.001195+00:00"
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:49.257444+00:00"
    },
    {
-    "id": "5fea73d341493b5d",
-    "date": "2026-10-14",
-    "published": "2026-10-14T09:06:35+00:00",
-    "source": "人人都是产品经理",
-    "title": "月薪6万招AI转型负责人，品牌总监能去干吗？",
-    "link": "https://www.woshipm.com/share/6478116.html",
-    "summary": "4 万到 6 万月薪、年薪能到百万，越来越多企业在高薪招 AI 转型负责人。翻完几份招聘要求会发现，这个岗位的核心不是开发技术，而是把技术趋势翻译成可落地的业务流程改造：做业务诊断、技术选型、跨部门协调，还要对结果负责。 最近，越来越多的企业，开始高薪招聘 AI转型负责人。 4万—6万元的月薪是常态，更高的甚至年薪能达到了百万级别。 说实话，看到这些招聘信息，我突然想到一个问题：品牌总监，能不能转型去干AI负责人？ 毕竟，要论AI工具的使用，品牌人应该算是最早吃螃蟹的那批人。 从用AI写文案、做设计，到现在用AI制作视频、搭建智能体，很多品牌人早就把AI用得飞起。 但问题是，会用AI和负责一家",
+    "id": "1768b454db8958a7",
+    "date": "2026-10-13",
+    "published": "2026-10-13T07:30:43+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "What are we willing to sacrifice for AI?",
+    "link": "https://uxdesign.cc/what-are-we-willing-to-sacrifice-for-ai-a57736f368a1?source=rss----138adf9c44c---4",
+    "summary": "Three paths forward, each challenging what we value most. Photo by Josh Johnson on Unsplash I suspect artificial intelligence may eventually accomplish what generations of socialists have struggled to achieve. And the irony is that capitalism may ultimately be responsible for making it happen. What ",
     "topics": [
-     "china",
-     "product"
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:49.257452+00:00"
+   },
+   {
+    "id": "0f89382408b9bcb8",
+    "date": "2026-10-12",
+    "published": "2026-10-12T20:19:31+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
+    "link": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+    "summary": "Two readers, one page. The agent never sees the surface you designed; it reads the structure underneath. AI assisted. The semantic structure screen readers have used for decades now also decide whether ChatGPT, Claude, Gemini, Grok, and Perplexity can read your page at all. In 2016 I had a series of",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
     ],
     "tags": [
      "ai-product",
      "ux"
     ],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:41.174629+00:00"
+    "lang": "en",
+    "first_seen": "2026-10-13T03:32:27.367135+00:00"
    },
    {
-    "id": "a686028d4bd7e7c1",
-    "date": "2026-10-14",
-    "published": "2026-10-14T09:06:28+00:00",
-    "source": "人人都是产品经理",
-    "title": "小红书横测笔记收紧，对比类内容该如何表达",
-    "link": "https://www.woshipm.com/share/6478079.html",
-    "summary": "小红书已经针对横测笔记上线三版规则，自然流吃不到，投流还卡审。文章给出的做法是先把选品做对：从相关笔记和电商问答里的「纠结」「二选一」收集真实犹豫点，选三四款用户真的会放在一起比较的产品；拍摄则放弃逐款介绍，改按同一个使用过程分段对照。 横向测评可以说是小红书最有说服力的内容形式 因为效果太好，也衍生了很多笔记里的“黑灰产”，有一些商家通过P图和恶意拉踩的方式来给自家产品种草 于是就有了官方对于横测笔记的限制规则，这个规则还不是只上线了一版，至今为止官方已经针对横测笔记上线了三版规则，每次都有新的限制，来补规则漏洞 所以，现在的横测笔记非常难做，自然流吃不到，投流还卡审，难道这么好用有效的内容",
+    "id": "de7414e999e6985f",
+    "date": "2026-10-12",
+    "published": "2026-10-12T20:17:45+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
+    "link": "https://uxdesign.cc/ai-is-hollowing-out-the-middle-of-design-leaving-an-hourglass-behind-b7069db250fd?source=rss----138adf9c44c---4",
+    "summary": "For fifteen years, the design process kept growing while the time left for making the product kept shrinking. Continue reading on UX Collective »",
     "topics": [
-     "china",
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-13T03:32:27.367145+00:00"
+   },
+   {
+    "id": "0e0e997fae2922ba",
+    "date": "2026-10-12",
+    "published": "2026-10-12T11:35:46+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "On M.F. Husain and multiple meanings of the colour orange",
+    "link": "https://uxdesign.cc/on-m-f-husain-and-multiple-meanings-of-the-colour-orange-bf4b1a6f5504?source=rss----138adf9c44c---4",
+    "summary": "The painting that introduced me to the power and purpose of art Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-12T20:17:36.986279+00:00"
+   },
+   {
+    "id": "49ad28c633d9260e",
+    "date": "2026-10-12",
+    "published": "2026-10-12T11:35:36+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Borrowed slopes",
+    "link": "https://uxdesign.cc/borrowed-slopes-cb5c5b464a61?source=rss----138adf9c44c---4",
+    "summary": "When a traffic line bends, newsrooms reach for the oldest kit in digital design. The readers it costs are the ones they most need. Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-12T20:17:36.986289+00:00"
+   },
+   {
+    "id": "82877fec67a236a7",
+    "date": "2026-10-12",
+    "published": "2026-10-12T09:07:53+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+    "link": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+    "summary": "Weekly curated resources for designers — thinkers and makers. “Today, my house and life are painfully void of craft. I live in a new build with pumped out, builder-grade (aka cheap) materials. I have plastic wood lookalikes rather than hand-carved wood. None of my furniture causes that moment of awe",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-12T20:17:36.986292+00:00"
+   },
+   {
+    "id": "fcea724339e96111",
+    "date": "2026-10-11",
+    "published": "2026-10-11T16:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Bad UX Exposed: A Comprehensive Guide to Avoiding Pitfalls",
+    "link": "https://ixdf.org/literature/article/bad-ux-examples",
+    "summary": "In today’s vibrant digital design landscape, creating meaningful connections with users goes beyond offering innovative products or services. It leads us into the world of user experience design (or UX design). This critical factor shapes our interaction with the users and plays a big role in making",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-12T02:22:59.256344+00:00"
+   },
+   {
+    "id": "2f05d93733d322f7",
+    "date": "2026-10-10",
+    "published": "2026-10-10T17:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Understand the Various Types of Creativity",
+    "link": "https://ixdf.org/literature/article/understand-the-various-types-of-creativity",
+    "summary": "When you want to be more creative, you’ll want to learn the techniques for creative thinking and understand the various forms of creativity and creative processes. This video will give you an overview of some of the different forms of creativity. For example, you’ll learn that there are two types of",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-12T02:22:59.256354+00:00"
+   },
+   {
+    "id": "354ef65078259625",
+    "date": "2026-10-09",
+    "published": "2026-10-09T20:32:02+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Designing for an idea before it exists",
+    "link": "https://uxdesign.cc/designing-for-an-idea-before-it-exists-ecd8cb19999a?source=rss----138adf9c44c---4",
+    "summary": "On empty seats, metaphors, and the useful parts that don’t quite fit Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-10T02:19:29.189942+00:00"
+   },
+   {
+    "id": "61bfe1e05ed7234d",
+    "date": "2026-10-09",
+    "published": "2026-10-09T17:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "The New Siri’s Biggest Strength Is Not Intelligence",
+    "link": "https://www.nngroup.com/articles/ai-assistant-context/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "A useful AI assistant needs relevant personal context, the capability to use it, and an experience that helps users understand its limits.",
+    "topics": [
+     "ux",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-10T02:19:28.914806+00:00"
+   },
+   {
+    "id": "905c3a9c5cf546dc",
+    "date": "2026-10-09",
+    "published": "2026-10-09T17:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "Context Libraries: How AI Power Users Manage Context Engineering",
+    "link": "https://www.nngroup.com/articles/context-libraries/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "Claude power users rarely edit their context files and often can’t find them. Your AI agent is only as powerful as its context library.",
+    "topics": [
+     "ux",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-10T02:19:28.914814+00:00"
+   },
+   {
+    "id": "1d4ab9e475a8a215",
+    "date": "2026-10-09",
+    "published": "2026-10-09T09:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Design Podcasts to Learn UX on the Go",
+    "link": "https://ixdf.org/literature/article/design-podcasts-to-learn-ux-on-the-go",
+    "summary": "As digital designers, we know the bulk of our day is spent looking at screens. Give your eyes some rest, and tune into podcasts instead. They are a great way to stay updated, gain insights, be inspired or experience “A-ha” moments. The best part about podcasts is that unlike reading or watching vide",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-12T02:22:59.256358+00:00"
+   },
+   {
+    "id": "7729565e53739cb1",
+    "date": "2026-10-08",
+    "published": "2026-10-08T23:17:58+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Tesler’s Law: complexity moved to a different part of the journey",
+    "link": "https://uxdesign.cc/teslers-law-complexity-survived-the-chat-field-it-just-moved-to-a-different-place-in-the-journey-8a63f099f490?source=rss----138adf9c44c---4",
+    "summary": "The complexity never left the building. It changed hands, and nothing printed a receipt. AI assisted. AI did not remove the complexity of software. It removed the interface that told you where the complexity went, and who is now paying for it. Larry Tesler is the reason you can cut, copy, and paste.",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-09T02:56:23.275533+00:00"
+   },
+   {
+    "id": "4356423fa3f8ff2f",
+    "date": "2026-10-08",
+    "published": "2026-10-08T23:16:42+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Are synthetic users (really) the future of UX research?",
+    "link": "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec?source=rss----138adf9c44c---4",
+    "summary": "Human-centered design demands a limited use of AI-generated personas, if at all A big debate among UX researchers is whether to use synthetic users in their studies. There’s one group of researchers who consider it no less than an abomination, unethical to use an artificial persona to test a product",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-09T02:56:23.275538+00:00"
+   },
+   {
+    "id": "412b5a92b45a2fba",
+    "date": "2026-10-08",
+    "published": "2026-10-08T23:16:30+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Synthetic users are making me rethink “imperfect research”",
+    "link": "https://uxdesign.cc/synthetic-users-are-making-me-rethink-imperfect-research-abbadb8ec082?source=rss----138adf9c44c---4",
+    "summary": "Why I’m reconsidering a principle I’ve believed for years. I’ve always believed that imperfect research is better than no research at all. Synthetic users have made me reconsider that. When synthetic responses are treated like findings from real users, they can create something far more dangerous th",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-09T02:56:23.275539+00:00"
+   },
+   {
+    "id": "6a81342efae6956d",
+    "date": "2026-10-08",
+    "published": "2026-10-08T23:16:10+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "AI-generated UI is fast design, not UX",
+    "link": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
+    "summary": "The call for problem discovery, the freedom and wander, and craft in the age of AI I grew up surrounded by 17th- and 18th-century architecture my stepfather salvaged from around the world. My mother had a knack for convincing him to put some of his salvaged pieces in our house, which meant I got to ",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-09T02:56:23.275541+00:00"
+   },
+   {
+    "id": "888237ce3ec63dbc",
+    "date": "2026-10-08",
+    "published": "2026-10-08T23:15:43+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "What the AI era owes you",
+    "link": "https://uxdesign.cc/what-the-ai-era-owes-you-d472b3859bf3?source=rss----138adf9c44c---4",
+    "summary": "A handloom weaver in 1820 could not have named a single job his trade would turn into. Neither can anyone today. No one is going to save your career from AI. That’s the most useful thing anyone can tell you about your job, and the sooner you believe it, the sooner you start building a version of you",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-09T02:56:23.275542+00:00"
+   },
+   {
+    "id": "eed8d79920e27b60",
+    "date": "2026-10-08",
+    "published": "2026-10-08T09:20:37+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "AI: incidents by design",
+    "link": "https://uxdesign.cc/ai-incidents-by-design-d4708a3dda9e?source=rss----138adf9c44c---4",
+    "summary": "When safety is optional, and capability is urgent, incidents are not accidents. They are what we (consciously or not) designed and built for. AI makes headlines almost every day. And most days, they read like science fiction. Except they are not. Last year, in a simulation, Anthropic’s Claude learne",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-08T17:52:51.262547+00:00"
+   },
+   {
+    "id": "d591baa0621a61a6",
+    "date": "2026-10-07",
+    "published": "2026-10-07T19:54:06+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Bounded delegation: How much authority should AI have?",
+    "link": "https://uxdesign.cc/bounded-delegation-how-much-authority-should-ai-have-823a58fb4192?source=rss----138adf9c44c---4",
+    "summary": "A practical model for deciding what AI can do, what humans must still own, and where product teams should draw the boundary. Image created by the author with OpenAI image generation. An AI tool clusters hundreds of customer comments and names the largest theme “pricing friction”. The label sounds pl",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-08T02:41:56.102994+00:00"
+   },
+   {
+    "id": "3fcadd7ff69dc85c",
+    "date": "2026-10-07",
+    "published": "2026-10-07T19:48:49+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Beyond streaks and nudges: ethical gamification & AI design",
+    "link": "https://uxdesign.cc/beyond-streaks-and-nudges-ethical-gamification-ai-design-1c4f6e8ef2cc?source=rss----138adf9c44c---4",
+    "summary": "Part 1 of 3 on designing systems that inspire rather than manipulate. Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "retention",
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-08T02:41:56.103004+00:00"
+   },
+   {
+    "id": "f0a84f550c0422a8",
+    "date": "2026-10-06",
+    "published": "2026-10-06T23:35:43+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
+    "link": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
+    "summary": "A judgment call, wired in like any other function. Typed answers at keystroke speed let the interface act, suggest, or ask. How UX designers can put a decision model to work today in their applications. On September 15, 2026, a San Francisco lab called TypeSafe AI shipped Jev , a classifier model. Y",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-07T02:22:17.288272+00:00"
+   },
+   {
+    "id": "5b51367503ace599",
+    "date": "2026-10-06",
+    "published": "2026-10-06T23:35:06+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Why designers need to stop reporting and start recommending at work",
+    "link": "https://uxdesign.cc/why-designers-need-to-stop-reporting-and-start-recommending-at-work-6fa861f58097?source=rss----138adf9c44c---4",
+    "summary": "Sticky notes don’t help your team. They need your direction Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-07T02:22:17.288279+00:00"
+   },
+   {
+    "id": "b50ce424608be84f",
+    "date": "2026-10-06",
+    "published": "2026-10-06T23:34:41+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "How apps know us better than we do and influence our decisions",
+    "link": "https://uxdesign.cc/how-apps-know-us-better-than-we-do-and-influence-our-decisions-f7a5182be6f1?source=rss----138adf9c44c---4",
+    "summary": "Explaining the Homo Metricus: someone who understands themselves based on scores in apps Photo by Will Truettner on Unsplash When I go cycling, my family asks how many kilometres I’ve covered. When I come back from a football match, the first question I hear is whether I scored. Or even better/worse",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-07T02:22:17.288281+00:00"
+   },
+   {
+    "id": "442527922d8f6457",
+    "date": "2026-10-06",
+    "published": "2026-10-06T16:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "User Experience (UX) Surveys: The Ultimate Guide",
+    "link": "https://ixdf.org/literature/article/ux-surveys",
+    "summary": "Imagine you’re a business owner who wants to know what’s working and what’s not on your website—and, oh yes, where you need improvements. Sure, there are a bunch of research methods you can try—like user interviews, usability tests, and A/B testing, but read on and see how a user experience (UX) sur",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-12T02:22:59.256361+00:00"
+   },
+   {
+    "id": "72d47b1a1f538231",
+    "date": "2026-10-05",
+    "published": "2026-10-05T22:00:31+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Is Meta’s new AI agent easier to trust because it’s cute?",
+    "link": "https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-it-s-cute-c8de13aefc6f?source=rss----138adf9c44c---4",
+    "summary": "Muse comes with an avatar you design and a keyring gadget. Few people would hand Meta their passwords, yet it topped the US App Store. Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ai-product",
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-06T02:57:32.992510+00:00"
+   },
+   {
+    "id": "7f74faed248e4c37",
+    "date": "2026-10-05",
+    "published": "2026-10-05T22:00:12+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "AI skill atrophy: Are we forgetting how to think?",
+    "link": "https://uxdesign.cc/ai-skill-atrophy-cognitive-offloading-1afbf92eb496?source=rss----138adf9c44c---4",
+    "summary": "The hidden cost of outsourcing our thinking to AI. Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-06T02:57:32.992517+00:00"
+   },
+   {
+    "id": "1dc21252b5d7e557",
+    "date": "2026-10-05",
+    "published": "2026-10-05T21:59:40+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "The taste paradox: why the skill everyone says matters is the one we’ve stopped building",
+    "link": "https://uxdesign.cc/the-taste-paradox-why-the-skill-everyone-says-matters-is-the-one-weve-stopped-building-32d1523f1f95?source=rss----138adf9c44c---4",
+    "summary": "We keep saying taste is the last human advantage, but we’ve built a world (and now tools) that make it almost impossible to develop, and we’re responding by de-risking even further Still from Fantastic Planet , 1973 Most designers and creatives seem to agree that taste and, with that, being able to ",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-06T02:57:32.992520+00:00"
+   },
+   {
+    "id": "deb0b0b8cefd1ffa",
+    "date": "2026-10-05",
+    "published": "2026-10-05T11:01:01+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Prompt as self-portrait, De-slopifying your designs, The strategic designer",
+    "link": "https://uxdesign.cc/prompt-as-self-portrait-de-slopifying-your-designs-the-strategic-designer-cf8162f43284?source=rss----138adf9c44c---4",
+    "summary": "Weekly curated resources for designers — thinkers and makers. “Every prompt is a confession. Before the model returns a word, the box has read me back: the clarity of my thinking, the range of my references, the questions I didn’t think to ask. I think I am describing a task, while in reality I am d",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-06T02:57:32.992521+00:00"
+   },
+   {
+    "id": "8e51cfc9166a9ad0",
+    "date": "2026-10-04",
+    "published": "2026-10-04T14:34:28+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "The building was there first",
+    "link": "https://uxdesign.cc/the-building-was-there-first-26c6c4e49ba8?source=rss----138adf9c44c---4",
+    "summary": "A style’s real output isn’t what it makes. It’s the category it installs in whoever looks. Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-04T15:48:32.694926+00:00"
+   },
+   {
+    "id": "5340c97732c5d7a6",
+    "date": "2026-10-03",
+    "published": "2026-10-03T11:12:42+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "The feed I produce myself",
+    "link": "https://uxdesign.cc/the-feed-i-produce-myself-11e4192f394c?source=rss----138adf9c44c---4",
+    "summary": "On working with agents, producing more than ever, and losing the ability to see anything whole. Maestro, we have six more deliveries ready — Created by the author with AI I'm writing this on a Sunday morning. While I write, several agents are working in other tabs on my computer, on projects that ha",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-03T15:08:54.956491+00:00"
+   },
+   {
+    "id": "5ef119cef1ce8843",
+    "date": "2026-10-02",
+    "published": "2026-10-02T17:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile",
+    "link": "https://www.nngroup.com/articles/big-ball-of-mud-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "AI makes building nearly free, so users grow agentic systems piecemeal into fragile messes they no longer understand.",
+    "topics": [
+     "ux",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-03T01:56:23.284267+00:00"
+   },
+   {
+    "id": "6e99288756d88851",
+    "date": "2026-10-02",
+    "published": "2026-10-02T17:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "Empathy Mapping: The First Step in Design Thinking",
+    "link": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
+    "topics": [
+     "ux",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-03T01:56:23.284274+00:00"
+   },
+   {
+    "id": "6fea9d0ddeb0caa3",
+    "date": "2026-10-02",
+    "published": "2026-10-02T11:09:56+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "In/tension modeling: what gives us the right?",
+    "link": "https://uxdesign.cc/in-tension-modeling-what-gives-us-the-right-01740248eb45?source=rss----138adf9c44c---4",
+    "summary": "How to navigate opposing voices and lived tensions. By Julia Beard , Naman Mandhan, & Stacie Sheldon Asking the Hardest Question First “What gives us the right to make the interventions and choices we are contemplating on behalf of others?” asks Erika Hall, cofounder of Mule Design. For UX professio",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-02T16:38:11.982441+00:00"
+   },
+   {
+    "id": "9f32542ceab5ca98",
+    "date": "2026-10-01",
+    "published": "2026-10-01T22:52:26+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Stop blaming the model for slow AI. Using Doherty’s threshold as a guideline.",
+    "link": "https://uxdesign.cc/stop-blaming-the-model-for-slow-ai-heres-how-to-design-for-it-doherty-s-threshold-as-a-guideline-5fa6d52e23fc?source=rss----138adf9c44c---4",
+    "summary": "Two eras of computing, held to the same 400 millisecond standard. Doherty’s threshold set the rules and has now moved from the answer to the acknowledgment. The fix is a week of front-end work and a definition of done, not cheaper inference. Productivity soars when a computer and its users interact ",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-02T02:14:16.607913+00:00"
+   }
+  ],
+  "product": [
+   {
+    "id": "5cf0b33a9283a6ff",
+    "date": "2026-10-14",
+    "published": "2026-10-14T22:00:44+00:00",
+    "source": "Product Growth (Aakash Gupta)",
+    "title": "How you need to think about product strategy in the age of AI",
+    "link": "https://www.news.aakashg.com/p/how-the-best-pms-think-about-product-strategy",
+    "summary": "Tim Herbig shows how to build a product strategy that helps you say no, using a made-up used-car marketplace.",
+    "topics": [
+     "product",
+     "ai",
+     "growth"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:24.002250+00:00"
+   },
+   {
+    "id": "a23eabea0728b8da",
+    "date": "2026-10-14",
+    "published": "2026-10-14T12:04:05+00:00",
+    "source": "Lenny's Newsletter",
+    "title": "Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design",
+    "link": "https://www.lennysnewsletter.com/p/metas-new-muse-wonder-model-good",
+    "summary": "Watch now (24 mins) | 🎙️Meta launched Muse Wonder with claims of frontier agentic performance, so I ran it headlessly through Claude Code against nearly 20 tasks to find out if any of it is true",
+    "topics": [
+     "product",
+     "growth",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.800797+00:00"
+   },
+   {
+    "id": "190277f965bb8b29",
+    "date": "2026-10-14",
+    "published": "2026-10-14T10:00:00+00:00",
+    "source": "Stratechery",
+    "title": "Apple HomeView, The New Apple TV, The App Story",
+    "link": "https://stratechery.com/2026/apple-homeview-the-new-apple-tv-the-app-story/",
+    "summary": "The Apple Homeview is official, and the question is how big is the addressable market for expensive devices based on subpar AI.",
+    "topics": [
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:49.038513+00:00"
+   },
+   {
+    "id": "eda9fd244dfbac42",
+    "date": "2026-10-14",
+    "published": "2026-10-14T07:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Findings from the $1M Vercel Sandbox challenge",
+    "link": "https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge",
+    "summary": "In August, we launched the $1M hacker challenge for Vercel Sandbox , inviting security researchers to try and escape Vercel Sandbox. We also coordinated with cybersecurity experts Trail of Bits to review the source code and security architecture. Here is a summary of the challenge: 1,285 reports ove",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:28.549318+00:00"
+   },
+   {
+    "id": "bec6e6c98d771dad",
+    "date": "2026-10-14",
+    "published": "2026-10-14T05:07:36+00:00",
+    "source": "Product Hunt",
+    "title": "RoleFit",
+    "link": "https://www.producthunt.com/products/rolefit",
+    "summary": "Tailor every job application without starting from scratch Discussion | Link",
+    "topics": [
      "product"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:41.174637+00:00"
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503502+00:00"
    },
    {
-    "id": "4b538860383256ac",
+    "id": "83ca483ba5579bc6",
     "date": "2026-10-14",
-    "published": "2026-10-14T09:06:26+00:00",
-    "source": "人人都是产品经理",
-    "title": "WorkBuddy大更新，上线浏览器操控能力",
-    "link": "https://www.woshipm.com/ai/6478181.html",
-    "summary": "WorkBuddy 上线浏览器操控能力，Beta 公测，支持 Chrome、Edge 与 QQ 浏览器。它能自己开标签页组执行搜索、下载、去水印，遇到安全验证滑块这类敏感操作则交回给你确认。作者认为这意味着人和浏览器的交互被换成了人与 Agent 的交互。 WorkBuddy 更新，最新版中上线了一个实用的大功能： 让 WorkBuddy 控制浏览器。 目前该功能， 处于 Beta 公测版。 支持 Chrome、Edge 和 QQ 3 个浏览器。 我常用 Chrome。 点击前往安装，打开 Chrome 插件市场，进行添加。 在添加确认弹窗上，可以看到该 WorkBuddy 插件的功能。主要是",
+    "published": "2026-10-14T04:47:06+00:00",
+    "source": "Product Hunt",
+    "title": "PixLate",
+    "link": "https://www.producthunt.com/products/pixlate",
+    "summary": "Translate documents. Preserve artwork and layout. Discussion | Link",
     "topics": [
-     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503500+00:00"
+   },
+   {
+    "id": "f54150d5f8c0666d",
+    "date": "2026-10-14",
+    "published": "2026-10-14T04:35:22+00:00",
+    "source": "Product Hunt",
+    "title": "WriterzRoom",
+    "link": "https://www.producthunt.com/products/writerzroom",
+    "summary": "Governed multi-agent AI content for regulated industries Discussion | Link",
+    "topics": [
      "product"
     ],
     "tags": [
      "ai-product"
     ],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:41.174641+00:00"
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503490+00:00"
    },
    {
-    "id": "f6546d3ea8ea764e",
+    "id": "104a505b7b4b8f42",
     "date": "2026-10-14",
-    "published": "2026-10-14T09:03:13+00:00",
-    "source": "人人都是产品经理",
-    "title": "实测Gemini 4 Argon写作能力，百万上下文竟恐怖如斯",
-    "link": "https://www.woshipm.com/ai/6478176.html",
-    "summary": "Gemini 4 Argon 把输入输出窗口统一到 100 万，输出上限从 64K 提上来，写作强调直接、不套话。实测让模型给自己写小说：单章六万多字一气呵成不断层，跑分带上高思考模式拿下初榜魁首，编程重构也有斩获。 都说Google这次的Gemini 4 Argon统一了100 万的输入输出窗口（之前的输出上限只有 64K）。 写作能力有明显的提升，强调回答更直接，没有套话和陈词滥调，能够更好遵循我们提示语。科学写作就更强了，创意写作也不错，独立写作还是它整个系列进步最大的。 那在我们常用的复杂编程上，也有提到代码库迁移做得很棒，做一些企业的知识工作也很好。API价格是每百万输入 2刀和每百",
+    "published": "2026-10-14T04:07:56+00:00",
+    "source": "Product Hunt",
+    "title": "Cloud Releases",
+    "link": "https://www.producthunt.com/products/cloud-releases",
+    "summary": "Every AWS, Azure, GCP and Cloudflare update in one feed Discussion | Link",
     "topics": [
-     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503519+00:00"
+   },
+   {
+    "id": "a4de21d0f9c836b7",
+    "date": "2026-10-14",
+    "published": "2026-10-14T00:29:24+00:00",
+    "source": "Product Hunt",
+    "title": "Diagramly",
+    "link": "https://www.producthunt.com/products/diagramly-2",
+    "summary": "Sketch systems at the speed you think Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503527+00:00"
+   },
+   {
+    "id": "9d844e6ac1f58f88",
+    "date": "2026-10-14",
+    "published": "2026-10-14T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Amazon S3 joins the Vercel Marketplace",
+    "link": "https://vercel.com/changelog/amazon-s3-joins-the-vercel-marketplace",
+    "summary": "You can now create and connect Amazon S3 resources through the Vercel Marketplace without leaving your Vercel project dashboard. The Amazon S3 Marketplace integration automatically adds connection details as environment variables and lets you manage resources alongside your application infrastructur",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "dashboard"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:28.549327+00:00"
+   },
+   {
+    "id": "77a359dae70fd08b",
+    "date": "2026-10-14",
+    "published": "2026-10-14T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Nemotron 3.5 Lightning now available on AI Gateway for free",
+    "link": "https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free",
+    "summary": "Nemotron 3.5 Lightning from NVIDIA is now available for free on AI Gateway as nvidia/nemotron-3.5-lightning-free , served by NVIDIA. Nemotron 3.5 Lightning is an open-weight reasoning and chat model for long-running agents, sub-agent work, chatbots, and RAG systems. The model has 30B parameters with",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:28.549331+00:00"
+   },
+   {
+    "id": "5f5d3765c1d343f6",
+    "date": "2026-10-13",
+    "published": "2026-10-13T21:44:54+00:00",
+    "source": "Product Hunt",
+    "title": "Specreel",
+    "link": "https://www.producthunt.com/products/specreel",
+    "summary": "Product demos that update themselves Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503534+00:00"
+   },
+   {
+    "id": "e8f5b8976f9b312f",
+    "date": "2026-10-13",
+    "published": "2026-10-13T21:19:34+00:00",
+    "source": "Product Hunt",
+    "title": "Payload Peek",
+    "link": "https://www.producthunt.com/products/payload-peek",
+    "summary": "Catch Webhooks. Inspect Payloads. Generate TypeScript. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503530+00:00"
+   },
+   {
+    "id": "613fbd1be09e4e96",
+    "date": "2026-10-13",
+    "published": "2026-10-13T18:51:23+00:00",
+    "source": "Product Hunt",
+    "title": "Hindsight 1.0 + Memlake",
+    "link": "https://www.producthunt.com/products/vectorize",
+    "summary": "Open source memory for AI agents to learn from experience Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503515+00:00"
+   },
+   {
+    "id": "bacd9dbc473e88a0",
+    "date": "2026-10-13",
+    "published": "2026-10-13T17:35:59+00:00",
+    "source": "Product Hunt",
+    "title": "AURORA Lifeline",
+    "link": "https://www.producthunt.com/products/aurora-lifeline",
+    "summary": "Know who a cyclone will cut off, before the roads close Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503520+00:00"
+   },
+   {
+    "id": "f7a9a621df49c8e5",
+    "date": "2026-10-13",
+    "published": "2026-10-13T17:21:30+00:00",
+    "source": "Product Hunt",
+    "title": "Nimble",
+    "link": "https://www.producthunt.com/products/nimble-5",
+    "summary": "SOTA Decision Model Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503493+00:00"
+   },
+   {
+    "id": "08e393a44b1c2629",
+    "date": "2026-10-13",
+    "published": "2026-10-13T15:54:39+00:00",
+    "source": "Product Hunt",
+    "title": "NoteHouse",
+    "link": "https://www.producthunt.com/products/notehouse-2",
+    "summary": "Private lending, without the paperwork headache. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503522+00:00"
+   },
+   {
+    "id": "bdb4d33001b96e5b",
+    "date": "2026-10-13",
+    "published": "2026-10-13T15:07:27+00:00",
+    "source": "Product Hunt",
+    "title": "Blade",
+    "link": "https://www.producthunt.com/products/blade-4",
+    "summary": "Find your first customers hiding in your inbox Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503505+00:00"
+   },
+   {
+    "id": "d8fab87c5eda38cb",
+    "date": "2026-10-13",
+    "published": "2026-10-13T13:43:16+00:00",
+    "source": "Product Hunt",
+    "title": "Apple HomePod mini 2",
+    "link": "https://www.producthunt.com/products/apple-homepod-mini",
+    "summary": "Apple's tiny smart speaker, now built for Siri AI Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503508+00:00"
+   },
+   {
+    "id": "106e2e30c081c301",
+    "date": "2026-10-13",
+    "published": "2026-10-13T13:00:18+00:00",
+    "source": "Product Talk (Teresa Torres)",
+    "title": "Training Expectations - All Things Product Podcast with Teresa Torres & Petra Wille",
+    "link": "https://www.producttalk.org/training-expectations-all-things-product-podcast-with-teresa-torres-petra-wille/",
+    "summary": "Listen to this episode on: Spotify | Apple Podcasts You've got twelve people and one hour booked at next week's offsite. Can someone teach your team to do continuous discovery in that hour? Teresa Torres's answer is a flat no — and this episode is",
+    "topics": [
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:47.531893+00:00"
+   },
+   {
+    "id": "ee47aa4819055218",
+    "date": "2026-10-13",
+    "published": "2026-10-13T12:45:41+00:00",
+    "source": "Lenny's Newsletter",
+    "title": "How to tell if a startup has a moat",
+    "link": "https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat",
+    "summary": "A framework for assessing whether the company you’re considering joining is built to last",
+    "topics": [
+     "product",
+     "growth",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:48.262026+00:00"
+   },
+   {
+    "id": "d4b3639bdc6573c7",
+    "date": "2026-10-13",
+    "published": "2026-10-13T10:00:00+00:00",
+    "source": "Stratechery",
+    "title": "SpaceX Buys More Spectrum, Musk and Market Structure, Distributed Cellular",
+    "link": "https://stratechery.com/2026/spacex-buys-more-spectrum-musk-and-market-structure-distributed-cellular/",
+    "summary": "SpaceX's mobile strategy is becoming clearly with its latest spectrum purchase, and it might work.",
+    "topics": [
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:47.813697+00:00"
+   },
+   {
+    "id": "30d6b5edc81ac643",
+    "date": "2026-10-13",
+    "published": "2026-10-13T09:40:26+00:00",
+    "source": "Product Hunt",
+    "title": "Exodus for Google Cloud Run",
+    "link": "https://www.producthunt.com/products/exodus-by-elim-io",
+    "summary": "Upgrade any app to Cloud Run, with your coding agent Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503492+00:00"
+   },
+   {
+    "id": "fb667febb73c4647",
+    "date": "2026-10-13",
+    "published": "2026-10-13T09:20:41+00:00",
+    "source": "Product Hunt",
+    "title": "SlashDocs by Razorpay",
+    "link": "https://www.producthunt.com/products/razorpay",
+    "summary": "Self-hosted collaboration layer for agent-written HTML Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503473+00:00"
+   },
+   {
+    "id": "60bfd085eea1282e",
+    "date": "2026-10-13",
+    "published": "2026-10-13T07:53:49+00:00",
+    "source": "Product Hunt",
+    "title": "EditUI",
+    "link": "https://www.producthunt.com/products/editui",
+    "summary": "Point at your UI. Tell your coding agent what to change. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503517+00:00"
+   },
+   {
+    "id": "8b60aa870d774457",
+    "date": "2026-10-13",
+    "published": "2026-10-13T07:51:30+00:00",
+    "source": "Product Hunt",
+    "title": "AdAnt 2.0",
+    "link": "https://www.producthunt.com/products/adant-ai",
+    "summary": "Muse for Social Media Marketing Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503468+00:00"
+   },
+   {
+    "id": "f32f58797a41741e",
+    "date": "2026-10-13",
+    "published": "2026-10-13T06:49:28+00:00",
+    "source": "Product Hunt",
+    "title": "GotEmail",
+    "link": "https://www.producthunt.com/products/gotemail",
+    "summary": "Native macOS mail app with one-click sign-in codes and AI Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:47.274608+00:00"
+   },
+   {
+    "id": "2ad4c6f33e712929",
+    "date": "2026-10-13",
+    "published": "2026-10-13T05:39:15+00:00",
+    "source": "Product Hunt",
+    "title": "The Drive AI",
+    "link": "https://www.producthunt.com/products/the-drive-ai-2",
+    "summary": "The AI agent that does the work on your files Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:47.274610+00:00"
+   },
+   {
+    "id": "8b3a843ddab8873c",
+    "date": "2026-10-13",
+    "published": "2026-10-13T03:05:36+00:00",
+    "source": "Product Hunt",
+    "title": "OpenFlowKit 2",
+    "link": "https://www.producthunt.com/products/openflowkit",
+    "summary": "Free, open-source diagrams you and your agent edit together Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:47.274596+00:00"
+   },
+   {
+    "id": "3ddec4d380c14ac0",
+    "date": "2026-10-13",
+    "published": "2026-10-13T02:51:31+00:00",
+    "source": "Product Hunt",
+    "title": "Toby",
+    "link": "https://www.producthunt.com/products/toby-5",
+    "summary": "Realistic mock interviews with an AI hiring manager Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:47.274619+00:00"
+   },
+   {
+    "id": "5737e2955921982a",
+    "date": "2026-10-13",
+    "published": "2026-10-13T02:17:03+00:00",
+    "source": "Product Hunt",
+    "title": "HarnessHive",
+    "link": "https://www.producthunt.com/products/harnesshive",
+    "summary": "AI-Native, Simple & Collaborative Wire Harness Design Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:47.274600+00:00"
+   },
+   {
+    "id": "6ba22338857ee977",
+    "date": "2026-10-13",
+    "published": "2026-10-13T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Repository checkout and Git LFS downloads are now faster",
+    "link": "https://vercel.com/changelog/repository-checkout-and-git-lfs-downloads-are-now-faster",
+    "summary": "Repository checkout and Git LFS downloads are now faster on Vercel, reducing the time spent preparing your project's files before a build. During rollout on build machines with more than two vCPUs: The average time to get project files ready fell by 20%. For LFS-enabled projects, the average time to",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:53.615512+00:00"
+   },
+   {
+    "id": "fd62725cf487ff0a",
+    "date": "2026-10-13",
+    "published": "2026-10-13T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Gemini 4 Argon now available on AI Gateway",
+    "link": "https://vercel.com/changelog/gemini-4-argon-now-available-on-ai-gateway",
+    "summary": "Gemini 4 Argon from Google is now available on AI Gateway . Gemini 4 Argon is built for coding, agentic work, and complex reasoning. It has a 1M token context window, accepts text, image, PDF, and video input, and supports tool calling. On coding tasks, Gemini 4 Argon builds features, fixes bugs, an",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:53.615523+00:00"
+   },
+   {
+    "id": "86b63b4a045c27c3",
+    "date": "2026-10-13",
+    "published": "2026-10-13T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Drama 3 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/drama-3-now-available-on-ai-gateway",
+    "summary": "Drama 3 from Fish Audio is now available on AI Gateway, and 80% off for 30 days (through Nov 12). The text-to-speech model is currently in preview and lets you direct voice performances with natural-language instructions in your script, making it useful for voiceovers, character dialogue, and audio ",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T01:54:17.762578+00:00"
+   },
+   {
+    "id": "0eb0a05701d6795e",
+    "date": "2026-10-13",
+    "published": "2026-10-13T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash now available on AI Gateway",
+    "link": "https://vercel.com/changelog/mai-image-2-6-and-mai-image-2-6-flash-now-available-on-ai-gateway",
+    "summary": "MAI-Image-2.6 and MAI-Image-2.6-Flash from Microsoft are now available on AI Gateway . Generate images from text or edit existing images through the AI SDK or the AI CLI , with one API key and no provider account. Both models support photorealistic imagery, text rendering, and targeted edits to prod",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T01:54:17.762593+00:00"
+   },
+   {
+    "id": "f3a863d80c45aaaf",
+    "date": "2026-10-12",
+    "published": "2026-10-12T21:24:56+00:00",
+    "source": "Product Hunt",
+    "title": "AdHelm CLI",
+    "link": "https://www.producthunt.com/products/adhelm-cli",
+    "summary": "An Open Sourced CLI for Managing Ads Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:47.274653+00:00"
+   },
+   {
+    "id": "dfaa83455c371e4d",
+    "date": "2026-10-12",
+    "published": "2026-10-12T21:15:50+00:00",
+    "source": "Product Hunt",
+    "title": "Winq",
+    "link": "https://www.producthunt.com/products/winq",
+    "summary": "Control your Mac with a look and a wink Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503495+00:00"
+   },
+   {
+    "id": "38291338172cfaac",
+    "date": "2026-10-12",
+    "published": "2026-10-12T20:08:47+00:00",
+    "source": "Product Hunt",
+    "title": "OpenCode 2.0",
+    "link": "https://www.producthunt.com/products/opencode",
+    "summary": "The open source AI coding agent Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:47.274648+00:00"
+   },
+   {
+    "id": "4b686781d8e2e1f5",
+    "date": "2026-10-12",
+    "published": "2026-10-12T19:47:37+00:00",
+    "source": "Product Hunt",
+    "title": "CraveLens",
+    "link": "https://www.producthunt.com/products/cravelens",
+    "summary": "See it. Crave it. Get it. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503488+00:00"
+   },
+   {
+    "id": "d733585274c8b564",
+    "date": "2026-10-12",
+    "published": "2026-10-12T18:30:13+00:00",
+    "source": "Product Hunt",
+    "title": "daily.dev",
+    "link": "https://www.producthunt.com/products/daily-dev",
+    "summary": "Where agents discover what's next Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:48.503512+00:00"
+   }
+  ],
+  "ai": [
+   {
+    "id": "5f0e4286e522ac24",
+    "date": "2026-10-14",
+    "published": "2026-10-14T21:40:52+00:00",
+    "source": "Latent Space (AINews)",
+    "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+    "link": "https://www.latent.space/p/crossing-the-threshold",
+    "summary": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
+    "topics": [
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:13.481819+00:00"
+   },
+   {
+    "id": "bbc1e25e9e985e45",
+    "date": "2026-10-14",
+    "published": "2026-10-14T21:23:01+00:00",
+    "source": "Simon Willison's Weblog",
+    "title": "Tree Appreciator",
+    "link": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+    "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechani",
+    "topics": [
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:13.005692+00:00"
+   },
+   {
+    "id": "a4e6a72e3ac24694",
+    "date": "2026-10-14",
+    "published": "2026-10-14T20:48:24+00:00",
+    "source": "Hacker News — Best",
+    "title": "OpenCode 2.0",
+    "link": "https://anoma.ly/notes/opencode-2-0/",
+    "summary": "Article URL: https://anoma.ly/notes/opencode-2-0/ Comments URL: https://news.ycombinator.com/item?id=50094994 Points: 259 # Comments: 99",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:12.010538+00:00"
+   },
+   {
+    "id": "ecfb2d56ace4033f",
+    "date": "2026-10-14",
+    "published": "2026-10-14T20:35:09+00:00",
+    "source": "Latent Space (AINews)",
+    "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+    "link": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+    "summary": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
+    "topics": [
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:13.481829+00:00"
+   },
+   {
+    "id": "0c1a0ba99d14638d",
+    "date": "2026-10-14",
+    "published": "2026-10-14T19:26:30+00:00",
+    "source": "Hacker News — Best",
+    "title": "Things to know when you get cancer – 2026 Edition",
+    "link": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+    "summary": "Article URL: https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/ Comments URL: https://news.ycombinator.com/item?id=50093568 Points: 694 # Comments: 179",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:12.010546+00:00"
+   },
+   {
+    "id": "22eabf132ca29732",
+    "date": "2026-10-14",
+    "published": "2026-10-14T18:37:21+00:00",
+    "source": "Hacker News — Best",
+    "title": "Fire at Starlink site in Bulgaria after suspected sabotage in Poland",
+    "link": "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/",
+    "summary": "Article URL: https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261014-930-839530/ Comments URL: https://news.ycombinator.com/item?id=50092730 Points: 273 # Comments: 199",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:12.010548+00:00"
+   },
+   {
+    "id": "ffc9c8f827572cd9",
+    "date": "2026-10-14",
+    "published": "2026-10-14T18:32:52+00:00",
+    "source": "Hacker News — Best",
+    "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+    "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+    "summary": "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Points: 264 # Comments: 207",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:12.010550+00:00"
+   },
+   {
+    "id": "1d15ef475cf5e370",
+    "date": "2026-10-14",
+    "published": "2026-10-14T17:45:23+00:00",
+    "source": "Hacker News — Best",
+    "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+    "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+    "summary": "Article URL: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html Comments URL: https://news.ycombinator.com/item?id=50091788 Points: 821 # Comments: 442",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:12.010552+00:00"
+   },
+   {
+    "id": "bc6f7d6d13e5ee6f",
+    "date": "2026-10-14",
+    "published": "2026-10-14T17:06:56+00:00",
+    "source": "The Pragmatic Engineer",
+    "title": "Uber’s AI infra, from the inside",
+    "link": "https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside",
+    "summary": "Uber Distinguished Engineer Uday Kiran Medisetty shares how Uber builds internal developer tools, integrates AI agents into engineering workflows, and measures their impact on productivity.",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:13.726753+00:00"
+   },
+   {
+    "id": "9c099964e2ab0ae2",
+    "date": "2026-10-14",
+    "published": "2026-10-14T16:28:51+00:00",
+    "source": "Hacker News — Best",
+    "title": "Google is silently linking your phone number across all signed-in accounts",
+    "link": "https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/",
+    "summary": "Article URL: https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/ Comments URL: https://news.ycombinator.com/item?id=50090349 Points: 361 # Comments: 96",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:12.010553+00:00"
+   },
+   {
+    "id": "8560636ebc000f33",
+    "date": "2026-10-14",
+    "published": "2026-10-14T16:26:53+00:00",
+    "source": "Simon Willison's Weblog",
+    "title": "AI is mass decompiling games. That's both awesome and scary.",
+    "link": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+    "summary": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to get old games working on new hardwa",
+    "topics": [
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:13.005699+00:00"
+   },
+   {
+    "id": "66cf47272c3c64a7",
+    "date": "2026-10-14",
+    "published": "2026-10-14T16:24:11+00:00",
+    "source": "Hacker News — Best",
+    "title": "ICE Planning $100M 'Nightmare' Domestic Spy Program",
+    "link": "https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/",
+    "summary": "Article URL: https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/ Comments URL: https://news.ycombinator.com/item?id=50090246 Points: 486 # Comments: 291",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:12.010555+00:00"
+   },
+   {
+    "id": "730309a8798eb57f",
+    "date": "2026-10-14",
+    "published": "2026-10-14T15:15:45+00:00",
+    "source": "Hacker News — Best",
+    "title": "Passkeys are not a trap",
+    "link": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+    "summary": "Article URL: https://scotthelme.co.uk/passkeys-are-not-a-trap/ Comments URL: https://news.ycombinator.com/item?id=50088935 Points: 455 # Comments: 625",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:12.010556+00:00"
+   },
+   {
+    "id": "a0e0fec2c2b5f568",
+    "date": "2026-10-14",
+    "published": "2026-10-14T12:00:00+00:00",
+    "source": "OpenAI News",
+    "title": "Amp puts AI agents to work beyond code with OpenAI models",
+    "link": "https://openai.com/index/amp-beyond-coding",
+    "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "notification",
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:13.283880+00:00"
+   },
+   {
+    "id": "24cc989c02dbc2a2",
+    "date": "2026-10-14",
+    "published": "2026-10-14T12:00:00+00:00",
+    "source": "OpenAI News",
+    "title": "SentinelOne cuts malware analysis from weeks to hours",
+    "link": "https://openai.com/index/sentinelone",
+    "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:13.283894+00:00"
+   },
+   {
+    "id": "9230023c82da5648",
+    "date": "2026-10-14",
+    "published": "2026-10-14T10:00:00+00:00",
+    "source": "The a16z Show (podcast)",
+    "title": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
+    "link": "https://a16z.simplecast.com/episodes/can-open-models-keep-up-with-the-ai-frontier-nathan-lambert-WqIVvxfv",
+    "summary": "a16z Partner Lisha Li sits down with AI researcher and Trillium founder Nathan Lambert to ask how durable the gap really is between frontier AI labs and open models. Nathan argues that OpenAI and Anthropic have structural advantages in compute, capital, and the ability to pioneer new training paradi",
+    "topics": [
+     "ai",
+     "growth"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:50.559187+00:00"
+   },
+   {
+    "id": "e52e6ad577cc314f",
+    "date": "2026-10-14",
+    "published": "2026-10-14T09:28:17+00:00",
+    "source": "Hacker News — Best",
+    "title": "Amazon pushes up prices across the Internet",
+    "link": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+    "summary": "Article URL: https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/ Comments URL: https://news.ycombinator.com/item?id=50084757 Points: 367 # Comments: 361",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "notification"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:38.116244+00:00"
+   },
+   {
+    "id": "805a2012a18b375d",
+    "date": "2026-10-14",
+    "published": "2026-10-14T08:27:59+00:00",
+    "source": "Hacker News — Best",
+    "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
+    "link": "https://typeof.net/Iosevka/",
+    "summary": "Article URL: https://typeof.net/Iosevka/ Comments URL: https://news.ycombinator.com/item?id=50084240 Points: 434 # Comments: 165",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:38.116254+00:00"
+   },
+   {
+    "id": "e181547094b0a112",
+    "date": "2026-10-14",
+    "published": "2026-10-14T07:00:00+00:00",
+    "source": "OpenAI News",
+    "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+    "link": "https://openai.com/index/third-moment-research",
+    "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:39.536758+00:00"
+   },
+   {
+    "id": "7d10f0ddfecf202c",
+    "date": "2026-10-14",
+    "published": "2026-10-14T07:00:00+00:00",
+    "source": "OpenAI News",
+    "title": "How Block is building AI-powered security with OpenAI technology",
+    "link": "https://openai.com/index/block-ai-powered-security",
+    "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:13.283898+00:00"
+   },
+   {
+    "id": "de04b7d40683fb1a",
+    "date": "2026-10-14",
+    "published": "2026-10-14T06:18:01+00:00",
+    "source": "Hacker News — Best",
+    "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+    "link": "https://github.com/android/ndk/issues/2260",
+    "summary": "Article URL: https://github.com/android/ndk/issues/2260 Comments URL: https://news.ycombinator.com/item?id=50083130 Points: 419 # Comments: 201",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:38.116257+00:00"
+   },
+   {
+    "id": "268ff6550bc0eba8",
+    "date": "2026-10-14",
+    "published": "2026-10-14T05:40:28+00:00",
+    "source": "Latent Space (AINews)",
+    "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+    "link": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+    "summary": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
+    "topics": [
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:38.781268+00:00"
+   },
+   {
+    "id": "3377b94c710aedb1",
+    "date": "2026-10-14",
+    "published": "2026-10-14T04:42:33+00:00",
+    "source": "Hacker News — Best",
+    "title": "Felix Rieseberg Homepage",
+    "link": "https://felixrieseberg.com/",
+    "summary": "Article URL: https://felixrieseberg.com/ Comments URL: https://news.ycombinator.com/item?id=50082470 Points: 271 # Comments: 104",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:12.010558+00:00"
+   },
+   {
+    "id": "87253efedaff810e",
+    "date": "2026-10-14",
+    "published": "2026-10-14T00:00:00+00:00",
+    "source": "Anthropic News (unofficial mirror)",
+    "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+    "link": "https://www.anthropic.com/news/singapore-office-opening",
+    "summary": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+    "topics": [
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:37.609704+00:00"
+   },
+   {
+    "id": "2f3282e483141f68",
+    "date": "2026-10-14",
+    "published": "2026-10-14T00:00:00+00:00",
+    "source": "OpenAI News",
+    "title": "The EU’s next chapter in AI is agentic",
+    "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+    "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:39.536767+00:00"
+   },
+   {
+    "id": "c9ddbc2bb8934c94",
+    "date": "2026-10-14",
+    "published": "2026-10-14T00:00:00+00:00",
+    "source": "Anthropic News (unofficial mirror)",
+    "title": "Preparing for the 2026 US midterms",
+    "link": "https://www.anthropic.com/news/2026-us-midterms",
+    "summary": "Preparing for the 2026 US midterms",
+    "topics": [
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:11.737019+00:00"
+   },
+   {
+    "id": "fd83ae3d1e3e02de",
+    "date": "2026-10-13",
+    "published": "2026-10-13T23:00:06+00:00",
+    "source": "Simon Willison's Weblog",
+    "title": "Redesigning source control at Anthropic",
+    "link": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+    "summary": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged ",
+    "topics": [
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T01:54:04.320878+00:00"
+   },
+   {
+    "id": "3c2b3e383ed64633",
+    "date": "2026-10-13",
+    "published": "2026-10-13T22:33:33+00:00",
+    "source": "Hacker News — Best",
+    "title": "Recreational Programming",
+    "link": "https://www.cphiri.dev/presentations/recreational-programming",
+    "summary": "Article URL: https://www.cphiri.dev/presentations/recreational-programming Comments URL: https://news.ycombinator.com/item?id=50079865 Points: 305 # Comments: 151",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:12.010560+00:00"
+   },
+   {
+    "id": "781a955ce352281b",
+    "date": "2026-10-13",
+    "published": "2026-10-13T22:28:54+00:00",
+    "source": "Simon Willison's Weblog",
+    "title": "llm-gemini 0.35",
+    "link": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+    "summary": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of pro",
+    "topics": [
+     "ai"
+    ],
+    "tags": [
+     "ai-product",
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T01:54:04.320893+00:00"
+   },
+   {
+    "id": "e16422c6b35ba3e6",
+    "date": "2026-10-13",
+    "published": "2026-10-13T22:25:55+00:00",
+    "source": "Latent Space (AINews)",
+    "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+    "link": "https://www.latent.space/p/dyna",
+    "summary": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
+    "topics": [
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-14T01:54:04.980915+00:00"
+   },
+   {
+    "id": "28063ae763faab42",
+    "date": "2026-10-13",
+    "published": "2026-10-13T20:23:55+00:00",
+    "source": "Hacker News — Best",
+    "title": "OpenAI engineer arrested in bugging of executive conference room",
+    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+    "summary": "https://x.com/OpenAINewsroom/status/2110095403198849132 Comments URL: https://news.ycombinator.com/item?id=50078141 Points: 402 # Comments: 350",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T01:54:03.323753+00:00"
+   },
+   {
+    "id": "01b0fbae59fa451d",
+    "date": "2026-10-13",
+    "published": "2026-10-13T19:11:48+00:00",
+    "source": "Hacker News — Best",
+    "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+    "link": "https://guitoro.com/",
+    "summary": "Guitoro is a free browser guitar using recordings of real instruments. You can strum with your keyboard, mouse, or touchscreen, choose acoustic, classical, electric guitar or bass, and see chord fingering and each stroke. Song practice can be slowed to 20%, and there are free chord tools and tuners.",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:38.116259+00:00"
+   },
+   {
+    "id": "837e840d6faec8c2",
+    "date": "2026-10-13",
+    "published": "2026-10-13T16:03:33+00:00",
+    "source": "The Pragmatic Engineer",
+    "title": "Building resilient AI-powered software, and planning for when things go wrong",
+    "link": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+    "summary": "How to handle uncertainty with AI vendors and disaster recovery (DR) approaches to consider. An excerpt from the book Building Resilient Distributed Systems by Sam Newman",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:38.600486+00:00"
+   },
+   {
+    "id": "11ff46a9a047d567",
+    "date": "2026-10-13",
+    "published": "2026-10-13T16:03:16+00:00",
+    "source": "Hacker News — Best",
+    "title": "Gemini 4 Argon",
+    "link": "https://deepmind.google/models/gemini/",
+    "summary": "Article URL: https://deepmind.google/models/gemini/ Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 447 # Comments: 340",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:36.868048+00:00"
+   },
+   {
+    "id": "c1e94fc831365c13",
+    "date": "2026-10-13",
+    "published": "2026-10-13T16:00:00+00:00",
+    "source": "Google — The Keyword (AI)",
+    "title": "Gemini 4 Argon: Built to solve your hardest problems",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "summary": "TBD",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-13T18:17:36.727162+00:00"
+   },
+   {
+    "id": "8c17f1f1ac30a4ed",
+    "date": "2026-10-13",
+    "published": "2026-10-13T15:49:56+00:00",
+    "source": "Hacker News — Best",
+    "title": "Redesigning source control at Anthropic",
+    "link": "https://www.anthropic.com/engineering/redesigning-source-control",
+    "summary": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 538 # Comments: 522",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T01:54:03.323766+00:00"
+   },
+   {
+    "id": "633e14f60020e796",
+    "date": "2026-10-13",
+    "published": "2026-10-13T15:25:50+00:00",
+    "source": "Hacker News — Best",
+    "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+    "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+    "summary": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 334 # Comments: 177",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:38.116261+00:00"
+   },
+   {
+    "id": "ec2d9401b476efa7",
+    "date": "2026-10-13",
+    "published": "2026-10-13T15:12:57+00:00",
+    "source": "Hacker News — Best",
+    "title": "The United Kingdom generates less electricity per person than in the 1970s",
+    "link": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
+    "summary": "Article URL: https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak Comments URL: https://news.ycombinator.com/item?id=50072994 Points: 383 # Comments: 629",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:38.116262+00:00"
+   },
+   {
+    "id": "c04c76244c9704d6",
+    "date": "2026-10-13",
+    "published": "2026-10-13T15:07:37+00:00",
+    "source": "Hacker News — Best",
+    "title": "Thunderbird for iOS",
+    "link": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+    "summary": "Article URL: https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/ Comments URL: https://news.ycombinator.com/item?id=50072913 Points: 338 # Comments: 149",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T01:54:03.323768+00:00"
+   },
+   {
+    "id": "9929d2c426f6121c",
+    "date": "2026-10-13",
+    "published": "2026-10-13T14:26:08+00:00",
+    "source": "Hacker News — Best",
+    "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+    "link": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
+    "summary": "https://www.apple.com/safari/switch/ Comments URL: https://news.ycombinator.com/item?id=50072286 Points: 282 # Comments: 510",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-14T15:49:38.116264+00:00"
+   }
+  ],
+  "forecasting": [
+   {
+    "id": "36b78c84a812ab2e",
+    "date": "2026-10-14",
+    "published": "2026-10-14T18:46:10+00:00",
+    "source": "The Oracle by Polymarket",
+    "title": "NEW WAYS TO LOSE",
+    "link": "https://news.polymarket.com/p/new-ways-to-lose",
+    "summary": "From BobaGate to the Debate Belch, does Graham Platner’s understudy have the juice?",
+    "topics": [
+     "forecasting",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:20.893943+00:00"
+   },
+   {
+    "id": "6f76e960b3e8563c",
+    "date": "2026-10-09",
+    "published": "2026-10-09T19:21:31+00:00",
+    "source": "The Oracle by Polymarket",
+    "title": "HOW HIGH?",
+    "link": "https://news.polymarket.com/p/how-high",
+    "summary": "Are central banks running out of room to hike?",
+    "topics": [
+     "forecasting",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-10T02:19:25.243535+00:00"
+   },
+   {
+    "id": "08df8c2a4b4ee21f",
+    "date": "2026-10-07",
+    "published": "2026-10-07T14:40:36+00:00",
+    "source": "The Oracle by Polymarket",
+    "title": "SOURCES & METHODS",
+    "link": "https://news.polymarket.com/p/sources-and-methods-aa9",
+    "summary": "Veteran journalist Mark Halperin reveals how to cultivate political sources, and what his are telling him comes after the midterm 'bloodbath'",
+    "topics": [
+     "forecasting",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-07T17:49:19.224326+00:00"
+   },
+   {
+    "id": "d71727874cc3f5f0",
+    "date": "2026-10-01",
+    "published": "2026-10-01T19:34:18+00:00",
+    "source": "The Oracle by Polymarket",
+    "title": "JUST WIN BABY",
+    "link": "https://news.polymarket.com/p/just-win-baby",
+    "summary": "Raiders' playoff odds 3X’d in three weeks. A value investor's guide to deciding if the 3-0 start is signal or noise",
+    "topics": [
+     "forecasting",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-02T02:14:13.940175+00:00"
+   }
+  ],
+  "dataviz": [
+   {
+    "id": "53e0c63afe30d3b2",
+    "date": "2026-10-14",
+    "published": "2026-10-14T17:56:15+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: Where China Out-Trades the U.S. and EU (2000 vs. 2025)",
+    "link": "https://www.visualcapitalist.com/mapped-where-china-out-trades-us-eu-2000-vs-2025/",
+    "summary": "China is now the top goods-trade partner for 92 countries and territories when measured against the U.S. and EU, up from just 10 in 2000.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:18.208609+00:00"
+   },
+   {
+    "id": "806428c880732577",
+    "date": "2026-10-14",
+    "published": "2026-10-14T17:39:29+00:00",
+    "source": "Grafana Labs Blog",
+    "title": "Go from alert to post-incident review with Grafana Cloud IRM and AI",
+    "link": "https://grafana.com/blog/go-from-alert-to-post-incident-review-with-grafana-cloud-irm-and-ai/",
+    "summary": "You’ve got 10 minutes before your next meeting when your phone starts ringing. You’re being paged because the frontend is erroring with failed API requests. You open one tool to see what fired, then another to figure out what’s going on. You message a teammate in Slack to see if they’re noticing the",
+    "topics": [
+     "dataviz",
+     "changelog",
      "product"
     ],
     "tags": [
      "data"
     ],
-    "lang": "zh",
-    "first_seen": "2026-10-14T15:49:41.174643+00:00"
-   }
-  ],
-  "dataviz": [
+    "lang": "en",
+    "first_seen": "2026-10-15T01:27:16.477078+00:00"
+   },
    {
     "id": "862ed53e273b985c",
     "date": "2026-10-14",
@@ -1371,679 +3511,6 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-10-08T17:52:43.786374+00:00"
-   },
-   {
-    "id": "87b5023c41da4c95",
-    "date": "2026-10-08",
-    "published": "2026-10-08T15:55:00+00:00",
-    "source": "Visual Capitalist",
-    "title": "Visualized: The World on the UAE’s Plate",
-    "link": "https://www.visualcapitalist.com/sp/dpw02-visualized-the-world-on-the-uaes-plate/",
-    "summary": "Which regions feed the UAE? Explore the 2025 data behind its broad and diverse sourcing network.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-08T17:52:47.137724+00:00"
-   },
-   {
-    "id": "6d22086c21e37c47",
-    "date": "2026-10-08",
-    "published": "2026-10-08T14:41:05+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The World’s Best Cities for Quality of Life in 2026",
-    "link": "https://www.visualcapitalist.com/ranked-the-worlds-best-cities-for-quality-of-life-in-2026/",
-    "summary": "The best cities for quality of life in 2026, led by Canberra, with Europe claiming 23 of the top 30 spots.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-08T17:52:47.137732+00:00"
-   }
-  ],
-  "product": [
-   {
-    "id": "a23eabea0728b8da",
-    "date": "2026-10-14",
-    "published": "2026-10-14T12:04:05+00:00",
-    "source": "Lenny's Newsletter",
-    "title": "Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design",
-    "link": "https://www.lennysnewsletter.com/p/metas-new-muse-wonder-model-good",
-    "summary": "Watch now (24 mins) | 🎙️Meta launched Muse Wonder with claims of frontier agentic performance, so I ran it headlessly through Claude Code against nearly 20 tasks to find out if any of it is true",
-    "topics": [
-     "product",
-     "growth",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.800797+00:00"
-   },
-   {
-    "id": "190277f965bb8b29",
-    "date": "2026-10-14",
-    "published": "2026-10-14T10:00:00+00:00",
-    "source": "Stratechery",
-    "title": "Apple HomeView, The New Apple TV, The App Story",
-    "link": "https://stratechery.com/2026/apple-homeview-the-new-apple-tv-the-app-story/",
-    "summary": "The Apple Homeview is official, and the question is how big is the addressable market for expensive devices based on subpar AI.",
-    "topics": [
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:49.038513+00:00"
-   },
-   {
-    "id": "bec6e6c98d771dad",
-    "date": "2026-10-14",
-    "published": "2026-10-14T05:07:36+00:00",
-    "source": "Product Hunt",
-    "title": "RoleFit",
-    "link": "https://www.producthunt.com/products/rolefit",
-    "summary": "Tailor every job application without starting from scratch Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503502+00:00"
-   },
-   {
-    "id": "83ca483ba5579bc6",
-    "date": "2026-10-14",
-    "published": "2026-10-14T04:47:06+00:00",
-    "source": "Product Hunt",
-    "title": "PixLate",
-    "link": "https://www.producthunt.com/products/pixlate",
-    "summary": "Translate documents. Preserve artwork and layout. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503500+00:00"
-   },
-   {
-    "id": "f54150d5f8c0666d",
-    "date": "2026-10-14",
-    "published": "2026-10-14T04:35:22+00:00",
-    "source": "Product Hunt",
-    "title": "WriterzRoom",
-    "link": "https://www.producthunt.com/products/writerzroom",
-    "summary": "Governed multi-agent AI content for regulated industries Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503490+00:00"
-   },
-   {
-    "id": "104a505b7b4b8f42",
-    "date": "2026-10-14",
-    "published": "2026-10-14T04:07:56+00:00",
-    "source": "Product Hunt",
-    "title": "Cloud Releases",
-    "link": "https://www.producthunt.com/products/cloud-releases",
-    "summary": "Every AWS, Azure, GCP and Cloudflare update in one feed Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503519+00:00"
-   },
-   {
-    "id": "a4de21d0f9c836b7",
-    "date": "2026-10-14",
-    "published": "2026-10-14T00:29:24+00:00",
-    "source": "Product Hunt",
-    "title": "Diagramly",
-    "link": "https://www.producthunt.com/products/diagramly-2",
-    "summary": "Sketch systems at the speed you think Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503527+00:00"
-   },
-   {
-    "id": "5f5d3765c1d343f6",
-    "date": "2026-10-13",
-    "published": "2026-10-13T21:44:54+00:00",
-    "source": "Product Hunt",
-    "title": "Specreel",
-    "link": "https://www.producthunt.com/products/specreel",
-    "summary": "Product demos that update themselves Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503534+00:00"
-   },
-   {
-    "id": "e8f5b8976f9b312f",
-    "date": "2026-10-13",
-    "published": "2026-10-13T21:19:34+00:00",
-    "source": "Product Hunt",
-    "title": "Payload Peek",
-    "link": "https://www.producthunt.com/products/payload-peek",
-    "summary": "Catch Webhooks. Inspect Payloads. Generate TypeScript. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503530+00:00"
-   },
-   {
-    "id": "613fbd1be09e4e96",
-    "date": "2026-10-13",
-    "published": "2026-10-13T18:51:23+00:00",
-    "source": "Product Hunt",
-    "title": "Hindsight 1.0 + Memlake",
-    "link": "https://www.producthunt.com/products/vectorize",
-    "summary": "Open source memory for AI agents to learn from experience Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503515+00:00"
-   },
-   {
-    "id": "bacd9dbc473e88a0",
-    "date": "2026-10-13",
-    "published": "2026-10-13T17:35:59+00:00",
-    "source": "Product Hunt",
-    "title": "AURORA Lifeline",
-    "link": "https://www.producthunt.com/products/aurora-lifeline",
-    "summary": "Know who a cyclone will cut off, before the roads close Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503520+00:00"
-   },
-   {
-    "id": "f7a9a621df49c8e5",
-    "date": "2026-10-13",
-    "published": "2026-10-13T17:21:30+00:00",
-    "source": "Product Hunt",
-    "title": "Nimble",
-    "link": "https://www.producthunt.com/products/nimble-5",
-    "summary": "SOTA Decision Model Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503493+00:00"
-   },
-   {
-    "id": "08e393a44b1c2629",
-    "date": "2026-10-13",
-    "published": "2026-10-13T15:54:39+00:00",
-    "source": "Product Hunt",
-    "title": "NoteHouse",
-    "link": "https://www.producthunt.com/products/notehouse-2",
-    "summary": "Private lending, without the paperwork headache. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503522+00:00"
-   },
-   {
-    "id": "bdb4d33001b96e5b",
-    "date": "2026-10-13",
-    "published": "2026-10-13T15:07:27+00:00",
-    "source": "Product Hunt",
-    "title": "Blade",
-    "link": "https://www.producthunt.com/products/blade-4",
-    "summary": "Find your first customers hiding in your inbox Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503505+00:00"
-   },
-   {
-    "id": "d8fab87c5eda38cb",
-    "date": "2026-10-13",
-    "published": "2026-10-13T13:43:16+00:00",
-    "source": "Product Hunt",
-    "title": "Apple HomePod mini 2",
-    "link": "https://www.producthunt.com/products/apple-homepod-mini",
-    "summary": "Apple's tiny smart speaker, now built for Siri AI Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503508+00:00"
-   },
-   {
-    "id": "106e2e30c081c301",
-    "date": "2026-10-13",
-    "published": "2026-10-13T13:00:18+00:00",
-    "source": "Product Talk (Teresa Torres)",
-    "title": "Training Expectations - All Things Product Podcast with Teresa Torres & Petra Wille",
-    "link": "https://www.producttalk.org/training-expectations-all-things-product-podcast-with-teresa-torres-petra-wille/",
-    "summary": "Listen to this episode on: Spotify | Apple Podcasts You've got twelve people and one hour booked at next week's offsite. Can someone teach your team to do continuous discovery in that hour? Teresa Torres's answer is a flat no — and this episode is",
-    "topics": [
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:47.531893+00:00"
-   },
-   {
-    "id": "ee47aa4819055218",
-    "date": "2026-10-13",
-    "published": "2026-10-13T12:45:41+00:00",
-    "source": "Lenny's Newsletter",
-    "title": "How to tell if a startup has a moat",
-    "link": "https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat",
-    "summary": "A framework for assessing whether the company you’re considering joining is built to last",
-    "topics": [
-     "product",
-     "growth",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:48.262026+00:00"
-   },
-   {
-    "id": "d4b3639bdc6573c7",
-    "date": "2026-10-13",
-    "published": "2026-10-13T10:00:00+00:00",
-    "source": "Stratechery",
-    "title": "SpaceX Buys More Spectrum, Musk and Market Structure, Distributed Cellular",
-    "link": "https://stratechery.com/2026/spacex-buys-more-spectrum-musk-and-market-structure-distributed-cellular/",
-    "summary": "SpaceX's mobile strategy is becoming clearly with its latest spectrum purchase, and it might work.",
-    "topics": [
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:47.813697+00:00"
-   },
-   {
-    "id": "30d6b5edc81ac643",
-    "date": "2026-10-13",
-    "published": "2026-10-13T09:40:26+00:00",
-    "source": "Product Hunt",
-    "title": "Exodus for Google Cloud Run",
-    "link": "https://www.producthunt.com/products/exodus-by-elim-io",
-    "summary": "Upgrade any app to Cloud Run, with your coding agent Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503492+00:00"
-   },
-   {
-    "id": "fb667febb73c4647",
-    "date": "2026-10-13",
-    "published": "2026-10-13T09:20:41+00:00",
-    "source": "Product Hunt",
-    "title": "SlashDocs by Razorpay",
-    "link": "https://www.producthunt.com/products/razorpay",
-    "summary": "Self-hosted collaboration layer for agent-written HTML Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503473+00:00"
-   },
-   {
-    "id": "60bfd085eea1282e",
-    "date": "2026-10-13",
-    "published": "2026-10-13T07:53:49+00:00",
-    "source": "Product Hunt",
-    "title": "EditUI",
-    "link": "https://www.producthunt.com/products/editui",
-    "summary": "Point at your UI. Tell your coding agent what to change. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503517+00:00"
-   },
-   {
-    "id": "8b60aa870d774457",
-    "date": "2026-10-13",
-    "published": "2026-10-13T07:51:30+00:00",
-    "source": "Product Hunt",
-    "title": "AdAnt 2.0",
-    "link": "https://www.producthunt.com/products/adant-ai",
-    "summary": "Muse for Social Media Marketing Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503468+00:00"
-   },
-   {
-    "id": "f32f58797a41741e",
-    "date": "2026-10-13",
-    "published": "2026-10-13T06:49:28+00:00",
-    "source": "Product Hunt",
-    "title": "GotEmail",
-    "link": "https://www.producthunt.com/products/gotemail",
-    "summary": "Native macOS mail app with one-click sign-in codes and AI Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:47.274608+00:00"
-   },
-   {
-    "id": "2ad4c6f33e712929",
-    "date": "2026-10-13",
-    "published": "2026-10-13T05:39:15+00:00",
-    "source": "Product Hunt",
-    "title": "The Drive AI",
-    "link": "https://www.producthunt.com/products/the-drive-ai-2",
-    "summary": "The AI agent that does the work on your files Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:47.274610+00:00"
-   },
-   {
-    "id": "8b3a843ddab8873c",
-    "date": "2026-10-13",
-    "published": "2026-10-13T03:05:36+00:00",
-    "source": "Product Hunt",
-    "title": "OpenFlowKit 2",
-    "link": "https://www.producthunt.com/products/openflowkit",
-    "summary": "Free, open-source diagrams you and your agent edit together Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:47.274596+00:00"
-   },
-   {
-    "id": "3ddec4d380c14ac0",
-    "date": "2026-10-13",
-    "published": "2026-10-13T02:51:31+00:00",
-    "source": "Product Hunt",
-    "title": "Toby",
-    "link": "https://www.producthunt.com/products/toby-5",
-    "summary": "Realistic mock interviews with an AI hiring manager Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:47.274619+00:00"
-   },
-   {
-    "id": "5737e2955921982a",
-    "date": "2026-10-13",
-    "published": "2026-10-13T02:17:03+00:00",
-    "source": "Product Hunt",
-    "title": "HarnessHive",
-    "link": "https://www.producthunt.com/products/harnesshive",
-    "summary": "AI-Native, Simple & Collaborative Wire Harness Design Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:47.274600+00:00"
-   },
-   {
-    "id": "6ba22338857ee977",
-    "date": "2026-10-13",
-    "published": "2026-10-13T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Repository checkout and Git LFS downloads are now faster",
-    "link": "https://vercel.com/changelog/repository-checkout-and-git-lfs-downloads-are-now-faster",
-    "summary": "Repository checkout and Git LFS downloads are now faster on Vercel, reducing the time spent preparing your project's files before a build. During rollout on build machines with more than two vCPUs: The average time to get project files ready fell by 20%. For LFS-enabled projects, the average time to",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:53.615512+00:00"
-   },
-   {
-    "id": "fd62725cf487ff0a",
-    "date": "2026-10-13",
-    "published": "2026-10-13T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Gemini 4 Argon now available on AI Gateway",
-    "link": "https://vercel.com/changelog/gemini-4-argon-now-available-on-ai-gateway",
-    "summary": "Gemini 4 Argon from Google is now available on AI Gateway . Gemini 4 Argon is built for coding, agentic work, and complex reasoning. It has a 1M token context window, accepts text, image, PDF, and video input, and supports tool calling. On coding tasks, Gemini 4 Argon builds features, fixes bugs, an",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:53.615523+00:00"
-   },
-   {
-    "id": "86b63b4a045c27c3",
-    "date": "2026-10-13",
-    "published": "2026-10-13T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Drama 3 now available on AI Gateway",
-    "link": "https://vercel.com/changelog/drama-3-now-available-on-ai-gateway",
-    "summary": "Drama 3 from Fish Audio is now available on AI Gateway, and 80% off for 30 days (through Nov 12). The text-to-speech model is currently in preview and lets you direct voice performances with natural-language instructions in your script, making it useful for voiceovers, character dialogue, and audio ",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:17.762578+00:00"
-   },
-   {
-    "id": "0eb0a05701d6795e",
-    "date": "2026-10-13",
-    "published": "2026-10-13T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash now available on AI Gateway",
-    "link": "https://vercel.com/changelog/mai-image-2-6-and-mai-image-2-6-flash-now-available-on-ai-gateway",
-    "summary": "MAI-Image-2.6 and MAI-Image-2.6-Flash from Microsoft are now available on AI Gateway . Generate images from text or edit existing images through the AI SDK or the AI CLI , with one API key and no provider account. Both models support photorealistic imagery, text rendering, and targeted edits to prod",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:17.762593+00:00"
-   },
-   {
-    "id": "f3a863d80c45aaaf",
-    "date": "2026-10-12",
-    "published": "2026-10-12T21:24:56+00:00",
-    "source": "Product Hunt",
-    "title": "AdHelm CLI",
-    "link": "https://www.producthunt.com/products/adhelm-cli",
-    "summary": "An Open Sourced CLI for Managing Ads Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:47.274653+00:00"
-   },
-   {
-    "id": "dfaa83455c371e4d",
-    "date": "2026-10-12",
-    "published": "2026-10-12T21:15:50+00:00",
-    "source": "Product Hunt",
-    "title": "Winq",
-    "link": "https://www.producthunt.com/products/winq",
-    "summary": "Control your Mac with a look and a wink Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503495+00:00"
-   },
-   {
-    "id": "38291338172cfaac",
-    "date": "2026-10-12",
-    "published": "2026-10-12T20:08:47+00:00",
-    "source": "Product Hunt",
-    "title": "OpenCode 2.0",
-    "link": "https://www.producthunt.com/products/opencode",
-    "summary": "The open source AI coding agent Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:47.274648+00:00"
-   },
-   {
-    "id": "4b686781d8e2e1f5",
-    "date": "2026-10-12",
-    "published": "2026-10-12T19:47:37+00:00",
-    "source": "Product Hunt",
-    "title": "CraveLens",
-    "link": "https://www.producthunt.com/products/cravelens",
-    "summary": "See it. Crave it. Get it. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503488+00:00"
-   },
-   {
-    "id": "d733585274c8b564",
-    "date": "2026-10-12",
-    "published": "2026-10-12T18:30:13+00:00",
-    "source": "Product Hunt",
-    "title": "daily.dev",
-    "link": "https://www.producthunt.com/products/daily-dev",
-    "summary": "Where agents discover what's next Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:48.503512+00:00"
-   },
-   {
-    "id": "a579bc13fceaf694",
-    "date": "2026-10-12",
-    "published": "2026-10-12T18:25:03+00:00",
-    "source": "Product Hunt",
-    "title": "vibesmonitor.com",
-    "link": "https://www.producthunt.com/products/vibesmonitor",
-    "summary": "The ops center for everything you ship Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:47.274624+00:00"
-   },
-   {
-    "id": "cb9df0a589997d2e",
-    "date": "2026-10-12",
-    "published": "2026-10-12T16:59:33+00:00",
-    "source": "Product Hunt",
-    "title": "Muse Wonder",
-    "link": "https://www.producthunt.com/products/meta-ai",
-    "summary": "Meta’s most capable models for personal agents Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:47.274634+00:00"
-   },
-   {
-    "id": "f2c194596271df83",
-    "date": "2026-10-12",
-    "published": "2026-10-12T16:19:58+00:00",
-    "source": "Product Hunt",
-    "title": "Google Fitbit Edge",
-    "link": "https://www.producthunt.com/products/google-fit-2",
-    "summary": "Google’s smartest fitness tracker ever with 7-day battery Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:47.274617+00:00"
-   },
-   {
-    "id": "6e637153c9542dde",
-    "date": "2026-10-12",
-    "published": "2026-10-12T15:24:29+00:00",
-    "source": "SVPG (Marty Cagan)",
-    "title": "Predictability vs Outcomes",
-    "link": "https://www.svpg.com/predictability-vs-outcomes/",
-    "summary": "I was first taught about the importance of outcome over output way back when I was an engineer getting coached to become a tech lead, and I was explicitly told that it was no longer enough to just build and ship, I had to make sure the solution actually solves the underlying problem. I have... The p",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-12T20:17:36.061554+00:00"
    }
   ],
   "finance": [
@@ -2959,1489 +4426,6 @@
     ],
     "lang": "en",
     "first_seen": "2026-10-01T17:22:15.450686+00:00"
-   },
-   {
-    "id": "7231abd98874442b",
-    "date": "2026-09-30",
-    "published": "2026-09-30T15:35:16+00:00",
-    "source": "CalculatedRisk Newsletter",
-    "title": "Freddie Mac House Price Index Increased in August; Up 2.2% Year-over-year",
-    "link": "https://calculatedrisk.substack.com/p/freddie-mac-house-price-index-increased-1bd",
-    "summary": "Punta Gorda House Prices Down 18.2% from Recent Peak, Austin Down 15.8%, Cape Coral Down 14.6%",
-    "topics": [
-     "macro",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-04T13:16:07.210904+00:00"
-   },
-   {
-    "id": "fa22d86a40ca12ad",
-    "date": "2026-09-30",
-    "published": "2026-09-30T12:17:02+00:00",
-    "source": "CalculatedRisk Newsletter",
-    "title": "High Frequency Data: Purchase Applications Down 14% YoY; Single Family Inventory Increases",
-    "link": "https://calculatedrisk.substack.com/p/high-frequency-data-purchase-applications-fb4",
-    "summary": "Here are two pieces of weekly data that I follow.",
-    "topics": [
-     "macro",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-04T13:16:07.210904+00:00"
-   },
-   {
-    "id": "4974dda2ad8a56a0",
-    "date": "2026-09-30",
-    "published": "2026-09-30T11:00:00+00:00",
-    "source": "Liberty Street Economics (NY Fed)",
-    "title": "The Role of Repos in Monetary Policy Implementation",
-    "link": "https://libertystreeteconomics.newyorkfed.org/2026/09/the-role-of-repos-in-monetary-policy-implementation/",
-    "summary": "In the first two posts of this three-part series, we discussed private market participants that are active in repo markets for profit-making motives. Central banks are also active repo market participants, but their reasons often differ from those of private participants. In today’s post, we discuss",
-    "topics": [
-     "macro",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-30T16:49:25.038286+00:00"
-   }
-  ],
-  "ai": [
-   {
-    "id": "9230023c82da5648",
-    "date": "2026-10-14",
-    "published": "2026-10-14T10:00:00+00:00",
-    "source": "The a16z Show (podcast)",
-    "title": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
-    "link": "https://a16z.simplecast.com/episodes/can-open-models-keep-up-with-the-ai-frontier-nathan-lambert-WqIVvxfv",
-    "summary": "a16z Partner Lisha Li sits down with AI researcher and Trillium founder Nathan Lambert to ask how durable the gap really is between frontier AI labs and open models. Nathan argues that OpenAI and Anthropic have structural advantages in compute, capital, and the ability to pioneer new training paradi",
-    "topics": [
-     "ai",
-     "growth"
-    ],
-    "tags": [
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:50.559187+00:00"
-   },
-   {
-    "id": "e52e6ad577cc314f",
-    "date": "2026-10-14",
-    "published": "2026-10-14T09:28:17+00:00",
-    "source": "Hacker News — Best",
-    "title": "Amazon pushes up prices across the Internet",
-    "link": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
-    "summary": "Article URL: https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/ Comments URL: https://news.ycombinator.com/item?id=50084757 Points: 367 # Comments: 361",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "notification"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:38.116244+00:00"
-   },
-   {
-    "id": "805a2012a18b375d",
-    "date": "2026-10-14",
-    "published": "2026-10-14T08:27:59+00:00",
-    "source": "Hacker News — Best",
-    "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
-    "link": "https://typeof.net/Iosevka/",
-    "summary": "Article URL: https://typeof.net/Iosevka/ Comments URL: https://news.ycombinator.com/item?id=50084240 Points: 434 # Comments: 165",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:38.116254+00:00"
-   },
-   {
-    "id": "e181547094b0a112",
-    "date": "2026-10-14",
-    "published": "2026-10-14T07:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-    "link": "https://openai.com/index/third-moment-research",
-    "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:39.536758+00:00"
-   },
-   {
-    "id": "de04b7d40683fb1a",
-    "date": "2026-10-14",
-    "published": "2026-10-14T06:18:01+00:00",
-    "source": "Hacker News — Best",
-    "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
-    "link": "https://github.com/android/ndk/issues/2260",
-    "summary": "Article URL: https://github.com/android/ndk/issues/2260 Comments URL: https://news.ycombinator.com/item?id=50083130 Points: 419 # Comments: 201",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:38.116257+00:00"
-   },
-   {
-    "id": "268ff6550bc0eba8",
-    "date": "2026-10-14",
-    "published": "2026-10-14T05:40:28+00:00",
-    "source": "Latent Space (AINews)",
-    "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
-    "link": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
-    "summary": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
-    "topics": [
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:38.781268+00:00"
-   },
-   {
-    "id": "87253efedaff810e",
-    "date": "2026-10-14",
-    "published": "2026-10-14T00:00:00+00:00",
-    "source": "Anthropic News (unofficial mirror)",
-    "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-    "link": "https://www.anthropic.com/news/singapore-office-opening",
-    "summary": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-    "topics": [
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:37.609704+00:00"
-   },
-   {
-    "id": "2f3282e483141f68",
-    "date": "2026-10-14",
-    "published": "2026-10-14T00:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "The EU’s next chapter in AI is agentic",
-    "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-    "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:39.536767+00:00"
-   },
-   {
-    "id": "fd83ae3d1e3e02de",
-    "date": "2026-10-13",
-    "published": "2026-10-13T23:00:06+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "Redesigning source control at Anthropic",
-    "link": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-    "summary": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged ",
-    "topics": [
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:04.320878+00:00"
-   },
-   {
-    "id": "781a955ce352281b",
-    "date": "2026-10-13",
-    "published": "2026-10-13T22:28:54+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "llm-gemini 0.35",
-    "link": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-    "summary": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of pro",
-    "topics": [
-     "ai"
-    ],
-    "tags": [
-     "ai-product",
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:04.320893+00:00"
-   },
-   {
-    "id": "e16422c6b35ba3e6",
-    "date": "2026-10-13",
-    "published": "2026-10-13T22:25:55+00:00",
-    "source": "Latent Space (AINews)",
-    "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
-    "link": "https://www.latent.space/p/dyna",
-    "summary": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
-    "topics": [
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:04.980915+00:00"
-   },
-   {
-    "id": "28063ae763faab42",
-    "date": "2026-10-13",
-    "published": "2026-10-13T20:23:55+00:00",
-    "source": "Hacker News — Best",
-    "title": "OpenAI engineer arrested in bugging of executive conference room",
-    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-    "summary": "https://x.com/OpenAINewsroom/status/2110095403198849132 Comments URL: https://news.ycombinator.com/item?id=50078141 Points: 402 # Comments: 350",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:03.323753+00:00"
-   },
-   {
-    "id": "01b0fbae59fa451d",
-    "date": "2026-10-13",
-    "published": "2026-10-13T19:11:48+00:00",
-    "source": "Hacker News — Best",
-    "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
-    "link": "https://guitoro.com/",
-    "summary": "Guitoro is a free browser guitar using recordings of real instruments. You can strum with your keyboard, mouse, or touchscreen, choose acoustic, classical, electric guitar or bass, and see chord fingering and each stroke. Song practice can be slowed to 20%, and there are free chord tools and tuners.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:38.116259+00:00"
-   },
-   {
-    "id": "837e840d6faec8c2",
-    "date": "2026-10-13",
-    "published": "2026-10-13T16:03:33+00:00",
-    "source": "The Pragmatic Engineer",
-    "title": "Building resilient AI-powered software, and planning for when things go wrong",
-    "link": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
-    "summary": "How to handle uncertainty with AI vendors and disaster recovery (DR) approaches to consider. An excerpt from the book Building Resilient Distributed Systems by Sam Newman",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:38.600486+00:00"
-   },
-   {
-    "id": "11ff46a9a047d567",
-    "date": "2026-10-13",
-    "published": "2026-10-13T16:03:16+00:00",
-    "source": "Hacker News — Best",
-    "title": "Gemini 4 Argon",
-    "link": "https://deepmind.google/models/gemini/",
-    "summary": "Article URL: https://deepmind.google/models/gemini/ Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 447 # Comments: 340",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:36.868048+00:00"
-   },
-   {
-    "id": "c1e94fc831365c13",
-    "date": "2026-10-13",
-    "published": "2026-10-13T16:00:00+00:00",
-    "source": "Google — The Keyword (AI)",
-    "title": "Gemini 4 Argon: Built to solve your hardest problems",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-    "summary": "TBD",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:36.727162+00:00"
-   },
-   {
-    "id": "8c17f1f1ac30a4ed",
-    "date": "2026-10-13",
-    "published": "2026-10-13T15:49:56+00:00",
-    "source": "Hacker News — Best",
-    "title": "Redesigning source control at Anthropic",
-    "link": "https://www.anthropic.com/engineering/redesigning-source-control",
-    "summary": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 538 # Comments: 522",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:03.323766+00:00"
-   },
-   {
-    "id": "633e14f60020e796",
-    "date": "2026-10-13",
-    "published": "2026-10-13T15:25:50+00:00",
-    "source": "Hacker News — Best",
-    "title": "I posted to HN, and then my website was flooded with AI bot traffic",
-    "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-    "summary": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 334 # Comments: 177",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:38.116261+00:00"
-   },
-   {
-    "id": "ec2d9401b476efa7",
-    "date": "2026-10-13",
-    "published": "2026-10-13T15:12:57+00:00",
-    "source": "Hacker News — Best",
-    "title": "The United Kingdom generates less electricity per person than in the 1970s",
-    "link": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
-    "summary": "Article URL: https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak Comments URL: https://news.ycombinator.com/item?id=50072994 Points: 383 # Comments: 629",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:38.116262+00:00"
-   },
-   {
-    "id": "c04c76244c9704d6",
-    "date": "2026-10-13",
-    "published": "2026-10-13T15:07:37+00:00",
-    "source": "Hacker News — Best",
-    "title": "Thunderbird for iOS",
-    "link": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
-    "summary": "Article URL: https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/ Comments URL: https://news.ycombinator.com/item?id=50072913 Points: 338 # Comments: 149",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:03.323768+00:00"
-   },
-   {
-    "id": "9929d2c426f6121c",
-    "date": "2026-10-13",
-    "published": "2026-10-13T14:26:08+00:00",
-    "source": "Hacker News — Best",
-    "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
-    "link": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
-    "summary": "https://www.apple.com/safari/switch/ Comments URL: https://news.ycombinator.com/item?id=50072286 Points: 282 # Comments: 510",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:38.116264+00:00"
-   },
-   {
-    "id": "87e22abf54d8b628",
-    "date": "2026-10-13",
-    "published": "2026-10-13T13:32:00+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "Quoting Geoffrey Huntley",
-    "link": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-    "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject",
-    "topics": [
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:37.840959+00:00"
-   },
-   {
-    "id": "98a779afae14dac0",
-    "date": "2026-10-13",
-    "published": "2026-10-13T13:21:35+00:00",
-    "source": "Hacker News — Best",
-    "title": "New Apple TV 4K",
-    "link": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
-    "summary": "Article URL: https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/ Comments URL: https://news.ycombinator.com/item?id=50071310 Points: 288 # Comments: 547",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:03.323770+00:00"
-   },
-   {
-    "id": "020dc0bd5138d3af",
-    "date": "2026-10-13",
-    "published": "2026-10-13T13:02:12+00:00",
-    "source": "Hacker News — Best",
-    "title": "Apple HomeView",
-    "link": "https://www.apple.com/apple-homeview/",
-    "summary": "Article URL: https://www.apple.com/apple-homeview/ Comments URL: https://news.ycombinator.com/item?id=50071017 Points: 472 # Comments: 578",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:36.868055+00:00"
-   },
-   {
-    "id": "3acf0150d624a6f2",
-    "date": "2026-10-13",
-    "published": "2026-10-13T13:00:35+00:00",
-    "source": "Ben's Bites",
-    "title": "Zuck’s wonder...full",
-    "link": "https://www.bensbites.com/p/zucks-wonderfull",
-    "summary": "Is software dead, again?",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:37.838922+00:00"
-   },
-   {
-    "id": "daf9e12c1f37b0d5",
-    "date": "2026-10-13",
-    "published": "2026-10-13T12:00:42+00:00",
-    "source": "Hacker News — Best",
-    "title": "Firefox Enterprise",
-    "link": "https://www.firefox.com/en-US/enterprise/",
-    "summary": "Article URL: https://www.firefox.com/en-US/enterprise/ Comments URL: https://news.ycombinator.com/item?id=50070302 Points: 407 # Comments: 170",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:36.868058+00:00"
-   },
-   {
-    "id": "ffc748cb8d88a919",
-    "date": "2026-10-13",
-    "published": "2026-10-13T12:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "Higgsfield takes AI video from 1 minute to over 10",
-    "link": "https://openai.com/index/higgsfield-longer-videos-voice",
-    "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:04.605729+00:00"
-   },
-   {
-    "id": "0f8702d20d78651d",
-    "date": "2026-10-13",
-    "published": "2026-10-13T11:27:14+00:00",
-    "source": "Hacker News — Best",
-    "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
-    "link": "https://eg2.haku.sh/",
-    "summary": "Article URL: https://eg2.haku.sh/ Comments URL: https://news.ycombinator.com/item?id=50069971 Points: 313 # Comments: 78",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:36.868060+00:00"
-   },
-   {
-    "id": "75ff0b04c5a4ab3d",
-    "date": "2026-10-13",
-    "published": "2026-10-13T10:27:00+00:00",
-    "source": "Hacker News — Best",
-    "title": "11 year old unsoundness bugs found in Rust borrow checker",
-    "link": "https://github.com/rust-lang/rust/issues/164250",
-    "summary": "Article URL: https://github.com/rust-lang/rust/issues/164250 Comments URL: https://news.ycombinator.com/item?id=50069499 Points: 559 # Comments: 323",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:36.868062+00:00"
-   },
-   {
-    "id": "5133e80f2f56a202",
-    "date": "2026-10-13",
-    "published": "2026-10-13T10:08:00+00:00",
-    "source": "Hacker News — Best",
-    "title": "CFTC Staff Were Told to Retract Analysis of Suspicious Oil Trades",
-    "link": "https://www.bloomberg.com/news/features/2026-10-13/cftc-staff-told-to-retract-analysis-of-suspicious-oil-trades-on-iran",
-    "summary": "Article URL: https://www.bloomberg.com/news/features/2026-10-13/cftc-staff-told-to-retract-analysis-of-suspicious-oil-trades-on-iran Comments URL: https://news.ycombinator.com/item?id=50069329 Points: 398 # Comments: 211",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:36.868064+00:00"
-   },
-   {
-    "id": "61eb6f814d629025",
-    "date": "2026-10-13",
-    "published": "2026-10-13T10:00:00+00:00",
-    "source": "The a16z Show (podcast)",
-    "title": "Can AI Break Cryptography? What the Experts Actually Think",
-    "link": "https://a16z.simplecast.com/episodes/can-ai-break-cryptography-what-the-experts-actually-think-LCUGnMEC",
-    "summary": "Could AI break the cryptography protecting everything from crypto wallets and banking to private messages? Recent advances in AI-driven mathematical research have sparked new warnings about the security of today's encryption systems, but how much of the concern is supported by evidence? a16z crypto'",
-    "topics": [
-     "ai",
-     "growth"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:48.483081+00:00"
-   },
-   {
-    "id": "ec132ecc411f087e",
-    "date": "2026-10-13",
-    "published": "2026-10-13T09:37:04+00:00",
-    "source": "Latent Space (AINews)",
-    "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
-    "link": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
-    "summary": "MSL’s emergence as a frontier lab is finally complete.",
-    "topics": [
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:38.541364+00:00"
-   },
-   {
-    "id": "3c04da4c4ba342df",
-    "date": "2026-10-13",
-    "published": "2026-10-13T07:28:34+00:00",
-    "source": "Hacker News — Best",
-    "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
-    "link": "https://blog.character.ai/an-update-on-character-ai/",
-    "summary": "https://www.theverge.com/ai-artificial-intelligence/1009802/... https://techcrunch.com/2026/10/13/just-5-years-in-interactiv... https://www.reuters.com/legal/litigation/characterai-files-b... https://variety.com/2026/biz/news/disney-bids-on-character-a... Comments URL: https://news.ycombinator.com/i",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:03.323772+00:00"
-   },
-   {
-    "id": "b62aaad55d3822f4",
-    "date": "2026-10-13",
-    "published": "2026-10-13T06:02:51+00:00",
-    "source": "Hacker News — Best",
-    "title": "Hittite royal archive found in Turkey",
-    "link": "https://www.thehistoryblog.com/archives/77107",
-    "summary": "Article URL: https://www.thehistoryblog.com/archives/77107 Comments URL: https://news.ycombinator.com/item?id=50067414 Points: 339 # Comments: 83",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:03.323773+00:00"
-   },
-   {
-    "id": "9512e72db4bde2c6",
-    "date": "2026-10-13",
-    "published": "2026-10-13T01:40:05+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "web-edit 0.1a1",
-    "link": "https://simonwillison.net/2026/Oct/13/web-edit/",
-    "summary": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
-    "topics": [
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:04.320896+00:00"
-   },
-   {
-    "id": "ef47cf6a028c4b74",
-    "date": "2026-10-12",
-    "published": "2026-10-12T23:58:46+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "llm-meta-ai 0.2",
-    "link": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-    "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin for the new model. He",
-    "topics": [
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:04.320898+00:00"
-   },
-   {
-    "id": "c41789c5590e4a8d",
-    "date": "2026-10-12",
-    "published": "2026-10-12T21:40:18+00:00",
-    "source": "Hacker News — Best",
-    "title": "AI is a tool and using it well takes skill",
-    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-    "summary": "Article URL: https://yyhh.org/blog/2026/10/ai-is-a-tool/ Comments URL: https://news.ycombinator.com/item?id=50063427 Points: 588 # Comments: 469",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:36.868065+00:00"
-   },
-   {
-    "id": "657a150f08e48f41",
-    "date": "2026-10-12",
-    "published": "2026-10-12T21:35:35+00:00",
-    "source": "Hacker News — Best",
-    "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-    "link": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-    "summary": "Article URL: https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html Comments URL: https://news.ycombinator.com/item?id=50063365 Points: 293 # Comments: 168",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:36.868067+00:00"
-   },
-   {
-    "id": "91172d3fd9e400f3",
-    "date": "2026-10-12",
-    "published": "2026-10-12T19:36:02+00:00",
-    "source": "Hacker News — Best",
-    "title": "Making big downloads resumable in Firefox",
-    "link": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
-    "summary": "Article URL: https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html Comments URL: https://news.ycombinator.com/item?id=50061791 Points: 277 # Comments: 133",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:03.323775+00:00"
-   },
-   {
-    "id": "6001ee7ed96b9e1a",
-    "date": "2026-10-12",
-    "published": "2026-10-12T18:29:04+00:00",
-    "source": "Hacker News — Best",
-    "title": "Codex CLI installs a persistent, self-updating background daemon by default",
-    "link": "https://github.com/openai/codex/issues/48195",
-    "summary": "Article URL: https://github.com/openai/codex/issues/48195 Comments URL: https://news.ycombinator.com/item?id=50060694 Points: 488 # Comments: 248",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T03:32:21.189299+00:00"
-   }
-  ],
-  "ux": [
-   {
-    "id": "f2ac10ab8859a6aa",
-    "date": "2026-10-14",
-    "published": "2026-10-14T08:53:49+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "How getting good at your job can stop you getting better",
-    "link": "https://uxdesign.cc/how-getting-good-at-your-job-can-stop-you-getting-better-023b6e7637ec?source=rss----138adf9c44c---4",
-    "summary": "Many experienced people plateau out of sight. Whether they keep growing depends partly on the problems they’re given to tackle. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T15:49:49.963780+00:00"
-   },
-   {
-    "id": "e1b85572a7158d2c",
-    "date": "2026-10-13",
-    "published": "2026-10-13T22:27:46+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Taste is not a design methodology",
-    "link": "https://uxdesign.cc/taste-is-not-a-design-methodology-e02b37aea148?source=rss----138adf9c44c---4",
-    "summary": "Judgment brings the facts. Agency puts them on the table. AI assisted. It has become our favorite answer to AI-generated sameness. The reality is good products come from judgment built on facts, and the agency to use them when the room prefers opinions. Ask Rick Rubin what he does and he’ll tell you",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:14.640305+00:00"
-   },
-   {
-    "id": "16a31e10743f174e",
-    "date": "2026-10-13",
-    "published": "2026-10-13T22:26:58+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "How to talk about a design that looks worse on paper",
-    "link": "https://uxdesign.cc/how-to-talk-about-a-design-that-looks-worse-on-paper-da73da6d7b57?source=rss----138adf9c44c---4",
-    "summary": "Why it took Microsoft 5 years to roll out an ‘obvious fix’ Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-14T01:54:14.640318+00:00"
-   },
-   {
-    "id": "245827699a87170e",
-    "date": "2026-10-13",
-    "published": "2026-10-13T09:03:24+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "The synth everyone owned and few could program: a lesson for AI design",
-    "link": "https://uxdesign.cc/the-synth-everyone-owned-and-few-could-program-a-lesson-for-ai-design-6f618ec2aea0?source=rss----138adf9c44c---4",
-    "summary": "AI made quality available to everyone, and made it average. What sets work apart now is a decision you can see. An AI assistant helped me write this. The ideas, the data and the final edit are mine. E.PIANO 1 In 1983, Yamaha released the DX7 , the first digital synthesizer to sell in large numbers. ",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:49.257444+00:00"
-   },
-   {
-    "id": "1768b454db8958a7",
-    "date": "2026-10-13",
-    "published": "2026-10-13T07:30:43+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "What are we willing to sacrifice for AI?",
-    "link": "https://uxdesign.cc/what-are-we-willing-to-sacrifice-for-ai-a57736f368a1?source=rss----138adf9c44c---4",
-    "summary": "Three paths forward, each challenging what we value most. Photo by Josh Johnson on Unsplash I suspect artificial intelligence may eventually accomplish what generations of socialists have struggled to achieve. And the irony is that capitalism may ultimately be responsible for making it happen. What ",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:49.257452+00:00"
-   },
-   {
-    "id": "0f89382408b9bcb8",
-    "date": "2026-10-12",
-    "published": "2026-10-12T20:19:31+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
-    "link": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
-    "summary": "Two readers, one page. The agent never sees the surface you designed; it reads the structure underneath. AI assisted. The semantic structure screen readers have used for decades now also decide whether ChatGPT, Claude, Gemini, Grok, and Perplexity can read your page at all. In 2016 I had a series of",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ai-product",
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-13T03:32:27.367135+00:00"
-   },
-   {
-    "id": "de7414e999e6985f",
-    "date": "2026-10-12",
-    "published": "2026-10-12T20:17:45+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
-    "link": "https://uxdesign.cc/ai-is-hollowing-out-the-middle-of-design-leaving-an-hourglass-behind-b7069db250fd?source=rss----138adf9c44c---4",
-    "summary": "For fifteen years, the design process kept growing while the time left for making the product kept shrinking. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-13T03:32:27.367145+00:00"
-   },
-   {
-    "id": "0e0e997fae2922ba",
-    "date": "2026-10-12",
-    "published": "2026-10-12T11:35:46+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "On M.F. Husain and multiple meanings of the colour orange",
-    "link": "https://uxdesign.cc/on-m-f-husain-and-multiple-meanings-of-the-colour-orange-bf4b1a6f5504?source=rss----138adf9c44c---4",
-    "summary": "The painting that introduced me to the power and purpose of art Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-12T20:17:36.986279+00:00"
-   },
-   {
-    "id": "49ad28c633d9260e",
-    "date": "2026-10-12",
-    "published": "2026-10-12T11:35:36+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Borrowed slopes",
-    "link": "https://uxdesign.cc/borrowed-slopes-cb5c5b464a61?source=rss----138adf9c44c---4",
-    "summary": "When a traffic line bends, newsrooms reach for the oldest kit in digital design. The readers it costs are the ones they most need. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-12T20:17:36.986289+00:00"
-   },
-   {
-    "id": "82877fec67a236a7",
-    "date": "2026-10-12",
-    "published": "2026-10-12T09:07:53+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
-    "link": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
-    "summary": "Weekly curated resources for designers — thinkers and makers. “Today, my house and life are painfully void of craft. I live in a new build with pumped out, builder-grade (aka cheap) materials. I have plastic wood lookalikes rather than hand-carved wood. None of my furniture causes that moment of awe",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-12T20:17:36.986292+00:00"
-   },
-   {
-    "id": "fcea724339e96111",
-    "date": "2026-10-11",
-    "published": "2026-10-11T16:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Bad UX Exposed: A Comprehensive Guide to Avoiding Pitfalls",
-    "link": "https://ixdf.org/literature/article/bad-ux-examples",
-    "summary": "In today’s vibrant digital design landscape, creating meaningful connections with users goes beyond offering innovative products or services. It leads us into the world of user experience design (or UX design). This critical factor shapes our interaction with the users and plays a big role in making",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-12T02:22:59.256344+00:00"
-   },
-   {
-    "id": "2f05d93733d322f7",
-    "date": "2026-10-10",
-    "published": "2026-10-10T17:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Understand the Various Types of Creativity",
-    "link": "https://ixdf.org/literature/article/understand-the-various-types-of-creativity",
-    "summary": "When you want to be more creative, you’ll want to learn the techniques for creative thinking and understand the various forms of creativity and creative processes. This video will give you an overview of some of the different forms of creativity. For example, you’ll learn that there are two types of",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-12T02:22:59.256354+00:00"
-   },
-   {
-    "id": "354ef65078259625",
-    "date": "2026-10-09",
-    "published": "2026-10-09T20:32:02+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Designing for an idea before it exists",
-    "link": "https://uxdesign.cc/designing-for-an-idea-before-it-exists-ecd8cb19999a?source=rss----138adf9c44c---4",
-    "summary": "On empty seats, metaphors, and the useful parts that don’t quite fit Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-10T02:19:29.189942+00:00"
-   },
-   {
-    "id": "61bfe1e05ed7234d",
-    "date": "2026-10-09",
-    "published": "2026-10-09T17:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "The New Siri’s Biggest Strength Is Not Intelligence",
-    "link": "https://www.nngroup.com/articles/ai-assistant-context/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "A useful AI assistant needs relevant personal context, the capability to use it, and an experience that helps users understand its limits.",
-    "topics": [
-     "ux",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-10T02:19:28.914806+00:00"
-   },
-   {
-    "id": "905c3a9c5cf546dc",
-    "date": "2026-10-09",
-    "published": "2026-10-09T17:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "Context Libraries: How AI Power Users Manage Context Engineering",
-    "link": "https://www.nngroup.com/articles/context-libraries/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "Claude power users rarely edit their context files and often can’t find them. Your AI agent is only as powerful as its context library.",
-    "topics": [
-     "ux",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-10T02:19:28.914814+00:00"
-   },
-   {
-    "id": "1d4ab9e475a8a215",
-    "date": "2026-10-09",
-    "published": "2026-10-09T09:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Design Podcasts to Learn UX on the Go",
-    "link": "https://ixdf.org/literature/article/design-podcasts-to-learn-ux-on-the-go",
-    "summary": "As digital designers, we know the bulk of our day is spent looking at screens. Give your eyes some rest, and tune into podcasts instead. They are a great way to stay updated, gain insights, be inspired or experience “A-ha” moments. The best part about podcasts is that unlike reading or watching vide",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-12T02:22:59.256358+00:00"
-   },
-   {
-    "id": "7729565e53739cb1",
-    "date": "2026-10-08",
-    "published": "2026-10-08T23:17:58+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Tesler’s Law: complexity moved to a different part of the journey",
-    "link": "https://uxdesign.cc/teslers-law-complexity-survived-the-chat-field-it-just-moved-to-a-different-place-in-the-journey-8a63f099f490?source=rss----138adf9c44c---4",
-    "summary": "The complexity never left the building. It changed hands, and nothing printed a receipt. AI assisted. AI did not remove the complexity of software. It removed the interface that told you where the complexity went, and who is now paying for it. Larry Tesler is the reason you can cut, copy, and paste.",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-09T02:56:23.275533+00:00"
-   },
-   {
-    "id": "4356423fa3f8ff2f",
-    "date": "2026-10-08",
-    "published": "2026-10-08T23:16:42+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Are synthetic users (really) the future of UX research?",
-    "link": "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec?source=rss----138adf9c44c---4",
-    "summary": "Human-centered design demands a limited use of AI-generated personas, if at all A big debate among UX researchers is whether to use synthetic users in their studies. There’s one group of researchers who consider it no less than an abomination, unethical to use an artificial persona to test a product",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-09T02:56:23.275538+00:00"
-   },
-   {
-    "id": "412b5a92b45a2fba",
-    "date": "2026-10-08",
-    "published": "2026-10-08T23:16:30+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Synthetic users are making me rethink “imperfect research”",
-    "link": "https://uxdesign.cc/synthetic-users-are-making-me-rethink-imperfect-research-abbadb8ec082?source=rss----138adf9c44c---4",
-    "summary": "Why I’m reconsidering a principle I’ve believed for years. I’ve always believed that imperfect research is better than no research at all. Synthetic users have made me reconsider that. When synthetic responses are treated like findings from real users, they can create something far more dangerous th",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-09T02:56:23.275539+00:00"
-   },
-   {
-    "id": "6a81342efae6956d",
-    "date": "2026-10-08",
-    "published": "2026-10-08T23:16:10+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "AI-generated UI is fast design, not UX",
-    "link": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
-    "summary": "The call for problem discovery, the freedom and wander, and craft in the age of AI I grew up surrounded by 17th- and 18th-century architecture my stepfather salvaged from around the world. My mother had a knack for convincing him to put some of his salvaged pieces in our house, which meant I got to ",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-09T02:56:23.275541+00:00"
-   },
-   {
-    "id": "888237ce3ec63dbc",
-    "date": "2026-10-08",
-    "published": "2026-10-08T23:15:43+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "What the AI era owes you",
-    "link": "https://uxdesign.cc/what-the-ai-era-owes-you-d472b3859bf3?source=rss----138adf9c44c---4",
-    "summary": "A handloom weaver in 1820 could not have named a single job his trade would turn into. Neither can anyone today. No one is going to save your career from AI. That’s the most useful thing anyone can tell you about your job, and the sooner you believe it, the sooner you start building a version of you",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-09T02:56:23.275542+00:00"
-   },
-   {
-    "id": "eed8d79920e27b60",
-    "date": "2026-10-08",
-    "published": "2026-10-08T09:20:37+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "AI: incidents by design",
-    "link": "https://uxdesign.cc/ai-incidents-by-design-d4708a3dda9e?source=rss----138adf9c44c---4",
-    "summary": "When safety is optional, and capability is urgent, incidents are not accidents. They are what we (consciously or not) designed and built for. AI makes headlines almost every day. And most days, they read like science fiction. Except they are not. Last year, in a simulation, Anthropic’s Claude learne",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-08T17:52:51.262547+00:00"
-   },
-   {
-    "id": "d591baa0621a61a6",
-    "date": "2026-10-07",
-    "published": "2026-10-07T19:54:06+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Bounded delegation: How much authority should AI have?",
-    "link": "https://uxdesign.cc/bounded-delegation-how-much-authority-should-ai-have-823a58fb4192?source=rss----138adf9c44c---4",
-    "summary": "A practical model for deciding what AI can do, what humans must still own, and where product teams should draw the boundary. Image created by the author with OpenAI image generation. An AI tool clusters hundreds of customer comments and names the largest theme “pricing friction”. The label sounds pl",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-08T02:41:56.102994+00:00"
-   },
-   {
-    "id": "3fcadd7ff69dc85c",
-    "date": "2026-10-07",
-    "published": "2026-10-07T19:48:49+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Beyond streaks and nudges: ethical gamification & AI design",
-    "link": "https://uxdesign.cc/beyond-streaks-and-nudges-ethical-gamification-ai-design-1c4f6e8ef2cc?source=rss----138adf9c44c---4",
-    "summary": "Part 1 of 3 on designing systems that inspire rather than manipulate. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "retention",
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-08T02:41:56.103004+00:00"
-   },
-   {
-    "id": "f0a84f550c0422a8",
-    "date": "2026-10-06",
-    "published": "2026-10-06T23:35:43+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
-    "link": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
-    "summary": "A judgment call, wired in like any other function. Typed answers at keystroke speed let the interface act, suggest, or ask. How UX designers can put a decision model to work today in their applications. On September 15, 2026, a San Francisco lab called TypeSafe AI shipped Jev , a classifier model. Y",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-07T02:22:17.288272+00:00"
-   },
-   {
-    "id": "5b51367503ace599",
-    "date": "2026-10-06",
-    "published": "2026-10-06T23:35:06+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Why designers need to stop reporting and start recommending at work",
-    "link": "https://uxdesign.cc/why-designers-need-to-stop-reporting-and-start-recommending-at-work-6fa861f58097?source=rss----138adf9c44c---4",
-    "summary": "Sticky notes don’t help your team. They need your direction Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-07T02:22:17.288279+00:00"
-   },
-   {
-    "id": "b50ce424608be84f",
-    "date": "2026-10-06",
-    "published": "2026-10-06T23:34:41+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "How apps know us better than we do and influence our decisions",
-    "link": "https://uxdesign.cc/how-apps-know-us-better-than-we-do-and-influence-our-decisions-f7a5182be6f1?source=rss----138adf9c44c---4",
-    "summary": "Explaining the Homo Metricus: someone who understands themselves based on scores in apps Photo by Will Truettner on Unsplash When I go cycling, my family asks how many kilometres I’ve covered. When I come back from a football match, the first question I hear is whether I scored. Or even better/worse",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-07T02:22:17.288281+00:00"
-   },
-   {
-    "id": "442527922d8f6457",
-    "date": "2026-10-06",
-    "published": "2026-10-06T16:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "User Experience (UX) Surveys: The Ultimate Guide",
-    "link": "https://ixdf.org/literature/article/ux-surveys",
-    "summary": "Imagine you’re a business owner who wants to know what’s working and what’s not on your website—and, oh yes, where you need improvements. Sure, there are a bunch of research methods you can try—like user interviews, usability tests, and A/B testing, but read on and see how a user experience (UX) sur",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-12T02:22:59.256361+00:00"
-   },
-   {
-    "id": "72d47b1a1f538231",
-    "date": "2026-10-05",
-    "published": "2026-10-05T22:00:31+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Is Meta’s new AI agent easier to trust because it’s cute?",
-    "link": "https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-it-s-cute-c8de13aefc6f?source=rss----138adf9c44c---4",
-    "summary": "Muse comes with an avatar you design and a keyring gadget. Few people would hand Meta their passwords, yet it topped the US App Store. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ai-product",
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-06T02:57:32.992510+00:00"
-   },
-   {
-    "id": "7f74faed248e4c37",
-    "date": "2026-10-05",
-    "published": "2026-10-05T22:00:12+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "AI skill atrophy: Are we forgetting how to think?",
-    "link": "https://uxdesign.cc/ai-skill-atrophy-cognitive-offloading-1afbf92eb496?source=rss----138adf9c44c---4",
-    "summary": "The hidden cost of outsourcing our thinking to AI. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-06T02:57:32.992517+00:00"
-   },
-   {
-    "id": "1dc21252b5d7e557",
-    "date": "2026-10-05",
-    "published": "2026-10-05T21:59:40+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "The taste paradox: why the skill everyone says matters is the one we’ve stopped building",
-    "link": "https://uxdesign.cc/the-taste-paradox-why-the-skill-everyone-says-matters-is-the-one-weve-stopped-building-32d1523f1f95?source=rss----138adf9c44c---4",
-    "summary": "We keep saying taste is the last human advantage, but we’ve built a world (and now tools) that make it almost impossible to develop, and we’re responding by de-risking even further Still from Fantastic Planet , 1973 Most designers and creatives seem to agree that taste and, with that, being able to ",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-06T02:57:32.992520+00:00"
-   },
-   {
-    "id": "deb0b0b8cefd1ffa",
-    "date": "2026-10-05",
-    "published": "2026-10-05T11:01:01+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Prompt as self-portrait, De-slopifying your designs, The strategic designer",
-    "link": "https://uxdesign.cc/prompt-as-self-portrait-de-slopifying-your-designs-the-strategic-designer-cf8162f43284?source=rss----138adf9c44c---4",
-    "summary": "Weekly curated resources for designers — thinkers and makers. “Every prompt is a confession. Before the model returns a word, the box has read me back: the clarity of my thinking, the range of my references, the questions I didn’t think to ask. I think I am describing a task, while in reality I am d",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-06T02:57:32.992521+00:00"
-   },
-   {
-    "id": "8e51cfc9166a9ad0",
-    "date": "2026-10-04",
-    "published": "2026-10-04T14:34:28+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "The building was there first",
-    "link": "https://uxdesign.cc/the-building-was-there-first-26c6c4e49ba8?source=rss----138adf9c44c---4",
-    "summary": "A style’s real output isn’t what it makes. It’s the category it installs in whoever looks. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-04T15:48:32.694926+00:00"
-   },
-   {
-    "id": "5340c97732c5d7a6",
-    "date": "2026-10-03",
-    "published": "2026-10-03T11:12:42+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "The feed I produce myself",
-    "link": "https://uxdesign.cc/the-feed-i-produce-myself-11e4192f394c?source=rss----138adf9c44c---4",
-    "summary": "On working with agents, producing more than ever, and losing the ability to see anything whole. Maestro, we have six more deliveries ready — Created by the author with AI I'm writing this on a Sunday morning. While I write, several agents are working in other tabs on my computer, on projects that ha",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-03T15:08:54.956491+00:00"
-   },
-   {
-    "id": "5ef119cef1ce8843",
-    "date": "2026-10-02",
-    "published": "2026-10-02T17:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile",
-    "link": "https://www.nngroup.com/articles/big-ball-of-mud-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "AI makes building nearly free, so users grow agentic systems piecemeal into fragile messes they no longer understand.",
-    "topics": [
-     "ux",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-03T01:56:23.284267+00:00"
-   },
-   {
-    "id": "6e99288756d88851",
-    "date": "2026-10-02",
-    "published": "2026-10-02T17:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "Empathy Mapping: The First Step in Design Thinking",
-    "link": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
-    "topics": [
-     "ux",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-03T01:56:23.284274+00:00"
-   },
-   {
-    "id": "6fea9d0ddeb0caa3",
-    "date": "2026-10-02",
-    "published": "2026-10-02T11:09:56+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "In/tension modeling: what gives us the right?",
-    "link": "https://uxdesign.cc/in-tension-modeling-what-gives-us-the-right-01740248eb45?source=rss----138adf9c44c---4",
-    "summary": "How to navigate opposing voices and lived tensions. By Julia Beard , Naman Mandhan, & Stacie Sheldon Asking the Hardest Question First “What gives us the right to make the interventions and choices we are contemplating on behalf of others?” asks Erika Hall, cofounder of Mule Design. For UX professio",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-02T16:38:11.982441+00:00"
-   },
-   {
-    "id": "9f32542ceab5ca98",
-    "date": "2026-10-01",
-    "published": "2026-10-01T22:52:26+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Stop blaming the model for slow AI. Using Doherty’s threshold as a guideline.",
-    "link": "https://uxdesign.cc/stop-blaming-the-model-for-slow-ai-heres-how-to-design-for-it-doherty-s-threshold-as-a-guideline-5fa6d52e23fc?source=rss----138adf9c44c---4",
-    "summary": "Two eras of computing, held to the same 400 millisecond standard. Doherty’s threshold set the rules and has now moved from the answer to the acknowledgment. The fix is a week of front-end work and a definition of done, not cheaper inference. Productivity soars when a computer and its users interact ",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-02T02:14:16.607913+00:00"
-   },
-   {
-    "id": "e1763f5eb21e5e98",
-    "date": "2026-10-01",
-    "published": "2026-10-01T22:51:02+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Design’s consensus was AI’s first casualty",
-    "link": "https://uxdesign.cc/designs-consensus-was-ai-s-first-casualty-8143c1bada80?source=rss----138adf9c44c---4",
-    "summary": "The same evidence about AI is being read two opposite ways, and designers are left choosing between them without a clear consensus to lean… Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-02T02:14:16.607923+00:00"
-   },
-   {
-    "id": "37324ba8032b276c",
-    "date": "2026-10-01",
-    "published": "2026-10-01T22:49:51+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "AI beyond average: from chatting to collaborating",
-    "link": "https://uxdesign.cc/ai-beyond-average-from-chatting-to-collaborating-7b308dd9317a?source=rss----138adf9c44c---4",
-    "summary": "How context, skills, and feedback turn the same model into a different kind of collaborator Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-02T02:14:16.607926+00:00"
-   }
-  ],
-  "forecasting": [
-   {
-    "id": "6f76e960b3e8563c",
-    "date": "2026-10-09",
-    "published": "2026-10-09T19:21:31+00:00",
-    "source": "The Oracle by Polymarket",
-    "title": "HOW HIGH?",
-    "link": "https://news.polymarket.com/p/how-high",
-    "summary": "Are central banks running out of room to hike?",
-    "topics": [
-     "forecasting",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-10T02:19:25.243535+00:00"
-   },
-   {
-    "id": "08df8c2a4b4ee21f",
-    "date": "2026-10-07",
-    "published": "2026-10-07T14:40:36+00:00",
-    "source": "The Oracle by Polymarket",
-    "title": "SOURCES & METHODS",
-    "link": "https://news.polymarket.com/p/sources-and-methods-aa9",
-    "summary": "Veteran journalist Mark Halperin reveals how to cultivate political sources, and what his are telling him comes after the midterm 'bloodbath'",
-    "topics": [
-     "forecasting",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-07T17:49:19.224326+00:00"
-   },
-   {
-    "id": "d71727874cc3f5f0",
-    "date": "2026-10-01",
-    "published": "2026-10-01T19:34:18+00:00",
-    "source": "The Oracle by Polymarket",
-    "title": "JUST WIN BABY",
-    "link": "https://news.polymarket.com/p/just-win-baby",
-    "summary": "Raiders' playoff odds 3X’d in three weeks. A value investor's guide to deciding if the 3-0 start is signal or noise",
-    "topics": [
-     "forecasting",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-02T02:14:13.940175+00:00"
    }
   ],
   "design": [
@@ -4460,22 +4444,6 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-10-06T17:11:09.404922+00:00"
-   },
-   {
-    "id": "000a02360e0be805",
-    "date": "2026-09-30",
-    "published": "2026-09-30T13:30:00+00:00",
-    "source": "Smashing Magazine",
-    "title": "Under Autumn’s Spell (October 2026 Wallpapers Edition)",
-    "link": "https://smashingmagazine.com/2026/09/desktop-wallpaper-calendars-october-2026/",
-    "summary": "October is just around the corner, which means it’s time for some new desktop wallpapers! Designed by the community for the community, they’re here to brighten your screens, and maybe spark some creativity along the way.",
-    "topics": [
-     "design",
-     "ux"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-09-30T16:49:23.367163+00:00"
    }
   ],
   "growth": [
@@ -4514,36 +4482,18 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-10-04T13:15:57.919818+00:00"
-   },
-   {
-    "id": "6b0a9e0049ef56fd",
-    "date": "2026-09-30",
-    "published": "2026-09-30T13:31:52+00:00",
-    "source": "Ecoinometrics",
-    "title": "Bitcoin Is Rejoining The Risk-On Complex",
-    "link": "https://ecoinometrics.substack.com/p/bitcoin-is-rejoining-the-risk-on",
-    "summary": "And the Nasdaq regime is currently working in its favour",
-    "topics": [
-     "crypto",
-     "macro",
-     "dataviz",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-04T13:15:57.919818+00:00"
    }
   ]
  },
  "tag_counts": {
-  "ai-product": 348,
-  "growth": 130,
-  "ux": 129,
-  "finance-product": 109,
-  "data": 59,
-  "notification": 38,
-  "dashboard": 35,
-  "retention": 17,
+  "ai-product": 318,
+  "growth": 122,
+  "ux": 120,
+  "finance-product": 102,
+  "data": 51,
+  "notification": 34,
+  "dashboard": 33,
+  "retention": 15,
   "forecasting": 14,
   "onboarding": 3
  },
