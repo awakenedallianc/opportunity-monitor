@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-15T10:54:23.640124+00:00",
+ "generated_at": "2026-10-15T15:36:06.592946+00:00",
  "sources": 65,
- "ok": 63,
- "new_items": 126,
- "duration_s": 120.1,
+ "ok": 56,
+ "new_items": 47,
+ "duration_s": 17.4,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 26,
+   "new": 20,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -30,15 +30,6 @@
    "items": 15,
    "new": 0,
    "last_item": "2024-02-26",
-   "error": null
-  },
-  {
-   "name": "Andrew Chen (Substack)",
-   "feed_url": "https://andrewchen.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "new": 1,
-   "last_item": "2026-10-06",
    "error": null
   },
   {
@@ -73,8 +64,8 @@
    "feed_url": "https://www.bensbites.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-10-13",
+   "new": 1,
+   "last_item": "2026-10-15",
    "error": null
   },
   {
@@ -96,30 +87,12 @@
    "error": null
   },
   {
-   "name": "CalculatedRisk Newsletter",
-   "feed_url": "https://calculatedrisk.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "new": 8,
-   "last_item": "2026-10-14",
-   "error": null
-  },
-  {
    "name": "Claude Blog (unofficial RSS)",
    "feed_url": "https://tim-hilde.github.io/anthropic-rss/rss.xml",
    "ok": true,
    "items": 20,
    "new": 0,
    "last_item": "2026-10-05",
-   "error": null
-  },
-  {
-   "name": "Coin Metrics – State of the Network",
-   "feed_url": "https://coinmetrics.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "new": 2,
-   "last_item": "2026-10-13",
    "error": null
   },
   {
@@ -141,15 +114,6 @@
    "error": null
   },
   {
-   "name": "Ecoinometrics",
-   "feed_url": "https://ecoinometrics.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "new": 6,
-   "last_item": "2026-10-14",
-   "error": null
-  },
-  {
    "name": "Elena's Growth Scoop (Elena Verna)",
    "feed_url": "https://www.elenaverna.com/feed",
    "ok": true,
@@ -163,7 +127,7 @@
    "feed_url": "https://www.ft.com/rss/alphaville",
    "ok": true,
    "items": 25,
-   "new": 3,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -172,7 +136,7 @@
    "feed_url": "https://www.ft.com/visual-and-data-journalism?format=rss",
    "ok": true,
    "items": 25,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -183,15 +147,6 @@
    "items": 10,
    "new": 1,
    "last_item": "2026-10-15",
-   "error": null
-  },
-  {
-   "name": "Forecasting Research Institute",
-   "feed_url": "https://forecastingresearch.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "new": 1,
-   "last_item": "2026-10-05",
    "error": null
   },
   {
@@ -217,8 +172,8 @@
    "feed_url": "https://grafana.com/blog/index.xml",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-10-14",
+   "new": 1,
+   "last_item": "2026-10-15",
    "error": null
   },
   {
@@ -227,7 +182,7 @@
    "ok": true,
    "items": 30,
    "new": 5,
-   "last_item": "2026-10-14",
+   "last_item": "2026-10-15",
    "error": null
   },
   {
@@ -235,7 +190,7 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 11,
+   "new": 6,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -253,7 +208,7 @@
    "feed_url": "https://www.latent.space/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -271,8 +226,8 @@
    "feed_url": "https://libertystreeteconomics.newyorkfed.org/feed/",
    "ok": true,
    "items": 100,
-   "new": 0,
-   "last_item": "2026-10-14",
+   "new": 1,
+   "last_item": "2026-10-15",
    "error": null
   },
   {
@@ -306,9 +261,9 @@
    "name": "OpenAI News",
    "feed_url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1293,
-   "new": 0,
-   "last_item": "2026-10-14",
+   "items": 1294,
+   "new": 1,
+   "last_item": "2026-10-15",
    "error": null
   },
   {
@@ -334,7 +289,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 30,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -343,8 +298,8 @@
    "feed_url": "https://www.producttalk.org/feed/",
    "ok": true,
    "items": 15,
-   "new": 0,
-   "last_item": "2026-10-13",
+   "new": 1,
+   "last_item": "2026-10-15",
    "error": null
   },
   {
@@ -352,7 +307,7 @@
    "feed_url": "http://feeds.feedburner.com/Quantocracy",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -370,8 +325,8 @@
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
-   "new": 0,
-   "last_item": "2026-10-14",
+   "new": 1,
+   "last_item": "2026-10-15",
    "error": null
   },
   {
@@ -397,17 +352,8 @@
    "feed_url": "https://stratechery.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-15",
-   "error": null
-  },
-  {
-   "name": "The Beautiful Mess (John Cutler)",
-   "feed_url": "https://cutlefish.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "new": 1,
-   "last_item": "2026-10-11",
    "error": null
   },
   {
@@ -426,15 +372,6 @@
    "items": 20,
    "new": 0,
    "last_item": "2026-09-09",
-   "error": null
-  },
-  {
-   "name": "The Macro Compass",
-   "feed_url": "https://themacrocompass.substack.com/feed",
-   "ok": true,
-   "items": 20,
-   "new": 0,
-   "last_item": "2026-07-13",
    "error": null
   },
   {
@@ -487,7 +424,7 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -514,8 +451,8 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-10-14",
+   "new": 3,
+   "last_item": "2026-10-15",
    "error": null
   },
   {
@@ -532,7 +469,7 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 15,
+   "new": 2,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -541,7 +478,7 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 5,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -550,7 +487,7 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -559,7 +496,7 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 2,
+   "new": 3,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -568,9 +505,45 @@
    "feed_url": "https://www.qbitai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
+  },
+  {
+   "name": "Andrew Chen (Substack)",
+   "feed_url": "https://andrewchen.substack.com/feed",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "403 Client Error: Forbidden for url: https://andrewchen.substack.com/feed"
+  },
+  {
+   "name": "CalculatedRisk Newsletter",
+   "feed_url": "https://calculatedrisk.substack.com/feed",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "403 Client Error: Forbidden for url: https://calculatedrisk.substack.com/feed"
+  },
+  {
+   "name": "Coin Metrics – State of the Network",
+   "feed_url": "https://coinmetrics.substack.com/feed",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "403 Client Error: Forbidden for url: https://coinmetrics.substack.com/feed"
+  },
+  {
+   "name": "Ecoinometrics",
+   "feed_url": "https://ecoinometrics.substack.com/feed",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "403 Client Error: Forbidden for url: https://ecoinometrics.substack.com/feed"
   },
   {
    "name": "FRED Blog",
@@ -582,6 +555,15 @@
    "error": "not a feed (<unknown>:86:42: not well-formed (invalid token))"
   },
   {
+   "name": "Forecasting Research Institute",
+   "feed_url": "https://forecastingresearch.substack.com/feed",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "403 Client Error: Forbidden for url: https://forecastingresearch.substack.com/feed"
+  },
+  {
    "name": "Glassnode Research",
    "feed_url": "https://research.glassnode.com/rss/",
    "ok": false,
@@ -589,6 +571,24 @@
    "new": 0,
    "last_item": null,
    "error": "403 Client Error: Forbidden for url: https://research.glassnode.com/rss/"
+  },
+  {
+   "name": "The Beautiful Mess (John Cutler)",
+   "feed_url": "https://cutlefish.substack.com/feed",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "403 Client Error: Forbidden for url: https://cutlefish.substack.com/feed"
+  },
+  {
+   "name": "The Macro Compass",
+   "feed_url": "https://themacrocompass.substack.com/feed",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "403 Client Error: Forbidden for url: https://themacrocompass.substack.com/feed"
   }
  ]
 }
