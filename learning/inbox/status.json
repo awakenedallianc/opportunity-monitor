@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-15T15:36:06.592946+00:00",
+ "generated_at": "2026-10-16T01:19:40.535784+00:00",
  "sources": 65,
  "ok": 56,
- "new_items": 47,
- "duration_s": 17.4,
+ "new_items": 70,
+ "duration_s": 12.1,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 20,
-   "last_item": "2026-10-15",
+   "new": 22,
+   "last_item": "2026-10-16",
    "error": null
   },
   {
@@ -37,8 +37,8 @@
    "feed_url": "https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml",
    "ok": true,
    "items": 14,
-   "new": 0,
-   "last_item": "2026-10-14",
+   "new": 1,
+   "last_item": "2026-10-15",
    "error": null
   },
   {
@@ -55,7 +55,7 @@
    "feed_url": "https://bankunderground.co.uk/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -64,7 +64,7 @@
    "feed_url": "https://www.bensbites.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -99,18 +99,18 @@
    "name": "Datawrapper Blog",
    "feed_url": "https://www.datawrapper.de/blog/feed/",
    "ok": true,
-   "items": 1081,
-   "new": 0,
-   "last_item": "2026-10-14",
+   "items": 1082,
+   "new": 1,
+   "last_item": "2026-10-15",
    "error": null
   },
   {
    "name": "Datawrapper Blog",
    "feed_url": "https://blog.datawrapper.de/feed/",
    "ok": true,
-   "items": 1081,
+   "items": 1082,
    "new": 0,
-   "last_item": "2026-10-14",
+   "last_item": "2026-10-15",
    "error": null
   },
   {
@@ -181,7 +181,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 5,
+   "new": 8,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -190,7 +190,7 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 6,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -226,7 +226,7 @@
    "feed_url": "https://libertystreeteconomics.newyorkfed.org/feed/",
    "ok": true,
    "items": 100,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -261,8 +261,8 @@
    "name": "OpenAI News",
    "feed_url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1294,
-   "new": 1,
+   "items": 1296,
+   "new": 2,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -280,8 +280,8 @@
    "feed_url": "https://www.news.aakashg.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-10-14",
+   "new": 1,
+   "last_item": "2026-10-15",
    "error": null
   },
   {
@@ -298,7 +298,7 @@
    "feed_url": "https://www.producttalk.org/feed/",
    "ok": true,
    "items": 15,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -388,8 +388,8 @@
    "feed_url": "https://newsletter.pragmaticengineer.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-10-14",
+   "new": 1,
+   "last_item": "2026-10-15",
    "error": null
   },
   {
@@ -433,17 +433,17 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-10-14",
+   "new": 4,
+   "last_item": "2026-10-15",
    "error": null
   },
   {
    "name": "Vercel News",
    "feed_url": "https://vercel.com/atom",
    "ok": true,
-   "items": 1659,
-   "new": 0,
-   "last_item": "2026-10-14",
+   "items": 1676,
+   "new": 17,
+   "last_item": "2026-10-15",
    "error": null
   },
   {
@@ -451,7 +451,7 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 3,
+   "new": 1,
    "last_item": "2026-10-15",
    "error": null
   },
@@ -469,8 +469,8 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 2,
-   "last_item": "2026-10-15",
+   "new": 4,
+   "last_item": "2026-10-16",
    "error": null
   },
   {
@@ -487,8 +487,8 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 0,
-   "last_item": "2026-10-15",
+   "new": 2,
+   "last_item": "2026-10-16",
    "error": null
   },
   {
@@ -497,7 +497,7 @@
    "ok": true,
    "items": 20,
    "new": 3,
-   "last_item": "2026-10-15",
+   "last_item": "2026-10-16",
    "error": null
   },
   {
