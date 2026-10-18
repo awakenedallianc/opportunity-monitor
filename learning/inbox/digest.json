@@ -1,9 +1,67 @@
 {
- "generated_at": "2026-10-17T14:13:02.648462+00:00",
+ "generated_at": "2026-10-18T01:01:43.219086+00:00",
  "window_days": 14,
- "total": 2286,
+ "total": 2204,
  "groups": {
   "china": [
+   {
+    "id": "7a7fbfdda8ce8c39",
+    "date": "2026-10-18",
+    "published": "2026-10-18T01:00:00+00:00",
+    "source": "36氪",
+    "title": "全球人形机器人收入前五全是中国企业，前8个月深圳机器人出口激增超1200%",
+    "link": "https://36kr.com/newsflashes/4030656795120006?f=rss",
+    "summary": "近日，国际咨询机构弗若斯特沙利文发布《2026年全球人形机器人市场研究报告》。今年上半年，全球人形机器人销量达到3.6万台，超过2025年全年的3.5万台；市场收入达到5.4亿美元。按照收入计算，今年上半年全球人形机器人市场前五名全部由中国企业包揽，其中深圳企业占据两席。深圳海关数据显示，今年前8个月，深圳各类单独列名的机器人合计出口达111.3亿元，同比增长12.2倍，产品已销至全球120多个国家和地区。（央视财经）（央视财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-18T01:01:02.754989+00:00"
+   },
+   {
+    "id": "e1a865eeecc3d624",
+    "date": "2026-10-18",
+    "published": "2026-10-18T00:46:18+00:00",
+    "source": "人人都是产品经理",
+    "title": "Vibe-Trading 部署实录：用开源 Agent 做 A 股研究与回测",
+    "link": "https://www.woshipm.com/ai/6479905.html",
+    "summary": "香港大学团队开源的 Vibe-Trading 已在 GitHub 拿到 3.5 万 star，支持 A 股、港股、美股行情与策略回测。用自然语言提问题，它就能调数据、跑回测、出报告，从部署到实证一次跑通。 我之前分享过一款开源股票研究 Agent，它的架构设计很有参考价值，不过在 A 股数据和使用场景上还有些局限。感兴趣的朋友可以回顾： 部署TradingAgents：把一家公司“装进”大模型里，自动完成股票研究 最近我在 GitHub 上发现了 Vibe-Trading ，这是香港大学团队开源的金融研究项目，支持 A 股行情分析，也提供策略研究和回测等功能。目前 GitHub 上已经有 3.",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ai-product",
+     "ux",
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-18T01:01:03.904116+00:00"
+   },
+   {
+    "id": "064cfc0032d02a32",
+    "date": "2026-10-18",
+    "published": "2026-10-18T00:39:02+00:00",
+    "source": "极客公园",
+    "title": "DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道",
+    "link": "http://www.geekpark.net/news/372512",
+    "summary": "DeepSeek V4.1 Flash 新版本上线：许愿式编程一键成真 10 月 17 日，DeepSeek V4.1 Flash 更新至 V4.1-Flash-1017 版本，官方网页端、APP 与 API 模型已同步变更为新模型。相比上一版本的 DeepSeek V4.1 Flash，新模型在各方面的基准测试中取得了长足的提升。 在提升性能的同时，模型的任务运行时间与输出长度还缩短了，让用户能够以更低成本、更快速度完成任务，在多个 Harness 下达到了新的性能-费用帕累托最优。 特别地，此次优化着重针对 DeepSeek Harness、腾讯 CodeBuddy、WorkBuddy 等",
+    "topics": [
+     "china",
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-18T01:01:43.176905+00:00"
+   },
    {
     "id": "fd5719477a8134e6",
     "date": "2026-10-17",
@@ -654,64 +712,709 @@
     ],
     "lang": "zh",
     "first_seen": "2026-10-17T14:12:48.481450+00:00"
+   }
+  ],
+  "product": [
+   {
+    "id": "f3b4b96b5bbd5b8e",
+    "date": "2026-10-17",
+    "published": "2026-10-17T20:03:00+00:00",
+    "source": "Vercel News",
+    "title": "AI Gateway logs now show session affinity",
+    "link": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
+    "summary": "AI Gateway logs now have a Sessions view that groups requests into sessions and shows how session affinity routed each one. Each row shows the coding agent or app that ran the session, such as Claude Code, Codex, or Cursor, along with its cost, models, providers, and how much of its input was cached",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:12.434469+00:00"
    },
    {
-    "id": "bcdd45d7712f41f9",
+    "id": "4c96a2001c70bf27",
     "date": "2026-10-17",
-    "published": "2026-10-17T04:13:26+00:00",
-    "source": "36氪",
-    "title": "国家数据集团或将于近日挂牌成立",
-    "link": "https://36kr.com/newsflashes/4029454854099590?f=rss",
-    "summary": "国家数据集团或将于近日挂牌成立。（中证报）",
+    "published": "2026-10-17T13:53:57+00:00",
+    "source": "Lenny's Newsletter",
+    "title": "🧠 Community Wisdom: PRDs for agents, tracking competitor messaging, whether software moats still exist, exercising startup options when you leave, and more",
+    "link": "https://www.lennysnewsletter.com/p/community-wisdom-prds-for-agents",
+    "summary": "Community Wisdom 302",
     "topics": [
-     "china",
      "product",
+     "growth",
      "ai"
     ],
     "tags": [
-     "data"
+     "ai-product"
     ],
-    "lang": "zh",
-    "first_seen": "2026-10-17T14:12:48.481453+00:00"
+    "lang": "en",
+    "first_seen": "2026-10-17T14:12:56.771958+00:00"
    },
    {
-    "id": "1a2dc59ddf4e2230",
+    "id": "8f7fe872e35c8235",
     "date": "2026-10-17",
-    "published": "2026-10-17T04:02:08+00:00",
-    "source": "36氪",
-    "title": "量化基金巨头Two Sigma据悉停止为不动产部门筹资并裁撤高层",
-    "link": "https://36kr.com/newsflashes/4029326830670472?f=rss",
-    "summary": "据报道，量化基金巨头Two Sigma Investments削减不动产部门的高级职员并停止为其筹资，，而此举距其对外部资金开放仅过了两年。知情人士透露，该部门的合伙人兼首席投资官Rich Gomel将离职。不动产领导团队的其他成员也会离开。据悉，Two Sigma寻求为该部门筹资约20亿美元，但在充满挑战的融资环境下最终只完成不到一半的目标。（新浪财经）",
+    "published": "2026-10-17T03:46:40+00:00",
+    "source": "Product Hunt",
+    "title": "Salience",
+    "link": "https://www.producthunt.com/products/salience",
+    "summary": "See every request to your website and how it responds. Discussion | Link",
     "topics": [
-     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-17T14:12:56.246566+00:00"
+   },
+   {
+    "id": "e5cf11d8304f477a",
+    "date": "2026-10-17",
+    "published": "2026-10-17T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "DeepSeek V4.1 Flash 1017 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway",
+    "summary": "DeepSeek V4.1 Flash 1017 is now available on AI Gateway . DeepSeek V4.1 Flash 1017 is a minor update to DeepSeek V4.1 Flash that improves reasoning, coding, agentic tasks, and image understanding. The coding gains show up in terminal work and in building and editing whole repositories, and the agent",
+    "topics": [
      "product",
-     "ai"
+     "design"
     ],
     "tags": [
-     "finance-product"
+     "ai-product"
     ],
-    "lang": "zh",
-    "first_seen": "2026-10-17T14:12:48.481456+00:00"
+    "lang": "en",
+    "first_seen": "2026-10-17T14:13:02.599769+00:00"
    },
    {
-    "id": "69660540f82a62dd",
-    "date": "2026-10-17",
-    "published": "2026-10-17T03:38:41+00:00",
-    "source": "36氪",
-    "title": "预报时效11天，超算互联网助\"风清集合\"AI业务化运行",
-    "link": "https://36kr.com/newsflashes/4029420684546436?f=rss",
-    "summary": "36氪获悉，近日，“风清”人工智能全球短中期集合天气预报系统V1.0顺利通过业务化评审并投入运行。该系统全程依托国家超算互联网核心节点的十万卡AI4S计算集群完成训练，成为全国首个实现数据、模型、算力全自主的业务应用气象AI集合预��模型。其全球有效预报时效达11天，综合预报效果超越欧洲中期天气预报中心（ECMWF）的人工智能集合预报系统。",
+    "id": "fd28bb513aca5fee",
+    "date": "2026-10-16",
+    "published": "2026-10-16T17:42:42+00:00",
+    "source": "Stratechery",
+    "title": "2026.42: Home At Last",
+    "link": "https://stratechery.com/2026/home-at-last/",
+    "summary": "The best Stratechery content from the week of October 12, 2026, including what Apple is doing, SpaceX's appetite, and the title, takes, and the Washington Wizards.",
     "topics": [
-     "china",
      "product",
      "ai"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-17T14:12:48.481459+00:00"
+    "lang": "en",
+    "first_seen": "2026-10-17T01:17:37.904347+00:00"
+   },
+   {
+    "id": "52bdbca9ee42f3c0",
+    "date": "2026-10-16",
+    "published": "2026-10-16T15:06:14+00:00",
+    "source": "Product Hunt",
+    "title": "Step 5 Preview",
+    "link": "https://www.producthunt.com/products/step-3-5-flash",
+    "summary": "600B open weights, trained for long-running agents Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-17T14:12:56.246549+00:00"
+   },
+   {
+    "id": "d6088be3f3579873",
+    "date": "2026-10-16",
+    "published": "2026-10-16T07:43:37+00:00",
+    "source": "Product Hunt",
+    "title": "Emochi",
+    "link": "https://www.producthunt.com/products/emochi-2",
+    "summary": "Voice journal to understand yourself through art and science Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-17T14:12:56.246536+00:00"
+   },
+   {
+    "id": "00880693d36f7430",
+    "date": "2026-10-16",
+    "published": "2026-10-16T07:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Vercel and Shopify make agents first-class shoppers",
+    "link": "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers",
+    "summary": "Agents already shop on the web, but they often use pages and tools originally built for people and search engines. Building a better shopping experience for agents means treating them as first-class shoppers, with product information they can read directly and tools designed for agents to shop. Toda",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-17T01:17:40.217872+00:00"
+   },
+   {
+    "id": "d126c75f3735afa1",
+    "date": "2026-10-16",
+    "published": "2026-10-16T04:41:40+00:00",
+    "source": "Product Hunt",
+    "title": "Draper",
+    "link": "https://www.producthunt.com/products/draper",
+    "summary": "Validate, plan, and launch a business, one step at a time. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-17T14:12:56.246543+00:00"
+   },
+   {
+    "id": "8b9d810ddf3e16b7",
+    "date": "2026-10-16",
+    "published": "2026-10-16T02:49:42+00:00",
+    "source": "Product Hunt",
+    "title": "Tesla Roadster",
+    "link": "https://www.producthunt.com/products/tesla-roadster",
+    "summary": "The hypercar that flies Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353285+00:00"
+   },
+   {
+    "id": "86e1f6b3d55ec4a2",
+    "date": "2026-10-16",
+    "published": "2026-10-16T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Perplexity's Decider V1.2 models now available on AI Gateway",
+    "link": "https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway",
+    "summary": "Perplexity Decider V1.2 27B and Decider Flash V1.2 4B are now available on AI Gateway . Both are multimodal decision models for classifying content, routing requests, and scoring text, structured records, and images. The models answer typed questions with probabilities. Boolean questions return the ",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-17T01:17:40.217878+00:00"
+   },
+   {
+    "id": "edc612555b01f785",
+    "date": "2026-10-16",
+    "published": "2026-10-16T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Reflection AI's Beam now available on AI Gateway for free",
+    "link": "https://vercel.com/changelog/reflection-ai-beam-now-available-on-ai-gateway-for-free",
+    "summary": "Beam from Reflection AI , previously available in stealth as stealth/cat-jam , is now available on AI Gateway . Beam is free to use for a limited time during the launch period when serviced by Reflection AI. Beam is an low latency US open-weight reasoning model for coding and agentic tasks, with wei",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-17T01:17:40.217880+00:00"
+   },
+   {
+    "id": "a256c10c316ccd52",
+    "date": "2026-10-16",
+    "published": "2026-10-16T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Elorian AI's Glimpse now available on AI Gateway",
+    "link": "https://vercel.com/changelog/elorian-ai-glimpse-now-available-on-ai-gateway",
+    "summary": "Glimpse from Elorian is now available on AI Gateway. The visual reasoning model accepts images and video to follow objects through motion, interpret spatial relationships, and connect an action to its physical consequences. Glimpse can return to visual evidence as it works: zooming into a detail, re",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-17T14:13:02.599779+00:00"
+   },
+   {
+    "id": "932c5a3abd7497e5",
+    "date": "2026-10-15",
+    "published": "2026-10-15T21:48:08+00:00",
+    "source": "Product Growth (Aakash Gupta)",
+    "title": "Model PM: The Complete Guide",
+    "link": "https://www.news.aakashg.com/p/model-pm",
+    "summary": "The highest-paying PM job in the world is the PM working on building AI models. So who is hiring, what do you need to do to become one, and succeed as one? That's today's guide.",
+    "topics": [
+     "product",
+     "ai",
+     "growth"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-16T01:19:36.992629+00:00"
+   },
+   {
+    "id": "cfff6e9b17d146fd",
+    "date": "2026-10-15",
+    "published": "2026-10-15T20:13:34+00:00",
+    "source": "Product Hunt",
+    "title": "Muse Spark Open",
+    "link": "https://www.producthunt.com/products/muse-spark-open",
+    "summary": "The most capable US open weights model to date Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353218+00:00"
+   },
+   {
+    "id": "71255465aa71df51",
+    "date": "2026-10-15",
+    "published": "2026-10-15T19:25:02+00:00",
+    "source": "Product Hunt",
+    "title": "Parallax",
+    "link": "https://www.producthunt.com/products/parallax-5",
+    "summary": "Every coding agent you run, in one place. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353268+00:00"
+   },
+   {
+    "id": "20ebb514a1022563",
+    "date": "2026-10-15",
+    "published": "2026-10-15T16:51:59+00:00",
+    "source": "Product Hunt",
+    "title": "Maybloc",
+    "link": "https://www.producthunt.com/products/maybloc",
+    "summary": "new SOTA for speech-to-text for multi-speaker audio Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353270+00:00"
+   },
+   {
+    "id": "b05395502569248a",
+    "date": "2026-10-15",
+    "published": "2026-10-15T16:36:36+00:00",
+    "source": "Product Hunt",
+    "title": "Toad",
+    "link": "https://www.producthunt.com/products/toad-4",
+    "summary": "Point your agent at any machine you own. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353281+00:00"
+   },
+   {
+    "id": "5a940ef01c3f3f67",
+    "date": "2026-10-15",
+    "published": "2026-10-15T16:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Vercel Ship 2026 recap",
+    "link": "https://vercel.com/blog/vercel-ship-2026-recap",
+    "summary": "For a decade, Vercel has shaped how the web is built. Now, we’re doing the same for agents. The companies that win the next decade will build on infrastructure designed for agents from the start, and thousands of people gathered across London, Berlin, New York, Sydney, and San Francisco to do just t",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:32.883913+00:00"
+   },
+   {
+    "id": "c3121311bd95f532",
+    "date": "2026-10-15",
+    "published": "2026-10-15T15:27:13+00:00",
+    "source": "Product Hunt",
+    "title": "Nemotron 3.5 Super VL",
+    "link": "https://www.producthunt.com/products/nvidia",
+    "summary": "NVIDIA’s open multimodal model for specialized agents Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353275+00:00"
+   },
+   {
+    "id": "7b6134d373b40eb5",
+    "date": "2026-10-15",
+    "published": "2026-10-15T13:27:08+00:00",
+    "source": "Product Hunt",
+    "title": "Harness by Autonomous",
+    "link": "https://www.producthunt.com/products/harness-by-autonomous",
+    "summary": "Every coding agent, every machine, one command center. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353235+00:00"
+   },
+   {
+    "id": "22928d559a36fd57",
+    "date": "2026-10-15",
+    "published": "2026-10-15T13:00:00+00:00",
+    "source": "Product Talk (Teresa Torres)",
+    "title": "Building an AI Voice Agent for 360 Degree Feedback: How Your360 AI Uses State Machines, Evals, and Layered Synthesis",
+    "link": "https://www.producttalk.org/building-an-ai-voice-agent-for-360-degree-feedback-how-your360-ai-uses-state-machines-evals-and-layered-synthesis/",
+    "summary": "Listen to this episode on: Spotify | Apple Podcasts What does it take to build an AI voice agent that people will talk to for 44 minutes about their own blind spots? Your360 AI found out, one call at a time. In this episode of Just Now Possible , Teresa Torres talks",
+    "topics": [
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-15T15:36:01.433794+00:00"
+   },
+   {
+    "id": "8717300487c76c39",
+    "date": "2026-10-15",
+    "published": "2026-10-15T11:55:43+00:00",
+    "source": "Product Hunt",
+    "title": "Tetriz Harness",
+    "link": "https://www.producthunt.com/products/tetriz-harness",
+    "summary": "Turn what your team learns into everyone’s agent setup Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353279+00:00"
+   },
+   {
+    "id": "754a27c7f60608bf",
+    "date": "2026-10-15",
+    "published": "2026-10-15T11:37:49+00:00",
+    "source": "Product Hunt",
+    "title": "BOSS Console",
+    "link": "https://www.producthunt.com/products/boss-console",
+    "summary": "A tiny OS for your always-on agents Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353284+00:00"
+   },
+   {
+    "id": "2b9bd497f2393dbf",
+    "date": "2026-10-15",
+    "published": "2026-10-15T11:36:40+00:00",
+    "source": "Product Hunt",
+    "title": "Grablo Spot",
+    "link": "https://www.producthunt.com/products/grablo-spot",
+    "summary": "Free AI NVR that finds any person or vehicle in seconds Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353266+00:00"
+   },
+   {
+    "id": "b5df768a545cfca9",
+    "date": "2026-10-15",
+    "published": "2026-10-15T10:46:22+00:00",
+    "source": "Product Hunt",
+    "title": "NANI???",
+    "link": "https://www.producthunt.com/products/nani-2",
+    "summary": "Your interpreter and your boss doesn't even know. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353237+00:00"
+   },
+   {
+    "id": "3f1d226fabbd32f4",
+    "date": "2026-10-15",
+    "published": "2026-10-15T10:10:10+00:00",
+    "source": "Product Hunt",
+    "title": "Sparrow",
+    "link": "https://www.producthunt.com/products/sparrow-10",
+    "summary": "Self-hosted webhook delivery. One binary, just Postgres. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353277+00:00"
+   },
+   {
+    "id": "7a37a0ad6c391dad",
+    "date": "2026-10-15",
+    "published": "2026-10-15T10:00:00+00:00",
+    "source": "Stratechery",
+    "title": "A Conversation With Ari Emanuel About Entertainment and AI",
+    "link": "https://stratechery.com/2026/a-conversation-with-ari-emanuel-about-entertainment-and-ai/",
+    "summary": "A conversation with Hollywood super-agent Ari Emanuel about his memoir, the impact of AI on Hollywood, and the power of a phone call.",
+    "topics": [
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-15T10:53:47.057588+00:00"
+   },
+   {
+    "id": "8495975bfa4e25dc",
+    "date": "2026-10-15",
+    "published": "2026-10-15T09:09:12+00:00",
+    "source": "Product Hunt",
+    "title": "Skisso",
+    "link": "https://www.producthunt.com/products/skisso-design-on-the-live-product",
+    "summary": "Edit your live UI in your design system, hand off the diff Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353222+00:00"
+   },
+   {
+    "id": "f1dc62664f561725",
+    "date": "2026-10-15",
+    "published": "2026-10-15T08:19:50+00:00",
+    "source": "Product Hunt",
+    "title": "Kalesh Judge",
+    "link": "https://www.producthunt.com/products/kalesh-judge",
+    "summary": "Turn petty fights into a public trial Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353290+00:00"
+   },
+   {
+    "id": "e2edfbf631a75dd0",
+    "date": "2026-10-15",
+    "published": "2026-10-15T07:10:19+00:00",
+    "source": "Product Hunt",
+    "title": "DOYT",
+    "link": "https://www.producthunt.com/products/doyt",
+    "summary": "The Dynamic Island to-do app you don't have to open Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-16T15:22:29.353204+00:00"
+   },
+   {
+    "id": "2447ad21d7baa518",
+    "date": "2026-10-15",
+    "published": "2026-10-15T07:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Open weight takes 71.5% of tokens and 23% of spend",
+    "link": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
+    "summary": "AI Gateway Production Index — October 2026 Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-16T01:19:40.223572+00:00"
+   },
+   {
+    "id": "ca5b8a617b811917",
+    "date": "2026-10-15",
+    "published": "2026-10-15T07:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Vercel for Enterprise",
+    "link": "https://vercel.com/blog/vercel-for-enterprise",
+    "summary": "AI adoption in the enterprise is growing rapidly, and expanding beyond engineering users. In the last three months, token usage by enterprise companies on AI Gateway has quadrupled, and OpenAI recently reported that from August 2025 to June 2026, non-developer Codex users grew 189x. Our customers ca",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-16T01:19:40.223589+00:00"
+   },
+   {
+    "id": "f666d4e4851db61b",
+    "date": "2026-10-15",
+    "published": "2026-10-15T07:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Introducing Vercel Drives: persistent storage for agents",
+    "link": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
+    "summary": "Agents often handle complex work that continues across runs. As that work evolves, they may need a new environment with different tools, runtimes, or compute. They should be able to continue working with the same files when they change environments. We built Vercel Drives to keep an agent’s files in",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-16T01:19:40.223591+00:00"
+   },
+   {
+    "id": "ab543523eb3c0b17",
+    "date": "2026-10-15",
+    "published": "2026-10-15T07:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Backends on Vercel: Python, containers, and Daemons",
+    "link": "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons",
+    "summary": "Last year, we expanded zero-config support for Python and TypeScript backend frameworks. By this summer, developers could deploy their frontend and backend together with Vercel Services and coordinate background work with queues and durable workflows . Today at Vercel Ship in San Francisco , we are ",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-16T01:19:40.223593+00:00"
+   },
+   {
+    "id": "94d29694a9cea22d",
+    "date": "2026-10-15",
+    "published": "2026-10-15T07:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Python on Vercel is now generally available",
+    "link": "https://vercel.com/blog/python-on-vercel-is-now-generally-available",
+    "summary": "Python on Vercel is now generally available. Build and run Python applications with the frameworks, libraries, and tools you already use. Vercel automatically detects supported frameworks and configures the build and deployment. Your applications run on Fluid compute, which manages concurrent reques",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-16T01:19:40.223595+00:00"
+   },
+   {
+    "id": "827aaf26e098d373",
+    "date": "2026-10-15",
+    "published": "2026-10-15T07:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Introducing Token Pass",
+    "link": "https://vercel.com/changelog/introducing-token-pass",
+    "summary": "Vercel Token Pass is now in early access for Pro teams. For $30 per month, your team gets $80 in monthly credit for GLM 5.3 and Kimi K3, with more models to come. Use Token Pass with coding agents such as fx, Command Code, and Pi, or build your own personal agent with the AI SDK. Token Pass runs thr",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-16T01:19:40.223597+00:00"
+   },
+   {
+    "id": "9100b772337aa8cc",
+    "date": "2026-10-15",
+    "published": "2026-10-15T07:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Vercel Daemons is now in public beta",
+    "link": "https://vercel.com/changelog/vercel-daemons-is-now-in-public-beta",
+    "summary": "Vercel Daemons is now in public beta, allowing you to run long-running processes that pull and execute work from Vercel Queues , databases, or third-party systems without requiring an HTTP server: Consumers using Vercel Queues poll mode , Celery, BullMQ, RabbitMQ, or Kafka. Temporal or Cadence worke",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-16T01:19:40.223598+00:00"
+   },
+   {
+    "id": "11aeab50237d1bbe",
+    "date": "2026-10-15",
+    "published": "2026-10-15T05:09:17+00:00",
+    "source": "Product Hunt",
+    "title": "Audio Lip Sync Pro for Blender",
+    "link": "https://www.producthunt.com/products/audio-lip-sync-pro-for-blender",
+    "summary": "Generate high-quality facial animations, direct from audio. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-15T10:53:39.189549+00:00"
+   },
+   {
+    "id": "ed861b6f87dc2fee",
+    "date": "2026-10-15",
+    "published": "2026-10-15T04:48:37+00:00",
+    "source": "Product Hunt",
+    "title": "Craft Agents",
+    "link": "https://www.producthunt.com/products/craft-agents",
+    "summary": "The world's most powerful agents, with the UX they deserve Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product",
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-17T14:12:56.246561+00:00"
    }
   ],
   "dataviz": [
+   {
+    "id": "1d4709d180a20cc9",
+    "date": "2026-10-17",
+    "published": "2026-10-17T18:15:28+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: The Male-to-Female Ratio in Every Country",
+    "link": "https://www.visualcapitalist.com/cp/male-to-female-ratio-in-every-country/",
+    "summary": "Explore gender ratios worldwide and why women outnumber men in Eastern Europe while Gulf countries have far more men.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:06.759491+00:00"
+   },
+   {
+    "id": "32e8c5eec54f4761",
+    "date": "2026-10-17",
+    "published": "2026-10-17T16:31:45+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: Countries With the Most Nobel Prizes (2026)",
+    "link": "https://www.visualcapitalist.com/ranked-countries-with-the-most-nobel-prizes-2026/",
+    "summary": "Explore the countries with the most Nobel Prizes, famous past winners, and the achievements recognized by the 2026 awards.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:06.759502+00:00"
+   },
    {
     "id": "e5dba02805812cbc",
     "date": "2026-10-17",
@@ -1363,704 +2066,105 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-10-13T18:17:43.751186+00:00"
-   },
-   {
-    "id": "fc6c2c23d9b8f2ad",
-    "date": "2026-10-13",
-    "published": "2026-10-13T09:30:43+00:00",
-    "source": "FlowingData",
-    "title": "Learning is the thing",
-    "link": "https://flowingdata.com/2026/10/13/learning-is-the-thing/",
-    "summary": "Daniel Willingham, a professor at the University of Virginia, argues that students should… Tags: Daniel Willingham , education , students",
-    "topics": [
-     "dataviz"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:41.130591+00:00"
-   },
-   {
-    "id": "a86af9a97d40b1e4",
-    "date": "2026-10-13",
-    "published": "2026-10-13T03:35:39+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: 125 European Cities by Quality of Life and Cost",
-    "link": "https://www.visualcapitalist.com/cp/125-european-cities-quality-of-life-cost/",
-    "summary": "Which European cities offer the best quality of life for the lowest cost? Explore 125 cities ranked by affordability and livability.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-13T18:17:43.751189+00:00"
-   }
-  ],
-  "product": [
-   {
-    "id": "4c96a2001c70bf27",
-    "date": "2026-10-17",
-    "published": "2026-10-17T13:53:57+00:00",
-    "source": "Lenny's Newsletter",
-    "title": "🧠 Community Wisdom: PRDs for agents, tracking competitor messaging, whether software moats still exist, exercising startup options when you leave, and more",
-    "link": "https://www.lennysnewsletter.com/p/community-wisdom-prds-for-agents",
-    "summary": "Community Wisdom 302",
-    "topics": [
-     "product",
-     "growth",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-17T14:12:56.771958+00:00"
-   },
-   {
-    "id": "8f7fe872e35c8235",
-    "date": "2026-10-17",
-    "published": "2026-10-17T03:46:40+00:00",
-    "source": "Product Hunt",
-    "title": "Salience",
-    "link": "https://www.producthunt.com/products/salience",
-    "summary": "See every request to your website and how it responds. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-17T14:12:56.246566+00:00"
-   },
-   {
-    "id": "e5cf11d8304f477a",
-    "date": "2026-10-17",
-    "published": "2026-10-17T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "DeepSeek V4.1 Flash 1017 now available on AI Gateway",
-    "link": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway",
-    "summary": "DeepSeek V4.1 Flash 1017 is now available on AI Gateway . DeepSeek V4.1 Flash 1017 is a minor update to DeepSeek V4.1 Flash that improves reasoning, coding, agentic tasks, and image understanding. The coding gains show up in terminal work and in building and editing whole repositories, and the agent",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-17T14:13:02.599769+00:00"
-   },
-   {
-    "id": "fd28bb513aca5fee",
-    "date": "2026-10-16",
-    "published": "2026-10-16T17:42:42+00:00",
-    "source": "Stratechery",
-    "title": "2026.42: Home At Last",
-    "link": "https://stratechery.com/2026/home-at-last/",
-    "summary": "The best Stratechery content from the week of October 12, 2026, including what Apple is doing, SpaceX's appetite, and the title, takes, and the Washington Wizards.",
-    "topics": [
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-17T01:17:37.904347+00:00"
-   },
-   {
-    "id": "52bdbca9ee42f3c0",
-    "date": "2026-10-16",
-    "published": "2026-10-16T15:06:14+00:00",
-    "source": "Product Hunt",
-    "title": "Step 5 Preview",
-    "link": "https://www.producthunt.com/products/step-3-5-flash",
-    "summary": "600B open weights, trained for long-running agents Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-17T14:12:56.246549+00:00"
-   },
-   {
-    "id": "d6088be3f3579873",
-    "date": "2026-10-16",
-    "published": "2026-10-16T07:43:37+00:00",
-    "source": "Product Hunt",
-    "title": "Emochi",
-    "link": "https://www.producthunt.com/products/emochi-2",
-    "summary": "Voice journal to understand yourself through art and science Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-17T14:12:56.246536+00:00"
-   },
-   {
-    "id": "00880693d36f7430",
-    "date": "2026-10-16",
-    "published": "2026-10-16T07:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Vercel and Shopify make agents first-class shoppers",
-    "link": "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers",
-    "summary": "Agents already shop on the web, but they often use pages and tools originally built for people and search engines. Building a better shopping experience for agents means treating them as first-class shoppers, with product information they can read directly and tools designed for agents to shop. Toda",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-17T01:17:40.217872+00:00"
-   },
-   {
-    "id": "d126c75f3735afa1",
-    "date": "2026-10-16",
-    "published": "2026-10-16T04:41:40+00:00",
-    "source": "Product Hunt",
-    "title": "Draper",
-    "link": "https://www.producthunt.com/products/draper",
-    "summary": "Validate, plan, and launch a business, one step at a time. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-17T14:12:56.246543+00:00"
-   },
-   {
-    "id": "8b9d810ddf3e16b7",
-    "date": "2026-10-16",
-    "published": "2026-10-16T02:49:42+00:00",
-    "source": "Product Hunt",
-    "title": "Tesla Roadster",
-    "link": "https://www.producthunt.com/products/tesla-roadster",
-    "summary": "The hypercar that flies Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353285+00:00"
-   },
-   {
-    "id": "86e1f6b3d55ec4a2",
-    "date": "2026-10-16",
-    "published": "2026-10-16T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Perplexity's Decider V1.2 models now available on AI Gateway",
-    "link": "https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway",
-    "summary": "Perplexity Decider V1.2 27B and Decider Flash V1.2 4B are now available on AI Gateway . Both are multimodal decision models for classifying content, routing requests, and scoring text, structured records, and images. The models answer typed questions with probabilities. Boolean questions return the ",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-17T01:17:40.217878+00:00"
-   },
-   {
-    "id": "edc612555b01f785",
-    "date": "2026-10-16",
-    "published": "2026-10-16T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Reflection AI's Beam now available on AI Gateway for free",
-    "link": "https://vercel.com/changelog/reflection-ai-beam-now-available-on-ai-gateway-for-free",
-    "summary": "Beam from Reflection AI , previously available in stealth as stealth/cat-jam , is now available on AI Gateway . Beam is free to use for a limited time during the launch period when serviced by Reflection AI. Beam is an low latency US open-weight reasoning model for coding and agentic tasks, with wei",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-17T01:17:40.217880+00:00"
-   },
-   {
-    "id": "a256c10c316ccd52",
-    "date": "2026-10-16",
-    "published": "2026-10-16T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Elorian AI's Glimpse now available on AI Gateway",
-    "link": "https://vercel.com/changelog/elorian-ai-glimpse-now-available-on-ai-gateway",
-    "summary": "Glimpse from Elorian is now available on AI Gateway. The visual reasoning model accepts images and video to follow objects through motion, interpret spatial relationships, and connect an action to its physical consequences. Glimpse can return to visual evidence as it works: zooming into a detail, re",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-17T14:13:02.599779+00:00"
-   },
-   {
-    "id": "932c5a3abd7497e5",
-    "date": "2026-10-15",
-    "published": "2026-10-15T21:48:08+00:00",
-    "source": "Product Growth (Aakash Gupta)",
-    "title": "Model PM: The Complete Guide",
-    "link": "https://www.news.aakashg.com/p/model-pm",
-    "summary": "The highest-paying PM job in the world is the PM working on building AI models. So who is hiring, what do you need to do to become one, and succeed as one? That's today's guide.",
-    "topics": [
-     "product",
-     "ai",
-     "growth"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:36.992629+00:00"
-   },
-   {
-    "id": "cfff6e9b17d146fd",
-    "date": "2026-10-15",
-    "published": "2026-10-15T20:13:34+00:00",
-    "source": "Product Hunt",
-    "title": "Muse Spark Open",
-    "link": "https://www.producthunt.com/products/muse-spark-open",
-    "summary": "The most capable US open weights model to date Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353218+00:00"
-   },
-   {
-    "id": "71255465aa71df51",
-    "date": "2026-10-15",
-    "published": "2026-10-15T19:25:02+00:00",
-    "source": "Product Hunt",
-    "title": "Parallax",
-    "link": "https://www.producthunt.com/products/parallax-5",
-    "summary": "Every coding agent you run, in one place. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353268+00:00"
-   },
-   {
-    "id": "20ebb514a1022563",
-    "date": "2026-10-15",
-    "published": "2026-10-15T16:51:59+00:00",
-    "source": "Product Hunt",
-    "title": "Maybloc",
-    "link": "https://www.producthunt.com/products/maybloc",
-    "summary": "new SOTA for speech-to-text for multi-speaker audio Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353270+00:00"
-   },
-   {
-    "id": "b05395502569248a",
-    "date": "2026-10-15",
-    "published": "2026-10-15T16:36:36+00:00",
-    "source": "Product Hunt",
-    "title": "Toad",
-    "link": "https://www.producthunt.com/products/toad-4",
-    "summary": "Point your agent at any machine you own. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353281+00:00"
-   },
-   {
-    "id": "5a940ef01c3f3f67",
-    "date": "2026-10-15",
-    "published": "2026-10-15T16:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Vercel Ship 2026 recap",
-    "link": "https://vercel.com/blog/vercel-ship-2026-recap",
-    "summary": "For a decade, Vercel has shaped how the web is built. Now, we’re doing the same for agents. The companies that win the next decade will build on infrastructure designed for agents from the start, and thousands of people gathered across London, Berlin, New York, Sydney, and San Francisco to do just t",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:32.883913+00:00"
-   },
-   {
-    "id": "c3121311bd95f532",
-    "date": "2026-10-15",
-    "published": "2026-10-15T15:27:13+00:00",
-    "source": "Product Hunt",
-    "title": "Nemotron 3.5 Super VL",
-    "link": "https://www.producthunt.com/products/nvidia",
-    "summary": "NVIDIA’s open multimodal model for specialized agents Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353275+00:00"
-   },
-   {
-    "id": "7b6134d373b40eb5",
-    "date": "2026-10-15",
-    "published": "2026-10-15T13:27:08+00:00",
-    "source": "Product Hunt",
-    "title": "Harness by Autonomous",
-    "link": "https://www.producthunt.com/products/harness-by-autonomous",
-    "summary": "Every coding agent, every machine, one command center. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353235+00:00"
-   },
-   {
-    "id": "22928d559a36fd57",
-    "date": "2026-10-15",
-    "published": "2026-10-15T13:00:00+00:00",
-    "source": "Product Talk (Teresa Torres)",
-    "title": "Building an AI Voice Agent for 360 Degree Feedback: How Your360 AI Uses State Machines, Evals, and Layered Synthesis",
-    "link": "https://www.producttalk.org/building-an-ai-voice-agent-for-360-degree-feedback-how-your360-ai-uses-state-machines-evals-and-layered-synthesis/",
-    "summary": "Listen to this episode on: Spotify | Apple Podcasts What does it take to build an AI voice agent that people will talk to for 44 minutes about their own blind spots? Your360 AI found out, one call at a time. In this episode of Just Now Possible , Teresa Torres talks",
-    "topics": [
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-15T15:36:01.433794+00:00"
-   },
-   {
-    "id": "8717300487c76c39",
-    "date": "2026-10-15",
-    "published": "2026-10-15T11:55:43+00:00",
-    "source": "Product Hunt",
-    "title": "Tetriz Harness",
-    "link": "https://www.producthunt.com/products/tetriz-harness",
-    "summary": "Turn what your team learns into everyone’s agent setup Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353279+00:00"
-   },
-   {
-    "id": "754a27c7f60608bf",
-    "date": "2026-10-15",
-    "published": "2026-10-15T11:37:49+00:00",
-    "source": "Product Hunt",
-    "title": "BOSS Console",
-    "link": "https://www.producthunt.com/products/boss-console",
-    "summary": "A tiny OS for your always-on agents Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353284+00:00"
-   },
-   {
-    "id": "2b9bd497f2393dbf",
-    "date": "2026-10-15",
-    "published": "2026-10-15T11:36:40+00:00",
-    "source": "Product Hunt",
-    "title": "Grablo Spot",
-    "link": "https://www.producthunt.com/products/grablo-spot",
-    "summary": "Free AI NVR that finds any person or vehicle in seconds Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353266+00:00"
-   },
-   {
-    "id": "b5df768a545cfca9",
-    "date": "2026-10-15",
-    "published": "2026-10-15T10:46:22+00:00",
-    "source": "Product Hunt",
-    "title": "NANI???",
-    "link": "https://www.producthunt.com/products/nani-2",
-    "summary": "Your interpreter and your boss doesn't even know. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353237+00:00"
-   },
-   {
-    "id": "3f1d226fabbd32f4",
-    "date": "2026-10-15",
-    "published": "2026-10-15T10:10:10+00:00",
-    "source": "Product Hunt",
-    "title": "Sparrow",
-    "link": "https://www.producthunt.com/products/sparrow-10",
-    "summary": "Self-hosted webhook delivery. One binary, just Postgres. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353277+00:00"
-   },
-   {
-    "id": "7a37a0ad6c391dad",
-    "date": "2026-10-15",
-    "published": "2026-10-15T10:00:00+00:00",
-    "source": "Stratechery",
-    "title": "A Conversation With Ari Emanuel About Entertainment and AI",
-    "link": "https://stratechery.com/2026/a-conversation-with-ari-emanuel-about-entertainment-and-ai/",
-    "summary": "A conversation with Hollywood super-agent Ari Emanuel about his memoir, the impact of AI on Hollywood, and the power of a phone call.",
-    "topics": [
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-15T10:53:47.057588+00:00"
-   },
-   {
-    "id": "8495975bfa4e25dc",
-    "date": "2026-10-15",
-    "published": "2026-10-15T09:09:12+00:00",
-    "source": "Product Hunt",
-    "title": "Skisso",
-    "link": "https://www.producthunt.com/products/skisso-design-on-the-live-product",
-    "summary": "Edit your live UI in your design system, hand off the diff Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353222+00:00"
-   },
-   {
-    "id": "f1dc62664f561725",
-    "date": "2026-10-15",
-    "published": "2026-10-15T08:19:50+00:00",
-    "source": "Product Hunt",
-    "title": "Kalesh Judge",
-    "link": "https://www.producthunt.com/products/kalesh-judge",
-    "summary": "Turn petty fights into a public trial Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353290+00:00"
-   },
-   {
-    "id": "e2edfbf631a75dd0",
-    "date": "2026-10-15",
-    "published": "2026-10-15T07:10:19+00:00",
-    "source": "Product Hunt",
-    "title": "DOYT",
-    "link": "https://www.producthunt.com/products/doyt",
-    "summary": "The Dynamic Island to-do app you don't have to open Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:29.353204+00:00"
-   },
-   {
-    "id": "2447ad21d7baa518",
-    "date": "2026-10-15",
-    "published": "2026-10-15T07:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Open weight takes 71.5% of tokens and 23% of spend",
-    "link": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
-    "summary": "AI Gateway Production Index — October 2026 Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:40.223572+00:00"
-   },
-   {
-    "id": "ca5b8a617b811917",
-    "date": "2026-10-15",
-    "published": "2026-10-15T07:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Vercel for Enterprise",
-    "link": "https://vercel.com/blog/vercel-for-enterprise",
-    "summary": "AI adoption in the enterprise is growing rapidly, and expanding beyond engineering users. In the last three months, token usage by enterprise companies on AI Gateway has quadrupled, and OpenAI recently reported that from August 2025 to June 2026, non-developer Codex users grew 189x. Our customers ca",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:40.223589+00:00"
-   },
-   {
-    "id": "f666d4e4851db61b",
-    "date": "2026-10-15",
-    "published": "2026-10-15T07:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Introducing Vercel Drives: persistent storage for agents",
-    "link": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
-    "summary": "Agents often handle complex work that continues across runs. As that work evolves, they may need a new environment with different tools, runtimes, or compute. They should be able to continue working with the same files when they change environments. We built Vercel Drives to keep an agent’s files in",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:40.223591+00:00"
-   },
-   {
-    "id": "ab543523eb3c0b17",
-    "date": "2026-10-15",
-    "published": "2026-10-15T07:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Backends on Vercel: Python, containers, and Daemons",
-    "link": "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons",
-    "summary": "Last year, we expanded zero-config support for Python and TypeScript backend frameworks. By this summer, developers could deploy their frontend and backend together with Vercel Services and coordinate background work with queues and durable workflows . Today at Vercel Ship in San Francisco , we are ",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:40.223593+00:00"
-   },
-   {
-    "id": "94d29694a9cea22d",
-    "date": "2026-10-15",
-    "published": "2026-10-15T07:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Python on Vercel is now generally available",
-    "link": "https://vercel.com/blog/python-on-vercel-is-now-generally-available",
-    "summary": "Python on Vercel is now generally available. Build and run Python applications with the frameworks, libraries, and tools you already use. Vercel automatically detects supported frameworks and configures the build and deployment. Your applications run on Fluid compute, which manages concurrent reques",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:40.223595+00:00"
-   },
-   {
-    "id": "827aaf26e098d373",
-    "date": "2026-10-15",
-    "published": "2026-10-15T07:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Introducing Token Pass",
-    "link": "https://vercel.com/changelog/introducing-token-pass",
-    "summary": "Vercel Token Pass is now in early access for Pro teams. For $30 per month, your team gets $80 in monthly credit for GLM 5.3 and Kimi K3, with more models to come. Use Token Pass with coding agents such as fx, Command Code, and Pi, or build your own personal agent with the AI SDK. Token Pass runs thr",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:40.223597+00:00"
-   },
-   {
-    "id": "9100b772337aa8cc",
-    "date": "2026-10-15",
-    "published": "2026-10-15T07:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Vercel Daemons is now in public beta",
-    "link": "https://vercel.com/changelog/vercel-daemons-is-now-in-public-beta",
-    "summary": "Vercel Daemons is now in public beta, allowing you to run long-running processes that pull and execute work from Vercel Queues , databases, or third-party systems without requiring an HTTP server: Consumers using Vercel Queues poll mode , Celery, BullMQ, RabbitMQ, or Kafka. Temporal or Cadence worke",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:40.223598+00:00"
-   },
-   {
-    "id": "11aeab50237d1bbe",
-    "date": "2026-10-15",
-    "published": "2026-10-15T05:09:17+00:00",
-    "source": "Product Hunt",
-    "title": "Audio Lip Sync Pro for Blender",
-    "link": "https://www.producthunt.com/products/audio-lip-sync-pro-for-blender",
-    "summary": "Generate high-quality facial animations, direct from audio. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-15T10:53:39.189549+00:00"
-   },
-   {
-    "id": "ed861b6f87dc2fee",
-    "date": "2026-10-15",
-    "published": "2026-10-15T04:48:37+00:00",
-    "source": "Product Hunt",
-    "title": "Craft Agents",
-    "link": "https://www.producthunt.com/products/craft-agents",
-    "summary": "The world's most powerful agents, with the UX they deserve Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product",
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-17T14:12:56.246561+00:00"
-   },
-   {
-    "id": "0bf8a99b06067f94",
-    "date": "2026-10-15",
-    "published": "2026-10-15T04:18:27+00:00",
-    "source": "Product Hunt",
-    "title": "Brussle",
-    "link": "https://www.producthunt.com/products/brussle-2",
-    "summary": "Improve Jev's accuracy on your data Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-15T10:53:39.189127+00:00"
    }
   ],
   "ai": [
+   {
+    "id": "49b49c1c440ebc79",
+    "date": "2026-10-17",
+    "published": "2026-10-17T18:01:41+00:00",
+    "source": "Hacker News — Best",
+    "title": "OpenCode Hacked: User credentials leaked",
+    "link": "https://twitter.com/opencode/status/2111516673953935833",
+    "summary": "Article URL: https://twitter.com/opencode/status/2111516673953935833 Comments URL: https://news.ycombinator.com/item?id=50133401 Points: 735 # Comments: 124",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707047+00:00"
+   },
+   {
+    "id": "d8b1ba92a9385162",
+    "date": "2026-10-17",
+    "published": "2026-10-17T17:06:07+00:00",
+    "source": "Hacker News — Best",
+    "title": "Gold is now the top U.S. export",
+    "link": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+    "summary": "Article URL: https://www.numismaticnews.net/gold-now-top-u-s-export Comments URL: https://news.ycombinator.com/item?id=50132870 Points: 218 # Comments: 113",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707057+00:00"
+   },
+   {
+    "id": "6881e07bf0c9f6a6",
+    "date": "2026-10-17",
+    "published": "2026-10-17T15:55:09+00:00",
+    "source": "Hacker News — Best",
+    "title": "Pele – Mermaid diagrams as themeable SVG",
+    "link": "https://pele.run/",
+    "summary": "Article URL: https://pele.run/ Comments URL: https://news.ycombinator.com/item?id=50132193 Points: 220 # Comments: 26",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707060+00:00"
+   },
+   {
+    "id": "2bc979963aca4e93",
+    "date": "2026-10-17",
+    "published": "2026-10-17T14:01:01+00:00",
+    "source": "Hacker News — Best",
+    "title": "Solar surpasses nuclear power globally for first time",
+    "link": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+    "summary": "Article URL: https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/ Comments URL: https://news.ycombinator.com/item?id=50131256 Points: 469 # Comments: 304",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707062+00:00"
+   },
+   {
+    "id": "63f0975b0b47ffb9",
+    "date": "2026-10-17",
+    "published": "2026-10-17T13:55:28+00:00",
+    "source": "Hacker News — Best",
+    "title": "Making chicken transparent using Dorito dust",
+    "link": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+    "summary": "Article URL: https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using Comments URL: https://news.ycombinator.com/item?id=50131213 Points: 247 # Comments: 65",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707063+00:00"
+   },
+   {
+    "id": "02dd33881573484e",
+    "date": "2026-10-17",
+    "published": "2026-10-17T10:59:31+00:00",
+    "source": "Hacker News — Best",
+    "title": "MapQuest will now show you where Flock cameras are in your neighborhood",
+    "link": "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
+    "summary": "Article URL: https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/ Comments URL: https://news.ycombinator.com/item?id=50129947 Points: 261 # Comments: 49",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707065+00:00"
+   },
    {
     "id": "9b9dd1c7103b8be8",
     "date": "2026-10-17",
@@ -2125,6 +2229,24 @@
     "first_seen": "2026-10-17T14:12:46.912879+00:00"
    },
    {
+    "id": "0913988ccbedf140",
+    "date": "2026-10-17",
+    "published": "2026-10-17T04:36:53+00:00",
+    "source": "Hacker News — Best",
+    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+    "link": "https://llmspeed.dev/",
+    "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 248 # Comments: 77",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707066+00:00"
+   },
+   {
     "id": "8a2456bf69148e8e",
     "date": "2026-10-17",
     "published": "2026-10-17T02:21:08+00:00",
@@ -2141,6 +2263,22 @@
     "first_seen": "2026-10-17T14:12:46.501574+00:00"
    },
    {
+    "id": "f8b040014d2e0065",
+    "date": "2026-10-16",
+    "published": "2026-10-16T23:38:27+00:00",
+    "source": "Hacker News — Best",
+    "title": "Bleached corals thrive within days when touching healthy neighbour",
+    "link": "https://www.nature.com/articles/d41586-026-03266-x",
+    "summary": "https://archive.ph/zIPG4 Comments URL: https://news.ycombinator.com/item?id=50126253 Points: 297 # Comments: 64",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707067+00:00"
+   },
+   {
     "id": "e946af68fd7dbe0e",
     "date": "2026-10-16",
     "published": "2026-10-16T22:06:37+00:00",
@@ -2154,6 +2292,22 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-10-17T01:17:32.233300+00:00"
+   },
+   {
+    "id": "70d10452e1ce4ca4",
+    "date": "2026-10-16",
+    "published": "2026-10-16T20:33:41+00:00",
+    "source": "Hacker News — Best",
+    "title": "I never authorized an integration that scans my secrets",
+    "link": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+    "summary": "Article URL: https://github.com/home-assistant/home-assistant.io/issues/49314 Comments URL: https://news.ycombinator.com/item?id=50124251 Points: 237 # Comments: 219",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707069+00:00"
    },
    {
     "id": "9a7394432446bffe",
@@ -2252,6 +2406,22 @@
     "first_seen": "2026-10-17T14:12:46.501581+00:00"
    },
    {
+    "id": "d53dd396f72d83a7",
+    "date": "2026-10-16",
+    "published": "2026-10-16T18:06:17+00:00",
+    "source": "Hacker News — Best",
+    "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+    "link": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+    "summary": "Article URL: https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear Comments URL: https://news.ycombinator.com/item?id=50122034 Points: 269 # Comments: 244",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707070+00:00"
+   },
+   {
     "id": "9795228c1bdcf12d",
     "date": "2026-10-16",
     "published": "2026-10-16T17:08:38+00:00",
@@ -2284,6 +2454,38 @@
     "first_seen": "2026-10-17T14:12:46.501583+00:00"
    },
    {
+    "id": "166c402455815544",
+    "date": "2026-10-16",
+    "published": "2026-10-16T16:03:02+00:00",
+    "source": "Hacker News — Best",
+    "title": "US Rep Announces Congressional Legislation to Protect Video Game Ownership",
+    "link": "https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games",
+    "summary": "Article URL: https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games Comments URL: https://news.ycombinator.com/item?id=50120101 Points: 220 # Comments: 125",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707072+00:00"
+   },
+   {
+    "id": "e4018d8e9eb4c3e6",
+    "date": "2026-10-16",
+    "published": "2026-10-16T15:55:40+00:00",
+    "source": "Hacker News — Best",
+    "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+    "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+    "summary": "Article URL: https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471 Comments URL: https://news.ycombinator.com/item?id=50119991 Points: 209 # Comments: 86",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707073+00:00"
+   },
+   {
     "id": "8e50c4c2e3c4aceb",
     "date": "2026-10-16",
     "published": "2026-10-16T14:44:17+00:00",
@@ -2298,6 +2500,24 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-10-17T01:17:32.307362+00:00"
+   },
+   {
+    "id": "22d04cd04ff740d0",
+    "date": "2026-10-16",
+    "published": "2026-10-16T14:18:44+00:00",
+    "source": "Hacker News — Best",
+    "title": "Show HN: Gemini 4 Argon plays StarCraft",
+    "link": "https://starskirmish.com/bench/v0-2/",
+    "summary": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 242 # Comments: 106",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707075+00:00"
    },
    {
     "id": "98e6a11f87f3c75f",
@@ -2348,6 +2568,22 @@
     "first_seen": "2026-10-16T15:22:28.126695+00:00"
    },
    {
+    "id": "425d3033659eef3d",
+    "date": "2026-10-16",
+    "published": "2026-10-16T05:11:28+00:00",
+    "source": "Hacker News — Best",
+    "title": "The Folders Programming Language",
+    "link": "https://danieltemkin.com/esolangs/folders",
+    "summary": "Article URL: https://danieltemkin.com/esolangs/folders Comments URL: https://news.ycombinator.com/item?id=50114342 Points: 215 # Comments: 38",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707076+00:00"
+   },
+   {
     "id": "6def1af444f0bb8a",
     "date": "2026-10-16",
     "published": "2026-10-16T04:16:45+00:00",
@@ -2395,6 +2631,22 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-10-16T15:22:24.959291+00:00"
+   },
+   {
+    "id": "4eea137244c426d1",
+    "date": "2026-10-16",
+    "published": "2026-10-16T00:52:35+00:00",
+    "source": "Hacker News — Best",
+    "title": "RPKI now protects 70% of internet routes",
+    "link": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
+    "summary": "Article URL: https://ipinfo.io/blog/rpki-protects-70-internet-routes Comments URL: https://news.ycombinator.com/item?id=50112330 Points: 228 # Comments: 111",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-18T01:01:01.707077+00:00"
    },
    {
     "id": "9db4940a53f86840",
@@ -2467,245 +2719,6 @@
     ],
     "lang": "en",
     "first_seen": "2026-10-16T15:22:24.959298+00:00"
-   },
-   {
-    "id": "cce7776caf6bef7c",
-    "date": "2026-10-15",
-    "published": "2026-10-15T20:23:25+00:00",
-    "source": "Hacker News — Best",
-    "title": "What I self-host",
-    "link": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
-    "summary": "Article URL: https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/ Comments URL: https://news.ycombinator.com/item?id=50109715 Points: 588 # Comments: 369",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:24.959300+00:00"
-   },
-   {
-    "id": "6327bf4d2077b43d",
-    "date": "2026-10-15",
-    "published": "2026-10-15T19:55:49+00:00",
-    "source": "Hacker News — Best",
-    "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
-    "link": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
-    "summary": "Article URL: https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts Comments URL: https://news.ycombinator.com/item?id=50109375 Points: 372 # Comments: 252",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:24.959302+00:00"
-   },
-   {
-    "id": "08c79764230e6e3c",
-    "date": "2026-10-15",
-    "published": "2026-10-15T19:47:52+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "Chirp Pong",
-    "link": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
-    "summary": "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work! Build a two player competitive pong like game where two players use t",
-    "topics": [
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:29.239612+00:00"
-   },
-   {
-    "id": "32a34d9916618b3b",
-    "date": "2026-10-15",
-    "published": "2026-10-15T19:21:38+00:00",
-    "source": "Hacker News — Best",
-    "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
-    "link": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
-    "summary": "Article URL: https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup Comments URL: https://news.ycombinator.com/item?id=50108872 Points: 393 # Comments: 181",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:24.959303+00:00"
-   },
-   {
-    "id": "a72d1e4da6b0e106",
-    "date": "2026-10-15",
-    "published": "2026-10-15T19:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "Bringing GPT-Rosalind to academic research labs",
-    "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-    "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:29.975813+00:00"
-   },
-   {
-    "id": "44bfbaba05b5ac80",
-    "date": "2026-10-15",
-    "published": "2026-10-15T18:32:29+00:00",
-    "source": "Hacker News — Best",
-    "title": "Why We're Banning AI",
-    "link": "https://www.currentaffairs.org/news/why-were-banning-ai",
-    "summary": "Article URL: https://www.currentaffairs.org/news/why-were-banning-ai Comments URL: https://news.ycombinator.com/item?id=50108131 Points: 254 # Comments: 201",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-17T01:17:32.307366+00:00"
-   },
-   {
-    "id": "34bf133078de58bf",
-    "date": "2026-10-15",
-    "published": "2026-10-15T17:47:39+00:00",
-    "source": "Hacker News — Best",
-    "title": "Muse Spark Open",
-    "link": "https://research.meta.ai/blog/muse-spark-open",
-    "summary": "https://dev.meta.ai/resources/blog/build-with-muse-spark-ope... https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-... Comments URL: https://news.ycombinator.com/item?id=50107379 Points: 591 # Comments: 332",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:29.032631+00:00"
-   },
-   {
-    "id": "5afa6e9d76e275f4",
-    "date": "2026-10-15",
-    "published": "2026-10-15T17:06:01+00:00",
-    "source": "Hacker News — Best",
-    "title": "Ultramarine 1 Flash",
-    "link": "https://www.paperinstruments.com/ultramarine",
-    "summary": "https://www.paperinstruments.com/blog/ultramarine https://twitter.com/bertgodel/status/2110400987622265232 Comments URL: https://news.ycombinator.com/item?id=50106747 Points: 288 # Comments: 97",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-17T14:12:46.501585+00:00"
-   },
-   {
-    "id": "4072f3aa06257142",
-    "date": "2026-10-15",
-    "published": "2026-10-15T17:05:19+00:00",
-    "source": "Hacker News — Best",
-    "title": "More on Anthropic's Scion ripping off Mononoke",
-    "link": "https://sunshowers.io/posts/anthropic-mononoke-2/",
-    "summary": "Redesigning source control at Anthropic - https://news.ycombinator.com/item?id=50073633 (996 comments) Anthropic's Scion is heavily inspired by Mononoke - https://news.ycombinator.com/item?id=50094694 (149 comments) Comments URL: https://news.ycombinator.com/item?id=50106738 Points: 251 # Comments: ",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-17T01:17:32.307366+00:00"
-   },
-   {
-    "id": "cc0a506a0aadb634",
-    "date": "2026-10-15",
-    "published": "2026-10-15T17:01:56+00:00",
-    "source": "Hacker News — Best",
-    "title": "An Israeli firm is sending zero-click spyware through online ads",
-    "link": "https://www.theverge.com/tech/1011956/discover-tech-zero-click-ads-spyware",
-    "summary": "Article URL: https://www.theverge.com/tech/1011956/discover-tech-zero-click-ads-spyware Comments URL: https://news.ycombinator.com/item?id=50106676 Points: 246 # Comments: 13",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-17T01:17:32.307367+00:00"
-   },
-   {
-    "id": "0e4f8374803f0b7c",
-    "date": "2026-10-15",
-    "published": "2026-10-15T16:55:18+00:00",
-    "source": "The Pragmatic Engineer",
-    "title": "The Pulse: OpenAI software engineer accused of spying",
-    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-openai-software-engineer",
-    "summary": "Also: insider details on how and why Anthropic moved off Git, a new trend of AI-assisted coding rounds inside of Big Tech, and more",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:29.996657+00:00"
-   },
-   {
-    "id": "acc03d08e7b8fc8b",
-    "date": "2026-10-15",
-    "published": "2026-10-15T16:24:52+00:00",
-    "source": "Hacker News — Best",
-    "title": "Jev meets the Trolley Problem",
-    "link": "https://zachlandes.com/trolley-problem/",
-    "summary": "Article URL: https://zachlandes.com/trolley-problem/ Comments URL: https://news.ycombinator.com/item?id=50106023 Points: 283 # Comments: 134",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:29.032642+00:00"
-   },
-   {
-    "id": "2ca9145b991aa09e",
-    "date": "2026-10-15",
-    "published": "2026-10-15T16:11:36+00:00",
-    "source": "Hacker News — Best",
-    "title": "BIPM decides to stop adding leap seconds to UTC",
-    "link": "https://www.bipm.org/en/cgpm-2026/resolution-5",
-    "summary": "Article URL: https://www.bipm.org/en/cgpm-2026/resolution-5 Comments URL: https://news.ycombinator.com/item?id=50105777 Points: 260 # Comments: 131",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-17T01:17:32.307368+00:00"
-   },
-   {
-    "id": "a0d58fa52c7a34d2",
-    "date": "2026-10-15",
-    "published": "2026-10-15T16:04:05+00:00",
-    "source": "Hacker News — Best",
-    "title": "Krea 3 – An image model built for editing at scale",
-    "link": "https://www.krea.ai/krea-3",
-    "summary": "Article URL: https://www.krea.ai/krea-3 Comments URL: https://news.ycombinator.com/item?id=50105648 Points: 330 # Comments: 106",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T15:22:24.959304+00:00"
-   },
-   {
-    "id": "c797ac90ed8bf854",
-    "date": "2026-10-15",
-    "published": "2026-10-15T16:04:01+00:00",
-    "source": "Hacker News — Best",
-    "title": "Neural networks are clean",
-    "link": "https://already-clean.goodfire.com/",
-    "summary": "https://twitter.com/nickcammarata/status/2110757819427574056 Comments URL: https://news.ycombinator.com/item?id=50105647 Points: 481 # Comments: 186",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-16T01:19:29.032644+00:00"
    }
   ],
   "forecasting": [
@@ -4813,13 +4826,13 @@
   ]
  },
  "tag_counts": {
-  "ai-product": 367,
-  "ux": 146,
-  "growth": 142,
-  "finance-product": 114,
-  "data": 62,
-  "notification": 43,
-  "dashboard": 34,
+  "ai-product": 355,
+  "ux": 142,
+  "growth": 134,
+  "finance-product": 111,
+  "data": 60,
+  "notification": 41,
+  "dashboard": 32,
   "forecasting": 18,
   "retention": 13,
   "onboarding": 3
