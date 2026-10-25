@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-24T14:31:56.422297+00:00",
+ "generated_at": "2026-10-25T01:08:31.507636+00:00",
  "sources": 65,
- "ok": 55,
- "new_items": 64,
- "duration_s": 25.2,
+ "ok": 56,
+ "new_items": 26,
+ "duration_s": 17.3,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 23,
-   "last_item": "2026-10-24",
+   "new": 1,
+   "last_item": "2026-10-25",
    "error": null
   },
   {
@@ -97,7 +97,7 @@
   },
   {
    "name": "Datawrapper Blog",
-   "feed_url": "https://www.datawrapper.de/blog/feed/",
+   "feed_url": "https://blog.datawrapper.de/feed/",
    "ok": true,
    "items": 1084,
    "new": 0,
@@ -106,7 +106,7 @@
   },
   {
    "name": "Datawrapper Blog",
-   "feed_url": "https://blog.datawrapper.de/feed/",
+   "feed_url": "https://www.datawrapper.de/blog/feed/",
    "ok": true,
    "items": 1084,
    "new": 0,
@@ -177,11 +177,20 @@
    "error": null
   },
   {
+   "name": "Hacker News — Best",
+   "feed_url": "https://hnrss.org/best",
+   "ok": true,
+   "items": 30,
+   "new": 20,
+   "last_item": "2026-10-24",
+   "error": null
+  },
+  {
    "name": "InfoQ 中文",
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-10-24",
    "error": null
   },
@@ -199,7 +208,7 @@
    "feed_url": "https://www.latent.space/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-24",
    "error": null
   },
@@ -208,8 +217,8 @@
    "feed_url": "https://www.lennysnewsletter.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-10-21",
+   "new": 1,
+   "last_item": "2026-10-24",
    "error": null
   },
   {
@@ -280,7 +289,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 13,
+   "new": 0,
    "last_item": "2026-10-23",
    "error": null
   },
@@ -316,7 +325,7 @@
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-24",
    "error": null
   },
@@ -415,7 +424,7 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-24",
    "error": null
   },
@@ -433,7 +442,7 @@
    "feed_url": "https://vercel.com/atom",
    "ok": true,
    "items": 1704,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-10-23",
    "error": null
   },
@@ -460,7 +469,7 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 15,
+   "new": 0,
    "last_item": "2026-10-24",
    "error": null
   },
@@ -469,7 +478,7 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-24",
    "error": null
   },
@@ -478,8 +487,8 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 0,
-   "last_item": "2026-10-24",
+   "new": 1,
+   "last_item": "2026-10-25",
    "error": null
   },
   {
@@ -487,7 +496,7 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 3,
+   "new": 1,
    "last_item": "2026-10-24",
    "error": null
   },
@@ -562,15 +571,6 @@
    "new": 0,
    "last_item": null,
    "error": "403 Client Error: Forbidden for url: https://research.glassnode.com/rss/"
-  },
-  {
-   "name": "Hacker News — Best",
-   "feed_url": "https://hnrss.org/best",
-   "ok": false,
-   "items": 0,
-   "new": 0,
-   "last_item": null,
-   "error": "HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /best (Caused by ConnectTimeoutError(<HTTPSConnection(host='hnrss.org', port=443"
   },
   {
    "name": "The Beautiful Mess (John Cutler)",

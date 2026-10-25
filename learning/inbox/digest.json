@@ -1,694 +1,63 @@
 {
- "generated_at": "2026-10-24T14:31:56.470047+00:00",
+ "generated_at": "2026-10-25T01:08:31.563176+00:00",
  "window_days": 14,
- "total": 2362,
+ "total": 2243,
  "groups": {
-  "dataviz": [
-   {
-    "id": "6c3312143ed552db",
-    "date": "2026-10-24",
-    "published": "2026-10-24T14:08:14+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The World’s Best Countries at Computing in 2026",
-    "link": "https://www.visualcapitalist.com/ranked-the-worlds-best-countries-at-computing-in-2026/",
-    "summary": "Which countries have the best computing skills? See how 15-year-olds rank in computational problem-solving, according to PISA 2025.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-24T14:31:38.001343+00:00"
-   },
-   {
-    "id": "7b5b9baa8b33cd02",
-    "date": "2026-10-24",
-    "published": "2026-10-24T12:07:49+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The Most and Least Common Birthdays in America",
-    "link": "https://www.visualcapitalist.com/most-common-birthdays-us/",
-    "summary": "Discover the most common birthdays in the U.S., why September dominates, and why holidays like Christmas have fewer births.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-24T14:31:38.001351+00:00"
-   },
-   {
-    "id": "08acbc0866f3877d",
-    "date": "2026-10-23",
-    "published": "2026-10-23T17:49:04+00:00",
-    "source": "Visual Capitalist",
-    "title": "Mapped: How Many Starbucks Stores Are in Each Country?",
-    "link": "https://www.visualcapitalist.com/cp/mapped-how-many-starbucks-stores-are-in-each-country/",
-    "summary": "Which countries have the most Starbucks stores in 2026? Explore global rankings, expansion trends, and store closures.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-24T01:34:08.574107+00:00"
-   },
-   {
-    "id": "2e03c93166504437",
-    "date": "2026-10-23",
-    "published": "2026-10-23T17:30:04+00:00",
-    "source": "FlowingData",
-    "title": "Primer for geospatial embeddings",
-    "link": "https://flowingdata.com/2026/10/23/primer-for-geospatial-embeddings/",
-    "summary": "For Development Seed, Kiri Carini and Martha Morrissey explain what embeddings are and… Tags: Development Seed , embeddings , geospatial , guide , training",
-    "topics": [
-     "dataviz"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-24T01:34:05.800593+00:00"
-   },
-   {
-    "id": "9b1176a8b0310035",
-    "date": "2026-10-23",
-    "published": "2026-10-23T16:12:43+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: Countries That Visit the Doctor Most Often",
-    "link": "https://www.visualcapitalist.com/ranked-countries-where-people-visit-the-doctor-most-often/",
-    "summary": "South Koreans see a doctor 18 times a year, almost five times as often as Americans. See how doctor visits compare across 40 countries.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-24T01:34:08.574116+00:00"
-   },
-   {
-    "id": "6693e64a5d8c2959",
-    "date": "2026-10-23",
-    "published": "2026-10-23T14:49:00+00:00",
-    "source": "Visual Capitalist",
-    "title": "Visualized: Inside the UAE’s Food Imports",
-    "link": "https://www.visualcapitalist.com/sp/dpw02-visualized-inside-the-uaes-food-imports/",
-    "summary": "What makes up the UAE’s food imports? Explore the 2025 category breakdown and the logistics behind the journey from origin to shelf.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T15:44:41.997088+00:00"
-   },
-   {
-    "id": "e911cb192e2df526",
-    "date": "2026-10-23",
-    "published": "2026-10-23T13:12:36+00:00",
-    "source": "Visual Capitalist",
-    "title": "The World’s Largest Militaries, by Four Different Measures",
-    "link": "https://www.visualcapitalist.com/worlds-largest-militaries-four-metrics/",
-    "summary": "See how the world's militaries compare across four different metrics in 2026: active personnel, tanks, aircraft, and naval assets.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T15:44:41.997097+00:00"
-   },
-   {
-    "id": "6f504f06a08c82d3",
-    "date": "2026-10-23",
-    "published": "2026-10-23T13:00:00+00:00",
-    "source": "Nightingale (Data Visualization Society)",
-    "title": "An Ikat Narrative of Railway Workforce Mobility",
-    "link": "https://nightingaledvs.com/an-ikat-narrative-of-railway-workforce-mobility/",
-    "summary": "We often overlook what is most visible not because it requires no attention, but because familiarity blinds us to what is right in front of.. The post An Ikat Narrative of Railway Workforce Mobility appeared first on Nightingale .",
-    "topics": [
-     "dataviz",
-     "ux"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T15:44:41.541340+00:00"
-   },
-   {
-    "id": "82872dfd953dc171",
-    "date": "2026-10-23",
-    "published": "2026-10-23T11:48:04+00:00",
-    "source": "FlowingData",
-    "title": "What happens to math going forward",
-    "link": "https://flowingdata.com/2026/10/23/what-happens-to-math-going-forward/",
-    "summary": "Terence Tao has become the unofficial spokesperson for the future of mathematics. Elisabeth… Tags: math , New York Times , OpenAI , Terence Tao",
-    "topics": [
-     "dataviz"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T15:44:39.772489+00:00"
-   },
-   {
-    "id": "f88a75f57517b975",
-    "date": "2026-10-23",
-    "published": "2026-10-23T11:21:20+00:00",
-    "source": "Visual Capitalist",
-    "title": "The $128 Trillion Global Economy: Every Country’s GDP Ranked",
-    "link": "https://www.visualcapitalist.com/the-128-trillion-global-economy-in-2026/",
-    "summary": "The global economy is projected to surpass $128 trillion in 2026. Nearly half of this comes from just two countries.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T15:44:41.997100+00:00"
-   },
-   {
-    "id": "cbf62459e1a00d69",
-    "date": "2026-10-23",
-    "published": "2026-10-23T03:46:04+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The World’s Fastest-Growing Economies in 2026",
-    "link": "https://www.visualcapitalist.com/cp/ranked-the-worlds-fastest-growing-economies-in-2026/",
-    "summary": "Which economies will grow fastest in 2026? Explore IMF GDP forecasts, from Guyana's oil boom to rapid growth across Africa and Asia.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [
-     "growth",
-     "forecasting",
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-23T15:44:41.997101+00:00"
-   },
-   {
-    "id": "afe50e5e93545e6b",
-    "date": "2026-10-22",
-    "published": "2026-10-22T22:43:48+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The Top Currencies Used in Global Payments",
-    "link": "https://www.visualcapitalist.com/cp/ranked-top-currencies-in-global-payments/",
-    "summary": "The U.S. dollar dominates SWIFT payments with a 52% share. See how the euro, pound, yuan, and other currencies compare globally.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T01:29:14.676939+00:00"
-   },
-   {
-    "id": "3e16c8f7193a4852",
-    "date": "2026-10-22",
-    "published": "2026-10-22T19:06:12+00:00",
-    "source": "FlowingData",
-    "title": "When AI comes for purpose",
-    "link": "https://flowingdata.com/2026/10/22/when-ai-comes-for-purpose/",
-    "summary": "Mathematician and Cornell professor Steven Strogatz was a guest on NYT’s Daily podcast… Tags: math , New York Times , purpose , Steven Strogatz",
-    "topics": [
-     "dataviz"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T01:29:12.960957+00:00"
-   },
-   {
-    "id": "58049b24535c92eb",
-    "date": "2026-10-22",
-    "published": "2026-10-22T19:00:00+00:00",
-    "source": "Datawrapper Blog",
-    "title": "Carrot or stick? How the French government is responding to the student protests",
-    "link": "https://www.datawrapper.de/blog/how-the-french-government-is-responding-to-the-student-protests",
-    "summary": "What are the demands of the protesters, and how did the French government react?",
-    "topics": [
-     "dataviz",
-     "ux"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T01:29:17.576826+00:00"
-   },
-   {
-    "id": "b87aab9647c1e209",
-    "date": "2026-10-22",
-    "published": "2026-10-22T16:45:14+00:00",
-    "source": "FlowingData",
-    "title": "✚ Avoiding charts by default",
-    "link": "https://flowingdata.com/2026/10/22/process-411-default-avoid/",
-    "summary": "This week, we switch the chart defaults to non-defaults. Tags: creativity , default",
-    "topics": [
-     "dataviz"
-    ],
-    "tags": [
-     "dashboard"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-23T01:29:12.960967+00:00"
-   },
-   {
-    "id": "ce17fdeae5f84972",
-    "date": "2026-10-22",
-    "published": "2026-10-22T16:18:55+00:00",
-    "source": "Visual Capitalist",
-    "title": "The U.S. Industries Gaining and Losing the Most Jobs",
-    "link": "https://www.visualcapitalist.com/visualized-jobs-gained-and-lost-in-america-in-2026/",
-    "summary": "The U.S. shed over 200,000 government jobs in just a year. In the same period, the country added over 370,000 healthcare jobs.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T01:29:14.676951+00:00"
-   },
-   {
-    "id": "04c01c768b92637a",
-    "date": "2026-10-22",
-    "published": "2026-10-22T14:03:21+00:00",
-    "source": "Visual Capitalist",
-    "title": "Mapped: Are Americans Getting Richer Since 2000?",
-    "link": "https://www.visualcapitalist.com/mapped-are-americans-getting-richer-since-2000/",
-    "summary": "Americans are getting richer, but not everywhere. See how incomes have changed in all 50 states since 2000, adjusted for inflation.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-22T15:53:00.308761+00:00"
-   },
-   {
-    "id": "47c0b0a1e66bdea4",
-    "date": "2026-10-22",
-    "published": "2026-10-22T12:03:14+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: Countries With the Most Debt to China",
-    "link": "https://www.visualcapitalist.com/ranked-countries-with-the-most-debt-to-china/",
-    "summary": "China has loaned out billions to developing countries worldwide. Some countries are struggling to pay on time.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-22T15:53:00.308774+00:00"
-   },
-   {
-    "id": "c5f82a5a998087be",
-    "date": "2026-10-22",
-    "published": "2026-10-22T09:13:33+00:00",
-    "source": "FlowingData",
-    "title": "Cost of electricity from investor-owned vs. public",
-    "link": "https://flowingdata.com/2026/10/22/cost-of-electricity-from-investor-owned-vs-public/",
-    "summary": "If your electricity provider is an investor-owned company, it’s likely you’re paying more… Tags: Bloomberg , cost , electricity",
-    "topics": [
-     "dataviz"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-22T15:52:56.826666+00:00"
-   },
-   {
-    "id": "0da591af9ea41a1e",
-    "date": "2026-10-21",
-    "published": "2026-10-21T20:26:12+00:00",
-    "source": "Nightingale (Data Visualization Society)",
-    "title": "It Took a Village to Redesign the DVS Website",
-    "link": "https://nightingaledvs.com/it-took-a-village-to-redesign-the-dvs-website/",
-    "summary": "You may have noticed that the DVS website has a new look. We recently redesigned it with improved navigation and resources for data viz professionals.. The post It Took a Village to Redesign the DVS Website appeared first on Nightingale .",
-    "topics": [
-     "dataviz",
-     "ux"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-22T01:29:22.303762+00:00"
-   },
-   {
-    "id": "7a6ba75185b0366b",
-    "date": "2026-10-21",
-    "published": "2026-10-21T18:43:46+00:00",
-    "source": "The Economist – Graphic detail",
-    "title": "Polls suggest a sweeping Democrat victory. History suggests caution",
-    "link": "https://www.economist.com/graphic-detail/2026/10/21/polls-suggest-a-sweeping-democrat-victory-history-suggests-caution",
-    "summary": "Predictable polling errors might reduce the size of the midterms margin",
-    "topics": [
-     "dataviz",
-     "macro",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-22T01:29:22.865069+00:00"
-   },
-   {
-    "id": "2f1f780aa13d1572",
-    "date": "2026-10-21",
-    "published": "2026-10-21T18:43:46+00:00",
-    "source": "The Economist – Graphic detail",
-    "title": "Polls suggest a sweeping Democratic victory. History suggests caution",
-    "link": "https://www.economist.com/graphic-detail/2026/10/21/polls-suggest-a-sweeping-democratic-victory-history-suggests-caution",
-    "summary": "Predictable polling errors might reduce the size of the midterms margin",
-    "topics": [
-     "dataviz",
-     "macro",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T01:29:13.717479+00:00"
-   },
-   {
-    "id": "9e65cdc52c5b44ae",
-    "date": "2026-10-21",
-    "published": "2026-10-21T15:06:02+00:00",
-    "source": "Grafana Labs Blog",
-    "title": "Spend less time on operational busywork and resolve incidents faster with Grafana Workflows",
-    "link": "https://grafana.com/blog/spend-less-time-on-operational-busywork-and-resolve-incidents-faster-with-grafana-workflows/",
-    "summary": "You're investigating checkout errors when someone asks who's coordinating the incident. Support needs an update, and another responder is looking for the runbook. You stop what you're doing to get everyone pointed in the same direction. They're all reasonable requests, but each one takes your attent",
-    "topics": [
-     "dataviz",
-     "changelog",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-21T15:57:17.511913+00:00"
-   },
-   {
-    "id": "32b8e7fafe4447cf",
-    "date": "2026-10-21",
-    "published": "2026-10-21T14:57:46+00:00",
-    "source": "Visual Capitalist",
-    "title": "Mapped: The Cost of Raising a Child in Every U.S. State",
-    "link": "https://www.visualcapitalist.com/cost-of-raising-a-child-in-every-u-s-state/",
-    "summary": "Explore the cost of raising a child by state, from over $412,000 in Hawaii to about $202,000 in New Hampshire.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-21T15:57:20.715381+00:00"
-   },
-   {
-    "id": "94c90ff335c87fa3",
-    "date": "2026-10-21",
-    "published": "2026-10-21T13:06:15+00:00",
-    "source": "Visual Capitalist",
-    "title": "How Hard Is It to Get Into Each Ivy League School?",
-    "link": "https://www.visualcapitalist.com/how-hard-is-it-to-get-into-each-ivy-league-school/",
-    "summary": "Explore Ivy League acceptance rates, SAT scores, and average annual costs. See which schools are hardest to get into and how they compare.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-21T15:57:20.715391+00:00"
-   },
-   {
-    "id": "b941a2d41f976735",
-    "date": "2026-10-21",
-    "published": "2026-10-21T11:16:49+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The World’s Largest Economies in 2026",
-    "link": "https://www.visualcapitalist.com/the-worlds-largest-economies-by-gdp-in-2026/",
-    "summary": "The world's largest economy has long been the United States. Unless, of course, if adjusting for purchasing power.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-21T15:57:20.715394+00:00"
-   },
-   {
-    "id": "eaf4f162b38b01f0",
-    "date": "2026-10-21",
-    "published": "2026-10-21T07:30:21+00:00",
-    "source": "FlowingData",
-    "title": "Rising to top net worth, by age",
-    "link": "https://flowingdata.com/2026/10/21/higher-net-worth/",
-    "summary": "Results from the Survey of Consumer Finances were recently released, which means it is time for a rendition of seeing who has a higher net worth than you. Tags: net worth , wealth",
-    "topics": [
-     "dataviz"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-21T15:57:16.577512+00:00"
-   },
-   {
-    "id": "31373ba85fbf746a",
-    "date": "2026-10-20",
-    "published": "2026-10-20T23:11:04+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: 70 Cities in Asia and Oceania by Quality of Life vs. Cost",
-    "link": "https://www.visualcapitalist.com/cp/ranked-cities-in-asia-and-oceania-quality-of-life-vs-cost/",
-    "summary": "Which cities offer the best quality of life for their cost? Compare 70 cities across Asia, the Middle East, and Oceania.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-21T01:33:46.972982+00:00"
-   },
-   {
-    "id": "563fe96dc7d2a0cf",
-    "date": "2026-10-20",
-    "published": "2026-10-20T17:00:00+00:00",
-    "source": "Datawrapper Blog",
-    "title": "Data Vis Dispatch, October 20: Work friendships, heat storms, and expensive stamps",
-    "link": "https://www.datawrapper.de/blog/data-vis-dispatch-october-20-2026-work-friendships-heat-storms-and-expensive-stamps",
-    "summary": "The best of last week’s big and small data visualizations",
-    "topics": [
-     "dataviz",
-     "ux"
-    ],
-    "tags": [
-     "dashboard"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-20T15:39:15.024206+00:00"
-   },
-   {
-    "id": "dd522f97f850e62c",
-    "date": "2026-10-20",
-    "published": "2026-10-20T16:56:33+00:00",
-    "source": "Visual Capitalist",
-    "title": "Executive MBAs for Global Leadership: Why They Matter and What to Look For",
-    "link": "https://www.visualcapitalist.com/sp/hf11-executive-mbas-for-global-leadership-what-to-look-for/",
-    "summary": "Explore Executive MBAs for global leadership, from salary gains and career growth to the program features that matter most.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-21T01:33:46.972992+00:00"
-   },
-   {
-    "id": "855b3da779df3972",
-    "date": "2026-10-20",
-    "published": "2026-10-20T16:30:02+00:00",
-    "source": "Grafana Labs Blog",
-    "title": "ObservabilityCON 2026: A guide to all the announcements from Grafana Labs",
-    "link": "https://grafana.com/blog/observabilitycon-2026-announcements/",
-    "summary": "Today at ObservabilityCON 2026 in San Francisco, we unveiled a range of new Grafana Cloud capabilities designed to reshape cloud economics, bring richer context and deeper visibility across your systems and end-user experiences, and help teams move toward autonomous operations. Check out the keynote",
-    "topics": [
-     "dataviz",
-     "changelog",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-21T01:33:44.690734+00:00"
-   },
-   {
-    "id": "d8e0ac0cbe2d4d27",
-    "date": "2026-10-20",
-    "published": "2026-10-20T16:30:02+00:00",
-    "source": "Grafana Labs Blog",
-    "title": "From production problem to proposed fix: Implement autonomous operations with Grafana AI",
-    "link": "https://grafana.com/blog/grafana-ai-autonomous-operations/",
-    "summary": "You've just finished a deployment, and though your service is up, you start to notice some requests are getting slower. To address the lag, someone—or, more likely, some group of people on your team—needs to watch the dashboards, decide whether the change matters, investigate what happened, and turn",
-    "topics": [
-     "dataviz",
-     "changelog",
-     "product"
-    ],
-    "tags": [
-     "dashboard"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-21T01:33:44.690744+00:00"
-   },
-   {
-    "id": "cf8068e89d53e1e5",
-    "date": "2026-10-20",
-    "published": "2026-10-20T16:30:02+00:00",
-    "source": "Grafana Labs Blog",
-    "title": "Break the link between data volume and your observability bill with Adaptive Telemetry",
-    "link": "https://grafana.com/blog/cut-costs-keep-what-you-need-adaptive-telemetry/",
-    "summary": "In the AI era, where telemetry is generated by every model call, tool invocation, and agent step, organizations need more help than ever when it comes to navigating the economics of observability. For a lot of teams, the default response is a \"data diet\" of shorter retention, which leaves services o",
-    "topics": [
-     "dataviz",
-     "changelog",
-     "product"
-    ],
-    "tags": [
-     "retention",
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-21T01:33:44.690747+00:00"
-   },
-   {
-    "id": "c9b5958e9a81437a",
-    "date": "2026-10-20",
-    "published": "2026-10-20T16:30:02+00:00",
-    "source": "Grafana Labs Blog",
-    "title": "Full-stack observability in Grafana Cloud: More connections, richer context, and faster investigations for users and agents",
-    "link": "https://grafana.com/blog/full-stack-observability-with-knowledge-graph/",
-    "summary": "Most teams have telemetry from across their stack, but connecting those signals to understand what's happening and how it affects users isn't always easy. Critical context about service dependencies, ownership, and past incidents often lives across tools, runbooks, and conversations between team mem",
-    "topics": [
-     "dataviz",
-     "changelog",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-21T01:33:44.690750+00:00"
-   },
-   {
-    "id": "ed12900797a7ef8a",
-    "date": "2026-10-20",
-    "published": "2026-10-20T16:30:02+00:00",
-    "source": "Grafana Labs Blog",
-    "title": "Expand what’s possible with Grafana: The Grafana Marketplace is now generally available",
-    "link": "https://grafana.com/blog/grafana-marketplace/",
-    "summary": "Earlier this year, we launched the Grafana Marketplace , a platform that gives independent software vendors, systems integrators, and developers in the Grafana community a new way to sell and distribute plugins built for Grafana. The Marketplace builds on our existing plugin catalog by enabling thir",
-    "topics": [
-     "dataviz",
-     "changelog",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-21T01:33:44.690753+00:00"
-   },
-   {
-    "id": "5e1212ae4b0587f1",
-    "date": "2026-10-20",
-    "published": "2026-10-20T16:30:02+00:00",
-    "source": "Grafana Labs Blog",
-    "title": "Grafana Pages: Turn data into interactive experiences with the next evolution of Grafana",
-    "link": "https://grafana.com/blog/grafana-ai-next-gen-visualization/",
-    "summary": "Teams often spend as much time preparing information as discussing it: gathering charts, checking business reports, and finding the GitHub activity that explains a change. Every follow-up question can lead to yet another round of work. That's why, as part of ObservabilityCON 2026 , we're excited to ",
-    "topics": [
-     "dataviz",
-     "changelog",
-     "product"
-    ],
-    "tags": [
-     "dashboard"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-21T01:33:44.690755+00:00"
-   },
-   {
-    "id": "6d3d52cf9f13bc60",
-    "date": "2026-10-20",
-    "published": "2026-10-20T15:44:00+00:00",
-    "source": "Visual Capitalist",
-    "title": "The World’s Natural Gas Prices Over Time (2006–2026)",
-    "link": "https://www.visualcapitalist.com/sp/sc02-the-worlds-natural-gas-prices-over-time-2006-2026/",
-    "summary": "Compare natural gas prices across U.S., European, and Asian benchmarks and explore the Shale Crescent’s industrial cost advantage.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-21T01:33:46.972995+00:00"
-   },
-   {
-    "id": "005c4bc4137d405f",
-    "date": "2026-10-20",
-    "published": "2026-10-20T14:08:05+00:00",
-    "source": "Visual Capitalist",
-    "title": "Mapped: Credit Scores Across All 50 U.S. States",
-    "link": "https://www.visualcapitalist.com/mapped-average-credit-score-by-state/",
-    "summary": "Credit scores shape Americans' abilities to get everything from credit cards to mortgages. This is bad news for Southerners.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-20T15:39:15.251954+00:00"
-   },
-   {
-    "id": "40eb07b34a535ba5",
-    "date": "2026-10-20",
-    "published": "2026-10-20T12:04:57+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The 100 Best Universities Outside the U.S. for 2027",
-    "link": "https://www.visualcapitalist.com/best-universities-outside-us-2027/",
-    "summary": "Explore the best universities outside the U.S. in 2027, led by Oxford, Cambridge, and Imperial College London.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-20T15:39:15.251962+00:00"
-   },
-   {
-    "id": "1e1e67f5e5fe41c1",
-    "date": "2026-10-20",
-    "published": "2026-10-20T10:02:15+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The World’s Largest Tourism Economies",
-    "link": "https://www.visualcapitalist.com/ranked-the-worlds-largest-tourism-economies-in-2025/",
-    "summary": "The Chinese tourism sector grew by double the global average in 2025. Meanwhile, the U.S. has seen a drop in foreign visitors.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-20T15:39:15.251964+00:00"
-   }
-  ],
   "china": [
+   {
+    "id": "1d37fbf7415ed0e3",
+    "date": "2026-10-25",
+    "published": "2026-10-25T01:00:00+00:00",
+    "source": "36氪",
+    "title": "吉大刘春宝孵化，00后团队创业仿生灵巧脸，拿下数千万融资丨36氪首发",
+    "link": "https://36kr.com/p/4040083368629381?f=rss",
+    "summary": "图源/企业 本文约 3500 字，建议阅读 9 分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，仿生灵巧脸与情感交互技术公司——杭州灵颜科技有限公司（下称“灵颜科技”）近期已完成数千万元种子轮及种子+轮融资。种子轮投资人包括盈动资本、浙江火炬中心，种子+轮投资人包括毅达资本、梅花创投、领甪资本，老股东盈动资本继续追加投资。领甪资本担任本轮及后续轮次财务顾问。资金将主要用于产品迭代、核心零部件研发、算法平台建设以及团队扩充。 在具身智能与人形机器人产业狂飙突进的当下，当多数目光聚焦于机器人的“四肢”与“躯干”时，灵颜科技选择了一条极为垂直却关键的赛道——做人形机器人的“脸”。 灵颜科技成立于2026年",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-25T01:08:16.693274+00:00"
+   },
+   {
+    "id": "24be6f4ae67ce75d",
+    "date": "2026-10-25",
+    "published": "2026-10-25T00:52:41+00:00",
+    "source": "极客公园",
+    "title": "苹果首批折叠屏遭集中投诉；英国宣布超过 6 亿英镑 AI 投资计划；刘慈欣监制《三体·大史》年内开机",
+    "link": "http://www.geekpark.net/news/372860",
+    "summary": "​到手 6 小时、开合不到 20 次屏幕就裂：苹果首批折叠屏遭集中投诉 苹果首款折叠屏手机 iPhone Duo 刚开售就遇上了麻烦：据海外论坛和小红书多人反馈，不少用户开箱即遇到屏幕爆线、开裂问题，汇总照片显示故障位置高度集中——几乎全部出现在铰链正上方，多数表现为屏幕一侧浮现一条亮像素线。 一名澳洲用户称，设备到手约 6 小时、开合不到 20 次，向朋友展示展开时先感到内铰链下方异样，随后听到清晰的「咔嚓」声，屏幕随即沿铰链裂开，内屏表面与外部铰链均无磕碰或夹痕，他前往 Apple Store 后苹果直接为其更换了故障机。国内也有类似案例。 综合目前反馈，问题可能出在 iPhone Duo",
+    "topics": [
+     "china",
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-10-25T01:08:18.975109+00:00"
+   },
+   {
+    "id": "f1b39440a671b27e",
+    "date": "2026-10-24",
+    "published": "2026-10-24T14:35:59+00:00",
+    "source": "爱范儿",
+    "title": "史上最快宾利！竟然是一辆 SUV？",
+    "link": "https://www.ifanr.com/1685572?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "summary": "不愧是精装版纯电卡宴。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-10-25T01:08:18.277340+00:00"
+   },
    {
     "id": "ab2891a707f5b647",
     "date": "2026-10-24",
@@ -1344,61 +713,121 @@
     "tags": [],
     "lang": "zh",
     "first_seen": "2026-10-24T14:31:34.586244+00:00"
-   },
-   {
-    "id": "f407619dc3ad6992",
-    "date": "2026-10-24",
-    "published": "2026-10-24T03:37:16+00:00",
-    "source": "人人都是产品经理",
-    "title": "机器人领域的OpenAI，来了？",
-    "link": "https://www.woshipm.com/embodied/6483693.html",
-    "summary": "Physical Intelligence 推出 Pi API beta，开始把「机器人大脑」按 API 卖。具身智能不缺融资和 demo，难的是私有化部署、数据合规与验收责任，这三关决定谁能把它卖成生意。 具身智能行业最近被一个老问题重新击中，机器人“大脑”，到底该怎么卖？ 过去两年，具身大脑公司普遍不缺融资、不缺论文、不缺demo，真正难的是商业化。模型能力看起来都很强，但落到实际操作上，往往还要面对私有化部署、项目制交付、数据合规和验收责任。也正因如此，10月13日当Physical Intelligence（PI）宣布推出Pi API beta版时，迅速引起了行业的讨论。 这家被视为“",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [
-     "data"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-10-24T14:31:34.586245+00:00"
-   },
-   {
-    "id": "4e3d2999a0227d21",
-    "date": "2026-10-24",
-    "published": "2026-10-24T03:25:33+00:00",
-    "source": "爱范儿",
-    "title": "突发！iPhone Duo 支持微信平板登录，可与手机、电脑同时在线",
-    "link": "https://www.ifanr.com/1685714?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "summary": "来了来了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-10-24T14:31:35.068355+00:00"
-   },
-   {
-    "id": "8292721fbe61469d",
-    "date": "2026-10-24",
-    "published": "2026-10-24T03:16:47+00:00",
-    "source": "人人都是产品经理",
-    "title": "我把 AI 做自媒体的 13 个 AI 技能，免费开源了",
-    "link": "https://www.woshipm.com/ai/6483435.html",
-    "summary": "作者把两年做自媒体沉淀的流程做成 13 个 AI 技能，全部免费开源：账号定位、选题、笔记分析、日复盘、录音处理都在里面。他讲了为什么放出来，以及一个新手该按什么顺序用。 我从2020年开始做小红书，2025年开始把 AI 用到自媒体运营上，到现在积累了很多工作流程，也做了自己的知识库、工作台之类的。 现在我把一套做自媒体的流程做成了 13 个 AI 技能，免费开放了，之前分享过的工作台，背后笔记分析、日复盘、录音处理的方法，都在里面了。 里面有一个账号定位的技能，这套方法我以前经常拿来给学员、给客户做账号规划，现在整个skill拿去，就可以自己跑一遍。 1 为什么放出来 现在很多人想做自媒体",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [
-     "onboarding"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-10-24T14:31:34.586246+00:00"
    }
   ],
   "ai": [
+   {
+    "id": "031828a0b81e748e",
+    "date": "2026-10-24",
+    "published": "2026-10-24T20:30:31+00:00",
+    "source": "Hacker News — Best",
+    "title": "Show HN: Steal My Bitcoin",
+    "link": "https://stealmybitcoin.com/",
+    "summary": "Made this because I'm curious if anyone out there has figured out how to actually use this PHP RCE we spent the last few days panicking over. Have fun! Comments URL: https://news.ycombinator.com/item?id=50224916 Points: 378 # Comments: 223",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742378+00:00"
+   },
+   {
+    "id": "074b7d5e1602db74",
+    "date": "2026-10-24",
+    "published": "2026-10-24T19:47:19+00:00",
+    "source": "Hacker News — Best",
+    "title": "No signs of AI payoff outside the tech sector",
+    "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+    "summary": "Article URL: https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector Comments URL: https://news.ycombinator.com/item?id=50224463 Points: 460 # Comments: 443",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742387+00:00"
+   },
+   {
+    "id": "01ffbd34f502ceb6",
+    "date": "2026-10-24",
+    "published": "2026-10-24T19:06:55+00:00",
+    "source": "Hacker News — Best",
+    "title": "The Goose Programming Language",
+    "link": "https://aardappel.github.io/goose/",
+    "summary": "https://twitter.com/ID_AA_Carmack/status/2113704269274636568 Comments URL: https://news.ycombinator.com/item?id=50224100 Points: 216 # Comments: 152",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742390+00:00"
+   },
+   {
+    "id": "f686687fa50fc360",
+    "date": "2026-10-24",
+    "published": "2026-10-24T16:06:26+00:00",
+    "source": "Hacker News — Best",
+    "title": "Roku developer repositories moved from GitHub to GitLab",
+    "link": "https://blog.roku.com/developer/gitlab-move",
+    "summary": "Article URL: https://blog.roku.com/developer/gitlab-move Comments URL: https://news.ycombinator.com/item?id=50222622 Points: 251 # Comments: 165",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742392+00:00"
+   },
+   {
+    "id": "756ceeba4c4c85a1",
+    "date": "2026-10-24",
+    "published": "2026-10-24T15:20:01+00:00",
+    "source": "Hacker News — Best",
+    "title": "FreeDNS",
+    "link": "https://freedns.afraid.org/",
+    "summary": "Article URL: https://freedns.afraid.org/ Comments URL: https://news.ycombinator.com/item?id=50222133 Points: 244 # Comments: 61",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742394+00:00"
+   },
+   {
+    "id": "e42ee3d66f199245",
+    "date": "2026-10-24",
+    "published": "2026-10-24T14:38:34+00:00",
+    "source": "Hacker News — Best",
+    "title": "Google illegally cut down 250K trees in Finland for data center",
+    "link": "https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/",
+    "summary": "Article URL: https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/ Comments URL: https://news.ycombinator.com/item?id=50221676 Points: 246 # Comments: 199",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742395+00:00"
+   },
+   {
+    "id": "14f5ee687146f16a",
+    "date": "2026-10-24",
+    "published": "2026-10-24T13:09:28+00:00",
+    "source": "Hacker News — Best",
+    "title": "Elon Musk Just Gave Europe a Reason to Replace American Technology",
+    "link": "https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/",
+    "summary": "Article URL: https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/ Comments URL: https://news.ycombinator.com/item?id=50220913 Points: 415 # Comments: 445",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742397+00:00"
+   },
    {
     "id": "e4bfd52b806755eb",
     "date": "2026-10-24",
@@ -1414,6 +843,38 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-10-24T14:31:38.262115+00:00"
+   },
+   {
+    "id": "6252a2c19dbe293c",
+    "date": "2026-10-24",
+    "published": "2026-10-24T09:53:26+00:00",
+    "source": "Hacker News — Best",
+    "title": "I don't understand quantum physics (2018)",
+    "link": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+    "summary": "Article URL: https://www.southampton.ac.uk/~doug/quantum_physics/index.html Comments URL: https://news.ycombinator.com/item?id=50219666 Points: 272 # Comments: 205",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742398+00:00"
+   },
+   {
+    "id": "69696c78864a6bdc",
+    "date": "2026-10-24",
+    "published": "2026-10-24T08:06:39+00:00",
+    "source": "Hacker News — Best",
+    "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+    "link": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+    "summary": "Article URL: https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497 Comments URL: https://news.ycombinator.com/item?id=50219177 Points: 270 # Comments: 136",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742400+00:00"
    },
    {
     "id": "4fe4a52829529134",
@@ -1433,6 +894,38 @@
     "first_seen": "2026-10-24T14:31:33.292330+00:00"
    },
    {
+    "id": "30e2978fb6472d9d",
+    "date": "2026-10-24",
+    "published": "2026-10-24T05:49:57+00:00",
+    "source": "Hacker News — Best",
+    "title": "Root shell on Samsung TV",
+    "link": "https://twitter.com/log4j/status/2113014142600953868?s=46",
+    "summary": "Article URL: https://twitter.com/log4j/status/2113014142600953868?s=46 Comments URL: https://news.ycombinator.com/item?id=50218633 Points: 485 # Comments: 194",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742401+00:00"
+   },
+   {
+    "id": "f244da1f1890907b",
+    "date": "2026-10-24",
+    "published": "2026-10-24T04:49:58+00:00",
+    "source": "Hacker News — Best",
+    "title": "OBS Studio 33",
+    "link": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+    "summary": "Article URL: https://github.com/obsproject/obs-studio/releases/tag/33.0.0 Comments URL: https://news.ycombinator.com/item?id=50218430 Points: 439 # Comments: 159",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742403+00:00"
+   },
+   {
     "id": "3812b4d599bb7adb",
     "date": "2026-10-24",
     "published": "2026-10-24T03:59:57+00:00",
@@ -1448,6 +941,54 @@
     ],
     "lang": "en",
     "first_seen": "2026-10-24T14:31:32.190140+00:00"
+   },
+   {
+    "id": "937563ab7080fc1a",
+    "date": "2026-10-24",
+    "published": "2026-10-24T03:43:54+00:00",
+    "source": "Hacker News — Best",
+    "title": "How close can pure functional programming get to C?",
+    "link": "https://rtfeldman.com/fp-vs-c",
+    "summary": "Article URL: https://rtfeldman.com/fp-vs-c Comments URL: https://news.ycombinator.com/item?id=50218195 Points: 251 # Comments: 87",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742405+00:00"
+   },
+   {
+    "id": "d6452a029695fe9b",
+    "date": "2026-10-24",
+    "published": "2026-10-24T01:16:58+00:00",
+    "source": "Hacker News — Best",
+    "title": "Twelve years of distributed SQLite",
+    "link": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+    "summary": "Article URL: https://philipotoole.com/twelve-years-of-distributed-sqlite/ Comments URL: https://news.ycombinator.com/item?id=50217500 Points: 363 # Comments: 62",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742406+00:00"
+   },
+   {
+    "id": "68b2e868f8ae751f",
+    "date": "2026-10-24",
+    "published": "2026-10-24T01:15:14+00:00",
+    "source": "Hacker News — Best",
+    "title": "Around a dozen banking apps began specifically permitting GrapheneOS",
+    "link": "https://grapheneos.social/@GrapheneOS/117492375462459244",
+    "summary": "Article URL: https://grapheneos.social/@GrapheneOS/117492375462459244 Comments URL: https://news.ycombinator.com/item?id=50217495 Points: 614 # Comments: 286",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742408+00:00"
    },
    {
     "id": "ece6c921b830e7e3",
@@ -1468,6 +1009,22 @@
     "first_seen": "2026-10-24T01:34:03.210819+00:00"
    },
    {
+    "id": "f91eeafcc1ba2c66",
+    "date": "2026-10-23",
+    "published": "2026-10-23T21:21:47+00:00",
+    "source": "Hacker News — Best",
+    "title": "CVE Tracker",
+    "link": "https://cve.0xosprey.com/",
+    "summary": "Article URL: https://cve.0xosprey.com/ Comments URL: https://news.ycombinator.com/item?id=50215530 Points: 213 # Comments: 72",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742409+00:00"
+   },
+   {
     "id": "2e71264ea893e482",
     "date": "2026-10-23",
     "published": "2026-10-23T19:40:54+00:00",
@@ -1483,6 +1040,38 @@
     ],
     "lang": "en",
     "first_seen": "2026-10-24T01:34:03.210829+00:00"
+   },
+   {
+    "id": "55f38e2b0de99dce",
+    "date": "2026-10-23",
+    "published": "2026-10-23T19:34:15+00:00",
+    "source": "Hacker News — Best",
+    "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+    "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+    "summary": "Article URL: https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update Comments URL: https://news.ycombinator.com/item?id=50214218 Points: 376 # Comments: 195",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742411+00:00"
+   },
+   {
+    "id": "2ca67924f9fca88f",
+    "date": "2026-10-23",
+    "published": "2026-10-23T19:09:54+00:00",
+    "source": "Hacker News — Best",
+    "title": "Dessa: Conversation Model trained only on speech",
+    "link": "https://block.xyz/dessa",
+    "summary": "Article URL: https://block.xyz/dessa Comments URL: https://news.ycombinator.com/item?id=50213925 Points: 502 # Comments: 192",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742412+00:00"
    },
    {
     "id": "298c8de07d18f423",
@@ -1551,6 +1140,22 @@
     "first_seen": "2026-10-23T15:44:39.099831+00:00"
    },
    {
+    "id": "5275a2f501819134",
+    "date": "2026-10-23",
+    "published": "2026-10-23T14:52:08+00:00",
+    "source": "Hacker News — Best",
+    "title": "eMudhra ignored Mozilla Root investigation deadline; blames social media",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=2083449",
+    "summary": "Article URL: https://bugzilla.mozilla.org/show_bug.cgi?id=2083449 Comments URL: https://news.ycombinator.com/item?id=50210067 Points: 208 # Comments: 160",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742414+00:00"
+   },
+   {
     "id": "c94c980716b66da1",
     "date": "2026-10-23",
     "published": "2026-10-23T13:41:10+00:00",
@@ -1613,6 +1218,22 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-10-24T01:34:03.004854+00:00"
+   },
+   {
+    "id": "68e19f55d8def8fb",
+    "date": "2026-10-23",
+    "published": "2026-10-23T11:04:53+00:00",
+    "source": "Hacker News — Best",
+    "title": "Is this the new cyber normal?",
+    "link": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/",
+    "summary": "Article URL: https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/ Comments URL: https://news.ycombinator.com/item?id=50207115 Points: 192 # Comments: 219",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742415+00:00"
    },
    {
     "id": "7385a735d0bf7942",
@@ -1696,6 +1317,22 @@
     "first_seen": "2026-10-24T01:34:03.004857+00:00"
    },
    {
+    "id": "46558c101eff53de",
+    "date": "2026-10-23",
+    "published": "2026-10-23T08:05:33+00:00",
+    "source": "Hacker News — Best",
+    "title": "Remove pgrust: the entry is cheating (per-query kernels and result caching)",
+    "link": "https://github.com/ClickHouse/ClickBench/pull/2165",
+    "summary": "Article URL: https://github.com/ClickHouse/ClickBench/pull/2165 Comments URL: https://news.ycombinator.com/item?id=50205816 Points: 192 # Comments: 152",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:15.742417+00:00"
+   },
+   {
     "id": "562092bac9df7bfb",
     "date": "2026-10-23",
     "published": "2026-10-23T00:52:01+00:00",
@@ -1726,341 +1363,711 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-10-23T15:44:37.629774+00:00"
-   },
+   }
+  ],
+  "dataviz": [
    {
-    "id": "46a214f271418363",
-    "date": "2026-10-22",
-    "published": "2026-10-22T23:45:56+00:00",
-    "source": "Hacker News — Best",
-    "title": "Docker is weird",
-    "link": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
-    "summary": "Article URL: https://codeandcake.dev/posts/2026-10-22-docker-is-weird Comments URL: https://news.ycombinator.com/item?id=50202681 Points: 676 # Comments: 278",
+    "id": "cf2d867322aefa6e",
+    "date": "2026-10-24",
+    "published": "2026-10-24T18:18:20+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: Which Countries Pay the Most to the UN?",
+    "link": "https://www.visualcapitalist.com/cp/mapped-which-countries-pay-the-most-to-the-un/",
+    "summary": "Who funds the United Nations? Explore the biggest UN contributors in 2025, how funding is calculated, and what donors gain.",
     "topics": [
-     "ai",
-     "product"
+     "dataviz",
+     "finance",
+     "macro"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-10-23T15:44:36.678436+00:00"
+    "first_seen": "2026-10-25T01:08:20.985395+00:00"
    },
    {
-    "id": "76226e9df68aa0a3",
-    "date": "2026-10-22",
-    "published": "2026-10-22T23:01:18+00:00",
-    "source": "Hacker News — Best",
-    "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-    "link": "https://edjefferson.com/localwiki/",
-    "summary": "Article URL: https://edjefferson.com/localwiki/ Comments URL: https://news.ycombinator.com/item?id=50202285 Points: 796 # Comments: 159",
+    "id": "4af338a70ab68923",
+    "date": "2026-10-24",
+    "published": "2026-10-24T16:24:27+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: Countries With the Highest Online Gambling Rates",
+    "link": "https://www.visualcapitalist.com/online-gambling-by-country/",
+    "summary": "Explore online gambling by country, from South Africa and Norway's high participation rates to lower rates in the U.S. and Asia.",
     "topics": [
-     "ai",
-     "product"
+     "dataviz",
+     "finance",
+     "macro"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-10-23T15:44:36.678437+00:00"
+    "first_seen": "2026-10-25T01:08:20.985405+00:00"
    },
    {
-    "id": "1360bd8eb5a8e67e",
-    "date": "2026-10-22",
-    "published": "2026-10-22T22:54:43+00:00",
-    "source": "Hacker News — Best",
-    "title": "LLMs are making formal software verification feasible at a much larger scale",
-    "link": "https://www.anthropic.com/research/formal-verification",
-    "summary": "Article URL: https://www.anthropic.com/research/formal-verification Comments URL: https://news.ycombinator.com/item?id=50202217 Points: 393 # Comments: 240",
+    "id": "6c3312143ed552db",
+    "date": "2026-10-24",
+    "published": "2026-10-24T14:08:14+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The World’s Best Countries at Computing in 2026",
+    "link": "https://www.visualcapitalist.com/ranked-the-worlds-best-countries-at-computing-in-2026/",
+    "summary": "Which countries have the best computing skills? See how 15-year-olds rank in computational problem-solving, according to PISA 2025.",
     "topics": [
-     "ai",
-     "product"
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-24T14:31:38.001343+00:00"
+   },
+   {
+    "id": "7b5b9baa8b33cd02",
+    "date": "2026-10-24",
+    "published": "2026-10-24T12:07:49+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The Most and Least Common Birthdays in America",
+    "link": "https://www.visualcapitalist.com/most-common-birthdays-us/",
+    "summary": "Discover the most common birthdays in the U.S., why September dominates, and why holidays like Christmas have fewer births.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-24T14:31:38.001351+00:00"
+   },
+   {
+    "id": "08acbc0866f3877d",
+    "date": "2026-10-23",
+    "published": "2026-10-23T17:49:04+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: How Many Starbucks Stores Are in Each Country?",
+    "link": "https://www.visualcapitalist.com/cp/mapped-how-many-starbucks-stores-are-in-each-country/",
+    "summary": "Which countries have the most Starbucks stores in 2026? Explore global rankings, expansion trends, and store closures.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-24T01:34:08.574107+00:00"
+   },
+   {
+    "id": "2e03c93166504437",
+    "date": "2026-10-23",
+    "published": "2026-10-23T17:30:04+00:00",
+    "source": "FlowingData",
+    "title": "Primer for geospatial embeddings",
+    "link": "https://flowingdata.com/2026/10/23/primer-for-geospatial-embeddings/",
+    "summary": "For Development Seed, Kiri Carini and Martha Morrissey explain what embeddings are and… Tags: Development Seed , embeddings , geospatial , guide , training",
+    "topics": [
+     "dataviz"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-24T01:34:05.800593+00:00"
+   },
+   {
+    "id": "9b1176a8b0310035",
+    "date": "2026-10-23",
+    "published": "2026-10-23T16:12:43+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: Countries That Visit the Doctor Most Often",
+    "link": "https://www.visualcapitalist.com/ranked-countries-where-people-visit-the-doctor-most-often/",
+    "summary": "South Koreans see a doctor 18 times a year, almost five times as often as Americans. See how doctor visits compare across 40 countries.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-24T01:34:08.574116+00:00"
+   },
+   {
+    "id": "6693e64a5d8c2959",
+    "date": "2026-10-23",
+    "published": "2026-10-23T14:49:00+00:00",
+    "source": "Visual Capitalist",
+    "title": "Visualized: Inside the UAE’s Food Imports",
+    "link": "https://www.visualcapitalist.com/sp/dpw02-visualized-inside-the-uaes-food-imports/",
+    "summary": "What makes up the UAE’s food imports? Explore the 2025 category breakdown and the logistics behind the journey from origin to shelf.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-23T15:44:41.997088+00:00"
+   },
+   {
+    "id": "e911cb192e2df526",
+    "date": "2026-10-23",
+    "published": "2026-10-23T13:12:36+00:00",
+    "source": "Visual Capitalist",
+    "title": "The World’s Largest Militaries, by Four Different Measures",
+    "link": "https://www.visualcapitalist.com/worlds-largest-militaries-four-metrics/",
+    "summary": "See how the world's militaries compare across four different metrics in 2026: active personnel, tanks, aircraft, and naval assets.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-23T15:44:41.997097+00:00"
+   },
+   {
+    "id": "6f504f06a08c82d3",
+    "date": "2026-10-23",
+    "published": "2026-10-23T13:00:00+00:00",
+    "source": "Nightingale (Data Visualization Society)",
+    "title": "An Ikat Narrative of Railway Workforce Mobility",
+    "link": "https://nightingaledvs.com/an-ikat-narrative-of-railway-workforce-mobility/",
+    "summary": "We often overlook what is most visible not because it requires no attention, but because familiarity blinds us to what is right in front of.. The post An Ikat Narrative of Railway Workforce Mobility appeared first on Nightingale .",
+    "topics": [
+     "dataviz",
+     "ux"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-23T15:44:41.541340+00:00"
+   },
+   {
+    "id": "82872dfd953dc171",
+    "date": "2026-10-23",
+    "published": "2026-10-23T11:48:04+00:00",
+    "source": "FlowingData",
+    "title": "What happens to math going forward",
+    "link": "https://flowingdata.com/2026/10/23/what-happens-to-math-going-forward/",
+    "summary": "Terence Tao has become the unofficial spokesperson for the future of mathematics. Elisabeth… Tags: math , New York Times , OpenAI , Terence Tao",
+    "topics": [
+     "dataviz"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-23T15:44:39.772489+00:00"
+   },
+   {
+    "id": "f88a75f57517b975",
+    "date": "2026-10-23",
+    "published": "2026-10-23T11:21:20+00:00",
+    "source": "Visual Capitalist",
+    "title": "The $128 Trillion Global Economy: Every Country’s GDP Ranked",
+    "link": "https://www.visualcapitalist.com/the-128-trillion-global-economy-in-2026/",
+    "summary": "The global economy is projected to surpass $128 trillion in 2026. Nearly half of this comes from just two countries.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-23T15:44:41.997100+00:00"
+   },
+   {
+    "id": "cbf62459e1a00d69",
+    "date": "2026-10-23",
+    "published": "2026-10-23T03:46:04+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The World’s Fastest-Growing Economies in 2026",
+    "link": "https://www.visualcapitalist.com/cp/ranked-the-worlds-fastest-growing-economies-in-2026/",
+    "summary": "Which economies will grow fastest in 2026? Explore IMF GDP forecasts, from Guyana's oil boom to rapid growth across Africa and Asia.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
     ],
     "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-23T15:44:36.678439+00:00"
-   },
-   {
-    "id": "22abd3e4334d6e33",
-    "date": "2026-10-22",
-    "published": "2026-10-22T22:43:19+00:00",
-    "source": "Hacker News — Best",
-    "title": "Canadians are running out of time to oppose Bill C-22",
-    "link": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
-    "summary": "Article URL: https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill Comments URL: https://news.ycombinator.com/item?id=50202114 Points: 324 # Comments: 165",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-24T01:34:03.004860+00:00"
-   },
-   {
-    "id": "afd83717337b4531",
-    "date": "2026-10-22",
-    "published": "2026-10-22T21:24:41+00:00",
-    "source": "Hacker News — Best",
-    "title": "Jared Kushner Hacked Phone Reveals Secret Negotiations, Millions in Transactions",
-    "link": "https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations",
-    "summary": "Article URL: https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations Comments URL: https://news.ycombinator.com/item?id=50201259 Points: 325 # Comments: 136",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T01:29:09.959424+00:00"
-   },
-   {
-    "id": "ce7fed74f49640c1",
-    "date": "2026-10-22",
-    "published": "2026-10-22T21:03:55+00:00",
-    "source": "Hacker News — Best",
-    "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-    "link": "https://news.ycombinator.com/item?id=50200997",
-    "summary": "Title is a bit of an exaggeration but the question is more: if the frontier models are so good, why even sell them as your primary money maker? Couldn't OpenAI or Anthropic make a lot more money by just starting companies themselves that leverage the models and building their own products? Is sellin",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T15:44:36.678441+00:00"
-   },
-   {
-    "id": "474d46551650ea30",
-    "date": "2026-10-22",
-    "published": "2026-10-22T19:42:26+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "DE STAAT - FREEDOM (Official Music Video)",
-    "link": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
-    "summary": "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are credited to Matties Grooten of Fake it or Leave it . Via flir on Hacker News Tags: music , ai , generative-ai , pelican-riding",
-    "topics": [
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T01:29:09.928256+00:00"
-   },
-   {
-    "id": "27825e3003584012",
-    "date": "2026-10-22",
-    "published": "2026-10-22T19:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "Build more responsive apps with the Decisions API",
-    "link": "https://openai.com/index/decisions-api",
-    "summary": "Fast, focused, low-cost decisions for any application.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
+     "growth",
+     "forecasting",
      "data"
     ],
     "lang": "en",
-    "first_seen": "2026-10-23T01:29:10.411897+00:00"
+    "first_seen": "2026-10-23T15:44:41.997101+00:00"
    },
    {
-    "id": "09776931f4659a5d",
+    "id": "afe50e5e93545e6b",
     "date": "2026-10-22",
-    "published": "2026-10-22T18:09:56+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "Donating Agent Skills to the Agentic AI Foundation",
-    "link": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
-    "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and Ope",
+    "published": "2026-10-22T22:43:48+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The Top Currencies Used in Global Payments",
+    "link": "https://www.visualcapitalist.com/cp/ranked-top-currencies-in-global-payments/",
+    "summary": "The U.S. dollar dominates SWIFT payments with a 52% share. See how the euro, pound, yuan, and other currencies compare globally.",
     "topics": [
-     "ai"
+     "dataviz",
+     "finance",
+     "macro"
     ],
-    "tags": [
-     "ai-product",
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-23T01:29:14.676939+00:00"
+   },
+   {
+    "id": "3e16c8f7193a4852",
+    "date": "2026-10-22",
+    "published": "2026-10-22T19:06:12+00:00",
+    "source": "FlowingData",
+    "title": "When AI comes for purpose",
+    "link": "https://flowingdata.com/2026/10/22/when-ai-comes-for-purpose/",
+    "summary": "Mathematician and Cornell professor Steven Strogatz was a guest on NYT’s Daily podcast… Tags: math , New York Times , purpose , Steven Strogatz",
+    "topics": [
+     "dataviz"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-23T01:29:12.960957+00:00"
+   },
+   {
+    "id": "58049b24535c92eb",
+    "date": "2026-10-22",
+    "published": "2026-10-22T19:00:00+00:00",
+    "source": "Datawrapper Blog",
+    "title": "Carrot or stick? How the French government is responding to the student protests",
+    "link": "https://www.datawrapper.de/blog/how-the-french-government-is-responding-to-the-student-protests",
+    "summary": "What are the demands of the protesters, and how did the French government react?",
+    "topics": [
+     "dataviz",
      "ux"
     ],
+    "tags": [],
     "lang": "en",
-    "first_seen": "2026-10-23T01:29:09.928266+00:00"
+    "first_seen": "2026-10-23T01:29:17.576826+00:00"
    },
    {
-    "id": "4dcdb95578272074",
+    "id": "b87aab9647c1e209",
     "date": "2026-10-22",
-    "published": "2026-10-22T17:44:06+00:00",
-    "source": "Hacker News — Best",
-    "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-    "link": "https://github.com/NVIDIA/OpenShell",
-    "summary": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 455 # Comments: 205",
+    "published": "2026-10-22T16:45:14+00:00",
+    "source": "FlowingData",
+    "title": "✚ Avoiding charts by default",
+    "link": "https://flowingdata.com/2026/10/22/process-411-default-avoid/",
+    "summary": "This week, we switch the chart defaults to non-defaults. Tags: creativity , default",
     "topics": [
-     "ai",
+     "dataviz"
+    ],
+    "tags": [
+     "dashboard"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-23T01:29:12.960967+00:00"
+   },
+   {
+    "id": "ce17fdeae5f84972",
+    "date": "2026-10-22",
+    "published": "2026-10-22T16:18:55+00:00",
+    "source": "Visual Capitalist",
+    "title": "The U.S. Industries Gaining and Losing the Most Jobs",
+    "link": "https://www.visualcapitalist.com/visualized-jobs-gained-and-lost-in-america-in-2026/",
+    "summary": "The U.S. shed over 200,000 government jobs in just a year. In the same period, the country added over 370,000 healthcare jobs.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-23T01:29:14.676951+00:00"
+   },
+   {
+    "id": "04c01c768b92637a",
+    "date": "2026-10-22",
+    "published": "2026-10-22T14:03:21+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: Are Americans Getting Richer Since 2000?",
+    "link": "https://www.visualcapitalist.com/mapped-are-americans-getting-richer-since-2000/",
+    "summary": "Americans are getting richer, but not everywhere. See how incomes have changed in all 50 states since 2000, adjusted for inflation.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-22T15:53:00.308761+00:00"
+   },
+   {
+    "id": "47c0b0a1e66bdea4",
+    "date": "2026-10-22",
+    "published": "2026-10-22T12:03:14+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: Countries With the Most Debt to China",
+    "link": "https://www.visualcapitalist.com/ranked-countries-with-the-most-debt-to-china/",
+    "summary": "China has loaned out billions to developing countries worldwide. Some countries are struggling to pay on time.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-22T15:53:00.308774+00:00"
+   },
+   {
+    "id": "c5f82a5a998087be",
+    "date": "2026-10-22",
+    "published": "2026-10-22T09:13:33+00:00",
+    "source": "FlowingData",
+    "title": "Cost of electricity from investor-owned vs. public",
+    "link": "https://flowingdata.com/2026/10/22/cost-of-electricity-from-investor-owned-vs-public/",
+    "summary": "If your electricity provider is an investor-owned company, it’s likely you’re paying more… Tags: Bloomberg , cost , electricity",
+    "topics": [
+     "dataviz"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-22T15:52:56.826666+00:00"
+   },
+   {
+    "id": "0da591af9ea41a1e",
+    "date": "2026-10-21",
+    "published": "2026-10-21T20:26:12+00:00",
+    "source": "Nightingale (Data Visualization Society)",
+    "title": "It Took a Village to Redesign the DVS Website",
+    "link": "https://nightingaledvs.com/it-took-a-village-to-redesign-the-dvs-website/",
+    "summary": "You may have noticed that the DVS website has a new look. We recently redesigned it with improved navigation and resources for data viz professionals.. The post It Took a Village to Redesign the DVS Website appeared first on Nightingale .",
+    "topics": [
+     "dataviz",
+     "ux"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-22T01:29:22.303762+00:00"
+   },
+   {
+    "id": "7a6ba75185b0366b",
+    "date": "2026-10-21",
+    "published": "2026-10-21T18:43:46+00:00",
+    "source": "The Economist – Graphic detail",
+    "title": "Polls suggest a sweeping Democrat victory. History suggests caution",
+    "link": "https://www.economist.com/graphic-detail/2026/10/21/polls-suggest-a-sweeping-democrat-victory-history-suggests-caution",
+    "summary": "Predictable polling errors might reduce the size of the midterms margin",
+    "topics": [
+     "dataviz",
+     "macro",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-22T01:29:22.865069+00:00"
+   },
+   {
+    "id": "2f1f780aa13d1572",
+    "date": "2026-10-21",
+    "published": "2026-10-21T18:43:46+00:00",
+    "source": "The Economist – Graphic detail",
+    "title": "Polls suggest a sweeping Democratic victory. History suggests caution",
+    "link": "https://www.economist.com/graphic-detail/2026/10/21/polls-suggest-a-sweeping-democratic-victory-history-suggests-caution",
+    "summary": "Predictable polling errors might reduce the size of the midterms margin",
+    "topics": [
+     "dataviz",
+     "macro",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-23T01:29:13.717479+00:00"
+   },
+   {
+    "id": "9e65cdc52c5b44ae",
+    "date": "2026-10-21",
+    "published": "2026-10-21T15:06:02+00:00",
+    "source": "Grafana Labs Blog",
+    "title": "Spend less time on operational busywork and resolve incidents faster with Grafana Workflows",
+    "link": "https://grafana.com/blog/spend-less-time-on-operational-busywork-and-resolve-incidents-faster-with-grafana-workflows/",
+    "summary": "You're investigating checkout errors when someone asks who's coordinating the incident. Support needs an update, and another responder is looking for the runbook. You stop what you're doing to get everyone pointed in the same direction. They're all reasonable requests, but each one takes your attent",
+    "topics": [
+     "dataviz",
+     "changelog",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-21T15:57:17.511913+00:00"
+   },
+   {
+    "id": "32b8e7fafe4447cf",
+    "date": "2026-10-21",
+    "published": "2026-10-21T14:57:46+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: The Cost of Raising a Child in Every U.S. State",
+    "link": "https://www.visualcapitalist.com/cost-of-raising-a-child-in-every-u-s-state/",
+    "summary": "Explore the cost of raising a child by state, from over $412,000 in Hawaii to about $202,000 in New Hampshire.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-21T15:57:20.715381+00:00"
+   },
+   {
+    "id": "94c90ff335c87fa3",
+    "date": "2026-10-21",
+    "published": "2026-10-21T13:06:15+00:00",
+    "source": "Visual Capitalist",
+    "title": "How Hard Is It to Get Into Each Ivy League School?",
+    "link": "https://www.visualcapitalist.com/how-hard-is-it-to-get-into-each-ivy-league-school/",
+    "summary": "Explore Ivy League acceptance rates, SAT scores, and average annual costs. See which schools are hardest to get into and how they compare.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-21T15:57:20.715391+00:00"
+   },
+   {
+    "id": "b941a2d41f976735",
+    "date": "2026-10-21",
+    "published": "2026-10-21T11:16:49+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The World’s Largest Economies in 2026",
+    "link": "https://www.visualcapitalist.com/the-worlds-largest-economies-by-gdp-in-2026/",
+    "summary": "The world's largest economy has long been the United States. Unless, of course, if adjusting for purchasing power.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-21T15:57:20.715394+00:00"
+   },
+   {
+    "id": "eaf4f162b38b01f0",
+    "date": "2026-10-21",
+    "published": "2026-10-21T07:30:21+00:00",
+    "source": "FlowingData",
+    "title": "Rising to top net worth, by age",
+    "link": "https://flowingdata.com/2026/10/21/higher-net-worth/",
+    "summary": "Results from the Survey of Consumer Finances were recently released, which means it is time for a rendition of seeing who has a higher net worth than you. Tags: net worth , wealth",
+    "topics": [
+     "dataviz"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-21T15:57:16.577512+00:00"
+   },
+   {
+    "id": "31373ba85fbf746a",
+    "date": "2026-10-20",
+    "published": "2026-10-20T23:11:04+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: 70 Cities in Asia and Oceania by Quality of Life vs. Cost",
+    "link": "https://www.visualcapitalist.com/cp/ranked-cities-in-asia-and-oceania-quality-of-life-vs-cost/",
+    "summary": "Which cities offer the best quality of life for their cost? Compare 70 cities across Asia, the Middle East, and Oceania.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-21T01:33:46.972982+00:00"
+   },
+   {
+    "id": "563fe96dc7d2a0cf",
+    "date": "2026-10-20",
+    "published": "2026-10-20T17:00:00+00:00",
+    "source": "Datawrapper Blog",
+    "title": "Data Vis Dispatch, October 20: Work friendships, heat storms, and expensive stamps",
+    "link": "https://www.datawrapper.de/blog/data-vis-dispatch-october-20-2026-work-friendships-heat-storms-and-expensive-stamps",
+    "summary": "The best of last week’s big and small data visualizations",
+    "topics": [
+     "dataviz",
+     "ux"
+    ],
+    "tags": [
+     "dashboard"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-20T15:39:15.024206+00:00"
+   },
+   {
+    "id": "dd522f97f850e62c",
+    "date": "2026-10-20",
+    "published": "2026-10-20T16:56:33+00:00",
+    "source": "Visual Capitalist",
+    "title": "Executive MBAs for Global Leadership: Why They Matter and What to Look For",
+    "link": "https://www.visualcapitalist.com/sp/hf11-executive-mbas-for-global-leadership-what-to-look-for/",
+    "summary": "Explore Executive MBAs for global leadership, from salary gains and career growth to the program features that matter most.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-21T01:33:46.972992+00:00"
+   },
+   {
+    "id": "855b3da779df3972",
+    "date": "2026-10-20",
+    "published": "2026-10-20T16:30:02+00:00",
+    "source": "Grafana Labs Blog",
+    "title": "ObservabilityCON 2026: A guide to all the announcements from Grafana Labs",
+    "link": "https://grafana.com/blog/observabilitycon-2026-announcements/",
+    "summary": "Today at ObservabilityCON 2026 in San Francisco, we unveiled a range of new Grafana Cloud capabilities designed to reshape cloud economics, bring richer context and deeper visibility across your systems and end-user experiences, and help teams move toward autonomous operations. Check out the keynote",
+    "topics": [
+     "dataviz",
+     "changelog",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-21T01:33:44.690734+00:00"
+   },
+   {
+    "id": "d8e0ac0cbe2d4d27",
+    "date": "2026-10-20",
+    "published": "2026-10-20T16:30:02+00:00",
+    "source": "Grafana Labs Blog",
+    "title": "From production problem to proposed fix: Implement autonomous operations with Grafana AI",
+    "link": "https://grafana.com/blog/grafana-ai-autonomous-operations/",
+    "summary": "You've just finished a deployment, and though your service is up, you start to notice some requests are getting slower. To address the lag, someone—or, more likely, some group of people on your team—needs to watch the dashboards, decide whether the change matters, investigate what happened, and turn",
+    "topics": [
+     "dataviz",
+     "changelog",
+     "product"
+    ],
+    "tags": [
+     "dashboard"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-21T01:33:44.690744+00:00"
+   },
+   {
+    "id": "cf8068e89d53e1e5",
+    "date": "2026-10-20",
+    "published": "2026-10-20T16:30:02+00:00",
+    "source": "Grafana Labs Blog",
+    "title": "Break the link between data volume and your observability bill with Adaptive Telemetry",
+    "link": "https://grafana.com/blog/cut-costs-keep-what-you-need-adaptive-telemetry/",
+    "summary": "In the AI era, where telemetry is generated by every model call, tool invocation, and agent step, organizations need more help than ever when it comes to navigating the economics of observability. For a lot of teams, the default response is a \"data diet\" of shorter retention, which leaves services o",
+    "topics": [
+     "dataviz",
+     "changelog",
+     "product"
+    ],
+    "tags": [
+     "retention",
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-10-21T01:33:44.690747+00:00"
+   },
+   {
+    "id": "c9b5958e9a81437a",
+    "date": "2026-10-20",
+    "published": "2026-10-20T16:30:02+00:00",
+    "source": "Grafana Labs Blog",
+    "title": "Full-stack observability in Grafana Cloud: More connections, richer context, and faster investigations for users and agents",
+    "link": "https://grafana.com/blog/full-stack-observability-with-knowledge-graph/",
+    "summary": "Most teams have telemetry from across their stack, but connecting those signals to understand what's happening and how it affects users isn't always easy. Critical context about service dependencies, ownership, and past incidents often lives across tools, runbooks, and conversations between team mem",
+    "topics": [
+     "dataviz",
+     "changelog",
      "product"
     ],
     "tags": [
      "ai-product"
     ],
     "lang": "en",
-    "first_seen": "2026-10-23T15:44:36.678442+00:00"
+    "first_seen": "2026-10-21T01:33:44.690750+00:00"
    },
    {
-    "id": "d636564ee5d912b3",
-    "date": "2026-10-22",
-    "published": "2026-10-22T17:40:57+00:00",
-    "source": "Latent Space (AINews)",
-    "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
-    "link": "https://www.latent.space/p/modal-d",
-    "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
+    "id": "ed12900797a7ef8a",
+    "date": "2026-10-20",
+    "published": "2026-10-20T16:30:02+00:00",
+    "source": "Grafana Labs Blog",
+    "title": "Expand what’s possible with Grafana: The Grafana Marketplace is now generally available",
+    "link": "https://grafana.com/blog/grafana-marketplace/",
+    "summary": "Earlier this year, we launched the Grafana Marketplace , a platform that gives independent software vendors, systems integrators, and developers in the Grafana community a new way to sell and distribute plugins built for Grafana. The Marketplace builds on our existing plugin catalog by enabling thir",
     "topics": [
-     "ai"
+     "dataviz",
+     "changelog",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-21T01:33:44.690753+00:00"
+   },
+   {
+    "id": "5e1212ae4b0587f1",
+    "date": "2026-10-20",
+    "published": "2026-10-20T16:30:02+00:00",
+    "source": "Grafana Labs Blog",
+    "title": "Grafana Pages: Turn data into interactive experiences with the next evolution of Grafana",
+    "link": "https://grafana.com/blog/grafana-ai-next-gen-visualization/",
+    "summary": "Teams often spend as much time preparing information as discussing it: gathering charts, checking business reports, and finding the GitHub activity that explains a change. Every follow-up question can lead to yet another round of work. That's why, as part of ObservabilityCON 2026 , we're excited to ",
+    "topics": [
+     "dataviz",
+     "changelog",
+     "product"
     ],
     "tags": [
-     "ai-product",
-     "growth"
+     "dashboard"
     ],
     "lang": "en",
-    "first_seen": "2026-10-23T01:29:09.755835+00:00"
+    "first_seen": "2026-10-21T01:33:44.690755+00:00"
    },
    {
-    "id": "4d9b576e5743b828",
-    "date": "2026-10-22",
-    "published": "2026-10-22T17:40:57+00:00",
-    "source": "Latent Space (AINews)",
-    "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
-    "link": "https://latent.space/p/modal-d/",
-    "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
+    "id": "6d3d52cf9f13bc60",
+    "date": "2026-10-20",
+    "published": "2026-10-20T15:44:00+00:00",
+    "source": "Visual Capitalist",
+    "title": "The World’s Natural Gas Prices Over Time (2006–2026)",
+    "link": "https://www.visualcapitalist.com/sp/sc02-the-worlds-natural-gas-prices-over-time-2006-2026/",
+    "summary": "Compare natural gas prices across U.S., European, and Asian benchmarks and explore the Shale Crescent’s industrial cost advantage.",
     "topics": [
-     "ai"
-    ],
-    "tags": [
-     "ai-product",
-     "growth"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-23T15:44:39.099843+00:00"
-   },
-   {
-    "id": "a816b657efa82b58",
-    "date": "2026-10-22",
-    "published": "2026-10-22T16:14:31+00:00",
-    "source": "Hacker News — Best",
-    "title": "Getting ready to operate GNU Taler in Germany",
-    "link": "https://www.taler.net/en/news/2026-13.html",
-    "summary": "Article URL: https://www.taler.net/en/news/2026-13.html Comments URL: https://news.ycombinator.com/item?id=50197404 Points: 338 # Comments: 154",
-    "topics": [
-     "ai",
-     "product"
+     "dataviz",
+     "finance",
+     "macro"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-10-23T15:44:36.678443+00:00"
+    "first_seen": "2026-10-21T01:33:46.972995+00:00"
    },
    {
-    "id": "36b89264973fd28e",
-    "date": "2026-10-22",
-    "published": "2026-10-22T16:08:00+00:00",
-    "source": "Hacker News — Best",
-    "title": "Every AI model has the same \"controversial\" take on humans",
-    "link": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-    "summary": "Article URL: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans Comments URL: https://news.ycombinator.com/item?id=50197313 Points: 542 # Comments: 534",
+    "id": "005c4bc4137d405f",
+    "date": "2026-10-20",
+    "published": "2026-10-20T14:08:05+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: Credit Scores Across All 50 U.S. States",
+    "link": "https://www.visualcapitalist.com/mapped-average-credit-score-by-state/",
+    "summary": "Credit scores shape Americans' abilities to get everything from credit cards to mortgages. This is bad news for Southerners.",
     "topics": [
-     "ai",
-     "product"
+     "dataviz",
+     "finance",
+     "macro"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-10-23T15:44:36.678444+00:00"
-   },
-   {
-    "id": "b4f3732ab5d9673e",
-    "date": "2026-10-22",
-    "published": "2026-10-22T16:07:57+00:00",
-    "source": "The a16z Show (podcast)",
-    "title": "The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
-    "link": "https://a16z.simplecast.com/episodes/tbc-gRs50MgP",
-    "summary": "a16z is expanding a16z crypto into a16z Frontier, a broader mandate to back founders building at the edges of what's possible. Chris Dixon joins Marc Andreessen, Ben Horowitz, and Erik Torenberg to explain why founders should increasingly ask not “is this too ambitious?” but “is this ambitious enoug",
-    "topics": [
-     "ai",
-     "growth"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T01:29:19.118820+00:00"
-   },
-   {
-    "id": "0acbee798fb21bdf",
-    "date": "2026-10-22",
-    "published": "2026-10-22T15:34:13+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "Quoting Armin Ronacher",
-    "link": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
-    "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
-    "topics": [
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-22T15:52:54.234847+00:00"
-   },
-   {
-    "id": "a886745780828ce5",
-    "date": "2026-10-22",
-    "published": "2026-10-22T15:32:46+00:00",
-    "source": "Hacker News — Best",
-    "title": "Google cleared 300 hectares of Finnish forest",
-    "link": "https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html",
-    "summary": "Article URL: https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html Comments URL: https://news.ycombinator.com/item?id=50196837 Points: 326 # Comments: 245",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-24T01:34:03.004861+00:00"
-   },
-   {
-    "id": "340d69bec7861eca",
-    "date": "2026-10-22",
-    "published": "2026-10-22T15:26:22+00:00",
-    "source": "Hacker News — Best",
-    "title": "Run full iOS 16.5 firmware on Android Devices",
-    "link": "https://github.com/oosexgang/hackios-xnu-kernel",
-    "summary": "https://hackios-web.vercel.app/en Comments URL: https://news.ycombinator.com/item?id=50196718 Points: 321 # Comments: 124",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T01:29:09.959435+00:00"
-   },
-   {
-    "id": "43a30fc6a7f8234b",
-    "date": "2026-10-22",
-    "published": "2026-10-22T14:32:38+00:00",
-    "source": "Hacker News — Best",
-    "title": "Quad9 (DNS Resolver) to Exit France",
-    "link": "https://quad9.net/news/blog/au-revoir-france/",
-    "summary": "Article URL: https://quad9.net/news/blog/au-revoir-france/ Comments URL: https://news.ycombinator.com/item?id=50195959 Points: 996 # Comments: 359",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-23T01:29:09.959438+00:00"
-   },
-   {
-    "id": "c4f0d40ba70c1c71",
-    "date": "2026-10-22",
-    "published": "2026-10-22T14:08:21+00:00",
-    "source": "The Pragmatic Engineer",
-    "title": "The Pulse: Time to rethink software security because of AI?",
-    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-do-we-need-to-rethink-software",
-    "summary": "A month’s worth of security breaches in a single day – will things get worse before they improve? Also: Anthropic accused of version control “rip off”, and more",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-22T15:52:55.044830+00:00"
+    "first_seen": "2026-10-20T15:39:15.251954+00:00"
    }
   ],
   "product": [
+   {
+    "id": "95ad285f18e92c4e",
+    "date": "2026-10-24",
+    "published": "2026-10-24T15:11:42+00:00",
+    "source": "Lenny's Newsletter",
+    "title": "🧠 Community Wisdom: Negotiating a lowball offer, designers earning a seat in product decisions, resources for building an MCP server, and more",
+    "link": "https://www.lennysnewsletter.com/p/community-wisdom-negotiating-a-lowball",
+    "summary": "Community Wisdom 303",
+    "topics": [
+     "product",
+     "growth",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-25T01:08:24.594578+00:00"
+   },
    {
     "id": "2482b3033af0c481",
     "date": "2026-10-23",
@@ -2697,25 +2704,6 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-10-22T15:53:03.637892+00:00"
-   },
-   {
-    "id": "a76f8995ad566798",
-    "date": "2026-10-21",
-    "published": "2026-10-21T20:25:18+00:00",
-    "source": "Lenny's Newsletter",
-    "title": "Claude Duet is beautiful. I still forgot to use it",
-    "link": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
-    "summary": "Watch now (16 mins) | 🎙️ I tested Claude Duet, Anthropic's beautifully designed new personal agent, on real work to see if it can beat my personal agent fatigue and make the cut",
-    "topics": [
-     "product",
-     "growth",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-10-22T01:29:26.679070+00:00"
    }
   ],
   "ux": [
@@ -4603,18 +4591,18 @@
   ]
  },
  "tag_counts": {
-  "ai-product": 407,
-  "ux": 192,
-  "growth": 170,
-  "finance-product": 132,
-  "data": 67,
-  "notification": 47,
+  "ai-product": 382,
+  "ux": 180,
+  "growth": 160,
+  "finance-product": 124,
+  "data": 65,
+  "notification": 36,
   "dashboard": 27,
-  "retention": 20,
+  "retention": 19,
   "forecasting": 17,
-  "onboarding": 7
+  "onboarding": 6
  },
- "sources_ok": 55,
+ "sources_ok": 56,
  "sources_total": 65,
  "failed_sources": [
   "Andrew Chen (Substack)",
@@ -4624,7 +4612,6 @@
   "FRED Blog",
   "Forecasting Research Institute",
   "Glassnode Research",
-  "Hacker News — Best",
   "The Beautiful Mess (John Cutler)",
   "The Macro Compass"
  ]
