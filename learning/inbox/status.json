@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-25T14:57:24.854646+00:00",
+ "generated_at": "2026-10-26T01:08:52.684602+00:00",
  "sources": 65,
- "ok": 56,
- "new_items": 65,
- "duration_s": 18.3,
+ "ok": 55,
+ "new_items": 40,
+ "duration_s": 31.2,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 21,
-   "last_item": "2026-10-25",
+   "new": 22,
+   "last_item": "2026-10-26",
    "error": null
   },
   {
@@ -19,17 +19,8 @@
    "feed_url": "https://news.manifold.markets/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-10-20",
-   "error": null
-  },
-  {
-   "name": "Andrew Chen",
-   "feed_url": "https://andrewchen.com/feed/",
-   "ok": true,
-   "items": 15,
-   "new": 0,
-   "last_item": "2024-02-26",
+   "new": 1,
+   "last_item": "2026-10-25",
    "error": null
   },
   {
@@ -190,8 +181,8 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 3,
-   "last_item": "2026-10-25",
+   "new": 1,
+   "last_item": "2026-10-26",
    "error": null
   },
   {
@@ -217,7 +208,7 @@
    "feed_url": "https://www.lennysnewsletter.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-25",
    "error": null
   },
@@ -289,7 +280,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 12,
+   "new": 0,
    "last_item": "2026-10-25",
    "error": null
   },
@@ -307,7 +298,7 @@
    "feed_url": "http://feeds.feedburner.com/Quantocracy",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-25",
    "error": null
   },
@@ -424,7 +415,7 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-25",
    "error": null
   },
@@ -433,7 +424,7 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 3,
+   "new": 0,
    "last_item": "2026-10-25",
    "error": null
   },
@@ -469,8 +460,8 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 10,
-   "last_item": "2026-10-25",
+   "new": 2,
+   "last_item": "2026-10-26",
    "error": null
   },
   {
@@ -487,8 +478,8 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 0,
-   "last_item": "2026-10-25",
+   "new": 1,
+   "last_item": "2026-10-26",
    "error": null
   },
   {
@@ -497,7 +488,7 @@
    "ok": true,
    "items": 20,
    "new": 1,
-   "last_item": "2026-10-25",
+   "last_item": "2026-10-26",
    "error": null
   },
   {
@@ -508,6 +499,15 @@
    "new": 0,
    "last_item": "2026-10-23",
    "error": null
+  },
+  {
+   "name": "Andrew Chen",
+   "feed_url": "https://andrewchen.com/feed/",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "HTTPSConnectionPool(host='andrewchen.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='andrewchen.com"
   },
   {
    "name": "Andrew Chen (Substack)",
