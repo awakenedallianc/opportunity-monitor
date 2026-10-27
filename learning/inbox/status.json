@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-26T17:23:08.777472+00:00",
+ "generated_at": "2026-10-27T02:03:55.417915+00:00",
  "sources": 65,
- "ok": 55,
- "new_items": 128,
- "duration_s": 31.9,
+ "ok": 57,
+ "new_items": 86,
+ "duration_s": 11.7,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 26,
-   "last_item": "2026-10-26",
+   "new": 22,
+   "last_item": "2026-10-27",
    "error": null
   },
   {
@@ -21,6 +21,15 @@
    "items": 20,
    "new": 0,
    "last_item": "2026-10-25",
+   "error": null
+  },
+  {
+   "name": "Andrew Chen",
+   "feed_url": "https://andrewchen.com/feed/",
+   "ok": true,
+   "items": 15,
+   "new": 0,
+   "last_item": "2024-02-26",
    "error": null
   },
   {
@@ -88,7 +97,7 @@
   },
   {
    "name": "Datawrapper Blog",
-   "feed_url": "https://www.datawrapper.de/blog/feed/",
+   "feed_url": "https://blog.datawrapper.de/feed/",
    "ok": true,
    "items": 1084,
    "new": 0,
@@ -97,7 +106,7 @@
   },
   {
    "name": "Datawrapper Blog",
-   "feed_url": "https://blog.datawrapper.de/feed/",
+   "feed_url": "https://www.datawrapper.de/blog/feed/",
    "ok": true,
    "items": 1084,
    "new": 0,
@@ -114,11 +123,20 @@
    "error": null
   },
   {
+   "name": "FRED Blog",
+   "feed_url": "https://fredblog.stlouisfed.org/feed/",
+   "ok": true,
+   "items": 50,
+   "new": 15,
+   "last_item": "2026-10-26",
+   "error": null
+  },
+  {
    "name": "FT Alphaville",
    "feed_url": "https://www.ft.com/rss/alphaville",
    "ok": true,
    "items": 25,
-   "new": 4,
+   "new": 0,
    "last_item": "2026-10-26",
    "error": null
   },
@@ -154,7 +172,7 @@
    "feed_url": "https://blog.google/technology/ai/rss/",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-26",
    "error": null
   },
@@ -172,7 +190,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 14,
+   "new": 11,
    "last_item": "2026-10-26",
    "error": null
   },
@@ -181,8 +199,8 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 10,
-   "last_item": "2026-10-26",
+   "new": 1,
+   "last_item": "2026-10-27",
    "error": null
   },
   {
@@ -190,7 +208,7 @@
    "feed_url": "https://ixdf.org/rss/site_news.xml",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-24",
    "error": null
   },
@@ -208,7 +226,7 @@
    "feed_url": "https://www.lennysnewsletter.com/feed",
    "ok": true,
    "items": 20,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-10-26",
    "error": null
   },
@@ -252,8 +270,8 @@
    "name": "OpenAI News",
    "feed_url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1319,
-   "new": 1,
+   "items": 1325,
+   "new": 6,
    "last_item": "2026-10-26",
    "error": null
   },
@@ -262,7 +280,7 @@
    "feed_url": "https://ourworldindata.org/atom.xml",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-26",
    "error": null
   },
@@ -271,8 +289,8 @@
    "feed_url": "https://www.news.aakashg.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-10-22",
+   "new": 1,
+   "last_item": "2026-10-26",
    "error": null
   },
   {
@@ -280,7 +298,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 24,
+   "new": 0,
    "last_item": "2026-10-26",
    "error": null
   },
@@ -316,8 +334,8 @@
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
-   "new": 1,
-   "last_item": "2026-10-25",
+   "new": 3,
+   "last_item": "2026-10-26",
    "error": null
   },
   {
@@ -343,7 +361,7 @@
    "feed_url": "https://stratechery.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-26",
    "error": null
   },
@@ -415,7 +433,7 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-26",
    "error": null
   },
@@ -424,7 +442,7 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 3,
+   "new": 2,
    "last_item": "2026-10-26",
    "error": null
   },
@@ -432,8 +450,8 @@
    "name": "Vercel News",
    "feed_url": "https://vercel.com/atom",
    "ok": true,
-   "items": 1705,
-   "new": 1,
+   "items": 1713,
+   "new": 8,
    "last_item": "2026-10-26",
    "error": null
   },
@@ -442,7 +460,7 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 3,
+   "new": 1,
    "last_item": "2026-10-26",
    "error": null
   },
@@ -460,8 +478,8 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 15,
-   "last_item": "2026-10-26",
+   "new": 11,
+   "last_item": "2026-10-27",
    "error": null
   },
   {
@@ -469,8 +487,8 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 4,
-   "last_item": "2026-10-26",
+   "new": 1,
+   "last_item": "2026-10-27",
    "error": null
   },
   {
@@ -478,8 +496,8 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 2,
-   "last_item": "2026-10-26",
+   "new": 1,
+   "last_item": "2026-10-27",
    "error": null
   },
   {
@@ -487,8 +505,8 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 5,
-   "last_item": "2026-10-26",
+   "new": 2,
+   "last_item": "2026-10-27",
    "error": null
   },
   {
@@ -496,18 +514,9 @@
    "feed_url": "https://www.qbitai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 7,
+   "new": 0,
    "last_item": "2026-10-23",
    "error": null
-  },
-  {
-   "name": "Andrew Chen",
-   "feed_url": "https://andrewchen.com/feed/",
-   "ok": false,
-   "items": 0,
-   "new": 0,
-   "last_item": null,
-   "error": "HTTPSConnectionPool(host='andrewchen.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='andrewchen.com"
   },
   {
    "name": "Andrew Chen (Substack)",
@@ -544,15 +553,6 @@
    "new": 0,
    "last_item": null,
    "error": "403 Client Error: Forbidden for url: https://ecoinometrics.substack.com/feed"
-  },
-  {
-   "name": "FRED Blog",
-   "feed_url": "https://fredblog.stlouisfed.org/feed/",
-   "ok": false,
-   "items": 0,
-   "new": 0,
-   "last_item": null,
-   "error": "not a feed (<unknown>:86:42: not well-formed (invalid token))"
   },
   {
    "name": "Forecasting Research Institute",
