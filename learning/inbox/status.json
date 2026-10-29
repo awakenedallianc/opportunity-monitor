@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-28T17:10:28.310732+00:00",
+ "generated_at": "2026-10-29T02:25:50.246042+00:00",
  "sources": 65,
  "ok": 57,
- "new_items": 142,
- "duration_s": 17.9,
+ "new_items": 78,
+ "duration_s": 17.8,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 26,
-   "last_item": "2026-10-28",
+   "new": 22,
+   "last_item": "2026-10-29",
    "error": null
   },
   {
@@ -136,7 +136,7 @@
    "feed_url": "https://www.ft.com/rss/alphaville",
    "ok": true,
    "items": 25,
-   "new": 3,
+   "new": 0,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -145,7 +145,7 @@
    "feed_url": "https://www.ft.com/visual-and-data-journalism?format=rss",
    "ok": true,
    "items": 25,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -154,7 +154,7 @@
    "feed_url": "https://flowingdata.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -181,7 +181,7 @@
    "feed_url": "https://grafana.com/blog/index.xml",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -190,7 +190,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 7,
+   "new": 10,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -199,8 +199,8 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 20,
-   "last_item": "2026-10-28",
+   "new": 5,
+   "last_item": "2026-10-29",
    "error": null
   },
   {
@@ -226,7 +226,7 @@
    "feed_url": "https://www.lennysnewsletter.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -253,7 +253,7 @@
    "feed_url": "https://nightingaledvs.com/feed/",
    "ok": true,
    "items": 12,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -270,7 +270,7 @@
    "name": "OpenAI News",
    "feed_url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1333,
+   "items": 1334,
    "new": 2,
    "last_item": "2026-10-28",
    "error": null
@@ -298,7 +298,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 28,
+   "new": 0,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -316,7 +316,7 @@
    "feed_url": "http://feeds.feedburner.com/Quantocracy",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -334,7 +334,7 @@
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
-   "new": 3,
+   "new": 1,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -361,7 +361,7 @@
    "feed_url": "https://stratechery.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -433,7 +433,7 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -442,7 +442,7 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 2,
+   "new": 4,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -450,8 +450,8 @@
    "name": "Vercel News",
    "feed_url": "https://vercel.com/atom",
    "ok": true,
-   "items": 1721,
-   "new": 2,
+   "items": 2094,
+   "new": 9,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -460,7 +460,7 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 3,
+   "new": 2,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -469,7 +469,7 @@
    "feed_url": "https://www.ycombinator.com/blog/rss",
    "ok": true,
    "items": 15,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-28",
    "error": null
   },
@@ -478,8 +478,8 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 15,
-   "last_item": "2026-10-28",
+   "new": 6,
+   "last_item": "2026-10-29",
    "error": null
   },
   {
@@ -487,8 +487,8 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 3,
-   "last_item": "2026-10-28",
+   "new": 1,
+   "last_item": "2026-10-29",
    "error": null
   },
   {
@@ -497,7 +497,7 @@
    "ok": true,
    "items": 30,
    "new": 2,
-   "last_item": "2026-10-28",
+   "last_item": "2026-10-29",
    "error": null
   },
   {
@@ -506,7 +506,7 @@
    "ok": true,
    "items": 20,
    "new": 5,
-   "last_item": "2026-10-28",
+   "last_item": "2026-10-29",
    "error": null
   },
   {
@@ -514,7 +514,7 @@
    "feed_url": "https://www.qbitai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 10,
+   "new": 8,
    "last_item": "2026-10-28",
    "error": null
   },
