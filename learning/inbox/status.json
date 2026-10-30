@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-29T17:25:46.306409+00:00",
+ "generated_at": "2026-10-30T02:37:10.640013+00:00",
  "sources": 65,
- "ok": 57,
- "new_items": 130,
- "duration_s": 18.0,
+ "ok": 55,
+ "new_items": 63,
+ "duration_s": 127.7,
  "status": [
   {
    "name": "36氪",
@@ -11,7 +11,7 @@
    "ok": true,
    "items": 30,
    "new": 24,
-   "last_item": "2026-10-29",
+   "last_item": "2026-10-30",
    "error": null
   },
   {
@@ -64,7 +64,7 @@
    "feed_url": "https://www.bensbites.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -97,20 +97,20 @@
   },
   {
    "name": "Datawrapper Blog",
-   "feed_url": "https://blog.datawrapper.de/feed/",
+   "feed_url": "https://www.datawrapper.de/blog/feed/",
    "ok": true,
-   "items": 1085,
-   "new": 0,
-   "last_item": "2026-10-27",
+   "items": 1086,
+   "new": 1,
+   "last_item": "2026-10-29",
    "error": null
   },
   {
    "name": "Datawrapper Blog",
-   "feed_url": "https://www.datawrapper.de/blog/feed/",
+   "feed_url": "https://blog.datawrapper.de/feed/",
    "ok": true,
-   "items": 1085,
+   "items": 1086,
    "new": 0,
-   "last_item": "2026-10-27",
+   "last_item": "2026-10-29",
    "error": null
   },
   {
@@ -127,7 +127,7 @@
    "feed_url": "https://fredblog.stlouisfed.org/feed/",
    "ok": true,
    "items": 50,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -136,7 +136,7 @@
    "feed_url": "https://www.ft.com/rss/alphaville",
    "ok": true,
    "items": 25,
-   "new": 4,
+   "new": 0,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -154,7 +154,7 @@
    "feed_url": "https://flowingdata.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 3,
+   "new": 0,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -181,7 +181,7 @@
    "feed_url": "https://grafana.com/blog/index.xml",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -190,7 +190,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 9,
+   "new": 10,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -199,8 +199,8 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 13,
-   "last_item": "2026-10-29",
+   "new": 4,
+   "last_item": "2026-10-30",
    "error": null
   },
   {
@@ -217,7 +217,7 @@
    "feed_url": "https://www.latent.space/feed",
    "ok": true,
    "items": 20,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -270,8 +270,8 @@
    "name": "OpenAI News",
    "feed_url": "https://openai.com/news/rss.xml",
    "ok": true,
-   "items": 1335,
-   "new": 1,
+   "items": 1337,
+   "new": 2,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -289,8 +289,8 @@
    "feed_url": "https://www.news.aakashg.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-10-26",
+   "new": 1,
+   "last_item": "2026-10-30",
    "error": null
   },
   {
@@ -298,7 +298,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 27,
+   "new": 0,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -334,7 +334,7 @@
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
-   "new": 1,
+   "new": 2,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -361,7 +361,7 @@
    "feed_url": "https://stratechery.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -388,7 +388,7 @@
    "feed_url": "https://news.polymarket.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -397,13 +397,22 @@
    "feed_url": "https://newsletter.pragmaticengineer.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-29",
    "error": null
   },
   {
    "name": "The Product Compass (Paweł Huryn)",
    "feed_url": "https://www.productcompass.pm/feed",
+   "ok": true,
+   "items": 20,
+   "new": 1,
+   "last_item": "2026-10-29",
+   "error": null
+  },
+  {
+   "name": "The Pudding",
+   "feed_url": "https://pudding.cool/rss.xml",
    "ok": true,
    "items": 20,
    "new": 0,
@@ -420,20 +429,11 @@
    "error": null
   },
   {
-   "name": "The Pudding",
-   "feed_url": "https://pudding.cool/rss.xml",
-   "ok": true,
-   "items": 20,
-   "new": 0,
-   "last_item": "2026-10-20",
-   "error": null
-  },
-  {
    "name": "The a16z Show (podcast)",
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -450,8 +450,8 @@
    "name": "Vercel News",
    "feed_url": "https://vercel.com/atom",
    "ok": true,
-   "items": 2097,
-   "new": 3,
+   "items": 2102,
+   "new": 5,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -460,7 +460,7 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 4,
+   "new": 1,
    "last_item": "2026-10-29",
    "error": null
   },
@@ -478,8 +478,8 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 15,
-   "last_item": "2026-10-29",
+   "new": 9,
+   "last_item": "2026-10-30",
    "error": null
   },
   {
@@ -487,17 +487,8 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 4,
-   "last_item": "2026-10-29",
-   "error": null
-  },
-  {
-   "name": "极客公园",
-   "feed_url": "https://www.geekpark.net/rss",
-   "ok": true,
-   "items": 30,
    "new": 1,
-   "last_item": "2026-10-29",
+   "last_item": "2026-10-30",
    "error": null
   },
   {
@@ -505,17 +496,8 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 7,
-   "last_item": "2026-10-29",
-   "error": null
-  },
-  {
-   "name": "量子位",
-   "feed_url": "https://www.qbitai.com/feed",
-   "ok": true,
-   "items": 10,
-   "new": 5,
-   "last_item": "2026-10-29",
+   "new": 2,
+   "last_item": "2026-10-30",
    "error": null
   },
   {
@@ -589,6 +571,24 @@
    "new": 0,
    "last_item": null,
    "error": "403 Client Error: Forbidden for url: https://themacrocompass.substack.com/feed"
+  },
+  {
+   "name": "极客公园",
+   "feed_url": "https://www.geekpark.net/rss",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "HTTPSConnectionPool(host='www.geekpark.net', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.geekpark.n"
+  },
+  {
+   "name": "量子位",
+   "feed_url": "https://www.qbitai.com/feed",
+   "ok": false,
+   "items": 0,
+   "new": 0,
+   "last_item": null,
+   "error": "HTTPSConnectionPool(host='www.qbitai.com', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.qbitai.com'"
   }
  ]
 }
