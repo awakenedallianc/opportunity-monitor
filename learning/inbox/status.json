@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-31T02:20:40.004494+00:00",
+ "generated_at": "2026-10-31T16:05:37.211886+00:00",
  "sources": 65,
  "ok": 57,
- "new_items": 55,
- "duration_s": 17.3,
+ "new_items": 85,
+ "duration_s": 9.2,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 12,
+   "new": 20,
    "last_item": "2026-10-31",
    "error": null
   },
@@ -154,7 +154,7 @@
    "feed_url": "https://flowingdata.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-30",
    "error": null
   },
@@ -163,7 +163,7 @@
    "feed_url": "https://goodjudgment.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-30",
    "error": null
   },
@@ -190,8 +190,8 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 7,
-   "last_item": "2026-10-30",
+   "new": 10,
+   "last_item": "2026-10-31",
    "error": null
   },
   {
@@ -199,7 +199,7 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 2,
+   "new": 5,
    "last_item": "2026-10-31",
    "error": null
   },
@@ -217,8 +217,8 @@
    "feed_url": "https://www.latent.space/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-10-30",
+   "new": 3,
+   "last_item": "2026-10-31",
    "error": null
   },
   {
@@ -244,7 +244,7 @@
    "feed_url": "https://www.nngroup.com/feed/rss/",
    "ok": true,
    "items": 20,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-10-30",
    "error": null
   },
@@ -271,7 +271,7 @@
    "feed_url": "https://openai.com/news/rss.xml",
    "ok": true,
    "items": 1341,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-10-30",
    "error": null
   },
@@ -298,8 +298,8 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 0,
-   "last_item": "2026-10-30",
+   "new": 21,
+   "last_item": "2026-10-31",
    "error": null
   },
   {
@@ -334,7 +334,7 @@
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-30",
    "error": null
   },
@@ -343,8 +343,8 @@
    "feed_url": "https://www.smashingmagazine.com/feed/",
    "ok": true,
    "items": 40,
-   "new": 0,
-   "last_item": "2026-10-23",
+   "new": 1,
+   "last_item": "2026-10-31",
    "error": null
   },
   {
@@ -370,7 +370,7 @@
    "feed_url": "https://www.economist.com/graphic-detail/rss.xml",
    "ok": true,
    "items": 300,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-10-30",
    "error": null
   },
@@ -433,8 +433,8 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 0,
-   "last_item": "2026-10-30",
+   "new": 1,
+   "last_item": "2026-10-31",
    "error": null
   },
   {
@@ -451,7 +451,7 @@
    "feed_url": "https://vercel.com/atom",
    "ok": true,
    "items": 2108,
-   "new": 3,
+   "new": 0,
    "last_item": "2026-10-30",
    "error": null
   },
@@ -460,7 +460,7 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 3,
    "last_item": "2026-10-31",
    "error": null
   },
@@ -469,7 +469,7 @@
    "feed_url": "https://www.ycombinator.com/blog/rss",
    "ok": true,
    "items": 15,
-   "new": 8,
+   "new": 0,
    "last_item": "2026-10-30",
    "error": null
   },
@@ -478,7 +478,7 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 4,
+   "new": 15,
    "last_item": "2026-10-31",
    "error": null
   },
@@ -487,8 +487,8 @@
    "feed_url": "https://sspai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-10-30",
+   "new": 2,
+   "last_item": "2026-10-31",
    "error": null
   },
   {
@@ -496,7 +496,7 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 2,
+   "new": 0,
    "last_item": "2026-10-31",
    "error": null
   },
@@ -505,7 +505,7 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 3,
+   "new": 1,
    "last_item": "2026-10-31",
    "error": null
   },
@@ -514,8 +514,8 @@
    "feed_url": "https://www.qbitai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 5,
-   "last_item": "2026-10-30",
+   "new": 3,
+   "last_item": "2026-10-31",
    "error": null
   },
   {
