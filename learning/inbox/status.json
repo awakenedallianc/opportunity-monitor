@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-11-01T17:07:39.683039+00:00",
+ "generated_at": "2026-11-02T02:29:02.464396+00:00",
  "sources": 65,
  "ok": 57,
- "new_items": 93,
- "duration_s": 17.3,
+ "new_items": 64,
+ "duration_s": 17.0,
  "status": [
   {
    "name": "36氪",
    "feed_url": "https://www.36kr.com/feed",
    "ok": true,
    "items": 30,
-   "new": 23,
-   "last_item": "2026-11-01",
+   "new": 22,
+   "last_item": "2026-11-02",
    "error": null
   },
   {
@@ -19,8 +19,8 @@
    "feed_url": "https://news.manifold.markets/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-10-25",
+   "new": 1,
+   "last_item": "2026-11-02",
    "error": null
   },
   {
@@ -137,7 +137,7 @@
    "ok": true,
    "items": 25,
    "new": 0,
-   "last_item": "2026-10-30",
+   "last_item": "2026-11-01",
    "error": null
   },
   {
@@ -190,7 +190,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 11,
+   "new": 12,
    "last_item": "2026-11-01",
    "error": null
   },
@@ -199,8 +199,8 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 5,
-   "last_item": "2026-11-01",
+   "new": 3,
+   "last_item": "2026-11-02",
    "error": null
   },
   {
@@ -208,8 +208,8 @@
    "feed_url": "https://ixdf.org/rss/site_news.xml",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-10-24",
+   "new": 4,
+   "last_item": "2026-11-01",
    "error": null
   },
   {
@@ -226,7 +226,7 @@
    "feed_url": "https://www.lennysnewsletter.com/feed",
    "ok": true,
    "items": 20,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-11-01",
    "error": null
   },
@@ -280,8 +280,8 @@
    "feed_url": "https://ourworldindata.org/atom.xml",
    "ok": true,
    "items": 10,
-   "new": 0,
-   "last_item": "2026-10-26",
+   "new": 1,
+   "last_item": "2026-11-02",
    "error": null
   },
   {
@@ -298,7 +298,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 19,
+   "new": 0,
    "last_item": "2026-10-31",
    "error": null
   },
@@ -316,7 +316,7 @@
    "feed_url": "http://feeds.feedburner.com/Quantocracy",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-11-01",
    "error": null
   },
@@ -412,7 +412,7 @@
   },
   {
    "name": "The Pudding",
-   "feed_url": "https://pudding.cool/feed/index.xml",
+   "feed_url": "https://pudding.cool/rss.xml",
    "ok": true,
    "items": 20,
    "new": 0,
@@ -421,7 +421,7 @@
   },
   {
    "name": "The Pudding",
-   "feed_url": "https://pudding.cool/rss.xml",
+   "feed_url": "https://pudding.cool/feed/index.xml",
    "ok": true,
    "items": 20,
    "new": 0,
@@ -433,7 +433,7 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-11-01",
    "error": null
   },
@@ -442,7 +442,7 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 5,
+   "new": 0,
    "last_item": "2026-11-01",
    "error": null
   },
@@ -460,7 +460,7 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 4,
+   "new": 1,
    "last_item": "2026-11-01",
    "error": null
   },
@@ -478,8 +478,8 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 13,
-   "last_item": "2026-11-01",
+   "new": 15,
+   "last_item": "2026-11-02",
    "error": null
   },
   {
@@ -496,8 +496,8 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 2,
-   "last_item": "2026-11-01",
+   "new": 1,
+   "last_item": "2026-11-02",
    "error": null
   },
   {
@@ -505,8 +505,8 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-10-31",
+   "new": 2,
+   "last_item": "2026-11-02",
    "error": null
   },
   {
@@ -514,7 +514,7 @@
    "feed_url": "https://www.qbitai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 6,
+   "new": 0,
    "last_item": "2026-11-01",
    "error": null
   },
