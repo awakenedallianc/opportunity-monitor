@@ -1,1645 +1,171 @@
 {
- "generated_at": "2026-11-10T18:40:41.999190+00:00",
+ "generated_at": "2026-11-11T02:47:01.276373+00:00",
  "window_days": 14,
- "total": 2590,
+ "total": 2457,
  "groups": {
-  "china": [
+  "ai": [
    {
-    "id": "2cd2fd10830c9aeb",
-    "date": "2026-11-10",
-    "published": "2026-11-10T18:58:56+00:00",
-    "source": "InfoQ 中文",
-    "title": "接大模型别再自己配 Key、搭代理了，火山引擎 IGA Pages 一步搞定",
-    "link": "https://www.infoq.cn/article/juu2R26yD8B6ABUEQuWB?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
+    "id": "f28f90d2895a812c",
+    "date": "2026-11-12",
+    "published": "2026-11-12T00:00:00+00:00",
+    "source": "OpenAI News",
+    "title": "Gilbert + Tobin rethinks the business of law with AI",
+    "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+    "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
     "topics": [
-     "china",
      "ai",
-     "finance"
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-11T02:46:32.948718+00:00"
+   },
+   {
+    "id": "c1fbfe2e3fcb7bc5",
+    "date": "2026-11-10",
+    "published": "2026-11-10T20:09:44+00:00",
+    "source": "Simon Willison's Weblog",
+    "title": "llm-gemini 0.36",
+    "link": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+    "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but sched",
+    "topics": [
+     "ai"
     ],
     "tags": [
      "ai-product"
     ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:15.804686+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-11T02:46:32.832927+00:00"
    },
    {
-    "id": "75806ba00df0607d",
+    "id": "1b9619ecc4bac389",
     "date": "2026-11-10",
-    "published": "2026-11-10T18:54:18+00:00",
-    "source": "InfoQ 中文",
-    "title": "近 700 亿美元 IPO 定价突然撤回！Anthropic 最快今天路演，下周冲刺上市",
-    "link": "https://www.infoq.cn/article/8tquwes1yGbmTeyOjOId?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
+    "published": "2026-11-10T20:05:17+00:00",
+    "source": "Latent Space (AINews)",
+    "title": "Designing for Agents — Zeno Rocha, Resend",
+    "link": "https://latent.space/p/resend/",
+    "summary": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
     "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:15.804698+00:00"
-   },
-   {
-    "id": "ad47ba4168e8a817",
-    "date": "2026-11-10",
-    "published": "2026-11-10T17:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "Chrome 想终结“去邮箱复制验证码”，但隐私真的更好了吗？",
-    "link": "https://www.infoq.cn/article/UltsRzyiYdLd4r1S3mkm?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:15.804701+00:00"
-   },
-   {
-    "id": "138b8d9d0d6c6563",
-    "date": "2026-11-10",
-    "published": "2026-11-10T16:04:53+00:00",
-    "source": "InfoQ 中文",
-    "title": "给 AI 腾内存？Discord 抛弃Electron，省70%内存还秒开：Windows应用该跟进了",
-    "link": "https://www.infoq.cn/article/MQTTu6dgGxHBZm1wOLPI?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:15.804704+00:00"
-   },
-   {
-    "id": "ff4599e8a9ea71e1",
-    "date": "2026-11-10",
-    "published": "2026-11-10T16:04:24+00:00",
-    "source": "爱范儿",
-    "title": "实测 MiniMax H3 Image：GPT 的效果加上 MJ 的审美，居然被它开源了",
-    "link": "https://www.ifanr.com/1688790?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "summary": "4K 像素最快 10 秒生成 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:17.508292+00:00"
-   },
-   {
-    "id": "b299bda7ffad488b",
-    "date": "2026-11-10",
-    "published": "2026-11-10T15:53:17+00:00",
-    "source": "InfoQ 中文",
-    "title": "面向 AI Native 的数据库技术演进 | 腾讯云数据库 DBTalk",
-    "link": "https://www.infoq.cn/video/W1VS3q3eMAosMwrHb1k4?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:15.804706+00:00"
-   },
-   {
-    "id": "845c5a6566c19a3c",
-    "date": "2026-11-10",
-    "published": "2026-11-10T15:22:09+00:00",
-    "source": "InfoQ 中文",
-    "title": "成本仅1/3！Meta 新模型 Muse Ember 硬刚 Claude Haiku 5.5",
-    "link": "https://www.infoq.cn/article/Ou4l4aD7zvUzXWXsWJfY?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:15.804709+00:00"
-   },
-   {
-    "id": "3099c7a4ab8252d8",
-    "date": "2026-11-10",
-    "published": "2026-11-10T15:20:56+00:00",
-    "source": "InfoQ 中文",
-    "title": "DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了",
-    "link": "https://www.infoq.cn/article/Y7lTO7Q1M8oN5JhxhirK?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:15.804712+00:00"
-   },
-   {
-    "id": "0f769b69c1093ed9",
-    "date": "2026-11-10",
-    "published": "2026-11-10T15:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "Cloudflare KV Instant：读取 p99 仅 1.62 毫秒，写入一次却要 0.1 美元",
-    "link": "https://www.infoq.cn/article/YrPwJgFYyBSAmJE4hJAB?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:15.804715+00:00"
-   },
-   {
-    "id": "cdedc1bfbbd80c9b",
-    "date": "2026-11-10",
-    "published": "2026-11-10T13:27:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "突破 Kubernetes 的 CPU 抽象，Uber 为异构服务器重新定义“一核”",
-    "link": "https://www.infoq.cn/article/STFszc8JxPkXGeV9QRH3?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:15.804718+00:00"
-   },
-   {
-    "id": "c3ce731a9210f067",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:56:08+00:00",
-    "source": "36氪",
-    "title": "杰瑞股份：拟向子公司杰瑞敏电增资9亿元",
-    "link": "https://36kr.com/newsflashes/4063942547641477?f=rss",
-    "summary": "36氪获悉，杰瑞股份公告，公司拟以现金方式对全资子公司山东杰瑞敏电能源有限公司增资9亿元。增资完成后，杰瑞敏电注册资本将由1亿元增至10亿元。此次增资有利于推动公司电力业务发展，扩大生产规模，加快实现产能升级。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053249+00:00"
-   },
-   {
-    "id": "510b08c59353c8b5",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:54:56+00:00",
-    "source": "36氪",
-    "title": "i茅台贵州茅台酒售卖机制优化",
-    "link": "https://36kr.com/newsflashes/4063941366829954?f=rss",
-    "summary": "36氪获悉，据贵州茅台酒销售有限公司官微，i茅台平台将根据消费者购酒需求，优化贵州茅台酒售卖机制，从当前的“定时抢购”模式逐步向“日常售卖”模式转变。2026年11月11日起，将有16款贵州茅台酒产品采用全天动态补货模式，其他贵州茅台酒产品沿用原模式投放。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053250+00:00"
-   },
-   {
-    "id": "3364a0dcb58fba1a",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:53:56+00:00",
-    "source": "36氪",
-    "title": "热门中概股美股盘前涨跌不一，理想汽车涨超3%",
-    "link": "https://36kr.com/newsflashes/4063940390900612?f=rss",
-    "summary": "36氪获悉，热门中概股美股盘前涨跌不一，截至发稿，理想汽车涨超3%，哔哩哔哩、京东、名创优品涨超1%，小鹏集团涨0.39%；爱奇艺、小马智行跌超1%，富途控股跌0.42%，蔚来跌0.28%。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053252+00:00"
-   },
-   {
-    "id": "2acddc05cbf9a5c9",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:51:30+00:00",
-    "source": "36氪",
-    "title": "美股大型科技股盘前多数走强，特斯拉跌超1%",
-    "link": "https://36kr.com/newsflashes/4063937998673030?f=rss",
-    "summary": "36氪获悉，美股大型科技股盘前多数走强，截至发稿，Meta涨0.72%，谷歌涨0.64%，苹果涨0.55%，亚马逊涨0.47%，微软涨0.14%，奈飞涨0.08%；英伟达、特斯拉跌超1%。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053254+00:00"
-   },
-   {
-    "id": "1fc8967977e84542",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:48:18+00:00",
-    "source": "36氪",
-    "title": "高盛领投网络安全初创企业Daylight Security，后者估值达4亿美元",
-    "link": "https://36kr.com/newsflashes/4063934843884423?f=rss",
-    "summary": "知情人士透露，高盛集团增长股权投资部门牵头对网络安全初创公司Daylight Security开展8000万美元B轮融资。这家总部位于纽约的企业本轮投后估值约4亿美元，融资完成后，公司累计融资总额达1.2亿美元。（新浪财经）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth",
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053256+00:00"
-   },
-   {
-    "id": "f0977b2d7bfa051c",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:41:56+00:00",
-    "source": "36氪",
-    "title": "阿里巴巴：已正式申请平头哥独立上市",
-    "link": "https://36kr.com/newsflashes/4063928592126853?f=rss",
-    "summary": "36氪获悉，11月10日晚，阿里巴巴集团发布公告称，已向香港联交所交表，申请旗下子公司平头哥独立上市。上市完成后，平头哥仍将是阿里巴巴子公司。公告显示，2026年9月11日，平头哥已向香港联交所递交上市申请，拟通过H股在香港联交所主板独立上市。据悉，IPO具体规模尚未最终确定。截至2026年4月，平头哥真武系列AI芯片累计出货量达56万片。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053257+00:00"
-   },
-   {
-    "id": "a6969b7154b57042",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:34:44+00:00",
-    "source": "36氪",
-    "title": "中材节能：控股股东拟将50.66%公司股份无偿划转至中国建材集团",
-    "link": "https://36kr.com/newsflashes/4063921509635203?f=rss",
-    "summary": "36氪获悉，中材节能公告，公司控股股东中材集团拟将所持公司3.09亿股股份（占公司总股本50.66%）无偿划转至中国建材集团。划转完成后，公司控股股东将由中材集团变更为中国建材集团，实控人仍为国务院国资委，控制权不会发生变化。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053259+00:00"
-   },
-   {
-    "id": "8d3361d9ed7b72e9",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:26:24+00:00",
-    "source": "36氪",
-    "title": "华为新型存储系统即将启动试商用",
-    "link": "https://36kr.com/newsflashes/4063913318781831?f=rss",
-    "summary": "华为新型存储系统即将启动试商用，这标志着该技术从实验室验证进入客户真实场景的联合验证阶段。而在两周前，富士胶片刚刚宣布，将在2026至2028财年持续投资并扩充数据存储磁带业务的产能，这也是富士胶片近20年来首次大规模扩充磁带产能。（第一财经）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053260+00:00"
-   },
-   {
-    "id": "4f04e429a538cc8b",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:25:25+00:00",
-    "source": "36氪",
-    "title": "普冉股份：筹划发行H股并在香港联交所上市",
-    "link": "https://36kr.com/newsflashes/4063912359498885?f=rss",
-    "summary": "36氪获悉，普冉股份公告，公司正在筹划发行境外股份（H股）并在香港联交所上市事宜。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053262+00:00"
-   },
-   {
-    "id": "0fc14448a4fc6981",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:19:04+00:00",
-    "source": "36氪",
-    "title": "台积电批准以不超5亿美元设立投资公司",
-    "link": "https://36kr.com/newsflashes/4063906113426566?f=rss",
-    "summary": "台积电11月10日公告，董事会核准以不超过5亿美元的资金设立投资公司，以进行半导体产业及相关生态的策略性投资。（界面）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053263+00:00"
-   },
-   {
-    "id": "e47a0c03dbb70494",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:05:26+00:00",
-    "source": "36氪",
-    "title": "中恒集团：全资子公司拟挂牌转让复星南宁34%股权",
-    "link": "https://36kr.com/newsflashes/4063892708463493?f=rss",
-    "summary": "36氪获悉，中恒集团公告，为优化资产结构及资源配置，公司全资子公司中恒怡鑫拟通过公开挂牌方式，转让参股公司复星医药（南宁）有限责任公司（简称“复星南宁”）34%股权，挂牌价格不低于1113.73万元。转让完成后，中恒怡鑫将不再持有复星南宁股权。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053265+00:00"
-   },
-   {
-    "id": "0e37ca828f935893",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:56:55+00:00",
-    "source": "InfoQ 中文",
-    "title": "openJiuwen首发Agent Device Foundation，重新定义Agent与物理世界的交互方式",
-    "link": "https://www.infoq.cn/article/dLF01VxLUZpLX40Wmlv7?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T04:37:15.316742+00:00"
-   },
-   {
-    "id": "c06c1375a8dda558",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:56:53+00:00",
-    "source": "36氪",
-    "title": "台积电：董事会核准以不超5亿美元认购OpenAI特别股股份",
-    "link": "https://36kr.com/newsflashes/4063884296230020?f=rss",
-    "summary": "台积电11月10日公告，董事会核准以不超过5亿美元的额度认购OpenAI特别股股份。（界面）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053266+00:00"
-   },
-   {
-    "id": "54890285b98f04cf",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:54:57+00:00",
-    "source": "36氪",
-    "title": "Anthropic预计IPO定价中点74美元，净募资额937亿美元",
-    "link": "https://36kr.com/newsflashes/4063882408596354?f=rss",
-    "summary": "Anthropic预计IPO定价中点74美元，计入超额配售权和私募配售后，净募资额达937亿美元。（财联社）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053268+00:00"
-   },
-   {
-    "id": "f04faf2cedab02cb",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:54:16+00:00",
-    "source": "36氪",
-    "title": "台积电批准409亿美元资本预算，用于长期产能扩张",
-    "link": "https://36kr.com/newsflashes/4063881724203911?f=rss",
-    "summary": "台积电董事会批准约409.27亿美元资本预算，主要用于先进制程产能的安装与升级、先进封装及成熟和特殊制程产能扩充、晶圆厂建设及厂务设施系统安装，以及2027年研发资本投资、维持性资本支出和资本化租赁资产。这不是台积电首次公布长期产能投资计划，而是董事会定期批准资本预算的延续。（财联社）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053269+00:00"
-   },
-   {
-    "id": "3f139cc385d98e43",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:51:50+00:00",
-    "source": "36氪",
-    "title": "谷歌、英伟达等七家公司承诺向Anthropic投资260亿美元",
-    "link": "https://36kr.com/newsflashes/4063879337333637?f=rss",
-    "summary": "11月10日，一份文件显示，谷歌、英伟达、AMD、博通、美光、微软及台积电合作伙伴公司已同意通过同步私募方式，合计认购260亿美元的Anthropic无投票权普通股，认购价格与IPO发行价相同。（界面）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053271+00:00"
-   },
-   {
-    "id": "b6a3bc9fd02be1ea",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:45:38+00:00",
-    "source": "36氪",
-    "title": "Anthropic第三季度算力及基础设施支出达99亿美元，占营收58%",
-    "link": "https://36kr.com/newsflashes/4063873240175489?f=rss",
-    "summary": "Anthropic文件显示，公司2026年第三季度算力及基础设施费用达到99亿美元，占当季营收的58%，高于第二季度的48%。其中包括50亿美元短期算力承诺，这部分算力成本显著高于多年期协议采购的同类算力。（财联社）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053272+00:00"
-   },
-   {
-    "id": "bff91e1d7ba86f25",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:42:08+00:00",
-    "source": "36氪",
-    "title": "Anthropic：截至今年10月底，年化营收约为810亿美元",
-    "link": "https://36kr.com/newsflashes/4063869810332549?f=rss",
-    "summary": "Anthropic表示，截至2026年10月31日，其年化营收约为810亿美元，较2026年9月30日增加100亿美元。年付费超10万美元的客户数量增长至11900家。（财联社）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053274+00:00"
-   },
-   {
-    "id": "5adb056d3c648b1c",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:41:41+00:00",
-    "source": "36氪",
-    "title": "Anthropic：IPO目标估值约1万亿美元",
-    "link": "https://36kr.com/newsflashes/4063869365277824?f=rss",
-    "summary": "Anthropic：IPO目标估值约1万亿美元。（新浪财经）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053275+00:00"
-   },
-   {
-    "id": "304d2d5acecd10d8",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:41:04+00:00",
-    "source": "36氪",
-    "title": "Anthropic宣布IPO路演：发行价区间预计为每股70–78美元",
-    "link": "https://36kr.com/newsflashes/4063868756792453?f=rss",
-    "summary": "Anthropic（公益法人PBC）今日启动A类普通股首次公开发行（IPO）路演。本次拟发行8.25亿股A类普通股，其中8.01351354亿股由Anthropic发行，2364.8646万股由部分现有股东出售。现有股东出售股份的收益不归Anthropic所有。Anthropic拟授予承销商30天超额配售权，可额外认购最多1.2375亿股A类普通股。发行价区间预计为每股70–78美元。公司已申请在纳斯达克全球精选市场上市，股票代码ANT。（新浪财经）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053277+00:00"
-   },
-   {
-    "id": "507ecc1d138b069a",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:32:20+00:00",
-    "source": "36氪",
-    "title": "保额3.18亿美元，李泽楷公司签发创纪录保单",
-    "link": "https://36kr.com/newsflashes/4063860165776257?f=rss",
-    "summary": "11月10日，李嘉诚之子李泽楷创立的富卫集团旗下高净值业务品牌FWD Private宣布，刷新了吉尼斯世界纪录的“最高价值人寿保单”纪录。该创纪录保单保额为3.18亿美元，由FWD Private签发，为一名个人客户订制全面方案以助其实现财富保全及跨代传承规划。（界面）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053279+00:00"
-   },
-   {
-    "id": "2fc20bccd963b3be",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:28:43+00:00",
-    "source": "InfoQ 中文",
-    "title": "硅谷疯炒 AI 自我进化，李飞飞、Jeff Dean 齐泼冷水：无限加速不可信",
-    "link": "https://www.infoq.cn/article/mZlISiZL9c1eurrsZRpo?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T04:37:15.316749+00:00"
-   },
-   {
-    "id": "aba98658cee95348",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:06:38+00:00",
-    "source": "36氪",
-    "title": "产业对接五大赛道集结，点名！速来——WISE2026「产业对接」火热报名中",
-    "link": "https://36kr.com/p/4063821771068546?f=rss",
-    "summary": "不卖关子，报名通道真的已经“爆”了 WISE2026“世界咖啡·产业对接”开放报名的这两个星期来，后台的报名就没停过。这两天，我们梳理了前两轮报名的企业，他们的需求和能够提供的技术能力集中在以下五大赛道： 工业制造与研发；商业经营与企业运营；医疗健康；具身智能与机器人产业；海外应用与产业合作。 列完五大赛道，我们继续把报名公司的问题痛点和技术方案捋了一遍，发现每条赛道底下，都有人在聊真事。我们把这些需求和技术提前“踩一遍点”，梳理在下面图片中，现在只等你来报名上桌。 本轮“产业对接” 面向各行各业的企业和团队 开放。 无论是采购供应、研发生产、渠道合作，还是其他具体的业务需求，只要你想寻找合作",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053232+00:00"
-   },
-   {
-    "id": "1a9014341628630d",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:00:14+00:00",
-    "source": "人人都是产品经理",
-    "title": "怎么给AI建立一套稳定的小红书爆款内容拆解标准？！",
-    "link": "https://www.woshipm.com/share/6491804.html",
-    "summary": "让 AI 拆解小红书爆款，最怕它今天一套逻辑、明天一套维度，看着专业却没法复用。办法是先想清楚要拿到什么，再把认可的方法、参考样本和输出要求固定下来，让 AI 按标准分析，最后持续测试迭代。这篇给出了完整的搭建步骤。 之前在群里聊到一个问题： 搭建小红书AI工作流的时候，怎么给AI建立一套稳定的爆款内容拆解标准？ 因为如果不提前固定一套拆解标准的话，AI就很容易自由发挥。 可能同一篇内容，今天拆解是一套逻辑，明天又换了一套维度；有时候看起来分析得很专业，但实际上结论很散，也没办法复用…… 嗯，这个问题其实挺好解决的： 先想清楚，我们想从拆解里得到什么；再把自己认可的方法、参考样本和输出要求梳理",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:17.075416+00:00"
-   },
-   {
-    "id": "aa37394c025f846f",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:00:04+00:00",
-    "source": "人人都是产品经理",
-    "title": "意义与归属：超越产品和服务，消费世界的新商品",
-    "link": "https://www.woshipm.com/share/6491806.html",
-    "summary": "人们买一件东西，很多时候不只因为需要，而是想借这次购买靠近某种理想的生活、遇见气味相投的人。这份消费拆开，就是意义与归属。文章从马斯洛、阿德勒讲到星巴克与乐高，拆解品牌如何把情感与身份认同做成可售卖的商品。 我们买下一件东西，很多时候并不只因为需要它——只是想借着这次购买，靠近一种理想的生活，遇见一群气味相投的人。这份“消费”拆开，就是 意义与归属。 从品牌角度，自然也可以售卖情感、意义和归属，而不是某项服务或某个东西！ 一、“意义”，也可以是交付的商品 “意义”，这个听上去宏大的词，早已成为日常消费的脉络。 1、人们想要什么？ 人们都希望成为更宏大叙事的一部分，希望与有价值导向的事情产生联结",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:17.075426+00:00"
-   },
-   {
-    "id": "e868235e69c0f38e",
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "Anthropic 重做源代码管理系统：提交量增长 12 倍，传统架构开始失效",
-    "link": "https://www.infoq.cn/article/sBjhhysFKZibZpXQZEGy?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T04:37:15.316751+00:00"
-   },
-   {
-    "id": "9dad48090f8b403d",
-    "date": "2026-11-10",
-    "published": "2026-11-10T10:55:55+00:00",
-    "source": "人人都是产品经理",
-    "title": "用WorkBuddy从零复刻一条完整爆款视频",
-    "link": "https://www.woshipm.com/ai/6491798.html",
-    "summary": "刷到一条带货视频想照着拍，真人出镜、镜头设计、日更节奏样样费时间。于是把两条原片交给 AI，让它自己拆结构、找素材、调配生成模型，折腾几轮真做出了成片。这篇记录了从找参考到出片的完整流程，以及中途踩过的坑。 刷到一条不错的带货视频，最容易想到的就是照着这个拍法，换件商品再做一条。 搞笑短视频、每天更新的趣味栏目也差不多，只要找到一种受欢迎的视频形式，后面就能继续换素材、换台词，做出更多同类型的视频。 不过，照着拍一条视频并没有那么轻松。真人出镜需要安排，镜头和动作也要提前设计，如果打算日更多条，每条视频都重新制作，确实挺费时间的。 于是小编干脆想偷个懒，找了两条视频交给AI，试试看它能照着原片",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:17.075430+00:00"
-   },
-   {
-    "id": "c5ea432010937a72",
-    "date": "2026-11-10",
-    "published": "2026-11-10T10:55:23+00:00",
-    "source": "人人都是产品经理",
-    "title": "Claude Fable 5.2 实测，DeepSeek、Kimi K3.1 迎战",
-    "link": "https://www.woshipm.com/ai/6491795.html",
-    "summary": "同一段提示词，丢给 Claude Opus 5.5、Fable 5.2、Kimi K3.1 Pro 和 DeepSeek V4.1 Flash，各生成一段动效视频介绍新模型。从成片质量、Token 消耗到生成速度逐项对比，给出什么场景该选谁的建议。 Anthropic 刚正式发布了 Claude Fable 5.2 以及面向特定机构的 Claude Mythos 5.2 我用一段完全相同的提示词，丢给了： Claude Opus 5.5、Claude Fable 5.2、Kimi K3.1 Pro、DeepSeek V4.1 Flash 提示词： 看下 Fable 5.2 官方博客，然后生成一",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:17.075433+00:00"
-   },
-   {
-    "id": "eb5579fe0ab4ce2e",
-    "date": "2026-11-10",
-    "published": "2026-11-10T10:52:36+00:00",
-    "source": "人人都是产品经理",
-    "title": "千问办公 2.0 发布：个人效率之外，还有组织效率这道题",
-    "link": "https://www.woshipm.com/ai/6491851.html",
-    "summary": "个人效率提升，不等于组织效率提升——这是AI办公被忽视的真问题。千问办公2.0把Agent放进协作链路：群聊信息自动汇成项目上下文，通过人机共创让人与 AI 围绕工作成果持续协作，再通过自动任务让 Agent 能够感知业务变化、主动承接后续工作。AI 不再只是等待指令的工具，而是成为团队中能够持续参与协作、推进工作的数字员工。 最近做产品的人，大概都有同一种体感：AI 办公这条赛道，几乎每天都有新动作。 几家大厂轮番发布，前脚刚看完这个 Agent，后脚又冒出新版办公助手，群里的截图和测评链接就没断过。这两天发布的千问办公2.0，就在朋友圈直接刷屏了。 今年 AI Agent 赛道持续升温。 ",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:17.075436+00:00"
-   },
-   {
-    "id": "3278af6544109bbf",
-    "date": "2026-11-10",
-    "published": "2026-11-10T10:52:12+00:00",
-    "source": "36氪",
-    "title": "G7易流7700亿Token背后：物流AI从屏幕走向一线现场｜最前线",
-    "link": "https://36kr.com/p/4063605732627331?f=rss",
-    "summary": "作者｜黄楠 编辑｜袁斯来 当大模型的概念热潮逐渐回落，物流行业的AI竞赛正在发生微妙转向。行业不再满足于演示台上的效果，开始追问：AI如何真正走进场站、车厢、装卸交接的真实现场，转化成看得见的经营结果。 在无锡举办的2026数字物流大会上，三千余位产业从业者围绕“AI开工”，抛出一个核心命题：物流AI的胜负手，不在于模型参数有多华丽，而在于能不能打通总部与一线现场的双向通路。 中国物流与采购联合会会长蔡进在致辞中提出，物流早已不只是一门产业，更是一套社会经济的生产组织方式。“物流企业不能只盯着自身的规模与效益，要通过先进的组织方式，帮助上下游降本增效、创造价值。” 过去二十年，物流行业已经完成",
-    "topics": [
-     "china",
-     "product",
      "ai"
     ],
     "tags": [
      "ai-product",
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-10T18:40:41.053241+00:00"
-   }
-  ],
-  "dataviz": [
-   {
-    "id": "232d637fdb95dfda",
-    "date": "2026-11-10",
-    "published": "2026-11-10T18:22:48+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The World’s 10 Longest Nonstop Flights",
-    "link": "https://www.visualcapitalist.com/the-longest-nonstop-flights/",
-    "summary": "The world's longest nonstop flights keep passengers in the air for over 19 hours. Discover the routes behind aviation's longest nonstop journeys, ranked by scheduled flight duration.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:20.985564+00:00"
-   },
-   {
-    "id": "0c01429109070aa4",
-    "date": "2026-11-10",
-    "published": "2026-11-10T18:00:00+00:00",
-    "source": "Datawrapper Blog",
-    "title": "Data Vis Dispatch, November 10: A blue wave, pi, and the pancake index",
-    "link": "https://www.datawrapper.de/blog/data-vis-dispatch-november-10-2026-a-blue-wave-pi-and-the-pancake-index",
-    "summary": "The best of last week’s big and small data visualizations",
-    "topics": [
-     "dataviz",
-     "ux"
-    ],
-    "tags": [
-     "dashboard"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:20.883370+00:00"
-   },
-   {
-    "id": "778e37561a2f9b50",
-    "date": "2026-11-10",
-    "published": "2026-11-10T17:07:38+00:00",
-    "source": "Visual Capitalist",
-    "title": "Mapped: Median Household Income by U.S. State",
-    "link": "https://www.visualcapitalist.com/mapped-median-household-income-by-us-state/",
-    "summary": "Americans are earning more than ever, but six-figure incomes are typical in just eight states. What separates the top from the bottom?",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:20.985576+00:00"
-   },
-   {
-    "id": "a4a5dc9c55aec4a8",
-    "date": "2026-11-10",
-    "published": "2026-11-10T15:37:42+00:00",
-    "source": "Visual Capitalist",
-    "title": "Gold’s Purchasing Power Against U.S. Real Estate Over Time",
-    "link": "https://www.visualcapitalist.com/sp/usmr01-golds-purchasing-power-against-u-s-real-estate-over-time/",
-    "summary": "Gold prices have risen 16x since 2000. Discover how the same amount of gold that once bought one U.S. home could buy nearly seven in 2026.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:20.985579+00:00"
-   },
-   {
-    "id": "eb5ef7cab549992d",
-    "date": "2026-11-10",
-    "published": "2026-11-10T14:08:42+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: Countries With the Best Pensions in 2026",
-    "link": "https://www.visualcapitalist.com/ranked-countries-with-best-pensions-in-2026/",
-    "summary": "Which countries have the best pensions in 2026? Explore the global rankings, from the Netherlands in first place to the U.S. in 33rd.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:20.985582+00:00"
-   },
-   {
-    "id": "fbc8c5f464221980",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:05:53+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: Countries That Use the Most of Each Fossil Fuel",
-    "link": "https://www.visualcapitalist.com/ranked-countries-use-most-fossil-fuels-2025/",
-    "summary": "China burns more coal than the rest of the world combined, while the U.S. leads in oil and natural gas. See how countries rank for each fuel.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:20.985585+00:00"
-   },
-   {
-    "id": "69e1ca86d6fbdd04",
-    "date": "2026-11-10",
-    "published": "2026-11-10T10:02:16+00:00",
-    "source": "FlowingData",
-    "title": "Geolocation determined with background airplane noise",
-    "link": "https://flowingdata.com/2026/11/10/geolocation-determined-with-background-airplane-noise/",
-    "summary": "Apparently inaudible background noise from airplanes in a blurry video clip is enough… Tags: airplane , Colsto , geolocation , OSINT",
-    "topics": [
-     "dataviz"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:17.805882+00:00"
-   },
-   {
-    "id": "0b97c5df955ebed4",
-    "date": "2026-11-10",
-    "published": "2026-11-10T00:39:16+00:00",
-    "source": "FlowingData",
-    "title": "No Republican New England senators for the first time in a long time",
-    "link": "https://flowingdata.com/2026/11/09/new-england-senators-2026/",
-    "summary": "For CT Insider, Philip Bump made a racetrack-like graphic to show the timeline… Tags: CT Insider , New England , Philip Bump , Senate , timeline",
-    "topics": [
-     "dataviz"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T04:37:16.418336+00:00"
-   },
-   {
-    "id": "ae47b05f9f4fcf1e",
-    "date": "2026-11-09",
-    "published": "2026-11-09T18:25:05+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: Best Real Estate Returns by Country (2015–2025)",
-    "link": "https://www.visualcapitalist.com/cp/ranked-best-real-estate-returns-by-country-2015-2025/",
-    "summary": "Which countries offer the best real estate returns? Discover the global leaders in property appreciation and rental yields.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:20.024980+00:00"
-   },
-   {
-    "id": "b2e43a1780d3dfec",
-    "date": "2026-11-09",
-    "published": "2026-11-09T17:09:37+00:00",
-    "source": "Visual Capitalist",
-    "title": "Mapped: Passport Ownership by U.S. State",
-    "link": "https://www.visualcapitalist.com/mapped-how-many-americans-have-a-passport-in-every-state/",
-    "summary": "Passport ownership varies nearly fourfold across America. See which states lead, which lag, and how your state compares.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:20.024995+00:00"
-   },
-   {
-    "id": "8f7ed21e7947ecd7",
-    "date": "2026-11-09",
-    "published": "2026-11-09T16:30:31+00:00",
-    "source": "Grafana Labs Blog",
-    "title": "Run cost-effective, always-on agents to monitor your environment: the engineering behind Watchers",
-    "link": "https://grafana.com/blog/run-cost-effective-always-on-agents-to-monitor-your-environment-the-engineering-behind-watchers/",
-    "summary": "Alert rules are great for the failures you can predict, but they fall short on the ones you can't. With the advent of modern AI, you might think the solution is to swarm your stack with agents that monitor every last detail, but that can quickly lead to astronomical bills. And those are the gaps Wat",
-    "topics": [
-     "dataviz",
-     "changelog",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:18.195932+00:00"
-   },
-   {
-    "id": "4c0d1e57350d8734",
-    "date": "2026-11-09",
-    "published": "2026-11-09T15:46:00+00:00",
-    "source": "Visual Capitalist",
-    "title": "U.S. Private Investment in AI Is 23 Times Higher Than China’s",
-    "link": "https://www.visualcapitalist.com/sp/ter02-breaking-down-336-billion-in-private-ai-investment-by-country/",
-    "summary": "The AI investment race is heating up, but funding is far from evenly distributed. See the countries where private capital is flowing.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [
      "data"
     ],
     "lang": "en",
-    "first_seen": "2026-11-09T21:26:20.024999+00:00"
+    "first_seen": "2026-11-11T02:46:34.089767+00:00"
    },
    {
-    "id": "57b2fea80652ae8a",
-    "date": "2026-11-09",
-    "published": "2026-11-09T14:07:54+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The World’s Most and Least Trade-Dependent Countries",
-    "link": "https://www.visualcapitalist.com/ranked-most-least-trade-dependent-countries/",
-    "summary": "Luxembourg trades goods and services worth 350% of its GDP, while the U.S. trades just 25%. See where 170 countries rank.",
+    "id": "9fbcbefb9fa2b201",
+    "date": "2026-11-10",
+    "published": "2026-11-10T19:50:46+00:00",
+    "source": "Hacker News — Best",
+    "title": "Scion is back and is going to sell a kei truck in America",
+    "link": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
+    "summary": "Article URL: https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/ Comments URL: https://news.ycombinator.com/item?id=50445401 Points: 337 # Comments: 253",
     "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:20.025002+00:00"
-   },
-   {
-    "id": "e15e654940539804",
-    "date": "2026-11-09",
-    "published": "2026-11-09T12:03:19+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The World’s Biggest Economies vs. Debt in 2026",
-    "link": "https://www.visualcapitalist.com/largest-economies-vs-government-debt-2026/",
-    "summary": "The U.S. leads the world in economic size, but Sudan tops the government debt ranking. See how the two lists compare.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:20.025004+00:00"
-   },
-   {
-    "id": "f1a1e6d20519fdd9",
-    "date": "2026-11-09",
-    "published": "2026-11-09T08:24:29+00:00",
-    "source": "FlowingData",
-    "title": "A brain from simple circuits",
-    "link": "https://flowingdata.com/2026/11/09/a-brain-from-simple-circuits/",
-    "summary": "Aatish Bhatia and Arkarup Banerjee use a visual explainer for how a few… Tags: Aatish Bhatia , Arkarup Banerjee , brain , Myriad , neurons",
-    "topics": [
-     "dataviz"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:17.103035+00:00"
-   },
-   {
-    "id": "9fd56903660e6ee2",
-    "date": "2026-11-08",
-    "published": "2026-11-08T17:42:37+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: Where Influencers Are Most Popular Worldwide",
-    "link": "https://www.visualcapitalist.com/countries-that-follow-influencers-the-most/",
-    "summary": "Which countries follow influencers the most? Explore 53 markets ranked by influencer-following rates, plus regional comparisons.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T02:38:59.759844+00:00"
-   },
-   {
-    "id": "8896c399b1643500",
-    "date": "2026-11-08",
-    "published": "2026-11-08T15:51:34+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: How Far Popular Cars Can Drive on $100 of Fuel",
-    "link": "https://www.visualcapitalist.com/how-far-popular-cars-can-drive-on-100-dollars-of-fuel/",
-    "summary": "Discover which popular cars travel farthest on $100, comparing the fuel costs of electric vehicles, hybrids, and gas-powered models.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-08T17:02:35.108812+00:00"
-   },
-   {
-    "id": "dc3857bfb49205e1",
-    "date": "2026-11-08",
-    "published": "2026-11-08T14:05:31+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The 20 Countries With the Longest Coastlines",
-    "link": "https://www.visualcapitalist.com/countries-with-the-longest-coastlines/",
-    "summary": "Discover the countries with the longest coastlines, from Canada's vast Arctic shores to Norway's fjords and Indonesia's islands.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-08T17:02:35.108826+00:00"
-   },
-   {
-    "id": "b1dca341f15e5113",
-    "date": "2026-11-08",
-    "published": "2026-11-08T12:03:38+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: Countries With the Most Leisure Time",
-    "link": "https://www.visualcapitalist.com/ranked-countries-with-the-most-leisure-time/",
-    "summary": "Which countries have the most free time? Explore global leisure rankings and why Europe leads while Asia lags behind.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-08T17:02:35.108828+00:00"
-   },
-   {
-    "id": "4ef894c7ed74bcf5",
-    "date": "2026-11-07",
-    "published": "2026-11-07T18:49:51+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The Deadliest and Safest Car Models in America",
-    "link": "https://www.visualcapitalist.com/cp/ranked-the-deadliest-and-safest-car-models-in-america/",
-    "summary": "Which cars are the deadliest or safest? Discover the U.S. vehicle models with the highest and lowest driver death rates.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-08T02:26:44.647178+00:00"
-   },
-   {
-    "id": "1f0c285be1b884f6",
-    "date": "2026-11-07",
-    "published": "2026-11-07T17:11:15+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The World’s Nuclear Arsenals in 2006 vs. 2026",
-    "link": "https://www.visualcapitalist.com/ranked-the-worlds-nuclear-arsenals-in-2006-vs-2026/",
-    "summary": "Nuclear arsenals in 2026 remain dominated by Russia and the U.S., but China and several Asian powers have expanded their stockpiles.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-08T02:26:44.647188+00:00"
-   },
-   {
-    "id": "34283022f5b0b99d",
-    "date": "2026-11-07",
-    "published": "2026-11-07T15:24:02+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: America’s 20 Most Popular Dog Breeds",
-    "link": "https://www.visualcapitalist.com/ranked-most-popular-dog-breeds-america-2025/",
-    "summary": "The French Bulldog topped American Kennel Club registrations for a fourth year in 2025, while the Dachshund climbed into the top five.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-07T16:50:12.400663+00:00"
-   },
-   {
-    "id": "301de66b1caa72bd",
-    "date": "2026-11-07",
-    "published": "2026-11-07T13:38:55+00:00",
-    "source": "Visual Capitalist",
-    "title": "Your Best Years of Life May Come Later Than You Think",
-    "link": "https://www.visualcapitalist.com/best-years-of-life-by-age/",
-    "summary": "What age do people consider the best years of life? See how Americans' views of their best decade change as they get older.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-07T16:50:12.400670+00:00"
-   },
-   {
-    "id": "360c32d23bbc5c38",
-    "date": "2026-11-07",
-    "published": "2026-11-07T12:02:21+00:00",
-    "source": "The Economist – Graphic detail",
-    "title": "Off the Charts newsletter: A post mortem of our election model",
-    "link": "https://www.economist.com/graphic-detail/2026/11/07/off-the-charts-newsletter-a-post-mortem-of-our-election-model",
-    "summary": "Dan Rosenheck, our data editor, considers why our election forecast missed the signs of the tsunami",
-    "topics": [
-     "dataviz",
-     "macro",
-     "finance"
-    ],
-    "tags": [
-     "notification",
-     "dashboard",
-     "forecasting"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-07T16:50:12.483343+00:00"
-   },
-   {
-    "id": "802ebccd1de3571e",
-    "date": "2026-11-07",
-    "published": "2026-11-07T11:48:37+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The World’s Longest Place Names",
-    "link": "https://www.visualcapitalist.com/worlds-longest-place-names/",
-    "summary": "Explore the world's longest place names, from an 85-letter New Zealand hill to a Welsh village famous for its railway history.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-07T16:50:12.400672+00:00"
-   },
-   {
-    "id": "664246687c363bc0",
-    "date": "2026-11-07",
-    "published": "2026-11-07T00:39:00+00:00",
-    "source": "Visual Capitalist",
-    "title": "Ranked: The Top Countries for Tech Services Exports",
-    "link": "https://www.visualcapitalist.com/sp/adb02-ranked-the-top-countries-for-tech-services-exports/",
-    "summary": "Explore the top countries for tech services exports, led by Ireland at $301.7 billion and India at $200.3 billion, using World Bank data.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-07T02:46:29.030610+00:00"
-   },
-   {
-    "id": "17a0037d718fb4e0",
-    "date": "2026-11-06",
-    "published": "2026-11-06T18:37:07+00:00",
-    "source": "Grafana Labs Blog",
-    "title": "Any agent anywhere: How to use Grafana Cloud with Claude, Cursor, and any other AI agent",
-    "link": "https://grafana.com/blog/any-agent-anywhere-how-to-use-grafana-cloud-with-claude-cursor-and-any-other-ai-agent/",
-    "summary": "AI agents are becoming part of everyday engineering workflows, helping teams write code, troubleshoot issues, and automate tasks. But to be truly useful in production, these agents need access to more than code. They also need observability data and context to understand what's happening across your",
-    "topics": [
-     "dataviz",
-     "changelog",
+     "ai",
      "product"
     ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-07T02:46:27.847149+00:00"
-   },
-   {
-    "id": "e7bbbda041703bb8",
-    "date": "2026-11-06",
-    "published": "2026-11-06T17:35:15+00:00",
-    "source": "The Economist – Graphic detail",
-    "title": "The blue wave was powered by moderate Democrats",
-    "link": "https://www.economist.com/graphic-detail/2026/11/06/the-blue-wave-was-powered-by-moderate-democrats",
-    "summary": "Our analysis shows progressives had mostly easy wins",
-    "topics": [
-     "dataviz",
-     "macro",
-     "finance"
-    ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-07T02:46:28.580875+00:00"
+    "first_seen": "2026-11-11T02:46:33.176646+00:00"
    },
    {
-    "id": "6dfb07383c8cba73",
-    "date": "2026-11-06",
-    "published": "2026-11-06T17:25:22+00:00",
-    "source": "Visual Capitalist",
-    "title": "Mapped: Where Your Salary Goes the Furthest in 2026",
-    "link": "https://www.visualcapitalist.com/mapped-where-salaries-have-the-most-purchasing-power/",
-    "summary": "Where does your paycheck go furthest? See 2026 salary purchasing power rankings and why U.S. wages stretch further than Canada's.",
+    "id": "ac5a661efbfd509d",
+    "date": "2026-11-10",
+    "published": "2026-11-10T19:00:00+00:00",
+    "source": "Google — The Keyword (AI)",
+    "title": "Gemini Intelligence: New features, on more devices",
+    "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+    "summary": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
     "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-06T17:57:46.842264+00:00"
-   },
-   {
-    "id": "824555f4e9ccb15a",
-    "date": "2026-11-06",
-    "published": "2026-11-06T16:51:00+00:00",
-    "source": "Visual Capitalist",
-    "title": "The 8 AI Giants Behind Nearly Half of the S&P 500’s Growth",
-    "link": "https://www.visualcapitalist.com/sp/hc01-ai-stocks-8-giants-behind-nearly-half-of-the-sp-500s-growth/",
-    "summary": "Since ChatGPT launched, eight generative AI stocks contributed 47% of the S&P 500's market cap growth. See how the data breaks down.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-06T17:57:46.842280+00:00"
-   },
-   {
-    "id": "3f6043ce84ec51ec",
-    "date": "2026-11-06",
-    "published": "2026-11-06T16:33:12+00:00",
-    "source": "Storytelling with Data",
-    "title": "when visual cues miss the mark",
-    "link": "https://www.storytellingwithdata.com/blog/ocgbcwudp8x8j9m99a20f1glmdbeoy",
-    "summary": "Preattentive attributes like color, motion, and enclosure are powerful tools for focusing attention, but not every audience responds to them the same way. Learn how to get to know your audience and layer multiple cues so your key message lands with everyone.",
-    "topics": [
-     "dataviz",
-     "ux"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-06T17:57:45.746734+00:00"
-   },
-   {
-    "id": "7e9a2a9e823f933c",
-    "date": "2026-11-06",
-    "published": "2026-11-06T14:21:01+00:00",
-    "source": "Visual Capitalist",
-    "title": "Mapped: The Countries Developing the World’s AI Models",
-    "link": "https://www.visualcapitalist.com/mapped-the-countries-developing-the-worlds-ai-models/",
-    "summary": "Which countries lead AI development? Explore why the U.S. dominates, China's growing influence, and Europe's challenges.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-06T17:57:46.842283+00:00"
-   },
-   {
-    "id": "a00ff7e0100177fa",
-    "date": "2026-11-06",
-    "published": "2026-11-06T14:00:00+00:00",
-    "source": "Nightingale (Data Visualization Society)",
-    "title": "Same Chart, Many Titles: A Classroom Exercise in Framing Data",
-    "link": "https://nightingaledvs.com/same-chart-many-titles/",
-    "summary": "On New Year’s Eve 2016, two large posters appeared on walls around Brooklyn. One showed a New York Times front page marked up in red.. The post Same Chart, Many Titles: A Classroom Exercise in Framing Data appeared first on Nightingale .",
-    "topics": [
-     "dataviz",
-     "ux"
-    ],
-    "tags": [
-     "dashboard"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-06T17:57:45.652092+00:00"
-   },
-   {
-    "id": "e97915a461acad5b",
-    "date": "2026-11-06",
-    "published": "2026-11-06T12:15:50+00:00",
-    "source": "Visual Capitalist",
-    "title": "Mapped: Where Americans Have the Most Debt Per Person",
-    "link": "https://www.visualcapitalist.com/mapped-how-much-debt-americans-have-in-every-state/",
-    "summary": "Americans owe trillions in personal debt. See how much residents owe in every state, and why some carry nearly three times as much.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-06T17:57:46.842286+00:00"
-   },
-   {
-    "id": "8a579c4a30469845",
-    "date": "2026-11-06",
-    "published": "2026-11-06T10:11:28+00:00",
-    "source": "Visual Capitalist",
-    "title": "Mapped: The Best Countries for Travel and Tourism in 2026",
-    "link": "https://www.visualcapitalist.com/mapped-the-best-countries-for-travel-and-tourism-in-2026/",
-    "summary": "Which countries lead tourism development in 2026? Explore global rankings, from Japan and Europe to emerging destinations.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-06T17:57:46.842289+00:00"
-   },
-   {
-    "id": "adbc0470e1bad18f",
-    "date": "2026-11-06",
-    "published": "2026-11-06T10:11:17+00:00",
-    "source": "FlowingData",
-    "title": "Swings in Texas over the years",
-    "link": "https://flowingdata.com/2026/11/06/swings-in-texas-over-the-years/",
-    "summary": "The New York Times produced a series of charts for the shift in… Tags: elections , New York Times , partisanship , Texas",
-    "topics": [
-     "dataviz"
-    ],
-    "tags": [
-     "dashboard"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-06T17:57:43.911627+00:00"
-   },
-   {
-    "id": "8c6e5f37f365f66f",
-    "date": "2026-11-06",
-    "published": "2026-11-06T03:16:45+00:00",
-    "source": "Visual Capitalist",
-    "title": "Mapped: How Long Europeans Work to Afford Netflix",
-    "link": "https://www.visualcapitalist.com/cp/mapped-how-long-europeans-work-to-afford-netflix/",
-    "summary": "How long must Europeans work to afford Netflix? Explore the surprising gap in streaming affordability across 37 countries.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-06T03:25:32.489915+00:00"
-   },
-   {
-    "id": "11d631e28e217001",
-    "date": "2026-11-05",
-    "published": "2026-11-05T22:00:00+00:00",
-    "source": "Datawrapper Blog",
-    "title": "From stationed to settled: U.S. bases in Germany",
-    "link": "https://www.datawrapper.de/blog/us-bases-germany",
-    "summary": "In this Weekly Chart, we explore the changing presence of the U.S. military in Germany.",
-    "topics": [
-     "dataviz",
-     "ux"
-    ],
-    "tags": [
-     "dashboard"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-06T03:25:31.813978+00:00"
-   },
-   {
-    "id": "8fb0b75d9b5e7d34",
-    "date": "2026-11-05",
-    "published": "2026-11-05T19:58:41+00:00",
-    "source": "FlowingData",
-    "title": "Hairy election margins map",
-    "link": "https://flowingdata.com/2026/11/05/hairy-election-margins-map/",
-    "summary": "You’ve seen maps of the results and maps of the shifts. For the… Tags: elections , midterm , Wall Street Journal",
-    "topics": [
-     "dataviz"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-06T03:25:29.084379+00:00"
-   },
-   {
-    "id": "e6ea88d4fe05aa87",
-    "date": "2026-11-05",
-    "published": "2026-11-05T19:25:32+00:00",
-    "source": "Grafana Labs Blog",
-    "title": "What’s new with Grafana variables: less clutter, easier reuse across dashboards, and more",
-    "link": "https://grafana.com/blog/whats-new-with-grafana-variables-less-clutter-easier-reuse-across-dashboards-and-more/",
-    "summary": "Template variables are one of the most used features in Grafana, providing users with a dropdown to turn one dashboard into hundreds: pick a different cluster , region , or service , and every panel updates. For most of Grafana's history, variables had a single home at the top of the dashboard. Each",
-    "topics": [
-     "dataviz",
-     "changelog",
+     "ai",
      "product"
     ],
-    "tags": [
-     "dashboard"
-    ],
+    "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-06T03:25:29.551477+00:00"
-   }
-  ],
-  "macro": [
+    "first_seen": "2026-11-11T02:46:31.973405+00:00"
+   },
    {
-    "id": "954c0db73f298b45",
+    "id": "8f42811d9e2159fc",
     "date": "2026-11-10",
-    "published": "2026-11-10T16:00:00+00:00",
-    "source": "Liberty Street Economics (NY Fed)",
-    "title": "A Look at the Wider Divide in Credit Card Delinquency by Income",
-    "link": "https://libertystreeteconomics.newyorkfed.org/2026/11/a-look-at-the-wider-divide-in-credit-card-delinquency-by-income/",
-    "summary": "Credit card delinquency rose sharply between 2022 and 2024, and the increase was steepest among borrowers in lower-income neighborhoods. Here, we check in on credit card performance by neighborhood income and trace when the borrowers who are now struggling with their payments were issued cards. We f",
+    "published": "2026-11-10T18:56:32+00:00",
+    "source": "Latent Space (AINews)",
+    "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+    "link": "https://latent.space/p/naiveai/",
+    "summary": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
     "topics": [
-     "macro",
-     "finance"
+     "ai"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-10T18:40:25.262936+00:00"
+    "first_seen": "2026-11-11T02:46:34.089775+00:00"
    },
    {
-    "id": "0694fa239dc81865",
+    "id": "4425ceb1a10f711a",
     "date": "2026-11-10",
-    "published": "2026-11-10T00:00:00+00:00",
-    "source": "BIS Working Papers",
-    "title": "US monetary policy, macroeconomic news and the global secular decline of interest rates",
-    "link": "https://www.bis.org/publications/working-paper-1393-us-monetary-policy-macroeconomic-news-and-global-secular-decline-interest-rates",
-    "summary": "The global secular decline in long-term interest rates since the 1990s has been largely driven by cumulative yield changes during U.S. monetary policy announcement windows (FOMC windows).",
+    "published": "2026-11-10T18:02:02+00:00",
+    "source": "Hacker News — Best",
+    "title": "Synaptics patent claims stop work on DisplayLink drivers",
+    "link": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+    "summary": "Article URL: https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/ Comments URL: https://news.ycombinator.com/item?id=50443824 Points: 301 # Comments: 164",
     "topics": [
-     "macro",
-     "crypto",
-     "finance"
+     "ai",
+     "product"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-10T18:40:22.738321+00:00"
+    "first_seen": "2026-11-11T02:46:33.176657+00:00"
    },
    {
-    "id": "8ab143e18725d85e",
-    "date": "2026-11-09",
-    "published": "2026-11-09T14:00:00+00:00",
-    "source": "FRED Blog",
-    "title": "How the AIES helps BEA measure industry output",
-    "link": "https://fred.stlouisfed.org/blog/2026/11/how-the-aies-helps-bea-measure-industry-output",
-    "summary": "The U.S. Census Bureau's Annual Integrated Economic Survey (AIES) is one of the building blocks of the Bureau of Economic Analysis (BEA) industry accounts.",
+    "id": "d438bd2ee1d81c2e",
+    "date": "2026-11-10",
+    "published": "2026-11-10T17:31:14+00:00",
+    "source": "Hacker News — Best",
+    "title": "Val Town is winding down",
+    "link": "https://blog.val.town/winding-down",
+    "summary": "Article URL: https://blog.val.town/winding-down Comments URL: https://news.ycombinator.com/item?id=50443427 Points: 309 # Comments: 82",
     "topics": [
-     "macro",
-     "dataviz",
-     "finance"
+     "ai",
+     "product"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-09T21:26:23.202905+00:00"
+    "first_seen": "2026-11-11T02:46:33.176661+00:00"
    },
    {
-    "id": "de7e5382feb0fd56",
-    "date": "2026-11-09",
-    "published": "2026-11-09T12:00:00+00:00",
-    "source": "Liberty Street Economics (NY Fed)",
-    "title": "Has U.S. Monetary Policy Really Improved? A 150‑Year Perspective",
-    "link": "https://libertystreeteconomics.newyorkfed.org/2026/11/has-u-s-monetary-policy-really-improved-a-150-year-perspective/",
-    "summary": "Has U.S. monetary policy actually improved over time? Or was the apparent success of the modern Federal Reserve mostly the result of more favorable economic conditions and better luck? In this post, we summarize our paper , * which develops a framework for comparing monetary policy across different ",
+    "id": "590119449a48a2ba",
+    "date": "2026-11-10",
+    "published": "2026-11-10T16:37:44+00:00",
+    "source": "Hacker News — Best",
+    "title": ".name Grandfathered",
+    "link": "https://neil.fraser.name/news/2026/11/10/",
+    "summary": "Previously: .name Termination - https://news.ycombinator.com/item?id=49550772 - Sept 2026 (547 comments) Comments URL: https://news.ycombinator.com/item?id=50442736 Points: 694 # Comments: 159",
     "topics": [
-     "macro",
-     "finance"
+     "ai",
+     "product"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-09T21:26:25.087593+00:00"
+    "first_seen": "2026-11-11T02:46:33.176663+00:00"
    },
    {
-    "id": "f729efa1cbac1e20",
-    "date": "2026-11-06",
-    "published": "2026-11-06T00:00:00+00:00",
-    "source": "BIS Working Papers",
-    "title": "Gaining (and losing) currency: a global database of currencies, 1850-2026",
-    "link": "https://www.bis.org/publications/working-paper-1392-gaining-and-losing-currency-global-database-currencies-1850-2026",
-    "summary": "Over the past two centuries, officially issued currencies have become firmly en trenched as a nearly universal institution in economies around the world. But the path to this arrangement has not been smooth: currencies have come and gone, in line with political changes, periods of hyperinflation or ",
+    "id": "ec3dea3256c7ac91",
+    "date": "2026-11-10",
+    "published": "2026-11-10T16:15:43+00:00",
+    "source": "Hacker News — Best",
+    "title": "Blender 5.3 released with Gaussian Splat support",
+    "link": "https://www.blender.org/download/releases/5-3/",
+    "summary": "Article URL: https://www.blender.org/download/releases/5-3/ Comments URL: https://news.ycombinator.com/item?id=50442426 Points: 439 # Comments: 67",
     "topics": [
-     "macro",
-     "crypto",
-     "finance"
+     "ai",
+     "product"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-06T17:57:49.186836+00:00"
+    "first_seen": "2026-11-11T02:46:33.176665+00:00"
    },
-   {
-    "id": "35f7fc13db632f16",
-    "date": "2026-11-05",
-    "published": "2026-11-05T14:00:00+00:00",
-    "source": "FRED Blog",
-    "title": "Using the Annual Integrated Survey to recalibrate the monthly data",
-    "link": "https://fred.stlouisfed.org/blog/2026/11/using-the-annual-integrated-survey-to-recalibrate-the-monthly-data",
-    "summary": "The Census Bureau's Annual Integrated Economic Survey (AIES) is a benchmark to adjust speedier surveys that are released at higher frequencies",
-    "topics": [
-     "macro",
-     "dataviz",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-05T18:44:35.543724+00:00"
-   },
-   {
-    "id": "72bfd0c6989106cd",
-    "date": "2026-11-05",
-    "published": "2026-11-05T12:00:00+00:00",
-    "source": "Liberty Street Economics (NY Fed)",
-    "title": "The U.S. Oil Sector’s Role in Restraining Prices",
-    "link": "https://libertystreeteconomics.newyorkfed.org/2026/11/the-u-s-oil-sectors-role-in-restraining-prices/",
-    "summary": "The start of the Middle East conflict in early 2026 caused an unprecedented drop in global petroleum supply. In response, oil prices jumped—but not to unprecedentedly high levels. The U.S. oil sector was a key factor in moderating the shock. For one, its steady increases in drilling helped create a ",
-    "topics": [
-     "macro",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-05T18:44:36.618424+00:00"
-   },
-   {
-    "id": "1a108e07ca4097a2",
-    "date": "2026-11-04",
-    "published": "2026-11-04T12:00:00+00:00",
-    "source": "Liberty Street Economics (NY Fed)",
-    "title": "How Market Position Shapes Credit Card Interest Rates",
-    "link": "https://libertystreeteconomics.newyorkfed.org/2026/11/how-market-position-shapes-credit-card-interest-rates/",
-    "summary": "Why is it that two borrowers who look much alike can be offered very different rates when applying for a credit card? In a recent paper , we address this question by examining how the rate offered changes when the lender’s funding cost falls. Data on 14 million newly issued cards show that when a le",
-    "topics": [
-     "macro",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-04T18:38:34.032197+00:00"
-   },
-   {
-    "id": "a76b327a497c7fd3",
-    "date": "2026-11-04",
-    "published": "2026-11-04T00:00:00+00:00",
-    "source": "BIS Working Papers",
-    "title": "Scenarios for future banking: implications for profitability, liquidity and solvency",
-    "link": "https://www.bis.org/publications/scenarios-future-banking-implications-profitability-liquidity-and-solvency",
-    "summary": "Who will perform banking’s core functions a decade from now, and how will risks and profitability evolve? Our framework structures expert judgement rather than forecasts.",
-    "topics": [
-     "macro",
-     "crypto",
-     "finance"
-    ],
-    "tags": [
-     "forecasting"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-04T18:38:30.132892+00:00"
-   },
-   {
-    "id": "202a23faceec0487",
-    "date": "2026-11-03",
-    "published": "2026-11-03T00:00:00+00:00",
-    "source": "BIS Working Papers",
-    "title": "Prewar US business cycles under uncertainty: reconstructing quarterly GDP before 1947",
-    "link": "https://www.bis.org/publications/working-paper-1390-prewar-us-business-cycles-under-uncertainty-reconstructing-quarterly-gdp-1947",
-    "summary": "Official quarterly US GDP estimates begin in 1947; earlier quarterly histories must be reconstructed using annual benchmarks and historical indicators. To investigate uncertainty in these reconstructions, this paper systematically compares specifications drawn from the literature for reconstructing ",
-    "topics": [
-     "macro",
-     "crypto",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-03T18:26:12.437795+00:00"
-   },
-   {
-    "id": "027fd633378e1155",
-    "date": "2026-11-02",
-    "published": "2026-11-02T14:00:00+00:00",
-    "source": "FRED Blog",
-    "title": "How do global merchandise exports change over time?",
-    "link": "https://fred.stlouisfed.org/blog/2026/11/how-do-global-merchandise-exports-change-over-time",
-    "summary": "Global merchandise exports ebb and flow and undergo large changes in relatively short spans.",
-    "topics": [
-     "macro",
-     "dataviz",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-02T20:45:51.171592+00:00"
-   },
-   {
-    "id": "e279e80f2f272450",
-    "date": "2026-11-02",
-    "published": "2026-11-02T12:00:00+00:00",
-    "source": "Liberty Street Economics (NY Fed)",
-    "title": "How Do Banking Supervisors Deal with Failing Banks?",
-    "link": "https://libertystreeteconomics.newyorkfed.org/2026/11/how-do-banking-supervisors-deal-with-failing-banks/",
-    "summary": "In this post, we discuss insights from a recent staff report on the role of banking supervision in identifying and disciplining failing banks. We show that bank failures typically result from supervisory closure decisions based on hard information about book equity. Yet hard information is itself pa",
-    "topics": [
-     "macro",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-02T20:45:53.555296+00:00"
-   },
-   {
-    "id": "01b7a7420277ea75",
-    "date": "2026-10-30",
-    "published": "2026-10-30T14:00:00+00:00",
-    "source": "Liberty Street Economics (NY Fed)",
-    "title": "Evaluating New LinkedIn Labor Market Tightness Indicators",
-    "link": "https://libertystreeteconomics.newyorkfed.org/2026/10/evaluating-new-linkedin-labor-market-tightness-indicators/",
-    "summary": "Measures of labor market tightness (LMT) describe how difficult it is for firms to find workers. The labor market is considered tight if there are few job seekers available relative to job openings, implying stronger wage pressures as employers compete for scarce job seekers. Thus, good measures of ",
-    "topics": [
-     "macro",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-30T17:00:53.250415+00:00"
-   },
-   {
-    "id": "c1512d23cf2078f8",
-    "date": "2026-10-29",
-    "published": "2026-10-29T13:00:00+00:00",
-    "source": "FRED Blog",
-    "title": "Updates to MSA maps in FRED",
-    "link": "https://fred.stlouisfed.org/blog/2026/10/updates-to-MSA-maps-in-FRED",
-    "summary": "FRED updates its metropolitan statistical area (MSA) maps to reflect the U.S. Census Bureau's core-based statistical area delineations.",
-    "topics": [
-     "macro",
-     "dataviz",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-29T17:25:38.423565+00:00"
-   }
-  ],
-  "ai": [
    {
     "id": "b8f5bb12633dc68f",
     "date": "2026-11-10",
@@ -1671,6 +197,22 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-11-10T18:40:22.681980+00:00"
+   },
+   {
+    "id": "a6d621267b871187",
+    "date": "2026-11-10",
+    "published": "2026-11-10T15:25:20+00:00",
+    "source": "Hacker News — Best",
+    "title": "Smart home devices should work without the internet",
+    "link": "https://docodethatmatters.com/home-automation-overnight-success/",
+    "summary": "Article URL: https://docodethatmatters.com/home-automation-overnight-success/ Comments URL: https://news.ycombinator.com/item?id=50441707 Points: 725 # Comments: 256",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-11T02:46:33.176666+00:00"
    },
    {
     "id": "583511bb3ad1ffcc",
@@ -1721,6 +263,22 @@
     "first_seen": "2026-11-10T18:40:14.014961+00:00"
    },
    {
+    "id": "bc8d380b73dfc24a",
+    "date": "2026-11-10",
+    "published": "2026-11-10T12:58:04+00:00",
+    "source": "Hacker News — Best",
+    "title": "Ableton Live 13",
+    "link": "https://www.ableton.com/en/live/",
+    "summary": "Article URL: https://www.ableton.com/en/live/ Comments URL: https://news.ycombinator.com/item?id=50439695 Points: 276 # Comments: 299",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-11T02:46:33.176668+00:00"
+   },
+   {
     "id": "428ac4b42c0b5f39",
     "date": "2026-11-10",
     "published": "2026-11-10T12:11:12+00:00",
@@ -1751,6 +309,22 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-11-10T18:40:14.813608+00:00"
+   },
+   {
+    "id": "593498d54f698ec5",
+    "date": "2026-11-10",
+    "published": "2026-11-10T10:25:58+00:00",
+    "source": "Hacker News — Best",
+    "title": "AI usage generates a fragile codebase",
+    "link": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+    "summary": "Article URL: https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/ Comments URL: https://news.ycombinator.com/item?id=50438318 Points: 390 # Comments: 414",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-11T02:46:33.176670+00:00"
    },
    {
     "id": "5ca4dc7b6d88cb31",
@@ -2076,224 +650,738 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-11-10T18:40:17.116384+00:00"
+   }
+  ],
+  "china": [
+   {
+    "id": "6bc3764f29820364",
+    "date": "2026-11-11",
+    "published": "2026-11-11T10:00:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "基于 AgentKit 重塑研发协作：从编码提效到组织效能跃迁｜AICon北京",
+    "link": "https://www.infoq.cn/article/I49cXCJFBpOW3PcgPTW3?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:34.623397+00:00"
    },
    {
-    "id": "020c05e5c6f65ee4",
-    "date": "2026-11-09",
-    "published": "2026-11-09T17:51:31+00:00",
-    "source": "Hacker News — Best",
-    "title": "Show HN: Every satellite that passed over any place this week, and its photos",
-    "link": "https://www.watched.earth",
-    "summary": "hey HN, i built this because I'm a satellite nerd who was bored this past weekend. type in any place and it finds every satellite that passed over it in the last 7 days (SGP4 on the CelesTrak catalog, tracking 17k+ objects and runs in your browser in about half a second), then pulls the real Sentine",
+    "id": "bb07217bfca0662c",
+    "date": "2026-11-11",
+    "published": "2026-11-11T09:06:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "微软 10 月安全更新修复 1400 余个漏洞，其中一个已遭利用",
+    "link": "https://www.infoq.cn/article/mfy0RUYOqEAW8imUrGTY?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
     "topics": [
+     "china",
      "ai",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:34.623405+00:00"
+   },
+   {
+    "id": "cc91a99377866ef3",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:45:55+00:00",
+    "source": "36氪",
+    "title": "阿里云旗下长三角嘉善公司增资至14亿# 增幅40%",
+    "link": "https://36kr.com/newsflashes/4064758257308801?f=rss",
+    "summary": "36氪获悉，天眼查App显示，近日，阿里云长三角（嘉善）信息科技有限公司发生工商变更，注册资本由10亿元人民币增至14亿元人民币，增幅40%。该公司成立于2021年1月，法定代表人为王朝阳，经营范围包括技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广等，由阿里巴巴（中国）有限公司全资持股。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971685+00:00"
+   },
+   {
+    "id": "f07918d5b5aa7fcf",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:37:48+00:00",
+    "source": "36氪",
+    "title": "我国已与150多个国家30多个国际组织签署共建“一带一路”合作文件",
+    "link": "https://36kr.com/newsflashes/4064750272975745?f=rss",
+    "summary": "国家发展改革委区域开放司司长梁林冲11月11日在新闻发布会上表示，我国已与150多个国家和30多个国际组织签署了共建“一带一路”合作文件，合作伙伴覆盖全球四分之三的国家及主要的国际组织。中欧班列开辟了亚欧陆路运输新通道，已累计开行超14万列，发送货物货值超5600亿元，通达欧洲26个国家237个城市，跨里海国际运输走廊班列实现“日日开行”，北、中、南通道总体保持安全稳定畅通运行。（新华社）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971687+00:00"
+   },
+   {
+    "id": "097068809c8c60d2",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:29:45+00:00",
+    "source": "36氪",
+    "title": "灵光2.0上线两周，累计托管事务量突破300万",
+    "link": "https://36kr.com/newsflashes/4064742360470403?f=rss",
+    "summary": "36氪获悉，11月11日，蚂蚁集团旗下个人AI助理灵光公布最新数据：自10月27日灵光2.0上线以来，累计托管事务量突破300万项，累计执行任务超过1100万次。这是灵光2.0上线以来又一次披露事务托管数据。11月5日，灵光曾公布，上线一周已托管超过116万项事务，累计执行任务超过360万次，用户规模突破2000万。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971689+00:00"
+   },
+   {
+    "id": "8b4c8451ddcbb4e8",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:28:18+00:00",
+    "source": "36氪",
+    "title": "国家发展改革委：共建“一带一路”拓展新兴领域合作，推进“小而美”项目建设",
+    "link": "https://36kr.com/newsflashes/4064740944794759?f=rss",
+    "summary": "11月11日，国家发展改革委召开奋进“十五五”系列新闻发布会，介绍共建“一带一路”有关情况。国家发展和改革委员会区域开放司司长梁林冲表示，实践充分证明，共建“一带一路”既引领了我国对外开放持续深化，为加快构建新发展格局，推动高质量发展注入活力、动力，又提升了全球互联互通水平，为国际合作搭建了新平台，为全球治理拓展了新实践，为变乱交织的世界带来了更多确定性和稳定性，推动构建人类命运共同体落地生根。“十五五”时期，国家发展改革委将持续扩大与共建国家贸易投资合作，积极推进“小而美”项目建设，拓展新兴领域合作，深化多领域人文交流，不断促进民生改善，民心相通，完善多元化可持续风险防控的投融资体系，提升风",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971691+00:00"
+   },
+   {
+    "id": "d939fcecaef87e83",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:25:56+00:00",
+    "source": "36氪",
+    "title": "广州科技创新基金创业投资合伙企业成立，出资额约52.4亿",
+    "link": "https://36kr.com/newsflashes/4064738618954881?f=rss",
+    "summary": "36氪获悉，天眼查App显示，近日，广州科技创新基金创业投资合伙企业（有限合伙）成立，执行事务合伙人为广州金控基金管理有限公司，出资额约52.4亿元人民币。经营范围为创业投资，以私募基金从事股权投资、投资管理、资产管理等活动，由广州金融控股集团有限公司、广州国企创新基金有限公司、广州金控基金管理有限公司共同出资。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971692+00:00"
+   },
+   {
+    "id": "85a2b2a3df6ac8c7",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:20:59+00:00",
+    "source": "36氪",
+    "title": "关注A股市场动态？加入36氪官方交流群，获取每日资讯与企业舆情",
+    "link": "https://36kr.com/p/4064733248083080?f=rss",
+    "summary": "看市场，不只看股价，也要关注企业正在发生什么。 每天A股开盘前，市场上总有大量信息值得关注。 上市公司发布了什么新公告？哪些企业有了新的业务进展？近期行业出现了哪些变化？热门概念背后，又有哪些值得关注的企业动态？ 信息越来越多，如何从中快速找到有价值的内容，成为不少市场关注者日常面临的问题。 为了让大家更方便地获取市场资讯、了解企业动态，36氪企业全情报持续运营官方股票舆情交流群，围绕A股市场资讯、上市公司舆情和行业热点，为群成员提供日常信息分享与交流。 目前，36氪官方交流群持续开放加入，欢迎关注A股市场的朋友参与。 一、每天有哪些值得关注的信息？ 加入36氪企业全情报官方交流群，可以持续获",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971672+00:00"
+   },
+   {
+    "id": "5d7b0d5dcd71f703",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:15:57+00:00",
+    "source": "36氪",
+    "title": "Anthropic投资者提前兜售IPO配售股份，额外收取最高5%费用",
+    "link": "https://36kr.com/newsflashes/4064728793371782?f=rss",
+    "summary": "一些Anthropic PBC的支持者正在这宗势将创下纪录的上市交易前夕，将其预计获得的部分首次公开招股（IPO）配售股份提供给新的投资者。JonesTrading Institutional Services LLC正代表一些预计将在此次IPO中获得大额配售的投资者，推介一批价值最高5亿美元的Anthropic股票。买家除了按IPO最终发行价支付股款外，还要缴纳相当于发行价3%至5%的额外费用。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971694+00:00"
+   },
+   {
+    "id": "24d486a66ce88463",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:14:30+00:00",
+    "source": "36氪",
+    "title": "晶瑞电材、中国石化在上海成立合资公司，注册资本1.26亿",
+    "link": "https://36kr.com/newsflashes/4064727376270466?f=rss",
+    "summary": "36氪获悉，天眼查App显示，近日，瑞高芯材（上海）电子材料有限公司成立，法定代表人为赵浩然，注册资本1.26亿元人民币，经营范围为电子专用材料销售。股东信息显示，该公司由晶瑞电子材料股份有限公司、中国石化上海高桥石油化工有限公司共同持股，持股比例分别为51%、49%。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971695+00:00"
+   },
+   {
+    "id": "7b08d5acaf19afad",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:11:47+00:00",
+    "source": "36氪",
+    "title": "美媒：黄仁勋已回英伟达上班",
+    "link": "https://36kr.com/newsflashes/4064724701942661?f=rss",
+    "summary": "据CNBC报道，知情人士透露，英伟达CEO黄仁勋（Jensen Huang）周一走进了公司位于加州圣克拉拉的总部，照常主持了与高层管理人员的晨会。知情人士称，黄仁勋在这场闭门会议开始时首先就最近的风波向员工表达了歉意。他没有接受任何提问，而是很快将话题转向业务和当天的主要议程。周二，黄仁勋也来到办公室开会。还有一周时间，英伟达就将发布新一季财报。（凤凰网科技）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971697+00:00"
+   },
+   {
+    "id": "b6f2a28d971f311e",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:10:08+00:00",
+    "source": "36氪",
+    "title": "36氪首发丨国产半导体模块厂商获近亿元 B 轮融资，营收大幅增长，海外占比近半",
+    "link": "https://36kr.com/p/4064722121823367?f=rss",
+    "summary": "作者 | 乔钰杰 编辑 | 袁斯来 本文约3800字，建议阅读9分钟 硬氪获悉，国产碳化硅（SiC）功率模块厂商利普思半导体（以下简称“利普思”）近日完成近亿元B轮融资，新投资方为上海新微资本。本轮资金将主要用于加大AIDC相关产品研发和全球市场推广。 利普思（Leapers）成立于2019年11月，总部位于江苏无锡，是一家专注于第三代半导体碳化硅功率模块研发、制造及销售的企业，致力于为高压、大电流等应用场景提供高功率密度、高可靠性的功率模块及相关解决方案。 随着AI数据中心向800V HVDC架构升级，新能源汽车的800V高压平台普及，以及光储充对能量转换效率的要求不断提高，碳化硅在高压、高",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "growth",
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971679+00:00"
+   },
+   {
+    "id": "b904c419e022bc1d",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:08:52+00:00",
+    "source": "36氪",
+    "title": "刘强东也要入局短剧？京东内测独立短剧产品",
+    "link": "https://36kr.com/newsflashes/4064721831384197?f=rss",
+    "summary": "11月10日，京东内测独立短剧产品“京东追剧福利社”，采用免费模式，核心玩法是“看剧领福利、剧中同款直接买，京东发货”。京东做短剧的底层目标并非卖剧或抢占娱乐时长，而是把短剧当作一件导购工具，借助剧情的强情绪完成商品转化，将追剧观众沉淀为平台购物用户。不过目前相关功能尚处在测试完善阶段，实际体验中暂未发现对应的电商跳转入口。（澎湃）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ux",
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971698+00:00"
+   },
+   {
+    "id": "a518d359ad6056e0",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:08:47+00:00",
+    "source": "爱范儿",
+    "title": "300 块的索尼复古耳机，没降噪不隔音，为什么还是卖爆了？",
+    "link": "https://www.ifanr.com/1688900?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "summary": "买情怀，送耳机 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+    "topics": [
+     "china",
      "product"
     ],
     "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:17.116387+00:00"
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:36.290805+00:00"
    },
    {
-    "id": "4de8d5accebb49f7",
-    "date": "2026-11-09",
-    "published": "2026-11-09T17:42:55+00:00",
-    "source": "Hacker News — Best",
-    "title": "When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385",
-    "link": "https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/",
-    "summary": "Article URL: https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/ Comments URL: https://news.ycombinator.com/item?id=50428801 Points: 198 # Comments: 165",
+    "id": "650eadc38ca64367",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:06:47+00:00",
+    "source": "36氪",
+    "title": "高盛领投网络安全初创企业Daylight Security，后者估值达4亿美元",
+    "link": "https://36kr.com/newsflashes/4064719784711043?f=rss",
+    "summary": "知情人士透露，高盛集团增长股权投资部门牵头对网络安全初创公司Daylight Security开展8000万美元B轮融资。这家总部位于纽约的企业本轮投后估值约4亿美元，融资完成后，公司累计融资总额达1.2亿美元。该公司客户包括AI代码生成初创企业Lovable、索尼旗下动漫流媒体平台Crunchyroll以及体验管理平台Qualtrics。（新浪财经）",
     "topics": [
-     "ai",
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ux",
+     "growth",
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971700+00:00"
+   },
+   {
+    "id": "9e888325032e58a4",
+    "date": "2026-11-11",
+    "published": "2026-11-11T02:00:00+00:00",
+    "source": "36氪",
+    "title": "36氪首发丨交大团队获中网投与清华系资本领投亿元级融资，以“原子+光子芯片”切入量子计算",
+    "link": "https://36kr.com/p/4064699766068101?f=rss",
+    "summary": "图源/企业 本文约 3400 字，建议阅读 8 分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，中性原子量子计算企业原基量子（Atomology）近期已完成亿元级天使轮融资。本轮融资由中国互联网投资基金（中网投）与清华系资本慕华科创联合领投，另有近10家机构参与跟投。资金将主要用于核心技术研发、工程化平台建设及核心团队扩充，加速推动中性原子量子计算系统从实验室原型向工程化、规模化和工业级产品演进。 原基量子成立于2026年4月，从诞生之初便选择了一条区别于传统科研团队的路径：基于中性原子和光子芯片的大规模可工程化量子计算。 公司目前研发人员占比超过80%，硕博学历占比超90%，核心成员多来自上海交大",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971681+00:00"
+   },
+   {
+    "id": "53f4597139799bcd",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:51:46+00:00",
+    "source": "36氪",
+    "title": "国产半导体模块厂商“利普思”获近亿元B轮融资",
+    "link": "https://36kr.com/newsflashes/4064705033474949?f=rss",
+    "summary": "36氪获悉，近日，国产半导体模块厂商“利普思”获近亿元B轮融资，新投资方为上海新微资本。本轮资金将主要用于加大AIDC相关产品研发和全球市场推广。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971701+00:00"
+   },
+   {
+    "id": "84ae62bda80c4566",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:47:00+00:00",
+    "source": "人人都是产品经理",
+    "title": "双十一还没开始，一些店铺先退场了",
+    "link": "https://www.woshipm.com/it/6491911.html",
+    "summary": "11 月的第一个上午，双十一已经卖了半个多月，圆圆的淘宝直播间照旧开播——但这是最后一场。规则叠得越来越复杂，流量成本压到链条上最没议价能力的那一环；八年、三个国家、三个店铺，杨哥只留了一个直播间。 11月的第一个上午，双十一已经卖了半个多月。圆圆的淘宝直播间开播了。 镜头里没有挂链接。只有两个人，老板杨哥在说话，主播圆圆在旁边抹眼泪。 杨哥对着屏幕说，今天这场不卖货，就是想和姐妹们聊聊天。头一回这么播。 圆圆一直没抬头。杨哥说，本来打算自己一个人讲完，“但是我看圆圆已经泣不成声了”。 他念了一句公屏上的话：一个衣柜里都是我们家的衣服。 圆圆接过来：衣柜放不下，又买了一个衣柜。这都有的。 还有",
+    "topics": [
+     "china",
      "product"
     ],
     "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:14.466525+00:00"
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.856513+00:00"
    },
    {
-    "id": "2b552d8f687149ef",
-    "date": "2026-11-09",
-    "published": "2026-11-09T17:36:20+00:00",
-    "source": "Hacker News — Best",
-    "title": "Going back two years on Hacker News is like entering another, better universe",
-    "link": "https://news.ycombinator.com/front?day=2024-11-08",
-    "summary": "Article URL: https://news.ycombinator.com/front?day=2024-11-08 Comments URL: https://news.ycombinator.com/item?id=50428724 Points: 223 # Comments: 134",
+    "id": "4ff7ac06f39bcd3d",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:45:51+00:00",
+    "source": "36氪",
+    "title": "英洛华：公司磁材产品在机器人领域的业务尚处于开拓培育和送样验证阶段",
+    "link": "https://36kr.com/newsflashes/4064699208225666?f=rss",
+    "summary": "36氪获悉，英洛华近日接受机构调研时表示，目前公司磁材产品在新能源汽车、音响、节能电机等下游领域应用较多，占比均超20%，另外还有应用在智能家居、消费电子、电梯曳引机等领域，占比相对较少。目前公司磁材产品在机器人领域的业务尚处于开拓培育和送样验证阶段，暂未形成批量订单。",
     "topics": [
-     "ai",
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971703+00:00"
+   },
+   {
+    "id": "d64cd69a690fd732",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:43:17+00:00",
+    "source": "人人都是产品经理",
+    "title": "教你用WorkBuddy生成3D互动课件",
+    "link": "https://www.woshipm.com/ai/6491904.html",
+    "summary": "老马把 Blender 那套换成一句话：把 Anatomy 这个 Skill 装进 WorkBuddy，先让它出解剖演示图，再做内燃机的 3D 互动课件。效果不行就换 DeepSeek-v4.1-Flash 修一遍，最后得到一个浏览器能直接打开的 HTML 页面。 最近看到群里的小伙伴还在用古法AI做什么解说类视频，生成图片后，配音加字幕，就觉得有点感慨。这套玩法其实已经是去年玩剩的，现在都是什么 Remotion用React代码来生成了。 所以像用 Claude Opus 5.5做视频就堪称一绝，甚至于某些代码的动画效果比AI视频模型生成的都不差。AI随着发展是可以逐步提升某些内容的输出效果",
+    "topics": [
+     "china",
      "product"
     ],
     "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:14.466527+00:00"
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.856522+00:00"
    },
    {
-    "id": "efd1a1cf0813391b",
-    "date": "2026-11-09",
-    "published": "2026-11-09T17:15:53+00:00",
-    "source": "Latent Space (AINews)",
-    "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
-    "link": "https://latent.space/p/handshake/",
-    "summary": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment",
+    "id": "4417fd199bc95fa4",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:39:30+00:00",
+    "source": "36氪",
+    "title": "川土微电子启动IPO辅导",
+    "link": "https://36kr.com/newsflashes/4064692976882562?f=rss",
+    "summary": "36氪获悉，证监会网站披露，上海川土微电子股份有限公司（以下简称“川土微电子”）于2026年11月10日在上海证监局办理辅导备案登记，拟首次公开发行股票并上市，辅导券商为中信建投证券。",
     "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971705+00:00"
+   },
+   {
+    "id": "0dc28963447aeb1e",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:37:24+00:00",
+    "source": "人人都是产品经理",
+    "title": "一句指令让Codex自动赚钱，到底靠谱吗？",
+    "link": "https://www.woshipm.com/ai/6491812.html",
+    "summary": "给 Codex 一句「不管用什么方式，帮我赚 100 元」，它去 GitHub 找任务，又在闲鱼挂出口播改稿服务，四分钟四十六秒后汇报：目前到账 0 元。作者把这个实验拆开，落到一个更朴素的问题上——谁需要这份服务，又为什么愿意买。 最近，我总刷到一种很诱人的 Codex 玩法。 你只需要给它发一句指令，让它在限定时间里赚到多少钱。然后，它就会自己找机会、接任务、做交付，最后把钱赚回来。 还有更夸张的版本，有人开了十几个会员，让它们赚回会员费，一周就赚到一万多美元。 看到这样的信息，说不动心是假的。这句指令我也能写，手里也有 Codex，那我不是可以躺赚了？ 于是我给 Codex 发了一个任务",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.856526+00:00"
+   },
+   {
+    "id": "4739f081fe6f7321",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:34:21+00:00",
+    "source": "36氪",
+    "title": "爱利彼半导体启动IPO辅导",
+    "link": "https://36kr.com/newsflashes/4064687900202115?f=rss",
+    "summary": "36氪获悉，证监会网站披露，爱利彼半导体设备（上海）股份有限公司（以下简称“爱利彼半导体”）于2026年11月10日在上海证监局办理辅导备案登记，拟首次公开发行股票并上市，辅导券商为申万宏源证券承销保荐有限责任公司。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971706+00:00"
+   },
+   {
+    "id": "175612043e059195",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:26:52+00:00",
+    "source": "36氪",
+    "title": "A股三大指数集体低开，贵金属板块领跌",
+    "link": "https://36kr.com/newsflashes/4064680542278533?f=rss",
+    "summary": "36氪获悉，A股三大指数集体低开，沪指低开0.22%，深成指低开0.32%，创业板指低开0.17%；贵金属、文化传媒领跌，赤峰黄金、西部黄金、中文在线跌超3%，博纳影业跌超2%；白酒、通信设备板块涨幅居前，日海智能涨近6%，中际旭创涨2%，贵州茅台涨0.42%。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971708+00:00"
+   },
+   {
+    "id": "565281b737b829fd",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:23:03+00:00",
+    "source": "36氪",
+    "title": "央行公开市场今日开展1870亿元人民币隔夜逆回购操作",
+    "link": "https://36kr.com/newsflashes/4064676793078662?f=rss",
+    "summary": "36氪获悉，央行公开市场今日开展1870亿元人民币隔夜逆回购操作，利率为1.25%。中国央行公开市场今日净回笼30亿元人民币。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971709+00:00"
+   },
+   {
+    "id": "a9bc57b3a0e36eaf",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:22:34+00:00",
+    "source": "36氪",
+    "title": "恒指开盘跌0.83%，恒生科技指数跌0.96%",
+    "link": "https://36kr.com/newsflashes/4064676328576134?f=rss",
+    "summary": "36氪获悉，恒指开盘跌0.83%，恒生科技指数跌0.96%；新荷花上市首日高开27.61%；电气设备。煤炭板块领涨，宁德时代涨超2%；有色金属、汽车板块跌幅居前，招金矿业、灵宝黄金跌超4%，蔚来跌超3%，理想汽车、小鹏集团跌超2%。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971711+00:00"
+   },
+   {
+    "id": "c44a6b214196d12e",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:16:27+00:00",
+    "source": "36氪",
+    "title": "人民币兑美元中间价报6.7191，下调24点",
+    "link": "https://36kr.com/newsflashes/4064670313878405?f=rss",
+    "summary": "36氪获悉，人民币兑美元中间价报6.7191，下调24点；上一交易日中间价6.7167，上一交易日官方收盘价6.6682，上日夜盘报收6.6805。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971712+00:00"
+   },
+   {
+    "id": "37f24bf5b7f6b053",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:12:24+00:00",
+    "source": "人人都是产品经理",
+    "title": "京东的“外卖大战”到底在打什么？",
+    "link": "https://www.woshipm.com/it/6491984.html",
+    "summary": "京东外卖负责人郭庆的离职，标志着外卖大战进入新阶段。从烧钱补贴到供应链创新，京东正将战场从需求侧转向供给侧。本文深度剖析京东外卖的得失与行业变局，揭示这场竞争背后的真正逻辑。 11月4日，第一财经报道称，京东集团本地生活服务事业群负责人郭庆近期因个人原因离职。 同一天，钛媒体援引接近京东人士的说法称，新负责人和管理团队长期深耕供应链，业务将进入以供应链创新为核心的“京东外卖2.0”阶段。 郭庆是京东在2024年找来的“外援”，有着深厚的美团背景。 他从一开始就被京东赋予了明确的任务，即给京东本地生活补课。在京东外卖业务上，他完成从0到1的工作，包括快速搭建业务框架、跑通外卖商业模式，以及在用户",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.856529+00:00"
+   },
+   {
+    "id": "cc6e9f9814c12e4e",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:10:50+00:00",
+    "source": "36氪",
+    "title": "大疆Pocket 4系列将单台上涨500元？多家门店回应：未接到涨价通知",
+    "link": "https://36kr.com/newsflashes/4064664793830278?f=rss",
+    "summary": "近日在社交媒体上传出消息，称大疆Pocket 4、Pocket 4P及Nano全系列将于11月18日起全面上调价格，最高涨幅达13%，单台最高上涨500元；市场消息称此次调价可能与上游存储芯片成本上涨有关。新浪科技以消费者身份咨询了大疆创新京东自营旗舰店，客服表示，目前我们暂时没有收到涨价通知。随后，线下多个官方门店工作人员均表示，还没有接到官方的正式通知。有门店店员表示，“此系列产品不太可能涨价，上架以来价格比较稳定。”对于是否对Pocket系列产品有涨价打算，大疆官方暂无回应。（新浪科技）",
+    "topics": [
+     "china",
+     "product",
      "ai"
     ],
     "tags": [
      "notification"
     ],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:14.834283+00:00"
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971714+00:00"
    },
    {
-    "id": "3ef732dd0eb2ada6",
-    "date": "2026-11-09",
-    "published": "2026-11-09T16:00:45+00:00",
-    "source": "Hacker News — Best",
-    "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
-    "link": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
-    "summary": "Article URL: https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy Comments URL: https://news.ycombinator.com/item?id=50427362 Points: 375 # Comments: 202",
+    "id": "0db98eea5f55f5e8",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:10:44+00:00",
+    "source": "人人都是产品经理",
+    "title": "前端与AI工程师的产物到达：从”复制粘贴”到”自动抵达”",
+    "link": "https://www.woshipm.com/share/6491979.html",
+    "summary": "规则写得再对，到达不了消费端等于没写。本文拆解契约规则如何通过编译产物、版本自动同步和契约引用块抵达你的工作台，并用真实推演案例揭示人工复制导致过期的致命损耗。从YAML契约到AGENTS.md，看懂规则分发的完整通道，避免“用着过期规则还以为在用新版”的陷阱。 开篇：从”读文档”到”产物到达” 《规则消费》 篇展开了语义令牌、语义域、约束显化在工程工作面上的投影：语义令牌是你代码里的枚举值，语义域是你类型系统里的Props约束，约束显化是你提交时的CI拦截报告。三层设计你都不生产，但你都是它们的终端执行面。 《规则消费》 篇还留下了一个分工判断： 同一约束在两层各落一次，载体层概率引导，产物",
     "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:14.466529+00:00"
-   },
-   {
-    "id": "466816c50f91d508",
-    "date": "2026-11-09",
-    "published": "2026-11-09T15:01:03+00:00",
-    "source": "Hacker News — Best",
-    "title": "I saw your HN comment",
-    "link": "https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/",
-    "summary": "Article URL: https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/ Comments URL: https://news.ycombinator.com/item?id=50426582 Points: 385 # Comments: 279",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:14.466531+00:00"
-   },
-   {
-    "id": "9202035812bd6aab",
-    "date": "2026-11-09",
-    "published": "2026-11-09T14:31:39+00:00",
-    "source": "Hacker News — Best",
-    "title": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
-    "link": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
-    "summary": "https://www.cell.com/cell-reports-physical-science/fulltext/... Comments URL: https://news.ycombinator.com/item?id=50426175 Points: 289 # Comments: 188",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T04:37:14.068144+00:00"
-   },
-   {
-    "id": "f37b680abcf7adcb",
-    "date": "2026-11-09",
-    "published": "2026-11-09T13:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-    "link": "https://openai.com/index/control-room",
-    "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-    "topics": [
-     "ai",
+     "china",
      "product"
     ],
     "tags": [
-     "data"
+     "onboarding",
+     "ai-product",
+     "ux"
     ],
-    "lang": "en",
-    "first_seen": "2026-11-10T04:37:13.760622+00:00"
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.856533+00:00"
    },
    {
-    "id": "4c9d3c114f5ec3fc",
-    "date": "2026-11-09",
-    "published": "2026-11-09T12:30:20+00:00",
-    "source": "Hacker News — Best",
-    "title": "Humans will never again create a project quite like Wikipedia",
-    "link": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
-    "summary": "Article URL: https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia Comments URL: https://news.ycombinator.com/item?id=50424704 Points: 457 # Comments: 396",
+    "id": "289beb337b5339aa",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:10:26+00:00",
+    "source": "人人都是产品经理",
+    "title": "商务一句话，交付跑断腿：一个等字，扣了我们3万块钱",
+    "link": "https://www.woshipm.com/share/6488070.html",
+    "summary": "签合同时一个“等”字，让交付团队多填了3万块的坑。本文复盘解决方案交付中合同漏洞的根源：商务、售前、产品各自为政，信息层层衰减，最终风险全堆到产品经理头上。作者犀利指出，产品必须主动向售前输出价值，并在签字前参与审核，才能避免交付现场“填坑”的恶性循环。 做解决方案产品交付的过程中，我发现 签合同之前的工作做得不到位，会导致 交付现场有填不完的坑。 解决方案业务的交付路径，一般是售前获得建设方案和招标文件、编制投标文件投标，中标、签合同，交付落地，上线运维。 每个环节有大量的信息，包括获取到的和产生的，每一个环节对外传递时，都会产生信息的衰减；每个环节多说一句、少说一句，最后都会变成交付现场的",
     "topics": [
-     "ai",
+     "china",
      "product"
     ],
     "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:14.466533+00:00"
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.856536+00:00"
    },
    {
-    "id": "2f5d27c933211eb6",
-    "date": "2026-11-09",
-    "published": "2026-11-09T12:19:22+00:00",
-    "source": "Hacker News — Best",
-    "title": "Fold Epic Paper Airplanes",
-    "link": "https://www.foldableflight.com",
-    "summary": "Article URL: https://www.foldableflight.com Comments URL: https://news.ycombinator.com/item?id=50424581 Points: 698 # Comments: 124",
+    "id": "660ab95097c2d2eb",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:10:09+00:00",
+    "source": "人人都是产品经理",
+    "title": "DeepSeek Harness产品分析：从「一切皆插件」到 Agent 运行时",
+    "link": "https://www.woshipm.com/evaluating/6491957.html",
+    "summary": "DeepSeek Harness 以 154 万日活和 3.49 万插件证明：Agent 竞争已从模型能力转向运行时生态。本文对比 Codex 与 WorkBuddy，拆解其“免费编排、付费推理”的商业模式，并指出 94.7% 插件存在高危权限暴露——开放度领先，安全治理的账还没开始还。 分析对象： DeepSeek Harness 对比竞品： WorkBuddy、Codex 核心结论： Harness 不是「又一个编程 Agent」，而是把 Agent 运行时从模型公司的黑盒里剥离出来，做成可替换、可组装的中间层。 截至 2026 年 11 月 4 日，它以 154 万日活、548 万月活、",
     "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:14.466535+00:00"
-   },
-   {
-    "id": "904c8196cb0bdd5c",
-    "date": "2026-11-09",
-    "published": "2026-11-09T11:00:00+00:00",
-    "source": "The a16z Show (podcast)",
-    "title": "Scott Kupor on Building a16z and Rebuilding the Federal Workforce",
-    "link": "https://a16z.simplecast.com/episodes/scott-kupor-on-building-a16z-and-rebuilding-the-federal-workforce-EU8R_X0j",
-    "summary": "Scott Kupor helped build a16z from three people into a firm with hundreds of employees. Now, as Director of the U.S. Office of Personnel Management, he’s applying some of the same lessons about talent, incentives, and organizational design to a workforce of roughly two million federal employees. Sco",
-    "topics": [
-     "ai",
-     "growth"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:23.144080+00:00"
-   },
-   {
-    "id": "932fe34bad728f30",
-    "date": "2026-11-09",
-    "published": "2026-11-09T08:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "Kuken Industries searches 70 years of drawings in minutes",
-    "link": "https://openai.com/index/kuken",
-    "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:14.026362+00:00"
-   },
-   {
-    "id": "23b94c697622500f",
-    "date": "2026-11-09",
-    "published": "2026-11-09T08:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "CodeRabbit scales agentic software development and ships 20x more",
-    "link": "https://openai.com/index/coderabbit-codex-daybreak",
-    "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
-    "topics": [
-     "ai",
+     "china",
      "product"
     ],
     "tags": [
      "ai-product"
     ],
-    "lang": "en",
-    "first_seen": "2026-11-10T04:37:13.760631+00:00"
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.856539+00:00"
+   },
+   {
+    "id": "c1335bb5efc969a0",
+    "date": "2026-11-11",
+    "published": "2026-11-11T01:06:59+00:00",
+    "source": "36氪",
+    "title": "239股获融资买入超亿元，中际旭创获买入16.53亿元居首",
+    "link": "https://36kr.com/newsflashes/4064661001622405?f=rss",
+    "summary": "A股11月10日共有3872只个股获融资资金买入，有239股买入金额超亿元。其中，中际旭创、新易盛、长鑫科技融资买入金额排名前三，分别获买入16.53亿元、16.42亿元、9.79亿元。从融资买入额占当日总成交金额比重来看，有2只个股融资买入额占比超30%。其中泰达股份、天玛智控、元创股份融资买入额占成交额比重排名前三，分别为39.89%、32.11%、29.6%。（第一财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971715+00:00"
+   },
+   {
+    "id": "1eef4ebbd7ad6bc1",
+    "date": "2026-11-11",
+    "published": "2026-11-11T00:34:34+00:00",
+    "source": "极客公园",
+    "title": "Anthropic 启动 IPO 路演，创始人将套现 17.5 亿美元；谷歌最强 AI 模型正式开放；任天堂招新：经典游戏保存员",
+    "link": "http://www.geekpark.net/news/373796",
+    "summary": "英伟达董事会聘请前美国联邦检察官，调查 CEO 黄仁勋相关事件 11 月 11 日消息，英伟达发布公告，宣布已聘请美国前联邦检察官金正贤（Joon H. Kim）及其所在的律师事务所 Wachtell, Lipton, Rosen & Katz，负责开展一项全面、独立的调查。 此前，英伟达董事会表示，鉴于近期有关公司创始人兼 CEO 黄仁勋可能成为外国情报机构目标的报道，董事会决定启动独立调查。董事会将成立由独立董事组成的委员会，并在外部独立法律顾问协助下监督调查。 英伟达董事会此前还表示，目前没有理由认为美国国家安全或英伟达的商业机密已经遭到泄露，但调查将审查所有可获得的信息。黄仁勋支持此次",
+    "topics": [
+     "china",
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:47:01.191154+00:00"
+   },
+   {
+    "id": "95193a6911d16b21",
+    "date": "2026-11-11",
+    "published": "2026-11-11T00:26:39+00:00",
+    "source": "爱范儿",
+    "title": "今天起，Gemini 4 Carbon 正式上线，但不是所有人都用得上",
+    "link": "https://www.ifanr.com/1688883?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "summary": "非付费用户什么时候能用上？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:36.290812+00:00"
+   },
+   {
+    "id": "0818d92f20b88fa3",
+    "date": "2026-11-11",
+    "published": "2026-11-11T00:26:34+00:00",
+    "source": "少数派",
+    "title": "派早报：700 号段保护服务试点获批、Claude Code 设置文件泄露凭据等",
+    "link": "https://sspai.com/post/118905",
+    "summary": "卫星导航基准站网安全国标发布，影目召回 4701 副 AIR3 眼镜等。 查看全文",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:37.346885+00:00"
+   },
+   {
+    "id": "9d0d1268400923d5",
+    "date": "2026-11-11",
+    "published": "2026-11-11T00:20:24+00:00",
+    "source": "爱范儿",
+    "title": "早报｜华为小折叠电脑MateBook Fold S亮相/《GTA VI》开启预载，全平台目标30fps/董明珠回应格力业绩下滑：铜价上涨，格力将继续用铜",
+    "link": "https://www.ifanr.com/1688852?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "summary": "· 李斌：蔚来 ES9 将迎来第 4 万辆交付 · 台积电 10 月营收创今年单月新高，同比增长近六成 · 奥迪与上汽合作项目 CEO 称，AUDI 未来三年将推三款新车 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:36.290814+00:00"
+   },
+   {
+    "id": "378aaa0a4b16ddb3",
+    "date": "2026-11-11",
+    "published": "2026-11-11T00:15:52+00:00",
+    "source": "36氪",
+    "title": "8点1氪丨英伟达及黄仁勋遭股东集体诉讼，市值两天蒸发2.85万亿；Anthropic正式启动IPO路演；阿里拟分拆平头哥独立上市",
+    "link": "https://36kr.com/p/4064610635781257?f=rss",
+    "summary": "今日热点导览 外交部：中美双方就两国元首年内互动安排保持着沟通 全球芯片LOF于11月10日下午开市起停牌至收市 董明珠回应格力电器业绩下滑 宝马选定LG新能源、三星SDI供应下一代动力电池 百事公司北美业务陷入困境，裁员1000人 TOP3大新闻 黄仁勋及英伟达，被指控涉嫌欺诈股东 当地时间9日，美股收盘五分钟后，英伟达及黄仁勋便遭到股东集体诉讼，指控其涉嫌欺诈股东。分析师认为，一旦黄仁勋离任，英伟达将面临巨大的接班难题。现年63岁的黄仁勋是英伟达的核心支柱，金融数据服务商FactSet的数据显示，黄仁勋是英伟达第五大股东，持股约3.58%。分析师认为，公司目前没有成熟的接班计划，倘若黄仁勋",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-11T02:46:35.971683+00:00"
+   },
+   {
+    "id": "2cd2fd10830c9aeb",
+    "date": "2026-11-10",
+    "published": "2026-11-10T18:58:56+00:00",
+    "source": "InfoQ 中文",
+    "title": "接大模型别再自己配 Key、搭代理了，火山引擎 IGA Pages 一步搞定",
+    "link": "https://www.infoq.cn/article/juu2R26yD8B6ABUEQuWB?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-10T18:40:15.804686+00:00"
+   },
+   {
+    "id": "75806ba00df0607d",
+    "date": "2026-11-10",
+    "published": "2026-11-10T18:54:18+00:00",
+    "source": "InfoQ 中文",
+    "title": "近 700 亿美元 IPO 定价突然撤回！Anthropic 最快今天路演，下周冲刺上市",
+    "link": "https://www.infoq.cn/article/8tquwes1yGbmTeyOjOId?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-10T18:40:15.804698+00:00"
    }
   ],
   "product": [
+   {
+    "id": "0829365b1064cb37",
+    "date": "2026-11-10",
+    "published": "2026-11-10T23:59:40+00:00",
+    "source": "Product Growth (Aakash Gupta)",
+    "title": "How to Survive AI as a SaaS Company",
+    "link": "https://www.news.aakashg.com/p/can-saas-survive-the-ai-era",
+    "summary": "Webflow CEO Linda Tong on the three bets keeping SaaS alive in the AI era, with market data on which software investors still reward.",
+    "topics": [
+     "product",
+     "ai",
+     "growth"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-11T02:46:44.172702+00:00"
+   },
    {
     "id": "a51a23f3840c827f",
     "date": "2026-11-10",
@@ -2489,6 +1577,25 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-11-10T18:40:24.870009+00:00"
+   },
+   {
+    "id": "39585ac01d2043c6",
+    "date": "2026-11-10",
+    "published": "2026-11-10T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "MiniMax H3 Image and Highspeed now available on AI Gateway",
+    "link": "https://vercel.com/changelog/minimax-h3-image-and-highspeed-now-available-on-ai-gateway",
+    "summary": "MiniMax H3 Image and MiniMax H3 Image Highspeed are now available on AI Gateway. Generate images from text or edit existing images with one API key and no separate MiniMax account. Both models support custom dimensions and aspect ratios, including 2K and 4K outputs. Use a text prompt to create a pro",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product",
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-11T02:46:44.323812+00:00"
    },
    {
     "id": "f5d6dfe905a65df1",
@@ -2903,43 +2010,29 @@
     ],
     "lang": "en",
     "first_seen": "2026-11-09T21:26:28.525816+00:00"
-   },
-   {
-    "id": "7f5a45cbedf07663",
-    "date": "2026-11-09",
-    "published": "2026-11-09T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Claude Fable 5.2 now available on AI Gateway",
-    "link": "https://vercel.com/changelog/claude-fable-5-2-now-available-on-ai-gateway",
-    "summary": "Claude Fable 5.2 from Anthropic is now available on AI Gateway . Fable 5.2 is built for open-ended technical work and improves on earlier Fable models in coding, reasoning, and vision. It can run long, ambiguous tasks unattended, and works as an orchestrator that hands simpler tasks to smaller model",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:28.525818+00:00"
-   },
-   {
-    "id": "adbd408e4235d963",
-    "date": "2026-11-09",
-    "published": "2026-11-09T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Muse Ember now available on AI Gateway",
-    "link": "https://vercel.com/changelog/muse-ember-now-available-on-ai-gateway",
-    "summary": "Muse Ember from Meta is now available on AI Gateway . It is a lightweight reasoning model for the high-volume parts of an agent run, such as coding sub-tasks, tool calls, and document analysis. Muse Ember handles the bounded tasks agents repeat many times in a single run, like implementing a helper ",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:28.525820+00:00"
    }
   ],
   "ux": [
+   {
+    "id": "cab6adb1a4a48053",
+    "date": "2026-11-10",
+    "published": "2026-11-10T23:34:58+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
+    "link": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
+    "summary": "In-System Design Why builders hand you a lookalike, what has to exist before an agent can use your components, and the MCP setup I use. Prototyping in code is what designers do now, at least according to LinkedIn. I tried it, and after two days I wanted to throw my laptop into the sea. Good news: I ",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ai-product",
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-11T02:46:44.387074+00:00"
+   },
    {
     "id": "479f68882470582a",
     "date": "2026-11-10",
@@ -3633,25 +2726,932 @@
     ],
     "lang": "en",
     "first_seen": "2026-11-02T02:28:56.255181+00:00"
+   }
+  ],
+  "dataviz": [
+   {
+    "id": "a9e93feb0845b1c9",
+    "date": "2026-11-10",
+    "published": "2026-11-10T19:46:03+00:00",
+    "source": "The Economist – Graphic detail",
+    "title": "Our analysis of the leaked Russian death toll in Ukraine",
+    "link": "https://www.economist.com/graphic-detail/2026/11/10/our-analysis-of-the-leaked-russian-death-toll-in-ukraine",
+    "summary": "Hackers have released records they claim are from Russia’s statistics agency",
+    "topics": [
+     "dataviz",
+     "macro",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-11T02:46:38.324523+00:00"
    },
    {
-    "id": "4d64667863807a03",
-    "date": "2026-11-01",
-    "published": "2026-11-01T14:34:07+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "When colors pass but palettes fail",
-    "link": "https://uxdesign.cc/when-colors-pass-but-palettes-fail-55b7210f8e4d?source=rss----138adf9c44c---4",
-    "summary": "The accessibility challenge of generative AI diverging color palettes. Continue reading on UX Collective »",
+    "id": "232d637fdb95dfda",
+    "date": "2026-11-10",
+    "published": "2026-11-10T18:22:48+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The World’s 10 Longest Nonstop Flights",
+    "link": "https://www.visualcapitalist.com/the-longest-nonstop-flights/",
+    "summary": "The world's longest nonstop flights keep passengers in the air for over 19 hours. Discover the routes behind aviation's longest nonstop journeys, ranked by scheduled flight duration.",
     "topics": [
-     "ux",
-     "design",
-     "ai"
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-10T18:40:20.985564+00:00"
+   },
+   {
+    "id": "0c01429109070aa4",
+    "date": "2026-11-10",
+    "published": "2026-11-10T18:00:00+00:00",
+    "source": "Datawrapper Blog",
+    "title": "Data Vis Dispatch, November 10: A blue wave, pi, and the pancake index",
+    "link": "https://www.datawrapper.de/blog/data-vis-dispatch-november-10-2026-a-blue-wave-pi-and-the-pancake-index",
+    "summary": "The best of last week’s big and small data visualizations",
+    "topics": [
+     "dataviz",
+     "ux"
+    ],
+    "tags": [
+     "dashboard"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-10T18:40:20.883370+00:00"
+   },
+   {
+    "id": "778e37561a2f9b50",
+    "date": "2026-11-10",
+    "published": "2026-11-10T17:07:38+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: Median Household Income by U.S. State",
+    "link": "https://www.visualcapitalist.com/mapped-median-household-income-by-us-state/",
+    "summary": "Americans are earning more than ever, but six-figure incomes are typical in just eight states. What separates the top from the bottom?",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-10T18:40:20.985576+00:00"
+   },
+   {
+    "id": "a4a5dc9c55aec4a8",
+    "date": "2026-11-10",
+    "published": "2026-11-10T15:37:42+00:00",
+    "source": "Visual Capitalist",
+    "title": "Gold’s Purchasing Power Against U.S. Real Estate Over Time",
+    "link": "https://www.visualcapitalist.com/sp/usmr01-golds-purchasing-power-against-u-s-real-estate-over-time/",
+    "summary": "Gold prices have risen 16x since 2000. Discover how the same amount of gold that once bought one U.S. home could buy nearly seven in 2026.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-10T18:40:20.985579+00:00"
+   },
+   {
+    "id": "eb5ef7cab549992d",
+    "date": "2026-11-10",
+    "published": "2026-11-10T14:08:42+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: Countries With the Best Pensions in 2026",
+    "link": "https://www.visualcapitalist.com/ranked-countries-with-best-pensions-in-2026/",
+    "summary": "Which countries have the best pensions in 2026? Explore the global rankings, from the Netherlands in first place to the U.S. in 33rd.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-10T18:40:20.985582+00:00"
+   },
+   {
+    "id": "fbc8c5f464221980",
+    "date": "2026-11-10",
+    "published": "2026-11-10T12:05:53+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: Countries That Use the Most of Each Fossil Fuel",
+    "link": "https://www.visualcapitalist.com/ranked-countries-use-most-fossil-fuels-2025/",
+    "summary": "China burns more coal than the rest of the world combined, while the U.S. leads in oil and natural gas. See how countries rank for each fuel.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-10T18:40:20.985585+00:00"
+   },
+   {
+    "id": "69e1ca86d6fbdd04",
+    "date": "2026-11-10",
+    "published": "2026-11-10T10:02:16+00:00",
+    "source": "FlowingData",
+    "title": "Geolocation determined with background airplane noise",
+    "link": "https://flowingdata.com/2026/11/10/geolocation-determined-with-background-airplane-noise/",
+    "summary": "Apparently inaudible background noise from airplanes in a blurry video clip is enough… Tags: airplane , Colsto , geolocation , OSINT",
+    "topics": [
+     "dataviz"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-10T18:40:17.805882+00:00"
+   },
+   {
+    "id": "0b97c5df955ebed4",
+    "date": "2026-11-10",
+    "published": "2026-11-10T00:39:16+00:00",
+    "source": "FlowingData",
+    "title": "No Republican New England senators for the first time in a long time",
+    "link": "https://flowingdata.com/2026/11/09/new-england-senators-2026/",
+    "summary": "For CT Insider, Philip Bump made a racetrack-like graphic to show the timeline… Tags: CT Insider , New England , Philip Bump , Senate , timeline",
+    "topics": [
+     "dataviz"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-10T04:37:16.418336+00:00"
+   },
+   {
+    "id": "ae47b05f9f4fcf1e",
+    "date": "2026-11-09",
+    "published": "2026-11-09T18:25:05+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: Best Real Estate Returns by Country (2015–2025)",
+    "link": "https://www.visualcapitalist.com/cp/ranked-best-real-estate-returns-by-country-2015-2025/",
+    "summary": "Which countries offer the best real estate returns? Discover the global leaders in property appreciation and rental yields.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-09T21:26:20.024980+00:00"
+   },
+   {
+    "id": "b2e43a1780d3dfec",
+    "date": "2026-11-09",
+    "published": "2026-11-09T17:09:37+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: Passport Ownership by U.S. State",
+    "link": "https://www.visualcapitalist.com/mapped-how-many-americans-have-a-passport-in-every-state/",
+    "summary": "Passport ownership varies nearly fourfold across America. See which states lead, which lag, and how your state compares.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-09T21:26:20.024995+00:00"
+   },
+   {
+    "id": "8f7ed21e7947ecd7",
+    "date": "2026-11-09",
+    "published": "2026-11-09T16:30:31+00:00",
+    "source": "Grafana Labs Blog",
+    "title": "Run cost-effective, always-on agents to monitor your environment: the engineering behind Watchers",
+    "link": "https://grafana.com/blog/run-cost-effective-always-on-agents-to-monitor-your-environment-the-engineering-behind-watchers/",
+    "summary": "Alert rules are great for the failures you can predict, but they fall short on the ones you can't. With the advent of modern AI, you might think the solution is to swarm your stack with agents that monitor every last detail, but that can quickly lead to astronomical bills. And those are the gaps Wat",
+    "topics": [
+     "dataviz",
+     "changelog",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-09T21:26:18.195932+00:00"
+   },
+   {
+    "id": "4c0d1e57350d8734",
+    "date": "2026-11-09",
+    "published": "2026-11-09T15:46:00+00:00",
+    "source": "Visual Capitalist",
+    "title": "U.S. Private Investment in AI Is 23 Times Higher Than China’s",
+    "link": "https://www.visualcapitalist.com/sp/ter02-breaking-down-336-billion-in-private-ai-investment-by-country/",
+    "summary": "The AI investment race is heating up, but funding is far from evenly distributed. See the countries where private capital is flowing.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-09T21:26:20.024999+00:00"
+   },
+   {
+    "id": "57b2fea80652ae8a",
+    "date": "2026-11-09",
+    "published": "2026-11-09T14:07:54+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The World’s Most and Least Trade-Dependent Countries",
+    "link": "https://www.visualcapitalist.com/ranked-most-least-trade-dependent-countries/",
+    "summary": "Luxembourg trades goods and services worth 350% of its GDP, while the U.S. trades just 25%. See where 170 countries rank.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
     ],
     "tags": [
      "ux"
     ],
     "lang": "en",
-    "first_seen": "2026-11-01T17:07:33.949018+00:00"
+    "first_seen": "2026-11-09T21:26:20.025002+00:00"
+   },
+   {
+    "id": "e15e654940539804",
+    "date": "2026-11-09",
+    "published": "2026-11-09T12:03:19+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The World’s Biggest Economies vs. Debt in 2026",
+    "link": "https://www.visualcapitalist.com/largest-economies-vs-government-debt-2026/",
+    "summary": "The U.S. leads the world in economic size, but Sudan tops the government debt ranking. See how the two lists compare.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-09T21:26:20.025004+00:00"
+   },
+   {
+    "id": "f1a1e6d20519fdd9",
+    "date": "2026-11-09",
+    "published": "2026-11-09T08:24:29+00:00",
+    "source": "FlowingData",
+    "title": "A brain from simple circuits",
+    "link": "https://flowingdata.com/2026/11/09/a-brain-from-simple-circuits/",
+    "summary": "Aatish Bhatia and Arkarup Banerjee use a visual explainer for how a few… Tags: Aatish Bhatia , Arkarup Banerjee , brain , Myriad , neurons",
+    "topics": [
+     "dataviz"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-09T21:26:17.103035+00:00"
+   },
+   {
+    "id": "9fd56903660e6ee2",
+    "date": "2026-11-08",
+    "published": "2026-11-08T17:42:37+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: Where Influencers Are Most Popular Worldwide",
+    "link": "https://www.visualcapitalist.com/countries-that-follow-influencers-the-most/",
+    "summary": "Which countries follow influencers the most? Explore 53 markets ranked by influencer-following rates, plus regional comparisons.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-09T02:38:59.759844+00:00"
+   },
+   {
+    "id": "8896c399b1643500",
+    "date": "2026-11-08",
+    "published": "2026-11-08T15:51:34+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: How Far Popular Cars Can Drive on $100 of Fuel",
+    "link": "https://www.visualcapitalist.com/how-far-popular-cars-can-drive-on-100-dollars-of-fuel/",
+    "summary": "Discover which popular cars travel farthest on $100, comparing the fuel costs of electric vehicles, hybrids, and gas-powered models.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-08T17:02:35.108812+00:00"
+   },
+   {
+    "id": "dc3857bfb49205e1",
+    "date": "2026-11-08",
+    "published": "2026-11-08T14:05:31+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The 20 Countries With the Longest Coastlines",
+    "link": "https://www.visualcapitalist.com/countries-with-the-longest-coastlines/",
+    "summary": "Discover the countries with the longest coastlines, from Canada's vast Arctic shores to Norway's fjords and Indonesia's islands.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-08T17:02:35.108826+00:00"
+   },
+   {
+    "id": "b1dca341f15e5113",
+    "date": "2026-11-08",
+    "published": "2026-11-08T12:03:38+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: Countries With the Most Leisure Time",
+    "link": "https://www.visualcapitalist.com/ranked-countries-with-the-most-leisure-time/",
+    "summary": "Which countries have the most free time? Explore global leisure rankings and why Europe leads while Asia lags behind.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-08T17:02:35.108828+00:00"
+   },
+   {
+    "id": "4ef894c7ed74bcf5",
+    "date": "2026-11-07",
+    "published": "2026-11-07T18:49:51+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The Deadliest and Safest Car Models in America",
+    "link": "https://www.visualcapitalist.com/cp/ranked-the-deadliest-and-safest-car-models-in-america/",
+    "summary": "Which cars are the deadliest or safest? Discover the U.S. vehicle models with the highest and lowest driver death rates.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-08T02:26:44.647178+00:00"
+   },
+   {
+    "id": "1f0c285be1b884f6",
+    "date": "2026-11-07",
+    "published": "2026-11-07T17:11:15+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The World’s Nuclear Arsenals in 2006 vs. 2026",
+    "link": "https://www.visualcapitalist.com/ranked-the-worlds-nuclear-arsenals-in-2006-vs-2026/",
+    "summary": "Nuclear arsenals in 2026 remain dominated by Russia and the U.S., but China and several Asian powers have expanded their stockpiles.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-08T02:26:44.647188+00:00"
+   },
+   {
+    "id": "34283022f5b0b99d",
+    "date": "2026-11-07",
+    "published": "2026-11-07T15:24:02+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: America’s 20 Most Popular Dog Breeds",
+    "link": "https://www.visualcapitalist.com/ranked-most-popular-dog-breeds-america-2025/",
+    "summary": "The French Bulldog topped American Kennel Club registrations for a fourth year in 2025, while the Dachshund climbed into the top five.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-07T16:50:12.400663+00:00"
+   },
+   {
+    "id": "301de66b1caa72bd",
+    "date": "2026-11-07",
+    "published": "2026-11-07T13:38:55+00:00",
+    "source": "Visual Capitalist",
+    "title": "Your Best Years of Life May Come Later Than You Think",
+    "link": "https://www.visualcapitalist.com/best-years-of-life-by-age/",
+    "summary": "What age do people consider the best years of life? See how Americans' views of their best decade change as they get older.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-07T16:50:12.400670+00:00"
+   },
+   {
+    "id": "360c32d23bbc5c38",
+    "date": "2026-11-07",
+    "published": "2026-11-07T12:02:21+00:00",
+    "source": "The Economist – Graphic detail",
+    "title": "Off the Charts newsletter: A post mortem of our election model",
+    "link": "https://www.economist.com/graphic-detail/2026/11/07/off-the-charts-newsletter-a-post-mortem-of-our-election-model",
+    "summary": "Dan Rosenheck, our data editor, considers why our election forecast missed the signs of the tsunami",
+    "topics": [
+     "dataviz",
+     "macro",
+     "finance"
+    ],
+    "tags": [
+     "notification",
+     "dashboard",
+     "forecasting"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-07T16:50:12.483343+00:00"
+   },
+   {
+    "id": "802ebccd1de3571e",
+    "date": "2026-11-07",
+    "published": "2026-11-07T11:48:37+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The World’s Longest Place Names",
+    "link": "https://www.visualcapitalist.com/worlds-longest-place-names/",
+    "summary": "Explore the world's longest place names, from an 85-letter New Zealand hill to a Welsh village famous for its railway history.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-07T16:50:12.400672+00:00"
+   },
+   {
+    "id": "664246687c363bc0",
+    "date": "2026-11-07",
+    "published": "2026-11-07T00:39:00+00:00",
+    "source": "Visual Capitalist",
+    "title": "Ranked: The Top Countries for Tech Services Exports",
+    "link": "https://www.visualcapitalist.com/sp/adb02-ranked-the-top-countries-for-tech-services-exports/",
+    "summary": "Explore the top countries for tech services exports, led by Ireland at $301.7 billion and India at $200.3 billion, using World Bank data.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-07T02:46:29.030610+00:00"
+   },
+   {
+    "id": "17a0037d718fb4e0",
+    "date": "2026-11-06",
+    "published": "2026-11-06T18:37:07+00:00",
+    "source": "Grafana Labs Blog",
+    "title": "Any agent anywhere: How to use Grafana Cloud with Claude, Cursor, and any other AI agent",
+    "link": "https://grafana.com/blog/any-agent-anywhere-how-to-use-grafana-cloud-with-claude-cursor-and-any-other-ai-agent/",
+    "summary": "AI agents are becoming part of everyday engineering workflows, helping teams write code, troubleshoot issues, and automate tasks. But to be truly useful in production, these agents need access to more than code. They also need observability data and context to understand what's happening across your",
+    "topics": [
+     "dataviz",
+     "changelog",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-07T02:46:27.847149+00:00"
+   },
+   {
+    "id": "e7bbbda041703bb8",
+    "date": "2026-11-06",
+    "published": "2026-11-06T17:35:15+00:00",
+    "source": "The Economist – Graphic detail",
+    "title": "The blue wave was powered by moderate Democrats",
+    "link": "https://www.economist.com/graphic-detail/2026/11/06/the-blue-wave-was-powered-by-moderate-democrats",
+    "summary": "Our analysis shows progressives had mostly easy wins",
+    "topics": [
+     "dataviz",
+     "macro",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-07T02:46:28.580875+00:00"
+   },
+   {
+    "id": "6dfb07383c8cba73",
+    "date": "2026-11-06",
+    "published": "2026-11-06T17:25:22+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: Where Your Salary Goes the Furthest in 2026",
+    "link": "https://www.visualcapitalist.com/mapped-where-salaries-have-the-most-purchasing-power/",
+    "summary": "Where does your paycheck go furthest? See 2026 salary purchasing power rankings and why U.S. wages stretch further than Canada's.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-06T17:57:46.842264+00:00"
+   },
+   {
+    "id": "824555f4e9ccb15a",
+    "date": "2026-11-06",
+    "published": "2026-11-06T16:51:00+00:00",
+    "source": "Visual Capitalist",
+    "title": "The 8 AI Giants Behind Nearly Half of the S&P 500’s Growth",
+    "link": "https://www.visualcapitalist.com/sp/hc01-ai-stocks-8-giants-behind-nearly-half-of-the-sp-500s-growth/",
+    "summary": "Since ChatGPT launched, eight generative AI stocks contributed 47% of the S&P 500's market cap growth. See how the data breaks down.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-06T17:57:46.842280+00:00"
+   },
+   {
+    "id": "3f6043ce84ec51ec",
+    "date": "2026-11-06",
+    "published": "2026-11-06T16:33:12+00:00",
+    "source": "Storytelling with Data",
+    "title": "when visual cues miss the mark",
+    "link": "https://www.storytellingwithdata.com/blog/ocgbcwudp8x8j9m99a20f1glmdbeoy",
+    "summary": "Preattentive attributes like color, motion, and enclosure are powerful tools for focusing attention, but not every audience responds to them the same way. Learn how to get to know your audience and layer multiple cues so your key message lands with everyone.",
+    "topics": [
+     "dataviz",
+     "ux"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-06T17:57:45.746734+00:00"
+   },
+   {
+    "id": "7e9a2a9e823f933c",
+    "date": "2026-11-06",
+    "published": "2026-11-06T14:21:01+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: The Countries Developing the World’s AI Models",
+    "link": "https://www.visualcapitalist.com/mapped-the-countries-developing-the-worlds-ai-models/",
+    "summary": "Which countries lead AI development? Explore why the U.S. dominates, China's growing influence, and Europe's challenges.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-06T17:57:46.842283+00:00"
+   },
+   {
+    "id": "a00ff7e0100177fa",
+    "date": "2026-11-06",
+    "published": "2026-11-06T14:00:00+00:00",
+    "source": "Nightingale (Data Visualization Society)",
+    "title": "Same Chart, Many Titles: A Classroom Exercise in Framing Data",
+    "link": "https://nightingaledvs.com/same-chart-many-titles/",
+    "summary": "On New Year’s Eve 2016, two large posters appeared on walls around Brooklyn. One showed a New York Times front page marked up in red.. The post Same Chart, Many Titles: A Classroom Exercise in Framing Data appeared first on Nightingale .",
+    "topics": [
+     "dataviz",
+     "ux"
+    ],
+    "tags": [
+     "dashboard"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-06T17:57:45.652092+00:00"
+   },
+   {
+    "id": "e97915a461acad5b",
+    "date": "2026-11-06",
+    "published": "2026-11-06T12:15:50+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: Where Americans Have the Most Debt Per Person",
+    "link": "https://www.visualcapitalist.com/mapped-how-much-debt-americans-have-in-every-state/",
+    "summary": "Americans owe trillions in personal debt. See how much residents owe in every state, and why some carry nearly three times as much.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-06T17:57:46.842286+00:00"
+   },
+   {
+    "id": "8a579c4a30469845",
+    "date": "2026-11-06",
+    "published": "2026-11-06T10:11:28+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: The Best Countries for Travel and Tourism in 2026",
+    "link": "https://www.visualcapitalist.com/mapped-the-best-countries-for-travel-and-tourism-in-2026/",
+    "summary": "Which countries lead tourism development in 2026? Explore global rankings, from Japan and Europe to emerging destinations.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-06T17:57:46.842289+00:00"
+   },
+   {
+    "id": "adbc0470e1bad18f",
+    "date": "2026-11-06",
+    "published": "2026-11-06T10:11:17+00:00",
+    "source": "FlowingData",
+    "title": "Swings in Texas over the years",
+    "link": "https://flowingdata.com/2026/11/06/swings-in-texas-over-the-years/",
+    "summary": "The New York Times produced a series of charts for the shift in… Tags: elections , New York Times , partisanship , Texas",
+    "topics": [
+     "dataviz"
+    ],
+    "tags": [
+     "dashboard"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-06T17:57:43.911627+00:00"
+   },
+   {
+    "id": "8c6e5f37f365f66f",
+    "date": "2026-11-06",
+    "published": "2026-11-06T03:16:45+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: How Long Europeans Work to Afford Netflix",
+    "link": "https://www.visualcapitalist.com/cp/mapped-how-long-europeans-work-to-afford-netflix/",
+    "summary": "How long must Europeans work to afford Netflix? Explore the surprising gap in streaming affordability across 37 countries.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-06T03:25:32.489915+00:00"
+   },
+   {
+    "id": "11d631e28e217001",
+    "date": "2026-11-05",
+    "published": "2026-11-05T22:00:00+00:00",
+    "source": "Datawrapper Blog",
+    "title": "From stationed to settled: U.S. bases in Germany",
+    "link": "https://www.datawrapper.de/blog/us-bases-germany",
+    "summary": "In this Weekly Chart, we explore the changing presence of the U.S. military in Germany.",
+    "topics": [
+     "dataviz",
+     "ux"
+    ],
+    "tags": [
+     "dashboard"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-06T03:25:31.813978+00:00"
+   },
+   {
+    "id": "8fb0b75d9b5e7d34",
+    "date": "2026-11-05",
+    "published": "2026-11-05T19:58:41+00:00",
+    "source": "FlowingData",
+    "title": "Hairy election margins map",
+    "link": "https://flowingdata.com/2026/11/05/hairy-election-margins-map/",
+    "summary": "You’ve seen maps of the results and maps of the shifts. For the… Tags: elections , midterm , Wall Street Journal",
+    "topics": [
+     "dataviz"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-06T03:25:29.084379+00:00"
+   }
+  ],
+  "macro": [
+   {
+    "id": "954c0db73f298b45",
+    "date": "2026-11-10",
+    "published": "2026-11-10T16:00:00+00:00",
+    "source": "Liberty Street Economics (NY Fed)",
+    "title": "A Look at the Wider Divide in Credit Card Delinquency by Income",
+    "link": "https://libertystreeteconomics.newyorkfed.org/2026/11/a-look-at-the-wider-divide-in-credit-card-delinquency-by-income/",
+    "summary": "Credit card delinquency rose sharply between 2022 and 2024, and the increase was steepest among borrowers in lower-income neighborhoods. Here, we check in on credit card performance by neighborhood income and trace when the borrowers who are now struggling with their payments were issued cards. We f",
+    "topics": [
+     "macro",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-10T18:40:25.262936+00:00"
+   },
+   {
+    "id": "0694fa239dc81865",
+    "date": "2026-11-10",
+    "published": "2026-11-10T00:00:00+00:00",
+    "source": "BIS Working Papers",
+    "title": "US monetary policy, macroeconomic news and the global secular decline of interest rates",
+    "link": "https://www.bis.org/publications/working-paper-1393-us-monetary-policy-macroeconomic-news-and-global-secular-decline-interest-rates",
+    "summary": "The global secular decline in long-term interest rates since the 1990s has been largely driven by cumulative yield changes during U.S. monetary policy announcement windows (FOMC windows).",
+    "topics": [
+     "macro",
+     "crypto",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-10T18:40:22.738321+00:00"
+   },
+   {
+    "id": "8ab143e18725d85e",
+    "date": "2026-11-09",
+    "published": "2026-11-09T14:00:00+00:00",
+    "source": "FRED Blog",
+    "title": "How the AIES helps BEA measure industry output",
+    "link": "https://fred.stlouisfed.org/blog/2026/11/how-the-aies-helps-bea-measure-industry-output",
+    "summary": "The U.S. Census Bureau's Annual Integrated Economic Survey (AIES) is one of the building blocks of the Bureau of Economic Analysis (BEA) industry accounts.",
+    "topics": [
+     "macro",
+     "dataviz",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-09T21:26:23.202905+00:00"
+   },
+   {
+    "id": "de7e5382feb0fd56",
+    "date": "2026-11-09",
+    "published": "2026-11-09T12:00:00+00:00",
+    "source": "Liberty Street Economics (NY Fed)",
+    "title": "Has U.S. Monetary Policy Really Improved? A 150‑Year Perspective",
+    "link": "https://libertystreeteconomics.newyorkfed.org/2026/11/has-u-s-monetary-policy-really-improved-a-150-year-perspective/",
+    "summary": "Has U.S. monetary policy actually improved over time? Or was the apparent success of the modern Federal Reserve mostly the result of more favorable economic conditions and better luck? In this post, we summarize our paper , * which develops a framework for comparing monetary policy across different ",
+    "topics": [
+     "macro",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-09T21:26:25.087593+00:00"
+   },
+   {
+    "id": "f729efa1cbac1e20",
+    "date": "2026-11-06",
+    "published": "2026-11-06T00:00:00+00:00",
+    "source": "BIS Working Papers",
+    "title": "Gaining (and losing) currency: a global database of currencies, 1850-2026",
+    "link": "https://www.bis.org/publications/working-paper-1392-gaining-and-losing-currency-global-database-currencies-1850-2026",
+    "summary": "Over the past two centuries, officially issued currencies have become firmly en trenched as a nearly universal institution in economies around the world. But the path to this arrangement has not been smooth: currencies have come and gone, in line with political changes, periods of hyperinflation or ",
+    "topics": [
+     "macro",
+     "crypto",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-06T17:57:49.186836+00:00"
+   },
+   {
+    "id": "35f7fc13db632f16",
+    "date": "2026-11-05",
+    "published": "2026-11-05T14:00:00+00:00",
+    "source": "FRED Blog",
+    "title": "Using the Annual Integrated Survey to recalibrate the monthly data",
+    "link": "https://fred.stlouisfed.org/blog/2026/11/using-the-annual-integrated-survey-to-recalibrate-the-monthly-data",
+    "summary": "The Census Bureau's Annual Integrated Economic Survey (AIES) is a benchmark to adjust speedier surveys that are released at higher frequencies",
+    "topics": [
+     "macro",
+     "dataviz",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-05T18:44:35.543724+00:00"
+   },
+   {
+    "id": "72bfd0c6989106cd",
+    "date": "2026-11-05",
+    "published": "2026-11-05T12:00:00+00:00",
+    "source": "Liberty Street Economics (NY Fed)",
+    "title": "The U.S. Oil Sector’s Role in Restraining Prices",
+    "link": "https://libertystreeteconomics.newyorkfed.org/2026/11/the-u-s-oil-sectors-role-in-restraining-prices/",
+    "summary": "The start of the Middle East conflict in early 2026 caused an unprecedented drop in global petroleum supply. In response, oil prices jumped—but not to unprecedentedly high levels. The U.S. oil sector was a key factor in moderating the shock. For one, its steady increases in drilling helped create a ",
+    "topics": [
+     "macro",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-05T18:44:36.618424+00:00"
+   },
+   {
+    "id": "1a108e07ca4097a2",
+    "date": "2026-11-04",
+    "published": "2026-11-04T12:00:00+00:00",
+    "source": "Liberty Street Economics (NY Fed)",
+    "title": "How Market Position Shapes Credit Card Interest Rates",
+    "link": "https://libertystreeteconomics.newyorkfed.org/2026/11/how-market-position-shapes-credit-card-interest-rates/",
+    "summary": "Why is it that two borrowers who look much alike can be offered very different rates when applying for a credit card? In a recent paper , we address this question by examining how the rate offered changes when the lender’s funding cost falls. Data on 14 million newly issued cards show that when a le",
+    "topics": [
+     "macro",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-04T18:38:34.032197+00:00"
+   },
+   {
+    "id": "a76b327a497c7fd3",
+    "date": "2026-11-04",
+    "published": "2026-11-04T00:00:00+00:00",
+    "source": "BIS Working Papers",
+    "title": "Scenarios for future banking: implications for profitability, liquidity and solvency",
+    "link": "https://www.bis.org/publications/scenarios-future-banking-implications-profitability-liquidity-and-solvency",
+    "summary": "Who will perform banking’s core functions a decade from now, and how will risks and profitability evolve? Our framework structures expert judgement rather than forecasts.",
+    "topics": [
+     "macro",
+     "crypto",
+     "finance"
+    ],
+    "tags": [
+     "forecasting"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-04T18:38:30.132892+00:00"
+   },
+   {
+    "id": "202a23faceec0487",
+    "date": "2026-11-03",
+    "published": "2026-11-03T00:00:00+00:00",
+    "source": "BIS Working Papers",
+    "title": "Prewar US business cycles under uncertainty: reconstructing quarterly GDP before 1947",
+    "link": "https://www.bis.org/publications/working-paper-1390-prewar-us-business-cycles-under-uncertainty-reconstructing-quarterly-gdp-1947",
+    "summary": "Official quarterly US GDP estimates begin in 1947; earlier quarterly histories must be reconstructed using annual benchmarks and historical indicators. To investigate uncertainty in these reconstructions, this paper systematically compares specifications drawn from the literature for reconstructing ",
+    "topics": [
+     "macro",
+     "crypto",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-03T18:26:12.437795+00:00"
+   },
+   {
+    "id": "027fd633378e1155",
+    "date": "2026-11-02",
+    "published": "2026-11-02T14:00:00+00:00",
+    "source": "FRED Blog",
+    "title": "How do global merchandise exports change over time?",
+    "link": "https://fred.stlouisfed.org/blog/2026/11/how-do-global-merchandise-exports-change-over-time",
+    "summary": "Global merchandise exports ebb and flow and undergo large changes in relatively short spans.",
+    "topics": [
+     "macro",
+     "dataviz",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-02T20:45:51.171592+00:00"
+   },
+   {
+    "id": "e279e80f2f272450",
+    "date": "2026-11-02",
+    "published": "2026-11-02T12:00:00+00:00",
+    "source": "Liberty Street Economics (NY Fed)",
+    "title": "How Do Banking Supervisors Deal with Failing Banks?",
+    "link": "https://libertystreeteconomics.newyorkfed.org/2026/11/how-do-banking-supervisors-deal-with-failing-banks/",
+    "summary": "In this post, we discuss insights from a recent staff report on the role of banking supervision in identifying and disciplining failing banks. We show that bank failures typically result from supervisory closure decisions based on hard information about book equity. Yet hard information is itself pa",
+    "topics": [
+     "macro",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-02T20:45:53.555296+00:00"
+   },
+   {
+    "id": "01b7a7420277ea75",
+    "date": "2026-10-30",
+    "published": "2026-10-30T14:00:00+00:00",
+    "source": "Liberty Street Economics (NY Fed)",
+    "title": "Evaluating New LinkedIn Labor Market Tightness Indicators",
+    "link": "https://libertystreeteconomics.newyorkfed.org/2026/10/evaluating-new-linkedin-labor-market-tightness-indicators/",
+    "summary": "Measures of labor market tightness (LMT) describe how difficult it is for firms to find workers. The labor market is considered tight if there are few job seekers available relative to job openings, implying stronger wage pressures as employers compete for scarce job seekers. Thus, good measures of ",
+    "topics": [
+     "macro",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-30T17:00:53.250415+00:00"
+   },
+   {
+    "id": "c1512d23cf2078f8",
+    "date": "2026-10-29",
+    "published": "2026-10-29T13:00:00+00:00",
+    "source": "FRED Blog",
+    "title": "Updates to MSA maps in FRED",
+    "link": "https://fred.stlouisfed.org/blog/2026/10/updates-to-MSA-maps-in-FRED",
+    "summary": "FRED updates its metropolitan statistical area (MSA) maps to reflect the U.S. Census Bureau's core-based statistical area delineations.",
+    "topics": [
+     "macro",
+     "dataviz",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-10-29T17:25:38.423565+00:00"
    }
   ],
   "finance": [
@@ -4541,36 +4541,20 @@
     ],
     "lang": "en",
     "first_seen": "2026-11-03T18:26:13.509842+00:00"
-   },
-   {
-    "id": "2d3c6e158fb7a986",
-    "date": "2026-10-27",
-    "published": "2026-10-27T19:06:41+00:00",
-    "source": "Elena's Growth Scoop (Elena Verna)",
-    "title": "Here is what women want from AI.",
-    "link": "https://www.elenaverna.com/p/dear-new-york-times-thats-not-what",
-    "summary": "// BEGIN RANT",
-    "topics": [
-     "growth",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-10-28T02:13:25.531561+00:00"
    }
   ]
  },
  "tag_counts": {
-  "ai-product": 420,
-  "ux": 186,
-  "finance-product": 159,
-  "growth": 157,
-  "data": 63,
-  "notification": 43,
-  "dashboard": 40,
-  "forecasting": 23,
+  "ai-product": 394,
+  "ux": 176,
+  "finance-product": 158,
+  "growth": 144,
+  "data": 59,
+  "notification": 41,
+  "dashboard": 37,
+  "forecasting": 21,
   "retention": 16,
-  "onboarding": 9
+  "onboarding": 8
  },
  "sources_ok": 57,
  "sources_total": 65,
