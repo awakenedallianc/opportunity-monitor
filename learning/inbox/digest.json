@@ -1,8 +1,713 @@
 {
- "generated_at": "2026-11-11T18:41:53.788815+00:00",
+ "generated_at": "2026-11-12T03:48:44.750039+00:00",
  "window_days": 14,
- "total": 2580,
+ "total": 2452,
  "groups": {
+  "china": [
+   {
+    "id": "31ea13f67050a56e",
+    "date": "2026-11-12",
+    "published": "2026-11-12T11:00:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%",
+    "link": "https://www.infoq.cn/article/E7QKIMUz3h0G0IE5Paii?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.026452+00:00"
+   },
+   {
+    "id": "ee87a28bae151761",
+    "date": "2026-11-12",
+    "published": "2026-11-12T10:45:04+00:00",
+    "source": "InfoQ 中文",
+    "title": "Token越烧越多，利润却没涨：李彦宏要重新设计企业组织",
+    "link": "https://www.infoq.cn/article/JPf7ud6wuk9fYmUDoMjo?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.026461+00:00"
+   },
+   {
+    "id": "9380c16d14b5fbdf",
+    "date": "2026-11-12",
+    "published": "2026-11-12T10:23:32+00:00",
+    "source": "InfoQ 中文",
+    "title": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
+    "link": "https://www.infoq.cn/article/7Pecd1CshYIMvCTeBhrm?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.026464+00:00"
+   },
+   {
+    "id": "f271e4ab7c337c19",
+    "date": "2026-11-12",
+    "published": "2026-11-12T10:20:59+00:00",
+    "source": "InfoQ 中文",
+    "title": "让系统接管底层算法：HarmonyOS 7 FAST Kit 的性能与接入实践",
+    "link": "https://www.infoq.cn/article/kIw9Wp2uSgCwrsgicIZ0?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.026466+00:00"
+   },
+   {
+    "id": "c66a9c6c55be307f",
+    "date": "2026-11-12",
+    "published": "2026-11-12T10:00:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "从“搜到知识”到“理解约束”：差旅 Agent 的业务语义、偏好图谱与上下文工程实践｜AICon北京",
+    "link": "https://www.infoq.cn/article/V5Fwpg9gOBefx6xADcdd?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.026468+00:00"
+   },
+   {
+    "id": "b85f11a44d473e50",
+    "date": "2026-11-12",
+    "published": "2026-11-12T09:05:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "谷歌采用 DPoP 增强 OAuth 2.0，抵御令牌窃取与重放攻击",
+    "link": "https://www.infoq.cn/article/FQHBH7cfSYPFUUdbmyui?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.026470+00:00"
+   },
+   {
+    "id": "e9c081f62b4d7ad3",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:45:44+00:00",
+    "source": "36氪",
+    "title": "豆包工作正式接入Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash等模型",
+    "link": "https://36kr.com/newsflashes/4066226822272130?f=rss",
+    "summary": "36氪获悉，豆包工作正式接入Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash等多款第三方模型，并推出限时特惠计划。用户可根据实际工作需要，选择相应模型完成任务。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284910+00:00"
+   },
+   {
+    "id": "2aadaab15e2f3ed1",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:44:41+00:00",
+    "source": "极客公园",
+    "title": "体验「跟拍机器人」Beni：谁不想要一个不会喊累还会拍照的出行搭子",
+    "link": "http://www.geekpark.net/news/373860",
+    "summary": "作者 | siqi 编辑 | 郑玄 在智能硬件和具身圈里，可能是今年最受关注的产品之一 Beni 终于开售了。 我第一次听说 Beni，是今年上半年，这款产品背后的创业团队妙动科技拿到了包括经纬、红杉、美团的多轮投资。他们的两位核心合伙人，一位是前大疆（DJI）高管，另一位曾先后任大疆技术总监和特斯拉 Optimus 人形机器人团队核心算法与控制工程师。可以说兼具硬件和具身背景。 到了 8 月份，Hardwire 的伙伴 Founder Park 在新加坡组织了一场 AI 线下活动，影石的创始人刘靖康现场分享了对打造「CameraMan」（影像机器人）的想法——当时，他认为无人机也许是影像机器",
+    "topics": [
+     "china",
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ux",
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:38.435529+00:00"
+   },
+   {
+    "id": "6743d8143271ac1f",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:35:37+00:00",
+    "source": "36氪",
+    "title": "联想为何要做词元生意？｜最前线",
+    "link": "https://36kr.com/p/4066221891196036?f=rss",
+    "summary": "图片来源联想官方 文｜肖漫 编辑｜袁斯来 11月10日，联想发布了“万全混合词元工厂”品牌，并宣布与张家口市政府合作建设首个混合词元母本工厂。 按照联想公布的规划，张家口母本工厂初期将建设1.5万P异构算力集群、约100MW智算中心，词元年产量超过2000万亿，峰值词元产出达到每秒2亿。到2030年，相关核心指标预计将在现有基础上提升10倍以上。 这意味着，联想希望改变过去从“卖AI设备”为主的业务模式，将算力资源进一步转化为“AI产出”。 过去三年，AI产业最确定的生意是算力。 从英伟达GPU到服务器、交换机，再到数据中心和配套电力设施，资本和产业资源持续涌入AI基础设施建设。谁能拿到芯片、",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284893+00:00"
+   },
+   {
+    "id": "46fe4896c034b820",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:32:00+00:00",
+    "source": "36氪",
+    "title": "A股三大指数午间休盘集体上涨，半导体板块领涨",
+    "link": "https://36kr.com/newsflashes/4066219147219849?f=rss",
+    "summary": "36氪获悉，A股三大指数午间休盘集体上涨，沪指涨0.2%，深成指涨0.06%，创业板指涨0.06%；半导体、航天军工、电脑硬件板块领涨，航天南湖涨超13%，燧原科技涨超12%，江波龙涨超1%；贵金属、工程机械、汽车板块跌幅居前，山金国际跌超6%，杭叉集团跌超3%，江淮汽车跌超2%。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284911+00:00"
+   },
+   {
+    "id": "bec1d75202dc929a",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:25:25+00:00",
+    "source": "36氪",
+    "title": "工信部：9项脑机接口领域行业标准获批立项",
+    "link": "https://36kr.com/newsflashes/4066203937952648?f=rss",
+    "summary": "近日，工业和信息化部发布2026年第五批行业标准制修订计划，由工业和信息化部脑机接口标准化技术委员会（MIIT/TC4）归口的9项脑机接口领域行业标准获批立项。本次立项的9项脑机接口行业标准，涵盖产品分级分类、风险管理、交互界面、侵入式无线通信、数据与算法管理等方面，以及体育运动辅助训练、注意力监测等应用场景，搭建起覆盖脑机接口行业基础管理、核心技术、安全治理与场景落地的标准体系，为相关产品评估、技术开发和应用推广提供统一规范依据。（证券时报）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284913+00:00"
+   },
+   {
+    "id": "967bcae39f1b6d05",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:25:25+00:00",
+    "source": "人人都是产品经理",
+    "title": "千问办公换上Qwen4，WorkBuddy慌不慌？",
+    "link": "https://www.woshipm.com/ai/6492663.html",
+    "summary": "花 198 元给团队招一个 AI 同事，再让千问办公用新旧两代模型和 WorkBuddy 比四项任务。换上 Qwen4 后速度突飞猛进，两项计时任务都交得更快，交付质量却没全面跟上，论省心 WorkBuddy 仍略胜一筹。 办公Agent这场仗，大厂已经打了好几个月。 腾讯、阿里、字节接连下场，忙着发产品、卷功能、抢用户，竞争越来越激烈。 QuestMobile数据显示，今年9月，国内AI效率办公赛道月活跃用户规模达到1.42亿，同比增长50.6%。腾讯WorkBuddy暂时跑在了前面，同期，其月活达到3235.3万，阿里千问办公则为790.5万，两者相差三倍。 落在后面的阿里，最近连出两招。",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "retention",
+     "ai-product",
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:34.129362+00:00"
+   },
+   {
+    "id": "c3dcf22a5f35b681",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:24:10+00:00",
+    "source": "人人都是产品经理",
+    "title": "手把手教你用 Fable 5.2 做个精致的 HTML 的 3D 动作游戏",
+    "link": "https://www.woshipm.com/ai/6492666.html",
+    "summary": "一个下午、6 个小时、4.5 亿 Token，换回一个浏览器里打开就能玩的 3D 国风动作游戏：三段连招、弹反处决、Boss 二阶段，还带配音。整个游戏只有 30MB，模型、贴图、音效全塞进一个 HTML 文件。 Fable 5.2 发布后，大家都被它的能力震惊了，尤其是那个单网页的射击游戏。 我相信很多人看到那个网页不到 2MB、没用一张图片，模型、贴图、音效全是代码从零写出来的，却有那种效果的时候，都觉得很离谱。 我就想，能不能用它的思路，做一个更精细的 3D 国风动作游戏？ 于是我用了一下午，大概 6 个小时，耗了 4.5 亿 Token（其中一部分是 Opus 5.5 跑的测试），它给",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:34.129375+00:00"
+   },
+   {
+    "id": "94ed811625aec6a5",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:22:31+00:00",
+    "source": "人人都是产品经理",
+    "title": "中国华电共享中心多主体治理架构",
+    "link": "https://www.woshipm.com/share/6492660.html",
+    "summary": "一笔工程款，合同、验收单和发票都齐了，偏偏收款账户刚变更，谁来核实、谁有权暂缓、谁能放行？一个总中心加十个分中心，服务 1550 余家核算主体，华电把这类异常的处理权限写进了治理架构。 财务数智化转型背景下，财务共享中心在集团治理架构中怎样找准定位、释放价值，是亟待破解的核心命题。 今天我们以中国华电集团的实践探索为例，一起来看看这个命题怎么解。 一家电厂提交工程进度款申请，合同、验收单和发票都齐了，但收款账户刚刚变更。项目部门说工程款该付了，共享审核人员发现账户与系统登记的信息不一致。这笔钱由谁核实、谁有权暂缓、核实以后谁能放行？ 集团里的核算主体越多，越需要把这些问题提前定下来。否则，同样",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:34.129378+00:00"
+   },
+   {
+    "id": "99ad8ac69de88ad3",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:18:03+00:00",
+    "source": "人人都是产品经理",
+    "title": "Gemini 4 Carbon 全面开放，谷歌这次是真的想卷死同行",
+    "link": "https://www.woshipm.com/ai/6492651.html",
+    "summary": "三项面向真实工作的评测全部第一，还能用一句指令调度一群 Agent 分工干活，Gemini 4 Carbon 的野心不止跑分。但它并非所有任务的最优解，谷歌自己也在建议：日常编程和知识问答，交给更轻量的 Argon。 Gemini 4 Carbon 全面开放后，谷歌把模型竞争推到了一个更现实的维度：不仅要在编程、搜索和自动化评测中拿第一，还要把复杂任务的成本压下来。 Carbon 在 CursorBench 4.0、Perplexity WANDR 和 Zapier AutomationBench 三项测试中都拿到第一。它还加入了 Antigravity 的 /swarm 功能，可以用一句话调",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ai-product",
+     "data"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:34.129380+00:00"
+   },
+   {
+    "id": "9e1dc0e6271c924c",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:16:57+00:00",
+    "source": "人人都是产品经理",
+    "title": "对于抖音来说，从来没有免费的自然流",
+    "link": "https://www.woshipm.com/share/6492648.html",
+    "summary": "商家眼里的自然流，在平台账本上从来不是免费的。抖音把用户、算法和流量分配权都握在手里，一次没付费的曝光同样意味着机会成本；当商家供给不再稀缺，抽佣与广告的配比就会被重新计算。 自然流，只是商家的视角。对于抖音来说，从来没有真正意义上的免费流量。 要理解这个问题，先要看用户掌握在谁手中，以及抖音到底在经营什么。 1/ 自然流，是商家的视角，不是平台的视角 做本地生活的商家，习惯把流量分为自然流和付费流。 没有花钱投广告，通过短视频、直播、搜索获得的订单，就被理解为自然流。尤其是线下实体商家，过去依靠门店的地理位置覆盖周边用户，本身就能够获得一定的自然客流，所以商家自然认为，只要自己有商品、有门店",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:34.129382+00:00"
+   },
+   {
+    "id": "86c75cbfd51311c7",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:16:31+00:00",
+    "source": "人人都是产品经理",
+    "title": "腾讯Buddy One，我想这大概是AI时代All in One的模样",
+    "link": "https://www.woshipm.com/ai/6492643.html",
+    "summary": "一个免费的统一身份，把腾讯会议、腾讯文档、ima 和网盘串成同一份上下文。同一句提问能同时翻遍会议纪要、复盘文档和知识库，答案还带来源引用——这种「一处授权、多端打通」的体验，正在改写办公 Agent 的入口之争。 最近腾讯发布了一个叫Buddy One的跨应用AI协同体系，给我一种「超级连接器」的感觉。 官网：https://www.workbuddy.cn/buddyone/ 今天想仔细跟大家说说，AI时代的All in One，可以有多么能打。 01 一个ID，串起腾讯全家桶 以前我们在各个应用之间来回切换，很大的痛点就是「上下文不连续」。 你在会上说的话，写文档时AI不知道；你网盘里的",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ai-product",
+     "ux"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:34.129385+00:00"
+   },
+   {
+    "id": "df6b8c8ee3eeb71c",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:15:39+00:00",
+    "source": "人人都是产品经理",
+    "title": "从小学到高中，12 年教材被做成了一张能追溯知识断层的地图",
+    "link": "https://www.woshipm.com/ai/6492636.html",
+    "summary": "高一函数听不懂，病根可能藏在两年前那节没听懂的旧课里。一个上线不到一个月就冲上 GitHub 趋势榜的开源项目，把 12 年教材拆成 3383 个知识点和 4873 条先修边，用有向无环图往回追，直到揪出最底层的薄弱环节。 很多人在辅导孩子或者自己上学时，都经历过一种深深的无力感：高一的「函数概念」怎么都听不懂，初三的「配方法」一做就错。传统的应对办法通常是买本练习册，对着不会的章节 反复刷题 ，结果往往收效甚微。 原因其实很残酷。卡住学生的往往并非眼前的这道新题，真正的病根可能藏在 两年前 某节没听懂的旧课里。 最近在 GitHub 上，一个名为 cn-math-taxonomy 的开源项目",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:34.129386+00:00"
+   },
+   {
+    "id": "7d65252312878cdf",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:13:49+00:00",
+    "source": "36氪",
+    "title": "国内铁路首次，南溪河特大桥9号格构墩顺利完工",
+    "link": "https://36kr.com/newsflashes/4066192537277315?f=rss",
+    "summary": "11月12日上午9时，随着最后一方钢管混凝土顺利完成顶升，云南文山至蒙自铁路南溪河特大桥9号格构墩顺利完工。这是国内铁路工程中首次应用格构墩结构，标志着我国在山区高墩桥梁建设领域取得重要技术突破。南溪河特大桥全长789.71米，桥面与地面最大高差达118米，是云南文山至蒙自铁路全线最高桥梁。此次应用的钢管混凝土格构墩，通过钢管与工字钢拼装成“下宽上窄”的梯形墩体，内部灌注高强度混凝土，可节约混凝土和钢材30%至50%。同时，预制拼装工艺大幅降低了现场污染与施工风险，提升了抗震能力和地质适应性。（央视新闻）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284915+00:00"
+   },
+   {
+    "id": "fda59d3a95e1a954",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:04:51+00:00",
+    "source": "36氪",
+    "title": "盒马在南京成立涓选网络科技公司，注册资本1000万",
+    "link": "https://36kr.com/newsflashes/4066168062727305?f=rss",
+    "summary": "36氪获悉，天眼查App显示，近日，南京涓选网络科技有限公司成立，法定代表人为彭荣拱，注册资本1000万元人民币，经营范围含食品销售、食品互联网销售、互联网销售等。股东信息显示，该公司由盒马（中国）有限公司全资持股。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284916+00:00"
+   },
+   {
+    "id": "8ded0f059261e573",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:04:02+00:00",
+    "source": "人人都是产品经理",
+    "title": "腾讯混元Hy4去同福客栈打工，干得怎么样？",
+    "link": "https://www.woshipm.com/ai/6492523.html",
+    "summary": "腾讯混元Hy4正式版发布，首次具备视觉理解与电脑操作能力，参数规模跃升至770B。本文通过同福客栈场景实测，从3D建模到图像识别，全面检验其真实表现，并对比竞品与成本，揭示腾讯“模型与产品深度Co-Design”的战略逻辑。 11月4日，腾讯发布混元Hy4正式版。为了弄清新模型带来了哪些变化，我们先让它做了一段自我介绍。 我们选用Buddy猫作为主角，要求它用动漫可爱风格，以桌面穿梭的形式介绍Hy4的最新特性。15秒的视频里，小猫举起放大镜凑近画面细看，又走到屏幕前抬爪按下按钮，视觉理解、电脑操作、长上下文处理这几项新本事，变成了一连串看得见的动作。 放大镜和按钮，是这代升级最直白的比喻。相比",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:34.129388+00:00"
+   },
+   {
+    "id": "748ea9cdce3b226f",
+    "date": "2026-11-12",
+    "published": "2026-11-12T03:00:20+00:00",
+    "source": "36氪",
+    "title": "百度推出大模型交易平台词元所",
+    "link": "https://36kr.com/newsflashes/4066188005692289?f=rss",
+    "summary": "36氪获悉，在百度世界2026开幕式上，百度创始人李彦宏表示，模型迭代速度非常快，今年前9个月，几乎每天都有不止一款新模型发布，与此同时，对模型的调用需求也迎来大爆发。由此催生的一批词元中转站。为此，百度推出大模型交易平台词元所。他表示，词元所是大模型的交易所，希望汇聚好的模型和模型提供商，让企业乃至个人都能便捷地找到、购买和使用可信的模型Token。词元所上线一个月以来，入驻供应资源已超100个，日均调用次数突破5000万，日均调用Token超7000亿。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284919+00:00"
+   },
+   {
+    "id": "9f1da7d5a0879021",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:57:22+00:00",
+    "source": "36氪",
+    "title": "MSCI拟将“比特币巨鲸”Strategy从全球指数中剔除",
+    "link": "https://36kr.com/newsflashes/4066166545535872?f=rss",
+    "summary": "指数编制机构MSCI认定迈克尔・塞勒旗下的 Strategy（原名 MicroStrategy）以及其他多家公司的性质更接近投资基金，因此决定将它们从旗下全球指数中剔除；此举可能会抑制流入这些股票的被动投资。MSCI去年曾提议，将那些数字资产持有量占其总资产50%及以上的“数字资产国库型公司”剔除在外；随后，MSCI又针对其所谓的“非运营公司”展开了更广泛的评估。MSCI补充称，这类公司具有基金类特征，而基金类公司并不在其基准指数的纳入范围内。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284921+00:00"
+   },
+   {
+    "id": "6633337cf56a2f23",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:48:25+00:00",
+    "source": "36氪",
+    "title": "李彦宏：AI下一幕是智能组织",
+    "link": "https://36kr.com/newsflashes/4066162633168001?f=rss",
+    "summary": "36氪获悉，在百度世界2026大会开幕式上，百度创始人李彦宏表示，人工智能的下一幕是智能组织。如果说人工智能是新电能，智能组织就是AI时代新的厂房，是生产力真正发生的地方。只有匹配AI各种新能力的组织方式落地了，生产力才会大幅度提升，经济才能加速成长。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284922+00:00"
+   },
+   {
+    "id": "817737ba46dbc692",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:47:07+00:00",
+    "source": "人人都是产品经理",
+    "title": "企业内部FDE的培养：从建立AI能力认证机制开始",
+    "link": "https://www.woshipm.com/ai/6492582.html",
+    "summary": "大多数企业的AI培训卡在同一个地方：课上了，证拿了，能力没长出来。本文分享了一套可复用的解法：把认证和绩效激励计划绑定、把能力拆成Echo（判断）和Delta（执行），再用AI评委加路演做实操验收——四个模块怎么搭，全部摊开讲。 这几个月FDE的概念很火，有不少企业都在纠结FDE到底是内部培养，还是找外部的FDE团队。 这里说的FDE，指能把AI落到业务一线、并把一线经验沉淀成可复用能力的人。 笔者的观点是，短期来看，如果企业希望快速落地AI应用，而自身没有成熟的研发团队，那是可以找外部的FDE，毕竟内部培养需要时间。长期来看，外部团队虽然起步快，但做出来的东西不容易沉淀到组织里，后面每一次调",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:34.129390+00:00"
+   },
+   {
+    "id": "7251c068f3f1f742",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:46:50+00:00",
+    "source": "36氪",
+    "title": "沪深两市成交额突破1万亿元",
+    "link": "https://36kr.com/newsflashes/4066174736356485?f=rss",
+    "summary": "36氪获悉，沪深两市成交额突破1万亿元，较上一个交易日此时放量超2500亿元。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284924+00:00"
+   },
+   {
+    "id": "86fbfb9b6250f002",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:43:31+00:00",
+    "source": "36氪",
+    "title": "机构：英国房屋销售前景创2023年以来最悲观水平",
+    "link": "https://36kr.com/newsflashes/4066164715885449?f=rss",
+    "summary": "周四公布的一项调查显示，随着抵押贷款利率上升挤压了购房需求，10月份英国房地产测量师对未来短期房屋销售前景的看法降至三年多来的最低点。英国皇家特许测量师学会（RICS）表示，10月份其对未来12个月房屋销售的预期指数降至-17，测量师们预计房屋销售量将出现自2023年7月以来最广泛的下滑。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284926+00:00"
+   },
+   {
+    "id": "7241c09e0d48bfb6",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:42:49+00:00",
+    "source": "36氪",
+    "title": "李彦宏：百度内部DAA一年内增至3.7万，上涨超6倍",
+    "link": "https://36kr.com/newsflashes/4066161326478471?f=rss",
+    "summary": "36氪获悉，在百度世界2026大会开幕式上，百度创始人李彦宏表示，一年来，百度内部DAA（每天的活跃智能体数），从日均0.5万增长到3.7万，上涨超6倍；智能体执行的有效任务完成数，从每周平均8.4万个，增长到一周超过100万个，上涨11倍。百度已建设4300个Workspace，组织Skill累计沉淀超2万个。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "retention",
+     "ai-product",
+     "growth"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284928+00:00"
+   },
+   {
+    "id": "f39534a5ad3e77af",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:38:32+00:00",
+    "source": "36氪",
+    "title": "国贸资本、智象元一、上影股份共同发布“新电影创作支持计划”",
+    "link": "https://36kr.com/newsflashes/4066157381194886?f=rss",
+    "summary": "36氪获悉，2026年金鸡百花电影节期间，国贸资本、智象元一与上影股份联合发起“新电影创作支持计划”。该计划面向专业团队与新兴创作者，聚焦AI技术应用，为影视项目提供开发、制作至发行等全链路支持，现场公布了首批18部推介作品。作为技术支持，智象元一发布了AI影视创作平台“帧赞2.0”及升级版视频模型。此外，活动举办了产业圆桌，多方代表围绕“AI+电影”的技术应用、商业空间及产业生态等议题进行了探讨。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284929+00:00"
+   },
+   {
+    "id": "722a3e2f17256b1c",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:34:22+00:00",
+    "source": "爱范儿",
+    "title": "联想 Googlebook 15 评测：安卓电脑准备好了，安卓没有",
+    "link": "https://www.ifanr.com/1689128?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "summary": "Chromebook's yesterday once more. #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:34.995041+00:00"
+   },
+   {
+    "id": "453ffb3b4f82a766",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:30:12+00:00",
+    "source": "人人都是产品经理",
+    "title": "双11：我在淘宝、京东、拼多多上的网购体验和观察",
+    "link": "https://www.woshipm.com/share/6492572.html",
+    "summary": "同一款裤子线下原价、线上 75 折，差价一百多元；保价期内降价，客服却说不在价保范围。作者把双 11 在淘宝、京东、拼多多的下单、退货和比价过程摊开，算的是一件商品从出库到退货的成本，最后落到谁头上。 1. 我依然保持着没事儿上淘宝、京东、拼多多上逛一逛的习惯，就像人们在线下逛街一样，线上刷商品流，也是一样逛街，而且商品更全。为什么我不去线下逛街呢？有次看到一款某品牌的裤子，线下一分折扣没有，线上就是75折，一上一下差了100多元。作为消费者，这款品牌背后的供货问题、供应链问题、品控问题，并不在我的考虑范围内，我只看到了价格差距。从这以后，我就宁愿在线上逛算了，不去线下做“冤大头”。 我在即刻",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:34.129392+00:00"
+   },
+   {
+    "id": "1476df3af2faa716",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:27:37+00:00",
+    "source": "36氪",
+    "title": "万华化学在宜昌成立新能源材料技术公司，注册资本8亿",
+    "link": "https://36kr.com/newsflashes/4066152386696329?f=rss",
+    "summary": "36氪获悉，天眼查App显示，近日，万华（宜昌）新能源材料技术有限公司成立，法定代表人为王晓星，注册资本8亿元人民币，经营范围含电子专用材料研发、电子专用材料制造、电子专用材料销售等。股东信息显示，该公司由万华化学（烟台）电池产业有限公司全资持股。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284931+00:00"
+   },
+   {
+    "id": "f3fe0b1a4231302d",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:23:42+00:00",
+    "source": "人人都是产品经理",
+    "title": "项目拆解：面向Agent的知识库检索怎么做",
+    "link": "https://www.woshipm.com/ai/6492567.html",
+    "summary": "RAGFlow 更新 1.0，核心改动是面向 Agent 检索，LlamaIndex 团队则喊出 RAG is dead。作者拆解 SAG-Wiki：不用 Embedding、不建向量库，靠 BM25 召回加 Jev 逐段判断证据，把检索变成 Agent 可扩展的工具。 工作流不火了以后，关于 RAG 的讨论也少了。 前两天知名 RAG 项目 RAGFlow（GitHub 有 9 万+ stars）更新了正式的 1.0 版本，核心改动是面向 Agent 检索，不再只是给 LLM 准备上下文的问答机。 在 AI 嵌入式产品(如 Dify)里，LLM 只是一个等材料的简单 API 调用，没有行动能",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ai-product",
+     "data"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:34.129394+00:00"
+   },
+   {
+    "id": "4bbb473dc364e821",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:20:56+00:00",
+    "source": "36氪",
+    "title": "我们需要一个不卖瑜伽裤的lululemon吗？",
+    "link": "https://36kr.com/p/4064801667584896?f=rss",
+    "summary": "文｜贺哲馨 编辑｜乔芊 失灵 lululemon的创始人奇普·威尔逊（Chip Wilson）曾自诩创造了一台完美的商业机器，以至于他离开之后“即便是一台电冰箱来管理这家公司都能成功”。在这话说出的仅一年之后，这台机器的运转就出现了问题。 2025财年，lululemon在最主要的美洲市场营收下滑1%；2026财年跌势加快，第二季度美洲营收下降8%，可比销售跌了12%。今年1月，新款紧身裤Get Low因“透光”投诉暂停线上销售，上一次类似的风波还要追溯到2013年。 今年5月底，lululemon在长城办了一场瑜伽活动，现场用了日本太鼓，在社交媒体上惹起众怒，公司随后致歉。到第二季度，中国大",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284901+00:00"
+   },
+   {
+    "id": "373a39ab7814c6f4",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:19:02+00:00",
+    "source": "36氪",
+    "title": "寒武纪涨超13%，收复1000元关口",
+    "link": "https://36kr.com/newsflashes/4066147409368192?f=rss",
+    "summary": "36氪获悉，寒武纪扩大涨幅至13%，重新站上1000元整数关，总市值达6400亿元。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284933+00:00"
+   },
+   {
+    "id": "3790dc92ad313fb9",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:12:58+00:00",
+    "source": "36氪",
+    "title": "纪念孙中山先生诞辰160周年大会在京举行，习近平出席大会并发表重要讲话",
+    "link": "https://36kr.com/newsflashes/4066141454291847?f=rss",
+    "summary": "纪念孙中山先生诞辰160周年大会11月12日上午在京隆重举行。中共中央总书记、国家主席、中央军委主席习近平出席大会并发表重要讲话。中共中央政治局常委李强、赵乐际、王沪宁、蔡奇、丁薛祥、李希出席大会。（新华社）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284934+00:00"
+   },
+   {
+    "id": "4e81c4722f6569fd",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:12:27+00:00",
+    "source": "36氪",
+    "title": "燧原科技涨超15%创上市新高",
+    "link": "https://36kr.com/newsflashes/4066140936311688?f=rss",
+    "summary": "36氪获悉，算力芯片概念股燧原科技扩大涨幅至15%，创出上市以来新高，总市值超2400亿元，最近7个交易日累计上涨76%。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284936+00:00"
+   },
+   {
+    "id": "3522ca01ed72bebe",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:11:56+00:00",
+    "source": "36氪",
+    "title": "日本最高外汇事务官员三村淳：近几日汇率波动过快",
+    "link": "https://36kr.com/newsflashes/4066124915528840?f=rss",
+    "summary": "日本最高外汇事务官员三村淳12日表示，近期外汇市场的走势似乎过于迅速。他在财务省回答记者提问时作出上述表态，但拒绝对当前的汇率水平发表评论。他还提及了今年夏季进行的买入日元干预行动，称“现在忘记当时的记忆还为时过早”。12日上午的外汇市场中，日元兑美元汇率在159日元区间上方交投，较前一个交易日晚间走低。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284937+00:00"
+   },
+   {
+    "id": "6c1b3120e6bb86c5",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:08:06+00:00",
+    "source": "36氪",
+    "title": "36氪首发丨海光创始核心技术团队创业AGI架构芯片，获清华系等基金数亿投资",
+    "link": "https://36kr.com/p/4066136377873286?f=rss",
+    "summary": "图源/视觉中国 本文约 3400 字，建议阅读 8 分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，原生通用人工智能（AGI）架构芯片研发商——通芯人工智能科技（北京）有限公司（下称“通芯智能”）成立半年已连续完成数亿元种子轮及天使轮融资。融资由清华校友种子基金、北京通用人工智能研究院、松霖科技、平治信息、暗物智能以及豫资涨泉等财务投资人共同参与，集聚产业资本、头部科技VC和财务资本。资金将主要用于芯片流片前的核心架构设计及研发。 通芯智能成立于2026年4月，由人工智能科学家、通研院院长、北大和清华讲席教授朱松纯发起，依托北京通用人工智能研究院（通研院）孵化。 公司创始核心团队的平均芯片从业经验超",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ux",
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284904+00:00"
+   },
+   {
+    "id": "b6e7dbe8834288c8",
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:06:30+00:00",
+    "source": "36氪",
+    "title": "创业板指拉升涨超1%，科创50指数涨近4%",
+    "link": "https://36kr.com/newsflashes/4066135086273410?f=rss",
+    "summary": "36氪获悉，创业板指拉升涨超1%，科创50指数涨近4%。半导体芯片、算力硬件等方向涨幅居前，沪深京三市上涨个股近2000只。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-12T03:48:33.284939+00:00"
+   }
+  ],
   "ai": [
    {
     "id": "f28f90d2895a812c",
@@ -19,6 +724,126 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-11-11T02:46:32.948718+00:00"
+   },
+   {
+    "id": "081caafcc522c70e",
+    "date": "2026-11-11",
+    "published": "2026-11-11T22:31:06+00:00",
+    "source": "Hacker News — Best",
+    "title": "Nvidia is preparing to oust Jensen Huang",
+    "link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+    "summary": "Article URL: https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad Comments URL: https://news.ycombinator.com/item?id=50459703 Points: 613 # Comments: 853",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:30.680165+00:00"
+   },
+   {
+    "id": "071d9c002fdefcb3",
+    "date": "2026-11-11",
+    "published": "2026-11-11T22:03:58+00:00",
+    "source": "Hacker News — Best",
+    "title": "Jensen Huang said to have had relationship with executive who reports to him",
+    "link": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+    "summary": "Article URL: https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html Comments URL: https://news.ycombinator.com/item?id=50459321 Points: 275 # Comments: 294",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:30.680181+00:00"
+   },
+   {
+    "id": "bb485df9f4f59adb",
+    "date": "2026-11-11",
+    "published": "2026-11-11T22:03:25+00:00",
+    "source": "Simon Willison's Weblog",
+    "title": "Gemini Decisions API",
+    "link": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+    "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/no question. It's pri",
+    "topics": [
+     "ai"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:30.967490+00:00"
+   },
+   {
+    "id": "1399104b4951d0e4",
+    "date": "2026-11-11",
+    "published": "2026-11-11T21:24:35+00:00",
+    "source": "Hacker News — Best",
+    "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+    "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+    "summary": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 430 # Comments: 412",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:30.680186+00:00"
+   },
+   {
+    "id": "02f705171aa939fd",
+    "date": "2026-11-11",
+    "published": "2026-11-11T21:18:30+00:00",
+    "source": "Simon Willison's Weblog",
+    "title": "aws-emulator",
+    "link": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+    "summary": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Si",
+    "topics": [
+     "ai"
+    ],
+    "tags": [
+     "ai-product",
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:30.967502+00:00"
+   },
+   {
+    "id": "95dd2fdb0483e254",
+    "date": "2026-11-11",
+    "published": "2026-11-11T18:42:50+00:00",
+    "source": "Simon Willison's Weblog",
+    "title": "Browse tools.simonwillison.net by tag",
+    "link": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+    "summary": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code for JavaScript APIs, libraries, an",
+    "topics": [
+     "ai"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:30.967504+00:00"
+   },
+   {
+    "id": "70a69d3bb5822802",
+    "date": "2026-11-11",
+    "published": "2026-11-11T18:21:38+00:00",
+    "source": "Hacker News — Best",
+    "title": "AWS emulator",
+    "link": "https://github.com/aws/aws-emulator",
+    "summary": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agent... https://www.allthingsdistributed.com/2026/11/aws-emulator-an... Comments URL: https://news.ycombinator.com/item?id=50456631 Points: 717 # Comments: 221",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:30.680189+00:00"
    },
    {
     "id": "8e4104a923ec61a4",
@@ -57,6 +882,22 @@
     "first_seen": "2026-11-11T18:41:44.814178+00:00"
    },
    {
+    "id": "b8e33e17317c667c",
+    "date": "2026-11-11",
+    "published": "2026-11-11T16:38:44+00:00",
+    "source": "Hacker News — Best",
+    "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+    "link": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+    "summary": "Article URL: https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/ Comments URL: https://news.ycombinator.com/item?id=50455394 Points: 430 # Comments: 221",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:30.680192+00:00"
+   },
+   {
     "id": "97adab01dbf7344a",
     "date": "2026-11-11",
     "published": "2026-11-11T16:00:00+00:00",
@@ -88,6 +929,38 @@
     "first_seen": "2026-11-11T18:41:44.814189+00:00"
    },
    {
+    "id": "10647024152430df",
+    "date": "2026-11-11",
+    "published": "2026-11-11T13:56:05+00:00",
+    "source": "Hacker News — Best",
+    "title": "I asked every TV manufacturer 17 questions about how they spy on you",
+    "link": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
+    "summary": "Article URL: https://www.theverge.com/tech/1012372/tv-privacy-acr-questions Comments URL: https://news.ycombinator.com/item?id=50453474 Points: 341 # Comments: 237",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:30.680195+00:00"
+   },
+   {
+    "id": "d584bdd46b8662f0",
+    "date": "2026-11-11",
+    "published": "2026-11-11T13:39:29+00:00",
+    "source": "Hacker News — Best",
+    "title": "Hyper-Realistic Sand with WebGL2",
+    "link": "https://av.github.io/safe-sand/",
+    "summary": "Article URL: https://av.github.io/safe-sand/ Comments URL: https://news.ycombinator.com/item?id=50453288 Points: 327 # Comments: 65",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:30.680199+00:00"
+   },
+   {
     "id": "e3c1f66505445103",
     "date": "2026-11-11",
     "published": "2026-11-11T12:05:22+00:00",
@@ -104,6 +977,24 @@
     ],
     "lang": "en",
     "first_seen": "2026-11-11T18:41:46.902451+00:00"
+   },
+   {
+    "id": "8d8bc38f54a7d350",
+    "date": "2026-11-11",
+    "published": "2026-11-11T12:05:22+00:00",
+    "source": "Hacker News — Best",
+    "title": "My AI agents found an unmapped Maya site?",
+    "link": "https://pietromiotti.com/latest/maya-site",
+    "summary": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 939 # Comments: 339",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:30.680202+00:00"
    },
    {
     "id": "dfc441ab02a2f961",
@@ -169,6 +1060,22 @@
     "first_seen": "2026-11-11T18:41:45.218378+00:00"
    },
    {
+    "id": "8363ca58553c4aa2",
+    "date": "2026-11-11",
+    "published": "2026-11-11T07:03:17+00:00",
+    "source": "Hacker News — Best",
+    "title": "Tim Peters has died",
+    "link": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+    "summary": "https://www.reddit.com/r/Python/s/2Cm5dBcvQw Comments URL: https://news.ycombinator.com/item?id=50450488 Points: 923 # Comments: 100",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:30.680205+00:00"
+   },
+   {
     "id": "6a8ddd1b4cd9e054",
     "date": "2026-11-11",
     "published": "2026-11-11T04:49:48+00:00",
@@ -198,6 +1105,24 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-11-11T18:41:46.902462+00:00"
+   },
+   {
+    "id": "8c999d6885d24711",
+    "date": "2026-11-11",
+    "published": "2026-11-11T00:00:00+00:00",
+    "source": "OpenAI News",
+    "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+    "link": "https://openai.com/index/jiostar-vijay-seshadri",
+    "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:31.986873+00:00"
    },
    {
     "id": "ae3c6c28ceab44c4",
@@ -380,6 +1305,22 @@
     "first_seen": "2026-11-11T18:41:46.902471+00:00"
    },
    {
+    "id": "7737e173e31a5988",
+    "date": "2026-11-10",
+    "published": "2026-11-10T17:55:07+00:00",
+    "source": "Hacker News — Best",
+    "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+    "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
+    "summary": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 281 # Comments: 216",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:30.680209+00:00"
+   },
+   {
     "id": "d438bd2ee1d81c2e",
     "date": "2026-11-10",
     "published": "2026-11-10T17:31:14+00:00",
@@ -426,932 +1367,722 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-11-11T02:46:33.176665+00:00"
-   },
-   {
-    "id": "b8f5bb12633dc68f",
-    "date": "2026-11-10",
-    "published": "2026-11-10T15:35:49+00:00",
-    "source": "Ben's Bites",
-    "title": "How I got seduced",
-    "link": "https://www.bensbites.com/p/how-i-got-seduced",
-    "summary": "It took them 5 years",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:14.084048+00:00"
-   },
-   {
-    "id": "1ef25a9b4291d724",
-    "date": "2026-11-10",
-    "published": "2026-11-10T15:29:35+00:00",
-    "source": "The a16z Show (podcast)",
-    "title": "HubSpot’s Co-Founder on Finding Your Next Startup Idea",
-    "link": "https://a16z.simplecast.com/episodes/hubspots-co-founder-on-finding-your-next-startup-idea-J9uhCiZA",
-    "summary": "As frontier AI labs expand into applications, where should startups build? a16z Partner Joe Schmidt joins HubSpot co-founder and CTO Dharmesh Shah to explore why the software opportunity is growing, and how founders can stay off the “Yellow Brick Road” the labs are racing down. Drawing on HubSpot’s ",
-    "topics": [
-     "ai",
-     "growth"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:22.681980+00:00"
-   },
-   {
-    "id": "a6d621267b871187",
-    "date": "2026-11-10",
-    "published": "2026-11-10T15:25:20+00:00",
-    "source": "Hacker News — Best",
-    "title": "Smart home devices should work without the internet",
-    "link": "https://docodethatmatters.com/home-automation-overnight-success/",
-    "summary": "Article URL: https://docodethatmatters.com/home-automation-overnight-success/ Comments URL: https://news.ycombinator.com/item?id=50441707 Points: 725 # Comments: 256",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-11T02:46:33.176666+00:00"
-   },
-   {
-    "id": "583511bb3ad1ffcc",
-    "date": "2026-11-10",
-    "published": "2026-11-10T15:00:21+00:00",
-    "source": "The Pragmatic Engineer",
-    "title": "Software correctness & supply chain security, with Sean Allen",
-    "link": "https://newsletter.pragmaticengineer.com/p/software-correctness",
-    "summary": "A deep conversation on the biggest challenges of developing with AI – while trying not to mention the phrase “AI” once. Why? To dig up the fundamentals that are as important as ever",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:15.014502+00:00"
-   },
-   {
-    "id": "c5fffc8a0cbdc3d4",
-    "date": "2026-11-10",
-    "published": "2026-11-10T14:00:00+00:00",
-    "source": "Google — The Keyword (AI)",
-    "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-    "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-    "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:14.014951+00:00"
-   },
-   {
-    "id": "155d33cae7267931",
-    "date": "2026-11-10",
-    "published": "2026-11-10T13:00:00+00:00",
-    "source": "Google — The Keyword (AI)",
-    "title": "Google Cloud launches Gemini for healthcare.",
-    "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-    "summary": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:14.014961+00:00"
-   },
-   {
-    "id": "bc8d380b73dfc24a",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:58:04+00:00",
-    "source": "Hacker News — Best",
-    "title": "Ableton Live 13",
-    "link": "https://www.ableton.com/en/live/",
-    "summary": "Article URL: https://www.ableton.com/en/live/ Comments URL: https://news.ycombinator.com/item?id=50439695 Points: 276 # Comments: 299",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-11T02:46:33.176668+00:00"
-   },
-   {
-    "id": "428ac4b42c0b5f39",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:11:12+00:00",
-    "source": "Hacker News — Best",
-    "title": "AlphaProof Code",
-    "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
-    "summary": "Article URL: https://deepmind.google/blog/introducing-alphaproof-code/ Comments URL: https://news.ycombinator.com/item?id=50439193 Points: 450 # Comments: 147",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:17.116366+00:00"
-   },
-   {
-    "id": "46ecb159c1535b09",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "Helping caregivers use AI in everyday life",
-    "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-    "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:14.813608+00:00"
-   },
-   {
-    "id": "593498d54f698ec5",
-    "date": "2026-11-10",
-    "published": "2026-11-10T10:25:58+00:00",
-    "source": "Hacker News — Best",
-    "title": "AI usage generates a fragile codebase",
-    "link": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
-    "summary": "Article URL: https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/ Comments URL: https://news.ycombinator.com/item?id=50438318 Points: 390 # Comments: 414",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-11T02:46:33.176670+00:00"
-   },
-   {
-    "id": "5ca4dc7b6d88cb31",
-    "date": "2026-11-10",
-    "published": "2026-11-10T10:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "Introducing Businesses in ChatGPT",
-    "link": "https://openai.com/index/introducing-businesses-chatgpt",
-    "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:14.813618+00:00"
-   },
-   {
-    "id": "01a8528fa117926a",
-    "date": "2026-11-10",
-    "published": "2026-11-10T09:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "Closing the AI guidance gap in education",
-    "link": "https://openai.com/index/closing-ai-guidance-gap-education",
-    "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:14.813620+00:00"
-   },
-   {
-    "id": "4e3e5904c85ae763",
-    "date": "2026-11-10",
-    "published": "2026-11-10T08:00:00+00:00",
-    "source": "OpenAI News",
-    "title": "Singapore Airlines elevates travel & work with OpenAI technology",
-    "link": "https://openai.com/index/singapore-airlines-travel-work",
-    "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-11T18:41:45.218393+00:00"
-   },
-   {
-    "id": "fabe838d73f55c38",
-    "date": "2026-11-10",
-    "published": "2026-11-10T07:28:21+00:00",
-    "source": "Simon Willison's Weblog",
-    "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
-    "link": "https://simonwillison.net/2026/Nov/10/muse-ember/",
-    "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls,",
-    "topics": [
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:14.403395+00:00"
    }
   ],
-  "china": [
+  "ux": [
    {
-    "id": "d46827209f3a987b",
+    "id": "c43db580bf345970",
     "date": "2026-11-11",
-    "published": "2026-11-11T21:05:37+00:00",
-    "source": "InfoQ 中文",
-    "title": "谷歌最强模型 Gemini 4 Carbon 全面开放：一夜重写 OpenCode 桌面应用、价格仅为 Fable 5.2 的 1/4",
-    "link": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
+    "published": "2026-11-11T22:20:42+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Why are we cloning Photoshop?",
+    "link": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
+    "summary": "AI is making it easy to recreate professional tools. I suspect there’s a bigger opportunity being overlooked. Editing in PhotoCraft October saw the release of PhotoCraft , an open-source Photoshop clone built with AI that had a similar capability set, but without Adobe Creative Cloud’s exorbitant mo",
     "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.831572+00:00"
-   },
-   {
-    "id": "d1798ea8583757c3",
-    "date": "2026-11-11",
-    "published": "2026-11-11T20:52:45+00:00",
-    "source": "InfoQ 中文",
-    "title": "Anthropic 一夜逼疯微软？Claude 杀入办公软件腹地：能自己参会、做表格、生成PPT",
-    "link": "https://www.infoq.cn/article/1PdshF8SLevbGZbbZHoP?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.831585+00:00"
-   },
-   {
-    "id": "e502a129195ac1cc",
-    "date": "2026-11-11",
-    "published": "2026-11-11T19:05:46+00:00",
-    "source": "InfoQ 中文",
-    "title": "上下文也是成本：Agent 效率优化的新思路 ｜ 技术趋势",
-    "link": "https://www.infoq.cn/article/iaCUbU8Fwz6G6bDlQ9BV?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.831587+00:00"
-   },
-   {
-    "id": "4cce884bace9d2b0",
-    "date": "2026-11-11",
-    "published": "2026-11-11T18:36:17+00:00",
-    "source": "InfoQ 中文",
-    "title": "从 AI 工具到业务落地：兰州安宁 OPC 大会将聚焦 FDE 实践与企业 AI 转型",
-    "link": "https://www.infoq.cn/article/P2UWjVdAmPzOBaxd0v4f?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.831589+00:00"
-   },
-   {
-    "id": "d1f82c715b2e80fa",
-    "date": "2026-11-11",
-    "published": "2026-11-11T18:33:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "如何提升 AI 的环境可持续性",
-    "link": "https://www.infoq.cn/article/GUXzTTTFvwWY7yx6WMyS?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.831590+00:00"
-   },
-   {
-    "id": "a535c39046240f20",
-    "date": "2026-11-11",
-    "published": "2026-11-11T17:47:04+00:00",
-    "source": "InfoQ 中文",
-    "title": "工程师招聘跌至巅峰时期一半！Manus 取消传统编程面试，产品经理开始直接写代码",
-    "link": "https://www.infoq.cn/article/HKFSZ6a0DM97BV7FXP2t?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.831591+00:00"
-   },
-   {
-    "id": "44b9dda96b72e392",
-    "date": "2026-11-11",
-    "published": "2026-11-11T17:40:57+00:00",
-    "source": "InfoQ 中文",
-    "title": "Agent 正在终结 Pull Request？连 GitHub 也开始重新审视传统开发流程",
-    "link": "https://www.infoq.cn/article/x0B056QFxzYEewT1Et34?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.831593+00:00"
-   },
-   {
-    "id": "1447fbbab92beceb",
-    "date": "2026-11-11",
-    "published": "2026-11-11T17:23:19+00:00",
-    "source": "InfoQ 中文",
-    "title": "面向产业决策的升级：蚂蚁数科LingDT-Decision 首发信息抽取能力",
-    "link": "https://www.infoq.cn/article/7wd1IyRiffi1vPz6goHS?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.831594+00:00"
-   },
-   {
-    "id": "bdfdf908cb832d4e",
-    "date": "2026-11-11",
-    "published": "2026-11-11T17:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "Datadog 推出面向 SRE 故障排查的专用 AI 模型",
-    "link": "https://www.infoq.cn/article/py4PRbBWJSPm5aV10gHq?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.831595+00:00"
-   },
-   {
-    "id": "fce81ad7d0c08f50",
-    "date": "2026-11-11",
-    "published": "2026-11-11T16:49:32+00:00",
-    "source": "InfoQ 中文",
-    "title": "多云 FinOps：一种用于跨云成本优化的工程框架",
-    "link": "https://www.infoq.cn/article/0qQcqvV13GtRKGgmsPqW?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.831597+00:00"
-   },
-   {
-    "id": "7ddb99eae6028d86",
-    "date": "2026-11-11",
-    "published": "2026-11-11T14:44:48+00:00",
-    "source": "InfoQ 中文",
-    "title": "阿里云发布基于 AMD 第六代 EPYC 处理器的第十代 ECS 企业级实例",
-    "link": "https://www.infoq.cn/article/xCQx0qBofJYfBdVrxVxt?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.831598+00:00"
-   },
-   {
-    "id": "f99049285e0ce823",
-    "date": "2026-11-11",
-    "published": "2026-11-11T12:53:06+00:00",
-    "source": "36氪",
-    "title": "甲骨文：旗下Opower项目今年已实现1吉瓦电力需求削减，覆盖超70次需求响应事件",
-    "link": "https://36kr.com/newsflashes/4065355145253768?f=rss",
-    "summary": "甲骨文（ORCL）11月11日宣布，旗下Opower项目今年以来已帮助北美公用事业公司实现1吉瓦（GW）的峰值电力需求削减，覆盖冬夏两季共73次需求响应事件，较2025年的49次增加近50%。相关项目累计触达430万名用户，较2025年的330万名增长30%。（新浪财经）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388490+00:00"
-   },
-   {
-    "id": "67ede82b4fa8d05c",
-    "date": "2026-11-11",
-    "published": "2026-11-11T12:52:31+00:00",
-    "source": "36氪",
-    "title": "热门中概股美股盘前涨跌不一，富途控股涨超2%",
-    "link": "https://36kr.com/newsflashes/4065354572240005?f=rss",
-    "summary": "36氪获悉，热门中概股美股盘前涨跌不一，截至发稿，富途控股涨超2%，老虎证券、爱奇艺、微博涨超1%；网易跌超2%，哔哩哔哩、小鹏集团跌超1%。",
-    "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388492+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:42.543067+00:00"
    },
    {
-    "id": "905273c6de64c6d0",
+    "id": "02cb098fe0d562c8",
     "date": "2026-11-11",
-    "published": "2026-11-11T12:50:00+00:00",
-    "source": "36氪",
-    "title": "美股大型科技股盘前多数上涨，英伟达涨超4%",
-    "link": "https://36kr.com/newsflashes/4065352093144194?f=rss",
-    "summary": "36氪获悉，美股大型科技股盘前多数上涨，截至发稿，SK海力士涨超8%，英特尔涨超6%，英伟达涨超4%，特斯拉、谷歌、Meta涨超1%，亚马逊涨0.06%；苹果跌0.58%，奈飞跌0.51%。",
+    "published": "2026-11-11T22:15:19+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Every click has a price now. Who designs how that “feels”?",
+    "link": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
+    "summary": "As the all-you-can-eat AI era is ending, UX designers must adapt to a new reality Since the democratization of AI, roughly by the end of 2022, companies sold access to their products for less than it costs them to run. That didn’t last long. Now, to try the latest models or pro versions of certain t",
     "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388493+00:00"
-   },
-   {
-    "id": "6963cf8c38e2dcfb",
-    "date": "2026-11-11",
-    "published": "2026-11-11T12:42:55+00:00",
-    "source": "36氪",
-    "title": "哈萨克斯坦国家铁路运营商KTZ获批在中国香港进行IPO",
-    "link": "https://36kr.com/newsflashes/4065345138578567?f=rss",
-    "summary": "哈萨克斯坦国家铁路运营商KTZ获批在中国香港进行IPO。（新浪财经）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388495+00:00"
-   },
-   {
-    "id": "1f358664d532f2e9",
-    "date": "2026-11-11",
-    "published": "2026-11-11T12:41:51+00:00",
-    "source": "36氪",
-    "title": "存储厂商酝酿新一轮涨价？多方反馈：原厂第四季度官方价格确实呈现微微上涨态势",
-    "link": "https://36kr.com/newsflashes/4065344083497862?f=rss",
-    "summary": "11月11日午后，A股存储芯片板块普涨。触发资金情绪的或来自一则市场传闻：部分头部存储企业已向渠道商口头告知企业级颗粒的涨价意向，正式提价函尚未下发，但渠道端的价格已经先动了起来。就此联系了国内多家存储厂商，综合多方反馈获悉，原厂第四季度官方价格确实呈现微微上涨态势，但涉及型号依旧以企业级存储为主，消费级产品并未出现同步调涨的明确信号。（上证报）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388497+00:00"
-   },
-   {
-    "id": "49ddec349ce56dcd",
-    "date": "2026-11-11",
-    "published": "2026-11-11T12:35:40+00:00",
-    "source": "36氪",
-    "title": "广东省新增3款已完成备案的生成式人工智能服务",
-    "link": "https://36kr.com/newsflashes/4065338009654400?f=rss",
-    "summary": "36氪获悉，据网信广东，截至11月11日，广东省新增3款已完成备案的生成式人工智能服务，累计已完成230款生成式人工智能服务备案。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388498+00:00"
-   },
-   {
-    "id": "fad443e2a5b55e00",
-    "date": "2026-11-11",
-    "published": "2026-11-11T12:27:27+00:00",
-    "source": "36氪",
-    "title": "Anthropic新增约100亿美元微软、谷歌云算力采购承诺，Lambda算力协议存在取消风险",
-    "link": "https://36kr.com/newsflashes/4065329936487298?f=rss",
-    "summary": "Anthropic在周二提交的文件中表示，过去一个月，公司与微软、谷歌达成新采购承诺，从现在至2033年，云服务器租赁支出将较此前披露值增加约100亿美元。与此同时，Anthropic称，和规模较小的云服务商Lambda签署的349亿美元服务器租赁协议存在被取消的可能，原因是Lambda未能在双方约定的期限内建成数据中心。不过Anthropic表示，虽然合同赋予其取消该协议的权利，但公司 “目前无意” 这么做。（新浪财经）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388500+00:00"
-   },
-   {
-    "id": "7cc9da7b69bce3a2",
-    "date": "2026-11-11",
-    "published": "2026-11-11T12:21:50+00:00",
-    "source": "36氪",
-    "title": "粤宏远Ａ：拟5.5亿元收购金旺达机电100%股权",
-    "link": "https://36kr.com/newsflashes/4065324411114370?f=rss",
-    "summary": "36氪获悉，粤宏远Ａ公告，公司拟以现金方式收购深圳市金旺达机电有限公司（简称“金旺达机电”）100%股权，交易价格5.5亿元。该公司专注于精密传动功能部件领域生产制造，核心产品包括精密直线导轨、精密滚珠丝杠等，广泛应用于新能源、3C电子、显示面板、汽车制造装备、医疗等高端自动化领域。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388502+00:00"
-   },
-   {
-    "id": "d506a48802bef04d",
-    "date": "2026-11-11",
-    "published": "2026-11-11T12:14:28+00:00",
-    "source": "36氪",
-    "title": "IBM发布下一代量子处理器Nighthawk r3，计划2027年实现超1000量子比特系统",
-    "link": "https://36kr.com/newsflashes/4065317160621185?f=rss",
-    "summary": "11月11日，IBM宣布推出下一代量子处理器Nighthawk r3，设计支持520个可编程量子比特执行1万次量子操作，并配备2034个物理量子比特。IBM计划于2027年连接两颗r3处理器，构建拥有1040个量子比特的系统。（界面）",
-    "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [
      "ux"
     ],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388503+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:42.543079+00:00"
    },
    {
-    "id": "86b0fb4a8b6b1c19",
+    "id": "177bbb3822a1ecad",
     "date": "2026-11-11",
-    "published": "2026-11-11T12:14:07+00:00",
-    "source": "36氪",
-    "title": "无界动力创始人张玉峰回应李一贤离职：属正常流动，未负责MWA预训练",
-    "link": "https://36kr.com/newsflashes/4065316824093573?f=rss",
-    "summary": "，近日，有市场消息称，无界动力算法模型负责人李一贤已于近期离职，加入哈啰Robotaxi担任模型算法负责人。对此，无界动力创始人张玉峰回应称：“我们的算法模型和基础设施还是由CTO夏中谱负责，一贤是‘夏老师-1’，之前也没有负责我们的基座模型MWA的预训练。”（新浪科技）",
+    "published": "2026-11-11T22:10:34+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "The bathroom flaws that infuriate every designer",
+    "link": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
+    "summary": "Throne Room Politics: Inside Designers Obsession with Bathrooms How one close look at everyday bathroom flaw will permeantly ruin your routine. I paused, leaving the bathroom. Something strange was happening, but what was it? There was a woman in a wheelchair who had finished washing her hands. She ",
     "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388504+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:42.543082+00:00"
    },
    {
-    "id": "2f25a36907f5128e",
+    "id": "e9be3b76076ec8b4",
     "date": "2026-11-11",
-    "published": "2026-11-11T12:13:03+00:00",
-    "source": "36氪",
-    "title": "夸克叫停真人讲题视频录制",
-    "link": "https://36kr.com/newsflashes/4065315776795784?f=rss",
-    "summary": "夸克目前已叫停真人讲题视频的录制。一位接近夸克的知情人士透露，夸克平台方于日前进行了战略调整，要求开始停止真人讲解题目的视频录制。有知情者透露，夸克此轮调整或是在为千问让路，也与之前领导层的变动有关。（新浪科技）",
+    "published": "2026-11-11T22:08:32+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
+    "link": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+    "summary": "In-System Design 3/3 A practical guide for designers: why I stopped choosing between canvas and code, and how one prototype travels both ways. For designers who know Figma well and have never written production code, and for the design system teams around them. Every technical word is explained in t",
     "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388506+00:00"
-   },
-   {
-    "id": "c45446cd3eda25f7",
-    "date": "2026-11-11",
-    "published": "2026-11-11T12:03:48+00:00",
-    "source": "36氪",
-    "title": "我国成功发射探源计划探路者卫星",
-    "link": "https://36kr.com/newsflashes/4065306675073926?f=rss",
-    "summary": "11月11日19时41分，我国在酒泉卫星发射中心使用长征二号丁运载火箭，成功将探源计划探路者卫星发射升空，卫星顺利进入预定轨道，发射任务取得圆满成功。（央视新闻）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388508+00:00"
-   },
-   {
-    "id": "f28a7709050e62a7",
-    "date": "2026-11-11",
-    "published": "2026-11-11T12:02:05+00:00",
-    "source": "InfoQ 中文",
-    "title": "Agent 从 Demo 到生产，究竟还差几步？4周实战课来了",
-    "link": "https://www.infoq.cn/article/gzNdPqAMp1Wh1JQ9d2JA?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
     ],
     "tags": [
-     "ai-product"
+     "ux"
     ],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.831599+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-12T03:48:42.543084+00:00"
    },
    {
-    "id": "8b0a71ad00e3bcda",
-    "date": "2026-11-11",
-    "published": "2026-11-11T11:54:07+00:00",
-    "source": "36氪",
-    "title": "高争民爆2026年前三季度利润分配预案：拟10派2.5元",
-    "link": "https://36kr.com/newsflashes/4065297167537287?f=rss",
-    "summary": "36氪获悉，高争民爆发布2026年前三季度利润分配预案，拟向全体股东每10股派发现金红利2.5元（含税），合计预计派发现金红利6836.52万元（含税）。",
+    "id": "cab6adb1a4a48053",
+    "date": "2026-11-10",
+    "published": "2026-11-10T23:34:58+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
+    "link": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
+    "summary": "In-System Design Why builders hand you a lookalike, what has to exist before an agent can use your components, and the MCP setup I use. Prototyping in code is what designers do now, at least according to LinkedIn. I tried it, and after two days I wanted to throw my laptop into the sea. Good news: I ",
     "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ai-product",
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-11T02:46:44.387074+00:00"
+   },
+   {
+    "id": "479f68882470582a",
+    "date": "2026-11-10",
+    "published": "2026-11-10T12:09:18+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "What being the new kid taught me about persuasion as a designer",
+    "link": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
+    "summary": "People don’t say yes to ideas. They say yes to who they get to be. Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-10T18:40:25.212657+00:00"
+   },
+   {
+    "id": "a819c3d9ad0c6280",
+    "date": "2026-11-10",
+    "published": "2026-11-10T12:09:06+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Every new medium gets called cheating",
+    "link": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
+    "summary": "How a machine I didn’t trust taught me to be bad at things again. Monet’s Impression Sunrise would not have existed if someone hadn’t invented the right medium ( Source ) I was a skeptic. Let the record show, I too, was against it. When Ted Chiang wrote in The New Yorker that AI isn’t going to make ",
+    "topics": [
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388509+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-10T18:40:25.212668+00:00"
    },
    {
-    "id": "c9ec27c8152cb9d3",
-    "date": "2026-11-11",
-    "published": "2026-11-11T11:52:16+00:00",
-    "source": "爱范儿",
-    "title": "曝字节要做「中国版 Muse」，给豆包造个「超级大脑」",
-    "link": "https://www.ifanr.com/1689016?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "summary": "豆包走出屏幕 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+    "id": "ff30d185aab41f8a",
+    "date": "2026-11-09",
+    "published": "2026-11-09T12:20:07+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
+    "link": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
+    "summary": "Weekly curated resources for designers — thinkers and makers. “As AI becomes more capable of assembling interfaces from established patterns, this distinction deserves more attention. We are getting better at telling tools what belongs to our product. We also need to decide what belongs to the momen",
     "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:48.058004+00:00"
-   },
-   {
-    "id": "5fccdbd41a5fbd00",
-    "date": "2026-11-11",
-    "published": "2026-11-11T11:44:36+00:00",
-    "source": "36氪",
-    "title": "天益医疗：拟发行可转债募资不超5亿元，用于高端药品及医疗器械项目",
-    "link": "https://36kr.com/newsflashes/4065287809897600?f=rss",
-    "summary": "36氪获悉，天益医疗公告，拟向不特定对象发行可转换公司债券，募资不超过5亿元（含），用于高端药品及医疗器械研发生产项目。",
-    "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388511+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-09T21:26:24.683574+00:00"
    },
    {
-    "id": "55987ad820b357bd",
-    "date": "2026-11-11",
-    "published": "2026-11-11T11:39:55+00:00",
-    "source": "36氪",
-    "title": "花旗证券预计明年下半年开业",
-    "link": "https://36kr.com/newsflashes/4065283199472520?f=rss",
-    "summary": "今日从花旗集团获悉，公司正推进花旗证券（中国）有限公司（简称“花旗证券”）的设立，并履行开业所需的各项法定及监管程序，后续尚需通过验收，预计明年下半年开业。（财联社）",
+    "id": "5d9c225e6d615a6b",
+    "date": "2026-11-09",
+    "published": "2026-11-09T12:13:57+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "What a ruler leaves out",
+    "link": "https://uxdesign.cc/what-a-ruler-leaves-out-9250724a7f85?source=rss----138adf9c44c---4",
+    "summary": "On designing tools as rules — and what they quietly subtract from the world Continue reading on UX Collective »",
     "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux",
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-09T21:26:24.683589+00:00"
+   },
+   {
+    "id": "a8f06070f5c909b5",
+    "date": "2026-11-09",
+    "published": "2026-11-09T12:13:36+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Five pairs of hands: what the typesetters can teach designers about AI",
+    "link": "https://uxdesign.cc/five-pairs-of-hands-what-the-typesetters-can-teach-designers-about-ai-9d6b8e8c2285?source=rss----138adf9c44c---4",
+    "summary": "Five pairs of hands A conversation with Christian Crumlish, on typesetters, AI, the jobs merging around us, and the work you would keep doing anyway. Photo by Karen Maes on Unsplash In the early nineties, a couple of years out of college, Christian Crumlish went to work at Sybex, a publisher of comp",
+    "topics": [
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388512+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-09T21:26:24.683592+00:00"
    },
    {
-    "id": "ed11630cf66743d4",
-    "date": "2026-11-11",
-    "published": "2026-11-11T11:31:11+00:00",
-    "source": "36氪",
-    "title": "汇通控股：拟2000万元—4000万元回购公司股份",
-    "link": "https://36kr.com/newsflashes/4065274613552004?f=rss",
-    "summary": "36氪获悉，汇通控股公告，拟2000万元—4000万元回购公司股份，回购的股份将部分用于注销并减少注册资本，部分用于后续实施股权激励或员工持股计划，回购价格不超过24元/股（含）。",
+    "id": "02958087ac04c7ca",
+    "date": "2026-11-09",
+    "published": "2026-11-09T12:11:27+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Infinite tokens: the new country club flex",
+    "link": "https://uxdesign.cc/infinite-tokens-the-new-country-club-flex-0e5e523756c3?source=rss----138adf9c44c---4",
+    "summary": "Well-chosen constraints organize your thinking. Continue reading on UX Collective »",
     "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
     ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388514+00:00"
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-09T21:26:24.683594+00:00"
    },
    {
-    "id": "da207fd44a9065d8",
-    "date": "2026-11-11",
-    "published": "2026-11-11T11:31:07+00:00",
-    "source": "36氪",
-    "title": "36氪 WISE 了不起的OPC｜Workshop 招募啦！",
-    "link": "https://36kr.com/p/4065273480188801?f=rss",
-    "summary": "来WISE大会Vibe Coding，赢价值2万元电脑！ 给你 60 分钟、一台电脑和一位搭子，你能用 AI 做出一个怎样的作品？ 这次，来 WISE 现场试试！ 我们邀请有 Vibe Coding 实战经验的你，带上队友参加一场限时创作挑战。仅招募 3 支队伍、共 6 人，赛题现场揭晓，60 分钟从零做出一个能玩的作品。 现场将提供华硕天选系列电脑和 WorkBuddy。你们负责把想法变成作品，在观众面前展示创作过程，接受评委的现场试玩和提问，让更多人看到你们使用 AI 解决问题、完成交付的能力。 获胜团队将获得 1 台天选 Air 2026 锐龙 AI Max 笔记本电脑！ 为什么你适合来",
+    "id": "eadaa0a4f561018c",
+    "date": "2026-11-09",
+    "published": "2026-11-09T12:11:16+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Before you ship your Wrapped this year",
+    "link": "https://uxdesign.cc/before-you-ship-your-wrapped-this-year-a0a47ee191f8?source=rss----138adf9c44c---4",
+    "summary": "What last December’s recaps got right, what changed in 2026, and the step almost nobody takes. Continue reading on UX Collective »",
     "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
     ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388471+00:00"
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-09T21:26:24.683596+00:00"
    },
    {
-    "id": "e643ddd555776019",
-    "date": "2026-11-11",
-    "published": "2026-11-11T11:30:53+00:00",
-    "source": "36氪",
-    "title": "找钢网集团获首钢基金增持",
-    "link": "https://36kr.com/newsflashes/4065274314953609?f=rss",
-    "summary": "36氪获悉，找钢网集团公告，首钢集团旗下首钢基金拟进一步增加对找钢网的持股。相关股份转让完成后，首钢基金将拥有找钢网约13.5%的股份权益，成为公司主要股东之一，找钢网已经成为首钢基金的战略投资项目，相关股东暂无进一步减持计划。",
+    "id": "82263f39b1a69698",
+    "date": "2026-11-07",
+    "published": "2026-11-07T20:15:42+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Otherwise you’re just a machine",
+    "link": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
+    "summary": "AI is getting better at design. Designers should too. The skills behind the work. Image created with AI. I spend a lot of time looking at design work. Reviewing portfolios. Hiring designers. Working with design leaders, seniors and juniors. Sitting in critiques. Watching people explain how they arri",
     "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [
      "finance-product"
     ],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388515+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-08T02:26:49.617838+00:00"
    },
    {
-    "id": "dd481dd18ec44eae",
-    "date": "2026-11-11",
-    "published": "2026-11-11T11:24:53+00:00",
-    "source": "36氪",
-    "title": "洛阳钼业：取得不超18亿元股票回购专项贷款承诺函",
-    "link": "https://36kr.com/newsflashes/4065268418401411?f=rss",
-    "summary": "36氪获悉，洛阳钼业公告，取得招商银行上海分行出具的《贷款承诺函》，承诺为公司提供不超过18亿元贷款，专项用于回购公司股票，贷款期限不超过36个月。",
+    "id": "9848e13478548e70",
+    "date": "2026-11-07",
+    "published": "2026-11-07T12:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Conceptual Models: The Hidden Structure Behind Your Next Great Interface",
+    "link": "https://ixdf.org/literature/article/conceptual-models-explained",
+    "summary": "Ever wondered why some interfaces feel effortless: like they already know what you’re trying to do, while others leave you guessing? The difference often lies in how well a product’s design matches the way users think. When your interface reflects their mental model, every action feels intuitive, an",
     "topics": [
-     "china",
-     "product",
-     "ai"
+     "ux",
+     "design"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388516+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-09T02:39:01.500399+00:00"
    },
    {
-    "id": "2d9a8c10411fdce9",
-    "date": "2026-11-11",
-    "published": "2026-11-11T11:16:59+00:00",
-    "source": "36氪",
-    "title": "上海电影：AI视频相关业务尚处前期投入阶段，规模较小",
-    "link": "https://36kr.com/newsflashes/4065260654466179?f=rss",
-    "summary": "36氪获悉，上海电影发布关于股票交易异常波动暨风险提示性公告，公司关注到市场将公司列为AI视频概念股，目前公司生产经营未发生重大变化，公司的主营业务为电影宣发、院线经营及IP全链路开发，AI视频相关业务尚处于前期投入阶段，业务规模较小，截至10月末，相关业务营收占比不足0.5%，不会对公司业绩构成重大影响。",
+    "id": "b148f2127e395a98",
+    "date": "2026-11-06",
+    "published": "2026-11-06T22:42:58+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "After the AI bubble: a manifesto",
+    "link": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
+    "summary": "Computers should be tools for the people but — hidden in a malaise of fatalism — the AI bubble has made computers tools to push people around. Soon, or in some time, this will change. We have some thoughts to share with you in the meantime. Morro Bay, California Preamble The purpose of computers is ",
     "topics": [
-     "china",
-     "product",
+     "ux",
+     "design",
      "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388518+00:00"
-   },
-   {
-    "id": "8fccf2e09d7db42f",
-    "date": "2026-11-11",
-    "published": "2026-11-11T11:15:28+00:00",
-    "source": "36氪",
-    "title": "博瑞医药：BGM0504注射液降糖适应症Ⅲ期临床试验均达成预期目标",
-    "link": "https://36kr.com/newsflashes/4065259166405767?f=rss",
-    "summary": "36氪获悉，博瑞医药公告，近日，全资子公司博瑞制药（苏州）有限公司自主研发的BGM0504注射液降糖适应症Ⅲ期临床试验均达成预期目标。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388519+00:00"
-   },
-   {
-    "id": "26d808eb14f0eafc",
-    "date": "2026-11-11",
-    "published": "2026-11-11T11:06:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "Cloudflare 推出面向 AI 应用程序的 Web Search API",
-    "link": "https://www.infoq.cn/article/SgXuVvzbHr8lKrihTAZW?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
     ],
     "tags": [
-     "data"
+     "notification"
     ],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.831600+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-07T02:46:34.355078+00:00"
    },
    {
-    "id": "6bc3764f29820364",
-    "date": "2026-11-11",
-    "published": "2026-11-11T10:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "基于 AgentKit 重塑研发协作：从编码提效到组织效能跃迁｜AICon北京",
-    "link": "https://www.infoq.cn/article/I49cXCJFBpOW3PcgPTW3?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
+    "id": "41753168026741f8",
+    "date": "2026-11-06",
+    "published": "2026-11-06T18:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "Agent Harness: Definition",
+    "link": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "An agent harness manages a software loop between an AI model and its tools. Its context, permissions, and limits shape what users can do.",
     "topics": [
-     "china",
-     "ai",
-     "finance"
+     "ux",
+     "ai"
     ],
     "tags": [
      "ai-product"
     ],
-    "lang": "zh",
-    "first_seen": "2026-11-11T02:46:34.623397+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-07T02:46:34.425983+00:00"
    },
    {
-    "id": "a1b67bb098c1b89f",
-    "date": "2026-11-11",
-    "published": "2026-11-11T09:48:35+00:00",
-    "source": "36氪",
-    "title": "日薪180，在「流水线」上给机器人当老师",
-    "link": "https://36kr.com/p/4065157431317385?f=rss",
-    "summary": "我成了流水线上随时可以被替换的人。 文 | 王智鹏 编辑 | 刘思洁 视觉 | 曲枚 我满脑子里都是《克莱因壶》里那只手套，薄薄一层液体夹层，电流一接，手掌就能触碰到虚拟世界。刚开始我以为数据采集也是这样的。 今年7月，人社部公示拟新增12个职业，“具身智能机器人应用技术员”是其中之一，“数据采集员”正是其下的具体工种。 数据采集员的背后，是一个巨大的行业需求， 据估算， 机器人要达到类人的初步能力，大约需要一亿小时的数据，而全球有效数据只有几十万小时。 2026年因此被行业视为具身智能数据规模化的元年。 8月，我决定体验下“数据采集员”这份新职业。 在招聘软件上搜“数据采集兼职”，跳出来一整",
+    "id": "70e91e74e4f2485b",
+    "date": "2026-11-06",
+    "published": "2026-11-06T18:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "Usability 101: Introduction to Usability",
+    "link": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "Usability refers to how easily people can complete tasks with a design. Improve it by watching representative users do realistic tasks, early and repeatedly.",
     "topics": [
-     "china",
-     "product",
+     "ux",
      "ai"
     ],
     "tags": [
      "ux"
     ],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.388484+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-07T02:46:34.425994+00:00"
    },
    {
-    "id": "d8a436d52357c8be",
-    "date": "2026-11-11",
-    "published": "2026-11-11T09:47:34+00:00",
-    "source": "爱范儿",
-    "title": "4.99 万元起，长安糯玉米 PLUS 变成四门「大玉米」，小车最后还是要「大大大」",
-    "link": "https://www.ifanr.com/1688966?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "summary": "微型小车正在集体变大。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+    "id": "6678797f3a662e8f",
+    "date": "2026-11-06",
+    "published": "2026-11-06T12:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Get to Grips with Constraints",
+    "link": "https://ixdf.org/literature/article/non-functional-requirements-constraints",
+    "summary": "Got constraints? Perfect. That’s where great design begins. Just as electrical standards define how a toaster safely works without shaping what it does, your software also lives within boundaries that quietly guide its behavior. Functional requirements describe what your system does: the stories of ",
     "topics": [
-     "china",
-     "product"
+     "ux",
+     "design"
     ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:48.058016+00:00"
+    "tags": [
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-09T02:39:01.500410+00:00"
    },
    {
-    "id": "31f47d85113dbe78",
-    "date": "2026-11-11",
-    "published": "2026-11-11T09:30:00+00:00",
-    "source": "少数派",
-    "title": "城市漫步指南 | 安特卫普，时尚就在生活中",
-    "link": "https://sspai.com/post/118781",
-    "summary": "原本今年夏天的旅行是要在佛罗伦萨结束的，但突发状况导致我不用上班了，就顺势使用了我的国际机票退改券，增加了一段安特卫普的行程。打卡安特卫普的理由跟意大利一样奇怪——因为这个地方举办过好几届体操世锦赛（ ... 查看全文",
+    "id": "79464460e29f9977",
+    "date": "2026-11-06",
+    "published": "2026-11-06T04:34:21+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "UX Conference January Announced (Jan 19 - Feb 1)",
+    "link": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. January 19 - February 1, 2026.",
     "topics": [
-     "china",
-     "product",
+     "ux",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-06T17:57:51.604479+00:00"
+   },
+   {
+    "id": "ce2198b45ec83b39",
+    "date": "2026-11-06",
+    "published": "2026-11-06T04:13:24+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Berrypicking still beats the single answer for search, even in the world of AI",
+    "link": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
+    "summary": "A searcher moves through scattered sources, collecting one useful piece at each stop. In 1989 Marcia Bates showed that people search by gathering, shifting, and revising as they go. Her ideas explain what AI still misses and what is still relevant from research done 47 years ago. Much of what produc",
+    "topics": [
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:46.656782+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-06T17:57:51.685624+00:00"
    },
    {
-    "id": "2474c290cf15c338",
-    "date": "2026-11-11",
-    "published": "2026-11-11T09:10:11+00:00",
-    "source": "人人都是产品经理",
-    "title": "阿里养了只鸭子，MiniMax放只兔子",
-    "link": "https://www.woshipm.com/ai/6492469.html",
-    "summary": "阿里把千问4藏进Qoder匿名测试四天，揭晓后主打编程与专业软件操作，还打出限时2折。可当腾讯、MiniMax甚至海外厂商同步押注相似场景，模型跑分第一已难换用户迁移。本文拆解这轮大模型混战：能力、价格与工作台入口，谁才是真正的胜负手。 阿里千问4来了，大模型都快卷疯了 阿里养了四天的鸭子，终于承认是自己家的了。 11月7日，阿里旗下AI编程产品Qoder突然上线了一款匿名模型，名叫Qoduck。 不公布模型厂商，不公布参数规模，连跑分成绩都藏着。开发者只能通过实际使用，猜测它究竟是哪家的模型。 由于Qoduck在编程速度、长程Agent任务等方面表现不错，网上很快出现了各种猜测。其中呼声最高",
+    "id": "6bbb4a1d91cc297d",
+    "date": "2026-11-06",
+    "published": "2026-11-06T04:12:29+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Native is a floor, not a ceiling",
+    "link": "https://uxdesign.cc/native-is-a-floor-not-a-ceiling-09bc4f27ddce?source=rss----138adf9c44c---4",
+    "summary": "With AI, a polished look costs nothing. Native brings what can’t be drawn, and it moves with the system, one step ahead of what imitates it. An AI assistant helped me write this. The ideas, the experience and the final edit are mine. In June 2025, Apple introduced Liquid Glass, the new material of i",
     "topics": [
-     "china",
-     "product"
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-06T17:57:51.685637+00:00"
+   },
+   {
+    "id": "cdc56f8bac5fc048",
+    "date": "2026-11-05",
+    "published": "2026-11-05T12:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "How Persona Stories Help You Design for Real People",
+    "link": "https://ixdf.org/literature/article/persona-stories-vs-user-stories",
+    "summary": "User stories caught on because they were quick and simple, but speed often came at the cost of real understanding. A “user” in a story is rarely more than a guess, shaped by the assumptions of whoever wrote it. When you shift to persona stories, you ground your work in real research and real people.",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-09T02:39:01.500412+00:00"
+   },
+   {
+    "id": "70a1b0b23348536f",
+    "date": "2026-11-05",
+    "published": "2026-11-05T10:49:10+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
+    "link": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+    "summary": "Everyone seems to be asking whether AI will replace UX designers. I think that’s the wrong question. Following the numbers gets you a picture but doesn’t make you an artist | Russell Pinkston In March 2025, the Computer History Museum and IEEE Spectrum staged a debate on a single question: when a la",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-05T18:44:36.515938+00:00"
+   },
+   {
+    "id": "27e782add700a5ab",
+    "date": "2026-11-05",
+    "published": "2026-11-05T10:47:24+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Everyone’s got a quick question",
+    "link": "https://uxdesign.cc/everyones-got-a-quick-question-374a736ff7cb?source=rss----138adf9c44c---4",
+    "summary": "And you shouldn’t have to answer them all. Frequently asked questions in my inbox, recreated. I became the team’s search engine Every team has a person everyone reaches out to. They know where things live, why a decision went the way it did, and who to ask when you’re stuck. If you’re on a team, you",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-05T18:44:36.515947+00:00"
+   },
+   {
+    "id": "9364f01a2ed045b1",
+    "date": "2026-11-04",
+    "published": "2026-11-04T22:13:21+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "In a world of panic, calm and certainty win",
+    "link": "https://uxdesign.cc/in-a-world-of-panic-calm-and-certainty-win-525c17dd927f?source=rss----138adf9c44c---4",
+    "summary": "You can dread the future or help build it. The people who come through this already chose. While panic around what AI means for our industry is the reflex right now, calm is a decision. The calm that comes from knowing what you actually know is the rarest and most valuable thing you can bring to a m",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-05T03:28:36.521678+00:00"
+   },
+   {
+    "id": "f0c4cb54d17621a9",
+    "date": "2026-11-04",
+    "published": "2026-11-04T22:12:46+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "AI can generate the interface. What makes it worth caring about?",
+    "link": "https://uxdesign.cc/ai-can-generate-the-interface-what-makes-it-worth-caring-about-a5f3a3e81986?source=rss----138adf9c44c---4",
+    "summary": "As more product work is generated from shared patterns, designers need to decide where an experience should surprise, celebrate, or simply leave someone alone. Imagine asking an AI tool to design a task-completion state. The result has a checkmark, a friendly message, and a small burst of confetti. ",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-05T03:28:36.521685+00:00"
+   },
+   {
+    "id": "5a73980a44ff30eb",
+    "date": "2026-11-04",
+    "published": "2026-11-04T22:12:09+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "What AI has changed in Design Systems, and what is still up to us",
+    "link": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+    "summary": "Three design experts told me how AI is changing the way we build and maintain Design Systems. And led me to think that “the future” is already happening now. What is the human role in creating and maintaining a design system in the AI era? Credit: Anna Lefour with Gemini. You’ve probably read, or ev",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-05T03:28:36.521688+00:00"
+   },
+   {
+    "id": "bb4c909dd34fc0b3",
+    "date": "2026-11-04",
+    "published": "2026-11-04T12:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Use Cases: The Ideal Bridge Between Requirements and Design?",
+    "link": "https://ixdf.org/literature/article/uses-cases-diagrams-narratives",
+    "summary": "Imagine trying to describe everything your product needs to do, without getting lost in technical detail or endless feature lists. That’s the problem Ivar Jacobson set out to solve in the 1980s when he introduced use cases. Instead of worrying about how a system worked internally, he described it fr",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-09T02:39:01.500414+00:00"
+   },
+   {
+    "id": "a9960399ad164b21",
+    "date": "2026-11-04",
+    "published": "2026-11-04T02:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "What is Good Design?",
+    "link": "https://ixdf.org/literature/article/what-is-good-design",
+    "summary": "Design matters. It enables us to understand, communicate and improve the world around us. When done right, design has the power to improve the everyday lives of users. When done wrong, design can disrupt and frustrate users. As a designer, you have the power to improve the everyday lives of your use",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-09T02:39:01.500415+00:00"
+   },
+   {
+    "id": "5435f1aaf91b75fd",
+    "date": "2026-11-04",
+    "published": "2026-11-04T01:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "How To Use Grid Systems",
+    "link": "https://ixdf.org/literature/article/how-to-use-grid-systems",
+    "summary": "Grids systems can help you add structure to your design, organize information and create a consistent user experience. When designing with grids, the best thing you can do is to choose the right grid for the right project. However, with so many grids to choose from, it can be hard to know where to s",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-09T02:39:01.500416+00:00"
+   },
+   {
+    "id": "fa1aca55c7e70609",
+    "date": "2026-11-04",
+    "published": "2026-11-04T01:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "The Basics of Type: Design Interfaces Users Keep Coming Back To",
+    "link": "https://ixdf.org/literature/article/what-is-type",
+    "summary": "Type is everywhere. In the books you read, the products you use, and even in this very website you're on right now. But what is type? In the context of design, type is the style or appearance of text. It can also refer to the process of working with text. Typography can often be an intimidating topi",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-09T02:39:01.500417+00:00"
+   },
+   {
+    "id": "efc0d08b480b3e77",
+    "date": "2026-11-04",
+    "published": "2026-11-04T00:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "What are Color Modes?",
+    "link": "https://ixdf.org/literature/article/what-are-color-modes",
+    "summary": "As a designer, it’s important to differentiate the color modes so you can optimize each stage of your design process. If you use the correct color mode in your design, you will also help get your message and tone across. In this lesson, we’ll define common color modes and help you understand when to",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-09T02:39:01.500418+00:00"
+   },
+   {
+    "id": "26fdec23e0ba53fb",
+    "date": "2026-11-03",
+    "published": "2026-11-03T22:40:34+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Everyone is building AI agents. Who’s designing the stop button?",
+    "link": "https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c?source=rss----138adf9c44c---4",
+    "summary": "We used to design predictable user flows. Now AI can interpret, decide, and act on its own. Here’s why the hardest design decisions happen where that autonomy ends. Showing where AI stops in the flow — by gpt In September 2025, researchers at Thinking Machines Lab ran the same prompt through a langu",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
     ],
     "tags": [
      "ai-product"
     ],
-    "lang": "zh",
-    "first_seen": "2026-11-11T18:41:47.152891+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-04T03:00:16.815747+00:00"
+   },
+   {
+    "id": "a8260d9037f70c60",
+    "date": "2026-11-03",
+    "published": "2026-11-03T22:37:40+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "I let AI build. I don’t let AI decide.",
+    "link": "https://uxdesign.cc/i-let-ai-build-i-dont-let-ai-decide-b3892a87feb3?source=rss----138adf9c44c---4",
+    "summary": "A long workbench split down the middle, finished tools stacked on one side and a single open notebook on the other. My list of tasks I give models without a second thought and what I review until the tools evolve. I’ve used generative models for almost four years and designed machine learning applic",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-04T03:00:16.815762+00:00"
+   },
+   {
+    "id": "9558b6a483f4bafb",
+    "date": "2026-11-03",
+    "published": "2026-11-03T22:36:49+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "What do you do when a design solution is already pre-built?",
+    "link": "https://uxdesign.cc/what-do-you-do-when-a-design-solution-is-already-pre-built-85d20edba31f?source=rss----138adf9c44c---4",
+    "summary": "How to deal with the “Fastest Idea in the Room” Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-04T03:00:16.815766+00:00"
+   },
+   {
+    "id": "08e8bf6def624ba6",
+    "date": "2026-11-03",
+    "published": "2026-11-03T22:36:33+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Agents struggle with the same bad UX we do",
+    "link": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+    "summary": "Computer-use agents can’t guess, improvise, or ask a coworker. That makes them the most honest usability testers we’ve ever had. The first time I watched an agent fail on a vendor portal, I recognized the failure immediately. Not because I understood the model. Because I’d failed in exactly the same",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ai-product",
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-04T03:00:16.815769+00:00"
+   },
+   {
+    "id": "f435f0845e127199",
+    "date": "2026-11-03",
+    "published": "2026-11-03T10:09:09+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "What I learned teaching AI prototyping at university",
+    "link": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
+    "summary": "Teaching students how to prototype with AI tools instead of Figma revealed exciting possibilities and uncomfortable trade-offs. It also offered valuable insight into how non-tech people can create apps with generative AI. I teach digital prototyping to fashion design undergraduates and master’s stud",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-03T18:26:16.022819+00:00"
+   },
+   {
+    "id": "890a1442f702ad79",
+    "date": "2026-11-03",
+    "published": "2026-11-03T10:08:25+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "The pole and the stake",
+    "link": "https://uxdesign.cc/the-pole-and-the-stake-2cfba6c08bca?source=rss----138adf9c44c---4",
+    "summary": "On going with the current, changing it, and what designers are asked to do Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-03T18:26:16.022828+00:00"
+   },
+   {
+    "id": "73bed9d266a2f92d",
+    "date": "2026-11-03",
+    "published": "2026-11-03T10:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "The 5 Pixar Storytelling Principles That Will Redefine How You Present and Fast-Track Your Career",
+    "link": "https://ixdf.org/literature/article/the-5-pixar-storytelling-principles-that-will-redefine-how-you-present-and-fast-track-your-career",
+    "summary": "Ever sat through a presentation that felt like watching paint dry? You’re not alone. Most presentations miss one vital ingredient: Storytelling. And when it comes to telling stories that make people laugh, cry, or rethink their entire worldview… no one does it like Pixar. They’ve mastered the art of",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-09T02:39:01.500419+00:00"
+   },
+   {
+    "id": "cff43a7ac0603197",
+    "date": "2026-11-02",
+    "published": "2026-11-02T17:56:46+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "State of a system",
+    "link": "https://uxdesign.cc/state-of-a-system-5c8473db1e9?source=rss----138adf9c44c---4",
+    "summary": "Almost eight years ago, I started working on a design system that I got the opportunity to revisit just a few years later. The second round became as big a push with far fewer people. Now, three years after ending the work I’m finally ready to share that experience. My thesis: A rigid design kit is ",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "notification",
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-02T20:45:52.537738+00:00"
    }
   ],
   "dataviz": [
@@ -3614,722 +4345,6 @@
     "first_seen": "2026-10-29T17:25:38.423565+00:00"
    }
   ],
-  "ux": [
-   {
-    "id": "cab6adb1a4a48053",
-    "date": "2026-11-10",
-    "published": "2026-11-10T23:34:58+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
-    "link": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
-    "summary": "In-System Design Why builders hand you a lookalike, what has to exist before an agent can use your components, and the MCP setup I use. Prototyping in code is what designers do now, at least according to LinkedIn. I tried it, and after two days I wanted to throw my laptop into the sea. Good news: I ",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ai-product",
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-11T02:46:44.387074+00:00"
-   },
-   {
-    "id": "479f68882470582a",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:09:18+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "What being the new kid taught me about persuasion as a designer",
-    "link": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
-    "summary": "People don’t say yes to ideas. They say yes to who they get to be. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:25.212657+00:00"
-   },
-   {
-    "id": "a819c3d9ad0c6280",
-    "date": "2026-11-10",
-    "published": "2026-11-10T12:09:06+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Every new medium gets called cheating",
-    "link": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
-    "summary": "How a machine I didn’t trust taught me to be bad at things again. Monet’s Impression Sunrise would not have existed if someone hadn’t invented the right medium ( Source ) I was a skeptic. Let the record show, I too, was against it. When Ted Chiang wrote in The New Yorker that AI isn’t going to make ",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:25.212668+00:00"
-   },
-   {
-    "id": "ff30d185aab41f8a",
-    "date": "2026-11-09",
-    "published": "2026-11-09T12:20:07+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
-    "link": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
-    "summary": "Weekly curated resources for designers — thinkers and makers. “As AI becomes more capable of assembling interfaces from established patterns, this distinction deserves more attention. We are getting better at telling tools what belongs to our product. We also need to decide what belongs to the momen",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:24.683574+00:00"
-   },
-   {
-    "id": "5d9c225e6d615a6b",
-    "date": "2026-11-09",
-    "published": "2026-11-09T12:13:57+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "What a ruler leaves out",
-    "link": "https://uxdesign.cc/what-a-ruler-leaves-out-9250724a7f85?source=rss----138adf9c44c---4",
-    "summary": "On designing tools as rules — and what they quietly subtract from the world Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux",
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:24.683589+00:00"
-   },
-   {
-    "id": "a8f06070f5c909b5",
-    "date": "2026-11-09",
-    "published": "2026-11-09T12:13:36+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Five pairs of hands: what the typesetters can teach designers about AI",
-    "link": "https://uxdesign.cc/five-pairs-of-hands-what-the-typesetters-can-teach-designers-about-ai-9d6b8e8c2285?source=rss----138adf9c44c---4",
-    "summary": "Five pairs of hands A conversation with Christian Crumlish, on typesetters, AI, the jobs merging around us, and the work you would keep doing anyway. Photo by Karen Maes on Unsplash In the early nineties, a couple of years out of college, Christian Crumlish went to work at Sybex, a publisher of comp",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:24.683592+00:00"
-   },
-   {
-    "id": "02958087ac04c7ca",
-    "date": "2026-11-09",
-    "published": "2026-11-09T12:11:27+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Infinite tokens: the new country club flex",
-    "link": "https://uxdesign.cc/infinite-tokens-the-new-country-club-flex-0e5e523756c3?source=rss----138adf9c44c---4",
-    "summary": "Well-chosen constraints organize your thinking. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:24.683594+00:00"
-   },
-   {
-    "id": "eadaa0a4f561018c",
-    "date": "2026-11-09",
-    "published": "2026-11-09T12:11:16+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Before you ship your Wrapped this year",
-    "link": "https://uxdesign.cc/before-you-ship-your-wrapped-this-year-a0a47ee191f8?source=rss----138adf9c44c---4",
-    "summary": "What last December’s recaps got right, what changed in 2026, and the step almost nobody takes. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-09T21:26:24.683596+00:00"
-   },
-   {
-    "id": "82263f39b1a69698",
-    "date": "2026-11-07",
-    "published": "2026-11-07T20:15:42+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Otherwise you’re just a machine",
-    "link": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
-    "summary": "AI is getting better at design. Designers should too. The skills behind the work. Image created with AI. I spend a lot of time looking at design work. Reviewing portfolios. Hiring designers. Working with design leaders, seniors and juniors. Sitting in critiques. Watching people explain how they arri",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "finance-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-08T02:26:49.617838+00:00"
-   },
-   {
-    "id": "9848e13478548e70",
-    "date": "2026-11-07",
-    "published": "2026-11-07T12:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Conceptual Models: The Hidden Structure Behind Your Next Great Interface",
-    "link": "https://ixdf.org/literature/article/conceptual-models-explained",
-    "summary": "Ever wondered why some interfaces feel effortless: like they already know what you’re trying to do, while others leave you guessing? The difference often lies in how well a product’s design matches the way users think. When your interface reflects their mental model, every action feels intuitive, an",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T02:39:01.500399+00:00"
-   },
-   {
-    "id": "b148f2127e395a98",
-    "date": "2026-11-06",
-    "published": "2026-11-06T22:42:58+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "After the AI bubble: a manifesto",
-    "link": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
-    "summary": "Computers should be tools for the people but — hidden in a malaise of fatalism — the AI bubble has made computers tools to push people around. Soon, or in some time, this will change. We have some thoughts to share with you in the meantime. Morro Bay, California Preamble The purpose of computers is ",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "notification"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-07T02:46:34.355078+00:00"
-   },
-   {
-    "id": "41753168026741f8",
-    "date": "2026-11-06",
-    "published": "2026-11-06T18:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "Agent Harness: Definition",
-    "link": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "An agent harness manages a software loop between an AI model and its tools. Its context, permissions, and limits shape what users can do.",
-    "topics": [
-     "ux",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-07T02:46:34.425983+00:00"
-   },
-   {
-    "id": "70e91e74e4f2485b",
-    "date": "2026-11-06",
-    "published": "2026-11-06T18:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "Usability 101: Introduction to Usability",
-    "link": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "Usability refers to how easily people can complete tasks with a design. Improve it by watching representative users do realistic tasks, early and repeatedly.",
-    "topics": [
-     "ux",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-07T02:46:34.425994+00:00"
-   },
-   {
-    "id": "6678797f3a662e8f",
-    "date": "2026-11-06",
-    "published": "2026-11-06T12:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Get to Grips with Constraints",
-    "link": "https://ixdf.org/literature/article/non-functional-requirements-constraints",
-    "summary": "Got constraints? Perfect. That’s where great design begins. Just as electrical standards define how a toaster safely works without shaping what it does, your software also lives within boundaries that quietly guide its behavior. Functional requirements describe what your system does: the stories of ",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-09T02:39:01.500410+00:00"
-   },
-   {
-    "id": "79464460e29f9977",
-    "date": "2026-11-06",
-    "published": "2026-11-06T04:34:21+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "UX Conference January Announced (Jan 19 - Feb 1)",
-    "link": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. January 19 - February 1, 2026.",
-    "topics": [
-     "ux",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-06T17:57:51.604479+00:00"
-   },
-   {
-    "id": "ce2198b45ec83b39",
-    "date": "2026-11-06",
-    "published": "2026-11-06T04:13:24+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Berrypicking still beats the single answer for search, even in the world of AI",
-    "link": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
-    "summary": "A searcher moves through scattered sources, collecting one useful piece at each stop. In 1989 Marcia Bates showed that people search by gathering, shifting, and revising as they go. Her ideas explain what AI still misses and what is still relevant from research done 47 years ago. Much of what produc",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-06T17:57:51.685624+00:00"
-   },
-   {
-    "id": "6bbb4a1d91cc297d",
-    "date": "2026-11-06",
-    "published": "2026-11-06T04:12:29+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Native is a floor, not a ceiling",
-    "link": "https://uxdesign.cc/native-is-a-floor-not-a-ceiling-09bc4f27ddce?source=rss----138adf9c44c---4",
-    "summary": "With AI, a polished look costs nothing. Native brings what can’t be drawn, and it moves with the system, one step ahead of what imitates it. An AI assistant helped me write this. The ideas, the experience and the final edit are mine. In June 2025, Apple introduced Liquid Glass, the new material of i",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-06T17:57:51.685637+00:00"
-   },
-   {
-    "id": "cdc56f8bac5fc048",
-    "date": "2026-11-05",
-    "published": "2026-11-05T12:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "How Persona Stories Help You Design for Real People",
-    "link": "https://ixdf.org/literature/article/persona-stories-vs-user-stories",
-    "summary": "User stories caught on because they were quick and simple, but speed often came at the cost of real understanding. A “user” in a story is rarely more than a guess, shaped by the assumptions of whoever wrote it. When you shift to persona stories, you ground your work in real research and real people.",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T02:39:01.500412+00:00"
-   },
-   {
-    "id": "70a1b0b23348536f",
-    "date": "2026-11-05",
-    "published": "2026-11-05T10:49:10+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
-    "link": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
-    "summary": "Everyone seems to be asking whether AI will replace UX designers. I think that’s the wrong question. Following the numbers gets you a picture but doesn’t make you an artist | Russell Pinkston In March 2025, the Computer History Museum and IEEE Spectrum staged a debate on a single question: when a la",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-05T18:44:36.515938+00:00"
-   },
-   {
-    "id": "27e782add700a5ab",
-    "date": "2026-11-05",
-    "published": "2026-11-05T10:47:24+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Everyone’s got a quick question",
-    "link": "https://uxdesign.cc/everyones-got-a-quick-question-374a736ff7cb?source=rss----138adf9c44c---4",
-    "summary": "And you shouldn’t have to answer them all. Frequently asked questions in my inbox, recreated. I became the team’s search engine Every team has a person everyone reaches out to. They know where things live, why a decision went the way it did, and who to ask when you’re stuck. If you’re on a team, you",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-05T18:44:36.515947+00:00"
-   },
-   {
-    "id": "9364f01a2ed045b1",
-    "date": "2026-11-04",
-    "published": "2026-11-04T22:13:21+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "In a world of panic, calm and certainty win",
-    "link": "https://uxdesign.cc/in-a-world-of-panic-calm-and-certainty-win-525c17dd927f?source=rss----138adf9c44c---4",
-    "summary": "You can dread the future or help build it. The people who come through this already chose. While panic around what AI means for our industry is the reflex right now, calm is a decision. The calm that comes from knowing what you actually know is the rarest and most valuable thing you can bring to a m",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-05T03:28:36.521678+00:00"
-   },
-   {
-    "id": "f0c4cb54d17621a9",
-    "date": "2026-11-04",
-    "published": "2026-11-04T22:12:46+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "AI can generate the interface. What makes it worth caring about?",
-    "link": "https://uxdesign.cc/ai-can-generate-the-interface-what-makes-it-worth-caring-about-a5f3a3e81986?source=rss----138adf9c44c---4",
-    "summary": "As more product work is generated from shared patterns, designers need to decide where an experience should surprise, celebrate, or simply leave someone alone. Imagine asking an AI tool to design a task-completion state. The result has a checkmark, a friendly message, and a small burst of confetti. ",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-05T03:28:36.521685+00:00"
-   },
-   {
-    "id": "5a73980a44ff30eb",
-    "date": "2026-11-04",
-    "published": "2026-11-04T22:12:09+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "What AI has changed in Design Systems, and what is still up to us",
-    "link": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
-    "summary": "Three design experts told me how AI is changing the way we build and maintain Design Systems. And led me to think that “the future” is already happening now. What is the human role in creating and maintaining a design system in the AI era? Credit: Anna Lefour with Gemini. You’ve probably read, or ev",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-05T03:28:36.521688+00:00"
-   },
-   {
-    "id": "bb4c909dd34fc0b3",
-    "date": "2026-11-04",
-    "published": "2026-11-04T12:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Use Cases: The Ideal Bridge Between Requirements and Design?",
-    "link": "https://ixdf.org/literature/article/uses-cases-diagrams-narratives",
-    "summary": "Imagine trying to describe everything your product needs to do, without getting lost in technical detail or endless feature lists. That’s the problem Ivar Jacobson set out to solve in the 1980s when he introduced use cases. Instead of worrying about how a system worked internally, he described it fr",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T02:39:01.500414+00:00"
-   },
-   {
-    "id": "a9960399ad164b21",
-    "date": "2026-11-04",
-    "published": "2026-11-04T02:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "What is Good Design?",
-    "link": "https://ixdf.org/literature/article/what-is-good-design",
-    "summary": "Design matters. It enables us to understand, communicate and improve the world around us. When done right, design has the power to improve the everyday lives of users. When done wrong, design can disrupt and frustrate users. As a designer, you have the power to improve the everyday lives of your use",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T02:39:01.500415+00:00"
-   },
-   {
-    "id": "5435f1aaf91b75fd",
-    "date": "2026-11-04",
-    "published": "2026-11-04T01:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "How To Use Grid Systems",
-    "link": "https://ixdf.org/literature/article/how-to-use-grid-systems",
-    "summary": "Grids systems can help you add structure to your design, organize information and create a consistent user experience. When designing with grids, the best thing you can do is to choose the right grid for the right project. However, with so many grids to choose from, it can be hard to know where to s",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T02:39:01.500416+00:00"
-   },
-   {
-    "id": "fa1aca55c7e70609",
-    "date": "2026-11-04",
-    "published": "2026-11-04T01:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "The Basics of Type: Design Interfaces Users Keep Coming Back To",
-    "link": "https://ixdf.org/literature/article/what-is-type",
-    "summary": "Type is everywhere. In the books you read, the products you use, and even in this very website you're on right now. But what is type? In the context of design, type is the style or appearance of text. It can also refer to the process of working with text. Typography can often be an intimidating topi",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-09T02:39:01.500417+00:00"
-   },
-   {
-    "id": "efc0d08b480b3e77",
-    "date": "2026-11-04",
-    "published": "2026-11-04T00:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "What are Color Modes?",
-    "link": "https://ixdf.org/literature/article/what-are-color-modes",
-    "summary": "As a designer, it’s important to differentiate the color modes so you can optimize each stage of your design process. If you use the correct color mode in your design, you will also help get your message and tone across. In this lesson, we’ll define common color modes and help you understand when to",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T02:39:01.500418+00:00"
-   },
-   {
-    "id": "26fdec23e0ba53fb",
-    "date": "2026-11-03",
-    "published": "2026-11-03T22:40:34+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Everyone is building AI agents. Who’s designing the stop button?",
-    "link": "https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c?source=rss----138adf9c44c---4",
-    "summary": "We used to design predictable user flows. Now AI can interpret, decide, and act on its own. Here’s why the hardest design decisions happen where that autonomy ends. Showing where AI stops in the flow — by gpt In September 2025, researchers at Thinking Machines Lab ran the same prompt through a langu",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-04T03:00:16.815747+00:00"
-   },
-   {
-    "id": "a8260d9037f70c60",
-    "date": "2026-11-03",
-    "published": "2026-11-03T22:37:40+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "I let AI build. I don’t let AI decide.",
-    "link": "https://uxdesign.cc/i-let-ai-build-i-dont-let-ai-decide-b3892a87feb3?source=rss----138adf9c44c---4",
-    "summary": "A long workbench split down the middle, finished tools stacked on one side and a single open notebook on the other. My list of tasks I give models without a second thought and what I review until the tools evolve. I’ve used generative models for almost four years and designed machine learning applic",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-04T03:00:16.815762+00:00"
-   },
-   {
-    "id": "9558b6a483f4bafb",
-    "date": "2026-11-03",
-    "published": "2026-11-03T22:36:49+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "What do you do when a design solution is already pre-built?",
-    "link": "https://uxdesign.cc/what-do-you-do-when-a-design-solution-is-already-pre-built-85d20edba31f?source=rss----138adf9c44c---4",
-    "summary": "How to deal with the “Fastest Idea in the Room” Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-04T03:00:16.815766+00:00"
-   },
-   {
-    "id": "08e8bf6def624ba6",
-    "date": "2026-11-03",
-    "published": "2026-11-03T22:36:33+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Agents struggle with the same bad UX we do",
-    "link": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
-    "summary": "Computer-use agents can’t guess, improvise, or ask a coworker. That makes them the most honest usability testers we’ve ever had. The first time I watched an agent fail on a vendor portal, I recognized the failure immediately. Not because I understood the model. Because I’d failed in exactly the same",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ai-product",
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-04T03:00:16.815769+00:00"
-   },
-   {
-    "id": "f435f0845e127199",
-    "date": "2026-11-03",
-    "published": "2026-11-03T10:09:09+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "What I learned teaching AI prototyping at university",
-    "link": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
-    "summary": "Teaching students how to prototype with AI tools instead of Figma revealed exciting possibilities and uncomfortable trade-offs. It also offered valuable insight into how non-tech people can create apps with generative AI. I teach digital prototyping to fashion design undergraduates and master’s stud",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-03T18:26:16.022819+00:00"
-   },
-   {
-    "id": "890a1442f702ad79",
-    "date": "2026-11-03",
-    "published": "2026-11-03T10:08:25+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "The pole and the stake",
-    "link": "https://uxdesign.cc/the-pole-and-the-stake-2cfba6c08bca?source=rss----138adf9c44c---4",
-    "summary": "On going with the current, changing it, and what designers are asked to do Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-03T18:26:16.022828+00:00"
-   },
-   {
-    "id": "73bed9d266a2f92d",
-    "date": "2026-11-03",
-    "published": "2026-11-03T10:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "The 5 Pixar Storytelling Principles That Will Redefine How You Present and Fast-Track Your Career",
-    "link": "https://ixdf.org/literature/article/the-5-pixar-storytelling-principles-that-will-redefine-how-you-present-and-fast-track-your-career",
-    "summary": "Ever sat through a presentation that felt like watching paint dry? You’re not alone. Most presentations miss one vital ingredient: Storytelling. And when it comes to telling stories that make people laugh, cry, or rethink their entire worldview… no one does it like Pixar. They’ve mastered the art of",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-09T02:39:01.500419+00:00"
-   },
-   {
-    "id": "cff43a7ac0603197",
-    "date": "2026-11-02",
-    "published": "2026-11-02T17:56:46+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "State of a system",
-    "link": "https://uxdesign.cc/state-of-a-system-5c8473db1e9?source=rss----138adf9c44c---4",
-    "summary": "Almost eight years ago, I started working on a design system that I got the opportunity to revisit just a few years later. The second round became as big a push with far fewer people. Now, three years after ending the work I’m finally ready to share that experience. My thesis: A rigid design kit is ",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "notification",
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-02T20:45:52.537738+00:00"
-   },
-   {
-    "id": "07896165295e9a44",
-    "date": "2026-11-02",
-    "published": "2026-11-02T17:55:34+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Virtue ethics in everyday interface design",
-    "link": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
-    "summary": "How wording, hierarchy, and moments of friction can support considered action. Aristotle statue by Jerry Anderson at Southern Utah University’s Centurium, Cedar City, Utah. Image source: Southern Utah University . One thing that troubles me about designers is how readily some treat public expression",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-02T20:45:52.537751+00:00"
-   },
-   {
-    "id": "b5f63234c990ac14",
-    "date": "2026-11-02",
-    "published": "2026-11-02T10:22:22+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
-    "link": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
-    "summary": "Weekly curated resources for designers — thinkers and makers. “Open any product you pay for and look at the top right corner. There is a sparkle. Behind it is a panel that slides in from the right, says “Ask anything”, and offers three suggestions you did not ask for. Close it and it comes back afte",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-02T20:45:52.537754+00:00"
-   },
-   {
-    "id": "36ffe4c5a336a89d",
-    "date": "2026-11-02",
-    "published": "2026-11-02T08:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "5 Ways to Use Behavioral Science to Create Better Products",
-    "link": "https://ixdf.org/literature/article/5-ways-to-use-behavioral-science-to-create-better-products",
-    "summary": "A myriad of fields, skills and insights come together to create the overarching discipline of user experience design. Psychology and behavioral science play a big part in UX design because understanding people, the way their minds work, what they want and don’t want, will help us create better produ",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-09T02:39:01.500420+00:00"
-   },
-   {
-    "id": "6c2f6fb28fee446a",
-    "date": "2026-11-01",
-    "published": "2026-11-01T16:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "The Relationship Between Visual Design and User Experience Design",
-    "link": "https://ixdf.org/literature/article/the-relationship-between-visual-design-and-user-experience-design",
-    "summary": "A common perception about UX designers is that we are artists who can create beautiful interfaces from a blank canvas. While the aesthetics of products are important, visual design is only one aspect of the design process – in which team members with different skillsets and expertise collaborate wit",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-02T02:28:56.255181+00:00"
-   }
-  ],
   "forecasting": [
    {
     "id": "01170e189da55782",
@@ -4556,15 +4571,15 @@
   ]
  },
  "tag_counts": {
-  "ai-product": 412,
-  "ux": 183,
-  "finance-product": 159,
-  "growth": 149,
-  "data": 63,
-  "notification": 43,
-  "dashboard": 37,
-  "forecasting": 21,
-  "retention": 16,
+  "ai-product": 388,
+  "ux": 177,
+  "finance-product": 151,
+  "growth": 138,
+  "data": 66,
+  "notification": 37,
+  "dashboard": 35,
+  "forecasting": 18,
+  "retention": 17,
   "onboarding": 9
  },
  "sources_ok": 57,
