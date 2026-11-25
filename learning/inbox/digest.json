@@ -1,16 +1,35 @@
 {
- "generated_at": "2026-11-24T21:10:34.868365+00:00",
+ "generated_at": "2026-11-25T05:26:15.394942+00:00",
  "window_days": 14,
- "total": 2641,
+ "total": 2511,
  "groups": {
   "china": [
    {
-    "id": "773eee645ad701f6",
-    "date": "2026-11-24",
-    "published": "2026-11-24T20:21:09+00:00",
+    "id": "ed2f5e304b1e43eb",
+    "date": "2026-11-25",
+    "published": "2026-11-25T13:00:00+00:00",
     "source": "InfoQ 中文",
-    "title": "OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样",
-    "link": "https://www.infoq.cn/article/qEXNRNufkiFkiUEU9aae?utm_source=rss&utm_medium=article",
+    "title": "谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
+    "link": "https://www.infoq.cn/article/YAc2TqCHc09kAFF1A7BS?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.000782+00:00"
+   },
+   {
+    "id": "0ddd60648538a9d4",
+    "date": "2026-11-25",
+    "published": "2026-11-25T12:00:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "领英自研 GitOps 引擎替代 Argo CD，用于 Kubernetes 部署",
+    "link": "https://www.infoq.cn/article/bRlUV5HDDY68ocVwWKOk?utm_source=rss&utm_medium=article",
     "summary": "点击查看原文>",
     "topics": [
      "china",
@@ -19,15 +38,15 @@
     ],
     "tags": [],
     "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.092082+00:00"
+    "first_seen": "2026-11-25T05:26:08.000793+00:00"
    },
    {
-    "id": "9745345d9448d2b0",
-    "date": "2026-11-24",
-    "published": "2026-11-24T14:12:36+00:00",
+    "id": "4f3d5365e6b9b13e",
+    "date": "2026-11-25",
+    "published": "2026-11-25T11:00:00+00:00",
     "source": "InfoQ 中文",
-    "title": "当 AI 改变一切，下一步如何构建？",
-    "link": "https://www.infoq.cn/article/iRm9lBSQj0OCvDdgLQrO?utm_source=rss&utm_medium=article",
+    "title": "作者访谈：finprim——TypeScript 金融校验统一库实践案例",
+    "link": "https://www.infoq.cn/article/xcfFQPW9fF1hVHyOdE0R?utm_source=rss&utm_medium=article",
     "summary": "点击查看原文>",
     "topics": [
      "china",
@@ -36,15 +55,15 @@
     ],
     "tags": [],
     "lang": "zh",
-    "first_seen": "2026-11-24T06:57:16.437596+00:00"
+    "first_seen": "2026-11-25T05:26:08.000796+00:00"
    },
    {
-    "id": "c67ee434b56d443d",
-    "date": "2026-11-24",
-    "published": "2026-11-24T14:00:00+00:00",
+    "id": "5d241d3462e2929d",
+    "date": "2026-11-25",
+    "published": "2026-11-25T10:30:02+00:00",
     "source": "InfoQ 中文",
-    "title": "技术债务具有社会性：它是边做边学的代价",
-    "link": "https://www.infoq.cn/article/rdfEoVWlwvbrW0MCsFKs?utm_source=rss&utm_medium=article",
+    "title": "Octop 托管 CodeBuddy 实战：打造 7×24 小时在线的 AI 程序员",
+    "link": "https://www.infoq.cn/article/cgiP7vstrXKH94L1zj76?utm_source=rss&utm_medium=article",
     "summary": "点击查看原文>",
     "topics": [
      "china",
@@ -53,211 +72,138 @@
     ],
     "tags": [],
     "lang": "zh",
-    "first_seen": "2026-11-24T06:57:16.437605+00:00"
+    "first_seen": "2026-11-25T05:26:08.000797+00:00"
    },
    {
-    "id": "c4a087493c6811ea",
-    "date": "2026-11-24",
-    "published": "2026-11-24T13:36:06+00:00",
+    "id": "c33d1682db4d7dc3",
+    "date": "2026-11-25",
+    "published": "2026-11-25T10:28:44+00:00",
+    "source": "InfoQ 中文",
+    "title": "用 Super-agent 的理念，拆解 Octop 团队模式",
+    "link": "https://www.infoq.cn/article/xJVcbBYI4m86a9TIA6HH?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.000799+00:00"
+   },
+   {
+    "id": "d8d628277e382b0a",
+    "date": "2026-11-25",
+    "published": "2026-11-25T10:00:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "Clipto首席科学家韩玫已确认出席 AICon北京，分享Agent 的长上下文从哪里来",
+    "link": "https://www.infoq.cn/article/XpM5q7sE88iSlxNsRrVu?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.000800+00:00"
+   },
+   {
+    "id": "9763e71c00997bab",
+    "date": "2026-11-25",
+    "published": "2026-11-25T10:00:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "Cloudflare 正式推出 Basin 无服务器分析服务",
+    "link": "https://www.infoq.cn/article/235X0EQdwejPvQYvlali?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.000802+00:00"
+   },
+   {
+    "id": "195f6693ce18c9db",
+    "date": "2026-11-25",
+    "published": "2026-11-25T10:00:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "Google Cloud 终于能“封顶”账单了，但超出的费用仍可能照常收",
+    "link": "https://www.infoq.cn/article/Wl4EJAhaA33aGwbqxwTS?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.000803+00:00"
+   },
+   {
+    "id": "aa3b56925f5ff36c",
+    "date": "2026-11-25",
+    "published": "2026-11-25T08:00:00+00:00",
+    "source": "InfoQ 中文",
+    "title": "性能提升 6.4 倍、依赖归零，Effect 4.0 值得立即升级吗？",
+    "link": "https://www.infoq.cn/article/f1gd1zOMyb76FoYtYEsG?utm_source=rss&utm_medium=article",
+    "summary": "点击查看原文>",
+    "topics": [
+     "china",
+     "ai",
+     "finance"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.000805+00:00"
+   },
+   {
+    "id": "6f2c034ce2543c1d",
+    "date": "2026-11-25",
+    "published": "2026-11-25T05:21:57+00:00",
+    "source": "36氪",
+    "title": "沪指盘中跌破3500点整数关口",
+    "link": "https://36kr.com/newsflashes/4084729727167111?f=rss",
+    "summary": "36氪获悉，沪指盘中跌破3500点整数关口。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.293728+00:00"
+   },
+   {
+    "id": "5b0dcd0f9ac6ad24",
+    "date": "2026-11-25",
+    "published": "2026-11-25T05:21:04+00:00",
     "source": "爱范儿",
-    "title": "18.79 万元起！比亚迪唐 EV 正式上市，砍掉七座换来 850km 续航，还有线控底盘",
-    "link": "https://www.ifanr.com/1691381?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "summary": "十年之后，比亚迪唐终于卸下了第三排的担子。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+    "title": "Seedance 2.5 级别，价格只要 1/10，我们实测了计划开源的 MAGI-2",
+    "link": "https://www.ifanr.com/1691445?utm_source=rss&utm_medium=rss&utm_campaign",
+    "summary": "AI 视频「烧钱」终结者 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
     "topics": [
      "china",
      "product"
     ],
     "tags": [],
     "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.883218+00:00"
+    "first_seen": "2026-11-25T05:26:09.237280+00:00"
    },
    {
-    "id": "0b315b1615ac369c",
-    "date": "2026-11-24",
-    "published": "2026-11-24T13:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨",
-    "link": "https://www.infoq.cn/article/sFmubmDWkulIOTBLX0Dr?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-24T06:57:16.437608+00:00"
-   },
-   {
-    "id": "23846c2eba4dc45e",
-    "date": "2026-11-24",
-    "published": "2026-11-24T13:00:00+00:00",
+    "id": "a9758eaffdc13e3a",
+    "date": "2026-11-25",
+    "published": "2026-11-25T05:16:39+00:00",
     "source": "36氪",
-    "title": "小鹏发布图灵世界模型 WorldGPT",
-    "link": "https://36kr.com/newsflashes/4083764431776385?f=rss",
-    "summary": "36氪获悉，据小鹏汽车官微，近日，小鹏图灵世界模型家族新添一员——世界动作模型 WorldGPT。它在小鹏物理AI体系中作为云端teacher model，依托基座模型实现跨本体能力蒸馏和迁移，降低新本体的开发边际成本。同时，给它历史画面和指令，它会规划动作，预演世界随之发生的变化，看懂场景的语义与结构并用语言进行推理决策。据目前所知，这是首个能够在水、陆、空三栖六类本体完成预测与行动规划的世界模型。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "forecasting"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029638+00:00"
-   },
-   {
-    "id": "930d7420f2f61ad2",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:58:13+00:00",
-    "source": "36氪",
-    "title": "胜宏科技披露2026年前三季度利润分配方案，拟10派10元",
-    "link": "https://36kr.com/newsflashes/4083762681194887?f=rss",
-    "summary": "36氪获悉，胜宏科技公告，公司对2026年前三季度利润进行分配，分配方案如下：以实施2026年前三季度权益分派时股权登记日的总股本扣除公司回购专用证券账户股数为基数，向全体股东按每10股派发现金股利10元（含税）。以截至本公告披露日公司扣除回购专户的总股本初步测算，预计本次现金分红金额约为人民币9.83亿元，约占公司2026年前三季度归母净利润的29.04%。具体分红金额以公司实际分派为准。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029639+00:00"
-   },
-   {
-    "id": "5451bbdb794bc5f2",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:51:58+00:00",
-    "source": "36氪",
-    "title": "热门中概股美股盘前多数下跌，阿里巴巴跌超2%",
-    "link": "https://36kr.com/newsflashes/4083756534802823?f=rss",
-    "summary": "36氪获悉，热门中概股美股盘前多数下跌，截至发稿，阿里巴巴、京东、拼多多、百度、网易、理想汽车跌超2%，蔚来、微博跌超1%，哔哩哔哩跌0.73%；老虎证券涨超3%，小鹏集团涨超2%。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029640+00:00"
-   },
-   {
-    "id": "dbfcce5e78635338",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:48:12+00:00",
-    "source": "36氪",
-    "title": "美股大型科技股盘前普跌，英伟达跌超4%",
-    "link": "https://36kr.com/newsflashes/4083752835639683?f=rss",
-    "summary": "36氪获悉，美股大型科技股盘前普跌，截至发稿，SK海力士、英特尔跌超5%，英伟达、Anthropic跌超4%，Meta跌超1%，亚马逊跌0.86%，谷歌跌0.55%，微软跌0.43%，奈飞跌0.31%，特斯拉跌0.29%，苹果跌0.11%。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029641+00:00"
-   },
-   {
-    "id": "54b740b0f7039169",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:45:19+00:00",
-    "source": "36氪",
-    "title": "最前线丨联想擎天发布敦煌城市超级智能体，统一多模态交互入口",
-    "link": "https://36kr.com/p/4083749704116616?f=rss",
-    "summary": "图源/企业 作者丨欧雪 编辑丨袁斯来 智慧城市的概念演进多年后，行业对其评价标准正在发生变化。 过去十年，以“城市大脑”为代表的3.0阶段主要解决的是数据汇聚与可视化呈现，核心逻辑是“建平台、接数据、做看板”。但这种模式在落地中暴露出明显的结构性缺陷：各委办局的业务系统依然垂直孤立，AI能力被封装在一个个具体应用里，城市管理者面对跨域问题时，仍需人工在不同系统间协调。也就是说，所谓的“智慧”，更多停留在感知层，而非决策执行层。 11月20日，联想与敦煌联合发布的城市超级智能体，以及同期联想与IDC联合出品的《城市超级智能体白皮书》，为行业提供了一个观察智慧城市4.0落地路径的样本。 其中，ID",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "dashboard",
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029630+00:00"
-   },
-   {
-    "id": "ea72c4c8ed98a4de",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:43:28+00:00",
-    "source": "InfoQ 中文",
-    "title": "营销、销售与 RevOps 的单一可信源：每个答案背后的数据与上下文",
-    "link": "https://www.infoq.cn/video/cr6DkWNiQ4fKcs9yq0FP?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T06:57:16.437610+00:00"
-   },
-   {
-    "id": "fedb5275ac687800",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:40:02+00:00",
-    "source": "InfoQ 中文",
-    "title": "数据分析的下一站：智能体分析",
-    "link": "https://www.infoq.cn/video/Q0rXqh3OmSAhcePiDjh2?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-24T06:57:16.437612+00:00"
-   },
-   {
-    "id": "9a1b5ae84fcf1532",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:38:03+00:00",
-    "source": "36氪",
-    "title": "沙特阿拉伯预计2027年财政收入为1.202万亿里亚尔",
-    "link": "https://36kr.com/newsflashes/4083742864861825?f=rss",
-    "summary": "沙特阿拉伯预计2027年财政收入为1.202万亿里亚尔。（财联社）",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029643+00:00"
-   },
-   {
-    "id": "5f72e02df4fb82d2",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:36:05+00:00",
-    "source": "InfoQ 中文",
-    "title": "超越试点：销售管理者的 AI 转型行动指南",
-    "link": "https://www.infoq.cn/video/UU3P37LW5IE6Xg4O0cSN?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T06:57:16.437613+00:00"
-   },
-   {
-    "id": "42bbfe1296304577",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:32:04+00:00",
-    "source": "36氪",
-    "title": "谷歌计划收购伦敦国王十字区办公楼，进一步扩大英国AI研发中心",
-    "link": "https://36kr.com/newsflashes/4083736984152710?f=rss",
-    "summary": "11月24日，谷歌宣布，公司计划收购位于伦敦国王十字区的6 Pancras Square大楼，以扩大其在伦敦的办公园区。谷歌表示，此次投资将与公司在伦敦的Central Saint Giles办公楼及即将启用的Platform 37项目共同构成重要的AI研发中心，预计相关办公场所将容纳数千名员工，参与Gemini、搜���和YouTube等产品的开发。（界面）",
+    "title": "欧盟据悉拟推出规模500亿欧元的科技股权投资基金",
+    "link": "https://36kr.com/newsflashes/4084724527196553?f=rss",
+    "summary": "欧盟据悉拟推出规模500亿欧元的科技股权投资基金。（财联社）",
     "topics": [
      "china",
      "product",
@@ -267,16 +213,16 @@
      "finance-product"
     ],
     "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029644+00:00"
+    "first_seen": "2026-11-25T05:26:08.293729+00:00"
    },
    {
-    "id": "f7f290bd483ef508",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:28:10+00:00",
+    "id": "3209abba46736294",
+    "date": "2026-11-25",
+    "published": "2026-11-25T05:10:32+00:00",
     "source": "36氪",
-    "title": "摩根大通与汇丰首次在伦敦交易数字黄金",
-    "link": "https://36kr.com/newsflashes/4083733150968450?f=rss",
-    "summary": "摩根大通等主要贵金属交易商首次在伦敦交易一种新型数字黄金，初步测试一套可能重塑这个全球最大黄金交易中心基础设施的新系统。世界黄金协会在声明中表示，摩根大通、汇丰和StoneX Group上周首次通过实物金条的部分所有权权益完成交易。新系统仍处于试验阶段，但如果成功推广，可能成为数十年来伦敦黄金市场结构最重要的新增机制之一。（新浪财经）",
+    "title": "工业和信息化部脑机标委会工作组成立",
+    "link": "https://36kr.com/newsflashes/4084718515366530?f=rss",
+    "summary": "今日，工信部脑机接口标委会2026“标准周”活动举办。会上，工业和信息化部脑机标委会工作组正式成立。同时，正式发布《脑机接口解码算法评测研究报告（2026版）》。（证券时报）",
     "topics": [
      "china",
      "product",
@@ -284,16 +230,16 @@
     ],
     "tags": [],
     "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029645+00:00"
+    "first_seen": "2026-11-25T05:26:08.293731+00:00"
    },
    {
-    "id": "76d3b88fe8102e26",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:23:08+00:00",
+    "id": "6fa94890f1cbd0ef",
+    "date": "2026-11-25",
+    "published": "2026-11-25T05:07:11+00:00",
     "source": "36氪",
-    "title": "卢伟冰谈内存涨价",
-    "link": "https://36kr.com/newsflashes/4083728197216648?f=rss",
-    "summary": "36氪获悉，11月24日，小米集团总裁卢伟冰在财报电话会上表示，短期内存芯片的价格一直处于一个非常高的位置，的确对公司经营利润造成了压力，但并没有影响对未来的坚定投资。“我们会持续加大在AI芯片、机器人等领域（的投资），并且把这些领域的投资逐步落地到我们人车家全生态的业务里面去。”卢伟冰表示，虽然内存成本上涨放缓，但仍处于一个非常高的位置。至于如何消化成本影响，关键是要用产品创新来兑换成本，“不能简单地把产品涨价，要用产品的结构升级来稳住毛利率。”卢伟冰还提到，过去几个季度里，小米集团有较好的内存成本的库存，为公司应对内存成本涨价提供了较好的“缓冲垫”。",
+    "title": "贝莱德、IFM据悉考虑下调对Stack数据中心的收购报价",
+    "link": "https://36kr.com/newsflashes/4084715217119621?f=rss",
+    "summary": "11月25日，据报道，知情人士称，因行业波动加剧，由贝莱德和IFM Investors组成的财团正在考虑下调对Stack Infrastructure亚太地区数据中心的收购报价。知情人士称，该投资集团可能会削减要约中的股权部分，并将部分付款与项目交付情况挂钩。目前讨论仍在进行中，尚未做出最终决定。（界面）",
     "topics": [
      "china",
      "product",
@@ -303,106 +249,122 @@
      "finance-product"
     ],
     "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029646+00:00"
+    "first_seen": "2026-11-25T05:26:08.293732+00:00"
    },
    {
-    "id": "991ea907c94c8d5f",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:12:37+00:00",
-    "source": "36氪",
-    "title": "阿里健康发布中期业绩：总收入182.28亿元，同比增长9.2%",
-    "link": "https://36kr.com/newsflashes/4083717853145478?f=rss",
-    "summary": "11月24日，阿里健康发布中期业绩公告：总收入182.28亿元，同比增长9.2%，公司业务稳健增长，深度用户价值进一步凸显。报告期内，天猫健康平台用户年化ARPU稳定增长，自营店慢病用户年度活跃数与会员ARPU持续增长；平台服务商家数达6.8万余家，在线商品数1.09亿个；自营店SKU同比增长47.5%至超237万个；旗下医学AI“氢离子”业务进展优于预期。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [
-     "retention",
-     "growth"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029647+00:00"
-   },
-   {
-    "id": "e74bbdb42ee06fd0",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:11:44+00:00",
-    "source": "36氪",
-    "title": "复旦微电：拟0.5亿元—1亿元回购公司股份",
-    "link": "https://36kr.com/newsflashes/4083716990020227?f=rss",
-    "summary": "36氪获悉，复旦微电公告，拟0.5亿元—1亿元回购公司股份，用于员工持股及/或股权激励计划，回购价格不超过75元/股（不含本数）。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029648+00:00"
-   },
-   {
-    "id": "111eae1f81c6ca7c",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:03:36+00:00",
-    "source": "36氪",
-    "title": "联创股份：拟5000万元—1亿元回购公司股份",
-    "link": "https://36kr.com/newsflashes/4083708999526784?f=rss",
-    "summary": "36氪获悉，联创股份公告，拟5000万元—1亿元回购公司股份，用于股权激励或员工持股计划，回购价格不超过6.5元/股。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029649+00:00"
-   },
-   {
-    "id": "177b85d8609dd1fb",
-    "date": "2026-11-24",
-    "published": "2026-11-24T12:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "把 Rust 表达式直接翻译成 JavaScript，Topcoat 走了一条反 WASM 路线",
-    "link": "https://www.infoq.cn/article/obHr7mdXqLU1GLskZYN2?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
+    "id": "9da20a27e06c138b",
+    "date": "2026-11-25",
+    "published": "2026-11-25T05:02:43+00:00",
+    "source": "极客公园",
+    "title": "荣耀眼里的 AI 手机：前沿模型可以进来，但入口不能拿走",
+    "link": "http://www.geekpark.net/news/374462",
+    "summary": "作者｜张勇毅 编辑｜郑玄 11 月 23 日下午，荣耀在武汉发布了荣耀 700 系列，包括 700S、700 和 700 Pro 三款机型，补贴后 2899 元起，11 月 27 日开售。发布会上，全系 2 亿像素主摄、9000mAh 电池和背面那块 1.72 英寸小屏占了不少篇幅。 AI 手机助手 YOYO 豆包，这一代在荣耀 700 上有了专属的背屏显示载体｜图片来源：极客公园 但真正让手机圈竖起耳朵的，是荣耀官方通稿里的一个新称呼。荣耀手机上的 AI 助手一直叫 YOYO，到了荣耀 700 系列，它的正式名称变成了「AI 手机助手 YOYO 豆包」。 此前市面上搭载豆包手机助手的手机只有",
     "topics": [
      "china",
      "ai",
-     "finance"
+     "product"
     ],
     "tags": [],
     "lang": "zh",
-    "first_seen": "2026-11-24T06:57:16.437615+00:00"
+    "first_seen": "2026-11-25T05:26:15.251911+00:00"
    },
    {
-    "id": "a98d77c6a6ecbf81",
-    "date": "2026-11-24",
-    "published": "2026-11-24T11:52:44+00:00",
+    "id": "09b0c1230b6fc7a8",
+    "date": "2026-11-25",
+    "published": "2026-11-25T05:02:16+00:00",
     "source": "36氪",
-    "title": "业绩快报 | 唯品会三季度净营收204亿元，宣布派发3.4亿美元特别现金股息",
-    "link": "https://36kr.com/p/4083650419550601?f=rss",
-    "summary": "11月24日美股盘前，唯品会发布2026年第三季度财报。今年三季度，唯品会实现净营收204亿元（人民币，下同），Non-GAAP净利润13亿元。 具体来看，三季度唯品会超级大牌日和超级品类日栏目的整体业绩保持增长。其中，假期出游季、开学焕新季、七夕礼献、唯品运动节等主题活动紧扣场景化消费需求，销售表现良好；运动户外及换季时尚服饰品类展现出较强的消费韧性。 依托全球买手体系，唯品会持续在海内外拓展货源，把更具价格竞争力的优质商品带给用户，进一步强化折扣零售心智。热门服饰和户外品牌销售表现亮眼，尤其受高价值用户青睐。此外，折扣力度较大的品牌香水销售持续走高。 随着超V会员数突破千万，唯品会持续升级",
+    "title": "中美贸易理事会项下农业工作组首次会议在京举行",
+    "link": "https://36kr.com/newsflashes/4084710375795331?f=rss",
+    "summary": "36氪获悉，据商务部网站，11月23-24日，中美双方在北京举行中美贸易理事会项下农业工作组首次会议。双方以中美元首会晤重要共识为引领，就农产品监管及市场准入、农产品贸易等议题进行了坦诚、深入、建设性的交流。双方将继续通过农业工作组加强沟通，推动解决各自农业领域关切，助力中美经贸关系健康、稳定、可持续发展。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.293734+00:00"
+   },
+   {
+    "id": "a8d438eac02add18",
+    "date": "2026-11-25",
+    "published": "2026-11-25T05:00:47+00:00",
+    "source": "36氪",
+    "title": "越南计划于2028年启动高铁项目",
+    "link": "https://36kr.com/newsflashes/4084708932528521?f=rss",
+    "summary": "市场消息：越南计划于2028年启动高铁项目。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.293735+00:00"
+   },
+   {
+    "id": "05220b3095342050",
+    "date": "2026-11-25",
+    "published": "2026-11-25T04:57:29+00:00",
+    "source": "36氪",
+    "title": "Jeep将在3年内推多款新能源车，第一款明年上市",
+    "link": "https://36kr.com/newsflashes/4084705686514057?f=rss",
+    "summary": "11月25日，Stellantis（上海）汽车有限公司总经理潘立胤表示，公司已经明确了Jeep品牌未来的产品规划，接下来三年将带来多款新能源车型，价格区间覆盖入门、主流市场并延伸至豪华赛道。（新浪财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.293736+00:00"
+   },
+   {
+    "id": "d9bdda7d793390c6",
+    "date": "2026-11-25",
+    "published": "2026-11-25T04:50:56+00:00",
+    "source": "36氪",
+    "title": "久远银海：公司自研的“银海闻语”大模型已应用于医疗医保、数字政务和智慧城市等领域",
+    "link": "https://36kr.com/newsflashes/4084699238328704?f=rss",
+    "summary": "36氪获悉，久远银海在互动平台表示，公司自研的“银海闻语”大模型已应用于医疗医保、数字政务和智慧城市等领域。",
     "topics": [
      "china",
      "product",
      "ai"
     ],
     "tags": [
-     "growth"
+     "ai-product"
     ],
     "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029636+00:00"
+    "first_seen": "2026-11-25T05:26:08.293737+00:00"
    },
    {
-    "id": "dfe33c919c6da751",
-    "date": "2026-11-24",
-    "published": "2026-11-24T11:52:07+00:00",
+    "id": "790b21f8b422234a",
+    "date": "2026-11-25",
+    "published": "2026-11-25T04:44:07+00:00",
     "source": "36氪",
-    "title": "广东省新增36款已完成备案的生成式人工智能服务",
-    "link": "https://36kr.com/newsflashes/4083697698974342?f=rss",
-    "summary": "36氪获悉，据网信广东，截至11月24日，广东省新增36款已完成备案的生成式人工智能服务，累计已完成266款生成式人工智能服务备案。",
+    "title": "阿里健康宣布战略核心方向：做中国家庭长期可托付的AI健康管家",
+    "link": "https://36kr.com/newsflashes/4084692544891527?f=rss",
+    "summary": "11月25日，阿里健康在2027财年中期业绩分析师会上宣布公司下阶段战略重心：战略聚焦家庭健康，做中国家庭长期可托付的AI健康管家。公司将以“家庭健康档案”和“个人健康模型”为核心引擎，为中国有健康管理需求的家庭，精准定制覆盖防、筛、诊、治、康及保险支付全链路的长期解决方案。阿里健康董事会主席兼首席执行官余涌在会上表示：未来将深度绑定千问和集团多元用户场景，构建健康管理与服务闭环的Agent，为千问、淘宝、天猫、阿福等应用提供健康服务支撑。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.293739+00:00"
+   },
+   {
+    "id": "a5af28ea2814c1ae",
+    "date": "2026-11-25",
+    "published": "2026-11-25T04:43:51+00:00",
+    "source": "36氪",
+    "title": "独家谈判启动，比亚迪拟再买一家欧洲工厂",
+    "link": "https://36kr.com/newsflashes/4084692285598081?f=rss",
+    "summary": "法国时间11月24日，比亚迪确认，已与英力士汽车（INEOS Automotive）展开独家谈判，拟收购后者位于法国汉巴赫的制造工厂。该拟议交易仍须经相关企业工会协商。比亚迪称，公司目标是在汉巴赫工厂生产车辆时，充分考虑欧洲驾驶员的需求。据悉，通过这一收购项目，比亚迪将维持汉巴赫工厂的生产运营，支持当地就业，并为当地员工和供应商创造新的机遇。将制造环节更靠近欧洲消费者，是比亚迪强化在电动出行领域的领导地位并助力欧洲汽车工业发展的战略组成部分。（第一财经）",
     "topics": [
      "china",
      "product",
@@ -410,16 +372,36 @@
     ],
     "tags": [],
     "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029650+00:00"
+    "first_seen": "2026-11-25T05:26:08.293740+00:00"
    },
    {
-    "id": "683cd891b8c82efa",
-    "date": "2026-11-24",
-    "published": "2026-11-24T11:44:31+00:00",
+    "id": "19704715b16533be",
+    "date": "2026-11-25",
+    "published": "2026-11-25T04:42:30+00:00",
     "source": "36氪",
-    "title": "汉仪股份：拟2000万元—3500万元回购公司股份",
-    "link": "https://36kr.com/newsflashes/4083690231327106?f=rss",
-    "summary": "36氪获悉，汉仪股份公告，拟2000万元—3500万元回购公司股份，用于股权激励或员工持股计划，回购价格不超过38元/股。",
+    "title": "创业板引入做市商制度在即，券商积极筹备技术、业务准备",
+    "link": "https://36kr.com/newsflashes/4084690952497797?f=rss",
+    "summary": "深交所11月22日发布消息称创业板拟引入做市商制度，并起草细则性文件征求意见。最新获悉，深交所已向券商下发通知，要求券商按时做好开展创业板股票做市交易业务相关业务和技术准备，旨在确保做市商制度平稳落地，相关要求包括明确做市业务牵头负责人、开展技术相关筹备工作等等。目前，券商正陆续执行相关交易所安排。受访人士观点认为，创业板引入做市商制度是深化创业板改革的重要举措，有助于提高投资者成交效率、降低交易成本，进一步壮大稳市力量、增强市场韧性。（财联社）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "notification",
+     "finance-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.293741+00:00"
+   },
+   {
+    "id": "837187854bdb0fdc",
+    "date": "2026-11-25",
+    "published": "2026-11-25T04:33:00+00:00",
+    "source": "36氪",
+    "title": "我国首套600MW级压缩空气储能系统膨胀机顺利下线",
+    "link": "https://36kr.com/newsflashes/4084681607653767?f=rss",
+    "summary": "近日，我国在压缩空气储能系统研发领域取得重大突破。由中国科学院工程热物理研究所联合中储国能（北京）技术有限公司研制的国际首套600MW级压缩空气储能系统膨胀机完成集成测试，顺利下线。（央视新闻）",
     "topics": [
      "china",
      "product",
@@ -427,16 +409,16 @@
     ],
     "tags": [],
     "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029651+00:00"
+    "first_seen": "2026-11-25T05:26:08.293743+00:00"
    },
    {
-    "id": "066d528bb276a3a2",
-    "date": "2026-11-24",
-    "published": "2026-11-24T11:30:59+00:00",
+    "id": "590402aae3abda9e",
+    "date": "2026-11-25",
+    "published": "2026-11-25T04:25:43+00:00",
     "source": "36氪",
-    "title": "赛诺菲获法国巴黎银行和摩根大通提供350亿美元过桥贷款，用于收购Insmed",
-    "link": "https://36kr.com/newsflashes/4083676927519113?f=rss",
-    "summary": "11月24日，据报道，法国制药企业赛诺菲已获得法国巴黎银行和摩根大通提供的350亿美元过桥贷款，用于收购美国生物技术公司Insmed。这笔贷款由两家银行平均承销，各承担175亿美元。赛诺菲此前宣布以约410亿美元收购Insmed，旨在应对旗下重磅药物Dupixent未来面临的专利到期压力。（界面）",
+    "title": "美好医疗：脑机接口植入体产品已进入小批量供货阶段",
+    "link": "https://36kr.com/newsflashes/4084661432641924?f=rss",
+    "summary": "36氪获悉，美好医疗在互动平台表示，公司作为全球人工植入耳蜗龙头企业的战略合作伙伴与核心供应商，积累了丰富的精密制造经验。在此基础上，公司将相关核心工艺能力延伸至脑机接口植入体业务，逐步构建了涵盖精密注塑、钛合金加工、微组装、封装、检测等关键环节的能力体系，能够为下游客户提供从工艺开发到批量交付的制造支持。公司脑机接口植入体产品已进入小批量供货阶段，后续规模化落地节奏主要取决于下游客户的临床进展、产品注册以及商业化进程。",
     "topics": [
      "china",
      "product",
@@ -444,16 +426,16 @@
     ],
     "tags": [],
     "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029652+00:00"
+    "first_seen": "2026-11-25T05:26:08.293744+00:00"
    },
    {
-    "id": "7462d756a97274f4",
-    "date": "2026-11-24",
-    "published": "2026-11-24T11:27:56+00:00",
+    "id": "18bd9d6c90b8a3af",
+    "date": "2026-11-25",
+    "published": "2026-11-25T04:25:00+00:00",
     "source": "36氪",
-    "title": "科安达：拟6000万元—1亿元回购股份",
-    "link": "https://36kr.com/newsflashes/4083673926888067?f=rss",
-    "summary": "36氪获悉，科安达公告，公司拟以6000万元—1亿元回购股份，用于维护公司价值及股东权益，回购价格不超过18.49元/股。",
+    "title": "希音：与美国FTC订立协议，公司将向美国财政部支付1亿美元",
+    "link": "https://36kr.com/newsflashes/4084673754278528?f=rss",
+    "summary": "36氪获悉，希音在港交所公告，诚如公司日期为2026年8月24日的招股章程及2026年9月28日的2026中期报告所披露，美国联邦贸易委员会就公司在美国的业务运营开展了调查。公司宣布，为符合集团之客户、员工及业务的最佳利益，已于2026年11月24日与FTC就该调查订立一份协议。该协议将于有关法院批准后生效。根据该协议，公司将向美国财政部支付1亿美元的款项。该款项将于该协议生效后30日内支付。该协议并不构成公司对FTC相关指控的承认，本公司对FTC就本集团业务和合规实践所作的描述仍持不同意见。于本公告日期，除该协议所载事项外，公司董事会并不知悉FTC就该调查对公司提出其他重大未决金钱申索或业务",
     "topics": [
      "china",
      "product",
@@ -461,16 +443,16 @@
     ],
     "tags": [],
     "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029653+00:00"
+    "first_seen": "2026-11-25T05:26:08.293746+00:00"
    },
    {
-    "id": "2459c957c17ce0b5",
-    "date": "2026-11-24",
-    "published": "2026-11-24T11:24:17+00:00",
+    "id": "21a497d91b8191ea",
+    "date": "2026-11-25",
+    "published": "2026-11-25T04:20:54+00:00",
     "source": "36氪",
-    "title": "大烨智能：11月26日复牌并实施其他风险警示，股票简称变更为“ST大烨”",
-    "link": "https://36kr.com/newsflashes/4083670339774855?f=rss",
-    "summary": "36氪获悉，大烨智能公告，公司收到证监会江苏监管局《行政处罚事先告知书》，因2021年、2022年年度报告存在虚假记载事项，股票交易将被实施其他风险警示。公司股票于11月25日停牌一天，11月26日复牌并实施其他风险警示，股票简称变更为“ST大烨”，证券代码不变，日涨跌幅限制仍为20%。",
+    "title": "福立旺增资至4.58亿，增幅约14%",
+    "link": "https://36kr.com/newsflashes/4084659637447296?f=rss",
+    "summary": "36氪获悉，天眼查App显示，近日，福立旺精密机电（中国）股份有限公司发生工商变更，注册资本由约4.03亿元人民币增至约4.58亿元人民币，增幅约14%。该公司成立于2006年5月，法定代表人为许惠钧，经营范围包括风动和电动工具制造、金属工具制造、金属制日用品制造等。股东信息显示，该公司由WINWIN OVERSEAS GROUP LIMITED、卢大光、香港中央结算有限公司等共同持股。",
     "topics": [
      "china",
      "product",
@@ -478,16 +460,16 @@
     ],
     "tags": [],
     "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029654+00:00"
+    "first_seen": "2026-11-25T05:26:08.293747+00:00"
    },
    {
-    "id": "13c92fee890973d4",
-    "date": "2026-11-24",
-    "published": "2026-11-24T11:18:03+00:00",
+    "id": "b8bf6fcb9bfea282",
+    "date": "2026-11-25",
+    "published": "2026-11-25T04:10:08+00:00",
     "source": "36氪",
-    "title": "小米卢伟冰：小米汽车10月份交付量超5万，接下来还将有较大提升",
-    "link": "https://36kr.com/newsflashes/4083664217729416?f=rss",
-    "summary": "36氪获悉，11月24日，小米集团总裁卢伟冰在财报电话会上披露，小米汽车10月份交付量超5万，创年内单月新高，接下来还将有较大提升。卢伟冰表示，增程市场依然大有可为，小米澎程的上市也为该赛道带来了新的惊喜，上市首月锁单超7万，稳态期销量保持平稳。同时小米澎程也很大程度拓展丰富了小米汽车的用户构成，在更多圈层实现破圈：澎程用户年龄大于SU7/YU7，截至目前35岁以上用户占比超50%。",
+    "title": "神舟二十四号载人飞船与空间站组合体完成自主快速交会对接",
+    "link": "https://36kr.com/newsflashes/4084659139865219?f=rss",
+    "summary": "据中国载人航天工程办公室消息，神舟二十四号载人飞船入轨后，于北京时间2026年11月25日11时56分，成功对接于空间站天和核心舱前向端口，整个对接过程历时约3.5小时。按任务计划，3名航天员随后将从神舟二十四号载人飞船进入空间站天和核心舱。神舟二十三号航天员乘组已做好迎接神舟二十四号航天员乘组进驻各项准备工作。（央视新闻）",
     "topics": [
      "china",
      "product",
@@ -495,18 +477,272 @@
     ],
     "tags": [],
     "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029655+00:00"
+    "first_seen": "2026-11-25T05:26:08.293748+00:00"
    },
    {
-    "id": "c004639907713f66",
-    "date": "2026-11-24",
-    "published": "2026-11-24T11:16:14+00:00",
+    "id": "31d954833ecbbde6",
+    "date": "2026-11-25",
+    "published": "2026-11-25T04:02:47+00:00",
     "source": "36氪",
-    "title": "小米CFO林世伟：小米AI相关收入持续增加，今年160亿元AI投入正稳健落地",
-    "link": "https://36kr.com/newsflashes/4083662425156229?f=rss",
-    "summary": "36氪获悉，11月24日晚，小米集团CFO林世伟在财报电话会上表示，小米对AI的投入非常坚决，今年将在AI领域投入160亿元，目前正在沿着规划稳健落地，小米MiMo大模型的API调用量和AI相关收入都在持续增加。林世伟介绍称，小米AI业务现在还处于大规模投入期，除了持续投入基座模型的研发，还在加快推动AI落地“人车家全生态”，例如小米18 Fold就搭载了MiMo端侧大模型，澎湃OS 4的“超级小爱2.0”也深度集成了MiMo大模型。",
+    "title": "恒指午间休盘涨0.21%，恒生科技指数涨0.2%",
+    "link": "https://36kr.com/newsflashes/4084651909818759?f=rss",
+    "summary": "36氪获悉，恒指午间休盘涨0.21%，恒生科技指数涨0.2%；零售、消费者服务、食品饮料板块走强，名创优品涨超7%，呷哺呷哺涨超6%，阿里健康涨超4%；半导体、电气设备板块下挫，华虹宏力跌超13%，宁德时代跌6%；南向资金净流出2.47亿港元。",
     "topics": [
      "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.293750+00:00"
+   },
+   {
+    "id": "ee0df69a321facb4",
+    "date": "2026-11-25",
+    "published": "2026-11-25T03:48:59+00:00",
+    "source": "36氪",
+    "title": "雅戈尔董事长在上海成立信息咨询公司，注册资本1000万",
+    "link": "https://36kr.com/newsflashes/4084638340295302?f=rss",
+    "summary": "36氪获悉，天眼查App显示，近日，上海嘉锐泰信息咨询有限公司成立，法定代表人为雅戈尔董事长李寒穷，注册资本1000万元人民币，经营范围为信息技术咨询服务、信息咨询服务、社会经济咨询服务。股东信息显示，该公司由李寒穷全资持股。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.293751+00:00"
+   },
+   {
+    "id": "392e712d7d627d6d",
+    "date": "2026-11-25",
+    "published": "2026-11-25T03:45:20+00:00",
+    "source": "36氪",
+    "title": "半日主力资金加仓通信板块，抛售银行板块",
+    "link": "https://36kr.com/newsflashes/4084634755819905?f=rss",
+    "summary": "主力资金早间净流入通信、医药生物、有色金属等板块，净流出银行、电子、家用电器等板块。具体到个股���看，天孚通信、青山纸业、胜宏科技获净流入13.51亿元、8.09亿元、6.39亿元。净流出方面，寒武纪、中京电子、华虹宏力遭抛售4.17亿元、4.14亿元、4.02亿元。（第一财经）",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.293752+00:00"
+   },
+   {
+    "id": "23b22370023b3a11",
+    "date": "2026-11-25",
+    "published": "2026-11-25T03:43:38+00:00",
+    "source": "36氪",
+    "title": "鸿富诚：公司募投项目按计划推进中",
+    "link": "https://36kr.com/newsflashes/4084633080506757?f=rss",
+    "summary": "36氪获悉，鸿富诚在互动平台表示，公司募投项目按计划推进中。因基地建成及产线导入需要一定周期，现有产能承载趋于饱和，收购现成厂房可缩短建设周期，与募投项目形成衔接补充。",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.293753+00:00"
+   },
+   {
+    "id": "5bd86839d53c42a1",
+    "date": "2026-11-25",
+    "published": "2026-11-25T03:25:23+00:00",
+    "source": "人人都是产品经理",
+    "title": "如何注册一个微信小程序？注册，认证，备案详解。",
+    "link": "https://www.woshipm.com/share/6499934.html",
+    "summary": "想用 AI 做出自己的小程序，第一步不是写代码，而是先把账号注册下来。本文把流程拆成可照做的步骤：从微信公众平台选小程序注册，到邮箱验证码、设置密码、选择主体类型，再到认证与备案，每步都配了后台截图，不用装开发工具。 这篇文章主要是最近要跟大家分享一下怎么用AI做出来自己的小程序。 不过如果要做，第一件事情呢，肯定是要有一个小程序，可能还有很多朋友不知道怎么注册一个小程序。所以，这个系列的第一篇就是如何注册一个小程序。 因为毕竟有了小程序，才能继续做下一步。 请注意，不要担心，注册小程序不用写代码，也不用下载什么开发工具。准备一个你自己的邮箱，再把手机放在手边；如果是给公司或自己的店注册，营业",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.828962+00:00"
+   },
+   {
+    "id": "ffd2d4e5856240e3",
+    "date": "2026-11-25",
+    "published": "2026-11-25T03:24:21+00:00",
+    "source": "人人都是产品经理",
+    "title": "黄仁勋的鱼，贾国龙的羊",
+    "link": "https://www.woshipm.com/share/6499944.html",
+    "summary": "11 月 23 日，黄仁勋回到了他忠诚的英伟达。11 天前他黯然离场，小料从微波炉热鱼说到私下痛骂自己是烂人；同期贾国龙在内蒙古试水天边冰煮鲜羊，从预制菜风波里硬扛过来。鱼羊为鲜，两位 CEO 面对考验的姿态却完全相反。 11 月 23 日，伟大的显卡皇帝回到了他忠诚的英伟达。 就在 11 天前，“AAA 显卡批发黄总”黯然离场，市面上很快出现了不少关于这位执掌英伟达 23 年的 CEO 的劲爆小料。 （图源：memesearch） 据传，黄总曾经贪图享乐、生活奢靡，在办公室用微波炉热吃剩的鱼时没有盖盖子，结果鱼腥味在办公室足足盘旋了一周，堪称英伟达史上最持久的一次“气味输出”。 遥想当年，笔",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.828973+00:00"
+   },
+   {
+    "id": "cfbea4a582ebeaa1",
+    "date": "2026-11-25",
+    "published": "2026-11-25T03:22:59+00:00",
+    "source": "人人都是产品经理",
+    "title": "深度解析 DeepSeek Super-agent：多端协同的自主 Agent 设计思路",
+    "link": "https://www.woshipm.com/ai/6500050.html",
+    "summary": "Agent 正从单机工具走向全天候数字同事，但多端消息汇聚、长任务阻塞、结果回传错乱等问题仍困扰开发者。DeepSeek Harness 开源的 Super-agent 以 Router + Worker 双层架构给出解法，本文拆解其事件驱动、全双工交互与工程优化，并对比 Multi-Agent 与 Agent Team，提炼可落地的设计思路。 今年十月底，DeepSeek Harness 团队开源了一个新的原型项目，名字叫DSH Super-agent。如果说 DeepSeek Harness 是为 DeepSeek 的 Agent 开发范式打下了一个地基，那么 Super-agent 更像",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ai-product",
+     "ux"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.828976+00:00"
+   },
+   {
+    "id": "ca2e0c53490189b4",
+    "date": "2026-11-25",
+    "published": "2026-11-25T03:17:17+00:00",
+    "source": "36氪",
+    "title": "机器人上班、火箭卫星登场｜WISE把一座未来之城搬到了现场",
+    "link": "https://36kr.com/p/4084605857753478?f=rss",
+    "summary": "WISE2026未来之城展区怎么逛？最新打开方式，一文解锁。今年，WISE将在现场设置约1000平方米的未来展区。我们不把科技产品摆进展柜，我们 把一座正在生长的“未来之城”，提前开放给所有人。 在现场给机器人安排了工作 在未来展区，你会见到一群已经“找到工作”的机器人。优理奇科技将带来机器人乐队，光谷东智的机器人则准备转行当摄影师。你可以围观机器人如何完成一场协同表演，也可以思考一个问题：当机器人具备更好的感知、控制和协作能力，它是否会成为未来内容现场的一部分？ 站到指定位置，机器人会为你拍下一张现场照片，自动套上未来展区专属边框和水印。拍完不用原地等图，直接进入云端下载。德壹具身智能机器人",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.293713+00:00"
+   },
+   {
+    "id": "a7f0bb0eb711e0d4",
+    "date": "2026-11-25",
+    "published": "2026-11-25T03:08:50+00:00",
+    "source": "人人都是产品经理",
+    "title": "助贷支付业务全流程拆解：从签约、路由到清结算及 2026 年监管改造路径",
+    "link": "https://www.woshipm.com/evaluating/6499106.html",
+    "summary": "本文以担保模式助贷机构为背景，系统梳理助贷业务的支付全流程——包括支付方式选型、支付中台渠道路由、账务计费与清结算对账，并结合 2026 年 5 月上海地区支付机构窗口指导事件，给出三阶段方案改造路径。文中观点为个人实践总结，欢迎同行探讨指正。 一、业务背景与流程概述 笔者就职于一家担保模式助贷公司，本文总结的是 助贷业务的支付整体流程与系统能力 。 助贷 ，指助贷机构利用自身获客、数据、技术等能力，辅助银行、消费金融公司、信托等持牌放贷机构完成资金放款的金融服务模式。 担保模式助贷 ，是在上述能力之外，由助贷机构（或其关联方）通过融资担保公司、保险公司或保证金机制，为借款人向资金方提供连带责",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.828979+00:00"
+   },
+   {
+    "id": "332a3d7ef4ca6f84",
+    "date": "2026-11-25",
+    "published": "2026-11-25T03:08:45+00:00",
+    "source": "人人都是产品经理",
+    "title": "字节出手了：豆包「小豆」变成主动助理，硬刚3000万日活小微！",
+    "link": "https://www.woshipm.com/ai/6499926.html",
+    "summary": "11 月 24 日，豆包旗下个人助理小豆开启邀请制公测，主打不等你开口先把事办了。它和豆包共用账号、记忆与会员额度，四个 tab 是聊天、猜你想要、帮你跟进、关于你。面对微信小微 3000 万日活，字节正式下场。本文拆清它能干什么，邀请码怎么拿。 不知道你有没有过这种经历：想买的东西天天刷价格，周报拖到周末还得翻聊天记录，想盯个政策公告得自己记着？ 但是，但是，这些碎事，现在有人替你盯了。 这就是字节 11 月 24 日官宣的小豆干的事：它不等你开口，先把事办了。 你肯定想说：又是个 AI 助理，跟我用的豆包有啥区别？我劝你别急着划走——区别大了，这个是长在你生活里的。 微信小微日活已经300",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.828981+00:00"
+   },
+   {
+    "id": "1b8f233e2b31e70d",
+    "date": "2026-11-25",
+    "published": "2026-11-25T03:07:41+00:00",
+    "source": "少数派",
+    "title": "怀旧手记｜Palm Pre：内藏「划时代」系统的手机",
+    "link": "https://sspai.com/post/118791",
+    "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ... 查看全文",
+    "topics": [
+     "china",
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.331194+00:00"
+   },
+   {
+    "id": "27fc9113ae5e4433",
+    "date": "2026-11-25",
+    "published": "2026-11-25T03:07:17+00:00",
+    "source": "人人都是产品经理",
+    "title": "跑分赢了 Claude，却被骂“史上最难用”：GPT-6.2 的活，到底能不能交？",
+    "link": "https://www.woshipm.com/ai/6499923.html",
+    "summary": "GPT-6.2 Astra 出现典型的分裂评价：Agents' Last Exam 比上一代高 5.2 分，开发者却骂它史上最难用。有人让它连续 11 天优化 Rust 编译器，前 7 天编译速度反降 56%。本文把能力上限与交付可靠性拆开看。 GPT-6.2 Astra 发布后，出现了一个很典型的模型评价分裂：公开榜单分数上涨，开发者口碑却很差。它在专业任务、3D 生成和代码审查上被称为“断层强”，但也被批评长任务卡住、错误不汇报、执行过程难以监督。 这不是简单的“模型好不好用”争论，而是评测方式正在变化。过去大家比较参数、跑分和单轮输出；Agent 进入生产后，用户更关心一件事：我交给它的",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.828983+00:00"
+   },
+   {
+    "id": "3ed4ef04ab3cbeda",
+    "date": "2026-11-25",
+    "published": "2026-11-25T02:42:40+00:00",
+    "source": "人人都是产品经理",
+    "title": "网友：智谱研究出了新脑回路，老黄坐不住了",
+    "link": "https://www.woshipm.com/ai/6499915.html",
+    "summary": "7500 亿参数的 GLM-5.4，对标 2 万亿至 3 万亿参数模型的智能水平。差值来自一个叫 Loop Transformer 的改动：28 个计算层跑完第一遍后回头再跑一遍，不加参数、只加思考时间。本文从热搜段子切入，拆解智谱这次换了什么买法。 7500亿，干了3万亿的活。 11月23日，英伟达官宣黄仁勋回归，真新闻。同一天，智谱发布新一代旗舰模型GLM-5.4，也是真新闻。两件事之间没有因果关系，纯属日期巧合，整活除外。 但网友不管这些。热搜撞车的当晚，段子已经开始量产： “建议查一下时间线，说不准是Loop Transformer先动的手。” “智谱：我们只是让模型多想了一轮。老黄：",
+    "topics": [
+     "china",
+     "product"
+    ],
+    "tags": [],
+    "lang": "zh",
+    "first_seen": "2026-11-25T05:26:08.828985+00:00"
+   }
+  ],
+  "product": [
+   {
+    "id": "fe1c4d089bec9881",
+    "date": "2026-11-25",
+    "published": "2026-11-25T08:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Standard builds for existing Pro teams have moved to usage-based billing",
+    "link": "https://vercel.com/changelog/standard-builds-for-existing-pro-teams-have-moved-to-usage-based-billing",
+    "summary": "Existing Pro teams will no longer include a Standard build slot. This brings Standard builds under the same usage-based billing model as other build machines. Standard builds cost $0.014 per build minute, and your monthly usage credit applies to build usage. Billing applies to all projects on the te",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:14.266367+00:00"
+   },
+   {
+    "id": "064cde63a438e81b",
+    "date": "2026-11-24",
+    "published": "2026-11-24T18:00:00+00:00",
+    "source": "Vercel News",
+    "title": "All Sandbox runtimes now use Vercel Managed Images",
+    "link": "https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images",
+    "summary": "All Vercel Sandbox runtimes now use Vercel Managed Images (VMIs). Legacy runtimes, such as node22 , now use the open-source images in the vercel/sandbox repository , distributed through Vercel Container Registry (VCR). Sandboxes created with these now come with 64 GB of storage and use the same infr",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.706037+00:00"
+   },
+   {
+    "id": "0d52bb79660dfe52",
+    "date": "2026-11-24",
+    "published": "2026-11-24T14:00:00+00:00",
+    "source": "Product Talk (Teresa Torres)",
+    "title": "Bugs - All Things Product Podcast with Teresa Torres & Petra Wille",
+    "link": "https://www.producttalk.org/bugs-all-things-product-podcast-with-teresa-torres-petra-wille/",
+    "summary": "Listen to this episode on: Spotify | Apple Podcasts In a world of AI products, what even counts as a “bug” — and can you still promise to fix it? Petra Wille and Teresa Torres take on a word that’s quietly breaking down in the age of",
+    "topics": [
      "product",
      "ai"
     ],
@@ -514,199 +750,666 @@
      "ai-product",
      "data"
     ],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029656+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.532358+00:00"
    },
    {
-    "id": "0870abeeb8e6032b",
-    "date": "2026-11-24",
-    "published": "2026-11-24T11:11:42+00:00",
-    "source": "36氪",
-    "title": "Anthropic盘前价格跌破发行价",
-    "link": "https://36kr.com/newsflashes/4083657973049992?f=rss",
-    "summary": "36氪获悉，Anthropic美股盘前跌幅扩大至5%，跌破83美元的IPO发行价。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029657+00:00"
-   },
-   {
-    "id": "64a7b8d0dd6e7556",
-    "date": "2026-11-24",
-    "published": "2026-11-24T11:08:38+00:00",
-    "source": "36氪",
-    "title": "长华集团：不从事人形机器人整机业务",
-    "link": "https://36kr.com/newsflashes/4083654955772290?f=rss",
-    "summary": "36氪获悉，长华集团发布股票交易风险提示，公司为汽车零部件上市公司，主要从事汽车金属零部件的研发、生产与销售，核心产品为紧固件、冲焊件，不从事人形机器人整机业务，仅为客户提供执行器专用结构件等相关部件产品，截至目前实现营业收入约8.8万元，上述��品是基于公司主营业务产品应用场景的拓展，占公司总营业收入的比例极小，对净利润无重大影响。关于行星滚柱丝杠产品，目前仍处于研发阶段，尚未获得客户定点，也未实现营业收入，对业绩不构成影响。",
-    "topics": [
-     "china",
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029658+00:00"
-   },
-   {
-    "id": "95198c7ee973539a",
-    "date": "2026-11-24",
-    "published": "2026-11-24T11:04:40+00:00",
-    "source": "爱范儿",
-    "title": "实测小豆：主动办事的背后，AI 正在走向每一个人",
-    "link": "https://www.ifanr.com/1691355?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "summary": "Personal Agent 的下半场，拼的是主动办事 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.883224+00:00"
-   },
-   {
-    "id": "14a260a16e259946",
+    "id": "a4a70966ff708941",
     "date": "2026-11-24",
     "published": "2026-11-24T11:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”",
-    "link": "https://www.infoq.cn/article/vaEUVvWD9AIaFXZhzSMH?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
+    "source": "Stratechery",
+    "title": "The Individual Exception",
+    "link": "https://stratechery.com/2026/the-individual-exception/",
+    "summary": "Jensen Huang has been granted an exception from managerial oversight; in the age of AI, he won't be the last.",
     "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "zh",
-    "first_seen": "2026-11-24T06:57:16.437617+00:00"
-   },
-   {
-    "id": "a94632ceda872d22",
-    "date": "2026-11-24",
-    "published": "2026-11-24T10:56:32+00:00",
-    "source": "人人都是产品经理",
-    "title": "《丑狐》爆火出圈，中式志怪成AI短剧新流量密码？",
-    "link": "https://www.woshipm.com/ai/6499108.html",
-    "summary": "AI短剧正让中式志怪与中式恐怖迎来集体复兴。《丑狐》播放量破5000万，《非妖哉》三集破亿，抖音#中式恐怖话题播放超84亿。从聊斋改编到民俗禁忌原创，AI不仅降低了冷门题材的试错成本，更让创作者能先做两集看反馈。本文拆解这波热潮背后的内容逻辑与开发方式变革。 狐妖变脸、古宅怪谈、冥婚禁忌……今年以来，中式志怪、中式恐怖正在AI短剧、漫剧中悄然迎来复兴。 11月，改编自《聊斋志异》的AI仿真人短剧《丑狐》意外出圈，不仅单篇播放量突破5000万、点赞超过200万，还引发全网热议，登上微博热搜。剧中“人一旦寒心，脸是会跟着变的”成为社交平台热梗，美妆博主争相模仿剧中造型，平台甚至推出了专属变脸特效。",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:29.236221+00:00"
-   },
-   {
-    "id": "097825ab0a285da3",
-    "date": "2026-11-24",
-    "published": "2026-11-24T10:46:46+00:00",
-    "source": "InfoQ 中文",
-    "title": "基于紫光展锐UIS7885的首个5G开源派诞生！",
-    "link": "https://www.infoq.cn/article/eX1YFM98P3MvrYqBbo0x?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T06:57:16.437619+00:00"
-   },
-   {
-    "id": "931a9292ca7cb7c1",
-    "date": "2026-11-24",
-    "published": "2026-11-24T10:30:04+00:00",
-    "source": "爱范儿",
-    "title": "华为发布了大折叠手机和小折叠电脑，但 1 亿鸿蒙设备才是最大的亮点",
-    "link": "https://www.ifanr.com/1691302?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "summary": "一亿台鸿蒙设备之后 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-    "topics": [
-     "china",
-     "product"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.883226+00:00"
-   },
-   {
-    "id": "dbf18c88f309868f",
-    "date": "2026-11-24",
-    "published": "2026-11-24T10:15:01+00:00",
-    "source": "36氪",
-    "title": "拐点之后，请以我的名字呼唤我｜WISE2026议程完整公布",
-    "link": "https://36kr.com/p/4083598510025094?f=rss",
-    "summary": "“是不是AI公司”“站在哪条赛道”“对标谁”，已经不足以解释一家公司，更重要的问题是一家企业做过什么、正在解决什么，以及准备把未来带向哪里。11月26日至28日，WISE2026将用三天六个篇章，展开一场从看见拐点、进入现场到再定义未来的商业对话。 这也是WISE2026希望通过“请以我的名字呼唤我”回应的时代命题：拨开赛道、估值与人设的标签，回到一个人、一家公司真正做过的事，以及它为世界留下的价值。 DAY 1：拐点已来，此刻正在发生 第一天要回答的问题是， 哪些曾经被当作趋势的事，已经成为必须面对的现实？ 上午篇章“拐点已来”，将从具身智能切入。36氪CEO冯大刚将与宇树科技股份有限公司创",
-    "topics": [
-     "china",
      "product",
      "ai"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:28.029637+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.474784+00:00"
    },
    {
-    "id": "448169f2cf1187f3",
+    "id": "c7b0ac474fdaaf24",
     "date": "2026-11-24",
-    "published": "2026-11-24T10:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "从“抗议性分叉”到可信替代，OpenBao 开始挑战 Vault 企业版",
-    "link": "https://www.infoq.cn/article/6JtyOTOrD8TmBT3abP8V?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
+    "published": "2026-11-24T06:26:55+00:00",
+    "source": "Product Hunt",
+    "title": "Agenda Hero Magic Labs",
+    "link": "https://www.producthunt.com/products/agenda-hero-magic",
+    "summary": "Any schedule. Any layout. Any style. Discussion | Link",
     "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T06:57:16.437620+00:00"
-   },
-   {
-    "id": "7c406c16324241c2",
-    "date": "2026-11-24",
-    "published": "2026-11-24T10:00:00+00:00",
-    "source": "InfoQ 中文",
-    "title": "从批量生成到业务可用：电商 AI 剪辑的工程取舍与实践复盘｜AICon北京",
-    "link": "https://www.infoq.cn/article/YMYl4DVNr1pRKD8ITfaW?utm_source=rss&utm_medium=article",
-    "summary": "点击查看原文>",
-    "topics": [
-     "china",
-     "ai",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T06:57:16.437622+00:00"
-   },
-   {
-    "id": "a600695a32ac057c",
-    "date": "2026-11-24",
-    "published": "2026-11-24T09:58:05+00:00",
-    "source": "极客公园",
-    "title": "黄仁勋，离开英伟达的 11 天",
-    "link": "http://www.geekpark.net/news/374431",
-    "summary": "作者｜徐珊 编辑｜郑玄 11 月 12 日，执掌英伟达 33 年的黄仁勋因被曝两段婚外情，突然辞去 CEO、总裁及董事职务，即刻生效。 硅谷，迎来一场剧烈的风暴。 11 月 17 日，黄仁勋在社交媒体发声，为给董事会制造麻烦深表后悔，同时明确递出话头，只要符合股东、员工与公司的最佳利益， 他随时愿意回归 。这封声明让英伟达股价在 27 分钟内从 150.45 美元跳涨至 155.35 美元。然而同一天的财报电话会上，董事会主席哈维·琼斯冷硬地关上了门，宣布一致接受辞职，「无意让他复任 CEO」，并透露已聘请猎头公司海德思哲寻找继任者。 资本市场和科技圈，随即用最暴烈的方式投了反对票。 黄仁勋离",
-    "topics": [
-     "china",
-     "ai",
      "product"
     ],
     "tags": [],
-    "lang": "zh",
-    "first_seen": "2026-11-24T21:10:34.793617+00:00"
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257496+00:00"
+   },
+   {
+    "id": "f7ab3d0b9446f64f",
+    "date": "2026-11-24",
+    "published": "2026-11-24T05:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Delete a run's data on demand in Workflow SDK",
+    "link": "https://vercel.com/changelog/delete-run-data-workflow-sdk",
+    "summary": "The Workflow SDK now lets you delete a finished run's stored data on demand. This feature gives you the ability to quickly meet compliance and security requirements when sensitive data needs to be purged from run payloads. Deleting a run's data deletes any inputs, outputs, hook payloads, and error t",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.706041+00:00"
+   },
+   {
+    "id": "1527355e5e45aa0a",
+    "date": "2026-11-24",
+    "published": "2026-11-24T05:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Flags SDK now works on Vercel without FLAGS_SECRET",
+    "link": "https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret",
+    "summary": "With flags@4.5.0 , projects on Vercel can use Flags Explorer and precompute without FLAGS_SECRET . That cuts out a setup step for new projects and removes the need to keep a shared secret in sync across microfrontends. Vercel signs Flags Explorer discovery requests and overrides, and the SDK encrypt",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:14.266374+00:00"
+   },
+   {
+    "id": "abddb5cf2d5036e6",
+    "date": "2026-11-24",
+    "published": "2026-11-24T05:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Agents can now manage AI Gateway through Vercel MCP",
+    "link": "https://vercel.com/changelog/agents-can-now-manage-ai-gateway-through-vercel-mcp",
+    "summary": "Your agent can now manage AI Gateway through Vercel MCP . Ask it in plain language to: Manage virtual models : Create reusable model IDs with saved settings, then list, inspect, update, or restore them. Configure routing rules : View, add, and update team-wide rules that redirect requests to another",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:14.266376+00:00"
+   },
+   {
+    "id": "6d06d1b5a4b17b08",
+    "date": "2026-11-24",
+    "published": "2026-11-24T04:54:41+00:00",
+    "source": "Product Hunt",
+    "title": "Hourly Journal",
+    "link": "https://www.producthunt.com/products/hourly-journal",
+    "summary": "Journal your hours, understand your days Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257472+00:00"
+   },
+   {
+    "id": "2e1f91d335e84902",
+    "date": "2026-11-24",
+    "published": "2026-11-24T04:45:20+00:00",
+    "source": "Product Hunt",
+    "title": "Finer Screenshot",
+    "link": "https://www.producthunt.com/products/finer-screenshot",
+    "summary": "Add text that automatically stays readable on any background Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257476+00:00"
+   },
+   {
+    "id": "1e2dfa3b9bbbac84",
+    "date": "2026-11-24",
+    "published": "2026-11-24T03:40:58+00:00",
+    "source": "Product Hunt",
+    "title": "Kodak SlideTag",
+    "link": "https://www.producthunt.com/products/kodak-slidetag",
+    "summary": "A 1935 film-slide E-Ink frame that tracks like an AirTag Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257464+00:00"
+   },
+   {
+    "id": "d9574cf0f5856e29",
+    "date": "2026-11-24",
+    "published": "2026-11-24T03:08:21+00:00",
+    "source": "Product Hunt",
+    "title": "Juncts",
+    "link": "https://www.producthunt.com/products/juncts",
+    "summary": "Superhuman for your DMs, with AI that triages and drafts Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257467+00:00"
+   },
+   {
+    "id": "6ffb07cf5b1df509",
+    "date": "2026-11-24",
+    "published": "2026-11-24T02:57:54+00:00",
+    "source": "Product Hunt",
+    "title": "Mystonie",
+    "link": "https://www.producthunt.com/products/mystonie",
+    "summary": "Log movies, shows, books & games — turn finishes into art Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257462+00:00"
+   },
+   {
+    "id": "c18cc0d59364d30f",
+    "date": "2026-11-24",
+    "published": "2026-11-24T01:33:35+00:00",
+    "source": "Product Hunt",
+    "title": "Pinned",
+    "link": "https://www.producthunt.com/products/pinned",
+    "summary": "Ask the city where to go tonight with your friends Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257491+00:00"
+   },
+   {
+    "id": "61a808acaed9f468",
+    "date": "2026-11-24",
+    "published": "2026-11-24T00:34:06+00:00",
+    "source": "Product Growth (Aakash Gupta)",
+    "title": "A FAANG PM's Guide to Practical AI Evals",
+    "link": "https://www.news.aakashg.com/p/practical-ai-evals",
+    "summary": "Former Google, Amazon, Meta and Microsoft AI PM Mahesh Yadav shows how to build practical AI evals in 4 steps, using Microsoft Foundry.",
+    "topics": [
+     "product",
+     "ai",
+     "growth"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-24T06:57:25.621647+00:00"
+   },
+   {
+    "id": "2f9bf4596a53ab11",
+    "date": "2026-11-24",
+    "published": "2026-11-24T00:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Inkling 2 Mini now available on AI Gateway",
+    "link": "https://vercel.com/changelog/inkling-2-mini-now-available-on-ai-gateway",
+    "summary": "Inkling 2 Mini from Thinking Machines is now available on AI Gateway. The small multimodal reasoning model is built for agentic coding, tool use, and knowledge work, with text and image inputs and text output. Inkling 2 Mini has 26.4 billion total parameters and 3.4 billion active per token. The mod",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.706043+00:00"
+   },
+   {
+    "id": "3b18df2c891bbb70",
+    "date": "2026-11-23",
+    "published": "2026-11-23T22:13:40+00:00",
+    "source": "Product Hunt",
+    "title": "Sotto",
+    "link": "https://www.producthunt.com/products/sotto-11",
+    "summary": "Hold a key, speak, clean text lands at your Linux cursor Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257497+00:00"
+   },
+   {
+    "id": "24b913c77013b79a",
+    "date": "2026-11-23",
+    "published": "2026-11-23T21:24:36+00:00",
+    "source": "Product Hunt",
+    "title": "Drift",
+    "link": "https://www.producthunt.com/products/drift-aef4d3de-e971-402b-b62f-613b9c79b4cd",
+    "summary": "Wallpaper that reflects the world around you Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257493+00:00"
+   },
+   {
+    "id": "c3c9dd521f50d964",
+    "date": "2026-11-23",
+    "published": "2026-11-23T21:22:27+00:00",
+    "source": "Product Hunt",
+    "title": "tday.com",
+    "link": "https://www.producthunt.com/products/tday",
+    "summary": "AI-recorded Screen Studio style editable demos Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257465+00:00"
+   },
+   {
+    "id": "c419898af735e664",
+    "date": "2026-11-23",
+    "published": "2026-11-23T21:00:36+00:00",
+    "source": "Product Hunt",
+    "title": "Claude Ship",
+    "link": "https://www.producthunt.com/products/claude-code",
+    "summary": "Ship code as fast as you can write it Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257462+00:00"
+   },
+   {
+    "id": "79bec864021f1927",
+    "date": "2026-11-23",
+    "published": "2026-11-23T19:09:40+00:00",
+    "source": "Product Hunt",
+    "title": "Wellbreak",
+    "link": "https://www.producthunt.com/products/wellbreak",
+    "summary": "Your wellbeing buddy in Mac's notch Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257460+00:00"
+   },
+   {
+    "id": "ac79242b4df192c0",
+    "date": "2026-11-23",
+    "published": "2026-11-23T19:01:35+00:00",
+    "source": "Product Hunt",
+    "title": "Almma's PII Guard",
+    "link": "https://www.producthunt.com/products/almma-s-pii-guard",
+    "summary": "Catch personal data before it reaches your AI chat Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257487+00:00"
+   },
+   {
+    "id": "3ddcc8e9a433edc0",
+    "date": "2026-11-23",
+    "published": "2026-11-23T18:57:21+00:00",
+    "source": "Product Hunt",
+    "title": "Even G2 Enterprise SDK",
+    "link": "https://www.producthunt.com/products/even-g2",
+    "summary": "Build custom business apps for Even G2 smart glasses Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257481+00:00"
+   },
+   {
+    "id": "173525ac9a39eb19",
+    "date": "2026-11-23",
+    "published": "2026-11-23T16:55:11+00:00",
+    "source": "Product Hunt",
+    "title": "Umami Manager",
+    "link": "https://www.producthunt.com/products/umami-manager",
+    "summary": "Umami reports, widgets & links – native on iPhone & iPad Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257463+00:00"
+   },
+   {
+    "id": "4f5abd3e04fc7d6c",
+    "date": "2026-11-23",
+    "published": "2026-11-23T16:52:44+00:00",
+    "source": "Product Hunt",
+    "title": "InField",
+    "link": "https://www.producthunt.com/products/infield-translate-and-refine",
+    "summary": "Translate and refine text where you type, on Mac and Chrome Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257482+00:00"
+   },
+   {
+    "id": "04c64f5d1d9706dd",
+    "date": "2026-11-23",
+    "published": "2026-11-23T16:47:25+00:00",
+    "source": "Product Hunt",
+    "title": "Finseo",
+    "link": "https://www.producthunt.com/products/finseo-ai",
+    "summary": "Company brain + outreach to get your brand mentioned by AI Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257470+00:00"
+   },
+   {
+    "id": "c7a47d86a53d9076",
+    "date": "2026-11-23",
+    "published": "2026-11-23T16:35:13+00:00",
+    "source": "Product Hunt",
+    "title": "Viktor Code",
+    "link": "https://www.producthunt.com/products/viktor",
+    "summary": "Coding agents know your repo. Viktor knows your company. Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257477+00:00"
+   },
+   {
+    "id": "c83dcb011ffc3c1a",
+    "date": "2026-11-23",
+    "published": "2026-11-23T16:11:52+00:00",
+    "source": "Product Hunt",
+    "title": "Fleetify",
+    "link": "https://www.producthunt.com/products/fleetify",
+    "summary": "Open-source command center for your AI coding agents Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257483+00:00"
+   },
+   {
+    "id": "0fa181a123ec39ab",
+    "date": "2026-11-23",
+    "published": "2026-11-23T16:01:48+00:00",
+    "source": "Lenny's Newsletter",
+    "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
+    "link": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+    "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+    "topics": [
+     "product",
+     "growth",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-23T22:38:49.696605+00:00"
+   },
+   {
+    "id": "bb971bb68a4c90be",
+    "date": "2026-11-23",
+    "published": "2026-11-23T15:51:28+00:00",
+    "source": "Product Hunt",
+    "title": "LayAuto 4",
+    "link": "https://www.producthunt.com/products/layauto-for-mac",
+    "summary": "Find any window, tab, or session on your Mac Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257498+00:00"
+   },
+   {
+    "id": "6697761c6c0070cd",
+    "date": "2026-11-23",
+    "published": "2026-11-23T13:39:26+00:00",
+    "source": "Product Hunt",
+    "title": "Astrolabio",
+    "link": "https://www.producthunt.com/products/astrolabio",
+    "summary": "Your AIs pick up right where you left off, on your Mac Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257475+00:00"
+   },
+   {
+    "id": "eb287810167bcd32",
+    "date": "2026-11-23",
+    "published": "2026-11-23T13:04:43+00:00",
+    "source": "Lenny's Newsletter",
+    "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
+    "link": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+    "summary": "Watch now (31 mins) | 🎙️ Ankit Maheshwari (CTO, Innovaccer) walks me through the OpenClaw Jarvis he runs on a Mac Mini to clear every 1% annoyance in his life",
+    "topics": [
+     "product",
+     "growth",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-23T22:38:49.696618+00:00"
+   },
+   {
+    "id": "c5dbbcc6133f7ed6",
+    "date": "2026-11-23",
+    "published": "2026-11-23T12:34:54+00:00",
+    "source": "Product Hunt",
+    "title": "frwrd.to",
+    "link": "https://www.producthunt.com/products/frwrd-to",
+    "summary": "Your link in bio, sorted by your AI in one message Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257469+00:00"
+   },
+   {
+    "id": "084ac8aec48a1178",
+    "date": "2026-11-23",
+    "published": "2026-11-23T11:00:00+00:00",
+    "source": "Stratechery",
+    "title": "Amazon Earnings, The Chip Question, About Agents",
+    "link": "https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/",
+    "summary": "Amazon makes the case they are not like other compute providers, even as they signal the willingness to give up margin to serve the frontier.",
+    "topics": [
+     "product",
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-23T22:38:49.816196+00:00"
+   },
+   {
+    "id": "edee701cdc0c1592",
+    "date": "2026-11-23",
+    "published": "2026-11-23T10:54:10+00:00",
+    "source": "Product Hunt",
+    "title": "Valley",
+    "link": "https://www.producthunt.com/products/valley-3",
+    "summary": "Outbound system to find people most likely to buy from you Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257492+00:00"
+   },
+   {
+    "id": "8eb494977266f9b2",
+    "date": "2026-11-23",
+    "published": "2026-11-23T08:44:25+00:00",
+    "source": "Product Hunt",
+    "title": "Clam AI",
+    "link": "https://www.producthunt.com/products/clam-ai",
+    "summary": "Your inbox, safely shared with AI agents Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257494+00:00"
+   },
+   {
+    "id": "b050c18c810b746d",
+    "date": "2026-11-23",
+    "published": "2026-11-23T07:07:05+00:00",
+    "source": "Product Hunt",
+    "title": "SparrowDesk Phone Calls",
+    "link": "https://www.producthunt.com/products/sparrowdesk",
+    "summary": "Phone support in the same inbox as email, chat & WhatsApp Discussion | Link",
+    "topics": [
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-24T21:10:32.257478+00:00"
+   },
+   {
+    "id": "accfeb9908f9055f",
+    "date": "2026-11-23",
+    "published": "2026-11-23T06:19:00+00:00",
+    "source": "Vercel News",
+    "title": "AI Gateway now runs canary ZDR audits",
+    "link": "https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits",
+    "summary": "AI Gateway now runs canary audits against inference providers to detect when prompt content is read outside the inference path. Contractual Zero Data Retention (ZDR) agreements and point-in-time security audits establish how a provider should handle your data, but production infrastructure changes c",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "retention",
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-23T22:38:50.978614+00:00"
+   },
+   {
+    "id": "28c4d4a7a2db825a",
+    "date": "2026-11-23",
+    "published": "2026-11-23T05:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Introducing Audited ZDR on AI Gateway",
+    "link": "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway",
+    "summary": "AI is now used in every part of a business, and as a result, companies send source code, customer records, and regulated data through inference providers. The assurance that no data is retained after processing is still publicly unverified. Payment platforms, cloud infrastructure, and most other lay",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-23T22:38:50.978626+00:00"
+   },
+   {
+    "id": "d9b458c2e0f2a82a",
+    "date": "2026-11-23",
+    "published": "2026-11-23T05:00:00+00:00",
+    "source": "Vercel News",
+    "title": "Vercel Drives adds CLI commands and standalone SDKs",
+    "link": "https://vercel.com/changelog/vercel-drives-adds-cli-commands-and-standalone-sdks",
+    "summary": "You can now create, list, fork, and delete Vercel Drives with the new vercel drives commands or standalone SDKs for TypeScript ( @vercel/drives ) and Python ( vercel-drives ). Drives also have a REST API at /v1/drives and Drive-specific permissions, so managing them no longer requires Sandbox APIs o",
+    "topics": [
+     "product",
+     "design"
+    ],
+    "tags": [
+     "data"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-23T22:38:50.978629+00:00"
    }
   ],
   "ai": [
+   {
+    "id": "054ddac7c8371519",
+    "date": "2026-11-25",
+    "published": "2026-11-25T04:29:07+00:00",
+    "source": "Latent Space (AINews)",
+    "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+    "link": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+    "summary": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+    "topics": [
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:07.220067+00:00"
+   },
+   {
+    "id": "5ee45fc63309ecc3",
+    "date": "2026-11-25",
+    "published": "2026-11-25T01:19:26+00:00",
+    "source": "Hacker News — Best",
+    "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+    "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+    "summary": "Article URL: https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf Comments URL: https://news.ycombinator.com/item?id=50637220 Points: 331 # Comments: 150",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:07.598455+00:00"
+   },
+   {
+    "id": "8caf92805426b7bd",
+    "date": "2026-11-24",
+    "published": "2026-11-24T23:02:07+00:00",
+    "source": "Simon Willison's Weblog",
+    "title": "Three LLM inflection points in twelve months",
+    "link": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+    "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going to pull out the major",
+    "topics": [
+     "ai"
+    ],
+    "tags": [
+     "ai-product"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:06.318755+00:00"
+   },
+   {
+    "id": "ca7efd0c9bb94d77",
+    "date": "2026-11-24",
+    "published": "2026-11-24T20:08:03+00:00",
+    "source": "Hacker News — Best",
+    "title": "Ternary Bonsai 2.5 27B",
+    "link": "https://prismml.com/news/bonsai-2-5-27b",
+    "summary": "Article URL: https://prismml.com/news/bonsai-2-5-27b Comments URL: https://news.ycombinator.com/item?id=50633922 Points: 385 # Comments: 129",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:07.598463+00:00"
+   },
    {
     "id": "e1da163523969220",
     "date": "2026-11-24",
@@ -739,6 +1442,38 @@
     ],
     "lang": "en",
     "first_seen": "2026-11-24T21:10:26.355147+00:00"
+   },
+   {
+    "id": "6c787a85e2e6a1c1",
+    "date": "2026-11-24",
+    "published": "2026-11-24T16:32:17+00:00",
+    "source": "Hacker News — Best",
+    "title": "Active intrusion campaign against Check Point security management servers",
+    "link": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+    "summary": "Article URL: https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign Comments URL: https://news.ycombinator.com/item?id=50630594 Points: 273 # Comments: 140",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:07.598466+00:00"
+   },
+   {
+    "id": "b535265101f02926",
+    "date": "2026-11-24",
+    "published": "2026-11-24T16:23:02+00:00",
+    "source": "Hacker News — Best",
+    "title": "Jetty Pro",
+    "link": "http://hypercritical.co/2026/11/23/jetty-pro",
+    "summary": "Article URL: http://hypercritical.co/2026/11/23/jetty-pro Comments URL: https://news.ycombinator.com/item?id=50630462 Points: 288 # Comments: 132",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:07.598467+00:00"
    },
    {
     "id": "4dbaea2697ae6123",
@@ -787,6 +1522,54 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-11-24T21:10:26.087726+00:00"
+   },
+   {
+    "id": "bc9058b8abe3655e",
+    "date": "2026-11-24",
+    "published": "2026-11-24T13:23:47+00:00",
+    "source": "Hacker News — Best",
+    "title": "Anthropic breaks below $83 IPO price",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+    "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading Comments URL: https://news.ycombinator.com/item?id=50627836 Points: 369 # Comments: 725",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:07.598469+00:00"
+   },
+   {
+    "id": "31bc9b6a56000390",
+    "date": "2026-11-24",
+    "published": "2026-11-24T13:19:31+00:00",
+    "source": "Hacker News — Best",
+    "title": "GTA 6 Running on Windows",
+    "link": "https://twitter.com/raul_bs3/status/2125213756238291075",
+    "summary": "Article URL: https://twitter.com/raul_bs3/status/2125213756238291075 Comments URL: https://news.ycombinator.com/item?id=50627783 Points: 330 # Comments: 430",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:07.598470+00:00"
+   },
+   {
+    "id": "3c6728c1bfd19879",
+    "date": "2026-11-24",
+    "published": "2026-11-24T13:00:00+00:00",
+    "source": "OpenAI News",
+    "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+    "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+    "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:06.770893+00:00"
    },
    {
     "id": "5e57d423bc79ab67",
@@ -1023,6 +1806,22 @@
     "first_seen": "2026-11-24T21:10:26.685961+00:00"
    },
    {
+    "id": "99b93f3e10984935",
+    "date": "2026-11-24",
+    "published": "2026-11-24T00:00:00+00:00",
+    "source": "OpenAI News",
+    "title": "Clay helps sales teams win with Codex and ChatGPT",
+    "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
+    "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+    "topics": [
+     "ai",
+     "product"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:06.770905+00:00"
+   },
+   {
     "id": "efc98a45d9318282",
     "date": "2026-11-23",
     "published": "2026-11-23T23:40:49+00:00",
@@ -1199,171 +1998,26 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-11-23T22:38:39.256883+00:00"
-   },
-   {
-    "id": "3c69fd56490c1622",
-    "date": "2026-11-23",
-    "published": "2026-11-23T17:07:26+00:00",
-    "source": "Hacker News — Best",
-    "title": "Dario is hyping the dangers so OSS models are illegal and he stays in control",
-    "link": "https://twitter.com/ylecun/status/2124550037912920090",
-    "summary": "Article URL: https://twitter.com/ylecun/status/2124550037912920090 Comments URL: https://news.ycombinator.com/item?id=50615308 Points: 785 # Comments: 454",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-23T22:38:39.256885+00:00"
-   },
-   {
-    "id": "c5903c8754bbbfd5",
-    "date": "2026-11-23",
-    "published": "2026-11-23T17:00:00+00:00",
-    "source": "Google — The Keyword (AI)",
-    "title": "A more tailored Google Search that’s uniquely yours",
-    "link": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
-    "summary": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-23T22:38:39.131448+00:00"
-   },
-   {
-    "id": "60fd17d3da0d1ed0",
-    "date": "2026-11-23",
-    "published": "2026-11-23T16:13:12+00:00",
-    "source": "Hacker News — Best",
-    "title": "Ladybird is now in alpha",
-    "link": "https://ladybird.org/posts/alpha/",
-    "summary": "Article URL: https://ladybird.org/posts/alpha/ Comments URL: https://news.ycombinator.com/item?id=50614249 Points: 1132 # Comments: 285",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-23T22:38:39.256887+00:00"
-   },
-   {
-    "id": "b1caefccb46a52ae",
-    "date": "2026-11-23",
-    "published": "2026-11-23T14:49:44+00:00",
-    "source": "Hacker News — Best",
-    "title": "Cyberleek posted the GTA 6 Xbox build executable",
-    "link": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable/",
-    "summary": "Article URL: https://www.reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable/ Comments URL: https://news.ycombinator.com/item?id=50612686 Points: 231 # Comments: 242",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-23T22:38:39.256888+00:00"
-   },
-   {
-    "id": "be9c8fb91e885ef9",
-    "date": "2026-11-23",
-    "published": "2026-11-23T14:01:23+00:00",
-    "source": "Hacker News — Best",
-    "title": "Jensen Huang Reinstated as Nvidia CEO",
-    "link": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-    "summary": "Article URL: https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director Comments URL: https://news.ycombinator.com/item?id=50611588 Points: 1698 # Comments: 4",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-23T22:38:39.256890+00:00"
-   },
-   {
-    "id": "e3a79f42fb3c2e50",
-    "date": "2026-11-23",
-    "published": "2026-11-23T14:00:18+00:00",
-    "source": "Hacker News — Best",
-    "title": "Nvidia Reinstates Jensen Huang as CEO",
-    "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-    "summary": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-j... https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress... Comments URL: https://news.ycombinator.com/item?id=50611576 Points: 1758 # Comments: 2869",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-23T22:38:39.256892+00:00"
-   },
-   {
-    "id": "96b9f4625de5fb0d",
-    "date": "2026-11-23",
-    "published": "2026-11-23T11:34:16+00:00",
-    "source": "Hacker News — Best",
-    "title": "The next circle of security hell",
-    "link": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
-    "summary": "Article URL: https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/ Comments URL: https://news.ycombinator.com/item?id=50610334 Points: 242 # Comments: 150",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T06:57:15.026522+00:00"
-   },
-   {
-    "id": "677c0e35fb164f1b",
-    "date": "2026-11-23",
-    "published": "2026-11-23T11:31:54+00:00",
-    "source": "Hacker News — Best",
-    "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
-    "link": "https://github.com/os6/nospeaker",
-    "summary": "Article URL: https://github.com/os6/nospeaker Comments URL: https://news.ycombinator.com/item?id=50610318 Points: 249 # Comments: 150",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-23T22:38:39.256894+00:00"
-   },
-   {
-    "id": "43915aed74e5c2a3",
-    "date": "2026-11-23",
-    "published": "2026-11-23T11:00:00+00:00",
-    "source": "The a16z Show (podcast)",
-    "title": "The One-Person Biotech | OpenAI Life Sciences",
-    "link": "https://a16z.simplecast.com/episodes/the-one-person-biotech-openai-life-sciences-TrZddFUB",
-    "summary": "What happens when scientists are no longer limited by human attention? OpenAI’s Joy Jiao and Ashoka Rajendra join a16z’s Jay Rughani and Jorge Conde to discuss how AI and thousands of parallel agents could reshape drug discovery and development. They trace OpenAI’s life sciences work from scientific",
-    "topics": [
-     "ai",
-     "growth"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-23T22:38:51.535030+00:00"
-   },
-   {
-    "id": "5094532b4e2e63d2",
-    "date": "2026-11-23",
-    "published": "2026-11-23T10:06:43+00:00",
-    "source": "Hacker News — Best",
-    "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
-    "link": "https://z.ai/blog/glm-5.4",
-    "summary": "Article URL: https://z.ai/blog/glm-5.4 Comments URL: https://news.ycombinator.com/item?id=50609685 Points: 987 # Comments: 326",
-    "topics": [
-     "ai",
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-23T22:38:39.256896+00:00"
    }
   ],
   "dataviz": [
+   {
+    "id": "72cac2906ebe15bc",
+    "date": "2026-11-25",
+    "published": "2026-11-25T02:17:58+00:00",
+    "source": "Visual Capitalist",
+    "title": "Mapped: Europe’s Most Indebted Countries in 2026",
+    "link": "https://www.visualcapitalist.com/mapped-the-most-indebted-european-countries-in-2026/",
+    "summary": "Persistent budget deficits have led to sizable government debt burdens across most major European countries.",
+    "topics": [
+     "dataviz",
+     "finance",
+     "macro"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:11.890097+00:00"
+   },
    {
     "id": "a6b58a81c07e76ce",
     "date": "2026-11-24",
@@ -2034,665 +2688,728 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-11-19T19:29:09.792063+00:00"
-   },
-   {
-    "id": "65a9bf97ec300cc7",
-    "date": "2026-11-19",
-    "published": "2026-11-19T15:51:00+00:00",
-    "source": "Visual Capitalist",
-    "title": "Are Commodities Entering a New Supercycle?",
-    "link": "https://www.visualcapitalist.com/sp/gx04-are-commodities-entering-new-supercycle/",
-    "summary": "See how long-run commodity cycles have shifted from 1900 to 2025, and why rising real commodity trends may matter for investors in 2026.",
-    "topics": [
-     "dataviz",
-     "finance",
-     "macro"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-19T19:29:11.183122+00:00"
    }
   ],
-  "product": [
+  "ux": [
    {
-    "id": "064cde63a438e81b",
+    "id": "0ed779b549009272",
     "date": "2026-11-24",
-    "published": "2026-11-24T18:00:00+00:00",
-    "source": "Vercel News",
-    "title": "All Sandbox runtimes now use Vercel Managed Images",
-    "link": "https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images",
-    "summary": "All Vercel Sandbox runtimes now use Vercel Managed Images (VMIs). Legacy runtimes, such as node22 , now use the open-source images in the vercel/sandbox repository , distributed through Vercel Container Registry (VCR). Sandboxes created with these now come with 64 GB of storage and use the same infr",
+    "published": "2026-11-24T22:16:19+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Futures thinking as an everyday design practice",
+    "link": "https://uxdesign.cc/futures-thinking-as-an-everyday-design-practice-465146ee6db8?source=rss----138adf9c44c---4",
+    "summary": "Revisiting Three Horizons and exploring how we organize for what’s next Illustration created with Gemini Throughout my career, I’ve used design practices to help organizations navigate change and deliver new capabilities and experiences. As a UX community, we’ve developed methods for understanding p",
     "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.706037+00:00"
-   },
-   {
-    "id": "0d52bb79660dfe52",
-    "date": "2026-11-24",
-    "published": "2026-11-24T14:00:00+00:00",
-    "source": "Product Talk (Teresa Torres)",
-    "title": "Bugs - All Things Product Podcast with Teresa Torres & Petra Wille",
-    "link": "https://www.producttalk.org/bugs-all-things-product-podcast-with-teresa-torres-petra-wille/",
-    "summary": "Listen to this episode on: Spotify | Apple Podcasts In a world of AI products, what even counts as a “bug” — and can you still promise to fix it? Petra Wille and Teresa Torres take on a word that’s quietly breaking down in the age of",
-    "topics": [
-     "product",
+     "ux",
+     "design",
      "ai"
-    ],
-    "tags": [
-     "ai-product",
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.532358+00:00"
-   },
-   {
-    "id": "a4a70966ff708941",
-    "date": "2026-11-24",
-    "published": "2026-11-24T11:00:00+00:00",
-    "source": "Stratechery",
-    "title": "The Individual Exception",
-    "link": "https://stratechery.com/2026/the-individual-exception/",
-    "summary": "Jensen Huang has been granted an exception from managerial oversight; in the age of AI, he won't be the last.",
-    "topics": [
-     "product",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.474784+00:00"
-   },
-   {
-    "id": "c7b0ac474fdaaf24",
-    "date": "2026-11-24",
-    "published": "2026-11-24T06:26:55+00:00",
-    "source": "Product Hunt",
-    "title": "Agenda Hero Magic Labs",
-    "link": "https://www.producthunt.com/products/agenda-hero-magic",
-    "summary": "Any schedule. Any layout. Any style. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257496+00:00"
-   },
-   {
-    "id": "f7ab3d0b9446f64f",
-    "date": "2026-11-24",
-    "published": "2026-11-24T05:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Delete a run's data on demand in Workflow SDK",
-    "link": "https://vercel.com/changelog/delete-run-data-workflow-sdk",
-    "summary": "The Workflow SDK now lets you delete a finished run's stored data on demand. This feature gives you the ability to quickly meet compliance and security requirements when sensitive data needs to be purged from run payloads. Deleting a run's data deletes any inputs, outputs, hook payloads, and error t",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.706041+00:00"
-   },
-   {
-    "id": "6d06d1b5a4b17b08",
-    "date": "2026-11-24",
-    "published": "2026-11-24T04:54:41+00:00",
-    "source": "Product Hunt",
-    "title": "Hourly Journal",
-    "link": "https://www.producthunt.com/products/hourly-journal",
-    "summary": "Journal your hours, understand your days Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257472+00:00"
-   },
-   {
-    "id": "2e1f91d335e84902",
-    "date": "2026-11-24",
-    "published": "2026-11-24T04:45:20+00:00",
-    "source": "Product Hunt",
-    "title": "Finer Screenshot",
-    "link": "https://www.producthunt.com/products/finer-screenshot",
-    "summary": "Add text that automatically stays readable on any background Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257476+00:00"
-   },
-   {
-    "id": "1e2dfa3b9bbbac84",
-    "date": "2026-11-24",
-    "published": "2026-11-24T03:40:58+00:00",
-    "source": "Product Hunt",
-    "title": "Kodak SlideTag",
-    "link": "https://www.producthunt.com/products/kodak-slidetag",
-    "summary": "A 1935 film-slide E-Ink frame that tracks like an AirTag Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257464+00:00"
-   },
-   {
-    "id": "d9574cf0f5856e29",
-    "date": "2026-11-24",
-    "published": "2026-11-24T03:08:21+00:00",
-    "source": "Product Hunt",
-    "title": "Juncts",
-    "link": "https://www.producthunt.com/products/juncts",
-    "summary": "Superhuman for your DMs, with AI that triages and drafts Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257467+00:00"
-   },
-   {
-    "id": "6ffb07cf5b1df509",
-    "date": "2026-11-24",
-    "published": "2026-11-24T02:57:54+00:00",
-    "source": "Product Hunt",
-    "title": "Mystonie",
-    "link": "https://www.producthunt.com/products/mystonie",
-    "summary": "Log movies, shows, books & games — turn finishes into art Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257462+00:00"
-   },
-   {
-    "id": "c18cc0d59364d30f",
-    "date": "2026-11-24",
-    "published": "2026-11-24T01:33:35+00:00",
-    "source": "Product Hunt",
-    "title": "Pinned",
-    "link": "https://www.producthunt.com/products/pinned",
-    "summary": "Ask the city where to go tonight with your friends Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257491+00:00"
-   },
-   {
-    "id": "61a808acaed9f468",
-    "date": "2026-11-24",
-    "published": "2026-11-24T00:34:06+00:00",
-    "source": "Product Growth (Aakash Gupta)",
-    "title": "A FAANG PM's Guide to Practical AI Evals",
-    "link": "https://www.news.aakashg.com/p/practical-ai-evals",
-    "summary": "Former Google, Amazon, Meta and Microsoft AI PM Mahesh Yadav shows how to build practical AI evals in 4 steps, using Microsoft Foundry.",
-    "topics": [
-     "product",
-     "ai",
-     "growth"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-24T06:57:25.621647+00:00"
-   },
-   {
-    "id": "2f9bf4596a53ab11",
-    "date": "2026-11-24",
-    "published": "2026-11-24T00:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Inkling 2 Mini now available on AI Gateway",
-    "link": "https://vercel.com/changelog/inkling-2-mini-now-available-on-ai-gateway",
-    "summary": "Inkling 2 Mini from Thinking Machines is now available on AI Gateway. The small multimodal reasoning model is built for agentic coding, tool use, and knowledge work, with text and image inputs and text output. Inkling 2 Mini has 26.4 billion total parameters and 3.4 billion active per token. The mod",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.706043+00:00"
-   },
-   {
-    "id": "3b18df2c891bbb70",
-    "date": "2026-11-23",
-    "published": "2026-11-23T22:13:40+00:00",
-    "source": "Product Hunt",
-    "title": "Sotto",
-    "link": "https://www.producthunt.com/products/sotto-11",
-    "summary": "Hold a key, speak, clean text lands at your Linux cursor Discussion | Link",
-    "topics": [
-     "product"
     ],
     "tags": [
      "ux"
     ],
     "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257497+00:00"
+    "first_seen": "2026-11-25T05:26:14.689690+00:00"
    },
    {
-    "id": "24b913c77013b79a",
-    "date": "2026-11-23",
-    "published": "2026-11-23T21:24:36+00:00",
-    "source": "Product Hunt",
-    "title": "Drift",
-    "link": "https://www.producthunt.com/products/drift-aef4d3de-e971-402b-b62f-613b9c79b4cd",
-    "summary": "Wallpaper that reflects the world around you Discussion | Link",
+    "id": "7b451bb47bafd7fa",
+    "date": "2026-11-24",
+    "published": "2026-11-24T22:15:00+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Four hidden dimensions of effective teams",
+    "link": "https://uxdesign.cc/four-hidden-dimensions-of-effective-teams-be268c61cf44?source=rss----138adf9c44c---4",
+    "summary": "Company success isn’t about following a magic formula or hacking the corporate game; it’s about using the context and information around us with purpose. Building this simple new tool helped me validate a long-standing personal belief: stop accepting that designers only generate value through “cosme",
     "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257493+00:00"
-   },
-   {
-    "id": "c3c9dd521f50d964",
-    "date": "2026-11-23",
-    "published": "2026-11-23T21:22:27+00:00",
-    "source": "Product Hunt",
-    "title": "tday.com",
-    "link": "https://www.producthunt.com/products/tday",
-    "summary": "AI-recorded Screen Studio style editable demos Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257465+00:00"
-   },
-   {
-    "id": "c419898af735e664",
-    "date": "2026-11-23",
-    "published": "2026-11-23T21:00:36+00:00",
-    "source": "Product Hunt",
-    "title": "Claude Ship",
-    "link": "https://www.producthunt.com/products/claude-code",
-    "summary": "Ship code as fast as you can write it Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257462+00:00"
-   },
-   {
-    "id": "79bec864021f1927",
-    "date": "2026-11-23",
-    "published": "2026-11-23T19:09:40+00:00",
-    "source": "Product Hunt",
-    "title": "Wellbreak",
-    "link": "https://www.producthunt.com/products/wellbreak",
-    "summary": "Your wellbeing buddy in Mac's notch Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257460+00:00"
-   },
-   {
-    "id": "ac79242b4df192c0",
-    "date": "2026-11-23",
-    "published": "2026-11-23T19:01:35+00:00",
-    "source": "Product Hunt",
-    "title": "Almma's PII Guard",
-    "link": "https://www.producthunt.com/products/almma-s-pii-guard",
-    "summary": "Catch personal data before it reaches your AI chat Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257487+00:00"
-   },
-   {
-    "id": "3ddcc8e9a433edc0",
-    "date": "2026-11-23",
-    "published": "2026-11-23T18:57:21+00:00",
-    "source": "Product Hunt",
-    "title": "Even G2 Enterprise SDK",
-    "link": "https://www.producthunt.com/products/even-g2",
-    "summary": "Build custom business apps for Even G2 smart glasses Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257481+00:00"
-   },
-   {
-    "id": "173525ac9a39eb19",
-    "date": "2026-11-23",
-    "published": "2026-11-23T16:55:11+00:00",
-    "source": "Product Hunt",
-    "title": "Umami Manager",
-    "link": "https://www.producthunt.com/products/umami-manager",
-    "summary": "Umami reports, widgets & links – native on iPhone & iPad Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257463+00:00"
-   },
-   {
-    "id": "4f5abd3e04fc7d6c",
-    "date": "2026-11-23",
-    "published": "2026-11-23T16:52:44+00:00",
-    "source": "Product Hunt",
-    "title": "InField",
-    "link": "https://www.producthunt.com/products/infield-translate-and-refine",
-    "summary": "Translate and refine text where you type, on Mac and Chrome Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257482+00:00"
-   },
-   {
-    "id": "04c64f5d1d9706dd",
-    "date": "2026-11-23",
-    "published": "2026-11-23T16:47:25+00:00",
-    "source": "Product Hunt",
-    "title": "Finseo",
-    "link": "https://www.producthunt.com/products/finseo-ai",
-    "summary": "Company brain + outreach to get your brand mentioned by AI Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257470+00:00"
-   },
-   {
-    "id": "c7a47d86a53d9076",
-    "date": "2026-11-23",
-    "published": "2026-11-23T16:35:13+00:00",
-    "source": "Product Hunt",
-    "title": "Viktor Code",
-    "link": "https://www.producthunt.com/products/viktor",
-    "summary": "Coding agents know your repo. Viktor knows your company. Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257477+00:00"
-   },
-   {
-    "id": "c83dcb011ffc3c1a",
-    "date": "2026-11-23",
-    "published": "2026-11-23T16:11:52+00:00",
-    "source": "Product Hunt",
-    "title": "Fleetify",
-    "link": "https://www.producthunt.com/products/fleetify",
-    "summary": "Open-source command center for your AI coding agents Discussion | Link",
-    "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257483+00:00"
-   },
-   {
-    "id": "0fa181a123ec39ab",
-    "date": "2026-11-23",
-    "published": "2026-11-23T16:01:48+00:00",
-    "source": "Lenny's Newsletter",
-    "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
-    "link": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
-    "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-    "topics": [
-     "product",
-     "growth",
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-23T22:38:49.696605+00:00"
+    "first_seen": "2026-11-25T05:26:14.689700+00:00"
    },
    {
-    "id": "bb971bb68a4c90be",
-    "date": "2026-11-23",
-    "published": "2026-11-23T15:51:28+00:00",
-    "source": "Product Hunt",
-    "title": "LayAuto 4",
-    "link": "https://www.producthunt.com/products/layauto-for-mac",
-    "summary": "Find any window, tab, or session on your Mac Discussion | Link",
+    "id": "6788604543ddb5f0",
+    "date": "2026-11-24",
+    "published": "2026-11-24T22:13:57+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "If you want to grow beyond Senior Designer, you have to address this one thing",
+    "link": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
+    "summary": "Why stepping back from the work feels like losing your career, in design and beyond Continue reading on UX Collective »",
     "topics": [
-     "product"
+     "ux",
+     "design",
+     "ai"
     ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257498+00:00"
-   },
-   {
-    "id": "6697761c6c0070cd",
-    "date": "2026-11-23",
-    "published": "2026-11-23T13:39:26+00:00",
-    "source": "Product Hunt",
-    "title": "Astrolabio",
-    "link": "https://www.producthunt.com/products/astrolabio",
-    "summary": "Your AIs pick up right where you left off, on your Mac Discussion | Link",
-    "topics": [
-     "product"
+    "tags": [
+     "ux"
     ],
-    "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257475+00:00"
+    "first_seen": "2026-11-25T05:26:14.689702+00:00"
    },
    {
-    "id": "eb287810167bcd32",
-    "date": "2026-11-23",
-    "published": "2026-11-23T13:04:43+00:00",
-    "source": "Lenny's Newsletter",
-    "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
-    "link": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
-    "summary": "Watch now (31 mins) | 🎙️ Ankit Maheshwari (CTO, Innovaccer) walks me through the OpenClaw Jarvis he runs on a Mac Mini to clear every 1% annoyance in his life",
+    "id": "78e115d2807f12b8",
+    "date": "2026-11-24",
+    "published": "2026-11-24T22:11:59+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Designing for the AI agent customer",
+    "link": "https://uxdesign.cc/designing-ux-for-agentic-commerce-digital-marketing-for-personal-ai-agents-c8c99e1b0b37?source=rss----138adf9c44c---4",
+    "summary": "Personal AI assistants already compare and buy on your behalf. But the marketing tactics designed to persuade humans don’t work on agents. Continue reading on UX Collective »",
     "topics": [
-     "product",
-     "growth",
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ai-product",
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:14.689704+00:00"
+   },
+   {
+    "id": "9f8dfad56517f793",
+    "date": "2026-11-24",
+    "published": "2026-11-24T22:11:13+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "The design process is changing. Are we asking the right questions?",
+    "link": "https://uxdesign.cc/the-design-process-is-changing-are-we-asking-the-right-questions-c3c376cb7cb8?source=rss----138adf9c44c---4",
+    "summary": "What happens when the design process itself becomes intelligent? Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-25T05:26:14.689706+00:00"
+   },
+   {
+    "id": "ee5346f112dc5ed2",
+    "date": "2026-11-24",
+    "published": "2026-11-24T22:10:40+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Who draws the in-betweens?",
+    "link": "https://uxdesign.cc/who-draws-the-in-betweens-3b61d1957efe?source=rss----138adf9c44c---4",
+    "summary": "Every line we draw around AI measures the tool. Authorship has always lived in the decisions. Earlier this month Dior released Christian Dior’s Night in Color , a holiday short directed by Sylvain Chomet , the animator behind The Triplets of Belleville and The Illusionist . A week after release, the",
+    "topics": [
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-23T22:38:49.696618+00:00"
+    "first_seen": "2026-11-25T05:26:14.689708+00:00"
    },
    {
-    "id": "c5dbbcc6133f7ed6",
-    "date": "2026-11-23",
-    "published": "2026-11-23T12:34:54+00:00",
-    "source": "Product Hunt",
-    "title": "frwrd.to",
-    "link": "https://www.producthunt.com/products/frwrd-to",
-    "summary": "Your link in bio, sorted by your AI in one message Discussion | Link",
+    "id": "ed18e8f15b4f03e4",
+    "date": "2026-11-24",
+    "published": "2026-11-24T22:09:23+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Beyond the craft: Reclaiming Design as a Reflective Practice",
+    "link": "https://uxdesign.cc/beyond-the-pixel-reclaiming-design-as-a-reflective-practice-6f6789acb2bd?source=rss----138adf9c44c---4",
+    "summary": "Why reflective thinking in and on design action, not faster execution, is our real edge in the age of AI. Continue reading on UX Collective »",
     "topics": [
-     "product"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257469+00:00"
-   },
-   {
-    "id": "084ac8aec48a1178",
-    "date": "2026-11-23",
-    "published": "2026-11-23T11:00:00+00:00",
-    "source": "Stratechery",
-    "title": "Amazon Earnings, The Chip Question, About Agents",
-    "link": "https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/",
-    "summary": "Amazon makes the case they are not like other compute providers, even as they signal the willingness to give up margin to serve the frontier.",
-    "topics": [
-     "product",
+     "ux",
+     "design",
      "ai"
     ],
     "tags": [
-     "ai-product"
+     "ux"
     ],
     "lang": "en",
-    "first_seen": "2026-11-23T22:38:49.816196+00:00"
+    "first_seen": "2026-11-25T05:26:14.689709+00:00"
    },
    {
-    "id": "edee701cdc0c1592",
+    "id": "4cf2b6ea3547ec1a",
     "date": "2026-11-23",
-    "published": "2026-11-23T10:54:10+00:00",
-    "source": "Product Hunt",
-    "title": "Valley",
-    "link": "https://www.producthunt.com/products/valley-3",
-    "summary": "Outbound system to find people most likely to buy from you Discussion | Link",
+    "published": "2026-11-23T22:40:34+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Is product design a people industry or a tech industry?",
+    "link": "https://uxdesign.cc/is-product-design-a-people-industry-or-a-tech-industry-b8f9acc8cb6d?source=rss----138adf9c44c---4",
+    "summary": "The field talks about users and hires for prototyping. When money runs short, one half gets treated as optional. Continue reading on UX Collective »",
     "topics": [
-     "product"
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-24T06:57:26.681323+00:00"
+   },
+   {
+    "id": "029bb18952d8f313",
+    "date": "2026-11-23",
+    "published": "2026-11-23T22:40:01+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Don’t make me read",
+    "link": "https://uxdesign.cc/dont-make-me-read-a6821e418bb1?source=rss----138adf9c44c---4",
+    "summary": "These newest findings on how people (don’t) read on the internet can help you build your next great thing. Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-24T06:57:26.681332+00:00"
+   },
+   {
+    "id": "8d302bfb57701037",
+    "date": "2026-11-23",
+    "published": "2026-11-23T12:18:14+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Decision theater, Human.MD, What is a researcher’s worth",
+    "link": "https://uxdesign.cc/decision-theater-human-md-what-is-a-researchers-worth-d7687978bd26?source=rss----138adf9c44c---4",
+    "summary": "Weekly curated resources for designers — thinkers and makers. “Conversing with a machine has no built-in friction. It does not hesitate. It just answers. It does not search for the right word, or wonder how the question will land, or brace for how the answer will be received. It simply responds.” Th",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257492+00:00"
+    "first_seen": "2026-11-23T22:38:51.127510+00:00"
    },
    {
-    "id": "8eb494977266f9b2",
-    "date": "2026-11-23",
-    "published": "2026-11-23T08:44:25+00:00",
-    "source": "Product Hunt",
-    "title": "Clam AI",
-    "link": "https://www.producthunt.com/products/clam-ai",
-    "summary": "Your inbox, safely shared with AI agents Discussion | Link",
+    "id": "0779f911adf24245",
+    "date": "2026-11-22",
+    "published": "2026-11-22T23:18:37+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Lessons from 3D scanning St John’s Co-Cathedral",
+    "link": "https://uxdesign.cc/lessons-from-3d-scanning-st-johns-co-cathedral-700911d61cfe?source=rss----138adf9c44c---4",
+    "summary": "Seven nights, 99,000 photographs and 25 billion triangles showed us where photogrammetry works and where gold, marble and fabric still beat it, as we reported at SIGGRAPH 2026. Summary Over seven nights of evening-only access, we digitised St John’s Co-Cathedral in Valletta, Malta, a UNESCO World He",
     "topics": [
-     "product"
-    ],
-    "tags": [
-     "ai-product"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257494+00:00"
-   },
-   {
-    "id": "b050c18c810b746d",
-    "date": "2026-11-23",
-    "published": "2026-11-23T07:07:05+00:00",
-    "source": "Product Hunt",
-    "title": "SparrowDesk Phone Calls",
-    "link": "https://www.producthunt.com/products/sparrowdesk",
-    "summary": "Phone support in the same inbox as email, chat & WhatsApp Discussion | Link",
-    "topics": [
-     "product"
+     "ux",
+     "design",
+     "ai"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-24T21:10:32.257478+00:00"
+    "first_seen": "2026-11-23T03:42:55.083312+00:00"
    },
    {
-    "id": "accfeb9908f9055f",
-    "date": "2026-11-23",
-    "published": "2026-11-23T06:19:00+00:00",
-    "source": "Vercel News",
-    "title": "AI Gateway now runs canary ZDR audits",
-    "link": "https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits",
-    "summary": "AI Gateway now runs canary audits against inference providers to detect when prompt content is read outside the inference path. Contractual Zero Data Retention (ZDR) agreements and point-in-time security audits establish how a provider should handle your data, but production infrastructure changes c",
+    "id": "6aeddfc1f07eabb1",
+    "date": "2026-11-22",
+    "published": "2026-11-22T23:17:56+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Seven things AI killed while you were measuring productivity",
+    "link": "https://uxdesign.cc/seven-things-ai-killed-while-you-were-measuring-productivity-b4499232ac3d?source=rss----138adf9c44c---4",
+    "summary": "Why 80% of executives see no AI impact — and why they’re looking in the wrong place. Continue reading on UX Collective »",
     "topics": [
-     "product",
-     "design"
+     "ux",
+     "design",
+     "ai"
     ],
     "tags": [
-     "retention",
-     "ai-product"
+     "ux"
     ],
     "lang": "en",
-    "first_seen": "2026-11-23T22:38:50.978614+00:00"
+    "first_seen": "2026-11-23T03:42:55.083329+00:00"
    },
    {
-    "id": "28c4d4a7a2db825a",
-    "date": "2026-11-23",
-    "published": "2026-11-23T05:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Introducing Audited ZDR on AI Gateway",
-    "link": "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway",
-    "summary": "AI is now used in every part of a business, and as a result, companies send source code, customer records, and regulated data through inference providers. The assurance that no data is retained after processing is still publicly unverified. Payment platforms, cloud infrastructure, and most other lay",
+    "id": "621544fa7a4160cf",
+    "date": "2026-11-22",
+    "published": "2026-11-22T23:17:32+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "How to write great skills",
+    "link": "https://uxdesign.cc/how-to-write-great-skills-91635bc45ada?source=rss----138adf9c44c---4",
+    "summary": "An advanced and practical guide to agent skills, learning from Matt Pocock, Nate Herk, Addy Osmani and Anthropic Continue reading on UX Collective »",
     "topics": [
-     "product",
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ai-product",
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-23T03:42:55.083330+00:00"
+   },
+   {
+    "id": "89b31e3018fddffa",
+    "date": "2026-11-22",
+    "published": "2026-11-22T11:36:59+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "The attack of the giant AI design slop monster: a survivor’s guide",
+    "link": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4?source=rss----138adf9c44c---4",
+    "summary": "In 2026, AI has transformed UX design in unpredictable and scary ways The attack of the giant AI design slop monster: a survivor’s guide. (Image credit: me + Midjourney) In September this year, I was once again speaking at City St George’s, University of London annual conference on Human-Computer In",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-22T18:30:16.747522+00:00"
+   },
+   {
+    "id": "4cc3a535ad3021a4",
+    "date": "2026-11-22",
+    "published": "2026-11-22T11:36:31+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Prototypes have always been the most effective specification-especially with AI",
+    "link": "https://uxdesign.cc/prototypes-have-always-been-the-most-effective-specification-10162107b2ee?source=rss----138adf9c44c---4",
+    "summary": "A working prototype open on a laptop in a meeting room, the printed requirements document still closed beside it. Prototypes have always been the most effective specification—especially with AI When building a working version costs an afternoon, the artifact that used to precede the work now falls o",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-22T18:30:16.747530+00:00"
+   },
+   {
+    "id": "012b1da358b771d5",
+    "date": "2026-11-22",
+    "published": "2026-11-22T10:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "What Does a User Interface (UI) Designer Do?",
+    "link": "https://ixdf.org/literature/article/user-interface-designer",
+    "summary": "What’s in every memorable digital experience is a seamlessly navigable website or an app that feels like second nature—and what lies behind those are user interface (UI) designers; they’re the ones who shape the aesthetics and functionality of any digital interface. But what does a user interface de",
+    "topics": [
+     "ux",
      "design"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-23T22:38:50.978626+00:00"
+    "first_seen": "2026-11-23T03:42:54.531909+00:00"
    },
    {
-    "id": "d9b458c2e0f2a82a",
-    "date": "2026-11-23",
-    "published": "2026-11-23T05:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Vercel Drives adds CLI commands and standalone SDKs",
-    "link": "https://vercel.com/changelog/vercel-drives-adds-cli-commands-and-standalone-sdks",
-    "summary": "You can now create, list, fork, and delete Vercel Drives with the new vercel drives commands or standalone SDKs for TypeScript ( @vercel/drives ) and Python ( vercel-drives ). Drives also have a REST API at /v1/drives and Drive-specific permissions, so managing them no longer requires Sandbox APIs o",
+    "id": "ab85ce0a51fbc48e",
+    "date": "2026-11-21",
+    "published": "2026-11-21T14:34:16+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "The judge used to be the user",
+    "link": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
+    "summary": "AI collapsed the slow middle of building models. The people who once defined correct went with it. Continue reading on UX Collective »",
     "topics": [
-     "product",
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-21T17:57:55.107674+00:00"
+   },
+   {
+    "id": "b7f689b6bae3f5ca",
+    "date": "2026-11-21",
+    "published": "2026-11-21T12:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Should You Choose between Responsive and Adaptive Design?",
+    "link": "https://ixdf.org/literature/article/should-you-choose-between-responsive-and-adaptive-design",
+    "summary": "Designers can choose between adaptive and responsive design to bridge the gap between devices and changing user contexts. Here you’ll learn the merits of each approach, so you’re in a great position to select an approach for your project. What Are the Main Differences Between Responsive and Adaptive",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-23T03:42:54.531918+00:00"
+   },
+   {
+    "id": "54efde07cb561118",
+    "date": "2026-11-20",
+    "published": "2026-11-20T18:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "Qualitative User-Research Methods: An Overview",
+    "link": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "Want to know why users struggle or what they need? Start by choosing the right method. Here are 4 of the most popular qualitative UX-research methods.",
+    "topics": [
+     "ux",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-21T03:57:37.568608+00:00"
+   },
+   {
+    "id": "893670a0af8839dc",
+    "date": "2026-11-20",
+    "published": "2026-11-20T18:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "Can AI Generate Good Designs from Raw User Data?",
+    "link": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "In our study, AI-generated designs were better when the AI received synthesized findings and recommendations instead of raw user comments alone.",
+    "topics": [
+     "ux",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-21T03:57:37.568620+00:00"
+   },
+   {
+    "id": "d9e8e7c7e3ed8da6",
+    "date": "2026-11-20",
+    "published": "2026-11-20T03:16:44+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "UX Conference February Announced (Feb 22 - Feb 26)",
+    "link": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. February 22 - February 26, 2027.",
+    "topics": [
+     "ux",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-20T19:06:01.090397+00:00"
+   },
+   {
+    "id": "75db8c369063d953",
+    "date": "2026-11-19",
+    "published": "2026-11-19T21:36:22+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Everyone’s got the tools. Not everyone’s got the tricks.",
+    "link": "https://uxdesign.cc/everyones-got-the-tools-not-everyone-s-got-the-tricks-986a5c154924?source=rss----138adf9c44c---4",
+    "summary": "What skateboarding history can remind designers about tools, repertoire and improvisation. Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-20T19:06:01.463546+00:00"
+   },
+   {
+    "id": "c7ecef07b02dd8f8",
+    "date": "2026-11-19",
+    "published": "2026-11-19T14:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "System Usability Scale for Data-Driven UX",
+    "link": "https://ixdf.org/literature/article/system-usability-scale",
+    "summary": "Ever wondered how the top designers, researchers, and product developers manage to create products that are user-friendly, efficient, and enjoyable—consistently? One of the key things there is what’s called the System Usability Scale (SUS), a vital tool and questionnaire-based method that profession",
+    "topics": [
+     "ux",
      "design"
     ],
     "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-23T03:42:54.531920+00:00"
+   },
+   {
+    "id": "f6732385d179fefe",
+    "date": "2026-11-19",
+    "published": "2026-11-19T12:54:05+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Send the Firefighters to the Fires",
+    "link": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
+    "summary": "Send the firefighters to the fires Enterprise software keeps forgetting a century of good advice about what deserves our attention. House fire in New Zealand neighborhood If a user’s job is to fix what’s broken, the screen should show what’s broken first. Sounds pretty obvious. It’s also not new. Fr",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-19T19:29:14.842087+00:00"
+   },
+   {
+    "id": "65e65803bc3a37aa",
+    "date": "2026-11-18",
+    "published": "2026-11-18T20:17:39+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "If AI works from anywhere, why are we commuting to watch it?",
+    "link": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
+    "summary": "The collaboration they promised, in practice. Companies say it’s about collaboration. That’s garbage. The reality is a room full of people in headphones, doing alone what they could’ve done at home. The recent post from Alexa von Tobel on LinkedIn. Alexa von Tobel, who runs an early-stage fund and h",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-19T04:10:35.061702+00:00"
+   },
+   {
+    "id": "e2a2e0109f237cfe",
+    "date": "2026-11-18",
+    "published": "2026-11-18T20:17:05+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Too Claudified",
+    "link": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
+    "summary": "A client rejected my motion work for looking machine-made. I’d published the diagnosis five months earlier. Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-19T04:10:35.061709+00:00"
+   },
+   {
+    "id": "f7ce6d4213761d68",
+    "date": "2026-11-17",
+    "published": "2026-11-17T23:26:24+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "What is a researcher’s worth?",
+    "link": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
+    "summary": "Why the debate over research isn’t a technology story – and why effortless AI makes human friction our scarcest asset. Image created by author, with Midjourney. We’re no stranger to this question. For many years, research practitioners have talked with one another about how to “mature” teams so that",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-18T04:16:23.804627+00:00"
+   },
+   {
+    "id": "320fa33afa1ea5b8",
+    "date": "2026-11-17",
+    "published": "2026-11-17T23:25:21+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Everyone knows sparkles mean AI. Use them to make design audits easier",
+    "link": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
+    "summary": "How to decipher your PM’s AI-generated mockup without losing hours Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-18T04:16:23.804639+00:00"
+   },
+   {
+    "id": "337b269d4d4e0326",
+    "date": "2026-11-17",
+    "published": "2026-11-17T08:00:00+00:00",
+    "source": "Interaction Design Foundation — UX Daily",
+    "title": "Don Norman’s Top Tips from the Design for the 21st Century Course",
+    "link": "https://ixdf.org/literature/article/don-norman-s-top-tips-from-the-design-for-the-21st-century-course",
+    "summary": "The design field is evolving. It’s been proven that aside from driving business success and delivering beautiful and successful products, design can be pivotal to solving complex human issues. For instance, GE Healthcare used Design Thinking to improve the MR scanner experience for children—which is",
+    "topics": [
+     "ux",
+     "design"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-23T03:42:54.531922+00:00"
+   },
+   {
+    "id": "5a9a4a054f559ef8",
+    "date": "2026-11-16",
+    "published": "2026-11-16T21:27:14+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Why bother paying for software anymore?",
+    "link": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
+    "summary": "And why design is the answer AI bros didn’t expect. Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-17T05:04:10.517603+00:00"
+   },
+   {
+    "id": "eedd51f6ec3d38ad",
+    "date": "2026-11-16",
+    "published": "2026-11-16T21:20:24+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "UI edge cases: A reference guide",
+    "link": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+    "summary": "A practical reference guide for catching UI edge cases before they ship — organized by category, with how to test, how to detect them in the wild, and how to design a fix. With examples. UI edge cases: A reference guide, a banner image. Introduction One day my colleague and I were at a workshop in a",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-17T05:04:10.517615+00:00"
+   },
+   {
+    "id": "78ceebccfc9ca797",
+    "date": "2026-11-16",
+    "published": "2026-11-16T12:17:08+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
+    "link": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
+    "summary": "Weekly curated resources for designers — thinkers and makers. “When Ted Chiang wrote in The New Yorker that AI isn’t going to make art, I felt vindicated. I forwarded it. To people who had not asked (sorry). His point was that art is the sum of thousands of small choices, and a machine that makes mo",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-16T21:01:46.955018+00:00"
+   },
+   {
+    "id": "ee5d7b8810a585b2",
+    "date": "2026-11-16",
+    "published": "2026-11-16T12:16:15+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "The trash robot that doesn’t pick up, but hands out",
+    "link": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
+    "summary": "On kawaii, embarrassment, and designing to invite Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-16T21:01:46.955025+00:00"
+   },
+   {
+    "id": "30b602976e5ff887",
+    "date": "2026-11-13",
+    "published": "2026-11-13T23:51:42+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Decision theatre or decision design?",
+    "link": "https://uxdesign.cc/decision-theatre-or-decision-design-f1604f178685?source=rss----138adf9c44c---4",
+    "summary": "AI has made information easy, but it has not made decisions simple. As machines produce more than we can read, our job is shifting from building knowledge to owning decisions. Are we ready? In a 2025 survey by BetterUp Labs and the Stanford Social Media Lab, 40% of US desk workers said they had rece",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [],
+    "lang": "en",
+    "first_seen": "2026-11-14T03:12:08.298211+00:00"
+   },
+   {
+    "id": "1e1cbc1f1657dee3",
+    "date": "2026-11-13",
+    "published": "2026-11-13T23:51:27+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "Schrödinger’s Huang: Nvidia could not be everything to everybody",
+    "link": "https://uxdesign.cc/schr%C3%B6dingers-huang-d1da36bff88c?source=rss----138adf9c44c---4",
+    "summary": "A cautionary tale for Asian capital attempting to operate technology businesses on both sides of the Pacific simultaneously Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux",
      "data"
     ],
     "lang": "en",
-    "first_seen": "2026-11-23T22:38:50.978629+00:00"
+    "first_seen": "2026-11-14T03:12:08.298218+00:00"
    },
    {
-    "id": "d6c624b00578fe3d",
-    "date": "2026-11-23",
-    "published": "2026-11-23T05:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Catch missing feature flags before they reach production",
-    "link": "https://vercel.com/changelog/catch-missing-feature-flags-before-they-reach-production",
-    "summary": "Vercel Flags can now block a deployment from reaching production if you’ve declared a flag in code but haven’t created it in your project. Without that definition, your app can silently fall back to the flag’s default value, even if that turns on a feature you meant to keep off. The Flag Definitions",
+    "id": "bbb4a2ad5bbc7d76",
+    "date": "2026-11-13",
+    "published": "2026-11-13T18:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+    "link": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "As AI speeds up development, it can be a challenge for research to adapt. Research can define what each release must measure and what it can help teams discover.",
     "topics": [
-     "product",
-     "design"
+     "ux",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-14T03:12:07.866971+00:00"
+   },
+   {
+    "id": "66ac7640324a8800",
+    "date": "2026-11-13",
+    "published": "2026-11-13T18:00:00+00:00",
+    "source": "Nielsen Norman Group",
+    "title": "Journey Mapping 101",
+    "link": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "summary": "A journey map is a visualization of the process that a person goes through in order to accomplish a goal.",
+    "topics": [
+     "ux",
+     "ai"
+    ],
+    "tags": [
+     "dashboard"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-14T03:12:07.866981+00:00"
+   },
+   {
+    "id": "79bb923ff55a329c",
+    "date": "2026-11-13",
+    "published": "2026-11-13T10:58:22+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "The crooked plate that felt more human than the algorithm",
+    "link": "https://uxdesign.cc/the-crooked-plate-that-felt-more-human-than-the-algorithm-40bb4e5da147?source=rss----138adf9c44c---4",
+    "summary": "We have spent years teaching machines to be flawless. Now the flawlessness is beginning to feel like a kind of absence. Continue reading on UX Collective »",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
+    ],
+    "tags": [
+     "ux"
+    ],
+    "lang": "en",
+    "first_seen": "2026-11-13T18:30:41.191439+00:00"
+   },
+   {
+    "id": "7ff25f6c3d77e1f6",
+    "date": "2026-11-13",
+    "published": "2026-11-13T02:33:09+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "AI is the new old design material",
+    "link": "https://uxdesign.cc/ai-is-the-new-old-design-material-0e7f83540c9a?source=rss----138adf9c44c---4",
+    "summary": "A long workbench where hand tools, a stack of paper, and an open laptop share the same surface. Creative makers and builders have always learned their medium by working with it, from grinding pigments to HTML. Models are the next material, and you need to learn them by building. The field keeps argu",
+    "topics": [
+     "ux",
+     "design",
+     "ai"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-23T22:38:50.978631+00:00"
+    "first_seen": "2026-11-13T03:24:25.431444+00:00"
    },
    {
-    "id": "b3f3b6186f4f9ce0",
-    "date": "2026-11-23",
-    "published": "2026-11-23T05:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Kazunari Hanao joins Vercel as Country Manager, Japan",
-    "link": "https://vercel.com/blog/kazunari-hanao-joins-vercel-as-country-manager-japan",
-    "summary": "日本語版はこちら： Vercel日本法人の代表に花尾和成が就任いたしました Kazunari Hanao has joined Vercel as Country Manager for Japan, based in Tokyo. His appointment is part of our continued investment in the Japanese market, including plans to expand our local team. Japanese developers were early adopters of Next.js. And today, Ve",
+    "id": "844c926268a76779",
+    "date": "2026-11-12",
+    "published": "2026-11-12T11:14:40+00:00",
+    "source": "UX Collective (Medium)",
+    "title": "The AI mind tax that afflicts those who use AI best",
+    "link": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss----138adf9c44c---4",
+    "summary": "One person, a dozen tools, and nothing connecting them but her. AI was supposed to make work easier, but for the people who use it most, it just became a different kind of work, and a whole lot of exhaustion. The promise of the tech was that AI would make work easier, and, sure, in plenty of ways it",
     "topics": [
-     "product",
-     "design"
+     "ux",
+     "design",
+     "ai"
     ],
     "tags": [],
     "lang": "en",
-    "first_seen": "2026-11-24T06:57:26.769415+00:00"
-   },
-   {
-    "id": "fc864a1234c5af8c",
-    "date": "2026-11-23",
-    "published": "2026-11-23T05:00:00+00:00",
-    "source": "Vercel News",
-    "title": "Vercel日本法人の代表に花尾和成が就任いたしました",
-    "link": "https://vercel.com/blog/ja-kazunari-hanao-joins-vercel-as-country-manager-japan",
-    "summary": "（本記事は、 英語版の就任発表 の日本語訳に、花尾本人の就任のご挨拶を加えたものです。） Vercel日本法人の代表に、 花尾和成 が就任いたしました（東京拠点）。今後、Vercelは花尾とともに国内のチームを拡充し、日本市場への投資をさらに進めていきます。 弊社が10年以上前に公開したNext.jsを、日本の開発者の皆さまはいち早く使い始めてくださいました。そして現在、日本では三菱商事、富士通、U-NEXT、ディー・エヌ・エーといった大企業から、SANUや令和トラベルといったスタートアップまで、幅広い企業にVercelをご利用いただいています。 花尾はこの10年間、日本でソフトウェア企業の運",
-    "topics": [
-     "product",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-24T06:57:26.769422+00:00"
+    "first_seen": "2026-11-12T18:55:02.292945+00:00"
    }
   ],
   "finance": [
@@ -3845,771 +4562,6 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-11-11T18:41:51.658175+00:00"
-   },
-   {
-    "id": "d5f1bffd65d555b9",
-    "date": "2026-11-10",
-    "published": "2026-11-10T16:18:39+00:00",
-    "source": "CalculatedRisk Newsletter",
-    "title": "Q3 NY Fed Report: Mortgage Originations by Credit Score, Foreclosures Decrease",
-    "link": "https://calculatedrisk.substack.com/p/q3-ny-fed-report-mortgage-originations-980",
-    "summary": "The NY Fed released the Q3 Quarterly Report on Household Debt and Credit this morning.",
-    "topics": [
-     "macro",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-18T04:16:22.257118+00:00"
-   },
-   {
-    "id": "954c0db73f298b45",
-    "date": "2026-11-10",
-    "published": "2026-11-10T16:00:00+00:00",
-    "source": "Liberty Street Economics (NY Fed)",
-    "title": "A Look at the Wider Divide in Credit Card Delinquency by Income",
-    "link": "https://libertystreeteconomics.newyorkfed.org/2026/11/a-look-at-the-wider-divide-in-credit-card-delinquency-by-income/",
-    "summary": "Credit card delinquency rose sharply between 2022 and 2024, and the increase was steepest among borrowers in lower-income neighborhoods. Here, we check in on credit card performance by neighborhood income and trace when the borrowers who are now struggling with their payments were issued cards. We f",
-    "topics": [
-     "macro",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:25.262936+00:00"
-   },
-   {
-    "id": "0694fa239dc81865",
-    "date": "2026-11-10",
-    "published": "2026-11-10T00:00:00+00:00",
-    "source": "BIS Working Papers",
-    "title": "US monetary policy, macroeconomic news and the global secular decline of interest rates",
-    "link": "https://www.bis.org/publications/working-paper-1393-us-monetary-policy-macroeconomic-news-and-global-secular-decline-interest-rates",
-    "summary": "The global secular decline in long-term interest rates since the 1990s has been largely driven by cumulative yield changes during U.S. monetary policy announcement windows (FOMC windows).",
-    "topics": [
-     "macro",
-     "crypto",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-10T18:40:22.738321+00:00"
-   }
-  ],
-  "ux": [
-   {
-    "id": "4cf2b6ea3547ec1a",
-    "date": "2026-11-23",
-    "published": "2026-11-23T22:40:34+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Is product design a people industry or a tech industry?",
-    "link": "https://uxdesign.cc/is-product-design-a-people-industry-or-a-tech-industry-b8f9acc8cb6d?source=rss----138adf9c44c---4",
-    "summary": "The field talks about users and hires for prototyping. When money runs short, one half gets treated as optional. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-24T06:57:26.681323+00:00"
-   },
-   {
-    "id": "029bb18952d8f313",
-    "date": "2026-11-23",
-    "published": "2026-11-23T22:40:01+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Don’t make me read",
-    "link": "https://uxdesign.cc/dont-make-me-read-a6821e418bb1?source=rss----138adf9c44c---4",
-    "summary": "These newest findings on how people (don’t) read on the internet can help you build your next great thing. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-24T06:57:26.681332+00:00"
-   },
-   {
-    "id": "8d302bfb57701037",
-    "date": "2026-11-23",
-    "published": "2026-11-23T12:18:14+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Decision theater, Human.MD, What is a researcher’s worth",
-    "link": "https://uxdesign.cc/decision-theater-human-md-what-is-a-researchers-worth-d7687978bd26?source=rss----138adf9c44c---4",
-    "summary": "Weekly curated resources for designers — thinkers and makers. “Conversing with a machine has no built-in friction. It does not hesitate. It just answers. It does not search for the right word, or wonder how the question will land, or brace for how the answer will be received. It simply responds.” Th",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-23T22:38:51.127510+00:00"
-   },
-   {
-    "id": "0779f911adf24245",
-    "date": "2026-11-22",
-    "published": "2026-11-22T23:18:37+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Lessons from 3D scanning St John’s Co-Cathedral",
-    "link": "https://uxdesign.cc/lessons-from-3d-scanning-st-johns-co-cathedral-700911d61cfe?source=rss----138adf9c44c---4",
-    "summary": "Seven nights, 99,000 photographs and 25 billion triangles showed us where photogrammetry works and where gold, marble and fabric still beat it, as we reported at SIGGRAPH 2026. Summary Over seven nights of evening-only access, we digitised St John’s Co-Cathedral in Valletta, Malta, a UNESCO World He",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-23T03:42:55.083312+00:00"
-   },
-   {
-    "id": "6aeddfc1f07eabb1",
-    "date": "2026-11-22",
-    "published": "2026-11-22T23:17:56+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Seven things AI killed while you were measuring productivity",
-    "link": "https://uxdesign.cc/seven-things-ai-killed-while-you-were-measuring-productivity-b4499232ac3d?source=rss----138adf9c44c---4",
-    "summary": "Why 80% of executives see no AI impact — and why they’re looking in the wrong place. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-23T03:42:55.083329+00:00"
-   },
-   {
-    "id": "621544fa7a4160cf",
-    "date": "2026-11-22",
-    "published": "2026-11-22T23:17:32+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "How to write great skills",
-    "link": "https://uxdesign.cc/how-to-write-great-skills-91635bc45ada?source=rss----138adf9c44c---4",
-    "summary": "An advanced and practical guide to agent skills, learning from Matt Pocock, Nate Herk, Addy Osmani and Anthropic Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ai-product",
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-23T03:42:55.083330+00:00"
-   },
-   {
-    "id": "89b31e3018fddffa",
-    "date": "2026-11-22",
-    "published": "2026-11-22T11:36:59+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "The attack of the giant AI design slop monster: a survivor’s guide",
-    "link": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4?source=rss----138adf9c44c---4",
-    "summary": "In 2026, AI has transformed UX design in unpredictable and scary ways The attack of the giant AI design slop monster: a survivor’s guide. (Image credit: me + Midjourney) In September this year, I was once again speaking at City St George’s, University of London annual conference on Human-Computer In",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-22T18:30:16.747522+00:00"
-   },
-   {
-    "id": "4cc3a535ad3021a4",
-    "date": "2026-11-22",
-    "published": "2026-11-22T11:36:31+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Prototypes have always been the most effective specification-especially with AI",
-    "link": "https://uxdesign.cc/prototypes-have-always-been-the-most-effective-specification-10162107b2ee?source=rss----138adf9c44c---4",
-    "summary": "A working prototype open on a laptop in a meeting room, the printed requirements document still closed beside it. Prototypes have always been the most effective specification—especially with AI When building a working version costs an afternoon, the artifact that used to precede the work now falls o",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-22T18:30:16.747530+00:00"
-   },
-   {
-    "id": "012b1da358b771d5",
-    "date": "2026-11-22",
-    "published": "2026-11-22T10:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "What Does a User Interface (UI) Designer Do?",
-    "link": "https://ixdf.org/literature/article/user-interface-designer",
-    "summary": "What’s in every memorable digital experience is a seamlessly navigable website or an app that feels like second nature—and what lies behind those are user interface (UI) designers; they’re the ones who shape the aesthetics and functionality of any digital interface. But what does a user interface de",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-23T03:42:54.531909+00:00"
-   },
-   {
-    "id": "ab85ce0a51fbc48e",
-    "date": "2026-11-21",
-    "published": "2026-11-21T14:34:16+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "The judge used to be the user",
-    "link": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
-    "summary": "AI collapsed the slow middle of building models. The people who once defined correct went with it. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-21T17:57:55.107674+00:00"
-   },
-   {
-    "id": "b7f689b6bae3f5ca",
-    "date": "2026-11-21",
-    "published": "2026-11-21T12:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Should You Choose between Responsive and Adaptive Design?",
-    "link": "https://ixdf.org/literature/article/should-you-choose-between-responsive-and-adaptive-design",
-    "summary": "Designers can choose between adaptive and responsive design to bridge the gap between devices and changing user contexts. Here you’ll learn the merits of each approach, so you’re in a great position to select an approach for your project. What Are the Main Differences Between Responsive and Adaptive",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-23T03:42:54.531918+00:00"
-   },
-   {
-    "id": "54efde07cb561118",
-    "date": "2026-11-20",
-    "published": "2026-11-20T18:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "Qualitative User-Research Methods: An Overview",
-    "link": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "Want to know why users struggle or what they need? Start by choosing the right method. Here are 4 of the most popular qualitative UX-research methods.",
-    "topics": [
-     "ux",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-21T03:57:37.568608+00:00"
-   },
-   {
-    "id": "893670a0af8839dc",
-    "date": "2026-11-20",
-    "published": "2026-11-20T18:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "Can AI Generate Good Designs from Raw User Data?",
-    "link": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "In our study, AI-generated designs were better when the AI received synthesized findings and recommendations instead of raw user comments alone.",
-    "topics": [
-     "ux",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-21T03:57:37.568620+00:00"
-   },
-   {
-    "id": "d9e8e7c7e3ed8da6",
-    "date": "2026-11-20",
-    "published": "2026-11-20T03:16:44+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "UX Conference February Announced (Feb 22 - Feb 26)",
-    "link": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. February 22 - February 26, 2027.",
-    "topics": [
-     "ux",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-20T19:06:01.090397+00:00"
-   },
-   {
-    "id": "75db8c369063d953",
-    "date": "2026-11-19",
-    "published": "2026-11-19T21:36:22+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Everyone’s got the tools. Not everyone’s got the tricks.",
-    "link": "https://uxdesign.cc/everyones-got-the-tools-not-everyone-s-got-the-tricks-986a5c154924?source=rss----138adf9c44c---4",
-    "summary": "What skateboarding history can remind designers about tools, repertoire and improvisation. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-20T19:06:01.463546+00:00"
-   },
-   {
-    "id": "c7ecef07b02dd8f8",
-    "date": "2026-11-19",
-    "published": "2026-11-19T14:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "System Usability Scale for Data-Driven UX",
-    "link": "https://ixdf.org/literature/article/system-usability-scale",
-    "summary": "Ever wondered how the top designers, researchers, and product developers manage to create products that are user-friendly, efficient, and enjoyable—consistently? One of the key things there is what’s called the System Usability Scale (SUS), a vital tool and questionnaire-based method that profession",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-23T03:42:54.531920+00:00"
-   },
-   {
-    "id": "f6732385d179fefe",
-    "date": "2026-11-19",
-    "published": "2026-11-19T12:54:05+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Send the Firefighters to the Fires",
-    "link": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
-    "summary": "Send the firefighters to the fires Enterprise software keeps forgetting a century of good advice about what deserves our attention. House fire in New Zealand neighborhood If a user’s job is to fix what’s broken, the screen should show what’s broken first. Sounds pretty obvious. It’s also not new. Fr",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-19T19:29:14.842087+00:00"
-   },
-   {
-    "id": "65e65803bc3a37aa",
-    "date": "2026-11-18",
-    "published": "2026-11-18T20:17:39+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "If AI works from anywhere, why are we commuting to watch it?",
-    "link": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
-    "summary": "The collaboration they promised, in practice. Companies say it’s about collaboration. That’s garbage. The reality is a room full of people in headphones, doing alone what they could’ve done at home. The recent post from Alexa von Tobel on LinkedIn. Alexa von Tobel, who runs an early-stage fund and h",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-19T04:10:35.061702+00:00"
-   },
-   {
-    "id": "e2a2e0109f237cfe",
-    "date": "2026-11-18",
-    "published": "2026-11-18T20:17:05+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Too Claudified",
-    "link": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
-    "summary": "A client rejected my motion work for looking machine-made. I’d published the diagnosis five months earlier. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-19T04:10:35.061709+00:00"
-   },
-   {
-    "id": "f7ce6d4213761d68",
-    "date": "2026-11-17",
-    "published": "2026-11-17T23:26:24+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "What is a researcher’s worth?",
-    "link": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
-    "summary": "Why the debate over research isn’t a technology story – and why effortless AI makes human friction our scarcest asset. Image created by author, with Midjourney. We’re no stranger to this question. For many years, research practitioners have talked with one another about how to “mature” teams so that",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-18T04:16:23.804627+00:00"
-   },
-   {
-    "id": "320fa33afa1ea5b8",
-    "date": "2026-11-17",
-    "published": "2026-11-17T23:25:21+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Everyone knows sparkles mean AI. Use them to make design audits easier",
-    "link": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
-    "summary": "How to decipher your PM’s AI-generated mockup without losing hours Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-18T04:16:23.804639+00:00"
-   },
-   {
-    "id": "337b269d4d4e0326",
-    "date": "2026-11-17",
-    "published": "2026-11-17T08:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Don Norman’s Top Tips from the Design for the 21st Century Course",
-    "link": "https://ixdf.org/literature/article/don-norman-s-top-tips-from-the-design-for-the-21st-century-course",
-    "summary": "The design field is evolving. It’s been proven that aside from driving business success and delivering beautiful and successful products, design can be pivotal to solving complex human issues. For instance, GE Healthcare used Design Thinking to improve the MR scanner experience for children—which is",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-23T03:42:54.531922+00:00"
-   },
-   {
-    "id": "5a9a4a054f559ef8",
-    "date": "2026-11-16",
-    "published": "2026-11-16T21:27:14+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Why bother paying for software anymore?",
-    "link": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
-    "summary": "And why design is the answer AI bros didn’t expect. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-17T05:04:10.517603+00:00"
-   },
-   {
-    "id": "eedd51f6ec3d38ad",
-    "date": "2026-11-16",
-    "published": "2026-11-16T21:20:24+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "UI edge cases: A reference guide",
-    "link": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
-    "summary": "A practical reference guide for catching UI edge cases before they ship — organized by category, with how to test, how to detect them in the wild, and how to design a fix. With examples. UI edge cases: A reference guide, a banner image. Introduction One day my colleague and I were at a workshop in a",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-17T05:04:10.517615+00:00"
-   },
-   {
-    "id": "78ceebccfc9ca797",
-    "date": "2026-11-16",
-    "published": "2026-11-16T12:17:08+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
-    "link": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
-    "summary": "Weekly curated resources for designers — thinkers and makers. “When Ted Chiang wrote in The New Yorker that AI isn’t going to make art, I felt vindicated. I forwarded it. To people who had not asked (sorry). His point was that art is the sum of thousands of small choices, and a machine that makes mo",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-16T21:01:46.955018+00:00"
-   },
-   {
-    "id": "ee5d7b8810a585b2",
-    "date": "2026-11-16",
-    "published": "2026-11-16T12:16:15+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "The trash robot that doesn’t pick up, but hands out",
-    "link": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
-    "summary": "On kawaii, embarrassment, and designing to invite Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-16T21:01:46.955025+00:00"
-   },
-   {
-    "id": "30b602976e5ff887",
-    "date": "2026-11-13",
-    "published": "2026-11-13T23:51:42+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Decision theatre or decision design?",
-    "link": "https://uxdesign.cc/decision-theatre-or-decision-design-f1604f178685?source=rss----138adf9c44c---4",
-    "summary": "AI has made information easy, but it has not made decisions simple. As machines produce more than we can read, our job is shifting from building knowledge to owning decisions. Are we ready? In a 2025 survey by BetterUp Labs and the Stanford Social Media Lab, 40% of US desk workers said they had rece",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-14T03:12:08.298211+00:00"
-   },
-   {
-    "id": "1e1cbc1f1657dee3",
-    "date": "2026-11-13",
-    "published": "2026-11-13T23:51:27+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Schrödinger’s Huang: Nvidia could not be everything to everybody",
-    "link": "https://uxdesign.cc/schr%C3%B6dingers-huang-d1da36bff88c?source=rss----138adf9c44c---4",
-    "summary": "A cautionary tale for Asian capital attempting to operate technology businesses on both sides of the Pacific simultaneously Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux",
-     "data"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-14T03:12:08.298218+00:00"
-   },
-   {
-    "id": "bbb4a2ad5bbc7d76",
-    "date": "2026-11-13",
-    "published": "2026-11-13T18:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
-    "link": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "As AI speeds up development, it can be a challenge for research to adapt. Research can define what each release must measure and what it can help teams discover.",
-    "topics": [
-     "ux",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-14T03:12:07.866971+00:00"
-   },
-   {
-    "id": "66ac7640324a8800",
-    "date": "2026-11-13",
-    "published": "2026-11-13T18:00:00+00:00",
-    "source": "Nielsen Norman Group",
-    "title": "Journey Mapping 101",
-    "link": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-    "summary": "A journey map is a visualization of the process that a person goes through in order to accomplish a goal.",
-    "topics": [
-     "ux",
-     "ai"
-    ],
-    "tags": [
-     "dashboard"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-14T03:12:07.866981+00:00"
-   },
-   {
-    "id": "79bb923ff55a329c",
-    "date": "2026-11-13",
-    "published": "2026-11-13T10:58:22+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "The crooked plate that felt more human than the algorithm",
-    "link": "https://uxdesign.cc/the-crooked-plate-that-felt-more-human-than-the-algorithm-40bb4e5da147?source=rss----138adf9c44c---4",
-    "summary": "We have spent years teaching machines to be flawless. Now the flawlessness is beginning to feel like a kind of absence. Continue reading on UX Collective »",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-13T18:30:41.191439+00:00"
-   },
-   {
-    "id": "7ff25f6c3d77e1f6",
-    "date": "2026-11-13",
-    "published": "2026-11-13T02:33:09+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "AI is the new old design material",
-    "link": "https://uxdesign.cc/ai-is-the-new-old-design-material-0e7f83540c9a?source=rss----138adf9c44c---4",
-    "summary": "A long workbench where hand tools, a stack of paper, and an open laptop share the same surface. Creative makers and builders have always learned their medium by working with it, from grinding pigments to HTML. Models are the next material, and you need to learn them by building. The field keeps argu",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-13T03:24:25.431444+00:00"
-   },
-   {
-    "id": "844c926268a76779",
-    "date": "2026-11-12",
-    "published": "2026-11-12T11:14:40+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "The AI mind tax that afflicts those who use AI best",
-    "link": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss----138adf9c44c---4",
-    "summary": "One person, a dozen tools, and nothing connecting them but her. AI was supposed to make work easier, but for the people who use it most, it just became a different kind of work, and a whole lot of exhaustion. The promise of the tech was that AI would make work easier, and, sure, in plenty of ways it",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-12T18:55:02.292945+00:00"
-   },
-   {
-    "id": "5688256e8d607df7",
-    "date": "2026-11-12",
-    "published": "2026-11-12T10:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Sustainability Is Not Enough",
-    "link": "https://ixdf.org/literature/article/sustainability-is-not-enough",
-    "summary": "Sustainable design. Sustainable fashion. Sustainable living. We often hear these terms in marketing campaigns and popular media. But what does sustainability mean and why does pioneer of User Experience Design Don Norman think that sustainability shouldn’t be our goal when we design?In this video, D",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-16T02:43:38.016206+00:00"
-   },
-   {
-    "id": "c43db580bf345970",
-    "date": "2026-11-11",
-    "published": "2026-11-11T22:20:42+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Why are we cloning Photoshop?",
-    "link": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
-    "summary": "AI is making it easy to recreate professional tools. I suspect there’s a bigger opportunity being overlooked. Editing in PhotoCraft October saw the release of PhotoCraft , an open-source Photoshop clone built with AI that had a similar capability set, but without Adobe Creative Cloud’s exorbitant mo",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-12T03:48:42.543067+00:00"
-   },
-   {
-    "id": "02cb098fe0d562c8",
-    "date": "2026-11-11",
-    "published": "2026-11-11T22:15:19+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "Every click has a price now. Who designs how that “feels”?",
-    "link": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
-    "summary": "As the all-you-can-eat AI era is ending, UX designers must adapt to a new reality Since the democratization of AI, roughly by the end of 2022, companies sold access to their products for less than it costs them to run. That didn’t last long. Now, to try the latest models or pro versions of certain t",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-12T03:48:42.543079+00:00"
-   },
-   {
-    "id": "177bbb3822a1ecad",
-    "date": "2026-11-11",
-    "published": "2026-11-11T22:10:34+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "The bathroom flaws that infuriate every designer",
-    "link": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
-    "summary": "Throne Room Politics: Inside Designers Obsession with Bathrooms How one close look at everyday bathroom flaw will permeantly ruin your routine. I paused, leaving the bathroom. Something strange was happening, but what was it? There was a woman in a wheelchair who had finished washing her hands. She ",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-12T03:48:42.543082+00:00"
-   },
-   {
-    "id": "e9be3b76076ec8b4",
-    "date": "2026-11-11",
-    "published": "2026-11-11T22:08:32+00:00",
-    "source": "UX Collective (Medium)",
-    "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
-    "link": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
-    "summary": "In-System Design 3/3 A practical guide for designers: why I stopped choosing between canvas and code, and how one prototype travels both ways. For designers who know Figma well and have never written production code, and for the design system teams around them. Every technical word is explained in t",
-    "topics": [
-     "ux",
-     "design",
-     "ai"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-12T03:48:42.543084+00:00"
-   },
-   {
-    "id": "79704ad2cdef0a8a",
-    "date": "2026-11-11",
-    "published": "2026-11-11T12:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Black Friday 2024: Invest in UX Design Education",
-    "link": "https://ixdf.org/literature/article/black-friday-2021-invest-in-ux-design-education",
-    "summary": "“The best investment you can make, is an investment in yourself... The more you learn, the more you'll earn.”—Warren Buffett, Chairman and CEO of Berkshire HathawayHow many items have you added to your Black Friday shopping wishlist? This year, instead of short-term deals on products, why not take a",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-16T02:43:38.016211+00:00"
-   },
-   {
-    "id": "a860acb412d8eb5b",
-    "date": "2026-11-11",
-    "published": "2026-11-11T10:00:00+00:00",
-    "source": "Interaction Design Foundation — UX Daily",
-    "title": "Why Is AI so Important and How Is It Changing the World?",
-    "link": "https://ixdf.org/literature/article/why-is-ai-so-important-and-how-is-it-changing-the-world",
-    "summary": "You've heard about AI and all the wonderful (and sometimes scary) possibilities. But unlike sci-fi apocalyptic movies, AI isn't out to destroy humanity. Let's take a look at the challenges and opportunities we face as AI meets design.In this video, Ioana Teleanu, Founder of UX Goodies and former Lea",
-    "topics": [
-     "ux",
-     "design"
-    ],
-    "tags": [
-     "ux"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-16T02:43:38.016213+00:00"
    }
   ],
   "forecasting": [
@@ -4696,24 +4648,6 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-11-13T03:24:20.912583+00:00"
-   },
-   {
-    "id": "ad91a12907131dd8",
-    "date": "2026-11-10",
-    "published": "2026-11-10T17:06:16+00:00",
-    "source": "Forecasting Research Institute",
-    "title": "How Close Is Recursive Self-Improvement?",
-    "link": "https://forecastingresearch.substack.com/p/how-close-is-recursive-self-improvement",
-    "summary": "Our new report reviews the evidence, turns key disagreements into forecasting questions, and gives initial LLM forecasts.",
-    "topics": [
-     "forecasting"
-    ],
-    "tags": [
-     "ai-product",
-     "forecasting"
-    ],
-    "lang": "en",
-    "first_seen": "2026-11-18T04:16:21.947131+00:00"
    }
   ],
   "crypto": [
@@ -4823,23 +4757,6 @@
     "tags": [],
     "lang": "en",
     "first_seen": "2026-11-18T04:16:17.496804+00:00"
-   },
-   {
-    "id": "5ace1c308b138442",
-    "date": "2026-11-10",
-    "published": "2026-11-10T17:14:31+00:00",
-    "source": "Coin Metrics – State of the Network",
-    "title": "Countdown to ANT: What the Pre-IPO Perps Markets Say About Anthropic’s IPO",
-    "link": "https://coinmetrics.substack.com/p/countdown-to-ant-what-the-pre-ipo",
-    "summary": "Examining different pre-IPO contract settlements and converting between market-cap based and share-price valuations for Anthropic’s IPO",
-    "topics": [
-     "crypto",
-     "macro",
-     "finance"
-    ],
-    "tags": [],
-    "lang": "en",
-    "first_seen": "2026-11-18T04:16:17.036913+00:00"
    }
   ],
   "growth": [
@@ -4932,16 +4849,16 @@
   ]
  },
  "tag_counts": {
-  "ai-product": 393,
-  "ux": 168,
-  "growth": 148,
-  "finance-product": 125,
-  "data": 70,
+  "ai-product": 367,
+  "ux": 167,
+  "growth": 134,
+  "finance-product": 117,
+  "data": 62,
   "notification": 40,
-  "dashboard": 35,
-  "forecasting": 26,
-  "retention": 23,
-  "onboarding": 9
+  "dashboard": 34,
+  "forecasting": 25,
+  "retention": 22,
+  "onboarding": 7
  },
  "sources_ok": 57,
  "sources_total": 65,
