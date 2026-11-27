@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-26T20:10:28.980716+00:00",
+ "generated_at": "2026-11-27T05:02:15.408770+00:00",
  "sources": 65,
  "ok": 57,
- "new_items": 122,
- "duration_s": 9.3,
+ "new_items": 69,
+ "duration_s": 27.3,
  "status": [
   {
    "name": "36氪",
@@ -11,7 +11,7 @@
    "ok": true,
    "items": 30,
    "new": 24,
-   "last_item": "2026-11-26",
+   "last_item": "2026-11-27",
    "error": null
   },
   {
@@ -46,7 +46,7 @@
    "feed_url": "https://www.bis.org/doclist/wppubls.rss",
    "ok": true,
    "items": 25,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-11-26",
    "error": null
   },
@@ -55,7 +55,7 @@
    "feed_url": "https://bankunderground.co.uk/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-11-26",
    "error": null
   },
@@ -97,20 +97,20 @@
   },
   {
    "name": "Datawrapper Blog",
-   "feed_url": "https://blog.datawrapper.de/feed/",
+   "feed_url": "https://www.datawrapper.de/blog/feed/",
    "ok": true,
-   "items": 1095,
-   "new": 0,
-   "last_item": "2026-11-24",
+   "items": 1096,
+   "new": 1,
+   "last_item": "2026-11-26",
    "error": null
   },
   {
    "name": "Datawrapper Blog",
-   "feed_url": "https://www.datawrapper.de/blog/feed/",
+   "feed_url": "https://blog.datawrapper.de/feed/",
    "ok": true,
-   "items": 1095,
+   "items": 1096,
    "new": 0,
-   "last_item": "2026-11-24",
+   "last_item": "2026-11-26",
    "error": null
   },
   {
@@ -136,7 +136,7 @@
    "feed_url": "https://www.ft.com/rss/alphaville",
    "ok": true,
    "items": 25,
-   "new": 3,
+   "new": 0,
    "last_item": "2026-11-26",
    "error": null
   },
@@ -154,7 +154,7 @@
    "feed_url": "https://flowingdata.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-11-26",
    "error": null
   },
@@ -190,7 +190,7 @@
    "feed_url": "https://hnrss.org/best",
    "ok": true,
    "items": 30,
-   "new": 11,
+   "new": 9,
    "last_item": "2026-11-26",
    "error": null
   },
@@ -199,8 +199,8 @@
    "feed_url": "https://www.infoq.cn/feed",
    "ok": true,
    "items": 20,
-   "new": 6,
-   "last_item": "2026-11-26",
+   "new": 5,
+   "last_item": "2026-11-27",
    "error": null
   },
   {
@@ -217,8 +217,8 @@
    "feed_url": "https://www.latent.space/feed",
    "ok": true,
    "items": 20,
-   "new": 0,
-   "last_item": "2026-11-25",
+   "new": 1,
+   "last_item": "2026-11-26",
    "error": null
   },
   {
@@ -253,7 +253,7 @@
    "feed_url": "https://nightingaledvs.com/feed/",
    "ok": true,
    "items": 12,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-11-26",
    "error": null
   },
@@ -298,7 +298,7 @@
    "feed_url": "https://www.producthunt.com/feed",
    "ok": true,
    "items": 50,
-   "new": 37,
+   "new": 0,
    "last_item": "2026-11-26",
    "error": null
   },
@@ -334,7 +334,7 @@
    "feed_url": "https://simonwillison.net/atom/everything/",
    "ok": true,
    "items": 30,
-   "new": 3,
+   "new": 0,
    "last_item": "2026-11-26",
    "error": null
   },
@@ -412,7 +412,7 @@
   },
   {
    "name": "The Pudding",
-   "feed_url": "https://pudding.cool/feed/index.xml",
+   "feed_url": "https://pudding.cool/rss.xml",
    "ok": true,
    "items": 20,
    "new": 0,
@@ -421,7 +421,7 @@
   },
   {
    "name": "The Pudding",
-   "feed_url": "https://pudding.cool/rss.xml",
+   "feed_url": "https://pudding.cool/feed/index.xml",
    "ok": true,
    "items": 20,
    "new": 0,
@@ -433,7 +433,7 @@
    "feed_url": "https://feeds.simplecast.com/JGE3yC0V",
    "ok": true,
    "items": 1000,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-11-26",
    "error": null
   },
@@ -442,7 +442,7 @@
    "feed_url": "https://uxdesign.cc/feed",
    "ok": true,
    "items": 10,
-   "new": 1,
+   "new": 0,
    "last_item": "2026-11-26",
    "error": null
   },
@@ -460,7 +460,7 @@
    "feed_url": "https://www.visualcapitalist.com/feed/",
    "ok": true,
    "items": 10,
-   "new": 6,
+   "new": 0,
    "last_item": "2026-11-26",
    "error": null
   },
@@ -478,8 +478,8 @@
    "feed_url": "https://www.woshipm.com/feed",
    "ok": true,
    "items": 15,
-   "new": 12,
-   "last_item": "2026-11-26",
+   "new": 15,
+   "last_item": "2026-11-27",
    "error": null
   },
   {
@@ -488,7 +488,7 @@
    "ok": true,
    "items": 10,
    "new": 2,
-   "last_item": "2026-11-26",
+   "last_item": "2026-11-27",
    "error": null
   },
   {
@@ -496,8 +496,8 @@
    "feed_url": "https://www.geekpark.net/rss",
    "ok": true,
    "items": 30,
-   "new": 3,
-   "last_item": "2026-11-26",
+   "new": 1,
+   "last_item": "2026-11-27",
    "error": null
   },
   {
@@ -505,8 +505,8 @@
    "feed_url": "https://www.ifanr.com/feed",
    "ok": true,
    "items": 20,
-   "new": 3,
-   "last_item": "2026-11-26",
+   "new": 4,
+   "last_item": "2026-11-27",
    "error": null
   },
   {
@@ -514,8 +514,8 @@
    "feed_url": "https://www.qbitai.com/feed",
    "ok": true,
    "items": 10,
-   "new": 6,
-   "last_item": "2026-11-26",
+   "new": 7,
+   "last_item": "2026-11-27",
    "error": null
   },
   {
